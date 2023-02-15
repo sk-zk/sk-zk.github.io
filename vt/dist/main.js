@@ -115,6 +115,8 @@ const ToggleType = Object.freeze({
 
   WhiteRoads: 21,
 
+  MapStyle: 26,
+
   StreetViewDarkBlue: 40,
 
   /** Google Maps uses this style if terrain is enabled. */ 
@@ -125,8 +127,7 @@ const ToggleType = Object.freeze({
   /** Enables the terrain overlay in conjunction with adding base layers 5 and 6. */
   Terrain: 67,
 
-  /** Enables the Street View overlay for the Satellite layer. */ 
-  StreetView: 68,
+  SomeSortOfOverlayThing: 68,
 });
 
 const RasterType = Object.freeze({
@@ -205,12 +206,16 @@ let Layer$2 = class Layer {
 };
 
 class Toggle {
-  constructor(id) {
+  constructor(id, otherFields) {
     this.id = id;
+    this.otherFields = otherFields ? otherFields : [];
   }
 
   toMessage() {
-    return new Message(12, [new Field(1, "e", this.id)]);
+    return new Message(12, [
+      new Field(1, "e", this.id),
+      ...this.otherFields,
+    ]);
   }
 }
 
@@ -24224,6 +24229,7 @@ const options = {
   highDpi: false,
   labelsAndIconsOnly: false,
   noLandUse: false,
+  mapStyle: null,
 };
 
 // TODO maybe use dict style instead of this
@@ -24249,7 +24255,7 @@ function createUrl(options) {
     ]);
     layers.push(svOverlayLayer);
     if (options.basemap !== LayerType.Road) {
-      toggles.push(new Toggle(ToggleType.StreetView));
+      toggles.push(new Toggle(ToggleType.SomeSortOfOverlayThing));
     }
   }
   if (options.terrainOverlay) {
@@ -24285,6 +24291,15 @@ function createUrl(options) {
   if (options.noLandUse) {
     toggles.push(new Toggle(ToggleType.NoLandUse));
   }
+
+  if (options.mapStyle) {
+   toggles.push(new Toggle(ToggleType.MapStyle, [
+     new Message(2, [
+       new Field(1, "s", "styles"),
+       new Field(2, "z", options.mapStyle.trim()),
+     ])
+   ]));
+ }
 
   const message = buildMessage(options, layers, toggles);
   return endpoint + message.toString(true);
@@ -24458,7 +24473,7 @@ createCheckBox("toggles-container", "no-labels", "No labels", options.noLabels,
     refreshUrl();
   }
 );
-createCheckBox("toggles-container", "sat-overlay", "Satellite overlay", options.satOverlay,
+createCheckBox("toggles-container", "sat-overlay", "Hybrid overlay", options.satOverlay,
   (checked) => {
     options.satOverlay = +checked;
     refreshUrl();
@@ -24504,5 +24519,10 @@ createCheckBox("streetview-container", "photo-paths", "Show photo paths (thin li
     refreshUrl();
   }
 );
+
+document.querySelector("#map-style").addEventListener("change", (e) => {
+  options.mapStyle = e.target.value;
+  refreshUrl();
+});
 
 // END UI CODE
