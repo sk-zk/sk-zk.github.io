@@ -1,0 +1,44 @@
+<html>
+
+<head>
+<style>
+body {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  marign: 0;
+  height: 100vh;
+  align-items: center;
+  margin: 0;
+  color: #eee;
+  background-color: #224;
+}
+article {
+  width: 100vw;
+}
+h1 {
+  font-size: 24px;
+  font-weight: normal;
+}
+#answer {
+  font-size: 28px;
+  font-weight: bold;
+}
+</style>
+
+<body>
+<article>
+<h1>Does this browser support HEVC Main Still Picture?</h1>
+<div id="answer">No idea, the script didn't run!</div>
+</article>
+<script>
+const element = document.querySelector("#answer");
+if (MediaSource.isTypeSupported('video/mp4;codecs="hev1.3.E.L120.90"')) {
+  document.querySelector("#answer").innerText = "Yes!"
+} else {
+  document.querySelector("#answer").innerText = "No"
+}
+</script>
+</body>
+
+</html>
