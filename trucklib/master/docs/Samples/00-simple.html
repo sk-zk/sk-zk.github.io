@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/blob/docfx-action/docfx/docs/Samples/00-simple.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/Samples/00-simple.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -113,7 +113,7 @@ var r = Road.Add(map,
 to the map. In this case, we're adding a road item going from (19, 0, 19.5) to (65, 0, 23) of type
 <code>ger1</code> (&quot;ger road 1 tmpl&quot;) with 80 m wide terrain on both sides.</p>
 <p>If you were to save the map here, it would look like this:</p>
-<p><img src="/images/00-wip1.png" alt=""></p>
+<p><img src="../../images/00-wip1.png" alt=""></p>
 <h2 id="setting-road-properties">Setting road properties</h2>
 <p>The next lines of code set the appearance of the road.</p>
 <pre><code class="lang-cs">r.Right.Look = &quot;ger_1&quot;;
@@ -146,7 +146,7 @@ have to be set on the right side, as the left side is ignored by the game.</p>
 }
 </code></pre>
 <p>The road item now looks like this:</p>
-<p><img src="/images/00-wip2.png" alt=""></p>
+<p><img src="../../images/00-wip2.png" alt=""></p>
 <h2 id="appending-to-a-road">Appending to a road</h2>
 <p>We will now continue this road by appending some more segments:</p>
 <pre><code class="lang-cs">r.Append(new Vector3(98, 0, 43.5f))
@@ -160,7 +160,7 @@ because it returns the newly created road item.</p>
 <p>We don't need to set all the properties again like we did with the first road item
 because, by default, <code>Append</code> copies all properties to the new segment.</p>
 <p>Our map now looks like this:</p>
-<p><img src="/images/00-wip3.png" alt=""></p>
+<p><img src="../../images/00-wip3.png" alt=""></p>
 <h2 id="adding-models">Adding models</h2>
 <p>As the last step, we will place two models.</p>
 <pre><code class="lang-cs">var model1 = Model.Add(map,
@@ -188,12 +188,12 @@ you should be able to load the map in the editor.</p>
 <p>Remember to <strong>recompute the map</strong> (Map &gt; Recompute map). This is necessary because TruckLib
 does not calculate the bounding boxes of items. Once you did, this is what the final map
 should look like:</p>
-<p><img src="/images/00-final.png" alt=""></p>
+<p><img src="../../images/00-final.png" alt=""></p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/sk-zk/TruckLib/blob/docfx-action/docfx/docs/Samples/00-simple.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/Samples/00-simple.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
