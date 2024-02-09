@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Adding and deleting map items | TruckLib </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Adding and deleting map items | TruckLib ">
+      
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/blob/docfx-action/docfx/docs/TruckLib.ScsMap/add-delete-items.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="TruckLib">
+            TruckLib
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="adding-and-deleting-map-items">Adding and deleting map items</h1>
+
+<h2 id="adding-a-map-item">Adding a map item</h2>
+<p>To add a map item, call the static <code>Add</code> method of the respective item's class. This will construct the object,
+add and configure map nodes for the item, add the item to the map, and then return the object.</p>
+<p>Let's <a class="xref" href="../../api/TruckLib.ScsMap.Model.html#TruckLib_ScsMap_Model_Add_">add a Model</a> to the map. The first parameter of any <code>Add</code> method is the map,
+compound or Selection the item will be added to; what follows next depends on the item type. In this case, it is the
+position of the model, the unit name of the model, and its variant and look:</p>
+<pre><code class="lang-cs">Model model = Model.Add(
+  map,          // container
+  new Vector3(10f, 0f, 10f), // position 
+  &quot;dlc_no_471&quot;, // unit name of &quot;house_01_sc&quot;
+  &quot;brick&quot;,      // model variant
+  &quot;default&quot;     // model look
+);
+</code></pre>
+<p>The map now contains a node at the specified position and a Model item which references this node.
+You can use the returned object to further modify the item:</p>
+<pre><code class="lang-cs">model.Node.Rotation = Quaternion.CreateFromYawPitchRoll(1.23f, 0, 0);
+model.WaterReflection = true;
+</code></pre>
+<h2 id="deleting-a-map-item">Deleting a map item</h2>
+<p>To delete an item from a map, call the map's <a class="xref" href="../../api/TruckLib.ScsMap.IItemContainer.html#TruckLib_ScsMap_IItemContainer_Delete_TruckLib_ScsMap_MapItem_"><code>Delete</code></a>
+method with the item:</p>
+<pre><code class="lang-cs">map.Delete(model);
+</code></pre>
+<p>Nodes which are exclusively used by this item will also be deleted.
+When deleting a prefab, the prefab's slave items will be deleted as well.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/sk-zk/TruckLib/blob/docfx-action/docfx/docs/TruckLib.ScsMap/add-delete-items.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

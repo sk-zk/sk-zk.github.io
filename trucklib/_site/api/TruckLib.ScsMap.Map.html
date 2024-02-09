@@ -1,0 +1,991 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Map | TruckLib </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Map | TruckLib ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/new/docfx-action/apiSpec/new?filename=TruckLib_ScsMap_Map.md&amp;value=---%0Auid%3A%20TruckLib.ScsMap.Map%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="TruckLib">
+            TruckLib
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="TruckLib.ScsMap.Map">
+
+
+
+  <h1 id="TruckLib_ScsMap_Map" data-uid="TruckLib.ScsMap.Map" class="text-break">
+Class Map  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Map.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="TruckLib.html">TruckLib</a>.<a class="xref" href="TruckLib.ScsMap.html">ScsMap</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>TruckLib.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>A map for Euro Truck Simulator 2 or American Truck Simulator.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Map : IItemContainer</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Map</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="TruckLib.ScsMap.IItemContainer.html">IItemContainer</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="TruckLib_ScsMap_Map__ctor_" data-uid="TruckLib.ScsMap.Map.#ctor*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map__ctor_System_String_" data-uid="TruckLib.ScsMap.Map.#ctor(System.String)">
+  Map(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Map.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates an empty map.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Map(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the map.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="TruckLib_ScsMap_Map_SectorSize" data-uid="TruckLib.ScsMap.Map.SectorSize">
+  SectorSize
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Map.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The size of a sector in engine units (= meters).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly int SectorSize</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="TruckLib_ScsMap_Map_CityScale_" data-uid="TruckLib.ScsMap.Map.CityScale*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map_CityScale" data-uid="TruckLib.ScsMap.Map.CityScale">
+  CityScale
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Map.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Scale and time compression of the game inside cities.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float CityScale { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Map_EditorMapId_" data-uid="TruckLib.ScsMap.Map.EditorMapId*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map_EditorMapId" data-uid="TruckLib.ScsMap.Map.EditorMapId">
+  EditorMapId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Map.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong EditorMapId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Map_EuropeMapUiCorrections_" data-uid="TruckLib.ScsMap.Map.EuropeMapUiCorrections*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map_EuropeMapUiCorrections" data-uid="TruckLib.ScsMap.Map.EuropeMapUiCorrections">
+  EuropeMapUiCorrections
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Map.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets if SCS's Europe map UI corrections are enabled.</p>
+<p>Nobody seems to know definitively what this does, but it might have
+something to do with the scale of the UK in <code>europe.mbd.</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool EuropeMapUiCorrections { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Map_MapItems_" data-uid="TruckLib.ScsMap.Map.MapItems*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map_MapItems" data-uid="TruckLib.ScsMap.Map.MapItems">
+  MapItems
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Map.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Contains the map's items.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;ulong, MapItem&gt; MapItems { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>, <a class="xref" href="TruckLib.ScsMap.MapItem.html">MapItem</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Map_Name_" data-uid="TruckLib.ScsMap.Map.Name*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map_Name" data-uid="TruckLib.ScsMap.Map.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Map.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The name of the map, which is used for file and directory names.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Map_Nodes_" data-uid="TruckLib.ScsMap.Map.Nodes*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map_Nodes" data-uid="TruckLib.ScsMap.Map.Nodes">
+  Nodes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Map.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Contains the map's nodes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;ulong, INode&gt; Nodes { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>, <a class="xref" href="TruckLib.ScsMap.INode.html">INode</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Map_NormalScale_" data-uid="TruckLib.ScsMap.Map.NormalScale*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map_NormalScale" data-uid="TruckLib.ScsMap.Map.NormalScale">
+  NormalScale
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Map.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Scale and time compression of the game outside cities.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float NormalScale { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Map_Sectors_" data-uid="TruckLib.ScsMap.Map.Sectors*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map_Sectors" data-uid="TruckLib.ScsMap.Map.Sectors">
+  Sectors
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Map.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Metadata of the map's sectors.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;(int X, int Z), Sector&gt; Sectors { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.x">X</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.z">Z</a>), <a class="xref" href="TruckLib.ScsMap.Sector.html">Sector</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="TruckLib_ScsMap_Map_AddNode_" data-uid="TruckLib.ScsMap.Map.AddNode*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map_AddNode_System_Numerics_Vector3_" data-uid="TruckLib.ScsMap.Map.AddNode(System.Numerics.Vector3)">
+  AddNode(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Map.cs/#L176"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a new node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Node AddNode(Vector3 position)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd><p>The position of the node.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.Node.html">Node</a></dt>
+    <dd><p>The new node.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Map_AddNode_" data-uid="TruckLib.ScsMap.Map.AddNode*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map_AddNode_System_Numerics_Vector3_System_Boolean_" data-uid="TruckLib.ScsMap.Map.AddNode(System.Numerics.Vector3,System.Boolean)">
+  AddNode(Vector3, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Map.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a new node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Node AddNode(Vector3 position, bool isRed)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd><p>The position of the node.</p>
+</dd>
+    <dt><code>isRed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether the node is red.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.Node.html">Node</a></dt>
+    <dd><p>The new node.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Map_AddNode_" data-uid="TruckLib.ScsMap.Map.AddNode*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map_AddNode_System_Numerics_Vector3_System_Boolean_TruckLib_ScsMap_MapItem_" data-uid="TruckLib.ScsMap.Map.AddNode(System.Numerics.Vector3,System.Boolean,TruckLib.ScsMap.MapItem)">
+  AddNode(Vector3, bool, MapItem)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Map.cs/#L212"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a new node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Node AddNode(Vector3 position, bool isRed, MapItem forwardItem)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd><p>The position of the node.</p>
+</dd>
+    <dt><code>isRed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether the node is red.</p>
+</dd>
+    <dt><code>forwardItem</code> <a class="xref" href="TruckLib.ScsMap.MapItem.html">MapItem</a></dt>
+    <dd><p>The forward item which the node will be assigned to.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.Node.html">Node</a></dt>
+    <dd><p>The new node.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Map_AddSector_" data-uid="TruckLib.ScsMap.Map.AddSector*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map_AddSector_System_Int32_System_Int32_" data-uid="TruckLib.ScsMap.Map.AddSector(System.Int32,System.Int32)">
+  AddSector(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Map.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a new sector.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Sector AddSector(int x, int z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The X coordinate of the sector.</p>
+</dd>
+    <dt><code>z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The Z coordinate of the sector.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.Sector.html">Sector</a></dt>
+    <dd><p>The new sector.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Map_AddSector_" data-uid="TruckLib.ScsMap.Map.AddSector*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map_AddSector_System_ValueTuple_System_Int32_System_Int32__" data-uid="TruckLib.ScsMap.Map.AddSector(System.ValueTuple{System.Int32,System.Int32})">
+  AddSector((int X, int Z))
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Map.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a new sector.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Sector AddSector((int X, int Z) coords)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coords</code> (<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.x">X</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.z">Z</a>)</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.Sector.html">Sector</a></dt>
+    <dd><p>The new sector.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Map_Delete_" data-uid="TruckLib.ScsMap.Map.Delete*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map_Delete_TruckLib_ScsMap_INode_" data-uid="TruckLib.ScsMap.Map.Delete(TruckLib.ScsMap.INode)">
+  Delete(INode)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Map.cs/#L286"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deletes a node and the items attached to it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Delete(INode node)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>node</code> <a class="xref" href="TruckLib.ScsMap.INode.html">INode</a></dt>
+    <dd><p>The node to delete.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Map_Delete_" data-uid="TruckLib.ScsMap.Map.Delete*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map_Delete_TruckLib_ScsMap_MapItem_" data-uid="TruckLib.ScsMap.Map.Delete(TruckLib.ScsMap.MapItem)">
+  Delete(MapItem)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Map.cs/#L247"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deletes an item. Nodes that are only used by this item will also be deleted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Delete(MapItem item)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="TruckLib.ScsMap.MapItem.html">MapItem</a></dt>
+    <dd><p>The item to delete.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Map_GetSectorOfCoordinate_" data-uid="TruckLib.ScsMap.Map.GetSectorOfCoordinate*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map_GetSectorOfCoordinate_System_Numerics_Vector3_" data-uid="TruckLib.ScsMap.Map.GetSectorOfCoordinate(System.Numerics.Vector3)">
+  GetSectorOfCoordinate(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Map.cs/#L235"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the index of the sector the given coordinate falls into.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (int X, int Z) GetSectorOfCoordinate(Vector3 c)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>c</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd><p>The coordinate to check.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.x">X</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.z">Z</a>)</dt>
+    <dd><p>The index of the sector the coordinate is in.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Map_Import_" data-uid="TruckLib.ScsMap.Map.Import*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map_Import_TruckLib_ScsMap_Selection_System_Numerics_Vector3_" data-uid="TruckLib.ScsMap.Map.Import(TruckLib.ScsMap.Selection,System.Numerics.Vector3)">
+  Import(Selection, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Map.cs/#L308"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Imports the contents of a Selection (.sbd) file into this map.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Import(Selection selection, Vector3 position)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>selection</code> <a class="xref" href="TruckLib.ScsMap.Selection.html">Selection</a></dt>
+    <dd><p>The Selection to import.</p>
+</dd>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd><p>The point relative to which the items will be inserted.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Map_Open_" data-uid="TruckLib.ScsMap.Map.Open*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map_Open_System_String_System_ValueTuple_System_Int32_System_Int32____" data-uid="TruckLib.ScsMap.Map.Open(System.String,System.ValueTuple{System.Int32,System.Int32}[])">
+  Open(string, (int, int)[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Map.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Opens a map.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Map Open(string mbdPath, (int, int)[] sectors = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mbdPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Path to the .mbd file of the map.</p>
+</dd>
+    <dt><code>sectors</code> (<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>)[]</dt>
+    <dd><p>If set, only the given sectors will be loaded.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.Map.html">Map</a></dt>
+    <dd><p>A Map object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Map_Save_" data-uid="TruckLib.ScsMap.Map.Save*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map_Save_System_String_System_Boolean_" data-uid="TruckLib.ScsMap.Map.Save(System.String,System.Boolean)">
+  Save(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Map.cs/#L608"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Saves the map in binary format. If the sector directory does not yet exist, it will be created.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Save(string mapDirectory, bool cleanSectorDirectory = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mapDirectory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The path of the directory to save the map into.</p>
+</dd>
+    <dt><code>cleanSectorDirectory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>If true, the sector directory will be emptied
+before saving the map.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Map_SaveSector_" data-uid="TruckLib.ScsMap.Map.SaveSector*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map_SaveSector_System_ValueTuple_System_Int32_System_Int32__System_String_System_Collections_Generic_List_TruckLib_ScsMap_MapItem__System_Collections_Generic_List_TruckLib_ScsMap_INode__System_Collections_Generic_HashSet_System_UInt64__" data-uid="TruckLib.ScsMap.Map.SaveSector(System.ValueTuple{System.Int32,System.Int32},System.String,System.Collections.Generic.List{TruckLib.ScsMap.MapItem},System.Collections.Generic.List{TruckLib.ScsMap.INode},System.Collections.Generic.HashSet{System.UInt64})">
+  SaveSector((int X, int Z), string, List&lt;MapItem&gt;, List&lt;INode&gt;, HashSet&lt;ulong&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Map.cs/#L744"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Saves the sector in binary format to the specified directory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveSector((int X, int Z) sectorCoords, string sectorDirectory, List&lt;MapItem&gt; sectorItems, List&lt;INode&gt; sectorNodes, HashSet&lt;ulong&gt; visAreaShowObjectsChildren)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sectorCoords</code> (<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.x">X</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.z">Z</a>)</dt>
+    <dd><p>The coordinates of the sector to write.</p>
+</dd>
+    <dt><code>sectorDirectory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The sector directory.</p>
+</dd>
+    <dt><code>sectorItems</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="TruckLib.ScsMap.MapItem.html">MapItem</a>&gt;</dt>
+    <dd><p>A list of all items in this sector.</p>
+</dd>
+    <dt><code>sectorNodes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="TruckLib.ScsMap.INode.html">INode</a>&gt;</dt>
+    <dd><p>A list of all nodes in this sector.</p>
+</dd>
+    <dt><code>visAreaShowObjectsChildren</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;</dt>
+    <dd><p>UIDs of VisAreaChildren for this sector.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Map.cs/#L17" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

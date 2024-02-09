@@ -1,0 +1,755 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class FarModel | TruckLib </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class FarModel | TruckLib ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/new/docfx-action/apiSpec/new?filename=TruckLib_ScsMap_FarModel.md&amp;value=---%0Auid%3A%20TruckLib.ScsMap.FarModel%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="TruckLib">
+            TruckLib
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="TruckLib.ScsMap.FarModel">
+
+
+
+  <h1 id="TruckLib_ScsMap_FarModel" data-uid="TruckLib.ScsMap.FarModel" class="text-break">
+Class FarModel  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/FarModel.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="TruckLib.html">TruckLib</a>.<a class="xref" href="TruckLib.ScsMap.html">ScsMap</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>TruckLib.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Defines a rectangular area which ignores the usual view distance limit of 1500 m
+for specific items if the camera is inside it.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FarModel : MapItem, IMapItem, IMapObject</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="TruckLib.ScsMap.MapItem.html">MapItem</a></div>
+      <div><span class="xref">FarModel</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="TruckLib.ScsMap.IMapItem.html">IMapItem</a></div>
+      <div><a class="xref" href="TruckLib.ScsMap.IMapObject.html">IMapObject</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_ItemFile">MapItem.ItemFile</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_Uid">MapItem.Uid</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_ViewDistance">MapItem.ViewDistance</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_DefaultLayer">MapItem.DefaultLayer</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_Layer">MapItem.Layer</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_ResolveNodeReference_TruckLib_ScsMap_INode_System_Collections_Generic_Dictionary_System_UInt64_TruckLib_ScsMap_INode__">MapItem.ResolveNodeReference(INode, Dictionary&lt;ulong, INode&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_ResolveNodeReferences_System_Collections_Generic_IList_TruckLib_ScsMap_INode__System_Collections_Generic_Dictionary_System_UInt64_TruckLib_ScsMap_INode__">MapItem.ResolveNodeReferences(IList&lt;INode&gt;, Dictionary&lt;ulong, INode&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="TruckLib.MiscExtensions.html#TruckLib_MiscExtensions_CloneItem__1___0_">MiscExtensions.CloneItem&lt;T&gt;(T)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="TruckLib_ScsMap_FarModel__ctor_" data-uid="TruckLib.ScsMap.FarModel.#ctor*"></a>
+
+  <h3 id="TruckLib_ScsMap_FarModel__ctor" data-uid="TruckLib.ScsMap.FarModel.#ctor">
+  FarModel()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/FarModel.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FarModel()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="TruckLib_ScsMap_FarModel_Children_" data-uid="TruckLib.ScsMap.FarModel.Children*"></a>
+
+  <h3 id="TruckLib_ScsMap_FarModel_Children" data-uid="TruckLib.ScsMap.FarModel.Children">
+  Children
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/FarModel.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Regular map items for which the view distance limit is ignored inside the area defined
+by this item.
+Used if <a class="xref" href="TruckLib.ScsMap.FarModel.html#TruckLib_ScsMap_FarModel_UseMapItems">UseMapItems</a> is true.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;IMapItem&gt; Children { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="TruckLib.ScsMap.IMapItem.html">IMapItem</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_FarModel_DefaultItemFile_" data-uid="TruckLib.ScsMap.FarModel.DefaultItemFile*"></a>
+
+  <h3 id="TruckLib_ScsMap_FarModel_DefaultItemFile" data-uid="TruckLib.ScsMap.FarModel.DefaultItemFile">
+  DefaultItemFile
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/FarModel.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the default location for the item type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ItemFile DefaultItemFile { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.ItemFile.html">ItemFile</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_FarModel_DefaultViewDistance_" data-uid="TruckLib.ScsMap.FarModel.DefaultViewDistance*"></a>
+
+  <h3 id="TruckLib_ScsMap_FarModel_DefaultViewDistance" data-uid="TruckLib.ScsMap.FarModel.DefaultViewDistance">
+  DefaultViewDistance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/FarModel.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the default view distance of the item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override ushort DefaultViewDistance { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_FarModel_Height_" data-uid="TruckLib.ScsMap.FarModel.Height*"></a>
+
+  <h3 id="TruckLib_ScsMap_FarModel_Height" data-uid="TruckLib.ScsMap.FarModel.Height">
+  Height
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/FarModel.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Height of the area in which the models are visible.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Height { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_FarModel_ItemType_" data-uid="TruckLib.ScsMap.FarModel.ItemType*"></a>
+
+  <h3 id="TruckLib_ScsMap_FarModel_ItemType" data-uid="TruckLib.ScsMap.FarModel.ItemType">
+  ItemType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/FarModel.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The item type ID used as identifier in the map format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ItemType ItemType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.ItemType.html">ItemType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_FarModel_Models_" data-uid="TruckLib.ScsMap.FarModel.Models*"></a>
+
+  <h3 id="TruckLib_ScsMap_FarModel_Models" data-uid="TruckLib.ScsMap.FarModel.Models">
+  Models
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/FarModel.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Models specific to Far Model items which are only visible inside the area defined
+by this item.
+Used if <a class="xref" href="TruckLib.ScsMap.FarModel.html#TruckLib_ScsMap_FarModel_UseMapItems">UseMapItems</a> is false.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FarModelDataList Models { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.FarModelDataList.html">FarModelDataList</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_FarModel_Node_" data-uid="TruckLib.ScsMap.FarModel.Node*"></a>
+
+  <h3 id="TruckLib_ScsMap_FarModel_Node" data-uid="TruckLib.ScsMap.FarModel.Node">
+  Node
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/FarModel.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The map node of this item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public INode Node { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.INode.html">INode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_FarModel_UseMapItems_" data-uid="TruckLib.ScsMap.FarModel.UseMapItems*"></a>
+
+  <h3 id="TruckLib_ScsMap_FarModel_UseMapItems" data-uid="TruckLib.ScsMap.FarModel.UseMapItems">
+  UseMapItems
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/FarModel.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>If true, the item affects regular map items referenced in
+<a class="xref" href="TruckLib.ScsMap.FarModel.html#TruckLib_ScsMap_FarModel_Children">Children</a>.
+If false, the game will place models unique to Far Model items specified in
+<a class="xref" href="TruckLib.ScsMap.FarModel.html#TruckLib_ScsMap_FarModel_Models">Models</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UseMapItems { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_FarModel_WaterReflection_" data-uid="TruckLib.ScsMap.FarModel.WaterReflection*"></a>
+
+  <h3 id="TruckLib_ScsMap_FarModel_WaterReflection" data-uid="TruckLib.ScsMap.FarModel.WaterReflection">
+  WaterReflection
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/FarModel.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets if the item is reflected on water surfaces.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool WaterReflection { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_FarModel_Width_" data-uid="TruckLib.ScsMap.FarModel.Width*"></a>
+
+  <h3 id="TruckLib_ScsMap_FarModel_Width" data-uid="TruckLib.ScsMap.FarModel.Width">
+  Width
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/FarModel.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Width of the area in which the models are visible.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Width { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="TruckLib_ScsMap_FarModel_Add_" data-uid="TruckLib.ScsMap.FarModel.Add*"></a>
+
+  <h3 id="TruckLib_ScsMap_FarModel_Add_TruckLib_ScsMap_IItemContainer_System_Numerics_Vector3_System_Single_System_Single_" data-uid="TruckLib.ScsMap.FarModel.Add(TruckLib.ScsMap.IItemContainer,System.Numerics.Vector3,System.Single,System.Single)">
+  Add(IItemContainer, Vector3, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/FarModel.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds a Far Model item to the map.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FarModel Add(IItemContainer map, Vector3 position, float width, float height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>map</code> <a class="xref" href="TruckLib.ScsMap.IItemContainer.html">IItemContainer</a></dt>
+    <dd><p>The map.</p>
+</dd>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd><p>The position of the center node.</p>
+</dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The width of the area.</p>
+</dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The height of the area.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.FarModel.html">FarModel</a></dt>
+    <dd><p>The newly created Far Model item.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_FarModel_Init_" data-uid="TruckLib.ScsMap.FarModel.Init*"></a>
+
+  <h3 id="TruckLib_ScsMap_FarModel_Init" data-uid="TruckLib.ScsMap.FarModel.Init">
+  Init()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/FarModel.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the item's properties to its default values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Init()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_FarModel_Move_" data-uid="TruckLib.ScsMap.FarModel.Move*"></a>
+
+  <h3 id="TruckLib_ScsMap_FarModel_Move_System_Numerics_Vector3_" data-uid="TruckLib.ScsMap.FarModel.Move(System.Numerics.Vector3)">
+  Move(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/FarModel.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Moves the item to a different location.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Move(Vector3 newPos)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newPos</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd><p>The new position.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_FarModel_Translate_" data-uid="TruckLib.ScsMap.FarModel.Translate*"></a>
+
+  <h3 id="TruckLib_ScsMap_FarModel_Translate_System_Numerics_Vector3_" data-uid="TruckLib.ScsMap.FarModel.Translate(System.Numerics.Vector3)">
+  Translate(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/FarModel.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Translates the item by the given vector.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Translate(Vector3 translation)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>translation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd><p>The translation vector.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_FarModel_UpdateItemReferences_" data-uid="TruckLib.ScsMap.FarModel.UpdateItemReferences*"></a>
+
+  <h3 id="TruckLib_ScsMap_FarModel_UpdateItemReferences_System_Collections_Generic_Dictionary_System_UInt64_TruckLib_ScsMap_MapItem__" data-uid="TruckLib.ScsMap.FarModel.UpdateItemReferences(System.Collections.Generic.Dictionary{System.UInt64,TruckLib.ScsMap.MapItem})">
+  UpdateItemReferences(Dictionary&lt;ulong, MapItem&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/FarModel.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Searches a list of all map items for the map items referenced by UID in
+this map item and updates the respective references. This is used for loading
+a map and does not need to be called by the user at any point.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateItemReferences(Dictionary&lt;ulong, MapItem&gt; allItems)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>allItems</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>, <a class="xref" href="TruckLib.ScsMap.MapItem.html">MapItem</a>&gt;</dt>
+    <dd><p>A dictionary of all items in the entire map.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/FarModel.cs/#L15" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

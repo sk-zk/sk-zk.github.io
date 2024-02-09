@@ -1,0 +1,2027 @@
+{
+  "source_base_path": "/home/runner/work/TruckLib/TruckLib/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.CardinalSpline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.CardinalSpline.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.CatmullRomSpline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.CatmullRomSpline.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.FlagField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.FlagField.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.HashFs.CityHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.HashFs.CityHash.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.HashFs.Entry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.HashFs.Entry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.HashFs.EntryType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.HashFs.EntryType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.HashFs.HashFsReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.HashFs.HashFsReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.HashFs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.HashFs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.IBinarySerializable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.IBinarySerializable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.IOExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.IOExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.MiscExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.MiscExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.AxisAlignedBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.AxisAlignedBox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Bone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Bone.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Locator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Locator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Look.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Look.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Model.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Part.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Part.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.PartAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.PartAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Piece.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Piece.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Ppd.AllowedVehicles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Ppd.AllowedVehicles.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Ppd.BlinkerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Ppd.BlinkerType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Ppd.ControlNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Ppd.ControlNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Ppd.CustomColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Ppd.CustomColor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Ppd.Intersection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Ppd.Intersection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Ppd.Lookup.PriorityModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Ppd.Lookup.PriorityModifier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Ppd.Lookup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Ppd.Lookup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Ppd.MapPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Ppd.MapPoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Ppd.NavCurve.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Ppd.NavCurve.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Ppd.PrefabDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Ppd.PrefabDescriptor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Ppd.RoadOffset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Ppd.RoadOffset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Ppd.RoadSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Ppd.RoadSize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Ppd.Semaphore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Ppd.Semaphore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Ppd.SemaphoreType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Ppd.SemaphoreType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Ppd.Sign.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Ppd.Sign.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Ppd.SpawnPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Ppd.SpawnPoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Ppd.SpawnPointType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Ppd.SpawnPointType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Ppd.TerrainPointVariant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Ppd.TerrainPointVariant.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Ppd.TriggerPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Ppd.TriggerPoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Ppd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Ppd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Tobj.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Tobj.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.TobjAddr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.TobjAddr.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.TobjFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.TobjFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.TobjMipFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.TobjMipFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.TobjType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.TobjType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Triangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Triangle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Variant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Variant.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Vertex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Vertex.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Nibble.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Nibble.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.ActionBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.ActionBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.ActionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.ActionType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.AnimatedModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.AnimatedModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.BezierPatch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.BezierPatch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.BlinkerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.BlinkerType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Buildings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Buildings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.BusStop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.BusStop.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.CameraPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.CameraPath.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.CameraPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.CameraPoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.CenterVegetation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.CenterVegetation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.CityArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.CityArea.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Company.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Company.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.CompanySpawnPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.CompanySpawnPoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.CompanySpawnPointType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.CompanySpawnPointType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Compound.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Compound.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Curve.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Curve.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.CurveLocatorList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.CurveLocatorList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.CutPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.CutPlane.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.CutPlaneNodeAngle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.CutPlaneNodeAngle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Cutscene.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Cutscene.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.CutsceneAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.CutsceneAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.CutsceneType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.CutsceneType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.EasingFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.EasingFunction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.EdgeOverride.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.EdgeOverride.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.EdgeTerrain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.EdgeTerrain.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.FarModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.FarModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.FarModelData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.FarModelData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.FarModelDataList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.FarModelDataList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Ferry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Ferry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.FogMask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.FogMask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.FuelPump.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.FuelPump.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Garage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Garage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Gate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Gate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.GateActivationPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.GateActivationPoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.GateActivationPointList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.GateActivationPointList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.GateType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.GateType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Header.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Header.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Hinge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Hinge.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Hookup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Hookup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.HookupModelDetail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.HookupModelDetail.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.HookupNodeAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.HookupNodeAlignment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.HookupSpawnProbability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.HookupSpawnProbability.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.IItemContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.IItemContainer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.IMapItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.IMapItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.IMapObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.IMapObject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.INode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.INode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.ISignOverrideAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.ISignOverrideAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.ItemFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.ItemFile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.ItemType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.ItemType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.KdopBounds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.KdopBounds.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Keyframe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Keyframe.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Lookup.CountryId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Lookup.CountryId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Lookup.DlcGuard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Lookup.DlcGuard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Lookup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Lookup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Map.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Map.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.MapArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.MapArea.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.MapAreaColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.MapAreaColor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.MapAreaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.MapAreaType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.MapItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.MapItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.MapOverlay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.MapOverlay.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Material.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Material.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Model.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Mover.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Mover.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.NoWeatherArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.NoWeatherArea.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Node.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Node.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.OverlayType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.OverlayType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.PathItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.PathItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.PolygonItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.PolygonItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.PolygonNodeList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.PolygonNodeList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.PolylineItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.PolylineItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Prefab.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Prefab.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.PrefabNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.PrefabNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.PrefabSlaveItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.PrefabSlaveItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.PrefabTerrain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.PrefabTerrain.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.QuadVegetation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.QuadVegetation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Railing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Railing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Railings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Railings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Road.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Road.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.RoadModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.RoadModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.RoadRailings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.RoadRailings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.RoadResolution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.RoadResolution.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.RoadSide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.RoadSide.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.RoadTerrain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.RoadTerrain.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.RoadVegetation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.RoadVegetation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Sector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Sector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Selection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Selection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Service.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Service.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.ServiceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.ServiceType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Sidewalk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Sidewalk.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.SidewalkSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.SidewalkSize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Sign.SignBoard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Sign.SignBoard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Sign.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Sign.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.SignOverride.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.SignOverride.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.SignOverrideAttribute-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.SignOverrideAttribute-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.SingleNodeItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.SingleNodeItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Sound.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Sound.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.SoundType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.SoundType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.StepSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.StepSize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Terrain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Terrain.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.TerrainNoise.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.TerrainNoise.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.TerrainQuad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.TerrainQuad.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.TerrainQuadData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.TerrainQuadData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.TerrainSide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.TerrainSide.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.TerrainTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.TerrainTransition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.TrafficArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.TrafficArea.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Trajectory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Trajectory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.TrajectoryCheckpoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.TrajectoryCheckpoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.TrajectoryRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.TrajectoryRule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Trigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Trigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.TriggerAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.TriggerAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.VariantOverride.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.VariantOverride.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Vegetation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Vegetation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.VegetationPart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.VegetationPart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.VegetationScale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.VegetationScale.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.VegetationSphere.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.VegetationSphere.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.VegetationSphereType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.VegetationSphereType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.VertexData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.VertexData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.VisibilityArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.VisibilityArea.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.VisibilityAreaBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.VisibilityAreaBehavior.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Walker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Walker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Sii.MatFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Sii.MatFile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Sii.Placement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Sii.Placement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Sii.SiiFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Sii.SiiFile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Sii.SiiParserException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Sii.SiiParserException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Sii.Unit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Sii.Unit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Sii.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Sii.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Token.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Token.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.UnsupportedVersionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.UnsupportedVersionException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Samples/00-simple.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Samples/00-simple.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/Samples/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Samples/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/Samples/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/TruckLib.HashFs/hashfs.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/TruckLib.HashFs/hashfs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/TruckLib.HashFs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/TruckLib.HashFs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/TruckLib.HashFs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/TruckLib.ScsMap/add-delete-items.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/TruckLib.ScsMap/add-delete-items.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/TruckLib.ScsMap/map-class.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/TruckLib.ScsMap/map-class.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/TruckLib.ScsMap/move-items.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/TruckLib.ScsMap/move-items.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/TruckLib.ScsMap/polyline-items.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/TruckLib.ScsMap/polyline-items.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/TruckLib.ScsMap/prefabs.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/TruckLib.ScsMap/prefabs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/TruckLib.ScsMap/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/TruckLib.ScsMap/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/TruckLib.ScsMap/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/00-final.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/00-final.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/00-wip1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/00-wip1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/00-wip2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/00-wip2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/00-wip3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/00-wip3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Redirection",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "templates/material/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "templates/material/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

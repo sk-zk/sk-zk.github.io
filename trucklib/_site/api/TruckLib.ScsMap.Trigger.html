@@ -1,0 +1,843 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Trigger | TruckLib </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Trigger | TruckLib ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/new/docfx-action/apiSpec/new?filename=TruckLib_ScsMap_Trigger.md&amp;value=---%0Auid%3A%20TruckLib.ScsMap.Trigger%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="TruckLib">
+            TruckLib
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="TruckLib.ScsMap.Trigger">
+
+
+
+  <h1 id="TruckLib_ScsMap_Trigger" data-uid="TruckLib.ScsMap.Trigger" class="text-break">
+Class Trigger  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Trigger.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="TruckLib.html">TruckLib</a>.<a class="xref" href="TruckLib.ScsMap.html">ScsMap</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>TruckLib.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Defines a trigger area.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Trigger : PolygonItem, IMapItem, IMapObject</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="TruckLib.ScsMap.MapItem.html">MapItem</a></div>
+      <div><a class="xref" href="TruckLib.ScsMap.PolygonItem.html">PolygonItem</a></div>
+      <div><span class="xref">Trigger</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="TruckLib.ScsMap.IMapItem.html">IMapItem</a></div>
+      <div><a class="xref" href="TruckLib.ScsMap.IMapObject.html">IMapObject</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.PolygonItem.html#TruckLib_ScsMap_PolygonItem_Nodes">PolygonItem.Nodes</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.PolygonItem.html#TruckLib_ScsMap_PolygonItem_Move_System_Numerics_Vector3_">PolygonItem.Move(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.PolygonItem.html#TruckLib_ScsMap_PolygonItem_Move_System_Numerics_Vector3_System_Int32_">PolygonItem.Move(Vector3, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.PolygonItem.html#TruckLib_ScsMap_PolygonItem_Translate_System_Numerics_Vector3_">PolygonItem.Translate(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_ItemFile">MapItem.ItemFile</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_Uid">MapItem.Uid</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_ViewDistance">MapItem.ViewDistance</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_DefaultLayer">MapItem.DefaultLayer</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_Layer">MapItem.Layer</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_ResolveNodeReference_TruckLib_ScsMap_INode_System_Collections_Generic_Dictionary_System_UInt64_TruckLib_ScsMap_INode__">MapItem.ResolveNodeReference(INode, Dictionary&lt;ulong, INode&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_ResolveNodeReferences_System_Collections_Generic_IList_TruckLib_ScsMap_INode__System_Collections_Generic_Dictionary_System_UInt64_TruckLib_ScsMap_INode__">MapItem.ResolveNodeReferences(IList&lt;INode&gt;, Dictionary&lt;ulong, INode&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="TruckLib.MiscExtensions.html#TruckLib_MiscExtensions_CloneItem__1___0_">MiscExtensions.CloneItem&lt;T&gt;(T)</a>
+  </div>
+  </dd></dl>
+
+
+
+  <h2 id="TruckLib_ScsMap_Trigger_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>Note that, if only two nodes are used, the area is a sphere,
+with the first node defining the center and the second node
+defining the radius.</p>
+</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="TruckLib_ScsMap_Trigger__ctor_" data-uid="TruckLib.ScsMap.Trigger.#ctor*"></a>
+
+  <h3 id="TruckLib_ScsMap_Trigger__ctor" data-uid="TruckLib.ScsMap.Trigger.#ctor">
+  Trigger()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Trigger.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Trigger()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="TruckLib_ScsMap_Trigger_Actions_" data-uid="TruckLib.ScsMap.Trigger.Actions*"></a>
+
+  <h3 id="TruckLib_ScsMap_Trigger_Actions" data-uid="TruckLib.ScsMap.Trigger.Actions">
+  Actions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Trigger.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;TriggerAction&gt; Actions { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="TruckLib.ScsMap.TriggerAction.html">TriggerAction</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Trigger_CollisionActivation_" data-uid="TruckLib.ScsMap.Trigger.CollisionActivation*"></a>
+
+  <h3 id="TruckLib_ScsMap_Trigger_CollisionActivation" data-uid="TruckLib.ScsMap.Trigger.CollisionActivation">
+  CollisionActivation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Trigger.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CollisionActivation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Trigger_ConnectedTrailerActivation_" data-uid="TruckLib.ScsMap.Trigger.ConnectedTrailerActivation*"></a>
+
+  <h3 id="TruckLib_ScsMap_Trigger_ConnectedTrailerActivation" data-uid="TruckLib.ScsMap.Trigger.ConnectedTrailerActivation">
+  ConnectedTrailerActivation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Trigger.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ConnectedTrailerActivation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Trigger_DefaultItemFile_" data-uid="TruckLib.ScsMap.Trigger.DefaultItemFile*"></a>
+
+  <h3 id="TruckLib_ScsMap_Trigger_DefaultItemFile" data-uid="TruckLib.ScsMap.Trigger.DefaultItemFile">
+  DefaultItemFile
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Trigger.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the default location for the item type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ItemFile DefaultItemFile { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.ItemFile.html">ItemFile</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Trigger_DefaultViewDistance_" data-uid="TruckLib.ScsMap.Trigger.DefaultViewDistance*"></a>
+
+  <h3 id="TruckLib_ScsMap_Trigger_DefaultViewDistance" data-uid="TruckLib.ScsMap.Trigger.DefaultViewDistance">
+  DefaultViewDistance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Trigger.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the default view distance of the item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override ushort DefaultViewDistance { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Trigger_DisconnectedTrailerActivation_" data-uid="TruckLib.ScsMap.Trigger.DisconnectedTrailerActivation*"></a>
+
+  <h3 id="TruckLib_ScsMap_Trigger_DisconnectedTrailerActivation" data-uid="TruckLib.ScsMap.Trigger.DisconnectedTrailerActivation">
+  DisconnectedTrailerActivation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Trigger.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DisconnectedTrailerActivation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Trigger_DlcGuard_" data-uid="TruckLib.ScsMap.Trigger.DlcGuard*"></a>
+
+  <h3 id="TruckLib_ScsMap_Trigger_DlcGuard" data-uid="TruckLib.ScsMap.Trigger.DlcGuard">
+  DlcGuard
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Trigger.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte DlcGuard { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Trigger_FarViewDistance_" data-uid="TruckLib.ScsMap.Trigger.FarViewDistance*"></a>
+
+  <h3 id="TruckLib_ScsMap_Trigger_FarViewDistance" data-uid="TruckLib.ScsMap.Trigger.FarViewDistance">
+  FarViewDistance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Trigger.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool FarViewDistance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Trigger_InitDisabled_" data-uid="TruckLib.ScsMap.Trigger.InitDisabled*"></a>
+
+  <h3 id="TruckLib_ScsMap_Trigger_InitDisabled" data-uid="TruckLib.ScsMap.Trigger.InitDisabled">
+  InitDisabled
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Trigger.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool InitDisabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Trigger_ItemType_" data-uid="TruckLib.ScsMap.Trigger.ItemType*"></a>
+
+  <h3 id="TruckLib_ScsMap_Trigger_ItemType" data-uid="TruckLib.ScsMap.Trigger.ItemType">
+  ItemType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Trigger.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The item type ID used as identifier in the map format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ItemType ItemType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.ItemType.html">ItemType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Trigger_OrientedActivation_" data-uid="TruckLib.ScsMap.Trigger.OrientedActivation*"></a>
+
+  <h3 id="TruckLib_ScsMap_Trigger_OrientedActivation" data-uid="TruckLib.ScsMap.Trigger.OrientedActivation">
+  OrientedActivation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Trigger.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets if the trigger requires a specific orientation to activate(?).
+The orientation for the trigger is defined by the yaw of the 0th node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool OrientedActivation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Trigger_PartialActivation_" data-uid="TruckLib.ScsMap.Trigger.PartialActivation*"></a>
+
+  <h3 id="TruckLib_ScsMap_Trigger_PartialActivation" data-uid="TruckLib.ScsMap.Trigger.PartialActivation">
+  PartialActivation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Trigger.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool PartialActivation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Trigger_Range_" data-uid="TruckLib.ScsMap.Trigger.Range*"></a>
+
+  <h3 id="TruckLib_ScsMap_Trigger_Range" data-uid="TruckLib.ScsMap.Trigger.Range">
+  Range
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Trigger.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Legacy parameter. Do not use.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public float Range { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Trigger_Secret_" data-uid="TruckLib.ScsMap.Trigger.Secret*"></a>
+
+  <h3 id="TruckLib_ScsMap_Trigger_Secret" data-uid="TruckLib.ScsMap.Trigger.Secret">
+  Secret
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Trigger.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets if this trigger's icon, if one exists, is only visible
+in the UI map once discovered.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Secret { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Trigger_Tags_" data-uid="TruckLib.ScsMap.Trigger.Tags*"></a>
+
+  <h3 id="TruckLib_ScsMap_Trigger_Tags" data-uid="TruckLib.ScsMap.Trigger.Tags">
+  Tags
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Trigger.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Token&gt; Tags { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="TruckLib.Token.html">Token</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Trigger_VehicleActivation_" data-uid="TruckLib.ScsMap.Trigger.VehicleActivation*"></a>
+
+  <h3 id="TruckLib_ScsMap_Trigger_VehicleActivation" data-uid="TruckLib.ScsMap.Trigger.VehicleActivation">
+  VehicleActivation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Trigger.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool VehicleActivation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="TruckLib_ScsMap_Trigger_Add_" data-uid="TruckLib.ScsMap.Trigger.Add*"></a>
+
+  <h3 id="TruckLib_ScsMap_Trigger_Add_TruckLib_ScsMap_IItemContainer_System_Collections_Generic_IList_System_Numerics_Vector3__" data-uid="TruckLib.ScsMap.Trigger.Add(TruckLib.ScsMap.IItemContainer,System.Collections.Generic.IList{System.Numerics.Vector3})">
+  Add(IItemContainer, IList&lt;Vector3&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Trigger.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds a trigger to the map.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Trigger Add(IItemContainer map, IList&lt;Vector3&gt; positions)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>map</code> <a class="xref" href="TruckLib.ScsMap.IItemContainer.html">IItemContainer</a></dt>
+    <dd><p>The map.</p>
+</dd>
+    <dt><code>positions</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a>&gt;</dt>
+    <dd><p>The points of the polygon.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.Trigger.html">Trigger</a></dt>
+    <dd><p>The newly created trigger.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Trigger_Init_" data-uid="TruckLib.ScsMap.Trigger.Init*"></a>
+
+  <h3 id="TruckLib_ScsMap_Trigger_Init" data-uid="TruckLib.ScsMap.Trigger.Init">
+  Init()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Trigger.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the item's properties to its default values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Init()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Trigger.cs/#L18" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

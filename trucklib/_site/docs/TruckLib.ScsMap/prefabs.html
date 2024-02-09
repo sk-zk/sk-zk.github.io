@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Working with prefabs | TruckLib </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Working with prefabs | TruckLib ">
+      
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/blob/docfx-action/docfx/docs/TruckLib.ScsMap/prefabs.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="TruckLib">
+            TruckLib
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="working-with-prefabs">Working with prefabs</h1>
+
+<h2 id="adding-prefabs">Adding prefabs</h2>
+<p>Prefabs are the most complex map item in the game, so adding one requires an extra step.</p>
+<h3 id="loading-the-descriptor">Loading the descriptor</h3>
+<p>To add a prefab to the map, the positions of its control nodes and spawn points must be known to the library
+so that the map nodes can be placed correctly and slave items, if required, can be created. This means that
+the prefab descriptor (<code>.ppd</code>) file of the prefab must be opened first, which you can do with the
+<a class="xref" href="../../api/TruckLib.Models.Ppd.PrefabDescriptor.html"><code>PrefabDescriptor</code></a> class:</p>
+<pre><code class="lang-cs">using TruckLib.Models.Ppd;
+
+PrefabDescriptor ppd = PrefabDescriptor.Open(&quot;&lt;location of extracted files&gt;/prefab2/car_dealer/car_dealer_01_fr.ppd&quot;);
+</code></pre>
+<p>Alternatively, you can use a <a class="xref" href="../../api/TruckLib.HashFs.HashFsReader.html"><code>HashFsReader</code></a> to load the descriptor directly
+from its <code>.scs</code> file without having to extract it:</p>
+<pre><code class="lang-cs">using TruckLib.Models.Ppd;
+using TruckLib.HashFs;
+
+HashFsReader baseScs = HashFsReader.Open(&quot;&lt;game root&gt;/base.scs&quot;);
+byte[] ppdBytes = baseScs.Extract(&quot;/prefab2/car_dealer/car_dealer_01_fr.ppd&quot;);
+PrefabDescriptor ppd = PrefabDescriptor.Load(ppdBytes);
+</code></pre>
+<p>Note that this will not work while the game is running because the game locks the file.</p>
+<h3 id="creating-the-prefab">Creating the prefab</h3>
+<p>Now that we have the prefab descriptor, we can call <a class="xref" href="../../api/TruckLib.ScsMap.Prefab.html#TruckLib_ScsMap_Prefab_Add_"><code>Prefab.Add</code></a>
+to add the prefab to the map:</p>
+<pre><code class="lang-cs">Prefab prefab = Prefab.Add(map, new Vector3(12.3f, 0, 23.4f), &quot;dlc_fr_14&quot;, ppd, Quaternion.Identity);
+</code></pre>
+<p>The position passed to this method will be the position of the 0th control node.</p>
+<p>Rotation is handled the same way as it is ingame: no matter how the model's geometry is actually oriented, it will
+always be rotated such that the 0th control node has a direction of (0, 0, -1). This means that if you pass e.g.
+a yaw of 90°, the model will be rotated the same way as it would be if you specified 90° in the new item dialog
+of the editor.</p>
+<h2 id="changing-the-origin">Changing the origin</h2>
+<p>On occasion, the origin node of a prefab must be changed to allow for connections which would otherwise not be possible.
+You can do this with the <a class="xref" href="../../api/TruckLib.ScsMap.Prefab.html#TruckLib_ScsMap_Prefab_ChangeOrigin_"><code>ChangeOrigin</code></a> method:</p>
+<pre><code class="lang-cs">prefab.ChangeOrigin(2);
+</code></pre>
+<p>Unlike other prefab methods, the index expected here is the index of the node in the prefab descriptor,
+not the <a class="xref" href="../../api/TruckLib.ScsMap.Prefab.html#TruckLib_ScsMap_Prefab_Nodes"><code>Nodes</code></a> list of the object, because <code>Nodes</code> is always
+ordered such that the origin node is the 0th entry.</p>
+<p>If one or both nodes affected by the operation already have an item attached to them, <code>InvalidOperationException</code> is thrown.</p>
+<h2 id="attaching-prefabs">Attaching prefabs</h2>
+<p>You can attach two prefabs to each other with <a class="xref" href="../../api/TruckLib.ScsMap.Prefab.html#TruckLib_ScsMap_Prefab_Attach_System_UInt16_TruckLib_ScsMap_Prefab_System_UInt16_"><code>Attach</code></a>:</p>
+<pre><code class="lang-cs">prefab1.Attach(3, prefab2, 0);
+</code></pre>
+<p>The first parameter is the index of the node of <code>prefab1</code> the other prefab will be connected to, the second parameter
+is the prefab, and the third parameter is the index of the node of <code>prefab2</code> which you want to attach. Note that
+<code>prefab2</code> will be moved such that the two specified nodes have the same position - the prefabs can't
+be connected otherwise.</p>
+<p>If both specified nodes are the current origin node (which is the case when both index parameters are 0) or
+one or both of the nodes already have something attached to them, <code>InvalidOperationException</code> is thrown.</p>
+<p>There is also a &quot;I'm feeling lucky&quot; option which will attach the closest nodes of the two prefabs without having to
+specify what they are:</p>
+<pre><code class="lang-cs">prefab1.Attach(prefab2);
+</code></pre>
+<p>In both cases, one of the prefab nodes will become unnecessary and will be deleted.</p>
+<h2 id="attaching-polyline-items">Attaching polyline items</h2>
+<p>There is another overload of <a class="xref" href="../../api/TruckLib.ScsMap.Prefab.html#TruckLib_ScsMap_Prefab_Attach_System_UInt16_TruckLib_ScsMap_INode_"><code>Attach</code></a>
+for attaching a road or another polyline item to a node of a prefab:</p>
+<pre><code class="lang-cs">prefab.Attach(1, road.ForwardNode);
+</code></pre>
+<p>The first parameter is the index of the prefab node to attach the item to, and the second parameter is the item node
+you want to attach to the prefab.</p>
+<p>Attempting to attach the backward node of a polyline item to the origin node of a prefab will throw <code>InvalidOperationException</code>.
+All other configurations will work.</p>
+<p>As with attaching a prefab, there is another method which attaches the closest nodes of the item and the prefab:</p>
+<pre><code class="lang-cs">prefab.Attach(road);
+</code></pre>
+<p>In both cases, the leftover node of the polyline item will be deleted.</p>
+<h2 id="appending-a-road">Appending a road</h2>
+<p>In addition to attaching an existing road, you can append a new road to a prefab node with the
+<a class="xref" href="../../api/TruckLib.ScsMap.Prefab.html#TruckLib_ScsMap_Prefab_AppendRoad_"><code>AppendRoad</code></a> method:</p>
+<pre><code class="lang-cs">Road road = prefab.AppendRoad(1, new Vector3(42, 0, 21), &quot;ger1&quot;);
+</code></pre>
+<p>The given position will be the position of the forward node of the road, unless you are appending to the origin node,
+in which case it will be the backward node (meaning the road is actually prepended).</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/sk-zk/TruckLib/blob/docfx-action/docfx/docs/TruckLib.ScsMap/prefabs.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

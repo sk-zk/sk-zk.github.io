@@ -1,0 +1,590 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class TrafficArea | TruckLib </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class TrafficArea | TruckLib ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/new/docfx-action/apiSpec/new?filename=TruckLib_ScsMap_TrafficArea.md&amp;value=---%0Auid%3A%20TruckLib.ScsMap.TrafficArea%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="TruckLib">
+            TruckLib
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="TruckLib.ScsMap.TrafficArea">
+
+
+
+  <h1 id="TruckLib_ScsMap_TrafficArea" data-uid="TruckLib.ScsMap.TrafficArea" class="text-break">
+Class TrafficArea  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/TrafficArea.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="TruckLib.html">TruckLib</a>.<a class="xref" href="TruckLib.ScsMap.html">ScsMap</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>TruckLib.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Applies a traffic rule inside a polygon.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class TrafficArea : PolygonItem, IMapItem, IMapObject</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="TruckLib.ScsMap.MapItem.html">MapItem</a></div>
+      <div><a class="xref" href="TruckLib.ScsMap.PolygonItem.html">PolygonItem</a></div>
+      <div><span class="xref">TrafficArea</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="TruckLib.ScsMap.IMapItem.html">IMapItem</a></div>
+      <div><a class="xref" href="TruckLib.ScsMap.IMapObject.html">IMapObject</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.PolygonItem.html#TruckLib_ScsMap_PolygonItem_Nodes">PolygonItem.Nodes</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.PolygonItem.html#TruckLib_ScsMap_PolygonItem_Move_System_Numerics_Vector3_">PolygonItem.Move(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.PolygonItem.html#TruckLib_ScsMap_PolygonItem_Move_System_Numerics_Vector3_System_Int32_">PolygonItem.Move(Vector3, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.PolygonItem.html#TruckLib_ScsMap_PolygonItem_Translate_System_Numerics_Vector3_">PolygonItem.Translate(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_ItemFile">MapItem.ItemFile</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_Uid">MapItem.Uid</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_ViewDistance">MapItem.ViewDistance</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_DefaultLayer">MapItem.DefaultLayer</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_Layer">MapItem.Layer</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_ResolveNodeReference_TruckLib_ScsMap_INode_System_Collections_Generic_Dictionary_System_UInt64_TruckLib_ScsMap_INode__">MapItem.ResolveNodeReference(INode, Dictionary&lt;ulong, INode&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_ResolveNodeReferences_System_Collections_Generic_IList_TruckLib_ScsMap_INode__System_Collections_Generic_Dictionary_System_UInt64_TruckLib_ScsMap_INode__">MapItem.ResolveNodeReferences(IList&lt;INode&gt;, Dictionary&lt;ulong, INode&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="TruckLib.MiscExtensions.html#TruckLib_MiscExtensions_CloneItem__1___0_">MiscExtensions.CloneItem&lt;T&gt;(T)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="TruckLib_ScsMap_TrafficArea__ctor_" data-uid="TruckLib.ScsMap.TrafficArea.#ctor*"></a>
+
+  <h3 id="TruckLib_ScsMap_TrafficArea__ctor" data-uid="TruckLib.ScsMap.TrafficArea.#ctor">
+  TrafficArea()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/TrafficArea.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TrafficArea()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="TruckLib_ScsMap_TrafficArea_CrossroadArea_" data-uid="TruckLib.ScsMap.TrafficArea.CrossroadArea*"></a>
+
+  <h3 id="TruckLib_ScsMap_TrafficArea_CrossroadArea" data-uid="TruckLib.ScsMap.TrafficArea.CrossroadArea">
+  CrossroadArea
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/TrafficArea.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CrossroadArea { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_TrafficArea_DefaultItemFile_" data-uid="TruckLib.ScsMap.TrafficArea.DefaultItemFile*"></a>
+
+  <h3 id="TruckLib_ScsMap_TrafficArea_DefaultItemFile" data-uid="TruckLib.ScsMap.TrafficArea.DefaultItemFile">
+  DefaultItemFile
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/TrafficArea.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the default location for the item type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ItemFile DefaultItemFile { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.ItemFile.html">ItemFile</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_TrafficArea_DefaultViewDistance_" data-uid="TruckLib.ScsMap.TrafficArea.DefaultViewDistance*"></a>
+
+  <h3 id="TruckLib_ScsMap_TrafficArea_DefaultViewDistance" data-uid="TruckLib.ScsMap.TrafficArea.DefaultViewDistance">
+  DefaultViewDistance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/TrafficArea.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the default view distance of the item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override ushort DefaultViewDistance { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_TrafficArea_ItemType_" data-uid="TruckLib.ScsMap.TrafficArea.ItemType*"></a>
+
+  <h3 id="TruckLib_ScsMap_TrafficArea_ItemType" data-uid="TruckLib.ScsMap.TrafficArea.ItemType">
+  ItemType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/TrafficArea.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The item type ID used as identifier in the map format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ItemType ItemType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.ItemType.html">ItemType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_TrafficArea_Range_" data-uid="TruckLib.ScsMap.TrafficArea.Range*"></a>
+
+  <h3 id="TruckLib_ScsMap_TrafficArea_Range" data-uid="TruckLib.ScsMap.TrafficArea.Range">
+  Range
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/TrafficArea.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>If greater than 0, the traffic area is limited to a polyhedron with this height.
+The polygon created by the nodes of this item are the bottom face.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Range { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_TrafficArea_RemoveSemaphores_" data-uid="TruckLib.ScsMap.TrafficArea.RemoveSemaphores*"></a>
+
+  <h3 id="TruckLib_ScsMap_TrafficArea_RemoveSemaphores" data-uid="TruckLib.ScsMap.TrafficArea.RemoveSemaphores">
+  RemoveSemaphores
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/TrafficArea.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RemoveSemaphores { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_TrafficArea_Rule_" data-uid="TruckLib.ScsMap.TrafficArea.Rule*"></a>
+
+  <h3 id="TruckLib_ScsMap_TrafficArea_Rule" data-uid="TruckLib.ScsMap.TrafficArea.Rule">
+  Rule
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/TrafficArea.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Unit name of the traffic rule.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Token Rule { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.Token.html">Token</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_TrafficArea_Tags_" data-uid="TruckLib.ScsMap.TrafficArea.Tags*"></a>
+
+  <h3 id="TruckLib_ScsMap_TrafficArea_Tags" data-uid="TruckLib.ScsMap.TrafficArea.Tags">
+  Tags
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/TrafficArea.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Token&gt; Tags { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="TruckLib.Token.html">Token</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="TruckLib_ScsMap_TrafficArea_Add_" data-uid="TruckLib.ScsMap.TrafficArea.Add*"></a>
+
+  <h3 id="TruckLib_ScsMap_TrafficArea_Add_TruckLib_ScsMap_IItemContainer_System_Collections_Generic_IList_System_Numerics_Vector3__TruckLib_Token_" data-uid="TruckLib.ScsMap.TrafficArea.Add(TruckLib.ScsMap.IItemContainer,System.Collections.Generic.IList{System.Numerics.Vector3},TruckLib.Token)">
+  Add(IItemContainer, IList&lt;Vector3&gt;, Token)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/TrafficArea.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds a traffic area to the map.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TrafficArea Add(IItemContainer map, IList&lt;Vector3&gt; positions, Token rule)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>map</code> <a class="xref" href="TruckLib.ScsMap.IItemContainer.html">IItemContainer</a></dt>
+    <dd><p>The map.</p>
+</dd>
+    <dt><code>positions</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a>&gt;</dt>
+    <dd><p>The points of the polygon.</p>
+</dd>
+    <dt><code>rule</code> <a class="xref" href="TruckLib.Token.html">Token</a></dt>
+    <dd><p>The unit name of the traffic rule.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.TrafficArea.html">TrafficArea</a></dt>
+    <dd><p>The newly created traffic area.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_TrafficArea_Init_" data-uid="TruckLib.ScsMap.TrafficArea.Init*"></a>
+
+  <h3 id="TruckLib_ScsMap_TrafficArea_Init" data-uid="TruckLib.ScsMap.TrafficArea.Init">
+  Init()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/TrafficArea.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the item's properties to its default values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Init()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/TrafficArea.cs/#L15" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

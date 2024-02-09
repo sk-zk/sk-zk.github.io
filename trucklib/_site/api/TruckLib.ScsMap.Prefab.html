@@ -1,0 +1,1824 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Prefab | TruckLib </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Prefab | TruckLib ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/new/docfx-action/apiSpec/new?filename=TruckLib_ScsMap_Prefab.md&amp;value=---%0Auid%3A%20TruckLib.ScsMap.Prefab%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="TruckLib">
+            TruckLib
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="TruckLib.ScsMap.Prefab">
+
+
+
+  <h1 id="TruckLib_ScsMap_Prefab" data-uid="TruckLib.ScsMap.Prefab" class="text-break">
+Class Prefab  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="TruckLib.html">TruckLib</a>.<a class="xref" href="TruckLib.ScsMap.html">ScsMap</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>TruckLib.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>A model with associated game logic which attaches to the road network.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Prefab : MapItem, IMapItem, IMapObject</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="TruckLib.ScsMap.MapItem.html">MapItem</a></div>
+      <div><span class="xref">Prefab</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="TruckLib.ScsMap.IMapItem.html">IMapItem</a></div>
+      <div><a class="xref" href="TruckLib.ScsMap.IMapObject.html">IMapObject</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_ItemFile">MapItem.ItemFile</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_Uid">MapItem.Uid</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_DefaultLayer">MapItem.DefaultLayer</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_Layer">MapItem.Layer</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_ResolveNodeReference_TruckLib_ScsMap_INode_System_Collections_Generic_Dictionary_System_UInt64_TruckLib_ScsMap_INode__">MapItem.ResolveNodeReference(INode, Dictionary&lt;ulong, INode&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_ResolveNodeReferences_System_Collections_Generic_IList_TruckLib_ScsMap_INode__System_Collections_Generic_Dictionary_System_UInt64_TruckLib_ScsMap_INode__">MapItem.ResolveNodeReferences(IList&lt;INode&gt;, Dictionary&lt;ulong, INode&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="TruckLib.MiscExtensions.html#TruckLib_MiscExtensions_CloneItem__1___0_">MiscExtensions.CloneItem&lt;T&gt;(T)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="TruckLib_ScsMap_Prefab__ctor_" data-uid="TruckLib.ScsMap.Prefab.#ctor*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab__ctor" data-uid="TruckLib.ScsMap.Prefab.#ctor">
+  Prefab()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Prefab()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="TruckLib_ScsMap_Prefab_Activation_" data-uid="TruckLib.ScsMap.Prefab.Activation*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_Activation" data-uid="TruckLib.ScsMap.Prefab.Activation">
+  Activation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets if activation points are enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Activation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_AdditionalParts_" data-uid="TruckLib.ScsMap.Prefab.AdditionalParts*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_AdditionalParts" data-uid="TruckLib.ScsMap.Prefab.AdditionalParts">
+  AdditionalParts
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Unit names of enabled additional parts.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Token&gt; AdditionalParts { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="TruckLib.Token.html">Token</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_AiVehicles_" data-uid="TruckLib.ScsMap.Prefab.AiVehicles*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_AiVehicles" data-uid="TruckLib.ScsMap.Prefab.AiVehicles">
+  AiVehicles
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L199"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets if AI traffic can spawn on this prefab.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AiVehicles { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_Boundary_" data-uid="TruckLib.ScsMap.Prefab.Boundary*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_Boundary" data-uid="TruckLib.ScsMap.Prefab.Boundary">
+  Boundary
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets if this prefab has invisible walls around roads.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Boundary { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_Collision_" data-uid="TruckLib.ScsMap.Prefab.Collision*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_Collision" data-uid="TruckLib.ScsMap.Prefab.Collision">
+  Collision
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L235"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets if collision is enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Collision { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_CustomSemaphores_" data-uid="TruckLib.ScsMap.Prefab.CustomSemaphores*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_CustomSemaphores" data-uid="TruckLib.ScsMap.Prefab.CustomSemaphores">
+  CustomSemaphores
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Allows customization of selected semaphore profile
+by removing unwanted semaphore instances
+at complex crossroads consisting of multiple prefabs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CustomSemaphores { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_DefaultItemFile_" data-uid="TruckLib.ScsMap.Prefab.DefaultItemFile*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_DefaultItemFile" data-uid="TruckLib.ScsMap.Prefab.DefaultItemFile">
+  DefaultItemFile
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the default location for the item type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ItemFile DefaultItemFile { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.ItemFile.html">ItemFile</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_DefaultViewDistance_" data-uid="TruckLib.ScsMap.Prefab.DefaultViewDistance*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_DefaultViewDistance" data-uid="TruckLib.ScsMap.Prefab.DefaultViewDistance">
+  DefaultViewDistance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the default view distance of the item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override ushort DefaultViewDistance { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_DetailVegetation_" data-uid="TruckLib.ScsMap.Prefab.DetailVegetation*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_DetailVegetation" data-uid="TruckLib.ScsMap.Prefab.DetailVegetation">
+  DetailVegetation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets if detail vegetation (small clumps of grass etc.) is rendered
+if the selected terrain material supports it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DetailVegetation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_DlcGuard_" data-uid="TruckLib.ScsMap.Prefab.DlcGuard*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_DlcGuard" data-uid="TruckLib.ScsMap.Prefab.DlcGuard">
+  DlcGuard
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte DlcGuard { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_Ferry_" data-uid="TruckLib.ScsMap.Prefab.Ferry*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_Ferry" data-uid="TruckLib.ScsMap.Prefab.Ferry">
+  Ferry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="TruckLib.ScsMap.Ferry.html">Ferry</a> item this prefab is connected to, if applicable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IMapItem Ferry { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.IMapItem.html">IMapItem</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_IgnoreCutPlanes_" data-uid="TruckLib.ScsMap.Prefab.IgnoreCutPlanes*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_IgnoreCutPlanes" data-uid="TruckLib.ScsMap.Prefab.IgnoreCutPlanes">
+  IgnoreCutPlanes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets if this item will render behind a cut plane.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IgnoreCutPlanes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_IsFerryEntrance_" data-uid="TruckLib.ScsMap.Prefab.IsFerryEntrance*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_IsFerryEntrance" data-uid="TruckLib.ScsMap.Prefab.IsFerryEntrance">
+  IsFerryEntrance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L217"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets if this prefab is the last prefab before a <a class="xref" href="TruckLib.ScsMap.Ferry.html">Ferry</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsFerryEntrance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_IsStateBorder_" data-uid="TruckLib.ScsMap.Prefab.IsStateBorder*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_IsStateBorder" data-uid="TruckLib.ScsMap.Prefab.IsStateBorder">
+  IsStateBorder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L156"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Obsolete flag which was used to mark the prefab as a state border.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public bool IsStateBorder { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_IsTunnel_" data-uid="TruckLib.ScsMap.Prefab.IsTunnel*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_IsTunnel" data-uid="TruckLib.ScsMap.Prefab.IsTunnel">
+  IsTunnel
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets if the prefab is a tunnel.</p>
+<p>This will make AI vehicles turn on their headlights.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsTunnel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_ItemType_" data-uid="TruckLib.ScsMap.Prefab.ItemType*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_ItemType" data-uid="TruckLib.ScsMap.Prefab.ItemType">
+  ItemType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The item type ID used as identifier in the map format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ItemType ItemType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.ItemType.html">ItemType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_LeftHandTraffic_" data-uid="TruckLib.ScsMap.Prefab.LeftHandTraffic*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_LeftHandTraffic" data-uid="TruckLib.ScsMap.Prefab.LeftHandTraffic">
+  LeftHandTraffic
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets if the prefab uses left hand traffic.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool LeftHandTraffic { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_Look_" data-uid="TruckLib.ScsMap.Prefab.Look*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_Look" data-uid="TruckLib.ScsMap.Prefab.Look">
+  Look
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The model look.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Token Look { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.Token.html">Token</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_LowPolyVegetation_" data-uid="TruckLib.ScsMap.Prefab.LowPolyVegetation*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_LowPolyVegetation" data-uid="TruckLib.ScsMap.Prefab.LowPolyVegetation">
+  LowPolyVegetation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L190"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets if only flat textures are used as vegetation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool LowPolyVegetation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_Model_" data-uid="TruckLib.ScsMap.Prefab.Model*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_Model" data-uid="TruckLib.ScsMap.Prefab.Model">
+  Model
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The unit name of the prefab.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Token Model { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.Token.html">Token</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_Nodes_" data-uid="TruckLib.ScsMap.Prefab.Nodes*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_Nodes" data-uid="TruckLib.ScsMap.Prefab.Nodes">
+  Nodes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The map nodes of this prefab. The origin node will always be the first entry in this list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;INode&gt; Nodes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="TruckLib.ScsMap.INode.html">INode</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_Origin_" data-uid="TruckLib.ScsMap.Prefab.Origin*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_Origin" data-uid="TruckLib.ScsMap.Prefab.Origin">
+  Origin
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The index of the origin node.</p>
+<p>This defines which of the ppd nodes is the origin node.
+It is not an index for the <a class="xref" href="TruckLib.ScsMap.Prefab.html#TruckLib_ScsMap_Prefab_Nodes">Nodes</a> property,
+as the origin node is always the first node in that list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort Origin { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_PrefabNodes_" data-uid="TruckLib.ScsMap.Prefab.PrefabNodes*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_PrefabNodes" data-uid="TruckLib.ScsMap.Prefab.PrefabNodes">
+  PrefabNodes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Vegetation, terrain, and corner model properties for each prefab node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PrefabNode[] PrefabNodes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.PrefabNode.html">PrefabNode</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_RandomSeed_" data-uid="TruckLib.ScsMap.Prefab.RandomSeed*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_RandomSeed" data-uid="TruckLib.ScsMap.Prefab.RandomSeed">
+  RandomSeed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint RandomSeed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_Secret_" data-uid="TruckLib.ScsMap.Prefab.Secret*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_Secret" data-uid="TruckLib.ScsMap.Prefab.Secret">
+  Secret
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L244"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets if this prefab is only visible in the UI map once discovered.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Secret { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_SemaphoreProfile_" data-uid="TruckLib.ScsMap.Prefab.SemaphoreProfile*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_SemaphoreProfile" data-uid="TruckLib.ScsMap.Prefab.SemaphoreProfile">
+  SemaphoreProfile
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Token SemaphoreProfile { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.Token.html">Token</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_ShowInUiMap_" data-uid="TruckLib.ScsMap.Prefab.ShowInUiMap*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_ShowInUiMap" data-uid="TruckLib.ScsMap.Prefab.ShowInUiMap">
+  ShowInUiMap
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets if this prefab is displayed in the UI map.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ShowInUiMap { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_SlaveItems_" data-uid="TruckLib.ScsMap.Prefab.SlaveItems*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_SlaveItems" data-uid="TruckLib.ScsMap.Prefab.SlaveItems">
+  SlaveItems
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>A list of slave items owned by this prefab instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;IMapItem&gt; SlaveItems { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="TruckLib.ScsMap.IMapItem.html">IMapItem</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_TerrainShadows_" data-uid="TruckLib.ScsMap.Prefab.TerrainShadows*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_TerrainShadows" data-uid="TruckLib.ScsMap.Prefab.TerrainShadows">
+  TerrainShadows
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TerrainShadows { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_Variant_" data-uid="TruckLib.ScsMap.Prefab.Variant*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_Variant" data-uid="TruckLib.ScsMap.Prefab.Variant">
+  Variant
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The model variant.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Token Variant { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.Token.html">Token</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_VegetationParts_" data-uid="TruckLib.ScsMap.Prefab.VegetationParts*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_VegetationParts" data-uid="TruckLib.ScsMap.Prefab.VegetationParts">
+  VegetationParts
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;VegetationPart&gt; VegetationParts { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="TruckLib.ScsMap.VegetationPart.html">VegetationPart</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_VegetationSpheres_" data-uid="TruckLib.ScsMap.Prefab.VegetationSpheres*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_VegetationSpheres" data-uid="TruckLib.ScsMap.Prefab.VegetationSpheres">
+  VegetationSpheres
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Vegetation spheres of this prefab.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;VegetationSphere&gt; VegetationSpheres { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="TruckLib.ScsMap.VegetationSphere.html">VegetationSphere</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_ViewDistance_" data-uid="TruckLib.ScsMap.Prefab.ViewDistance*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_ViewDistance" data-uid="TruckLib.ScsMap.Prefab.ViewDistance">
+  ViewDistance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the view distance of the item in meters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort ViewDistance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_WaterReflection_" data-uid="TruckLib.ScsMap.Prefab.WaterReflection*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_WaterReflection" data-uid="TruckLib.ScsMap.Prefab.WaterReflection">
+  WaterReflection
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L226"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets if the item is reflected on water surfaces.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool WaterReflection { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="TruckLib_ScsMap_Prefab_Add_" data-uid="TruckLib.ScsMap.Prefab.Add*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_Add_TruckLib_ScsMap_IItemContainer_System_Numerics_Vector3_TruckLib_Token_TruckLib_Models_Ppd_PrefabDescriptor_System_Nullable_System_Numerics_Quaternion__" data-uid="TruckLib.ScsMap.Prefab.Add(TruckLib.ScsMap.IItemContainer,System.Numerics.Vector3,TruckLib.Token,TruckLib.Models.Ppd.PrefabDescriptor,System.Nullable{System.Numerics.Quaternion})">
+  Add(IItemContainer, Vector3, Token, PrefabDescriptor, Quaternion?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L288"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a prefab item from a prefab descriptor file and adds it to the map.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Prefab Add(IItemContainer map, Vector3 position, Token unitName, PrefabDescriptor ppd, Quaternion? rotation = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>map</code> <a class="xref" href="TruckLib.ScsMap.IItemContainer.html">IItemContainer</a></dt>
+    <dd><p>The map.</p>
+</dd>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd><p>The position of node 0.</p>
+</dd>
+    <dt><code>unitName</code> <a class="xref" href="TruckLib.Token.html">Token</a></dt>
+    <dd><p>The unit name of the prefab.</p>
+</dd>
+    <dt><code>ppd</code> <a class="xref" href="TruckLib.Models.Ppd.PrefabDescriptor.html">PrefabDescriptor</a></dt>
+    <dd><p>The prefab descriptor file defining the prefab.</p>
+</dd>
+    <dt><code>rotation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.quaternion">Quaternion</a>?</dt>
+    <dd><p>The rotation of the prefab.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.Prefab.html">Prefab</a></dt>
+    <dd><p>The newly created prefab.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_AppendRoad_" data-uid="TruckLib.ScsMap.Prefab.AppendRoad*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_AppendRoad_System_UInt16_System_Numerics_Vector3_TruckLib_Token_System_Single_System_Single_" data-uid="TruckLib.ScsMap.Prefab.AppendRoad(System.UInt16,System.Numerics.Vector3,TruckLib.Token,System.Single,System.Single)">
+  AppendRoad(ushort, Vector3, Token, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L306"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Appends a new road segment to a node of this prefab.
+<remarks>If the node is the origin node, it will be prepended instead.</remarks></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Road AppendRoad(ushort node, Vector3 forwardPos, Token type, float leftTerrainSize = 0, float rightTerrainSize = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>node</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd><p>The index of the prefab node
+(in <a class="xref" href="TruckLib.ScsMap.Prefab.html#TruckLib_ScsMap_Prefab_Nodes">Nodes</a>, not the .ppd file) to attach to.</p>
+</dd>
+    <dt><code>forwardPos</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd><p>The position of the road's forward node.</p>
+</dd>
+    <dt><code>type</code> <a class="xref" href="TruckLib.Token.html">Token</a></dt>
+    <dd><p>The unit name of the road.</p>
+</dd>
+    <dt><code>leftTerrainSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The left terrain size.</p>
+</dd>
+    <dt><code>rightTerrainSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The right terrain size.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.Road.html">Road</a></dt>
+    <dd><p>The newly created road.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_Attach_" data-uid="TruckLib.ScsMap.Prefab.Attach*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_Attach_System_UInt16_TruckLib_ScsMap_INode_" data-uid="TruckLib.ScsMap.Prefab.Attach(System.UInt16,TruckLib.ScsMap.INode)">
+  Attach(ushort, INode)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L394"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Attaches a node of a polyline item to the specified node of this prefab.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Attach(ushort prefabNode, INode itemNode)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>prefabNode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd><p>The index of the prefab node (in <a class="xref" href="TruckLib.ScsMap.Prefab.html#TruckLib_ScsMap_Prefab_Nodes">Nodes</a>, not the .ppd file)
+to attach to.</p>
+</dd>
+    <dt><code>itemNode</code> <a class="xref" href="TruckLib.ScsMap.INode.html">INode</a></dt>
+    <dd><p>The node of the polyline item to attach. This node will be deleted.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.indexoutofrangeexception">IndexOutOfRangeException</a></dt>
+    <dd><p>Thrown if the index exceeds the number of nodes.</p>
+</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>Thrown when attempting to merge the backward node of a road
+into the origin node of the prefab, which is not allowed.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_Attach_" data-uid="TruckLib.ScsMap.Prefab.Attach*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_Attach_System_UInt16_TruckLib_ScsMap_Prefab_System_UInt16_" data-uid="TruckLib.ScsMap.Prefab.Attach(System.UInt16,TruckLib.ScsMap.Prefab,System.UInt16)">
+  Attach(ushort, Prefab, ushort)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L411"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Attaches the prefab <code>p2</code> to a node of this prefab. <code>p2</code> will be moved such that the nodes
+which will be merged have the same position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Attach(ushort p1NodeIdx, Prefab p2, ushort p2NodeIdx)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>p1NodeIdx</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd><p>The index of the node of this prefab to which <code>p2</code> will be attached.</p>
+</dd>
+    <dt><code>p2</code> <a class="xref" href="TruckLib.ScsMap.Prefab.html">Prefab</a></dt>
+    <dd><p>The prefab to attach to this one.</p>
+</dd>
+    <dt><code>p2NodeIdx</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd><p>The index of the node of <code>p2</code> which will be attached to this prefab.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.indexoutofrangeexception">IndexOutOfRangeException</a></dt>
+    <dd><p>Thrown if one of the indices exceeds the number of nodes.</p>
+</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>Thrown if the nodes can't be connected.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_Attach_" data-uid="TruckLib.ScsMap.Prefab.Attach*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_Attach_TruckLib_ScsMap_PolylineItem_" data-uid="TruckLib.ScsMap.Prefab.Attach(TruckLib.ScsMap.PolylineItem)">
+  Attach(PolylineItem)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L363"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Finds the two closest nodes of this prefab and the given polyline item and attaches the
+polyline item to the prefab node.
+The leftover node of the polyline item will be deleted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Attach(PolylineItem item)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="TruckLib.ScsMap.PolylineItem.html">PolylineItem</a></dt>
+    <dd><p>The polyline item to attach.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_Attach_" data-uid="TruckLib.ScsMap.Prefab.Attach*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_Attach_TruckLib_ScsMap_Prefab_" data-uid="TruckLib.ScsMap.Prefab.Attach(TruckLib.ScsMap.Prefab)">
+  Attach(Prefab)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L458"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Finds the two closest nodes of this prefab and <code>p2</code>, moves <code>p2</code> such that
+the two nodes have the same position, and attaches it to this prefab.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Attach(Prefab p2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>p2</code> <a class="xref" href="TruckLib.ScsMap.Prefab.html">Prefab</a></dt>
+    <dd><p>The prefab to attach to this one.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>Thrown if the nodes can't be connected.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_ChangeOrigin_" data-uid="TruckLib.ScsMap.Prefab.ChangeOrigin*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_ChangeOrigin_System_UInt16_" data-uid="TruckLib.ScsMap.Prefab.ChangeOrigin(System.UInt16)">
+  ChangeOrigin(ushort)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L542"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Changes the origin of the prefab.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ChangeOrigin(ushort newOrigin)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newOrigin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd><p>The index (in the ppd file, not <a class="xref" href="TruckLib.ScsMap.Prefab.html#TruckLib_ScsMap_Prefab_Nodes">Nodes</a>) of the new origin.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.indexoutofrangeexception">IndexOutOfRangeException</a></dt>
+    <dd><p>Thrown if the index exceeds the number of nodes.</p>
+</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>Thrown if one or both of the nodes which would be
+affected by the opertation already have an item attached to them.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_Init_" data-uid="TruckLib.ScsMap.Prefab.Init*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_Init" data-uid="TruckLib.ScsMap.Prefab.Init">
+  Init()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L268"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the item's properties to its default values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Init()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_Move_" data-uid="TruckLib.ScsMap.Prefab.Move*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_Move_System_Numerics_Vector3_" data-uid="TruckLib.ScsMap.Prefab.Move(System.Numerics.Vector3)">
+  Move(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L486"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Moves the prefab to a different location. All other prefabs attached to this one
+will also be moved.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Move(Vector3 newPos)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newPos</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd><p>The new position of node 0.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_Move_" data-uid="TruckLib.ScsMap.Prefab.Move*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_Move_System_Numerics_Vector3_System_UInt16_" data-uid="TruckLib.ScsMap.Prefab.Move(System.Numerics.Vector3,System.UInt16)">
+  Move(Vector3, ushort)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L497"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Moves the prefab to a different location. All other prefabs attached to this one
+will also be moved.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Move(Vector3 newPos, ushort nodeIdx)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newPos</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd><p>The new position of the specified node.</p>
+</dd>
+    <dt><code>nodeIdx</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd><p>The index of the node which will assume the given position.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_Translate_" data-uid="TruckLib.ScsMap.Prefab.Translate*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_Translate_System_Numerics_Vector3_" data-uid="TruckLib.ScsMap.Prefab.Translate(System.Numerics.Vector3)">
+  Translate(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L508"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Translates the prefab by the given vector. All other prefabs attached to this one
+will also be moved.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Translate(Vector3 translation)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>translation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd><p>The translation vector.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Prefab_UpdateItemReferences_" data-uid="TruckLib.ScsMap.Prefab.UpdateItemReferences*"></a>
+
+  <h3 id="TruckLib_ScsMap_Prefab_UpdateItemReferences_System_Collections_Generic_Dictionary_System_UInt64_TruckLib_ScsMap_MapItem__" data-uid="TruckLib.ScsMap.Prefab.UpdateItemReferences(System.Collections.Generic.Dictionary{System.UInt64,TruckLib.ScsMap.MapItem})">
+  UpdateItemReferences(Dictionary&lt;ulong, MapItem&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L573"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Searches a list of all map items for the map items referenced by UID in
+this map item and updates the respective references. This is used for loading
+a map and does not need to be called by the user at any point.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateItemReferences(Dictionary&lt;ulong, MapItem&gt; allItems)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>allItems</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>, <a class="xref" href="TruckLib.ScsMap.MapItem.html">MapItem</a>&gt;</dt>
+    <dd><p>A dictionary of all items in the entire map.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/sk-zk/TruckLib/blob/docfx-action/TruckLib/ScsMap/Prefab.cs/#L16" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
