@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Sample #2: Prefabs | TruckLib </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Sample #2: Prefabs | TruckLib ">
+      
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/Samples/01-prefabs.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="TruckLib">
+            TruckLib
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="sample-2-prefabs">Sample #2: Prefabs</h1>
+
+<p>In this sample, we will take a look at how to add prefabs to a map. You can find the full source code at <code>Samples/01-Prefabs/Program.cs</code>.</p>
+<h2 id="instantiating-the-map">Instantiating the map</h2>
+<p>As before, we'll start with an empty map:</p>
+<pre><code class="lang-cs">using TruckLib.ScsMap;
+
+var map = new Map(&quot;example&quot;);
+</code></pre>
+<h2 id="extracting-game-assets">Extracting game assets</h2>
+<p>To be able to place a prefab, its control node positions and spawn points must be to known to the library,
+so the prefab descriptor (<code>.ppd</code>) file of the prefab model must be opened first. In this sample, we're going to
+fetch it directly from <code>base.scs</code> using the <code>HashFsReader</code> class:</p>
+<pre><code class="lang-cs">using TruckLib.HashFs;
+
+// (modify this path before running)
+var gameRoot = @&quot;E:\SteamLibrary\steamapps\common\Euro Truck Simulator 2&quot;;
+var baseScs = HashFsReader.Open(Path.Combine(gameRoot, &quot;base.scs&quot;));
+</code></pre>
+<p>Note that the game must be closed for this because it locks the file.</p>
+<h2 id="placing-a-prefab">Placing a prefab</h2>
+<p>Let's now place a company prefab. The first step is to extract the prefab descriptor:</p>
+<pre><code class="lang-cs">using TruckLib.Models.Ppd;
+
+var companyDescriptorFile = baseScs.Extract(&quot;/prefab2/car_dealer/car_dealer_01_fr.ppd&quot;);
+var companyDescriptor = PrefabDescriptor.Load(companyDescriptorFile);
+</code></pre>
+<p>With this, we can call the <code>Prefab.Add</code> method, which will add a prefab to the map.
+(This sample, like the first, uses hardcoded coordinates.)</p>
+<pre><code class="lang-cs">var company = Prefab.Add(map,
+    // position of node 0
+    new Vector3(55, 0, 70),
+    // Unit name
+    &quot;dlc_fr_14&quot;,
+    // .ppd
+    companyDescriptor,
+    // rotation (90° in this case)
+    Quaternion.CreateFromYawPitchRoll(1.5708f, 0, 0));
+company.Variant = &quot;bhv_fr&quot;;
+company.Look = &quot;green_fr&quot;;
+</code></pre>
+<p>The map now contains a <code>car_dealer_01_fr</code> prefab whose control node 0 is at
+(55, 0, 70) and which is rotated the same way as it would be if you set the
+rotation of said node to this value in the editor.</p>
+<p>The library has also automatically created the necessary <code>Company</code> slave item.</p>
+<p>Here's our progress so far:</p>
+<p><img src="../../images/01-wip1.png" alt=""></p>
+<h2 id="attaching-prefabs">Attaching prefabs</h2>
+<p>Secondly, we will place a T junction and attach it to the entrance of the company. As above, we will again extract the <code>.ppd</code> file:</p>
+<pre><code class="lang-cs">var crossingDescriptorFile = baseScs.Extract(&quot;/prefab2/cross_temp/fr/fr_r1_x_r1_t_narrow_tmpl.ppd&quot;);
+var crossingDescriptor = PrefabDescriptor.Load(crossingDescriptorFile);
+</code></pre>
+<p>We can now add the junction to the map:</p>
+<pre><code class="lang-cs">var crossing = Prefab.Add(map, company.Nodes[0].Position, &quot;387&quot;, 
+    crossingDescriptor, Quaternion.CreateFromYawPitchRoll(-1.5708f, 0, 0));
+crossing.Variant = &quot;shoul_fr_1&quot;;
+crossing.Look = &quot;gray_fr&quot;;
+crossing.AdditionalParts.Add(&quot;_midlines&quot;);
+</code></pre>
+<p>You will have noticed that we're placing the 0th control node of this prefab at the same coordinate
+as that of the company – this is because said node of the T junction is the stem, and therefore
+the arm we want to attach. We also set the rotation to -90° so that these two prefabs line up.</p>
+<p>We now have our two prefabs in the map and want to attach them. In this particular case, there's one
+additional step we need to take. Both of the nodes we wish to connect are node 0 of the prefab,
+and therefore the origin. Since two origin nodes can't be connected, we will change the origin of the
+junction:</p>
+<pre><code class="lang-cs">crossing.ChangeOrigin(1);
+</code></pre>
+<p>Now, the two prefabs can be connected:</p>
+<pre><code class="lang-cs">company.Attach(crossing);
+</code></pre>
+<p>In this case, we're using the &quot;lazy&quot; version of the <code>Attach</code> method which finds the closest two nodes
+of the two prefabs and merges them into one. In other scenarios, you will need to specify which nodes you
+would like to merge.</p>
+<p>Our map now looks like this:</p>
+<p><img src="../../images/01-wip2.png" alt=""></p>
+<h2 id="appending-and-attaching-road">Appending and attaching road</h2>
+<p>As a final step, we will take a look at how prefabs and polyline items can be connected.</p>
+<p>Something you can do is to grow a road out of a prefab node:</p>
+<pre><code class="lang-cs">var road = crossing.AppendRoad(1, new Vector3(100, 0, 88), &quot;template22&quot;);
+road.Right.Variant = &quot;broken&quot;;
+road.Right.LeftEdge = &quot;fr_sh_15&quot;;
+road.Right.RightEdge = &quot;fr_sh_15&quot;;
+road = road.Append(new Vector3(100, 0, 52)).Append(crossing.Nodes[0].Position);
+</code></pre>
+<p>One node of the prefab is still unconnected, so let's attach our road back to it:</p>
+<pre><code class="lang-cs">crossing.Attach(road);
+</code></pre>
+<p>This is once again the &quot;lazy&quot; method which merges the closest two nodes.</p>
+<h2 id="saving-the-map">Saving the map</h2>
+<p>This concludes the second sample. The following code will place the map in the <code>user_map</code> directory
+(if you're not on Windows, this will probably need to be adjusted):</p>
+<pre><code class="lang-cs">var documents = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+var userMap = Path.Combine(documents, &quot;Euro Truck Simulator 2/mod/user_map/map/&quot;);
+map.Save(userMap, true);
+</code></pre>
+<p>There should now be a <code>example.mbd</code> and a <code>example</code> directory in <code>mod/user_map/map</code> and
+you should be able to load the map in the editor.</p>
+<p>Remember to <strong>recompute the map</strong> (Map &gt; Recompute map). This is necessary because TruckLib
+does not calculate the bounding boxes of items.</p>
+<p>Here's our final result:</p>
+<p><img src="../../images/01-final.png" alt=""></p>
+<h2 id="further-reading">Further reading</h2>
+<ul>
+<li><a href="../TruckLib.ScsMap/prefabs.html">Working with prefabs</a></li>
+<li><a href="../TruckLib.HashFs/hashfs.html">Reading HashFS (.scs) archives</a></li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/Samples/01-prefabs.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

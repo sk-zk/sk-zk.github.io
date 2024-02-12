@@ -1824,6 +1824,16 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Samples/01-prefabs.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Samples/01-prefabs.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "docs/Samples/toc.yml",
       "output": {
@@ -1981,6 +1991,36 @@
       "output": {
         "resource": {
           "relative_path": "images/00-wip3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/01-final.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/01-final.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/01-wip1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/01-wip1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/01-wip2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/01-wip2.png"
         }
       },
       "version": ""

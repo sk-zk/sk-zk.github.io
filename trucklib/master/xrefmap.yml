@@ -17698,7 +17698,14 @@ references:
 - uid: TruckLib.ScsMap.RoadSide.VegetationCollision
   name: VegetationCollision
   href: api/TruckLib.ScsMap.RoadSide.html#TruckLib_ScsMap_RoadSide_VegetationCollision
-  commentId: F:TruckLib.ScsMap.RoadSide.VegetationCollision
+  commentId: P:TruckLib.ScsMap.RoadSide.VegetationCollision
+  fullName: TruckLib.ScsMap.RoadSide.VegetationCollision
+  nameWithType: RoadSide.VegetationCollision
+- uid: TruckLib.ScsMap.RoadSide.VegetationCollision*
+  name: VegetationCollision
+  href: api/TruckLib.ScsMap.RoadSide.html#TruckLib_ScsMap_RoadSide_VegetationCollision_
+  commentId: Overload:TruckLib.ScsMap.RoadSide.VegetationCollision
+  isSpec: "True"
   fullName: TruckLib.ScsMap.RoadSide.VegetationCollision
   nameWithType: RoadSide.VegetationCollision
 - uid: TruckLib.ScsMap.RoadTerrain
