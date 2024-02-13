@@ -9351,19 +9351,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Garage.Add
   nameWithType: Garage.Add
-- uid: TruckLib.ScsMap.Garage.BuyMode
-  name: BuyMode
-  href: api/TruckLib.ScsMap.Garage.html#TruckLib_ScsMap_Garage_BuyMode
-  commentId: P:TruckLib.ScsMap.Garage.BuyMode
-  fullName: TruckLib.ScsMap.Garage.BuyMode
-  nameWithType: Garage.BuyMode
-- uid: TruckLib.ScsMap.Garage.BuyMode*
-  name: BuyMode
-  href: api/TruckLib.ScsMap.Garage.html#TruckLib_ScsMap_Garage_BuyMode_
-  commentId: Overload:TruckLib.ScsMap.Garage.BuyMode
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.Garage.BuyMode
-  nameWithType: Garage.BuyMode
 - uid: TruckLib.ScsMap.Garage.CityName
   name: CityName
   href: api/TruckLib.ScsMap.Garage.html#TruckLib_ScsMap_Garage_CityName
@@ -9390,6 +9377,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Garage.Init
   nameWithType: Garage.Init
+- uid: TruckLib.ScsMap.Garage.IsBuyPoint
+  name: IsBuyPoint
+  href: api/TruckLib.ScsMap.Garage.html#TruckLib_ScsMap_Garage_IsBuyPoint
+  commentId: P:TruckLib.ScsMap.Garage.IsBuyPoint
+  fullName: TruckLib.ScsMap.Garage.IsBuyPoint
+  nameWithType: Garage.IsBuyPoint
+- uid: TruckLib.ScsMap.Garage.IsBuyPoint*
+  name: IsBuyPoint
+  href: api/TruckLib.ScsMap.Garage.html#TruckLib_ScsMap_Garage_IsBuyPoint_
+  commentId: Overload:TruckLib.ScsMap.Garage.IsBuyPoint
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Garage.IsBuyPoint
+  nameWithType: Garage.IsBuyPoint
 - uid: TruckLib.ScsMap.Garage.ItemType
   name: ItemType
   href: api/TruckLib.ScsMap.Garage.html#TruckLib_ScsMap_Garage_ItemType
