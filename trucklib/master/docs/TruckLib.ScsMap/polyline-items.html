@@ -113,6 +113,14 @@ road1.ForwardNode.Merge(road2.Node);
 // the other way around:
 road2.Node.Merge(road1.ForwardNode);
 </code></pre>
+<h2 id="disconnecting-two-polyline-items">Disconnecting two polyline items</h2>
+<p>You can disconnect two polyline items by calling <a class="xref" href="../../api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_Split_"><code>Split</code></a> on the node
+which connects them. For example, the following line of code will disconnect <code>road</code> from its forward item:</p>
+<pre><code class="lang-cs">INode newNode = road.ForwardNode.Split();
+</code></pre>
+<p>The method also returns the newly created node.</p>
+<h2 id="connectingdisconnecting-polyline-items-tofrom-prefabs">Connecting/disconnecting polyline items to/from prefabs</h2>
+<p>See <a href="prefabs.html">Prefabs</a>.</p>
 <h2 id="first-and-last-item">First and last item</h2>
 <p>To find the first or last item of a polyline chain given one of its members, call <a class="xref" href="../../api/TruckLib.ScsMap.PolylineItem.html#TruckLib_ScsMap_PolylineItem_FindFirstItem_"><code>FindFirstItem</code></a>
 or <a class="xref" href="../../api/TruckLib.ScsMap.PolylineItem.html#TruckLib_ScsMap_PolylineItem_FindLastItem_"><code>FindLastItem</code></a> respectively:</p>
@@ -120,7 +128,7 @@ or <a class="xref" href="../../api/TruckLib.ScsMap.PolylineItem.html#TruckLib_Sc
 PolylineItem end = road.FindLastItem();
 </code></pre>
 <p><code>start</code> and <code>end</code> are now the first and last polyline item of the chain <code>road</code> is a part of. Keep in mind that all polyline item types
-can attach to each other, so <code>start</code> end <code>end</code> are not guaranteed to be of type <a class="xref" href="../../api/TruckLib.ScsMap.Road.html"><code>Road</code></a>.</p>
+can attach to each other, so <code>start</code> end <code>end</code> are not guaranteed to be of the same type as <code>road</code>.</p>
 
 </article>
 

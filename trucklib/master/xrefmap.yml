@@ -10821,6 +10821,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.INode.Serialize
   nameWithType: INode.Serialize
+- uid: TruckLib.ScsMap.INode.Split
+  name: Split()
+  href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_Split
+  commentId: M:TruckLib.ScsMap.INode.Split
+  fullName: TruckLib.ScsMap.INode.Split()
+  nameWithType: INode.Split()
+- uid: TruckLib.ScsMap.INode.Split*
+  name: Split
+  href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_Split_
+  commentId: Overload:TruckLib.ScsMap.INode.Split
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.INode.Split
+  nameWithType: INode.Split
 - uid: TruckLib.ScsMap.INode.ToString
   name: ToString()
   href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_ToString
@@ -14945,6 +14958,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Node.Serialize
   nameWithType: Node.Serialize
+- uid: TruckLib.ScsMap.Node.Split
+  name: Split()
+  href: api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_Split
+  commentId: M:TruckLib.ScsMap.Node.Split
+  fullName: TruckLib.ScsMap.Node.Split()
+  nameWithType: Node.Split()
+- uid: TruckLib.ScsMap.Node.Split*
+  name: Split
+  href: api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_Split_
+  commentId: Overload:TruckLib.ScsMap.Node.Split
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Node.Split
+  nameWithType: Node.Split
 - uid: TruckLib.ScsMap.Node.ToString
   name: ToString()
   href: api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_ToString
