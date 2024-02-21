@@ -98,7 +98,7 @@ You can find the full source code at <code>Samples/02-RealRoad/Program.cs</code>
 WGS84 latitude/longitude coordinates describing the course of a road in Germany (© OpenStreetMap contributors).</p>
 <pre><code class="lang-cs">var coordinates = LoadCoordinates();
 </code></pre>
-<p>We'll gloss over <code>LoadCoordinates</code> here – it just loads the CSV file into a list of <code>GeographicCoordinate</code>s.</p>
+<p>We'll skip over <code>LoadCoordinates</code> here – it just loads the CSV file into a list of <code>GeographicCoordinate</code>s.</p>
 <h2 id="elevation">Elevation</h2>
 <p>The majority of map data you will encounter will not have elevation data present, so we must fetch it ourselves. In this case,
 we will use the <a href="https://github.com/dem-net/DEM.Net">DEM.Net</a> library, which has a simple interface for getting the elevation of
