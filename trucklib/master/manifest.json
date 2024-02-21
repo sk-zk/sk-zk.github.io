@@ -1834,6 +1834,16 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Samples/02-realroad.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Samples/02-realroad.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "docs/Samples/toc.yml",
       "output": {
@@ -2021,6 +2031,26 @@
       "output": {
         "resource": {
           "relative_path": "images/01-wip2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/02-data.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/02-data.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/02-final.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/02-final.png"
         }
       },
       "version": ""

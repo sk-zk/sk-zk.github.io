@@ -1,0 +1,261 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Sample #3: Real world data | TruckLib </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Sample #3: Real world data | TruckLib ">
+      
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/Samples/02-realroad.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="TruckLib">
+            TruckLib
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="sample-3-real-world-data">Sample #3: Real world data</h1>
+
+<p>This sample demonstrates one possible approach for importing the course of a real road into a map for the purpose
+of 1:1 mapping; in particular, it deals with the essential steps of fetching elevation data and projecting the points.
+You can find the full source code at <code>Samples/02-RealRoad/Program.cs</code>.</p>
+<h2 id="structs">Structs</h2>
+<p>For convenience, we define the structs <code>GeographicCoordinate</code> and <code>ProjectedCoordinate</code>.</p>
+<h2 id="loading-the-data">Loading the data</h2>
+<p><img src="../../images/02-data.png" alt=""></p>
+<p>Where you actually get the data from is out of scope for this sample, so I've provided a CSV file containing
+WGS84 latitude/longitude coordinates describing the course of a road in Germany (© OpenStreetMap contributors).</p>
+<pre><code class="lang-cs">var coordinates = LoadCoordinates();
+</code></pre>
+<p>We'll gloss over <code>LoadCoordinates</code> here – it just loads the CSV file into a list of <code>GeographicCoordinate</code>s.</p>
+<h2 id="elevation">Elevation</h2>
+<p>The majority of map data you will encounter will not have elevation data present, so we must fetch it ourselves. In this case,
+we will use the <a href="https://github.com/dem-net/DEM.Net">DEM.Net</a> library, which has a simple interface for getting the elevation of
+points from several freely available elevation models.</p>
+<p>DEM.Net uses the <code>Microsoft.Extensions.DependencyInjection</code> package, so to get an instance of the <code>ElevationService</code> class we need,
+we will create a class <code>ElevationProvider</code> whose constructor takes one as an argument and a static method which requests an instance
+of this class to be created:</p>
+<pre><code class="lang-cs">using DEM.Net.Core;
+using Microsoft.Extensions.DependencyInjection;
+
+namespace RealRoad
+{
+    internal class ElevationProvider
+    {
+        private readonly ElevationService elevationService;
+        private readonly DEMDataSet dataset = DEMDataSet.SRTM_GL1;
+
+        public static ElevationProvider Create()
+        {
+            var serviceCollection = new ServiceCollection();
+            serviceCollection.AddDemNetCore();
+            serviceCollection.AddTransient&lt;ElevationProvider&gt;();
+            var services = serviceCollection.BuildServiceProvider();
+            return services.GetService&lt;ElevationProvider&gt;();
+        }
+
+        public ElevationProvider(ElevationService elevationService)
+        {
+            this.elevationService = elevationService;
+        }
+}
+</code></pre>
+<p>We now add a method to this class which takes in the coordinates we just loaded and looks up the elevation at these points:</p>
+<pre><code class="lang-cs">public void SetElevations(List&lt;GeographicCoordinate&gt; points)
+{
+    var geoPoints = elevationService.GetPointsElevation(
+        points.Select(p =&gt; new GeoPoint(p.Latitude, p.Longitude)), 
+        dataset).ToList();
+    for (int i = 0; i &lt; points.Count; i++)
+    {
+        var point = points[i];
+        point.Height = geoPoints[i].Elevation ?? 0;
+        points[i] = point;
+    }
+}
+</code></pre>
+<p>Finally, we'll call it from Main:</p>
+<pre><code class="lang-cs">var elevationProvider = ElevationProvider.Create();
+elevationProvider.SetElevations(coordinates);
+</code></pre>
+<p>Our coordinates now have elevations associated with them. The first time you run this program, this step will take several seconds
+as DEM.Net needs to download the elevation model for the requested region. On any subsequent run, it will load a cached version from disk.</p>
+<p>Note that this is a primitive approach with one big disadvantage: we sample the elevation model at these particular points, but ignore elevation
+changes that happen in between. If you have, say, two points which are 200 m apart, and within that distance the road goes slightly uphill,
+then downhill again, this elevation change will not be present in your road.</p>
+<h2 id="projection">Projection</h2>
+<p>The real world is round, but game worlds are flat, so we need to project our points into that flat world. Here, we will use a transverse Mercator;
+more specifically, UTM zone 32N, which is the zone most of Germany falls into. The library
+<a href="https://www.nuget.org/packages/DotSpatial.Projections">DotSpatial.Projections</a> will do this for us.</p>
+<p>The method for projecting our list of coordinates looks like this:</p>
+<pre><code class="lang-cs">using DotSpatial.Projections;
+
+static List&lt;ProjectedCoordinate&gt; Project(IList&lt;GeographicCoordinate&gt; coordinates, 
+    ProjectionInfo source, ProjectionInfo dest)
+{
+    // Convert our list into the flat array expected by the library
+    var xy = new double[coordinates.Count * 2];
+    for (int i = 0; i &lt; coordinates.Count; i++)
+    {
+        xy[i * 2] = coordinates[i].Longitude;
+        xy[(i * 2) + 1] = coordinates[i].Latitude;
+    }
+
+    // Project the points in-place
+    Reproject.ReprojectPoints(xy, null, source, dest, 0, coordinates.Count);
+
+    // And convert it back into a list of ProjectedCoordinates
+    var points = new List&lt;ProjectedCoordinate&gt;(coordinates.Count);
+    for (int i = 0; i &lt; coordinates.Count; i++)
+    {
+        var easting = xy[i * 2];
+        var northing = xy[(i * 2) + 1];
+        points.Add(new ProjectedCoordinate(easting, northing, coordinates[i].Height));
+    }
+    return points;
+}
+</code></pre>
+<p>And this is how we call it:</p>
+<pre><code class="lang-cs">var sourceCrs = KnownCoordinateSystems.Geographic.World.WGS1984;
+var destCrs = KnownCoordinateSystems.Projected.UtmWgs1984.WGS1984UTMZone32N;
+var points = Project(coordinates, sourceCrs, destCrs);
+</code></pre>
+<p>We now have a list of <code>ProjectedCoordinate</code>s. Let's also define a center point for our map, which we will subtract
+from our projected coordinates later:</p>
+<pre><code class="lang-cs">var center = Project(new[] { new GeographicCoordinate(54.744101, 9.799639) },
+    sourceCrs, destCrs)[0];
+</code></pre>
+<h2 id="adding-the-road-to-the-map">Adding the road to the map</h2>
+<p>We now have everything we need to add the road to a map. As usual, we'll simply create an empty map:</p>
+<pre><code class="lang-cs">using TruckLib.ScsMap;
+
+var map = new Map(&quot;example&quot;);
+</code></pre>
+<p>The road items can be created as follows:</p>
+<pre><code class="lang-cs">var road = Road.Add(map,
+    PointToNodePosition(points[0], center),
+    PointToNodePosition(points[1], center),
+    &quot;ger1&quot;);
+
+for (int i = 2; i &lt; points.Count; i++)
+{
+    road = road.Append(PointToNodePosition(points[i], center));
+}
+</code></pre>
+<p>(The method <code>PointToNodePosition</code> simply subtracts the center point and inverts the Z coordinate.)</p>
+<p>The first road item needs to be explicitly created with the first and second point of the road. After this,
+you can call <code>Append</code> in a loop with the remaining points. Remember that a road item can only be appended to once, so
+make sure to assign the return value of <code>Append</code>, which is the newly created road item, back to <code>road</code>.</p>
+<h2 id="saving-the-map">Saving the map</h2>
+<p>You know the drill by now:</p>
+<pre><code class="lang-cs">var documents = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+var userMap = Path.Combine(documents, &quot;Euro Truck Simulator 2/mod/user_map/map/&quot;);
+map.Save(userMap, true);
+</code></pre>
+<p>Remember to <strong>recompute the map</strong> (Map &gt; Recompute map). This is necessary because TruckLib
+does not calculate the bounding boxes of items.</p>
+<p>This is what you should see:</p>
+<p><img src="../../images/02-final.png" alt=""></p>
+<h2 id="further-reading">Further reading</h2>
+<ul>
+<li><a href="00-simple.html">Sample #1: Simple example</a></li>
+<li><a href="/TruckLib.ScsMap/polyline-items.md">Working with polyline items</a></li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/Samples/02-realroad.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
