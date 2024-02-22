@@ -22044,12 +22044,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.Sii.SiiFile.Open
   nameWithType: SiiFile.Open
-- uid: TruckLib.Sii.SiiFile.Serialize
-  name: Serialize()
-  href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Serialize
-  commentId: M:TruckLib.Sii.SiiFile.Serialize
-  fullName: TruckLib.Sii.SiiFile.Serialize()
-  nameWithType: SiiFile.Serialize()
 - uid: TruckLib.Sii.SiiFile.Serialize(System.String)
   name: Serialize(string)
   href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Serialize_System_String_
@@ -22059,6 +22053,15 @@ references:
   fullName.vb: TruckLib.Sii.SiiFile.Serialize(String)
   nameWithType: SiiFile.Serialize(string)
   nameWithType.vb: SiiFile.Serialize(String)
+- uid: TruckLib.Sii.SiiFile.Serialize(System.String,System.String)
+  name: Serialize(string, string)
+  href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Serialize_System_String_System_String_
+  commentId: M:TruckLib.Sii.SiiFile.Serialize(System.String,System.String)
+  name.vb: Serialize(String, String)
+  fullName: TruckLib.Sii.SiiFile.Serialize(string, string)
+  fullName.vb: TruckLib.Sii.SiiFile.Serialize(String, String)
+  nameWithType: SiiFile.Serialize(string, string)
+  nameWithType.vb: SiiFile.Serialize(String, String)
 - uid: TruckLib.Sii.SiiFile.Serialize*
   name: Serialize
   href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Serialize_
