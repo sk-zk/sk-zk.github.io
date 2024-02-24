@@ -21901,12 +21901,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.Sii.MatFile.Open
   nameWithType: MatFile.Open
-- uid: TruckLib.Sii.MatFile.Serialize
-  name: Serialize()
-  href: api/TruckLib.Sii.MatFile.html#TruckLib_Sii_MatFile_Serialize
-  commentId: M:TruckLib.Sii.MatFile.Serialize
-  fullName: TruckLib.Sii.MatFile.Serialize()
-  nameWithType: MatFile.Serialize()
 - uid: TruckLib.Sii.MatFile.Serialize(System.String)
   name: Serialize(string)
   href: api/TruckLib.Sii.MatFile.html#TruckLib_Sii_MatFile_Serialize_System_String_
@@ -21916,6 +21910,15 @@ references:
   fullName.vb: TruckLib.Sii.MatFile.Serialize(String)
   nameWithType: MatFile.Serialize(string)
   nameWithType.vb: MatFile.Serialize(String)
+- uid: TruckLib.Sii.MatFile.Serialize(System.String,System.String)
+  name: Serialize(string, string)
+  href: api/TruckLib.Sii.MatFile.html#TruckLib_Sii_MatFile_Serialize_System_String_System_String_
+  commentId: M:TruckLib.Sii.MatFile.Serialize(System.String,System.String)
+  name.vb: Serialize(String, String)
+  fullName: TruckLib.Sii.MatFile.Serialize(string, string)
+  fullName.vb: TruckLib.Sii.MatFile.Serialize(String, String)
+  nameWithType: MatFile.Serialize(string, string)
+  nameWithType.vb: MatFile.Serialize(String, String)
 - uid: TruckLib.Sii.MatFile.Serialize*
   name: Serialize
   href: api/TruckLib.Sii.MatFile.html#TruckLib_Sii_MatFile_Serialize_
@@ -21923,6 +21926,85 @@ references:
   isSpec: "True"
   fullName: TruckLib.Sii.MatFile.Serialize
   nameWithType: MatFile.Serialize
+- uid: TruckLib.Sii.MatFile.Textures
+  name: Textures
+  href: api/TruckLib.Sii.MatFile.html#TruckLib_Sii_MatFile_Textures
+  commentId: P:TruckLib.Sii.MatFile.Textures
+  fullName: TruckLib.Sii.MatFile.Textures
+  nameWithType: MatFile.Textures
+- uid: TruckLib.Sii.MatFile.Textures*
+  name: Textures
+  href: api/TruckLib.Sii.MatFile.html#TruckLib_Sii_MatFile_Textures_
+  commentId: Overload:TruckLib.Sii.MatFile.Textures
+  isSpec: "True"
+  fullName: TruckLib.Sii.MatFile.Textures
+  nameWithType: MatFile.Textures
+- uid: TruckLib.Sii.OwnerPointer
+  name: OwnerPointer
+  href: api/TruckLib.Sii.OwnerPointer.html
+  commentId: T:TruckLib.Sii.OwnerPointer
+  fullName: TruckLib.Sii.OwnerPointer
+  nameWithType: OwnerPointer
+- uid: TruckLib.Sii.OwnerPointer.#ctor(System.String)
+  name: OwnerPointer(string)
+  href: api/TruckLib.Sii.OwnerPointer.html#TruckLib_Sii_OwnerPointer__ctor_System_String_
+  commentId: M:TruckLib.Sii.OwnerPointer.#ctor(System.String)
+  name.vb: New(String)
+  fullName: TruckLib.Sii.OwnerPointer.OwnerPointer(string)
+  fullName.vb: TruckLib.Sii.OwnerPointer.New(String)
+  nameWithType: OwnerPointer.OwnerPointer(string)
+  nameWithType.vb: OwnerPointer.New(String)
+- uid: TruckLib.Sii.OwnerPointer.#ctor*
+  name: OwnerPointer
+  href: api/TruckLib.Sii.OwnerPointer.html#TruckLib_Sii_OwnerPointer__ctor_
+  commentId: Overload:TruckLib.Sii.OwnerPointer.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TruckLib.Sii.OwnerPointer.OwnerPointer
+  fullName.vb: TruckLib.Sii.OwnerPointer.New
+  nameWithType: OwnerPointer.OwnerPointer
+  nameWithType.vb: OwnerPointer.New
+- uid: TruckLib.Sii.OwnerPointer.Value
+  name: Value
+  href: api/TruckLib.Sii.OwnerPointer.html#TruckLib_Sii_OwnerPointer_Value
+  commentId: P:TruckLib.Sii.OwnerPointer.Value
+  fullName: TruckLib.Sii.OwnerPointer.Value
+  nameWithType: OwnerPointer.Value
+- uid: TruckLib.Sii.OwnerPointer.Value*
+  name: Value
+  href: api/TruckLib.Sii.OwnerPointer.html#TruckLib_Sii_OwnerPointer_Value_
+  commentId: Overload:TruckLib.Sii.OwnerPointer.Value
+  isSpec: "True"
+  fullName: TruckLib.Sii.OwnerPointer.Value
+  nameWithType: OwnerPointer.Value
+- uid: TruckLib.Sii.OwnerPointer.op_Implicit(System.String)~TruckLib.Sii.OwnerPointer
+  name: implicit operator OwnerPointer(string)
+  href: api/TruckLib.Sii.OwnerPointer.html#TruckLib_Sii_OwnerPointer_op_Implicit_System_String__TruckLib_Sii_OwnerPointer
+  commentId: M:TruckLib.Sii.OwnerPointer.op_Implicit(System.String)~TruckLib.Sii.OwnerPointer
+  name.vb: CType(String)
+  fullName: TruckLib.Sii.OwnerPointer.implicit operator TruckLib.Sii.OwnerPointer(string)
+  fullName.vb: TruckLib.Sii.OwnerPointer.CType(String)
+  nameWithType: OwnerPointer.implicit operator OwnerPointer(string)
+  nameWithType.vb: OwnerPointer.CType(String)
+- uid: TruckLib.Sii.OwnerPointer.op_Implicit(TruckLib.Sii.OwnerPointer)~System.String
+  name: implicit operator string(OwnerPointer)
+  href: api/TruckLib.Sii.OwnerPointer.html#TruckLib_Sii_OwnerPointer_op_Implicit_TruckLib_Sii_OwnerPointer__System_String
+  commentId: M:TruckLib.Sii.OwnerPointer.op_Implicit(TruckLib.Sii.OwnerPointer)~System.String
+  name.vb: CType(OwnerPointer)
+  fullName: TruckLib.Sii.OwnerPointer.implicit operator string(TruckLib.Sii.OwnerPointer)
+  fullName.vb: TruckLib.Sii.OwnerPointer.CType(TruckLib.Sii.OwnerPointer)
+  nameWithType: OwnerPointer.implicit operator string(OwnerPointer)
+  nameWithType.vb: OwnerPointer.CType(OwnerPointer)
+- uid: TruckLib.Sii.OwnerPointer.op_Implicit*
+  name: implicit operator
+  href: api/TruckLib.Sii.OwnerPointer.html#TruckLib_Sii_OwnerPointer_op_Implicit_
+  commentId: Overload:TruckLib.Sii.OwnerPointer.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: TruckLib.Sii.OwnerPointer.implicit operator
+  fullName.vb: TruckLib.Sii.OwnerPointer.CType
+  nameWithType: OwnerPointer.implicit operator
+  nameWithType.vb: OwnerPointer.CType
 - uid: TruckLib.Sii.Placement
   name: Placement
   href: api/TruckLib.Sii.Placement.html
@@ -21999,19 +22081,6 @@ references:
   fullName.vb: TruckLib.Sii.SiiFile.New
   nameWithType: SiiFile.SiiFile
   nameWithType.vb: SiiFile.New
-- uid: TruckLib.Sii.SiiFile.GlobalScope
-  name: GlobalScope
-  href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_GlobalScope
-  commentId: P:TruckLib.Sii.SiiFile.GlobalScope
-  fullName: TruckLib.Sii.SiiFile.GlobalScope
-  nameWithType: SiiFile.GlobalScope
-- uid: TruckLib.Sii.SiiFile.GlobalScope*
-  name: GlobalScope
-  href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_GlobalScope_
-  commentId: Overload:TruckLib.Sii.SiiFile.GlobalScope
-  isSpec: "True"
-  fullName: TruckLib.Sii.SiiFile.GlobalScope
-  nameWithType: SiiFile.GlobalScope
 - uid: TruckLib.Sii.SiiFile.Load(System.String,System.String)
   name: Load(string, string)
   href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Load_System_String_System_String_
@@ -22044,6 +22113,22 @@ references:
   isSpec: "True"
   fullName: TruckLib.Sii.SiiFile.Open
   nameWithType: SiiFile.Open
+- uid: TruckLib.Sii.SiiFile.Save(System.String,System.String)
+  name: Save(string, string)
+  href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Save_System_String_System_String_
+  commentId: M:TruckLib.Sii.SiiFile.Save(System.String,System.String)
+  name.vb: Save(String, String)
+  fullName: TruckLib.Sii.SiiFile.Save(string, string)
+  fullName.vb: TruckLib.Sii.SiiFile.Save(String, String)
+  nameWithType: SiiFile.Save(string, string)
+  nameWithType.vb: SiiFile.Save(String, String)
+- uid: TruckLib.Sii.SiiFile.Save*
+  name: Save
+  href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Save_
+  commentId: Overload:TruckLib.Sii.SiiFile.Save
+  isSpec: "True"
+  fullName: TruckLib.Sii.SiiFile.Save
+  nameWithType: SiiFile.Save
 - uid: TruckLib.Sii.SiiFile.Serialize(System.String)
   name: Serialize(string)
   href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Serialize_System_String_
@@ -22053,15 +22138,6 @@ references:
   fullName.vb: TruckLib.Sii.SiiFile.Serialize(String)
   nameWithType: SiiFile.Serialize(string)
   nameWithType.vb: SiiFile.Serialize(String)
-- uid: TruckLib.Sii.SiiFile.Serialize(System.String,System.String)
-  name: Serialize(string, string)
-  href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Serialize_System_String_System_String_
-  commentId: M:TruckLib.Sii.SiiFile.Serialize(System.String,System.String)
-  name.vb: Serialize(String, String)
-  fullName: TruckLib.Sii.SiiFile.Serialize(string, string)
-  fullName.vb: TruckLib.Sii.SiiFile.Serialize(String, String)
-  nameWithType: SiiFile.Serialize(string, string)
-  nameWithType.vb: SiiFile.Serialize(String, String)
 - uid: TruckLib.Sii.SiiFile.Serialize*
   name: Serialize
   href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Serialize_
@@ -22082,31 +22158,38 @@ references:
   isSpec: "True"
   fullName: TruckLib.Sii.SiiFile.Units
   nameWithType: SiiFile.Units
-- uid: TruckLib.Sii.SiiParserException
-  name: SiiParserException
-  href: api/TruckLib.Sii.SiiParserException.html
-  commentId: T:TruckLib.Sii.SiiParserException
-  fullName: TruckLib.Sii.SiiParserException
-  nameWithType: SiiParserException
-- uid: TruckLib.Sii.SiiParserException.#ctor(System.String)
-  name: SiiParserException(string)
-  href: api/TruckLib.Sii.SiiParserException.html#TruckLib_Sii_SiiParserException__ctor_System_String_
-  commentId: M:TruckLib.Sii.SiiParserException.#ctor(System.String)
-  name.vb: New(String)
-  fullName: TruckLib.Sii.SiiParserException.SiiParserException(string)
-  fullName.vb: TruckLib.Sii.SiiParserException.New(String)
-  nameWithType: SiiParserException.SiiParserException(string)
-  nameWithType.vb: SiiParserException.New(String)
-- uid: TruckLib.Sii.SiiParserException.#ctor*
-  name: SiiParserException
-  href: api/TruckLib.Sii.SiiParserException.html#TruckLib_Sii_SiiParserException__ctor_
-  commentId: Overload:TruckLib.Sii.SiiParserException.#ctor
+- uid: TruckLib.Sii.Texture
+  name: Texture
+  href: api/TruckLib.Sii.Texture.html
+  commentId: T:TruckLib.Sii.Texture
+  fullName: TruckLib.Sii.Texture
+  nameWithType: Texture
+- uid: TruckLib.Sii.Texture.Attributes
+  name: Attributes
+  href: api/TruckLib.Sii.Texture.html#TruckLib_Sii_Texture_Attributes
+  commentId: P:TruckLib.Sii.Texture.Attributes
+  fullName: TruckLib.Sii.Texture.Attributes
+  nameWithType: Texture.Attributes
+- uid: TruckLib.Sii.Texture.Attributes*
+  name: Attributes
+  href: api/TruckLib.Sii.Texture.html#TruckLib_Sii_Texture_Attributes_
+  commentId: Overload:TruckLib.Sii.Texture.Attributes
   isSpec: "True"
-  name.vb: New
-  fullName: TruckLib.Sii.SiiParserException.SiiParserException
-  fullName.vb: TruckLib.Sii.SiiParserException.New
-  nameWithType: SiiParserException.SiiParserException
-  nameWithType.vb: SiiParserException.New
+  fullName: TruckLib.Sii.Texture.Attributes
+  nameWithType: Texture.Attributes
+- uid: TruckLib.Sii.Texture.Name
+  name: Name
+  href: api/TruckLib.Sii.Texture.html#TruckLib_Sii_Texture_Name
+  commentId: P:TruckLib.Sii.Texture.Name
+  fullName: TruckLib.Sii.Texture.Name
+  nameWithType: Texture.Name
+- uid: TruckLib.Sii.Texture.Name*
+  name: Name
+  href: api/TruckLib.Sii.Texture.html#TruckLib_Sii_Texture_Name_
+  commentId: Overload:TruckLib.Sii.Texture.Name
+  isSpec: "True"
+  fullName: TruckLib.Sii.Texture.Name
+  nameWithType: Texture.Name
 - uid: TruckLib.Sii.Unit
   name: Unit
   href: api/TruckLib.Sii.Unit.html

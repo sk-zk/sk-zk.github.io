@@ -217,6 +217,38 @@ Class MatFile  <a class="header-action link-secondary" title="View source" href=
 
 
 
+  <a id="TruckLib_Sii_MatFile_Textures_" data-uid="TruckLib.Sii.MatFile.Textures*"></a>
+
+  <h3 id="TruckLib_Sii_MatFile_Textures" data-uid="TruckLib.Sii.MatFile.Textures">
+  Textures
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/MatFile.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Textures of the shader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Texture&gt; Textures { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="TruckLib.Sii.Texture.html">Texture</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -225,7 +257,7 @@ Class MatFile  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="TruckLib_Sii_MatFile_Load_System_String_" data-uid="TruckLib.Sii.MatFile.Load(System.String)">
   Load(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/MatFile.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/MatFile.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Deserializes a string containing a .mat file.</p>
@@ -264,7 +296,7 @@ Class MatFile  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="TruckLib_Sii_MatFile_Open_System_String_" data-uid="TruckLib.Sii.MatFile.Open(System.String)">
   Open(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/MatFile.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/MatFile.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Opens a .mat file.</p>
@@ -301,9 +333,9 @@ Class MatFile  <a class="header-action link-secondary" title="View source" href=
 
   <a id="TruckLib_Sii_MatFile_Serialize_" data-uid="TruckLib.Sii.MatFile.Serialize*"></a>
 
-  <h3 id="TruckLib_Sii_MatFile_Serialize" data-uid="TruckLib.Sii.MatFile.Serialize">
-  Serialize()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/MatFile.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <h3 id="TruckLib_Sii_MatFile_Serialize_System_String_" data-uid="TruckLib.Sii.MatFile.Serialize(System.String)">
+  Serialize(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/MatFile.cs/#L49"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Serializes this object to a string.</p>
@@ -311,9 +343,15 @@ Class MatFile  <a class="header-action link-secondary" title="View source" href=
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Serialize()</code></pre>
+    <pre><code class="lang-csharp hljs">public string Serialize(string indentation = &quot;\t&quot;)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>indentation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The string which will be used as one level of indentation.</p>
+</dd>
+  </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
@@ -334,9 +372,9 @@ Class MatFile  <a class="header-action link-secondary" title="View source" href=
 
   <a id="TruckLib_Sii_MatFile_Serialize_" data-uid="TruckLib.Sii.MatFile.Serialize*"></a>
 
-  <h3 id="TruckLib_Sii_MatFile_Serialize_System_String_" data-uid="TruckLib.Sii.MatFile.Serialize(System.String)">
-  Serialize(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/MatFile.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <h3 id="TruckLib_Sii_MatFile_Serialize_System_String_System_String_" data-uid="TruckLib.Sii.MatFile.Serialize(System.String,System.String)">
+  Serialize(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/MatFile.cs/#L57"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Serializes this object and writes it to a file.</p>
@@ -344,13 +382,16 @@ Class MatFile  <a class="header-action link-secondary" title="View source" href=
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Serialize(string path)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Serialize(string path, string indentation = &quot;\t&quot;)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>The path of the file.</p>
+</dd>
+    <dt><code>indentation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The string which will be used as one level of indentation.</p>
 </dd>
   </dl>
 

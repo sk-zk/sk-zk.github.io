@@ -89,7 +89,7 @@
 
 
   <h1 id="TruckLib_Sii_SiiFile" data-uid="TruckLib.Sii.SiiFile" class="text-break">
-Class SiiFile  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/SiiFile.cs/#L15"><i class="bi bi-code-slash"></i></a>
+Class SiiFile  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/SiiFile.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -157,7 +157,7 @@ Class SiiFile  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="TruckLib_Sii_SiiFile__ctor" data-uid="TruckLib.Sii.SiiFile.#ctor">
   SiiFile()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/SiiFile.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/SiiFile.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Instantiates an empty SII file.</p>
@@ -184,43 +184,11 @@ Class SiiFile  <a class="header-action link-secondary" title="View source" href=
 </h2>
 
 
-  <a id="TruckLib_Sii_SiiFile_GlobalScope_" data-uid="TruckLib.Sii.SiiFile.GlobalScope*"></a>
-
-  <h3 id="TruckLib_Sii_SiiFile_GlobalScope" data-uid="TruckLib.Sii.SiiFile.GlobalScope">
-  GlobalScope
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/SiiFile.cs/#L30"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Gets or sets if the file has global scope (&quot;<code>SiiNunit {</code>&quot;) or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool GlobalScope { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="TruckLib_Sii_SiiFile_Units_" data-uid="TruckLib.Sii.SiiFile.Units*"></a>
 
   <h3 id="TruckLib_Sii_SiiFile_Units" data-uid="TruckLib.Sii.SiiFile.Units">
   Units
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/SiiFile.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/SiiFile.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Units in this file.</p>
@@ -256,7 +224,7 @@ Class SiiFile  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="TruckLib_Sii_SiiFile_Load_System_String_System_String_" data-uid="TruckLib.Sii.SiiFile.Load(System.String,System.String)">
   Load(string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/SiiFile.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/SiiFile.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Deserializes a string containing a SII file.</p>
@@ -300,7 +268,7 @@ have <code>@include</code>s.</p>
 
   <h3 id="TruckLib_Sii_SiiFile_Open_System_String_" data-uid="TruckLib.Sii.SiiFile.Open(System.String)">
   Open(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/SiiFile.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/SiiFile.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Opens a SII file.</p>
@@ -335,11 +303,47 @@ have <code>@include</code>s.</p>
 
 
 
+  <a id="TruckLib_Sii_SiiFile_Save_" data-uid="TruckLib.Sii.SiiFile.Save*"></a>
+
+  <h3 id="TruckLib_Sii_SiiFile_Save_System_String_System_String_" data-uid="TruckLib.Sii.SiiFile.Save(System.String,System.String)">
+  Save(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/SiiFile.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serializes this object and writes it to a file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Save(string path, string indentation = &quot;\t&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The output path.</p>
+</dd>
+    <dt><code>indentation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The indentation inside units.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="TruckLib_Sii_SiiFile_Serialize_" data-uid="TruckLib.Sii.SiiFile.Serialize*"></a>
 
   <h3 id="TruckLib_Sii_SiiFile_Serialize_System_String_" data-uid="TruckLib.Sii.SiiFile.Serialize(System.String)">
   Serialize(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/SiiFile.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/SiiFile.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Serializes this object to a string.</p>
@@ -353,7 +357,8 @@ have <code>@include</code>s.</p>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>indentation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The indentation inside units.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -372,45 +377,11 @@ have <code>@include</code>s.</p>
 
 
 
-  <a id="TruckLib_Sii_SiiFile_Serialize_" data-uid="TruckLib.Sii.SiiFile.Serialize*"></a>
-
-  <h3 id="TruckLib_Sii_SiiFile_Serialize_System_String_System_String_" data-uid="TruckLib.Sii.SiiFile.Serialize(System.String,System.String)">
-  Serialize(string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/SiiFile.cs/#L65"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Serializes this object and writes it to a file.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Serialize(string path, string indentation = &quot;\t&quot;)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-    <dt><code>indentation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/SiiFile.cs/#L15" class="edit-link">Edit this page</a>
+          <a href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Sii/SiiFile.cs/#L8" class="edit-link">Edit this page</a>
         </div>
 
 

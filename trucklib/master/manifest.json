@@ -1722,6 +1722,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Sii.OwnerPointer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Sii.OwnerPointer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TruckLib.Sii.Placement.yml",
       "output": {
         ".html": {
@@ -1742,10 +1752,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/TruckLib.Sii.SiiParserException.yml",
+      "source_relative_path": "api/TruckLib.Sii.Texture.yml",
       "output": {
         ".html": {
-          "relative_path": "api/TruckLib.Sii.SiiParserException.html"
+          "relative_path": "api/TruckLib.Sii.Texture.html"
         }
       },
       "version": ""
