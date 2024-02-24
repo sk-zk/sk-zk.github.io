@@ -1712,6 +1712,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Sii.LinkPointer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Sii.LinkPointer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TruckLib.Sii.MatFile.yml",
       "output": {
         ".html": {

@@ -21837,6 +21837,72 @@ references:
   commentId: N:TruckLib.Sii
   fullName: TruckLib.Sii
   nameWithType: TruckLib.Sii
+- uid: TruckLib.Sii.LinkPointer
+  name: LinkPointer
+  href: api/TruckLib.Sii.LinkPointer.html
+  commentId: T:TruckLib.Sii.LinkPointer
+  fullName: TruckLib.Sii.LinkPointer
+  nameWithType: LinkPointer
+- uid: TruckLib.Sii.LinkPointer.#ctor(System.String)
+  name: LinkPointer(string)
+  href: api/TruckLib.Sii.LinkPointer.html#TruckLib_Sii_LinkPointer__ctor_System_String_
+  commentId: M:TruckLib.Sii.LinkPointer.#ctor(System.String)
+  name.vb: New(String)
+  fullName: TruckLib.Sii.LinkPointer.LinkPointer(string)
+  fullName.vb: TruckLib.Sii.LinkPointer.New(String)
+  nameWithType: LinkPointer.LinkPointer(string)
+  nameWithType.vb: LinkPointer.New(String)
+- uid: TruckLib.Sii.LinkPointer.#ctor*
+  name: LinkPointer
+  href: api/TruckLib.Sii.LinkPointer.html#TruckLib_Sii_LinkPointer__ctor_
+  commentId: Overload:TruckLib.Sii.LinkPointer.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TruckLib.Sii.LinkPointer.LinkPointer
+  fullName.vb: TruckLib.Sii.LinkPointer.New
+  nameWithType: LinkPointer.LinkPointer
+  nameWithType.vb: LinkPointer.New
+- uid: TruckLib.Sii.LinkPointer.Value
+  name: Value
+  href: api/TruckLib.Sii.LinkPointer.html#TruckLib_Sii_LinkPointer_Value
+  commentId: P:TruckLib.Sii.LinkPointer.Value
+  fullName: TruckLib.Sii.LinkPointer.Value
+  nameWithType: LinkPointer.Value
+- uid: TruckLib.Sii.LinkPointer.Value*
+  name: Value
+  href: api/TruckLib.Sii.LinkPointer.html#TruckLib_Sii_LinkPointer_Value_
+  commentId: Overload:TruckLib.Sii.LinkPointer.Value
+  isSpec: "True"
+  fullName: TruckLib.Sii.LinkPointer.Value
+  nameWithType: LinkPointer.Value
+- uid: TruckLib.Sii.LinkPointer.op_Implicit(System.String)~TruckLib.Sii.LinkPointer
+  name: implicit operator LinkPointer(string)
+  href: api/TruckLib.Sii.LinkPointer.html#TruckLib_Sii_LinkPointer_op_Implicit_System_String__TruckLib_Sii_LinkPointer
+  commentId: M:TruckLib.Sii.LinkPointer.op_Implicit(System.String)~TruckLib.Sii.LinkPointer
+  name.vb: CType(String)
+  fullName: TruckLib.Sii.LinkPointer.implicit operator TruckLib.Sii.LinkPointer(string)
+  fullName.vb: TruckLib.Sii.LinkPointer.CType(String)
+  nameWithType: LinkPointer.implicit operator LinkPointer(string)
+  nameWithType.vb: LinkPointer.CType(String)
+- uid: TruckLib.Sii.LinkPointer.op_Implicit(TruckLib.Sii.LinkPointer)~System.String
+  name: implicit operator string(LinkPointer)
+  href: api/TruckLib.Sii.LinkPointer.html#TruckLib_Sii_LinkPointer_op_Implicit_TruckLib_Sii_LinkPointer__System_String
+  commentId: M:TruckLib.Sii.LinkPointer.op_Implicit(TruckLib.Sii.LinkPointer)~System.String
+  name.vb: CType(LinkPointer)
+  fullName: TruckLib.Sii.LinkPointer.implicit operator string(TruckLib.Sii.LinkPointer)
+  fullName.vb: TruckLib.Sii.LinkPointer.CType(TruckLib.Sii.LinkPointer)
+  nameWithType: LinkPointer.implicit operator string(LinkPointer)
+  nameWithType.vb: LinkPointer.CType(LinkPointer)
+- uid: TruckLib.Sii.LinkPointer.op_Implicit*
+  name: implicit operator
+  href: api/TruckLib.Sii.LinkPointer.html#TruckLib_Sii_LinkPointer_op_Implicit_
+  commentId: Overload:TruckLib.Sii.LinkPointer.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: TruckLib.Sii.LinkPointer.implicit operator
+  fullName.vb: TruckLib.Sii.LinkPointer.CType
+  nameWithType: LinkPointer.implicit operator
+  nameWithType.vb: LinkPointer.CType
 - uid: TruckLib.Sii.MatFile
   name: MatFile
   href: api/TruckLib.Sii.MatFile.html
