@@ -1964,6 +1964,29 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/TruckLib.Sii/sii.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/TruckLib.Sii/sii.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/TruckLib.Sii/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/TruckLib.Sii/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/TruckLib.Sii/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/introduction.md",
       "output": {
         ".html": {
