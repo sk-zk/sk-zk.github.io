@@ -150,13 +150,13 @@ namespace RealRoad
 elevationProvider.SetElevations(coordinates);
 </code></pre>
 <p>Our coordinates now have elevations associated with them. The first time you run this program, this step will take several seconds
-as DEM.Net needs to download the elevation model for the requested region. On any subsequent run, it will load a cached version from disk.</p>
+as DEM.Net needs to download the elevation model for the requested region; on any subsequent run, it will load a cached version from disk.</p>
 <p>Note that this is a primitive approach with one big disadvantage: we sample the elevation model at these particular points, but ignore elevation
-changes that happen in between. If you have, say, two points which are 200 m apart, and within that distance the road goes slightly uphill,
-then downhill again, this elevation change will not be present in your road.</p>
+changes that happen in between. If you had two points which are 200 m apart, and within that distance the road goes slightly uphill,
+then downhill again, this elevation change would not be present in the road items we are about to place.</p>
 <h2 id="projection">Projection</h2>
 <p>The real world is round, but game worlds are flat, so we need to project our points into that flat world. Here, we will use a transverse Mercator;
-more specifically, UTM zone 32N, which is the zone most of Germany falls into. The library
+more specifically, UTM zone 32N, which is the UTM zone most of Germany falls into. The library
 <a href="https://www.nuget.org/packages/DotSpatial.Projections">DotSpatial.Projections</a> will do this for us.</p>
 <p>The method for projecting our list of coordinates looks like this:</p>
 <pre><code class="lang-cs">using DotSpatial.Projections;
@@ -197,7 +197,9 @@ from our projected coordinates later:</p>
     sourceCrs, destCrs)[0];
 </code></pre>
 <h2 id="adding-the-road-to-the-map">Adding the road to the map</h2>
-<p>We now have everything we need to add the road to a map. As usual, we'll simply create an empty map:</p>
+<p>We now have everything we need to add the road to a map. For this step, I will assume that you have read
+<a href="00-simple.html">Sample #1: Simple example</a>.</p>
+<p>As with the previous samples, we'll create an empty map:</p>
 <pre><code class="lang-cs">using TruckLib.ScsMap;
 
 var map = new Map(&quot;example&quot;);
@@ -230,7 +232,7 @@ does not calculate the bounding boxes of items.</p>
 <h2 id="further-reading">Further reading</h2>
 <ul>
 <li><a href="00-simple.html">Sample #1: Simple example</a></li>
-<li><a href="/TruckLib.ScsMap/polyline-items.md">Working with polyline items</a></li>
+<li><a href="../TruckLib.ScsMap/polyline-items.html">Working with polyline items</a></li>
 </ul>
 
 </article>
