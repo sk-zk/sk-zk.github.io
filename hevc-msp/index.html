@@ -33,7 +33,7 @@ h1 {
 </article>
 <script>
 const element = document.querySelector("#answer");
-if (MediaSource.isTypeSupported('video/mp4;codecs="hev1.3.E.L120.90"')) {
+if (document.createElement("video").canPlayType('video/mp4; codecs="hev1.3.E.L120.90"') === "probably") {
   document.querySelector("#answer").innerText = "Yes!"
 } else {
   document.querySelector("#answer").innerText = "No"
