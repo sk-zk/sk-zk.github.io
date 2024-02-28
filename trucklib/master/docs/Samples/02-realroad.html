@@ -134,6 +134,8 @@ namespace RealRoad
 <p>We now add a method to this class which takes in the coordinates we just loaded and fetches the elevation of the road.</p>
 <pre><code class="lang-cs">public List&lt;GeographicCoordinate&gt; GetElevations(List&lt;GeographicCoordinate&gt; points)
 {
+    elevationService.DownloadMissingFiles(dataset, GetBoundingBoxContainingPoints(points));
+
     var geoPoints = elevationService.GetLineGeometryElevation(
         points.Select(p =&gt; new GeoPoint(p.Latitude, p.Longitude)), 
         dataset).ToList();
@@ -195,7 +197,7 @@ from our projected coordinates later:</p>
 <p>One last thing – the game has a minimum length for road segments, which in this case is 1.25 m.
 Further, segments shorter than 5 m often render quite strangely. Now that we have our projected points
 and know how long each segment will be in-game, we'll filter out these segments.
-(This file has enough LOC as it is, so for the sake of simplicity, we just remove any point for which
+(This sample has enough LOC as it is, so for the sake of simplicity, we just remove any point for which
 || n<sub>i</sub> - n<sub>i-1</sub> || &lt; 5.)</p>
 <pre><code class="lang-cs">points = RemoveShortSegments(points);
 </code></pre>
