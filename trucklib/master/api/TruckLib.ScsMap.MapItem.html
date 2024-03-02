@@ -534,8 +534,8 @@ Class MapItem  <a class="header-action link-secondary" title="View source" href=
 
   <a id="TruckLib_ScsMap_MapItem_ResolveNodeReference_" data-uid="TruckLib.ScsMap.MapItem.ResolveNodeReference*"></a>
 
-  <h3 id="TruckLib_ScsMap_MapItem_ResolveNodeReference_TruckLib_ScsMap_INode_System_Collections_Generic_Dictionary_System_UInt64_TruckLib_ScsMap_INode__" data-uid="TruckLib.ScsMap.MapItem.ResolveNodeReference(TruckLib.ScsMap.INode,System.Collections.Generic.Dictionary{System.UInt64,TruckLib.ScsMap.INode})">
-  ResolveNodeReference(INode, Dictionary&lt;ulong, INode&gt;)
+  <h3 id="TruckLib_ScsMap_MapItem_ResolveNodeReference_TruckLib_ScsMap_INode_System_Collections_Generic_IDictionary_System_UInt64_TruckLib_ScsMap_INode__" data-uid="TruckLib.ScsMap.MapItem.ResolveNodeReference(TruckLib.ScsMap.INode,System.Collections.Generic.IDictionary{System.UInt64,TruckLib.ScsMap.INode})">
+  ResolveNodeReference(INode, IDictionary&lt;ulong, INode&gt;)
   <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/MapItem.cs/#L168"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -547,7 +547,7 @@ does not contain it, <code class="paramref">node</code> is returned unmodified.<
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected static INode ResolveNodeReference(INode node, Dictionary&lt;ulong, INode&gt; allNodes)</code></pre>
+    <pre><code class="lang-csharp hljs">protected static INode ResolveNodeReference(INode node, IDictionary&lt;ulong, INode&gt; allNodes)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -555,7 +555,7 @@ does not contain it, <code class="paramref">node</code> is returned unmodified.<
     <dt><code>node</code> <a class="xref" href="TruckLib.ScsMap.INode.html">INode</a></dt>
     <dd><p>The node to resolve.</p>
 </dd>
-    <dt><code>allNodes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>, <a class="xref" href="TruckLib.ScsMap.INode.html">INode</a>&gt;</dt>
+    <dt><code>allNodes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>, <a class="xref" href="TruckLib.ScsMap.INode.html">INode</a>&gt;</dt>
     <dd><p>A dictionary of all nodes in the entire map.</p>
 </dd>
   </dl>
@@ -580,8 +580,8 @@ unmodified otherwise.</p>
 
   <a id="TruckLib_ScsMap_MapItem_ResolveNodeReferences_" data-uid="TruckLib.ScsMap.MapItem.ResolveNodeReferences*"></a>
 
-  <h3 id="TruckLib_ScsMap_MapItem_ResolveNodeReferences_System_Collections_Generic_IList_TruckLib_ScsMap_INode__System_Collections_Generic_Dictionary_System_UInt64_TruckLib_ScsMap_INode__" data-uid="TruckLib.ScsMap.MapItem.ResolveNodeReferences(System.Collections.Generic.IList{TruckLib.ScsMap.INode},System.Collections.Generic.Dictionary{System.UInt64,TruckLib.ScsMap.INode})">
-  ResolveNodeReferences(IList&lt;INode&gt;, Dictionary&lt;ulong, INode&gt;)
+  <h3 id="TruckLib_ScsMap_MapItem_ResolveNodeReferences_System_Collections_Generic_IList_TruckLib_ScsMap_INode__System_Collections_Generic_IDictionary_System_UInt64_TruckLib_ScsMap_INode__" data-uid="TruckLib.ScsMap.MapItem.ResolveNodeReferences(System.Collections.Generic.IList{TruckLib.ScsMap.INode},System.Collections.Generic.IDictionary{System.UInt64,TruckLib.ScsMap.INode})">
+  ResolveNodeReferences(IList&lt;INode&gt;, IDictionary&lt;ulong, INode&gt;)
   <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/MapItem.cs/#L184"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -593,7 +593,7 @@ Any node which is not an <a class="xref" href="TruckLib.ScsMap.UnresolvedNode.ht
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected static void ResolveNodeReferences(IList&lt;INode&gt; nodes, Dictionary&lt;ulong, INode&gt; allNodes)</code></pre>
+    <pre><code class="lang-csharp hljs">protected static void ResolveNodeReferences(IList&lt;INode&gt; nodes, IDictionary&lt;ulong, INode&gt; allNodes)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -601,7 +601,7 @@ Any node which is not an <a class="xref" href="TruckLib.ScsMap.UnresolvedNode.ht
     <dt><code>nodes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="TruckLib.ScsMap.INode.html">INode</a>&gt;</dt>
     <dd><p>The nodes to resolve.</p>
 </dd>
-    <dt><code>allNodes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>, <a class="xref" href="TruckLib.ScsMap.INode.html">INode</a>&gt;</dt>
+    <dt><code>allNodes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>, <a class="xref" href="TruckLib.ScsMap.INode.html">INode</a>&gt;</dt>
     <dd><p>A dictionary of all nodes in the entire map.</p>
 </dd>
   </dl>

@@ -6555,6 +6555,1194 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.CityArea.Width
   nameWithType: CityArea.Width
+- uid: TruckLib.ScsMap.Collections
+  name: TruckLib.ScsMap.Collections
+  href: api/TruckLib.ScsMap.Collections.html
+  commentId: N:TruckLib.ScsMap.Collections
+  fullName: TruckLib.ScsMap.Collections
+  nameWithType: TruckLib.ScsMap.Collections
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList
+  name: CurveLocatorList
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html
+  commentId: T:TruckLib.ScsMap.Collections.CurveLocatorList
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList
+  nameWithType: CurveLocatorList
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.#ctor(TruckLib.ScsMap.Curve)
+  name: CurveLocatorList(Curve)
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList__ctor_TruckLib_ScsMap_Curve_
+  commentId: M:TruckLib.ScsMap.Collections.CurveLocatorList.#ctor(TruckLib.ScsMap.Curve)
+  name.vb: New(Curve)
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.CurveLocatorList(TruckLib.ScsMap.Curve)
+  fullName.vb: TruckLib.ScsMap.Collections.CurveLocatorList.New(TruckLib.ScsMap.Curve)
+  nameWithType: CurveLocatorList.CurveLocatorList(Curve)
+  nameWithType.vb: CurveLocatorList.New(Curve)
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.#ctor*
+  name: CurveLocatorList
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList__ctor_
+  commentId: Overload:TruckLib.ScsMap.Collections.CurveLocatorList.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.CurveLocatorList
+  fullName.vb: TruckLib.ScsMap.Collections.CurveLocatorList.New
+  nameWithType: CurveLocatorList.CurveLocatorList
+  nameWithType.vb: CurveLocatorList.New
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.Add(System.Numerics.Vector3,System.Numerics.Quaternion)
+  name: Add(Vector3, Quaternion)
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_Add_System_Numerics_Vector3_System_Numerics_Quaternion_
+  commentId: M:TruckLib.ScsMap.Collections.CurveLocatorList.Add(System.Numerics.Vector3,System.Numerics.Quaternion)
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.Add(System.Numerics.Vector3, System.Numerics.Quaternion)
+  nameWithType: CurveLocatorList.Add(Vector3, Quaternion)
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.Add(TruckLib.ScsMap.INode)
+  name: Add(INode)
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_Add_TruckLib_ScsMap_INode_
+  commentId: M:TruckLib.ScsMap.Collections.CurveLocatorList.Add(TruckLib.ScsMap.INode)
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.Add(TruckLib.ScsMap.INode)
+  nameWithType: CurveLocatorList.Add(INode)
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.Add*
+  name: Add
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_Add_
+  commentId: Overload:TruckLib.ScsMap.Collections.CurveLocatorList.Add
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.Add
+  nameWithType: CurveLocatorList.Add
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.Clear
+  name: Clear()
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_Clear
+  commentId: M:TruckLib.ScsMap.Collections.CurveLocatorList.Clear
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.Clear()
+  nameWithType: CurveLocatorList.Clear()
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.Clear*
+  name: Clear
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_Clear_
+  commentId: Overload:TruckLib.ScsMap.Collections.CurveLocatorList.Clear
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.Clear
+  nameWithType: CurveLocatorList.Clear
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.Contains(TruckLib.ScsMap.INode)
+  name: Contains(INode)
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_Contains_TruckLib_ScsMap_INode_
+  commentId: M:TruckLib.ScsMap.Collections.CurveLocatorList.Contains(TruckLib.ScsMap.INode)
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.Contains(TruckLib.ScsMap.INode)
+  nameWithType: CurveLocatorList.Contains(INode)
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.Contains*
+  name: Contains
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_Contains_
+  commentId: Overload:TruckLib.ScsMap.Collections.CurveLocatorList.Contains
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.Contains
+  nameWithType: CurveLocatorList.Contains
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.CopyTo(TruckLib.ScsMap.INode[],System.Int32)
+  name: CopyTo(INode[], int)
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_CopyTo_TruckLib_ScsMap_INode___System_Int32_
+  commentId: M:TruckLib.ScsMap.Collections.CurveLocatorList.CopyTo(TruckLib.ScsMap.INode[],System.Int32)
+  name.vb: CopyTo(INode(), Integer)
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.CopyTo(TruckLib.ScsMap.INode[], int)
+  fullName.vb: TruckLib.ScsMap.Collections.CurveLocatorList.CopyTo(TruckLib.ScsMap.INode(), Integer)
+  nameWithType: CurveLocatorList.CopyTo(INode[], int)
+  nameWithType.vb: CurveLocatorList.CopyTo(INode(), Integer)
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.CopyTo*
+  name: CopyTo
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_CopyTo_
+  commentId: Overload:TruckLib.ScsMap.Collections.CurveLocatorList.CopyTo
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.CopyTo
+  nameWithType: CurveLocatorList.CopyTo
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.Count
+  name: Count
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_Count
+  commentId: P:TruckLib.ScsMap.Collections.CurveLocatorList.Count
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.Count
+  nameWithType: CurveLocatorList.Count
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.Count*
+  name: Count
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_Count_
+  commentId: Overload:TruckLib.ScsMap.Collections.CurveLocatorList.Count
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.Count
+  nameWithType: CurveLocatorList.Count
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.GetEnumerator
+  name: GetEnumerator()
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_GetEnumerator
+  commentId: M:TruckLib.ScsMap.Collections.CurveLocatorList.GetEnumerator
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.GetEnumerator()
+  nameWithType: CurveLocatorList.GetEnumerator()
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.GetEnumerator*
+  name: GetEnumerator
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_GetEnumerator_
+  commentId: Overload:TruckLib.ScsMap.Collections.CurveLocatorList.GetEnumerator
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.GetEnumerator
+  nameWithType: CurveLocatorList.GetEnumerator
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.IndexOf(TruckLib.ScsMap.INode)
+  name: IndexOf(INode)
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_IndexOf_TruckLib_ScsMap_INode_
+  commentId: M:TruckLib.ScsMap.Collections.CurveLocatorList.IndexOf(TruckLib.ScsMap.INode)
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.IndexOf(TruckLib.ScsMap.INode)
+  nameWithType: CurveLocatorList.IndexOf(INode)
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.IndexOf*
+  name: IndexOf
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_IndexOf_
+  commentId: Overload:TruckLib.ScsMap.Collections.CurveLocatorList.IndexOf
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.IndexOf
+  nameWithType: CurveLocatorList.IndexOf
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.Insert(System.Int32,System.Numerics.Vector3,System.Numerics.Quaternion)
+  name: Insert(int, Vector3, Quaternion)
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_Insert_System_Int32_System_Numerics_Vector3_System_Numerics_Quaternion_
+  commentId: M:TruckLib.ScsMap.Collections.CurveLocatorList.Insert(System.Int32,System.Numerics.Vector3,System.Numerics.Quaternion)
+  name.vb: Insert(Integer, Vector3, Quaternion)
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.Insert(int, System.Numerics.Vector3, System.Numerics.Quaternion)
+  fullName.vb: TruckLib.ScsMap.Collections.CurveLocatorList.Insert(Integer, System.Numerics.Vector3, System.Numerics.Quaternion)
+  nameWithType: CurveLocatorList.Insert(int, Vector3, Quaternion)
+  nameWithType.vb: CurveLocatorList.Insert(Integer, Vector3, Quaternion)
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.Insert(System.Int32,TruckLib.ScsMap.INode)
+  name: Insert(int, INode)
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_Insert_System_Int32_TruckLib_ScsMap_INode_
+  commentId: M:TruckLib.ScsMap.Collections.CurveLocatorList.Insert(System.Int32,TruckLib.ScsMap.INode)
+  name.vb: Insert(Integer, INode)
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.Insert(int, TruckLib.ScsMap.INode)
+  fullName.vb: TruckLib.ScsMap.Collections.CurveLocatorList.Insert(Integer, TruckLib.ScsMap.INode)
+  nameWithType: CurveLocatorList.Insert(int, INode)
+  nameWithType.vb: CurveLocatorList.Insert(Integer, INode)
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.Insert*
+  name: Insert
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_Insert_
+  commentId: Overload:TruckLib.ScsMap.Collections.CurveLocatorList.Insert
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.Insert
+  nameWithType: CurveLocatorList.Insert
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.IsReadOnly
+  name: IsReadOnly
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_IsReadOnly
+  commentId: P:TruckLib.ScsMap.Collections.CurveLocatorList.IsReadOnly
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.IsReadOnly
+  nameWithType: CurveLocatorList.IsReadOnly
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.IsReadOnly*
+  name: IsReadOnly
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_IsReadOnly_
+  commentId: Overload:TruckLib.ScsMap.Collections.CurveLocatorList.IsReadOnly
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.IsReadOnly
+  nameWithType: CurveLocatorList.IsReadOnly
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.Item(System.Int32)
+  name: this[int]
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_Item_System_Int32_
+  commentId: P:TruckLib.ScsMap.Collections.CurveLocatorList.Item(System.Int32)
+  name.vb: this[](Integer)
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.this[int]
+  fullName.vb: TruckLib.ScsMap.Collections.CurveLocatorList.this[](Integer)
+  nameWithType: CurveLocatorList.this[int]
+  nameWithType.vb: CurveLocatorList.this[](Integer)
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.Item*
+  name: this
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_Item_
+  commentId: Overload:TruckLib.ScsMap.Collections.CurveLocatorList.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.this
+  fullName.vb: TruckLib.ScsMap.Collections.CurveLocatorList.this[]
+  nameWithType: CurveLocatorList.this
+  nameWithType.vb: CurveLocatorList.this[]
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.MaxSize
+  name: MaxSize
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_MaxSize
+  commentId: F:TruckLib.ScsMap.Collections.CurveLocatorList.MaxSize
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.MaxSize
+  nameWithType: CurveLocatorList.MaxSize
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.Parent
+  name: Parent
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_Parent
+  commentId: P:TruckLib.ScsMap.Collections.CurveLocatorList.Parent
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.Parent
+  nameWithType: CurveLocatorList.Parent
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.Parent*
+  name: Parent
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_Parent_
+  commentId: Overload:TruckLib.ScsMap.Collections.CurveLocatorList.Parent
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.Parent
+  nameWithType: CurveLocatorList.Parent
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.Remove(TruckLib.ScsMap.INode)
+  name: Remove(INode)
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_Remove_TruckLib_ScsMap_INode_
+  commentId: M:TruckLib.ScsMap.Collections.CurveLocatorList.Remove(TruckLib.ScsMap.INode)
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.Remove(TruckLib.ScsMap.INode)
+  nameWithType: CurveLocatorList.Remove(INode)
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.Remove*
+  name: Remove
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_Remove_
+  commentId: Overload:TruckLib.ScsMap.Collections.CurveLocatorList.Remove
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.Remove
+  nameWithType: CurveLocatorList.Remove
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.RemoveAt(System.Int32)
+  name: RemoveAt(int)
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_RemoveAt_System_Int32_
+  commentId: M:TruckLib.ScsMap.Collections.CurveLocatorList.RemoveAt(System.Int32)
+  name.vb: RemoveAt(Integer)
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.RemoveAt(int)
+  fullName.vb: TruckLib.ScsMap.Collections.CurveLocatorList.RemoveAt(Integer)
+  nameWithType: CurveLocatorList.RemoveAt(int)
+  nameWithType.vb: CurveLocatorList.RemoveAt(Integer)
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.RemoveAt*
+  name: RemoveAt
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_RemoveAt_
+  commentId: Overload:TruckLib.ScsMap.Collections.CurveLocatorList.RemoveAt
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.RemoveAt
+  nameWithType: CurveLocatorList.RemoveAt
+- uid: TruckLib.ScsMap.Collections.FarModelDataList
+  name: FarModelDataList
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html
+  commentId: T:TruckLib.ScsMap.Collections.FarModelDataList
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList
+  nameWithType: FarModelDataList
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.#ctor(TruckLib.ScsMap.FarModel)
+  name: FarModelDataList(FarModel)
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList__ctor_TruckLib_ScsMap_FarModel_
+  commentId: M:TruckLib.ScsMap.Collections.FarModelDataList.#ctor(TruckLib.ScsMap.FarModel)
+  name.vb: New(FarModel)
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.FarModelDataList(TruckLib.ScsMap.FarModel)
+  fullName.vb: TruckLib.ScsMap.Collections.FarModelDataList.New(TruckLib.ScsMap.FarModel)
+  nameWithType: FarModelDataList.FarModelDataList(FarModel)
+  nameWithType.vb: FarModelDataList.New(FarModel)
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.#ctor*
+  name: FarModelDataList
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList__ctor_
+  commentId: Overload:TruckLib.ScsMap.Collections.FarModelDataList.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.FarModelDataList
+  fullName.vb: TruckLib.ScsMap.Collections.FarModelDataList.New
+  nameWithType: FarModelDataList.FarModelDataList
+  nameWithType.vb: FarModelDataList.New
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.Add(System.Numerics.Vector3,TruckLib.Token,System.Numerics.Vector3)
+  name: Add(Vector3, Token, Vector3)
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_Add_System_Numerics_Vector3_TruckLib_Token_System_Numerics_Vector3_
+  commentId: M:TruckLib.ScsMap.Collections.FarModelDataList.Add(System.Numerics.Vector3,TruckLib.Token,System.Numerics.Vector3)
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.Add(System.Numerics.Vector3, TruckLib.Token, System.Numerics.Vector3)
+  nameWithType: FarModelDataList.Add(Vector3, Token, Vector3)
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.Add(TruckLib.ScsMap.FarModelData)
+  name: Add(FarModelData)
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_Add_TruckLib_ScsMap_FarModelData_
+  commentId: M:TruckLib.ScsMap.Collections.FarModelDataList.Add(TruckLib.ScsMap.FarModelData)
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.Add(TruckLib.ScsMap.FarModelData)
+  nameWithType: FarModelDataList.Add(FarModelData)
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.Add*
+  name: Add
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_Add_
+  commentId: Overload:TruckLib.ScsMap.Collections.FarModelDataList.Add
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.Add
+  nameWithType: FarModelDataList.Add
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.Clear
+  name: Clear()
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_Clear
+  commentId: M:TruckLib.ScsMap.Collections.FarModelDataList.Clear
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.Clear()
+  nameWithType: FarModelDataList.Clear()
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.Clear*
+  name: Clear
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_Clear_
+  commentId: Overload:TruckLib.ScsMap.Collections.FarModelDataList.Clear
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.Clear
+  nameWithType: FarModelDataList.Clear
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.Contains(TruckLib.ScsMap.FarModelData)
+  name: Contains(FarModelData)
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_Contains_TruckLib_ScsMap_FarModelData_
+  commentId: M:TruckLib.ScsMap.Collections.FarModelDataList.Contains(TruckLib.ScsMap.FarModelData)
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.Contains(TruckLib.ScsMap.FarModelData)
+  nameWithType: FarModelDataList.Contains(FarModelData)
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.Contains*
+  name: Contains
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_Contains_
+  commentId: Overload:TruckLib.ScsMap.Collections.FarModelDataList.Contains
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.Contains
+  nameWithType: FarModelDataList.Contains
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.CopyTo(TruckLib.ScsMap.FarModelData[],System.Int32)
+  name: CopyTo(FarModelData[], int)
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_CopyTo_TruckLib_ScsMap_FarModelData___System_Int32_
+  commentId: M:TruckLib.ScsMap.Collections.FarModelDataList.CopyTo(TruckLib.ScsMap.FarModelData[],System.Int32)
+  name.vb: CopyTo(FarModelData(), Integer)
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.CopyTo(TruckLib.ScsMap.FarModelData[], int)
+  fullName.vb: TruckLib.ScsMap.Collections.FarModelDataList.CopyTo(TruckLib.ScsMap.FarModelData(), Integer)
+  nameWithType: FarModelDataList.CopyTo(FarModelData[], int)
+  nameWithType.vb: FarModelDataList.CopyTo(FarModelData(), Integer)
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.CopyTo*
+  name: CopyTo
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_CopyTo_
+  commentId: Overload:TruckLib.ScsMap.Collections.FarModelDataList.CopyTo
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.CopyTo
+  nameWithType: FarModelDataList.CopyTo
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.Count
+  name: Count
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_Count
+  commentId: P:TruckLib.ScsMap.Collections.FarModelDataList.Count
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.Count
+  nameWithType: FarModelDataList.Count
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.Count*
+  name: Count
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_Count_
+  commentId: Overload:TruckLib.ScsMap.Collections.FarModelDataList.Count
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.Count
+  nameWithType: FarModelDataList.Count
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.GetEnumerator
+  name: GetEnumerator()
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_GetEnumerator
+  commentId: M:TruckLib.ScsMap.Collections.FarModelDataList.GetEnumerator
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.GetEnumerator()
+  nameWithType: FarModelDataList.GetEnumerator()
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.GetEnumerator*
+  name: GetEnumerator
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_GetEnumerator_
+  commentId: Overload:TruckLib.ScsMap.Collections.FarModelDataList.GetEnumerator
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.GetEnumerator
+  nameWithType: FarModelDataList.GetEnumerator
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.IndexOf(TruckLib.ScsMap.FarModelData)
+  name: IndexOf(FarModelData)
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_IndexOf_TruckLib_ScsMap_FarModelData_
+  commentId: M:TruckLib.ScsMap.Collections.FarModelDataList.IndexOf(TruckLib.ScsMap.FarModelData)
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.IndexOf(TruckLib.ScsMap.FarModelData)
+  nameWithType: FarModelDataList.IndexOf(FarModelData)
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.IndexOf*
+  name: IndexOf
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_IndexOf_
+  commentId: Overload:TruckLib.ScsMap.Collections.FarModelDataList.IndexOf
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.IndexOf
+  nameWithType: FarModelDataList.IndexOf
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.Insert(System.Int32,System.Numerics.Vector3,TruckLib.Token,System.Numerics.Vector3)
+  name: Insert(int, Vector3, Token, Vector3)
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_Insert_System_Int32_System_Numerics_Vector3_TruckLib_Token_System_Numerics_Vector3_
+  commentId: M:TruckLib.ScsMap.Collections.FarModelDataList.Insert(System.Int32,System.Numerics.Vector3,TruckLib.Token,System.Numerics.Vector3)
+  name.vb: Insert(Integer, Vector3, Token, Vector3)
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.Insert(int, System.Numerics.Vector3, TruckLib.Token, System.Numerics.Vector3)
+  fullName.vb: TruckLib.ScsMap.Collections.FarModelDataList.Insert(Integer, System.Numerics.Vector3, TruckLib.Token, System.Numerics.Vector3)
+  nameWithType: FarModelDataList.Insert(int, Vector3, Token, Vector3)
+  nameWithType.vb: FarModelDataList.Insert(Integer, Vector3, Token, Vector3)
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.Insert(System.Int32,TruckLib.ScsMap.FarModelData)
+  name: Insert(int, FarModelData)
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_Insert_System_Int32_TruckLib_ScsMap_FarModelData_
+  commentId: M:TruckLib.ScsMap.Collections.FarModelDataList.Insert(System.Int32,TruckLib.ScsMap.FarModelData)
+  name.vb: Insert(Integer, FarModelData)
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.Insert(int, TruckLib.ScsMap.FarModelData)
+  fullName.vb: TruckLib.ScsMap.Collections.FarModelDataList.Insert(Integer, TruckLib.ScsMap.FarModelData)
+  nameWithType: FarModelDataList.Insert(int, FarModelData)
+  nameWithType.vb: FarModelDataList.Insert(Integer, FarModelData)
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.Insert*
+  name: Insert
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_Insert_
+  commentId: Overload:TruckLib.ScsMap.Collections.FarModelDataList.Insert
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.Insert
+  nameWithType: FarModelDataList.Insert
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.IsReadOnly
+  name: IsReadOnly
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_IsReadOnly
+  commentId: P:TruckLib.ScsMap.Collections.FarModelDataList.IsReadOnly
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.IsReadOnly
+  nameWithType: FarModelDataList.IsReadOnly
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.IsReadOnly*
+  name: IsReadOnly
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_IsReadOnly_
+  commentId: Overload:TruckLib.ScsMap.Collections.FarModelDataList.IsReadOnly
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.IsReadOnly
+  nameWithType: FarModelDataList.IsReadOnly
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.Item(System.Int32)
+  name: this[int]
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_Item_System_Int32_
+  commentId: P:TruckLib.ScsMap.Collections.FarModelDataList.Item(System.Int32)
+  name.vb: this[](Integer)
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.this[int]
+  fullName.vb: TruckLib.ScsMap.Collections.FarModelDataList.this[](Integer)
+  nameWithType: FarModelDataList.this[int]
+  nameWithType.vb: FarModelDataList.this[](Integer)
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.Item*
+  name: this
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_Item_
+  commentId: Overload:TruckLib.ScsMap.Collections.FarModelDataList.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.this
+  fullName.vb: TruckLib.ScsMap.Collections.FarModelDataList.this[]
+  nameWithType: FarModelDataList.this
+  nameWithType.vb: FarModelDataList.this[]
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.Parent
+  name: Parent
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_Parent
+  commentId: P:TruckLib.ScsMap.Collections.FarModelDataList.Parent
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.Parent
+  nameWithType: FarModelDataList.Parent
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.Parent*
+  name: Parent
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_Parent_
+  commentId: Overload:TruckLib.ScsMap.Collections.FarModelDataList.Parent
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.Parent
+  nameWithType: FarModelDataList.Parent
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.Remove(TruckLib.ScsMap.FarModelData)
+  name: Remove(FarModelData)
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_Remove_TruckLib_ScsMap_FarModelData_
+  commentId: M:TruckLib.ScsMap.Collections.FarModelDataList.Remove(TruckLib.ScsMap.FarModelData)
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.Remove(TruckLib.ScsMap.FarModelData)
+  nameWithType: FarModelDataList.Remove(FarModelData)
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.Remove*
+  name: Remove
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_Remove_
+  commentId: Overload:TruckLib.ScsMap.Collections.FarModelDataList.Remove
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.Remove
+  nameWithType: FarModelDataList.Remove
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.RemoveAt(System.Int32)
+  name: RemoveAt(int)
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_RemoveAt_System_Int32_
+  commentId: M:TruckLib.ScsMap.Collections.FarModelDataList.RemoveAt(System.Int32)
+  name.vb: RemoveAt(Integer)
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.RemoveAt(int)
+  fullName.vb: TruckLib.ScsMap.Collections.FarModelDataList.RemoveAt(Integer)
+  nameWithType: FarModelDataList.RemoveAt(int)
+  nameWithType.vb: FarModelDataList.RemoveAt(Integer)
+- uid: TruckLib.ScsMap.Collections.FarModelDataList.RemoveAt*
+  name: RemoveAt
+  href: api/TruckLib.ScsMap.Collections.FarModelDataList.html#TruckLib_ScsMap_Collections_FarModelDataList_RemoveAt_
+  commentId: Overload:TruckLib.ScsMap.Collections.FarModelDataList.RemoveAt
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.FarModelDataList.RemoveAt
+  nameWithType: FarModelDataList.RemoveAt
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList
+  name: GateActivationPointList
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html
+  commentId: T:TruckLib.ScsMap.Collections.GateActivationPointList
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList
+  nameWithType: GateActivationPointList
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.#ctor(TruckLib.ScsMap.Gate)
+  name: GateActivationPointList(Gate)
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList__ctor_TruckLib_ScsMap_Gate_
+  commentId: M:TruckLib.ScsMap.Collections.GateActivationPointList.#ctor(TruckLib.ScsMap.Gate)
+  name.vb: New(Gate)
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.GateActivationPointList(TruckLib.ScsMap.Gate)
+  fullName.vb: TruckLib.ScsMap.Collections.GateActivationPointList.New(TruckLib.ScsMap.Gate)
+  nameWithType: GateActivationPointList.GateActivationPointList(Gate)
+  nameWithType.vb: GateActivationPointList.New(Gate)
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.#ctor*
+  name: GateActivationPointList
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList__ctor_
+  commentId: Overload:TruckLib.ScsMap.Collections.GateActivationPointList.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.GateActivationPointList
+  fullName.vb: TruckLib.ScsMap.Collections.GateActivationPointList.New
+  nameWithType: GateActivationPointList.GateActivationPointList
+  nameWithType.vb: GateActivationPointList.New
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.Add(System.Numerics.Vector3,System.String)
+  name: Add(Vector3, string)
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_Add_System_Numerics_Vector3_System_String_
+  commentId: M:TruckLib.ScsMap.Collections.GateActivationPointList.Add(System.Numerics.Vector3,System.String)
+  name.vb: Add(Vector3, String)
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.Add(System.Numerics.Vector3, string)
+  fullName.vb: TruckLib.ScsMap.Collections.GateActivationPointList.Add(System.Numerics.Vector3, String)
+  nameWithType: GateActivationPointList.Add(Vector3, string)
+  nameWithType.vb: GateActivationPointList.Add(Vector3, String)
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.Add(TruckLib.ScsMap.GateActivationPoint)
+  name: Add(GateActivationPoint)
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_Add_TruckLib_ScsMap_GateActivationPoint_
+  commentId: M:TruckLib.ScsMap.Collections.GateActivationPointList.Add(TruckLib.ScsMap.GateActivationPoint)
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.Add(TruckLib.ScsMap.GateActivationPoint)
+  nameWithType: GateActivationPointList.Add(GateActivationPoint)
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.Add*
+  name: Add
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_Add_
+  commentId: Overload:TruckLib.ScsMap.Collections.GateActivationPointList.Add
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.Add
+  nameWithType: GateActivationPointList.Add
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.Clear
+  name: Clear()
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_Clear
+  commentId: M:TruckLib.ScsMap.Collections.GateActivationPointList.Clear
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.Clear()
+  nameWithType: GateActivationPointList.Clear()
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.Clear*
+  name: Clear
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_Clear_
+  commentId: Overload:TruckLib.ScsMap.Collections.GateActivationPointList.Clear
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.Clear
+  nameWithType: GateActivationPointList.Clear
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.Contains(TruckLib.ScsMap.GateActivationPoint)
+  name: Contains(GateActivationPoint)
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_Contains_TruckLib_ScsMap_GateActivationPoint_
+  commentId: M:TruckLib.ScsMap.Collections.GateActivationPointList.Contains(TruckLib.ScsMap.GateActivationPoint)
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.Contains(TruckLib.ScsMap.GateActivationPoint)
+  nameWithType: GateActivationPointList.Contains(GateActivationPoint)
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.Contains*
+  name: Contains
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_Contains_
+  commentId: Overload:TruckLib.ScsMap.Collections.GateActivationPointList.Contains
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.Contains
+  nameWithType: GateActivationPointList.Contains
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.CopyTo(TruckLib.ScsMap.GateActivationPoint[],System.Int32)
+  name: CopyTo(GateActivationPoint[], int)
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_CopyTo_TruckLib_ScsMap_GateActivationPoint___System_Int32_
+  commentId: M:TruckLib.ScsMap.Collections.GateActivationPointList.CopyTo(TruckLib.ScsMap.GateActivationPoint[],System.Int32)
+  name.vb: CopyTo(GateActivationPoint(), Integer)
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.CopyTo(TruckLib.ScsMap.GateActivationPoint[], int)
+  fullName.vb: TruckLib.ScsMap.Collections.GateActivationPointList.CopyTo(TruckLib.ScsMap.GateActivationPoint(), Integer)
+  nameWithType: GateActivationPointList.CopyTo(GateActivationPoint[], int)
+  nameWithType.vb: GateActivationPointList.CopyTo(GateActivationPoint(), Integer)
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.CopyTo*
+  name: CopyTo
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_CopyTo_
+  commentId: Overload:TruckLib.ScsMap.Collections.GateActivationPointList.CopyTo
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.CopyTo
+  nameWithType: GateActivationPointList.CopyTo
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.Count
+  name: Count
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_Count
+  commentId: P:TruckLib.ScsMap.Collections.GateActivationPointList.Count
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.Count
+  nameWithType: GateActivationPointList.Count
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.Count*
+  name: Count
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_Count_
+  commentId: Overload:TruckLib.ScsMap.Collections.GateActivationPointList.Count
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.Count
+  nameWithType: GateActivationPointList.Count
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.GetEnumerator
+  name: GetEnumerator()
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_GetEnumerator
+  commentId: M:TruckLib.ScsMap.Collections.GateActivationPointList.GetEnumerator
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.GetEnumerator()
+  nameWithType: GateActivationPointList.GetEnumerator()
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.GetEnumerator*
+  name: GetEnumerator
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_GetEnumerator_
+  commentId: Overload:TruckLib.ScsMap.Collections.GateActivationPointList.GetEnumerator
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.GetEnumerator
+  nameWithType: GateActivationPointList.GetEnumerator
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.IndexOf(TruckLib.ScsMap.GateActivationPoint)
+  name: IndexOf(GateActivationPoint)
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_IndexOf_TruckLib_ScsMap_GateActivationPoint_
+  commentId: M:TruckLib.ScsMap.Collections.GateActivationPointList.IndexOf(TruckLib.ScsMap.GateActivationPoint)
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.IndexOf(TruckLib.ScsMap.GateActivationPoint)
+  nameWithType: GateActivationPointList.IndexOf(GateActivationPoint)
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.IndexOf*
+  name: IndexOf
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_IndexOf_
+  commentId: Overload:TruckLib.ScsMap.Collections.GateActivationPointList.IndexOf
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.IndexOf
+  nameWithType: GateActivationPointList.IndexOf
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.Insert(System.Int32,System.Numerics.Vector3,System.String)
+  name: Insert(int, Vector3, string)
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_Insert_System_Int32_System_Numerics_Vector3_System_String_
+  commentId: M:TruckLib.ScsMap.Collections.GateActivationPointList.Insert(System.Int32,System.Numerics.Vector3,System.String)
+  name.vb: Insert(Integer, Vector3, String)
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.Insert(int, System.Numerics.Vector3, string)
+  fullName.vb: TruckLib.ScsMap.Collections.GateActivationPointList.Insert(Integer, System.Numerics.Vector3, String)
+  nameWithType: GateActivationPointList.Insert(int, Vector3, string)
+  nameWithType.vb: GateActivationPointList.Insert(Integer, Vector3, String)
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.Insert(System.Int32,TruckLib.ScsMap.GateActivationPoint)
+  name: Insert(int, GateActivationPoint)
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_Insert_System_Int32_TruckLib_ScsMap_GateActivationPoint_
+  commentId: M:TruckLib.ScsMap.Collections.GateActivationPointList.Insert(System.Int32,TruckLib.ScsMap.GateActivationPoint)
+  name.vb: Insert(Integer, GateActivationPoint)
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.Insert(int, TruckLib.ScsMap.GateActivationPoint)
+  fullName.vb: TruckLib.ScsMap.Collections.GateActivationPointList.Insert(Integer, TruckLib.ScsMap.GateActivationPoint)
+  nameWithType: GateActivationPointList.Insert(int, GateActivationPoint)
+  nameWithType.vb: GateActivationPointList.Insert(Integer, GateActivationPoint)
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.Insert*
+  name: Insert
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_Insert_
+  commentId: Overload:TruckLib.ScsMap.Collections.GateActivationPointList.Insert
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.Insert
+  nameWithType: GateActivationPointList.Insert
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.IsReadOnly
+  name: IsReadOnly
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_IsReadOnly
+  commentId: P:TruckLib.ScsMap.Collections.GateActivationPointList.IsReadOnly
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.IsReadOnly
+  nameWithType: GateActivationPointList.IsReadOnly
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.IsReadOnly*
+  name: IsReadOnly
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_IsReadOnly_
+  commentId: Overload:TruckLib.ScsMap.Collections.GateActivationPointList.IsReadOnly
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.IsReadOnly
+  nameWithType: GateActivationPointList.IsReadOnly
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.Item(System.Int32)
+  name: this[int]
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_Item_System_Int32_
+  commentId: P:TruckLib.ScsMap.Collections.GateActivationPointList.Item(System.Int32)
+  name.vb: this[](Integer)
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.this[int]
+  fullName.vb: TruckLib.ScsMap.Collections.GateActivationPointList.this[](Integer)
+  nameWithType: GateActivationPointList.this[int]
+  nameWithType.vb: GateActivationPointList.this[](Integer)
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.Item*
+  name: this
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_Item_
+  commentId: Overload:TruckLib.ScsMap.Collections.GateActivationPointList.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.this
+  fullName.vb: TruckLib.ScsMap.Collections.GateActivationPointList.this[]
+  nameWithType: GateActivationPointList.this
+  nameWithType.vb: GateActivationPointList.this[]
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.MaxSize
+  name: MaxSize
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_MaxSize
+  commentId: F:TruckLib.ScsMap.Collections.GateActivationPointList.MaxSize
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.MaxSize
+  nameWithType: GateActivationPointList.MaxSize
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.Parent
+  name: Parent
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_Parent
+  commentId: P:TruckLib.ScsMap.Collections.GateActivationPointList.Parent
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.Parent
+  nameWithType: GateActivationPointList.Parent
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.Parent*
+  name: Parent
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_Parent_
+  commentId: Overload:TruckLib.ScsMap.Collections.GateActivationPointList.Parent
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.Parent
+  nameWithType: GateActivationPointList.Parent
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.Remove(TruckLib.ScsMap.GateActivationPoint)
+  name: Remove(GateActivationPoint)
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_Remove_TruckLib_ScsMap_GateActivationPoint_
+  commentId: M:TruckLib.ScsMap.Collections.GateActivationPointList.Remove(TruckLib.ScsMap.GateActivationPoint)
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.Remove(TruckLib.ScsMap.GateActivationPoint)
+  nameWithType: GateActivationPointList.Remove(GateActivationPoint)
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.Remove*
+  name: Remove
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_Remove_
+  commentId: Overload:TruckLib.ScsMap.Collections.GateActivationPointList.Remove
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.Remove
+  nameWithType: GateActivationPointList.Remove
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.RemoveAt(System.Int32)
+  name: RemoveAt(int)
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_RemoveAt_System_Int32_
+  commentId: M:TruckLib.ScsMap.Collections.GateActivationPointList.RemoveAt(System.Int32)
+  name.vb: RemoveAt(Integer)
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.RemoveAt(int)
+  fullName.vb: TruckLib.ScsMap.Collections.GateActivationPointList.RemoveAt(Integer)
+  nameWithType: GateActivationPointList.RemoveAt(int)
+  nameWithType.vb: GateActivationPointList.RemoveAt(Integer)
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.RemoveAt*
+  name: RemoveAt
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_RemoveAt_
+  commentId: Overload:TruckLib.ScsMap.Collections.GateActivationPointList.RemoveAt
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.RemoveAt
+  nameWithType: GateActivationPointList.RemoveAt
+- uid: TruckLib.ScsMap.Collections.NodeDictionary
+  name: NodeDictionary
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html
+  commentId: T:TruckLib.ScsMap.Collections.NodeDictionary
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary
+  nameWithType: NodeDictionary
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.Add(System.Collections.Generic.KeyValuePair{System.UInt64,TruckLib.ScsMap.INode})
+  name: Add(KeyValuePair<ulong, INode>)
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_Add_System_Collections_Generic_KeyValuePair_System_UInt64_TruckLib_ScsMap_INode__
+  commentId: M:TruckLib.ScsMap.Collections.NodeDictionary.Add(System.Collections.Generic.KeyValuePair{System.UInt64,TruckLib.ScsMap.INode})
+  name.vb: Add(KeyValuePair(Of ULong, INode))
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.Add(System.Collections.Generic.KeyValuePair<ulong, TruckLib.ScsMap.INode>)
+  fullName.vb: TruckLib.ScsMap.Collections.NodeDictionary.Add(System.Collections.Generic.KeyValuePair(Of ULong, TruckLib.ScsMap.INode))
+  nameWithType: NodeDictionary.Add(KeyValuePair<ulong, INode>)
+  nameWithType.vb: NodeDictionary.Add(KeyValuePair(Of ULong, INode))
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.Add(System.UInt64,TruckLib.ScsMap.INode)
+  name: Add(ulong, INode)
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_Add_System_UInt64_TruckLib_ScsMap_INode_
+  commentId: M:TruckLib.ScsMap.Collections.NodeDictionary.Add(System.UInt64,TruckLib.ScsMap.INode)
+  name.vb: Add(ULong, INode)
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.Add(ulong, TruckLib.ScsMap.INode)
+  fullName.vb: TruckLib.ScsMap.Collections.NodeDictionary.Add(ULong, TruckLib.ScsMap.INode)
+  nameWithType: NodeDictionary.Add(ulong, INode)
+  nameWithType.vb: NodeDictionary.Add(ULong, INode)
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.Add*
+  name: Add
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_Add_
+  commentId: Overload:TruckLib.ScsMap.Collections.NodeDictionary.Add
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.Add
+  nameWithType: NodeDictionary.Add
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.Clear
+  name: Clear()
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_Clear
+  commentId: M:TruckLib.ScsMap.Collections.NodeDictionary.Clear
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.Clear()
+  nameWithType: NodeDictionary.Clear()
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.Clear*
+  name: Clear
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_Clear_
+  commentId: Overload:TruckLib.ScsMap.Collections.NodeDictionary.Clear
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.Clear
+  nameWithType: NodeDictionary.Clear
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.Contains(System.Collections.Generic.KeyValuePair{System.UInt64,TruckLib.ScsMap.INode})
+  name: Contains(KeyValuePair<ulong, INode>)
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_Contains_System_Collections_Generic_KeyValuePair_System_UInt64_TruckLib_ScsMap_INode__
+  commentId: M:TruckLib.ScsMap.Collections.NodeDictionary.Contains(System.Collections.Generic.KeyValuePair{System.UInt64,TruckLib.ScsMap.INode})
+  name.vb: Contains(KeyValuePair(Of ULong, INode))
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.Contains(System.Collections.Generic.KeyValuePair<ulong, TruckLib.ScsMap.INode>)
+  fullName.vb: TruckLib.ScsMap.Collections.NodeDictionary.Contains(System.Collections.Generic.KeyValuePair(Of ULong, TruckLib.ScsMap.INode))
+  nameWithType: NodeDictionary.Contains(KeyValuePair<ulong, INode>)
+  nameWithType.vb: NodeDictionary.Contains(KeyValuePair(Of ULong, INode))
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.Contains*
+  name: Contains
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_Contains_
+  commentId: Overload:TruckLib.ScsMap.Collections.NodeDictionary.Contains
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.Contains
+  nameWithType: NodeDictionary.Contains
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.ContainsKey(System.UInt64)
+  name: ContainsKey(ulong)
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_ContainsKey_System_UInt64_
+  commentId: M:TruckLib.ScsMap.Collections.NodeDictionary.ContainsKey(System.UInt64)
+  name.vb: ContainsKey(ULong)
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.ContainsKey(ulong)
+  fullName.vb: TruckLib.ScsMap.Collections.NodeDictionary.ContainsKey(ULong)
+  nameWithType: NodeDictionary.ContainsKey(ulong)
+  nameWithType.vb: NodeDictionary.ContainsKey(ULong)
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.ContainsKey*
+  name: ContainsKey
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_ContainsKey_
+  commentId: Overload:TruckLib.ScsMap.Collections.NodeDictionary.ContainsKey
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.ContainsKey
+  nameWithType: NodeDictionary.ContainsKey
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.ContainsValue(TruckLib.ScsMap.INode)
+  name: ContainsValue(INode)
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_ContainsValue_TruckLib_ScsMap_INode_
+  commentId: M:TruckLib.ScsMap.Collections.NodeDictionary.ContainsValue(TruckLib.ScsMap.INode)
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.ContainsValue(TruckLib.ScsMap.INode)
+  nameWithType: NodeDictionary.ContainsValue(INode)
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.ContainsValue*
+  name: ContainsValue
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_ContainsValue_
+  commentId: Overload:TruckLib.ScsMap.Collections.NodeDictionary.ContainsValue
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.ContainsValue
+  nameWithType: NodeDictionary.ContainsValue
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.CopyTo(System.Collections.Generic.KeyValuePair{System.UInt64,TruckLib.ScsMap.INode}[],System.Int32)
+  name: CopyTo(KeyValuePair<ulong, INode>[], int)
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_CopyTo_System_Collections_Generic_KeyValuePair_System_UInt64_TruckLib_ScsMap_INode____System_Int32_
+  commentId: M:TruckLib.ScsMap.Collections.NodeDictionary.CopyTo(System.Collections.Generic.KeyValuePair{System.UInt64,TruckLib.ScsMap.INode}[],System.Int32)
+  name.vb: CopyTo(KeyValuePair(Of ULong, INode)(), Integer)
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.CopyTo(System.Collections.Generic.KeyValuePair<ulong, TruckLib.ScsMap.INode>[], int)
+  fullName.vb: TruckLib.ScsMap.Collections.NodeDictionary.CopyTo(System.Collections.Generic.KeyValuePair(Of ULong, TruckLib.ScsMap.INode)(), Integer)
+  nameWithType: NodeDictionary.CopyTo(KeyValuePair<ulong, INode>[], int)
+  nameWithType.vb: NodeDictionary.CopyTo(KeyValuePair(Of ULong, INode)(), Integer)
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.CopyTo*
+  name: CopyTo
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_CopyTo_
+  commentId: Overload:TruckLib.ScsMap.Collections.NodeDictionary.CopyTo
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.CopyTo
+  nameWithType: NodeDictionary.CopyTo
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.Count
+  name: Count
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_Count
+  commentId: P:TruckLib.ScsMap.Collections.NodeDictionary.Count
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.Count
+  nameWithType: NodeDictionary.Count
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.Count*
+  name: Count
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_Count_
+  commentId: Overload:TruckLib.ScsMap.Collections.NodeDictionary.Count
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.Count
+  nameWithType: NodeDictionary.Count
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.GetEnumerator
+  name: GetEnumerator()
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_GetEnumerator
+  commentId: M:TruckLib.ScsMap.Collections.NodeDictionary.GetEnumerator
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.GetEnumerator()
+  nameWithType: NodeDictionary.GetEnumerator()
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.GetEnumerator*
+  name: GetEnumerator
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_GetEnumerator_
+  commentId: Overload:TruckLib.ScsMap.Collections.NodeDictionary.GetEnumerator
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.GetEnumerator
+  nameWithType: NodeDictionary.GetEnumerator
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.IsReadOnly
+  name: IsReadOnly
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_IsReadOnly
+  commentId: P:TruckLib.ScsMap.Collections.NodeDictionary.IsReadOnly
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.IsReadOnly
+  nameWithType: NodeDictionary.IsReadOnly
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.IsReadOnly*
+  name: IsReadOnly
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_IsReadOnly_
+  commentId: Overload:TruckLib.ScsMap.Collections.NodeDictionary.IsReadOnly
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.IsReadOnly
+  nameWithType: NodeDictionary.IsReadOnly
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.Item(System.UInt64)
+  name: this[ulong]
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_Item_System_UInt64_
+  commentId: P:TruckLib.ScsMap.Collections.NodeDictionary.Item(System.UInt64)
+  name.vb: this[](ULong)
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.this[ulong]
+  fullName.vb: TruckLib.ScsMap.Collections.NodeDictionary.this[](ULong)
+  nameWithType: NodeDictionary.this[ulong]
+  nameWithType.vb: NodeDictionary.this[](ULong)
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.Item*
+  name: this
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_Item_
+  commentId: Overload:TruckLib.ScsMap.Collections.NodeDictionary.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.this
+  fullName.vb: TruckLib.ScsMap.Collections.NodeDictionary.this[]
+  nameWithType: NodeDictionary.this
+  nameWithType.vb: NodeDictionary.this[]
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.Keys
+  name: Keys
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_Keys
+  commentId: P:TruckLib.ScsMap.Collections.NodeDictionary.Keys
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.Keys
+  nameWithType: NodeDictionary.Keys
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.Keys*
+  name: Keys
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_Keys_
+  commentId: Overload:TruckLib.ScsMap.Collections.NodeDictionary.Keys
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.Keys
+  nameWithType: NodeDictionary.Keys
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.Remove(System.Collections.Generic.KeyValuePair{System.UInt64,TruckLib.ScsMap.INode})
+  name: Remove(KeyValuePair<ulong, INode>)
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_Remove_System_Collections_Generic_KeyValuePair_System_UInt64_TruckLib_ScsMap_INode__
+  commentId: M:TruckLib.ScsMap.Collections.NodeDictionary.Remove(System.Collections.Generic.KeyValuePair{System.UInt64,TruckLib.ScsMap.INode})
+  name.vb: Remove(KeyValuePair(Of ULong, INode))
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.Remove(System.Collections.Generic.KeyValuePair<ulong, TruckLib.ScsMap.INode>)
+  fullName.vb: TruckLib.ScsMap.Collections.NodeDictionary.Remove(System.Collections.Generic.KeyValuePair(Of ULong, TruckLib.ScsMap.INode))
+  nameWithType: NodeDictionary.Remove(KeyValuePair<ulong, INode>)
+  nameWithType.vb: NodeDictionary.Remove(KeyValuePair(Of ULong, INode))
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.Remove(System.UInt64)
+  name: Remove(ulong)
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_Remove_System_UInt64_
+  commentId: M:TruckLib.ScsMap.Collections.NodeDictionary.Remove(System.UInt64)
+  name.vb: Remove(ULong)
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.Remove(ulong)
+  fullName.vb: TruckLib.ScsMap.Collections.NodeDictionary.Remove(ULong)
+  nameWithType: NodeDictionary.Remove(ulong)
+  nameWithType.vb: NodeDictionary.Remove(ULong)
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.Remove*
+  name: Remove
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_Remove_
+  commentId: Overload:TruckLib.ScsMap.Collections.NodeDictionary.Remove
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.Remove
+  nameWithType: NodeDictionary.Remove
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.TryGetValue(System.UInt64,TruckLib.ScsMap.INode@)
+  name: TryGetValue(ulong, out INode)
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_TryGetValue_System_UInt64_TruckLib_ScsMap_INode__
+  commentId: M:TruckLib.ScsMap.Collections.NodeDictionary.TryGetValue(System.UInt64,TruckLib.ScsMap.INode@)
+  name.vb: TryGetValue(ULong, INode)
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.TryGetValue(ulong, out TruckLib.ScsMap.INode)
+  fullName.vb: TruckLib.ScsMap.Collections.NodeDictionary.TryGetValue(ULong, TruckLib.ScsMap.INode)
+  nameWithType: NodeDictionary.TryGetValue(ulong, out INode)
+  nameWithType.vb: NodeDictionary.TryGetValue(ULong, INode)
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.TryGetValue*
+  name: TryGetValue
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_TryGetValue_
+  commentId: Overload:TruckLib.ScsMap.Collections.NodeDictionary.TryGetValue
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.TryGetValue
+  nameWithType: NodeDictionary.TryGetValue
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.Values
+  name: Values
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_Values
+  commentId: P:TruckLib.ScsMap.Collections.NodeDictionary.Values
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.Values
+  nameWithType: NodeDictionary.Values
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.Values*
+  name: Values
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_Values_
+  commentId: Overload:TruckLib.ScsMap.Collections.NodeDictionary.Values
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.Values
+  nameWithType: NodeDictionary.Values
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.Within(System.Double,System.Double,System.Double,System.Double)
+  name: Within(double, double, double, double)
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_Within_System_Double_System_Double_System_Double_System_Double_
+  commentId: M:TruckLib.ScsMap.Collections.NodeDictionary.Within(System.Double,System.Double,System.Double,System.Double)
+  name.vb: Within(Double, Double, Double, Double)
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.Within(double, double, double, double)
+  fullName.vb: TruckLib.ScsMap.Collections.NodeDictionary.Within(Double, Double, Double, Double)
+  nameWithType: NodeDictionary.Within(double, double, double, double)
+  nameWithType.vb: NodeDictionary.Within(Double, Double, Double, Double)
+- uid: TruckLib.ScsMap.Collections.NodeDictionary.Within*
+  name: Within
+  href: api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_Within_
+  commentId: Overload:TruckLib.ScsMap.Collections.NodeDictionary.Within
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.NodeDictionary.Within
+  nameWithType: NodeDictionary.Within
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList
+  name: PolygonNodeList
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html
+  commentId: T:TruckLib.ScsMap.Collections.PolygonNodeList
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList
+  nameWithType: PolygonNodeList
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.#ctor(TruckLib.ScsMap.PolygonItem)
+  name: PolygonNodeList(PolygonItem)
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList__ctor_TruckLib_ScsMap_PolygonItem_
+  commentId: M:TruckLib.ScsMap.Collections.PolygonNodeList.#ctor(TruckLib.ScsMap.PolygonItem)
+  name.vb: New(PolygonItem)
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.PolygonNodeList(TruckLib.ScsMap.PolygonItem)
+  fullName.vb: TruckLib.ScsMap.Collections.PolygonNodeList.New(TruckLib.ScsMap.PolygonItem)
+  nameWithType: PolygonNodeList.PolygonNodeList(PolygonItem)
+  nameWithType.vb: PolygonNodeList.New(PolygonItem)
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.#ctor*
+  name: PolygonNodeList
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList__ctor_
+  commentId: Overload:TruckLib.ScsMap.Collections.PolygonNodeList.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.PolygonNodeList
+  fullName.vb: TruckLib.ScsMap.Collections.PolygonNodeList.New
+  nameWithType: PolygonNodeList.PolygonNodeList
+  nameWithType.vb: PolygonNodeList.New
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.Add(System.Numerics.Vector3)
+  name: Add(Vector3)
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_Add_System_Numerics_Vector3_
+  commentId: M:TruckLib.ScsMap.Collections.PolygonNodeList.Add(System.Numerics.Vector3)
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.Add(System.Numerics.Vector3)
+  nameWithType: PolygonNodeList.Add(Vector3)
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.Add(TruckLib.ScsMap.INode)
+  name: Add(INode)
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_Add_TruckLib_ScsMap_INode_
+  commentId: M:TruckLib.ScsMap.Collections.PolygonNodeList.Add(TruckLib.ScsMap.INode)
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.Add(TruckLib.ScsMap.INode)
+  nameWithType: PolygonNodeList.Add(INode)
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.Add*
+  name: Add
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_Add_
+  commentId: Overload:TruckLib.ScsMap.Collections.PolygonNodeList.Add
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.Add
+  nameWithType: PolygonNodeList.Add
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.AddRange(System.Collections.Generic.IEnumerable{System.Numerics.Vector3})
+  name: AddRange(IEnumerable<Vector3>)
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_AddRange_System_Collections_Generic_IEnumerable_System_Numerics_Vector3__
+  commentId: M:TruckLib.ScsMap.Collections.PolygonNodeList.AddRange(System.Collections.Generic.IEnumerable{System.Numerics.Vector3})
+  name.vb: AddRange(IEnumerable(Of Vector3))
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.AddRange(System.Collections.Generic.IEnumerable<System.Numerics.Vector3>)
+  fullName.vb: TruckLib.ScsMap.Collections.PolygonNodeList.AddRange(System.Collections.Generic.IEnumerable(Of System.Numerics.Vector3))
+  nameWithType: PolygonNodeList.AddRange(IEnumerable<Vector3>)
+  nameWithType.vb: PolygonNodeList.AddRange(IEnumerable(Of Vector3))
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.AddRange(System.Collections.Generic.IEnumerable{TruckLib.ScsMap.INode})
+  name: AddRange(IEnumerable<INode>)
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_AddRange_System_Collections_Generic_IEnumerable_TruckLib_ScsMap_INode__
+  commentId: M:TruckLib.ScsMap.Collections.PolygonNodeList.AddRange(System.Collections.Generic.IEnumerable{TruckLib.ScsMap.INode})
+  name.vb: AddRange(IEnumerable(Of INode))
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.AddRange(System.Collections.Generic.IEnumerable<TruckLib.ScsMap.INode>)
+  fullName.vb: TruckLib.ScsMap.Collections.PolygonNodeList.AddRange(System.Collections.Generic.IEnumerable(Of TruckLib.ScsMap.INode))
+  nameWithType: PolygonNodeList.AddRange(IEnumerable<INode>)
+  nameWithType.vb: PolygonNodeList.AddRange(IEnumerable(Of INode))
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.AddRange*
+  name: AddRange
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_AddRange_
+  commentId: Overload:TruckLib.ScsMap.Collections.PolygonNodeList.AddRange
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.AddRange
+  nameWithType: PolygonNodeList.AddRange
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.Clear
+  name: Clear()
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_Clear
+  commentId: M:TruckLib.ScsMap.Collections.PolygonNodeList.Clear
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.Clear()
+  nameWithType: PolygonNodeList.Clear()
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.Clear*
+  name: Clear
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_Clear_
+  commentId: Overload:TruckLib.ScsMap.Collections.PolygonNodeList.Clear
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.Clear
+  nameWithType: PolygonNodeList.Clear
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.Contains(TruckLib.ScsMap.INode)
+  name: Contains(INode)
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_Contains_TruckLib_ScsMap_INode_
+  commentId: M:TruckLib.ScsMap.Collections.PolygonNodeList.Contains(TruckLib.ScsMap.INode)
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.Contains(TruckLib.ScsMap.INode)
+  nameWithType: PolygonNodeList.Contains(INode)
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.Contains*
+  name: Contains
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_Contains_
+  commentId: Overload:TruckLib.ScsMap.Collections.PolygonNodeList.Contains
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.Contains
+  nameWithType: PolygonNodeList.Contains
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.CopyTo(TruckLib.ScsMap.INode[],System.Int32)
+  name: CopyTo(INode[], int)
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_CopyTo_TruckLib_ScsMap_INode___System_Int32_
+  commentId: M:TruckLib.ScsMap.Collections.PolygonNodeList.CopyTo(TruckLib.ScsMap.INode[],System.Int32)
+  name.vb: CopyTo(INode(), Integer)
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.CopyTo(TruckLib.ScsMap.INode[], int)
+  fullName.vb: TruckLib.ScsMap.Collections.PolygonNodeList.CopyTo(TruckLib.ScsMap.INode(), Integer)
+  nameWithType: PolygonNodeList.CopyTo(INode[], int)
+  nameWithType.vb: PolygonNodeList.CopyTo(INode(), Integer)
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.CopyTo*
+  name: CopyTo
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_CopyTo_
+  commentId: Overload:TruckLib.ScsMap.Collections.PolygonNodeList.CopyTo
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.CopyTo
+  nameWithType: PolygonNodeList.CopyTo
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.Count
+  name: Count
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_Count
+  commentId: P:TruckLib.ScsMap.Collections.PolygonNodeList.Count
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.Count
+  nameWithType: PolygonNodeList.Count
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.Count*
+  name: Count
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_Count_
+  commentId: Overload:TruckLib.ScsMap.Collections.PolygonNodeList.Count
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.Count
+  nameWithType: PolygonNodeList.Count
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.GetEnumerator
+  name: GetEnumerator()
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_GetEnumerator
+  commentId: M:TruckLib.ScsMap.Collections.PolygonNodeList.GetEnumerator
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.GetEnumerator()
+  nameWithType: PolygonNodeList.GetEnumerator()
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.GetEnumerator*
+  name: GetEnumerator
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_GetEnumerator_
+  commentId: Overload:TruckLib.ScsMap.Collections.PolygonNodeList.GetEnumerator
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.GetEnumerator
+  nameWithType: PolygonNodeList.GetEnumerator
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.IndexOf(TruckLib.ScsMap.INode)
+  name: IndexOf(INode)
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_IndexOf_TruckLib_ScsMap_INode_
+  commentId: M:TruckLib.ScsMap.Collections.PolygonNodeList.IndexOf(TruckLib.ScsMap.INode)
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.IndexOf(TruckLib.ScsMap.INode)
+  nameWithType: PolygonNodeList.IndexOf(INode)
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.IndexOf*
+  name: IndexOf
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_IndexOf_
+  commentId: Overload:TruckLib.ScsMap.Collections.PolygonNodeList.IndexOf
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.IndexOf
+  nameWithType: PolygonNodeList.IndexOf
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.Insert(System.Int32,System.Numerics.Vector3)
+  name: Insert(int, Vector3)
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_Insert_System_Int32_System_Numerics_Vector3_
+  commentId: M:TruckLib.ScsMap.Collections.PolygonNodeList.Insert(System.Int32,System.Numerics.Vector3)
+  name.vb: Insert(Integer, Vector3)
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.Insert(int, System.Numerics.Vector3)
+  fullName.vb: TruckLib.ScsMap.Collections.PolygonNodeList.Insert(Integer, System.Numerics.Vector3)
+  nameWithType: PolygonNodeList.Insert(int, Vector3)
+  nameWithType.vb: PolygonNodeList.Insert(Integer, Vector3)
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.Insert(System.Int32,TruckLib.ScsMap.INode)
+  name: Insert(int, INode)
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_Insert_System_Int32_TruckLib_ScsMap_INode_
+  commentId: M:TruckLib.ScsMap.Collections.PolygonNodeList.Insert(System.Int32,TruckLib.ScsMap.INode)
+  name.vb: Insert(Integer, INode)
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.Insert(int, TruckLib.ScsMap.INode)
+  fullName.vb: TruckLib.ScsMap.Collections.PolygonNodeList.Insert(Integer, TruckLib.ScsMap.INode)
+  nameWithType: PolygonNodeList.Insert(int, INode)
+  nameWithType.vb: PolygonNodeList.Insert(Integer, INode)
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.Insert*
+  name: Insert
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_Insert_
+  commentId: Overload:TruckLib.ScsMap.Collections.PolygonNodeList.Insert
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.Insert
+  nameWithType: PolygonNodeList.Insert
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.IsReadOnly
+  name: IsReadOnly
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_IsReadOnly
+  commentId: P:TruckLib.ScsMap.Collections.PolygonNodeList.IsReadOnly
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.IsReadOnly
+  nameWithType: PolygonNodeList.IsReadOnly
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.IsReadOnly*
+  name: IsReadOnly
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_IsReadOnly_
+  commentId: Overload:TruckLib.ScsMap.Collections.PolygonNodeList.IsReadOnly
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.IsReadOnly
+  nameWithType: PolygonNodeList.IsReadOnly
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.Item(System.Int32)
+  name: this[int]
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_Item_System_Int32_
+  commentId: P:TruckLib.ScsMap.Collections.PolygonNodeList.Item(System.Int32)
+  name.vb: this[](Integer)
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.this[int]
+  fullName.vb: TruckLib.ScsMap.Collections.PolygonNodeList.this[](Integer)
+  nameWithType: PolygonNodeList.this[int]
+  nameWithType.vb: PolygonNodeList.this[](Integer)
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.Item*
+  name: this
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_Item_
+  commentId: Overload:TruckLib.ScsMap.Collections.PolygonNodeList.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.this
+  fullName.vb: TruckLib.ScsMap.Collections.PolygonNodeList.this[]
+  nameWithType: PolygonNodeList.this
+  nameWithType.vb: PolygonNodeList.this[]
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.Parent
+  name: Parent
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_Parent
+  commentId: P:TruckLib.ScsMap.Collections.PolygonNodeList.Parent
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.Parent
+  nameWithType: PolygonNodeList.Parent
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.Parent*
+  name: Parent
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_Parent_
+  commentId: Overload:TruckLib.ScsMap.Collections.PolygonNodeList.Parent
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.Parent
+  nameWithType: PolygonNodeList.Parent
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.Remove(TruckLib.ScsMap.INode)
+  name: Remove(INode)
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_Remove_TruckLib_ScsMap_INode_
+  commentId: M:TruckLib.ScsMap.Collections.PolygonNodeList.Remove(TruckLib.ScsMap.INode)
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.Remove(TruckLib.ScsMap.INode)
+  nameWithType: PolygonNodeList.Remove(INode)
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.Remove*
+  name: Remove
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_Remove_
+  commentId: Overload:TruckLib.ScsMap.Collections.PolygonNodeList.Remove
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.Remove
+  nameWithType: PolygonNodeList.Remove
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.RemoveAt(System.Int32)
+  name: RemoveAt(int)
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_RemoveAt_System_Int32_
+  commentId: M:TruckLib.ScsMap.Collections.PolygonNodeList.RemoveAt(System.Int32)
+  name.vb: RemoveAt(Integer)
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.RemoveAt(int)
+  fullName.vb: TruckLib.ScsMap.Collections.PolygonNodeList.RemoveAt(Integer)
+  nameWithType: PolygonNodeList.RemoveAt(int)
+  nameWithType.vb: PolygonNodeList.RemoveAt(Integer)
+- uid: TruckLib.ScsMap.Collections.PolygonNodeList.RemoveAt*
+  name: RemoveAt
+  href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html#TruckLib_ScsMap_Collections_PolygonNodeList_RemoveAt_
+  commentId: Overload:TruckLib.ScsMap.Collections.PolygonNodeList.RemoveAt
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PolygonNodeList.RemoveAt
+  nameWithType: PolygonNodeList.RemoveAt
 - uid: TruckLib.ScsMap.Company
   name: Company
   href: api/TruckLib.ScsMap.Company.html
@@ -7550,236 +8738,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Curve.WaterReflection
   nameWithType: Curve.WaterReflection
-- uid: TruckLib.ScsMap.CurveLocatorList
-  name: CurveLocatorList
-  href: api/TruckLib.ScsMap.CurveLocatorList.html
-  commentId: T:TruckLib.ScsMap.CurveLocatorList
-  fullName: TruckLib.ScsMap.CurveLocatorList
-  nameWithType: CurveLocatorList
-- uid: TruckLib.ScsMap.CurveLocatorList.#ctor(TruckLib.ScsMap.Curve)
-  name: CurveLocatorList(Curve)
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList__ctor_TruckLib_ScsMap_Curve_
-  commentId: M:TruckLib.ScsMap.CurveLocatorList.#ctor(TruckLib.ScsMap.Curve)
-  name.vb: New(Curve)
-  fullName: TruckLib.ScsMap.CurveLocatorList.CurveLocatorList(TruckLib.ScsMap.Curve)
-  fullName.vb: TruckLib.ScsMap.CurveLocatorList.New(TruckLib.ScsMap.Curve)
-  nameWithType: CurveLocatorList.CurveLocatorList(Curve)
-  nameWithType.vb: CurveLocatorList.New(Curve)
-- uid: TruckLib.ScsMap.CurveLocatorList.#ctor*
-  name: CurveLocatorList
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList__ctor_
-  commentId: Overload:TruckLib.ScsMap.CurveLocatorList.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: TruckLib.ScsMap.CurveLocatorList.CurveLocatorList
-  fullName.vb: TruckLib.ScsMap.CurveLocatorList.New
-  nameWithType: CurveLocatorList.CurveLocatorList
-  nameWithType.vb: CurveLocatorList.New
-- uid: TruckLib.ScsMap.CurveLocatorList.Add(System.Numerics.Vector3,System.Numerics.Quaternion)
-  name: Add(Vector3, Quaternion)
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_Add_System_Numerics_Vector3_System_Numerics_Quaternion_
-  commentId: M:TruckLib.ScsMap.CurveLocatorList.Add(System.Numerics.Vector3,System.Numerics.Quaternion)
-  fullName: TruckLib.ScsMap.CurveLocatorList.Add(System.Numerics.Vector3, System.Numerics.Quaternion)
-  nameWithType: CurveLocatorList.Add(Vector3, Quaternion)
-- uid: TruckLib.ScsMap.CurveLocatorList.Add(TruckLib.ScsMap.INode)
-  name: Add(INode)
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_Add_TruckLib_ScsMap_INode_
-  commentId: M:TruckLib.ScsMap.CurveLocatorList.Add(TruckLib.ScsMap.INode)
-  fullName: TruckLib.ScsMap.CurveLocatorList.Add(TruckLib.ScsMap.INode)
-  nameWithType: CurveLocatorList.Add(INode)
-- uid: TruckLib.ScsMap.CurveLocatorList.Add*
-  name: Add
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_Add_
-  commentId: Overload:TruckLib.ScsMap.CurveLocatorList.Add
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.CurveLocatorList.Add
-  nameWithType: CurveLocatorList.Add
-- uid: TruckLib.ScsMap.CurveLocatorList.Clear
-  name: Clear()
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_Clear
-  commentId: M:TruckLib.ScsMap.CurveLocatorList.Clear
-  fullName: TruckLib.ScsMap.CurveLocatorList.Clear()
-  nameWithType: CurveLocatorList.Clear()
-- uid: TruckLib.ScsMap.CurveLocatorList.Clear*
-  name: Clear
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_Clear_
-  commentId: Overload:TruckLib.ScsMap.CurveLocatorList.Clear
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.CurveLocatorList.Clear
-  nameWithType: CurveLocatorList.Clear
-- uid: TruckLib.ScsMap.CurveLocatorList.Contains(TruckLib.ScsMap.INode)
-  name: Contains(INode)
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_Contains_TruckLib_ScsMap_INode_
-  commentId: M:TruckLib.ScsMap.CurveLocatorList.Contains(TruckLib.ScsMap.INode)
-  fullName: TruckLib.ScsMap.CurveLocatorList.Contains(TruckLib.ScsMap.INode)
-  nameWithType: CurveLocatorList.Contains(INode)
-- uid: TruckLib.ScsMap.CurveLocatorList.Contains*
-  name: Contains
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_Contains_
-  commentId: Overload:TruckLib.ScsMap.CurveLocatorList.Contains
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.CurveLocatorList.Contains
-  nameWithType: CurveLocatorList.Contains
-- uid: TruckLib.ScsMap.CurveLocatorList.CopyTo(TruckLib.ScsMap.INode[],System.Int32)
-  name: CopyTo(INode[], int)
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_CopyTo_TruckLib_ScsMap_INode___System_Int32_
-  commentId: M:TruckLib.ScsMap.CurveLocatorList.CopyTo(TruckLib.ScsMap.INode[],System.Int32)
-  name.vb: CopyTo(INode(), Integer)
-  fullName: TruckLib.ScsMap.CurveLocatorList.CopyTo(TruckLib.ScsMap.INode[], int)
-  fullName.vb: TruckLib.ScsMap.CurveLocatorList.CopyTo(TruckLib.ScsMap.INode(), Integer)
-  nameWithType: CurveLocatorList.CopyTo(INode[], int)
-  nameWithType.vb: CurveLocatorList.CopyTo(INode(), Integer)
-- uid: TruckLib.ScsMap.CurveLocatorList.CopyTo*
-  name: CopyTo
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_CopyTo_
-  commentId: Overload:TruckLib.ScsMap.CurveLocatorList.CopyTo
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.CurveLocatorList.CopyTo
-  nameWithType: CurveLocatorList.CopyTo
-- uid: TruckLib.ScsMap.CurveLocatorList.Count
-  name: Count
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_Count
-  commentId: P:TruckLib.ScsMap.CurveLocatorList.Count
-  fullName: TruckLib.ScsMap.CurveLocatorList.Count
-  nameWithType: CurveLocatorList.Count
-- uid: TruckLib.ScsMap.CurveLocatorList.Count*
-  name: Count
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_Count_
-  commentId: Overload:TruckLib.ScsMap.CurveLocatorList.Count
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.CurveLocatorList.Count
-  nameWithType: CurveLocatorList.Count
-- uid: TruckLib.ScsMap.CurveLocatorList.GetEnumerator
-  name: GetEnumerator()
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_GetEnumerator
-  commentId: M:TruckLib.ScsMap.CurveLocatorList.GetEnumerator
-  fullName: TruckLib.ScsMap.CurveLocatorList.GetEnumerator()
-  nameWithType: CurveLocatorList.GetEnumerator()
-- uid: TruckLib.ScsMap.CurveLocatorList.GetEnumerator*
-  name: GetEnumerator
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_GetEnumerator_
-  commentId: Overload:TruckLib.ScsMap.CurveLocatorList.GetEnumerator
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.CurveLocatorList.GetEnumerator
-  nameWithType: CurveLocatorList.GetEnumerator
-- uid: TruckLib.ScsMap.CurveLocatorList.IndexOf(TruckLib.ScsMap.INode)
-  name: IndexOf(INode)
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_IndexOf_TruckLib_ScsMap_INode_
-  commentId: M:TruckLib.ScsMap.CurveLocatorList.IndexOf(TruckLib.ScsMap.INode)
-  fullName: TruckLib.ScsMap.CurveLocatorList.IndexOf(TruckLib.ScsMap.INode)
-  nameWithType: CurveLocatorList.IndexOf(INode)
-- uid: TruckLib.ScsMap.CurveLocatorList.IndexOf*
-  name: IndexOf
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_IndexOf_
-  commentId: Overload:TruckLib.ScsMap.CurveLocatorList.IndexOf
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.CurveLocatorList.IndexOf
-  nameWithType: CurveLocatorList.IndexOf
-- uid: TruckLib.ScsMap.CurveLocatorList.Insert(System.Int32,System.Numerics.Vector3,System.Numerics.Quaternion)
-  name: Insert(int, Vector3, Quaternion)
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_Insert_System_Int32_System_Numerics_Vector3_System_Numerics_Quaternion_
-  commentId: M:TruckLib.ScsMap.CurveLocatorList.Insert(System.Int32,System.Numerics.Vector3,System.Numerics.Quaternion)
-  name.vb: Insert(Integer, Vector3, Quaternion)
-  fullName: TruckLib.ScsMap.CurveLocatorList.Insert(int, System.Numerics.Vector3, System.Numerics.Quaternion)
-  fullName.vb: TruckLib.ScsMap.CurveLocatorList.Insert(Integer, System.Numerics.Vector3, System.Numerics.Quaternion)
-  nameWithType: CurveLocatorList.Insert(int, Vector3, Quaternion)
-  nameWithType.vb: CurveLocatorList.Insert(Integer, Vector3, Quaternion)
-- uid: TruckLib.ScsMap.CurveLocatorList.Insert(System.Int32,TruckLib.ScsMap.INode)
-  name: Insert(int, INode)
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_Insert_System_Int32_TruckLib_ScsMap_INode_
-  commentId: M:TruckLib.ScsMap.CurveLocatorList.Insert(System.Int32,TruckLib.ScsMap.INode)
-  name.vb: Insert(Integer, INode)
-  fullName: TruckLib.ScsMap.CurveLocatorList.Insert(int, TruckLib.ScsMap.INode)
-  fullName.vb: TruckLib.ScsMap.CurveLocatorList.Insert(Integer, TruckLib.ScsMap.INode)
-  nameWithType: CurveLocatorList.Insert(int, INode)
-  nameWithType.vb: CurveLocatorList.Insert(Integer, INode)
-- uid: TruckLib.ScsMap.CurveLocatorList.Insert*
-  name: Insert
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_Insert_
-  commentId: Overload:TruckLib.ScsMap.CurveLocatorList.Insert
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.CurveLocatorList.Insert
-  nameWithType: CurveLocatorList.Insert
-- uid: TruckLib.ScsMap.CurveLocatorList.IsReadOnly
-  name: IsReadOnly
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_IsReadOnly
-  commentId: P:TruckLib.ScsMap.CurveLocatorList.IsReadOnly
-  fullName: TruckLib.ScsMap.CurveLocatorList.IsReadOnly
-  nameWithType: CurveLocatorList.IsReadOnly
-- uid: TruckLib.ScsMap.CurveLocatorList.IsReadOnly*
-  name: IsReadOnly
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_IsReadOnly_
-  commentId: Overload:TruckLib.ScsMap.CurveLocatorList.IsReadOnly
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.CurveLocatorList.IsReadOnly
-  nameWithType: CurveLocatorList.IsReadOnly
-- uid: TruckLib.ScsMap.CurveLocatorList.Item(System.Int32)
-  name: this[int]
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_Item_System_Int32_
-  commentId: P:TruckLib.ScsMap.CurveLocatorList.Item(System.Int32)
-  name.vb: this[](Integer)
-  fullName: TruckLib.ScsMap.CurveLocatorList.this[int]
-  fullName.vb: TruckLib.ScsMap.CurveLocatorList.this[](Integer)
-  nameWithType: CurveLocatorList.this[int]
-  nameWithType.vb: CurveLocatorList.this[](Integer)
-- uid: TruckLib.ScsMap.CurveLocatorList.Item*
-  name: this
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_Item_
-  commentId: Overload:TruckLib.ScsMap.CurveLocatorList.Item
-  isSpec: "True"
-  name.vb: this[]
-  fullName: TruckLib.ScsMap.CurveLocatorList.this
-  fullName.vb: TruckLib.ScsMap.CurveLocatorList.this[]
-  nameWithType: CurveLocatorList.this
-  nameWithType.vb: CurveLocatorList.this[]
-- uid: TruckLib.ScsMap.CurveLocatorList.MaxSize
-  name: MaxSize
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_MaxSize
-  commentId: F:TruckLib.ScsMap.CurveLocatorList.MaxSize
-  fullName: TruckLib.ScsMap.CurveLocatorList.MaxSize
-  nameWithType: CurveLocatorList.MaxSize
-- uid: TruckLib.ScsMap.CurveLocatorList.Parent
-  name: Parent
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_Parent
-  commentId: P:TruckLib.ScsMap.CurveLocatorList.Parent
-  fullName: TruckLib.ScsMap.CurveLocatorList.Parent
-  nameWithType: CurveLocatorList.Parent
-- uid: TruckLib.ScsMap.CurveLocatorList.Parent*
-  name: Parent
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_Parent_
-  commentId: Overload:TruckLib.ScsMap.CurveLocatorList.Parent
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.CurveLocatorList.Parent
-  nameWithType: CurveLocatorList.Parent
-- uid: TruckLib.ScsMap.CurveLocatorList.Remove(TruckLib.ScsMap.INode)
-  name: Remove(INode)
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_Remove_TruckLib_ScsMap_INode_
-  commentId: M:TruckLib.ScsMap.CurveLocatorList.Remove(TruckLib.ScsMap.INode)
-  fullName: TruckLib.ScsMap.CurveLocatorList.Remove(TruckLib.ScsMap.INode)
-  nameWithType: CurveLocatorList.Remove(INode)
-- uid: TruckLib.ScsMap.CurveLocatorList.Remove*
-  name: Remove
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_Remove_
-  commentId: Overload:TruckLib.ScsMap.CurveLocatorList.Remove
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.CurveLocatorList.Remove
-  nameWithType: CurveLocatorList.Remove
-- uid: TruckLib.ScsMap.CurveLocatorList.RemoveAt(System.Int32)
-  name: RemoveAt(int)
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_RemoveAt_System_Int32_
-  commentId: M:TruckLib.ScsMap.CurveLocatorList.RemoveAt(System.Int32)
-  name.vb: RemoveAt(Integer)
-  fullName: TruckLib.ScsMap.CurveLocatorList.RemoveAt(int)
-  fullName.vb: TruckLib.ScsMap.CurveLocatorList.RemoveAt(Integer)
-  nameWithType: CurveLocatorList.RemoveAt(int)
-  nameWithType.vb: CurveLocatorList.RemoveAt(Integer)
-- uid: TruckLib.ScsMap.CurveLocatorList.RemoveAt*
-  name: RemoveAt
-  href: api/TruckLib.ScsMap.CurveLocatorList.html#TruckLib_ScsMap_CurveLocatorList_RemoveAt_
-  commentId: Overload:TruckLib.ScsMap.CurveLocatorList.RemoveAt
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.CurveLocatorList.RemoveAt
-  nameWithType: CurveLocatorList.RemoveAt
 - uid: TruckLib.ScsMap.CutPlane
   name: CutPlane
   href: api/TruckLib.ScsMap.CutPlane.html
@@ -8850,230 +9808,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.FarModelData.Scale
   nameWithType: FarModelData.Scale
-- uid: TruckLib.ScsMap.FarModelDataList
-  name: FarModelDataList
-  href: api/TruckLib.ScsMap.FarModelDataList.html
-  commentId: T:TruckLib.ScsMap.FarModelDataList
-  fullName: TruckLib.ScsMap.FarModelDataList
-  nameWithType: FarModelDataList
-- uid: TruckLib.ScsMap.FarModelDataList.#ctor(TruckLib.ScsMap.FarModel)
-  name: FarModelDataList(FarModel)
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList__ctor_TruckLib_ScsMap_FarModel_
-  commentId: M:TruckLib.ScsMap.FarModelDataList.#ctor(TruckLib.ScsMap.FarModel)
-  name.vb: New(FarModel)
-  fullName: TruckLib.ScsMap.FarModelDataList.FarModelDataList(TruckLib.ScsMap.FarModel)
-  fullName.vb: TruckLib.ScsMap.FarModelDataList.New(TruckLib.ScsMap.FarModel)
-  nameWithType: FarModelDataList.FarModelDataList(FarModel)
-  nameWithType.vb: FarModelDataList.New(FarModel)
-- uid: TruckLib.ScsMap.FarModelDataList.#ctor*
-  name: FarModelDataList
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList__ctor_
-  commentId: Overload:TruckLib.ScsMap.FarModelDataList.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: TruckLib.ScsMap.FarModelDataList.FarModelDataList
-  fullName.vb: TruckLib.ScsMap.FarModelDataList.New
-  nameWithType: FarModelDataList.FarModelDataList
-  nameWithType.vb: FarModelDataList.New
-- uid: TruckLib.ScsMap.FarModelDataList.Add(System.Numerics.Vector3,TruckLib.Token,System.Numerics.Vector3)
-  name: Add(Vector3, Token, Vector3)
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_Add_System_Numerics_Vector3_TruckLib_Token_System_Numerics_Vector3_
-  commentId: M:TruckLib.ScsMap.FarModelDataList.Add(System.Numerics.Vector3,TruckLib.Token,System.Numerics.Vector3)
-  fullName: TruckLib.ScsMap.FarModelDataList.Add(System.Numerics.Vector3, TruckLib.Token, System.Numerics.Vector3)
-  nameWithType: FarModelDataList.Add(Vector3, Token, Vector3)
-- uid: TruckLib.ScsMap.FarModelDataList.Add(TruckLib.ScsMap.FarModelData)
-  name: Add(FarModelData)
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_Add_TruckLib_ScsMap_FarModelData_
-  commentId: M:TruckLib.ScsMap.FarModelDataList.Add(TruckLib.ScsMap.FarModelData)
-  fullName: TruckLib.ScsMap.FarModelDataList.Add(TruckLib.ScsMap.FarModelData)
-  nameWithType: FarModelDataList.Add(FarModelData)
-- uid: TruckLib.ScsMap.FarModelDataList.Add*
-  name: Add
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_Add_
-  commentId: Overload:TruckLib.ScsMap.FarModelDataList.Add
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.FarModelDataList.Add
-  nameWithType: FarModelDataList.Add
-- uid: TruckLib.ScsMap.FarModelDataList.Clear
-  name: Clear()
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_Clear
-  commentId: M:TruckLib.ScsMap.FarModelDataList.Clear
-  fullName: TruckLib.ScsMap.FarModelDataList.Clear()
-  nameWithType: FarModelDataList.Clear()
-- uid: TruckLib.ScsMap.FarModelDataList.Clear*
-  name: Clear
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_Clear_
-  commentId: Overload:TruckLib.ScsMap.FarModelDataList.Clear
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.FarModelDataList.Clear
-  nameWithType: FarModelDataList.Clear
-- uid: TruckLib.ScsMap.FarModelDataList.Contains(TruckLib.ScsMap.FarModelData)
-  name: Contains(FarModelData)
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_Contains_TruckLib_ScsMap_FarModelData_
-  commentId: M:TruckLib.ScsMap.FarModelDataList.Contains(TruckLib.ScsMap.FarModelData)
-  fullName: TruckLib.ScsMap.FarModelDataList.Contains(TruckLib.ScsMap.FarModelData)
-  nameWithType: FarModelDataList.Contains(FarModelData)
-- uid: TruckLib.ScsMap.FarModelDataList.Contains*
-  name: Contains
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_Contains_
-  commentId: Overload:TruckLib.ScsMap.FarModelDataList.Contains
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.FarModelDataList.Contains
-  nameWithType: FarModelDataList.Contains
-- uid: TruckLib.ScsMap.FarModelDataList.CopyTo(TruckLib.ScsMap.FarModelData[],System.Int32)
-  name: CopyTo(FarModelData[], int)
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_CopyTo_TruckLib_ScsMap_FarModelData___System_Int32_
-  commentId: M:TruckLib.ScsMap.FarModelDataList.CopyTo(TruckLib.ScsMap.FarModelData[],System.Int32)
-  name.vb: CopyTo(FarModelData(), Integer)
-  fullName: TruckLib.ScsMap.FarModelDataList.CopyTo(TruckLib.ScsMap.FarModelData[], int)
-  fullName.vb: TruckLib.ScsMap.FarModelDataList.CopyTo(TruckLib.ScsMap.FarModelData(), Integer)
-  nameWithType: FarModelDataList.CopyTo(FarModelData[], int)
-  nameWithType.vb: FarModelDataList.CopyTo(FarModelData(), Integer)
-- uid: TruckLib.ScsMap.FarModelDataList.CopyTo*
-  name: CopyTo
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_CopyTo_
-  commentId: Overload:TruckLib.ScsMap.FarModelDataList.CopyTo
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.FarModelDataList.CopyTo
-  nameWithType: FarModelDataList.CopyTo
-- uid: TruckLib.ScsMap.FarModelDataList.Count
-  name: Count
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_Count
-  commentId: P:TruckLib.ScsMap.FarModelDataList.Count
-  fullName: TruckLib.ScsMap.FarModelDataList.Count
-  nameWithType: FarModelDataList.Count
-- uid: TruckLib.ScsMap.FarModelDataList.Count*
-  name: Count
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_Count_
-  commentId: Overload:TruckLib.ScsMap.FarModelDataList.Count
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.FarModelDataList.Count
-  nameWithType: FarModelDataList.Count
-- uid: TruckLib.ScsMap.FarModelDataList.GetEnumerator
-  name: GetEnumerator()
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_GetEnumerator
-  commentId: M:TruckLib.ScsMap.FarModelDataList.GetEnumerator
-  fullName: TruckLib.ScsMap.FarModelDataList.GetEnumerator()
-  nameWithType: FarModelDataList.GetEnumerator()
-- uid: TruckLib.ScsMap.FarModelDataList.GetEnumerator*
-  name: GetEnumerator
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_GetEnumerator_
-  commentId: Overload:TruckLib.ScsMap.FarModelDataList.GetEnumerator
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.FarModelDataList.GetEnumerator
-  nameWithType: FarModelDataList.GetEnumerator
-- uid: TruckLib.ScsMap.FarModelDataList.IndexOf(TruckLib.ScsMap.FarModelData)
-  name: IndexOf(FarModelData)
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_IndexOf_TruckLib_ScsMap_FarModelData_
-  commentId: M:TruckLib.ScsMap.FarModelDataList.IndexOf(TruckLib.ScsMap.FarModelData)
-  fullName: TruckLib.ScsMap.FarModelDataList.IndexOf(TruckLib.ScsMap.FarModelData)
-  nameWithType: FarModelDataList.IndexOf(FarModelData)
-- uid: TruckLib.ScsMap.FarModelDataList.IndexOf*
-  name: IndexOf
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_IndexOf_
-  commentId: Overload:TruckLib.ScsMap.FarModelDataList.IndexOf
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.FarModelDataList.IndexOf
-  nameWithType: FarModelDataList.IndexOf
-- uid: TruckLib.ScsMap.FarModelDataList.Insert(System.Int32,System.Numerics.Vector3,TruckLib.Token,System.Numerics.Vector3)
-  name: Insert(int, Vector3, Token, Vector3)
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_Insert_System_Int32_System_Numerics_Vector3_TruckLib_Token_System_Numerics_Vector3_
-  commentId: M:TruckLib.ScsMap.FarModelDataList.Insert(System.Int32,System.Numerics.Vector3,TruckLib.Token,System.Numerics.Vector3)
-  name.vb: Insert(Integer, Vector3, Token, Vector3)
-  fullName: TruckLib.ScsMap.FarModelDataList.Insert(int, System.Numerics.Vector3, TruckLib.Token, System.Numerics.Vector3)
-  fullName.vb: TruckLib.ScsMap.FarModelDataList.Insert(Integer, System.Numerics.Vector3, TruckLib.Token, System.Numerics.Vector3)
-  nameWithType: FarModelDataList.Insert(int, Vector3, Token, Vector3)
-  nameWithType.vb: FarModelDataList.Insert(Integer, Vector3, Token, Vector3)
-- uid: TruckLib.ScsMap.FarModelDataList.Insert(System.Int32,TruckLib.ScsMap.FarModelData)
-  name: Insert(int, FarModelData)
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_Insert_System_Int32_TruckLib_ScsMap_FarModelData_
-  commentId: M:TruckLib.ScsMap.FarModelDataList.Insert(System.Int32,TruckLib.ScsMap.FarModelData)
-  name.vb: Insert(Integer, FarModelData)
-  fullName: TruckLib.ScsMap.FarModelDataList.Insert(int, TruckLib.ScsMap.FarModelData)
-  fullName.vb: TruckLib.ScsMap.FarModelDataList.Insert(Integer, TruckLib.ScsMap.FarModelData)
-  nameWithType: FarModelDataList.Insert(int, FarModelData)
-  nameWithType.vb: FarModelDataList.Insert(Integer, FarModelData)
-- uid: TruckLib.ScsMap.FarModelDataList.Insert*
-  name: Insert
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_Insert_
-  commentId: Overload:TruckLib.ScsMap.FarModelDataList.Insert
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.FarModelDataList.Insert
-  nameWithType: FarModelDataList.Insert
-- uid: TruckLib.ScsMap.FarModelDataList.IsReadOnly
-  name: IsReadOnly
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_IsReadOnly
-  commentId: P:TruckLib.ScsMap.FarModelDataList.IsReadOnly
-  fullName: TruckLib.ScsMap.FarModelDataList.IsReadOnly
-  nameWithType: FarModelDataList.IsReadOnly
-- uid: TruckLib.ScsMap.FarModelDataList.IsReadOnly*
-  name: IsReadOnly
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_IsReadOnly_
-  commentId: Overload:TruckLib.ScsMap.FarModelDataList.IsReadOnly
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.FarModelDataList.IsReadOnly
-  nameWithType: FarModelDataList.IsReadOnly
-- uid: TruckLib.ScsMap.FarModelDataList.Item(System.Int32)
-  name: this[int]
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_Item_System_Int32_
-  commentId: P:TruckLib.ScsMap.FarModelDataList.Item(System.Int32)
-  name.vb: this[](Integer)
-  fullName: TruckLib.ScsMap.FarModelDataList.this[int]
-  fullName.vb: TruckLib.ScsMap.FarModelDataList.this[](Integer)
-  nameWithType: FarModelDataList.this[int]
-  nameWithType.vb: FarModelDataList.this[](Integer)
-- uid: TruckLib.ScsMap.FarModelDataList.Item*
-  name: this
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_Item_
-  commentId: Overload:TruckLib.ScsMap.FarModelDataList.Item
-  isSpec: "True"
-  name.vb: this[]
-  fullName: TruckLib.ScsMap.FarModelDataList.this
-  fullName.vb: TruckLib.ScsMap.FarModelDataList.this[]
-  nameWithType: FarModelDataList.this
-  nameWithType.vb: FarModelDataList.this[]
-- uid: TruckLib.ScsMap.FarModelDataList.Parent
-  name: Parent
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_Parent
-  commentId: P:TruckLib.ScsMap.FarModelDataList.Parent
-  fullName: TruckLib.ScsMap.FarModelDataList.Parent
-  nameWithType: FarModelDataList.Parent
-- uid: TruckLib.ScsMap.FarModelDataList.Parent*
-  name: Parent
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_Parent_
-  commentId: Overload:TruckLib.ScsMap.FarModelDataList.Parent
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.FarModelDataList.Parent
-  nameWithType: FarModelDataList.Parent
-- uid: TruckLib.ScsMap.FarModelDataList.Remove(TruckLib.ScsMap.FarModelData)
-  name: Remove(FarModelData)
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_Remove_TruckLib_ScsMap_FarModelData_
-  commentId: M:TruckLib.ScsMap.FarModelDataList.Remove(TruckLib.ScsMap.FarModelData)
-  fullName: TruckLib.ScsMap.FarModelDataList.Remove(TruckLib.ScsMap.FarModelData)
-  nameWithType: FarModelDataList.Remove(FarModelData)
-- uid: TruckLib.ScsMap.FarModelDataList.Remove*
-  name: Remove
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_Remove_
-  commentId: Overload:TruckLib.ScsMap.FarModelDataList.Remove
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.FarModelDataList.Remove
-  nameWithType: FarModelDataList.Remove
-- uid: TruckLib.ScsMap.FarModelDataList.RemoveAt(System.Int32)
-  name: RemoveAt(int)
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_RemoveAt_System_Int32_
-  commentId: M:TruckLib.ScsMap.FarModelDataList.RemoveAt(System.Int32)
-  name.vb: RemoveAt(Integer)
-  fullName: TruckLib.ScsMap.FarModelDataList.RemoveAt(int)
-  fullName.vb: TruckLib.ScsMap.FarModelDataList.RemoveAt(Integer)
-  nameWithType: FarModelDataList.RemoveAt(int)
-  nameWithType.vb: FarModelDataList.RemoveAt(Integer)
-- uid: TruckLib.ScsMap.FarModelDataList.RemoveAt*
-  name: RemoveAt
-  href: api/TruckLib.ScsMap.FarModelDataList.html#TruckLib_ScsMap_FarModelDataList_RemoveAt_
-  commentId: Overload:TruckLib.ScsMap.FarModelDataList.RemoveAt
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.FarModelDataList.RemoveAt
-  nameWithType: FarModelDataList.RemoveAt
 - uid: TruckLib.ScsMap.Ferry
   name: Ferry
   href: api/TruckLib.ScsMap.Ferry.html
@@ -9635,239 +10369,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.GateActivationPoint.Trigger
   nameWithType: GateActivationPoint.Trigger
-- uid: TruckLib.ScsMap.GateActivationPointList
-  name: GateActivationPointList
-  href: api/TruckLib.ScsMap.GateActivationPointList.html
-  commentId: T:TruckLib.ScsMap.GateActivationPointList
-  fullName: TruckLib.ScsMap.GateActivationPointList
-  nameWithType: GateActivationPointList
-- uid: TruckLib.ScsMap.GateActivationPointList.#ctor(TruckLib.ScsMap.Gate)
-  name: GateActivationPointList(Gate)
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList__ctor_TruckLib_ScsMap_Gate_
-  commentId: M:TruckLib.ScsMap.GateActivationPointList.#ctor(TruckLib.ScsMap.Gate)
-  name.vb: New(Gate)
-  fullName: TruckLib.ScsMap.GateActivationPointList.GateActivationPointList(TruckLib.ScsMap.Gate)
-  fullName.vb: TruckLib.ScsMap.GateActivationPointList.New(TruckLib.ScsMap.Gate)
-  nameWithType: GateActivationPointList.GateActivationPointList(Gate)
-  nameWithType.vb: GateActivationPointList.New(Gate)
-- uid: TruckLib.ScsMap.GateActivationPointList.#ctor*
-  name: GateActivationPointList
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList__ctor_
-  commentId: Overload:TruckLib.ScsMap.GateActivationPointList.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: TruckLib.ScsMap.GateActivationPointList.GateActivationPointList
-  fullName.vb: TruckLib.ScsMap.GateActivationPointList.New
-  nameWithType: GateActivationPointList.GateActivationPointList
-  nameWithType.vb: GateActivationPointList.New
-- uid: TruckLib.ScsMap.GateActivationPointList.Add(System.Numerics.Vector3,System.String)
-  name: Add(Vector3, string)
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_Add_System_Numerics_Vector3_System_String_
-  commentId: M:TruckLib.ScsMap.GateActivationPointList.Add(System.Numerics.Vector3,System.String)
-  name.vb: Add(Vector3, String)
-  fullName: TruckLib.ScsMap.GateActivationPointList.Add(System.Numerics.Vector3, string)
-  fullName.vb: TruckLib.ScsMap.GateActivationPointList.Add(System.Numerics.Vector3, String)
-  nameWithType: GateActivationPointList.Add(Vector3, string)
-  nameWithType.vb: GateActivationPointList.Add(Vector3, String)
-- uid: TruckLib.ScsMap.GateActivationPointList.Add(TruckLib.ScsMap.GateActivationPoint)
-  name: Add(GateActivationPoint)
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_Add_TruckLib_ScsMap_GateActivationPoint_
-  commentId: M:TruckLib.ScsMap.GateActivationPointList.Add(TruckLib.ScsMap.GateActivationPoint)
-  fullName: TruckLib.ScsMap.GateActivationPointList.Add(TruckLib.ScsMap.GateActivationPoint)
-  nameWithType: GateActivationPointList.Add(GateActivationPoint)
-- uid: TruckLib.ScsMap.GateActivationPointList.Add*
-  name: Add
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_Add_
-  commentId: Overload:TruckLib.ScsMap.GateActivationPointList.Add
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.GateActivationPointList.Add
-  nameWithType: GateActivationPointList.Add
-- uid: TruckLib.ScsMap.GateActivationPointList.Clear
-  name: Clear()
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_Clear
-  commentId: M:TruckLib.ScsMap.GateActivationPointList.Clear
-  fullName: TruckLib.ScsMap.GateActivationPointList.Clear()
-  nameWithType: GateActivationPointList.Clear()
-- uid: TruckLib.ScsMap.GateActivationPointList.Clear*
-  name: Clear
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_Clear_
-  commentId: Overload:TruckLib.ScsMap.GateActivationPointList.Clear
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.GateActivationPointList.Clear
-  nameWithType: GateActivationPointList.Clear
-- uid: TruckLib.ScsMap.GateActivationPointList.Contains(TruckLib.ScsMap.GateActivationPoint)
-  name: Contains(GateActivationPoint)
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_Contains_TruckLib_ScsMap_GateActivationPoint_
-  commentId: M:TruckLib.ScsMap.GateActivationPointList.Contains(TruckLib.ScsMap.GateActivationPoint)
-  fullName: TruckLib.ScsMap.GateActivationPointList.Contains(TruckLib.ScsMap.GateActivationPoint)
-  nameWithType: GateActivationPointList.Contains(GateActivationPoint)
-- uid: TruckLib.ScsMap.GateActivationPointList.Contains*
-  name: Contains
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_Contains_
-  commentId: Overload:TruckLib.ScsMap.GateActivationPointList.Contains
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.GateActivationPointList.Contains
-  nameWithType: GateActivationPointList.Contains
-- uid: TruckLib.ScsMap.GateActivationPointList.CopyTo(TruckLib.ScsMap.GateActivationPoint[],System.Int32)
-  name: CopyTo(GateActivationPoint[], int)
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_CopyTo_TruckLib_ScsMap_GateActivationPoint___System_Int32_
-  commentId: M:TruckLib.ScsMap.GateActivationPointList.CopyTo(TruckLib.ScsMap.GateActivationPoint[],System.Int32)
-  name.vb: CopyTo(GateActivationPoint(), Integer)
-  fullName: TruckLib.ScsMap.GateActivationPointList.CopyTo(TruckLib.ScsMap.GateActivationPoint[], int)
-  fullName.vb: TruckLib.ScsMap.GateActivationPointList.CopyTo(TruckLib.ScsMap.GateActivationPoint(), Integer)
-  nameWithType: GateActivationPointList.CopyTo(GateActivationPoint[], int)
-  nameWithType.vb: GateActivationPointList.CopyTo(GateActivationPoint(), Integer)
-- uid: TruckLib.ScsMap.GateActivationPointList.CopyTo*
-  name: CopyTo
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_CopyTo_
-  commentId: Overload:TruckLib.ScsMap.GateActivationPointList.CopyTo
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.GateActivationPointList.CopyTo
-  nameWithType: GateActivationPointList.CopyTo
-- uid: TruckLib.ScsMap.GateActivationPointList.Count
-  name: Count
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_Count
-  commentId: P:TruckLib.ScsMap.GateActivationPointList.Count
-  fullName: TruckLib.ScsMap.GateActivationPointList.Count
-  nameWithType: GateActivationPointList.Count
-- uid: TruckLib.ScsMap.GateActivationPointList.Count*
-  name: Count
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_Count_
-  commentId: Overload:TruckLib.ScsMap.GateActivationPointList.Count
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.GateActivationPointList.Count
-  nameWithType: GateActivationPointList.Count
-- uid: TruckLib.ScsMap.GateActivationPointList.GetEnumerator
-  name: GetEnumerator()
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_GetEnumerator
-  commentId: M:TruckLib.ScsMap.GateActivationPointList.GetEnumerator
-  fullName: TruckLib.ScsMap.GateActivationPointList.GetEnumerator()
-  nameWithType: GateActivationPointList.GetEnumerator()
-- uid: TruckLib.ScsMap.GateActivationPointList.GetEnumerator*
-  name: GetEnumerator
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_GetEnumerator_
-  commentId: Overload:TruckLib.ScsMap.GateActivationPointList.GetEnumerator
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.GateActivationPointList.GetEnumerator
-  nameWithType: GateActivationPointList.GetEnumerator
-- uid: TruckLib.ScsMap.GateActivationPointList.IndexOf(TruckLib.ScsMap.GateActivationPoint)
-  name: IndexOf(GateActivationPoint)
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_IndexOf_TruckLib_ScsMap_GateActivationPoint_
-  commentId: M:TruckLib.ScsMap.GateActivationPointList.IndexOf(TruckLib.ScsMap.GateActivationPoint)
-  fullName: TruckLib.ScsMap.GateActivationPointList.IndexOf(TruckLib.ScsMap.GateActivationPoint)
-  nameWithType: GateActivationPointList.IndexOf(GateActivationPoint)
-- uid: TruckLib.ScsMap.GateActivationPointList.IndexOf*
-  name: IndexOf
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_IndexOf_
-  commentId: Overload:TruckLib.ScsMap.GateActivationPointList.IndexOf
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.GateActivationPointList.IndexOf
-  nameWithType: GateActivationPointList.IndexOf
-- uid: TruckLib.ScsMap.GateActivationPointList.Insert(System.Int32,System.Numerics.Vector3,System.String)
-  name: Insert(int, Vector3, string)
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_Insert_System_Int32_System_Numerics_Vector3_System_String_
-  commentId: M:TruckLib.ScsMap.GateActivationPointList.Insert(System.Int32,System.Numerics.Vector3,System.String)
-  name.vb: Insert(Integer, Vector3, String)
-  fullName: TruckLib.ScsMap.GateActivationPointList.Insert(int, System.Numerics.Vector3, string)
-  fullName.vb: TruckLib.ScsMap.GateActivationPointList.Insert(Integer, System.Numerics.Vector3, String)
-  nameWithType: GateActivationPointList.Insert(int, Vector3, string)
-  nameWithType.vb: GateActivationPointList.Insert(Integer, Vector3, String)
-- uid: TruckLib.ScsMap.GateActivationPointList.Insert(System.Int32,TruckLib.ScsMap.GateActivationPoint)
-  name: Insert(int, GateActivationPoint)
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_Insert_System_Int32_TruckLib_ScsMap_GateActivationPoint_
-  commentId: M:TruckLib.ScsMap.GateActivationPointList.Insert(System.Int32,TruckLib.ScsMap.GateActivationPoint)
-  name.vb: Insert(Integer, GateActivationPoint)
-  fullName: TruckLib.ScsMap.GateActivationPointList.Insert(int, TruckLib.ScsMap.GateActivationPoint)
-  fullName.vb: TruckLib.ScsMap.GateActivationPointList.Insert(Integer, TruckLib.ScsMap.GateActivationPoint)
-  nameWithType: GateActivationPointList.Insert(int, GateActivationPoint)
-  nameWithType.vb: GateActivationPointList.Insert(Integer, GateActivationPoint)
-- uid: TruckLib.ScsMap.GateActivationPointList.Insert*
-  name: Insert
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_Insert_
-  commentId: Overload:TruckLib.ScsMap.GateActivationPointList.Insert
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.GateActivationPointList.Insert
-  nameWithType: GateActivationPointList.Insert
-- uid: TruckLib.ScsMap.GateActivationPointList.IsReadOnly
-  name: IsReadOnly
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_IsReadOnly
-  commentId: P:TruckLib.ScsMap.GateActivationPointList.IsReadOnly
-  fullName: TruckLib.ScsMap.GateActivationPointList.IsReadOnly
-  nameWithType: GateActivationPointList.IsReadOnly
-- uid: TruckLib.ScsMap.GateActivationPointList.IsReadOnly*
-  name: IsReadOnly
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_IsReadOnly_
-  commentId: Overload:TruckLib.ScsMap.GateActivationPointList.IsReadOnly
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.GateActivationPointList.IsReadOnly
-  nameWithType: GateActivationPointList.IsReadOnly
-- uid: TruckLib.ScsMap.GateActivationPointList.Item(System.Int32)
-  name: this[int]
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_Item_System_Int32_
-  commentId: P:TruckLib.ScsMap.GateActivationPointList.Item(System.Int32)
-  name.vb: this[](Integer)
-  fullName: TruckLib.ScsMap.GateActivationPointList.this[int]
-  fullName.vb: TruckLib.ScsMap.GateActivationPointList.this[](Integer)
-  nameWithType: GateActivationPointList.this[int]
-  nameWithType.vb: GateActivationPointList.this[](Integer)
-- uid: TruckLib.ScsMap.GateActivationPointList.Item*
-  name: this
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_Item_
-  commentId: Overload:TruckLib.ScsMap.GateActivationPointList.Item
-  isSpec: "True"
-  name.vb: this[]
-  fullName: TruckLib.ScsMap.GateActivationPointList.this
-  fullName.vb: TruckLib.ScsMap.GateActivationPointList.this[]
-  nameWithType: GateActivationPointList.this
-  nameWithType.vb: GateActivationPointList.this[]
-- uid: TruckLib.ScsMap.GateActivationPointList.MaxSize
-  name: MaxSize
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_MaxSize
-  commentId: F:TruckLib.ScsMap.GateActivationPointList.MaxSize
-  fullName: TruckLib.ScsMap.GateActivationPointList.MaxSize
-  nameWithType: GateActivationPointList.MaxSize
-- uid: TruckLib.ScsMap.GateActivationPointList.Parent
-  name: Parent
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_Parent
-  commentId: P:TruckLib.ScsMap.GateActivationPointList.Parent
-  fullName: TruckLib.ScsMap.GateActivationPointList.Parent
-  nameWithType: GateActivationPointList.Parent
-- uid: TruckLib.ScsMap.GateActivationPointList.Parent*
-  name: Parent
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_Parent_
-  commentId: Overload:TruckLib.ScsMap.GateActivationPointList.Parent
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.GateActivationPointList.Parent
-  nameWithType: GateActivationPointList.Parent
-- uid: TruckLib.ScsMap.GateActivationPointList.Remove(TruckLib.ScsMap.GateActivationPoint)
-  name: Remove(GateActivationPoint)
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_Remove_TruckLib_ScsMap_GateActivationPoint_
-  commentId: M:TruckLib.ScsMap.GateActivationPointList.Remove(TruckLib.ScsMap.GateActivationPoint)
-  fullName: TruckLib.ScsMap.GateActivationPointList.Remove(TruckLib.ScsMap.GateActivationPoint)
-  nameWithType: GateActivationPointList.Remove(GateActivationPoint)
-- uid: TruckLib.ScsMap.GateActivationPointList.Remove*
-  name: Remove
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_Remove_
-  commentId: Overload:TruckLib.ScsMap.GateActivationPointList.Remove
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.GateActivationPointList.Remove
-  nameWithType: GateActivationPointList.Remove
-- uid: TruckLib.ScsMap.GateActivationPointList.RemoveAt(System.Int32)
-  name: RemoveAt(int)
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_RemoveAt_System_Int32_
-  commentId: M:TruckLib.ScsMap.GateActivationPointList.RemoveAt(System.Int32)
-  name.vb: RemoveAt(Integer)
-  fullName: TruckLib.ScsMap.GateActivationPointList.RemoveAt(int)
-  fullName.vb: TruckLib.ScsMap.GateActivationPointList.RemoveAt(Integer)
-  nameWithType: GateActivationPointList.RemoveAt(int)
-  nameWithType.vb: GateActivationPointList.RemoveAt(Integer)
-- uid: TruckLib.ScsMap.GateActivationPointList.RemoveAt*
-  name: RemoveAt
-  href: api/TruckLib.ScsMap.GateActivationPointList.html#TruckLib_ScsMap_GateActivationPointList_RemoveAt_
-  commentId: Overload:TruckLib.ScsMap.GateActivationPointList.RemoveAt
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.GateActivationPointList.RemoveAt
-  nameWithType: GateActivationPointList.RemoveAt
 - uid: TruckLib.ScsMap.GateType
   name: GateType
   href: api/TruckLib.ScsMap.GateType.html
@@ -13449,15 +13950,15 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.MapItem.Move
   nameWithType: MapItem.Move
-- uid: TruckLib.ScsMap.MapItem.ResolveNodeReference(TruckLib.ScsMap.INode,System.Collections.Generic.Dictionary{System.UInt64,TruckLib.ScsMap.INode})
-  name: ResolveNodeReference(INode, Dictionary<ulong, INode>)
-  href: api/TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_ResolveNodeReference_TruckLib_ScsMap_INode_System_Collections_Generic_Dictionary_System_UInt64_TruckLib_ScsMap_INode__
-  commentId: M:TruckLib.ScsMap.MapItem.ResolveNodeReference(TruckLib.ScsMap.INode,System.Collections.Generic.Dictionary{System.UInt64,TruckLib.ScsMap.INode})
-  name.vb: ResolveNodeReference(INode, Dictionary(Of ULong, INode))
-  fullName: TruckLib.ScsMap.MapItem.ResolveNodeReference(TruckLib.ScsMap.INode, System.Collections.Generic.Dictionary<ulong, TruckLib.ScsMap.INode>)
-  fullName.vb: TruckLib.ScsMap.MapItem.ResolveNodeReference(TruckLib.ScsMap.INode, System.Collections.Generic.Dictionary(Of ULong, TruckLib.ScsMap.INode))
-  nameWithType: MapItem.ResolveNodeReference(INode, Dictionary<ulong, INode>)
-  nameWithType.vb: MapItem.ResolveNodeReference(INode, Dictionary(Of ULong, INode))
+- uid: TruckLib.ScsMap.MapItem.ResolveNodeReference(TruckLib.ScsMap.INode,System.Collections.Generic.IDictionary{System.UInt64,TruckLib.ScsMap.INode})
+  name: ResolveNodeReference(INode, IDictionary<ulong, INode>)
+  href: api/TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_ResolveNodeReference_TruckLib_ScsMap_INode_System_Collections_Generic_IDictionary_System_UInt64_TruckLib_ScsMap_INode__
+  commentId: M:TruckLib.ScsMap.MapItem.ResolveNodeReference(TruckLib.ScsMap.INode,System.Collections.Generic.IDictionary{System.UInt64,TruckLib.ScsMap.INode})
+  name.vb: ResolveNodeReference(INode, IDictionary(Of ULong, INode))
+  fullName: TruckLib.ScsMap.MapItem.ResolveNodeReference(TruckLib.ScsMap.INode, System.Collections.Generic.IDictionary<ulong, TruckLib.ScsMap.INode>)
+  fullName.vb: TruckLib.ScsMap.MapItem.ResolveNodeReference(TruckLib.ScsMap.INode, System.Collections.Generic.IDictionary(Of ULong, TruckLib.ScsMap.INode))
+  nameWithType: MapItem.ResolveNodeReference(INode, IDictionary<ulong, INode>)
+  nameWithType.vb: MapItem.ResolveNodeReference(INode, IDictionary(Of ULong, INode))
 - uid: TruckLib.ScsMap.MapItem.ResolveNodeReference*
   name: ResolveNodeReference
   href: api/TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_ResolveNodeReference_
@@ -13465,15 +13966,15 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.MapItem.ResolveNodeReference
   nameWithType: MapItem.ResolveNodeReference
-- uid: TruckLib.ScsMap.MapItem.ResolveNodeReferences(System.Collections.Generic.IList{TruckLib.ScsMap.INode},System.Collections.Generic.Dictionary{System.UInt64,TruckLib.ScsMap.INode})
-  name: ResolveNodeReferences(IList<INode>, Dictionary<ulong, INode>)
-  href: api/TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_ResolveNodeReferences_System_Collections_Generic_IList_TruckLib_ScsMap_INode__System_Collections_Generic_Dictionary_System_UInt64_TruckLib_ScsMap_INode__
-  commentId: M:TruckLib.ScsMap.MapItem.ResolveNodeReferences(System.Collections.Generic.IList{TruckLib.ScsMap.INode},System.Collections.Generic.Dictionary{System.UInt64,TruckLib.ScsMap.INode})
-  name.vb: ResolveNodeReferences(IList(Of INode), Dictionary(Of ULong, INode))
-  fullName: TruckLib.ScsMap.MapItem.ResolveNodeReferences(System.Collections.Generic.IList<TruckLib.ScsMap.INode>, System.Collections.Generic.Dictionary<ulong, TruckLib.ScsMap.INode>)
-  fullName.vb: TruckLib.ScsMap.MapItem.ResolveNodeReferences(System.Collections.Generic.IList(Of TruckLib.ScsMap.INode), System.Collections.Generic.Dictionary(Of ULong, TruckLib.ScsMap.INode))
-  nameWithType: MapItem.ResolveNodeReferences(IList<INode>, Dictionary<ulong, INode>)
-  nameWithType.vb: MapItem.ResolveNodeReferences(IList(Of INode), Dictionary(Of ULong, INode))
+- uid: TruckLib.ScsMap.MapItem.ResolveNodeReferences(System.Collections.Generic.IList{TruckLib.ScsMap.INode},System.Collections.Generic.IDictionary{System.UInt64,TruckLib.ScsMap.INode})
+  name: ResolveNodeReferences(IList<INode>, IDictionary<ulong, INode>)
+  href: api/TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_ResolveNodeReferences_System_Collections_Generic_IList_TruckLib_ScsMap_INode__System_Collections_Generic_IDictionary_System_UInt64_TruckLib_ScsMap_INode__
+  commentId: M:TruckLib.ScsMap.MapItem.ResolveNodeReferences(System.Collections.Generic.IList{TruckLib.ScsMap.INode},System.Collections.Generic.IDictionary{System.UInt64,TruckLib.ScsMap.INode})
+  name.vb: ResolveNodeReferences(IList(Of INode), IDictionary(Of ULong, INode))
+  fullName: TruckLib.ScsMap.MapItem.ResolveNodeReferences(System.Collections.Generic.IList<TruckLib.ScsMap.INode>, System.Collections.Generic.IDictionary<ulong, TruckLib.ScsMap.INode>)
+  fullName.vb: TruckLib.ScsMap.MapItem.ResolveNodeReferences(System.Collections.Generic.IList(Of TruckLib.ScsMap.INode), System.Collections.Generic.IDictionary(Of ULong, TruckLib.ScsMap.INode))
+  nameWithType: MapItem.ResolveNodeReferences(IList<INode>, IDictionary<ulong, INode>)
+  nameWithType.vb: MapItem.ResolveNodeReferences(IList(Of INode), IDictionary(Of ULong, INode))
 - uid: TruckLib.ScsMap.MapItem.ResolveNodeReferences*
   name: ResolveNodeReferences
   href: api/TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_ResolveNodeReferences_
@@ -14744,12 +15245,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Node.Deserialize
   nameWithType: Node.Deserialize
-- uid: TruckLib.ScsMap.Node.Flags
-  name: Flags
-  href: api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_Flags
-  commentId: F:TruckLib.ScsMap.Node.Flags
-  fullName: TruckLib.ScsMap.Node.Flags
-  nameWithType: Node.Flags
 - uid: TruckLib.ScsMap.Node.ForwardCountry
   name: ForwardCountry
   href: api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_ForwardCountry
@@ -15263,255 +15758,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.PolygonItem.Translate
   nameWithType: PolygonItem.Translate
-- uid: TruckLib.ScsMap.PolygonNodeList
-  name: PolygonNodeList
-  href: api/TruckLib.ScsMap.PolygonNodeList.html
-  commentId: T:TruckLib.ScsMap.PolygonNodeList
-  fullName: TruckLib.ScsMap.PolygonNodeList
-  nameWithType: PolygonNodeList
-- uid: TruckLib.ScsMap.PolygonNodeList.#ctor(TruckLib.ScsMap.PolygonItem)
-  name: PolygonNodeList(PolygonItem)
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList__ctor_TruckLib_ScsMap_PolygonItem_
-  commentId: M:TruckLib.ScsMap.PolygonNodeList.#ctor(TruckLib.ScsMap.PolygonItem)
-  name.vb: New(PolygonItem)
-  fullName: TruckLib.ScsMap.PolygonNodeList.PolygonNodeList(TruckLib.ScsMap.PolygonItem)
-  fullName.vb: TruckLib.ScsMap.PolygonNodeList.New(TruckLib.ScsMap.PolygonItem)
-  nameWithType: PolygonNodeList.PolygonNodeList(PolygonItem)
-  nameWithType.vb: PolygonNodeList.New(PolygonItem)
-- uid: TruckLib.ScsMap.PolygonNodeList.#ctor*
-  name: PolygonNodeList
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList__ctor_
-  commentId: Overload:TruckLib.ScsMap.PolygonNodeList.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: TruckLib.ScsMap.PolygonNodeList.PolygonNodeList
-  fullName.vb: TruckLib.ScsMap.PolygonNodeList.New
-  nameWithType: PolygonNodeList.PolygonNodeList
-  nameWithType.vb: PolygonNodeList.New
-- uid: TruckLib.ScsMap.PolygonNodeList.Add(System.Numerics.Vector3)
-  name: Add(Vector3)
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_Add_System_Numerics_Vector3_
-  commentId: M:TruckLib.ScsMap.PolygonNodeList.Add(System.Numerics.Vector3)
-  fullName: TruckLib.ScsMap.PolygonNodeList.Add(System.Numerics.Vector3)
-  nameWithType: PolygonNodeList.Add(Vector3)
-- uid: TruckLib.ScsMap.PolygonNodeList.Add(TruckLib.ScsMap.INode)
-  name: Add(INode)
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_Add_TruckLib_ScsMap_INode_
-  commentId: M:TruckLib.ScsMap.PolygonNodeList.Add(TruckLib.ScsMap.INode)
-  fullName: TruckLib.ScsMap.PolygonNodeList.Add(TruckLib.ScsMap.INode)
-  nameWithType: PolygonNodeList.Add(INode)
-- uid: TruckLib.ScsMap.PolygonNodeList.Add*
-  name: Add
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_Add_
-  commentId: Overload:TruckLib.ScsMap.PolygonNodeList.Add
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.PolygonNodeList.Add
-  nameWithType: PolygonNodeList.Add
-- uid: TruckLib.ScsMap.PolygonNodeList.AddRange(System.Collections.Generic.IEnumerable{System.Numerics.Vector3})
-  name: AddRange(IEnumerable<Vector3>)
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_AddRange_System_Collections_Generic_IEnumerable_System_Numerics_Vector3__
-  commentId: M:TruckLib.ScsMap.PolygonNodeList.AddRange(System.Collections.Generic.IEnumerable{System.Numerics.Vector3})
-  name.vb: AddRange(IEnumerable(Of Vector3))
-  fullName: TruckLib.ScsMap.PolygonNodeList.AddRange(System.Collections.Generic.IEnumerable<System.Numerics.Vector3>)
-  fullName.vb: TruckLib.ScsMap.PolygonNodeList.AddRange(System.Collections.Generic.IEnumerable(Of System.Numerics.Vector3))
-  nameWithType: PolygonNodeList.AddRange(IEnumerable<Vector3>)
-  nameWithType.vb: PolygonNodeList.AddRange(IEnumerable(Of Vector3))
-- uid: TruckLib.ScsMap.PolygonNodeList.AddRange(System.Collections.Generic.IEnumerable{TruckLib.ScsMap.INode})
-  name: AddRange(IEnumerable<INode>)
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_AddRange_System_Collections_Generic_IEnumerable_TruckLib_ScsMap_INode__
-  commentId: M:TruckLib.ScsMap.PolygonNodeList.AddRange(System.Collections.Generic.IEnumerable{TruckLib.ScsMap.INode})
-  name.vb: AddRange(IEnumerable(Of INode))
-  fullName: TruckLib.ScsMap.PolygonNodeList.AddRange(System.Collections.Generic.IEnumerable<TruckLib.ScsMap.INode>)
-  fullName.vb: TruckLib.ScsMap.PolygonNodeList.AddRange(System.Collections.Generic.IEnumerable(Of TruckLib.ScsMap.INode))
-  nameWithType: PolygonNodeList.AddRange(IEnumerable<INode>)
-  nameWithType.vb: PolygonNodeList.AddRange(IEnumerable(Of INode))
-- uid: TruckLib.ScsMap.PolygonNodeList.AddRange*
-  name: AddRange
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_AddRange_
-  commentId: Overload:TruckLib.ScsMap.PolygonNodeList.AddRange
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.PolygonNodeList.AddRange
-  nameWithType: PolygonNodeList.AddRange
-- uid: TruckLib.ScsMap.PolygonNodeList.Clear
-  name: Clear()
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_Clear
-  commentId: M:TruckLib.ScsMap.PolygonNodeList.Clear
-  fullName: TruckLib.ScsMap.PolygonNodeList.Clear()
-  nameWithType: PolygonNodeList.Clear()
-- uid: TruckLib.ScsMap.PolygonNodeList.Clear*
-  name: Clear
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_Clear_
-  commentId: Overload:TruckLib.ScsMap.PolygonNodeList.Clear
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.PolygonNodeList.Clear
-  nameWithType: PolygonNodeList.Clear
-- uid: TruckLib.ScsMap.PolygonNodeList.Contains(TruckLib.ScsMap.INode)
-  name: Contains(INode)
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_Contains_TruckLib_ScsMap_INode_
-  commentId: M:TruckLib.ScsMap.PolygonNodeList.Contains(TruckLib.ScsMap.INode)
-  fullName: TruckLib.ScsMap.PolygonNodeList.Contains(TruckLib.ScsMap.INode)
-  nameWithType: PolygonNodeList.Contains(INode)
-- uid: TruckLib.ScsMap.PolygonNodeList.Contains*
-  name: Contains
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_Contains_
-  commentId: Overload:TruckLib.ScsMap.PolygonNodeList.Contains
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.PolygonNodeList.Contains
-  nameWithType: PolygonNodeList.Contains
-- uid: TruckLib.ScsMap.PolygonNodeList.CopyTo(TruckLib.ScsMap.INode[],System.Int32)
-  name: CopyTo(INode[], int)
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_CopyTo_TruckLib_ScsMap_INode___System_Int32_
-  commentId: M:TruckLib.ScsMap.PolygonNodeList.CopyTo(TruckLib.ScsMap.INode[],System.Int32)
-  name.vb: CopyTo(INode(), Integer)
-  fullName: TruckLib.ScsMap.PolygonNodeList.CopyTo(TruckLib.ScsMap.INode[], int)
-  fullName.vb: TruckLib.ScsMap.PolygonNodeList.CopyTo(TruckLib.ScsMap.INode(), Integer)
-  nameWithType: PolygonNodeList.CopyTo(INode[], int)
-  nameWithType.vb: PolygonNodeList.CopyTo(INode(), Integer)
-- uid: TruckLib.ScsMap.PolygonNodeList.CopyTo*
-  name: CopyTo
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_CopyTo_
-  commentId: Overload:TruckLib.ScsMap.PolygonNodeList.CopyTo
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.PolygonNodeList.CopyTo
-  nameWithType: PolygonNodeList.CopyTo
-- uid: TruckLib.ScsMap.PolygonNodeList.Count
-  name: Count
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_Count
-  commentId: P:TruckLib.ScsMap.PolygonNodeList.Count
-  fullName: TruckLib.ScsMap.PolygonNodeList.Count
-  nameWithType: PolygonNodeList.Count
-- uid: TruckLib.ScsMap.PolygonNodeList.Count*
-  name: Count
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_Count_
-  commentId: Overload:TruckLib.ScsMap.PolygonNodeList.Count
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.PolygonNodeList.Count
-  nameWithType: PolygonNodeList.Count
-- uid: TruckLib.ScsMap.PolygonNodeList.GetEnumerator
-  name: GetEnumerator()
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_GetEnumerator
-  commentId: M:TruckLib.ScsMap.PolygonNodeList.GetEnumerator
-  fullName: TruckLib.ScsMap.PolygonNodeList.GetEnumerator()
-  nameWithType: PolygonNodeList.GetEnumerator()
-- uid: TruckLib.ScsMap.PolygonNodeList.GetEnumerator*
-  name: GetEnumerator
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_GetEnumerator_
-  commentId: Overload:TruckLib.ScsMap.PolygonNodeList.GetEnumerator
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.PolygonNodeList.GetEnumerator
-  nameWithType: PolygonNodeList.GetEnumerator
-- uid: TruckLib.ScsMap.PolygonNodeList.IndexOf(TruckLib.ScsMap.INode)
-  name: IndexOf(INode)
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_IndexOf_TruckLib_ScsMap_INode_
-  commentId: M:TruckLib.ScsMap.PolygonNodeList.IndexOf(TruckLib.ScsMap.INode)
-  fullName: TruckLib.ScsMap.PolygonNodeList.IndexOf(TruckLib.ScsMap.INode)
-  nameWithType: PolygonNodeList.IndexOf(INode)
-- uid: TruckLib.ScsMap.PolygonNodeList.IndexOf*
-  name: IndexOf
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_IndexOf_
-  commentId: Overload:TruckLib.ScsMap.PolygonNodeList.IndexOf
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.PolygonNodeList.IndexOf
-  nameWithType: PolygonNodeList.IndexOf
-- uid: TruckLib.ScsMap.PolygonNodeList.Insert(System.Int32,System.Numerics.Vector3)
-  name: Insert(int, Vector3)
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_Insert_System_Int32_System_Numerics_Vector3_
-  commentId: M:TruckLib.ScsMap.PolygonNodeList.Insert(System.Int32,System.Numerics.Vector3)
-  name.vb: Insert(Integer, Vector3)
-  fullName: TruckLib.ScsMap.PolygonNodeList.Insert(int, System.Numerics.Vector3)
-  fullName.vb: TruckLib.ScsMap.PolygonNodeList.Insert(Integer, System.Numerics.Vector3)
-  nameWithType: PolygonNodeList.Insert(int, Vector3)
-  nameWithType.vb: PolygonNodeList.Insert(Integer, Vector3)
-- uid: TruckLib.ScsMap.PolygonNodeList.Insert(System.Int32,TruckLib.ScsMap.INode)
-  name: Insert(int, INode)
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_Insert_System_Int32_TruckLib_ScsMap_INode_
-  commentId: M:TruckLib.ScsMap.PolygonNodeList.Insert(System.Int32,TruckLib.ScsMap.INode)
-  name.vb: Insert(Integer, INode)
-  fullName: TruckLib.ScsMap.PolygonNodeList.Insert(int, TruckLib.ScsMap.INode)
-  fullName.vb: TruckLib.ScsMap.PolygonNodeList.Insert(Integer, TruckLib.ScsMap.INode)
-  nameWithType: PolygonNodeList.Insert(int, INode)
-  nameWithType.vb: PolygonNodeList.Insert(Integer, INode)
-- uid: TruckLib.ScsMap.PolygonNodeList.Insert*
-  name: Insert
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_Insert_
-  commentId: Overload:TruckLib.ScsMap.PolygonNodeList.Insert
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.PolygonNodeList.Insert
-  nameWithType: PolygonNodeList.Insert
-- uid: TruckLib.ScsMap.PolygonNodeList.IsReadOnly
-  name: IsReadOnly
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_IsReadOnly
-  commentId: P:TruckLib.ScsMap.PolygonNodeList.IsReadOnly
-  fullName: TruckLib.ScsMap.PolygonNodeList.IsReadOnly
-  nameWithType: PolygonNodeList.IsReadOnly
-- uid: TruckLib.ScsMap.PolygonNodeList.IsReadOnly*
-  name: IsReadOnly
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_IsReadOnly_
-  commentId: Overload:TruckLib.ScsMap.PolygonNodeList.IsReadOnly
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.PolygonNodeList.IsReadOnly
-  nameWithType: PolygonNodeList.IsReadOnly
-- uid: TruckLib.ScsMap.PolygonNodeList.Item(System.Int32)
-  name: this[int]
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_Item_System_Int32_
-  commentId: P:TruckLib.ScsMap.PolygonNodeList.Item(System.Int32)
-  name.vb: this[](Integer)
-  fullName: TruckLib.ScsMap.PolygonNodeList.this[int]
-  fullName.vb: TruckLib.ScsMap.PolygonNodeList.this[](Integer)
-  nameWithType: PolygonNodeList.this[int]
-  nameWithType.vb: PolygonNodeList.this[](Integer)
-- uid: TruckLib.ScsMap.PolygonNodeList.Item*
-  name: this
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_Item_
-  commentId: Overload:TruckLib.ScsMap.PolygonNodeList.Item
-  isSpec: "True"
-  name.vb: this[]
-  fullName: TruckLib.ScsMap.PolygonNodeList.this
-  fullName.vb: TruckLib.ScsMap.PolygonNodeList.this[]
-  nameWithType: PolygonNodeList.this
-  nameWithType.vb: PolygonNodeList.this[]
-- uid: TruckLib.ScsMap.PolygonNodeList.Parent
-  name: Parent
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_Parent
-  commentId: P:TruckLib.ScsMap.PolygonNodeList.Parent
-  fullName: TruckLib.ScsMap.PolygonNodeList.Parent
-  nameWithType: PolygonNodeList.Parent
-- uid: TruckLib.ScsMap.PolygonNodeList.Parent*
-  name: Parent
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_Parent_
-  commentId: Overload:TruckLib.ScsMap.PolygonNodeList.Parent
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.PolygonNodeList.Parent
-  nameWithType: PolygonNodeList.Parent
-- uid: TruckLib.ScsMap.PolygonNodeList.Remove(TruckLib.ScsMap.INode)
-  name: Remove(INode)
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_Remove_TruckLib_ScsMap_INode_
-  commentId: M:TruckLib.ScsMap.PolygonNodeList.Remove(TruckLib.ScsMap.INode)
-  fullName: TruckLib.ScsMap.PolygonNodeList.Remove(TruckLib.ScsMap.INode)
-  nameWithType: PolygonNodeList.Remove(INode)
-- uid: TruckLib.ScsMap.PolygonNodeList.Remove*
-  name: Remove
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_Remove_
-  commentId: Overload:TruckLib.ScsMap.PolygonNodeList.Remove
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.PolygonNodeList.Remove
-  nameWithType: PolygonNodeList.Remove
-- uid: TruckLib.ScsMap.PolygonNodeList.RemoveAt(System.Int32)
-  name: RemoveAt(int)
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_RemoveAt_System_Int32_
-  commentId: M:TruckLib.ScsMap.PolygonNodeList.RemoveAt(System.Int32)
-  name.vb: RemoveAt(Integer)
-  fullName: TruckLib.ScsMap.PolygonNodeList.RemoveAt(int)
-  fullName.vb: TruckLib.ScsMap.PolygonNodeList.RemoveAt(Integer)
-  nameWithType: PolygonNodeList.RemoveAt(int)
-  nameWithType.vb: PolygonNodeList.RemoveAt(Integer)
-- uid: TruckLib.ScsMap.PolygonNodeList.RemoveAt*
-  name: RemoveAt
-  href: api/TruckLib.ScsMap.PolygonNodeList.html#TruckLib_ScsMap_PolygonNodeList_RemoveAt_
-  commentId: Overload:TruckLib.ScsMap.PolygonNodeList.RemoveAt
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.PolygonNodeList.RemoveAt
-  nameWithType: PolygonNodeList.RemoveAt
 - uid: TruckLib.ScsMap.PolylineItem
   name: PolylineItem
   href: api/TruckLib.ScsMap.PolylineItem.html

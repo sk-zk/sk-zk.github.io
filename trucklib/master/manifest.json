@@ -612,6 +612,66 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Collections.CurveLocatorList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Collections.CurveLocatorList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Collections.FarModelDataList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Collections.FarModelDataList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Collections.GateActivationPointList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Collections.GateActivationPointList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Collections.NodeDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Collections.NodeDictionary.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Collections.PolygonNodeList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Collections.PolygonNodeList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Collections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TruckLib.ScsMap.Company.yml",
       "output": {
         ".html": {
@@ -656,16 +716,6 @@
       "output": {
         ".html": {
           "relative_path": "api/TruckLib.ScsMap.Curve.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/TruckLib.ScsMap.CurveLocatorList.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TruckLib.ScsMap.CurveLocatorList.html"
         }
       },
       "version": ""
@@ -772,16 +822,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/TruckLib.ScsMap.FarModelDataList.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TruckLib.ScsMap.FarModelDataList.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/TruckLib.ScsMap.Ferry.yml",
       "output": {
         ".html": {
@@ -836,16 +876,6 @@
       "output": {
         ".html": {
           "relative_path": "api/TruckLib.ScsMap.GateActivationPoint.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/TruckLib.ScsMap.GateActivationPointList.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TruckLib.ScsMap.GateActivationPointList.html"
         }
       },
       "version": ""
@@ -1176,16 +1206,6 @@
       "output": {
         ".html": {
           "relative_path": "api/TruckLib.ScsMap.PolygonItem.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/TruckLib.ScsMap.PolygonNodeList.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TruckLib.ScsMap.PolygonNodeList.html"
         }
       },
       "version": ""

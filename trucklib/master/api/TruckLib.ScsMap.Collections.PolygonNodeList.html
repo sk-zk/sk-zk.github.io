@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class GateActivationPointList | TruckLib </title>
+      <title>Class PolygonNodeList | TruckLib </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class GateActivationPointList | TruckLib ">
+      <meta name="title" content="Class PolygonNodeList | TruckLib ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/new/master/apiSpec/new?filename=TruckLib_ScsMap_GateActivationPointList.md&amp;value=---%0Auid%3A%20TruckLib.ScsMap.GateActivationPointList%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/new/master/apiSpec/new?filename=TruckLib_ScsMap_Collections_PolygonNodeList.md&amp;value=---%0Auid%3A%20TruckLib.ScsMap.Collections.PolygonNodeList%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,26 +84,25 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="TruckLib.ScsMap.GateActivationPointList">
+        <article data-uid="TruckLib.ScsMap.Collections.PolygonNodeList">
 
 
 
-  <h1 id="TruckLib_ScsMap_GateActivationPointList" data-uid="TruckLib.ScsMap.GateActivationPointList" class="text-break">
-Class GateActivationPointList  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/GateActivationPointList.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <h1 id="TruckLib_ScsMap_Collections_PolygonNodeList" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList" class="text-break">
+Class PolygonNodeList  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PolygonNodeList.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="TruckLib.html">TruckLib</a>.<a class="xref" href="TruckLib.ScsMap.html">ScsMap</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="TruckLib.html">TruckLib</a>.<a class="xref" href="TruckLib.ScsMap.html">ScsMap</a>.<a class="xref" href="TruckLib.ScsMap.Collections.html">Collections</a></dd></dl>
   <dl><dt>Assembly</dt><dd>TruckLib.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Reperesents a list of <a class="xref" href="TruckLib.ScsMap.Gate.html#TruckLib_ScsMap_Gate_ActivationPoints">gate activation points</a>.
-Has a maximum size of 2.</p>
+  <div class="markdown summary"><p>Contains the nodes of a <a class="xref" href="TruckLib.ScsMap.PolygonItem.html">polygon item</a>.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class GateActivationPointList : IList&lt;GateActivationPoint&gt;, ICollection&lt;GateActivationPoint&gt;, IEnumerable&lt;GateActivationPoint&gt;, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public class PolygonNodeList : IList&lt;INode&gt;, ICollection&lt;INode&gt;, IEnumerable&lt;INode&gt;, IEnumerable</code></pre>
   </div>
 
 
@@ -113,16 +112,16 @@ Has a maximum size of 2.</p>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">GateActivationPointList</span></div>
+      <div><span class="xref">PolygonNodeList</span></div>
     </dd>
   </dl>
 
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="TruckLib.ScsMap.GateActivationPoint.html">GateActivationPoint</a>&gt;</div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="TruckLib.ScsMap.GateActivationPoint.html">GateActivationPoint</a>&gt;</div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="TruckLib.ScsMap.GateActivationPoint.html">GateActivationPoint</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="TruckLib.ScsMap.INode.html">INode</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="TruckLib.ScsMap.INode.html">INode</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="TruckLib.ScsMap.INode.html">INode</a>&gt;</div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
     </dd>
   </dl>
@@ -163,11 +162,11 @@ Has a maximum size of 2.</p>
 </h2>
 
 
-  <a id="TruckLib_ScsMap_GateActivationPointList__ctor_" data-uid="TruckLib.ScsMap.GateActivationPointList.#ctor*"></a>
+  <a id="TruckLib_ScsMap_Collections_PolygonNodeList__ctor_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.#ctor*"></a>
 
-  <h3 id="TruckLib_ScsMap_GateActivationPointList__ctor_TruckLib_ScsMap_Gate_" data-uid="TruckLib.ScsMap.GateActivationPointList.#ctor(TruckLib.ScsMap.Gate)">
-  GateActivationPointList(Gate)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/GateActivationPointList.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <h3 id="TruckLib_ScsMap_Collections_PolygonNodeList__ctor_TruckLib_ScsMap_PolygonItem_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.#ctor(TruckLib.ScsMap.PolygonItem)">
+  PolygonNodeList(PolygonItem)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PolygonNodeList.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Instantiates an empty list.</p>
@@ -175,13 +174,14 @@ Has a maximum size of 2.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GateActivationPointList(Gate parent)</code></pre>
+    <pre><code class="lang-csharp hljs">public PolygonNodeList(PolygonItem parent)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>parent</code> <a class="xref" href="TruckLib.ScsMap.Gate.html">Gate</a></dt>
-    <dd><p>The <a class="xref" href="TruckLib.ScsMap.Gate.html">Gate</a> item which parents these models.</p>
+    <dt><code>parent</code> <a class="xref" href="TruckLib.ScsMap.PolygonItem.html">PolygonItem</a></dt>
+    <dd><p>The <a class="xref" href="TruckLib.ScsMap.PolygonItem.html">polygon item</a>
+which parents these models.</p>
 </dd>
   </dl>
 
@@ -196,50 +196,15 @@ Has a maximum size of 2.</p>
 
 
 
-  <h2 class="section" id="fields">Fields
-</h2>
-
-
-
-  <h3 id="TruckLib_ScsMap_GateActivationPointList_MaxSize" data-uid="TruckLib.ScsMap.GateActivationPointList.MaxSize">
-  MaxSize
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/GateActivationPointList.cs/#L27"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>The maximum size of the list.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const int MaxSize = 2</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
   <h2 class="section" id="properties">Properties
 </h2>
 
 
-  <a id="TruckLib_ScsMap_GateActivationPointList_Count_" data-uid="TruckLib.ScsMap.GateActivationPointList.Count*"></a>
+  <a id="TruckLib_ScsMap_Collections_PolygonNodeList_Count_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.Count*"></a>
 
-  <h3 id="TruckLib_ScsMap_GateActivationPointList_Count" data-uid="TruckLib.ScsMap.GateActivationPointList.Count">
+  <h3 id="TruckLib_ScsMap_Collections_PolygonNodeList_Count" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.Count">
   Count
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/GateActivationPointList.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PolygonNodeList.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the number of elements contained in the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a>.</p>
@@ -268,11 +233,11 @@ Has a maximum size of 2.</p>
 
 
 
-  <a id="TruckLib_ScsMap_GateActivationPointList_IsReadOnly_" data-uid="TruckLib.ScsMap.GateActivationPointList.IsReadOnly*"></a>
+  <a id="TruckLib_ScsMap_Collections_PolygonNodeList_IsReadOnly_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.IsReadOnly*"></a>
 
-  <h3 id="TruckLib_ScsMap_GateActivationPointList_IsReadOnly" data-uid="TruckLib.ScsMap.GateActivationPointList.IsReadOnly">
+  <h3 id="TruckLib_ScsMap_Collections_PolygonNodeList_IsReadOnly" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.IsReadOnly">
   IsReadOnly
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/GateActivationPointList.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PolygonNodeList.cs/#L57"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets a value indicating whether the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a> is read-only.</p>
@@ -301,11 +266,11 @@ Has a maximum size of 2.</p>
 
 
 
-  <a id="TruckLib_ScsMap_GateActivationPointList_Item_" data-uid="TruckLib.ScsMap.GateActivationPointList.Item*"></a>
+  <a id="TruckLib_ScsMap_Collections_PolygonNodeList_Item_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.Item*"></a>
 
-  <h3 id="TruckLib_ScsMap_GateActivationPointList_Item_System_Int32_" data-uid="TruckLib.ScsMap.GateActivationPointList.Item(System.Int32)">
+  <h3 id="TruckLib_ScsMap_Collections_PolygonNodeList_Item_System_Int32_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.Item(System.Int32)">
   this[int]
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/GateActivationPointList.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PolygonNodeList.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets the element at the specified index.</p>
@@ -313,7 +278,7 @@ Has a maximum size of 2.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GateActivationPoint this[int index] { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public INode this[int index] { get; set; }</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -328,7 +293,7 @@ Has a maximum size of 2.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="TruckLib.ScsMap.GateActivationPoint.html">GateActivationPoint</a></dt>
+    <dt><a class="xref" href="TruckLib.ScsMap.INode.html">INode</a></dt>
     <dd><p>The element at the specified index.</p>
 </dd>
   </dl>
@@ -349,19 +314,19 @@ Has a maximum size of 2.</p>
 
 
 
-  <a id="TruckLib_ScsMap_GateActivationPointList_Parent_" data-uid="TruckLib.ScsMap.GateActivationPointList.Parent*"></a>
+  <a id="TruckLib_ScsMap_Collections_PolygonNodeList_Parent_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.Parent*"></a>
 
-  <h3 id="TruckLib_ScsMap_GateActivationPointList_Parent" data-uid="TruckLib.ScsMap.GateActivationPointList.Parent">
+  <h3 id="TruckLib_ScsMap_Collections_PolygonNodeList_Parent" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.Parent">
   Parent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/GateActivationPointList.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PolygonNodeList.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="TruckLib.ScsMap.Gate.html">Gate</a> item which parents these models.</p>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="TruckLib.ScsMap.PolygonItem.html">polygon item</a> which parents these nodes.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Gate Parent { get; init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public PolygonItem Parent { get; init; }</code></pre>
   </div>
 
 
@@ -370,7 +335,7 @@ Has a maximum size of 2.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="TruckLib.ScsMap.Gate.html">Gate</a></dt>
+    <dt><a class="xref" href="TruckLib.ScsMap.PolygonItem.html">PolygonItem</a></dt>
     <dd></dd>
   </dl>
 
@@ -385,20 +350,19 @@ Has a maximum size of 2.</p>
 </h2>
 
 
-  <a id="TruckLib_ScsMap_GateActivationPointList_Add_" data-uid="TruckLib.ScsMap.GateActivationPointList.Add*"></a>
+  <a id="TruckLib_ScsMap_Collections_PolygonNodeList_Add_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.Add*"></a>
 
-  <h3 id="TruckLib_ScsMap_GateActivationPointList_Add_System_Numerics_Vector3_System_String_" data-uid="TruckLib.ScsMap.GateActivationPointList.Add(System.Numerics.Vector3,System.String)">
-  Add(Vector3, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/GateActivationPointList.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  <h3 id="TruckLib_ScsMap_Collections_PolygonNodeList_Add_System_Numerics_Vector3_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.Add(System.Numerics.Vector3)">
+  Add(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PolygonNodeList.cs/#L85"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Creates a map node at the specified position and adds a <a class="xref" href="TruckLib.ScsMap.GateActivationPoint.html">GateActivationPoint</a> object
-with the given properties to the end of the list.</p>
+  <div class="markdown level1 summary"><p>Creates a map node at the specified position and adds it to the end of the list.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Add(Vector3 position, string trigger)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Add(Vector3 position)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -406,9 +370,6 @@ with the given properties to the end of the list.</p>
     <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd><p>The position of the node.</p>
 </dd>
-    <dt><code>trigger</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The name of the trigger.</p>
-</dd>
   </dl>
 
 
@@ -419,20 +380,14 @@ with the given properties to the end of the list.</p>
 
 
 
-  <h4 class="section">Exceptions</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.indexoutofrangeexception">IndexOutOfRangeException</a></dt>
-    <dd><p>Thrown if the list is full.</p>
-</dd>
-  </dl>
 
 
 
-  <a id="TruckLib_ScsMap_GateActivationPointList_Add_" data-uid="TruckLib.ScsMap.GateActivationPointList.Add*"></a>
+  <a id="TruckLib_ScsMap_Collections_PolygonNodeList_Add_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.Add*"></a>
 
-  <h3 id="TruckLib_ScsMap_GateActivationPointList_Add_TruckLib_ScsMap_GateActivationPoint_" data-uid="TruckLib.ScsMap.GateActivationPointList.Add(TruckLib.ScsMap.GateActivationPoint)">
-  Add(GateActivationPoint)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/GateActivationPointList.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <h3 id="TruckLib_ScsMap_Collections_PolygonNodeList_Add_TruckLib_ScsMap_INode_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.Add(TruckLib.ScsMap.INode)">
+  Add(INode)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PolygonNodeList.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Adds an item to the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a>.</p>
@@ -440,12 +395,12 @@ with the given properties to the end of the list.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Add(GateActivationPoint item)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Add(INode item)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>item</code> <a class="xref" href="TruckLib.ScsMap.GateActivationPoint.html">GateActivationPoint</a></dt>
+    <dt><code>item</code> <a class="xref" href="TruckLib.ScsMap.INode.html">INode</a></dt>
     <dd><p>The object to add to the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a>.</p>
 </dd>
   </dl>
@@ -460,9 +415,6 @@ with the given properties to the end of the list.</p>
 
   <h4 class="section">Exceptions</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.indexoutofrangeexception">IndexOutOfRangeException</a></dt>
-    <dd><p>Thrown if the list is full.</p>
-</dd>
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a> is read-only.</p>
 </dd>
@@ -470,11 +422,77 @@ with the given properties to the end of the list.</p>
 
 
 
-  <a id="TruckLib_ScsMap_GateActivationPointList_Clear_" data-uid="TruckLib.ScsMap.GateActivationPointList.Clear*"></a>
+  <a id="TruckLib_ScsMap_Collections_PolygonNodeList_AddRange_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.AddRange*"></a>
 
-  <h3 id="TruckLib_ScsMap_GateActivationPointList_Clear" data-uid="TruckLib.ScsMap.GateActivationPointList.Clear">
+  <h3 id="TruckLib_ScsMap_Collections_PolygonNodeList_AddRange_System_Collections_Generic_IEnumerable_System_Numerics_Vector3__" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.AddRange(System.Collections.Generic.IEnumerable{System.Numerics.Vector3})">
+  AddRange(IEnumerable&lt;Vector3&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PolygonNodeList.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates map nodes at the specified positions and adds them to the end of the list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddRange(IEnumerable&lt;Vector3&gt; positions)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>positions</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a>&gt;</dt>
+    <dd><p>The positions of the nodes.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Collections_PolygonNodeList_AddRange_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.AddRange*"></a>
+
+  <h3 id="TruckLib_ScsMap_Collections_PolygonNodeList_AddRange_System_Collections_Generic_IEnumerable_TruckLib_ScsMap_INode__" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.AddRange(System.Collections.Generic.IEnumerable{TruckLib.ScsMap.INode})">
+  AddRange(IEnumerable&lt;INode&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PolygonNodeList.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds nodes to the end of list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddRange(IEnumerable&lt;INode&gt; items)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>items</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="TruckLib.ScsMap.INode.html">INode</a>&gt;</dt>
+    <dd><p>The nodes to add to the list.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Collections_PolygonNodeList_Clear_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.Clear*"></a>
+
+  <h3 id="TruckLib_ScsMap_Collections_PolygonNodeList_Clear" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.Clear">
   Clear()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/GateActivationPointList.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PolygonNodeList.cs/#L102"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Removes all items from the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a>.</p>
@@ -503,11 +521,11 @@ with the given properties to the end of the list.</p>
 
 
 
-  <a id="TruckLib_ScsMap_GateActivationPointList_Contains_" data-uid="TruckLib.ScsMap.GateActivationPointList.Contains*"></a>
+  <a id="TruckLib_ScsMap_Collections_PolygonNodeList_Contains_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.Contains*"></a>
 
-  <h3 id="TruckLib_ScsMap_GateActivationPointList_Contains_TruckLib_ScsMap_GateActivationPoint_" data-uid="TruckLib.ScsMap.GateActivationPointList.Contains(TruckLib.ScsMap.GateActivationPoint)">
-  Contains(GateActivationPoint)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/GateActivationPointList.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  <h3 id="TruckLib_ScsMap_Collections_PolygonNodeList_Contains_TruckLib_ScsMap_INode_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.Contains(TruckLib.ScsMap.INode)">
+  Contains(INode)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PolygonNodeList.cs/#L110"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Determines whether the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a> contains a specific value.</p>
@@ -515,12 +533,12 @@ with the given properties to the end of the list.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Contains(GateActivationPoint item)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Contains(INode item)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>item</code> <a class="xref" href="TruckLib.ScsMap.GateActivationPoint.html">GateActivationPoint</a></dt>
+    <dt><code>item</code> <a class="xref" href="TruckLib.ScsMap.INode.html">INode</a></dt>
     <dd><p>The object to locate in the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a>.</p>
 </dd>
   </dl>
@@ -542,11 +560,11 @@ with the given properties to the end of the list.</p>
 
 
 
-  <a id="TruckLib_ScsMap_GateActivationPointList_CopyTo_" data-uid="TruckLib.ScsMap.GateActivationPointList.CopyTo*"></a>
+  <a id="TruckLib_ScsMap_Collections_PolygonNodeList_CopyTo_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.CopyTo*"></a>
 
-  <h3 id="TruckLib_ScsMap_GateActivationPointList_CopyTo_TruckLib_ScsMap_GateActivationPoint___System_Int32_" data-uid="TruckLib.ScsMap.GateActivationPointList.CopyTo(TruckLib.ScsMap.GateActivationPoint[],System.Int32)">
-  CopyTo(GateActivationPoint[], int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/GateActivationPointList.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  <h3 id="TruckLib_ScsMap_Collections_PolygonNodeList_CopyTo_TruckLib_ScsMap_INode___System_Int32_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.CopyTo(TruckLib.ScsMap.INode[],System.Int32)">
+  CopyTo(INode[], int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PolygonNodeList.cs/#L116"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Copies the elements of the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a> to an <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.array">Array</a>, starting at a particular <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.array">Array</a> index.</p>
@@ -554,12 +572,12 @@ with the given properties to the end of the list.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void CopyTo(GateActivationPoint[] array, int arrayIndex)</code></pre>
+    <pre><code class="lang-csharp hljs">public void CopyTo(INode[] array, int arrayIndex)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>array</code> <a class="xref" href="TruckLib.ScsMap.GateActivationPoint.html">GateActivationPoint</a>[]</dt>
+    <dt><code>array</code> <a class="xref" href="TruckLib.ScsMap.INode.html">INode</a>[]</dt>
     <dd><p>The one-dimensional <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.array">Array</a> that is the destination of the elements copied from <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a>. The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.array">Array</a> must have zero-based indexing.</p>
 </dd>
     <dt><code>arrayIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
@@ -590,11 +608,11 @@ with the given properties to the end of the list.</p>
 
 
 
-  <a id="TruckLib_ScsMap_GateActivationPointList_GetEnumerator_" data-uid="TruckLib.ScsMap.GateActivationPointList.GetEnumerator*"></a>
+  <a id="TruckLib_ScsMap_Collections_PolygonNodeList_GetEnumerator_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.GetEnumerator*"></a>
 
-  <h3 id="TruckLib_ScsMap_GateActivationPointList_GetEnumerator" data-uid="TruckLib.ScsMap.GateActivationPointList.GetEnumerator">
+  <h3 id="TruckLib_ScsMap_Collections_PolygonNodeList_GetEnumerator" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.GetEnumerator">
   GetEnumerator()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/GateActivationPointList.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PolygonNodeList.cs/#L122"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns an enumerator that iterates through the collection.</p>
@@ -602,13 +620,13 @@ with the given properties to the end of the list.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerator&lt;GateActivationPoint&gt; GetEnumerator()</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerator&lt;INode&gt; GetEnumerator()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1">IEnumerator</a>&lt;<a class="xref" href="TruckLib.ScsMap.GateActivationPoint.html">GateActivationPoint</a>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1">IEnumerator</a>&lt;<a class="xref" href="TruckLib.ScsMap.INode.html">INode</a>&gt;</dt>
     <dd><p>An enumerator that can be used to iterate through the collection.</p>
 </dd>
   </dl>
@@ -623,11 +641,11 @@ with the given properties to the end of the list.</p>
 
 
 
-  <a id="TruckLib_ScsMap_GateActivationPointList_IndexOf_" data-uid="TruckLib.ScsMap.GateActivationPointList.IndexOf*"></a>
+  <a id="TruckLib_ScsMap_Collections_PolygonNodeList_IndexOf_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.IndexOf*"></a>
 
-  <h3 id="TruckLib_ScsMap_GateActivationPointList_IndexOf_TruckLib_ScsMap_GateActivationPoint_" data-uid="TruckLib.ScsMap.GateActivationPointList.IndexOf(TruckLib.ScsMap.GateActivationPoint)">
-  IndexOf(GateActivationPoint)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/GateActivationPointList.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  <h3 id="TruckLib_ScsMap_Collections_PolygonNodeList_IndexOf_TruckLib_ScsMap_INode_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.IndexOf(TruckLib.ScsMap.INode)">
+  IndexOf(INode)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PolygonNodeList.cs/#L128"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Determines the index of a specific item in the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList&lt;T&gt;</a>.</p>
@@ -635,12 +653,12 @@ with the given properties to the end of the list.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int IndexOf(GateActivationPoint item)</code></pre>
+    <pre><code class="lang-csharp hljs">public int IndexOf(INode item)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>item</code> <a class="xref" href="TruckLib.ScsMap.GateActivationPoint.html">GateActivationPoint</a></dt>
+    <dt><code>item</code> <a class="xref" href="TruckLib.ScsMap.INode.html">INode</a></dt>
     <dd><p>The object to locate in the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList&lt;T&gt;</a>.</p>
 </dd>
   </dl>
@@ -662,20 +680,20 @@ with the given properties to the end of the list.</p>
 
 
 
-  <a id="TruckLib_ScsMap_GateActivationPointList_Insert_" data-uid="TruckLib.ScsMap.GateActivationPointList.Insert*"></a>
+  <a id="TruckLib_ScsMap_Collections_PolygonNodeList_Insert_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.Insert*"></a>
 
-  <h3 id="TruckLib_ScsMap_GateActivationPointList_Insert_System_Int32_System_Numerics_Vector3_System_String_" data-uid="TruckLib.ScsMap.GateActivationPointList.Insert(System.Int32,System.Numerics.Vector3,System.String)">
-  Insert(int, Vector3, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/GateActivationPointList.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  <h3 id="TruckLib_ScsMap_Collections_PolygonNodeList_Insert_System_Int32_System_Numerics_Vector3_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.Insert(System.Int32,System.Numerics.Vector3)">
+  Insert(int, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PolygonNodeList.cs/#L145"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Creates a map node at the specified position and inserts a <a class="xref" href="TruckLib.ScsMap.GateActivationPoint.html">GateActivationPoint</a> object
+  <div class="markdown level1 summary"><p>Creates a map node at the specified position and inserts it
 with the given properties at the specified index.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Insert(int index, Vector3 position, string trigger)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Insert(int index, Vector3 position)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -686,9 +704,6 @@ with the given properties at the specified index.</p>
     <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd><p>The position of the node.</p>
 </dd>
-    <dt><code>trigger</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The name of the trigger.</p>
-</dd>
   </dl>
 
 
@@ -699,20 +714,14 @@ with the given properties at the specified index.</p>
 
 
 
-  <h4 class="section">Exceptions</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.indexoutofrangeexception">IndexOutOfRangeException</a></dt>
-    <dd><p>Thrown if the list is full.</p>
-</dd>
-  </dl>
 
 
 
-  <a id="TruckLib_ScsMap_GateActivationPointList_Insert_" data-uid="TruckLib.ScsMap.GateActivationPointList.Insert*"></a>
+  <a id="TruckLib_ScsMap_Collections_PolygonNodeList_Insert_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.Insert*"></a>
 
-  <h3 id="TruckLib_ScsMap_GateActivationPointList_Insert_System_Int32_TruckLib_ScsMap_GateActivationPoint_" data-uid="TruckLib.ScsMap.GateActivationPointList.Insert(System.Int32,TruckLib.ScsMap.GateActivationPoint)">
-  Insert(int, GateActivationPoint)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/GateActivationPointList.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  <h3 id="TruckLib_ScsMap_Collections_PolygonNodeList_Insert_System_Int32_TruckLib_ScsMap_INode_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.Insert(System.Int32,TruckLib.ScsMap.INode)">
+  Insert(int, INode)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PolygonNodeList.cs/#L134"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Inserts an item to the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList&lt;T&gt;</a> at the specified index.</p>
@@ -720,7 +729,7 @@ with the given properties at the specified index.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Insert(int index, GateActivationPoint item)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Insert(int index, INode item)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -728,7 +737,7 @@ with the given properties at the specified index.</p>
     <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd><p>The zero-based index at which <code class="paramref">item</code> should be inserted.</p>
 </dd>
-    <dt><code>item</code> <a class="xref" href="TruckLib.ScsMap.GateActivationPoint.html">GateActivationPoint</a></dt>
+    <dt><code>item</code> <a class="xref" href="TruckLib.ScsMap.INode.html">INode</a></dt>
     <dd><p>The object to insert into the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList&lt;T&gt;</a>.</p>
 </dd>
   </dl>
@@ -743,9 +752,6 @@ with the given properties at the specified index.</p>
 
   <h4 class="section">Exceptions</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.indexoutofrangeexception">IndexOutOfRangeException</a></dt>
-    <dd><p>Thrown if the list is full.</p>
-</dd>
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></dt>
     <dd><p><code class="paramref">index</code> is not a valid index in the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList&lt;T&gt;</a>.</p>
 </dd>
@@ -756,25 +762,25 @@ with the given properties at the specified index.</p>
 
 
 
-  <a id="TruckLib_ScsMap_GateActivationPointList_Remove_" data-uid="TruckLib.ScsMap.GateActivationPointList.Remove*"></a>
+  <a id="TruckLib_ScsMap_Collections_PolygonNodeList_Remove_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.Remove*"></a>
 
-  <h3 id="TruckLib_ScsMap_GateActivationPointList_Remove_TruckLib_ScsMap_GateActivationPoint_" data-uid="TruckLib.ScsMap.GateActivationPointList.Remove(TruckLib.ScsMap.GateActivationPoint)">
-  Remove(GateActivationPoint)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/GateActivationPointList.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  <h3 id="TruckLib_ScsMap_Collections_PolygonNodeList_Remove_TruckLib_ScsMap_INode_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.Remove(TruckLib.ScsMap.INode)">
+  Remove(INode)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PolygonNodeList.cs/#L157"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Removes the first occurrence of the specified object from the list
-and deletes its map node if it is not connected to anything else.</p>
+  <div class="markdown level1 summary"><p>Removes the first occurrence of the specified node from the list
+and deletes it from the map if it is not connected to anything else.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Remove(GateActivationPoint item)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Remove(INode item)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>item</code> <a class="xref" href="TruckLib.ScsMap.GateActivationPoint.html">GateActivationPoint</a></dt>
+    <dt><code>item</code> <a class="xref" href="TruckLib.ScsMap.INode.html">INode</a></dt>
     <dd><p>The object to remove from the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a>.</p>
 </dd>
   </dl>
@@ -802,15 +808,15 @@ and deletes its map node if it is not connected to anything else.</p>
 
 
 
-  <a id="TruckLib_ScsMap_GateActivationPointList_RemoveAt_" data-uid="TruckLib.ScsMap.GateActivationPointList.RemoveAt*"></a>
+  <a id="TruckLib_ScsMap_Collections_PolygonNodeList_RemoveAt_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.RemoveAt*"></a>
 
-  <h3 id="TruckLib_ScsMap_GateActivationPointList_RemoveAt_System_Int32_" data-uid="TruckLib.ScsMap.GateActivationPointList.RemoveAt(System.Int32)">
+  <h3 id="TruckLib_ScsMap_Collections_PolygonNodeList_RemoveAt_System_Int32_" data-uid="TruckLib.ScsMap.Collections.PolygonNodeList.RemoveAt(System.Int32)">
   RemoveAt(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/GateActivationPointList.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PolygonNodeList.cs/#L170"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Removes the element at the specified index from the list
-and deletes its map node if it is not connected to anything else.</p>
+  <div class="markdown level1 summary"><p>Removes the node at the specified index from the list
+and deletes it if it is not connected to anything else.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -849,7 +855,7 @@ and deletes its map node if it is not connected to anything else.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/GateActivationPointList.cs/#L15" class="edit-link">Edit this page</a>
+          <a href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PolygonNodeList.cs/#L14" class="edit-link">Edit this page</a>
         </div>
 
 

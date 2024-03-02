@@ -121,14 +121,16 @@ var allMovers = map.MapItems.OfType&lt;Mover&gt;();
 </code></pre>
 <p>Do not modify this dictionary directly – see &quot;Adding and deleting map items&quot; for the intended way to do that.</p>
 <h2 id="nodes">Nodes</h2>
-<p>Likewise, the <a class="xref" href="../../api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_Nodes"><code>Nodes</code></a> property is a dictionary containing all nodes in the map.</p>
+<p>Likewise, the <a class="xref" href="../../api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_Nodes"><code>Nodes</code></a> property is a dictionary plus R-tree containing all nodes in the map.</p>
+<p>You can retrieve nodes by UID just like any dictionary:</p>
 <pre><code class="lang-cs">bool exists = map.Nodes.TryGetValue(0x521CD80C53000000, out INode node);
 </code></pre>
+<p>To find nodes within a bounding box, use the <a class="xref" href="../../api/TruckLib.ScsMap.Collections.NodeDictionary.html#TruckLib_ScsMap_Collections_NodeDictionary_Within_"><code>Within</code></a> method:</p>
+<pre><code class="lang-cs">var nodes = map.Nodes.Within(0, 0, 4000, 4000);
+</code></pre>
 <p>As with <code>MapItems</code>, it is not recommended to add to or remove from this dictionary by hand.
-To add a node, if necessary, call <a class="xref" href="../../api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_AddNode_"><code>AddNode</code></a>, and to
+To add a node directly, if necessary, call <a class="xref" href="../../api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_AddNode_"><code>AddNode</code></a>, and to
 delete a node, call <a class="xref" href="../../api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_Delete_TruckLib_ScsMap_INode_"><code>Delete</code></a>.</p>
-<h3 id="searching-for-nodes">Searching for nodes</h3>
-<p>Searching for nodes within a bounding box or around a point is not yet implemented. Soon™.</p>
 <h2 id="sectors">Sectors</h2>
 <p>In TruckLib, sectors don't contain any map objects internally: which sector an item or a node should be written
 to is decided when <a class="xref" href="../../api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_Save_"><code>Save</code></a> is called.</p>
