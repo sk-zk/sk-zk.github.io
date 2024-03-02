@@ -154,7 +154,7 @@ Class Sector  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="TruckLib_ScsMap_Sector__ctor" data-uid="TruckLib.ScsMap.Sector.#ctor">
   Sector()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sector.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sector.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -180,7 +180,7 @@ Class Sector  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="TruckLib_ScsMap_Sector__ctor_System_Int32_System_Int32_TruckLib_ScsMap_Map_" data-uid="TruckLib.ScsMap.Sector.#ctor(System.Int32,System.Int32,TruckLib.ScsMap.Map)">
   Sector(int, int, Map)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sector.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sector.cs/#L66"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Instantiates a sector with default metadata.</p>
@@ -215,6 +215,42 @@ Class Sector  <a class="header-action link-secondary" title="View source" href="
 
 
 
+  <a id="TruckLib_ScsMap_Sector__ctor_" data-uid="TruckLib.ScsMap.Sector.#ctor*"></a>
+
+  <h3 id="TruckLib_ScsMap_Sector__ctor_TruckLib_ScsMap_SectorCoordinate_TruckLib_ScsMap_Map_" data-uid="TruckLib.ScsMap.Sector.#ctor(TruckLib.ScsMap.SectorCoordinate,TruckLib.ScsMap.Map)">
+  Sector(SectorCoordinate, Map)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sector.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Instantiates a sector with default metadata.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Sector(SectorCoordinate coord, Map map)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coord</code> <a class="xref" href="TruckLib.ScsMap.SectorCoordinate.html">SectorCoordinate</a></dt>
+    <dd><p>The coordinate of the sector.</p>
+</dd>
+    <dt><code>map</code> <a class="xref" href="TruckLib.ScsMap.Map.html">Map</a></dt>
+    <dd><p>The map this sector belongs to.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <h2 class="section" id="properties">Properties
 </h2>
 
@@ -223,7 +259,7 @@ Class Sector  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="TruckLib_ScsMap_Sector_Climate" data-uid="TruckLib.ScsMap.Sector.Climate">
   Climate
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sector.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sector.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Unit name of the climate profile of this sector.</p>
@@ -251,11 +287,43 @@ Class Sector  <a class="header-action link-secondary" title="View source" href="
 
 
 
+  <a id="TruckLib_ScsMap_Sector_Coordinate_" data-uid="TruckLib.ScsMap.Sector.Coordinate*"></a>
+
+  <h3 id="TruckLib_ScsMap_Sector_Coordinate" data-uid="TruckLib.ScsMap.Sector.Coordinate">
+  Coordinate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sector.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The coordinate of this sector.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectorCoordinate Coordinate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.SectorCoordinate.html">SectorCoordinate</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="TruckLib_ScsMap_Sector_Map_" data-uid="TruckLib.ScsMap.Sector.Map*"></a>
 
   <h3 id="TruckLib_ScsMap_Sector_Map" data-uid="TruckLib.ScsMap.Sector.Map">
   Map
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sector.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sector.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The map the sector belongs to.</p>
@@ -287,7 +355,7 @@ Class Sector  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="TruckLib_ScsMap_Sector_MaxBoundary" data-uid="TruckLib.ScsMap.Sector.MaxBoundary">
   MaxBoundary
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sector.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sector.cs/#L49"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -318,7 +386,7 @@ Class Sector  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="TruckLib_ScsMap_Sector_MinBoundary" data-uid="TruckLib.ScsMap.Sector.MinBoundary">
   MinBoundary
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sector.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sector.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -345,70 +413,6 @@ Class Sector  <a class="header-action link-secondary" title="View source" href="
 
 
 
-  <a id="TruckLib_ScsMap_Sector_X_" data-uid="TruckLib.ScsMap.Sector.X*"></a>
-
-  <h3 id="TruckLib_ScsMap_Sector_X" data-uid="TruckLib.ScsMap.Sector.X">
-  X
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sector.cs/#L22"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>The X coordinate of this sector.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int X { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="TruckLib_ScsMap_Sector_Z_" data-uid="TruckLib.ScsMap.Sector.Z*"></a>
-
-  <h3 id="TruckLib_ScsMap_Sector_Z" data-uid="TruckLib.ScsMap.Sector.Z">
-  Z
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sector.cs/#L27"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>The Z coordinate of this sector.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Z { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -425,7 +429,7 @@ Class Sector  <a class="header-action link-secondary" title="View source" href="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static (int X, int Z) SectorCoordsFromSectorFilePath(string path)</code></pre>
+    <pre><code class="lang-csharp hljs">public static SectorCoordinate SectorCoordsFromSectorFilePath(string path)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -437,8 +441,8 @@ Class Sector  <a class="header-action link-secondary" title="View source" href="
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.x">X</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.z">Z</a>)</dt>
-    <dd><p>The coordinates of the sector as (X, Z) tuple.</p>
+    <dt><a class="xref" href="TruckLib.ScsMap.SectorCoordinate.html">SectorCoordinate</a></dt>
+    <dd><p>The coordinates of the sector.</p>
 </dd>
   </dl>
 
@@ -454,8 +458,8 @@ Class Sector  <a class="header-action link-secondary" title="View source" href="
 
   <a id="TruckLib_ScsMap_Sector_SectorFileNameFromSectorCoords_" data-uid="TruckLib.ScsMap.Sector.SectorFileNameFromSectorCoords*"></a>
 
-  <h3 id="TruckLib_ScsMap_Sector_SectorFileNameFromSectorCoords_System_ValueTuple_System_Int32_System_Int32__" data-uid="TruckLib.ScsMap.Sector.SectorFileNameFromSectorCoords(System.ValueTuple{System.Int32,System.Int32})">
-  SectorFileNameFromSectorCoords((int X, int Z))
+  <h3 id="TruckLib_ScsMap_Sector_SectorFileNameFromSectorCoords_TruckLib_ScsMap_SectorCoordinate_" data-uid="TruckLib.ScsMap.Sector.SectorFileNameFromSectorCoords(TruckLib.ScsMap.SectorCoordinate)">
+  SectorFileNameFromSectorCoords(SectorCoordinate)
   <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sector.cs/#L142"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -463,12 +467,12 @@ Class Sector  <a class="header-action link-secondary" title="View source" href="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string SectorFileNameFromSectorCoords((int X, int Z) coords)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string SectorFileNameFromSectorCoords(SectorCoordinate coord)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>coords</code> (<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.x">X</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.z">Z</a>)</dt>
+    <dt><code>coord</code> <a class="xref" href="TruckLib.ScsMap.SectorCoordinate.html">SectorCoordinate</a></dt>
     <dd></dd>
   </dl>
 

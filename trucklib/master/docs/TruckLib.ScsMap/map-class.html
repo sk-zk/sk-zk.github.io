@@ -101,8 +101,8 @@ the path of the <code>.mbd</code> file.</p>
 
 Map map = Map.Open(@&quot;E:\SteamLibrary\steamapps\common\Euro Truck Simulator 2\extracted\map\europe.mbd&quot;);
 </code></pre>
-<p>If you would like to only load specific sectors rather than the entire map, use the optional <code>sectors</code> parameter.
-It expects an array of sector coordinates as tuples in (X, Z) order.</p>
+<p>If you would like to load specific sectors only, use the optional <code>sectors</code> parameter.
+It expects a list or array of <a class="xref" href="../../api/TruckLib.ScsMap.SectorCoordinate.html">sector coordinates</a>.</p>
 <h2 id="saving-a-map">Saving a map</h2>
 <p>To save a map, call the <a class="xref" href="../../api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_Save_"><code>Save</code></a> method of the map object. The map will be
 written to the specified directory.</p>

@@ -13390,15 +13390,12 @@ references:
   fullName.vb: TruckLib.ScsMap.Map.AddSector(Integer, Integer)
   nameWithType: Map.AddSector(int, int)
   nameWithType.vb: Map.AddSector(Integer, Integer)
-- uid: TruckLib.ScsMap.Map.AddSector(System.ValueTuple{System.Int32,System.Int32})
-  name: AddSector((int X, int Z))
-  href: api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_AddSector_System_ValueTuple_System_Int32_System_Int32__
-  commentId: M:TruckLib.ScsMap.Map.AddSector(System.ValueTuple{System.Int32,System.Int32})
-  name.vb: AddSector((X As Integer, Z As Integer))
-  fullName: TruckLib.ScsMap.Map.AddSector((int X, int Z))
-  fullName.vb: TruckLib.ScsMap.Map.AddSector((X As Integer, Z As Integer))
-  nameWithType: Map.AddSector((int X, int Z))
-  nameWithType.vb: Map.AddSector((X As Integer, Z As Integer))
+- uid: TruckLib.ScsMap.Map.AddSector(TruckLib.ScsMap.SectorCoordinate)
+  name: AddSector(SectorCoordinate)
+  href: api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_AddSector_TruckLib_ScsMap_SectorCoordinate_
+  commentId: M:TruckLib.ScsMap.Map.AddSector(TruckLib.ScsMap.SectorCoordinate)
+  fullName: TruckLib.ScsMap.Map.AddSector(TruckLib.ScsMap.SectorCoordinate)
+  nameWithType: Map.AddSector(SectorCoordinate)
 - uid: TruckLib.ScsMap.Map.AddSector*
   name: AddSector
   href: api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_AddSector_
@@ -13542,15 +13539,15 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Map.NormalScale
   nameWithType: Map.NormalScale
-- uid: TruckLib.ScsMap.Map.Open(System.String,System.ValueTuple{System.Int32,System.Int32}[])
-  name: Open(string, (int, int)[])
-  href: api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_Open_System_String_System_ValueTuple_System_Int32_System_Int32____
-  commentId: M:TruckLib.ScsMap.Map.Open(System.String,System.ValueTuple{System.Int32,System.Int32}[])
-  name.vb: Open(String, (Integer, Integer)())
-  fullName: TruckLib.ScsMap.Map.Open(string, (int, int)[])
-  fullName.vb: TruckLib.ScsMap.Map.Open(String, (Integer, Integer)())
-  nameWithType: Map.Open(string, (int, int)[])
-  nameWithType.vb: Map.Open(String, (Integer, Integer)())
+- uid: TruckLib.ScsMap.Map.Open(System.String,System.Collections.Generic.IList{TruckLib.ScsMap.SectorCoordinate})
+  name: Open(string, IList<SectorCoordinate>)
+  href: api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_Open_System_String_System_Collections_Generic_IList_TruckLib_ScsMap_SectorCoordinate__
+  commentId: M:TruckLib.ScsMap.Map.Open(System.String,System.Collections.Generic.IList{TruckLib.ScsMap.SectorCoordinate})
+  name.vb: Open(String, IList(Of SectorCoordinate))
+  fullName: TruckLib.ScsMap.Map.Open(string, System.Collections.Generic.IList<TruckLib.ScsMap.SectorCoordinate>)
+  fullName.vb: TruckLib.ScsMap.Map.Open(String, System.Collections.Generic.IList(Of TruckLib.ScsMap.SectorCoordinate))
+  nameWithType: Map.Open(string, IList<SectorCoordinate>)
+  nameWithType.vb: Map.Open(String, IList(Of SectorCoordinate))
 - uid: TruckLib.ScsMap.Map.Open*
   name: Open
   href: api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_Open_
@@ -13574,22 +13571,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Map.Save
   nameWithType: Map.Save
-- uid: TruckLib.ScsMap.Map.SaveSector(System.ValueTuple{System.Int32,System.Int32},System.String,System.Collections.Generic.List{TruckLib.ScsMap.MapItem},System.Collections.Generic.List{TruckLib.ScsMap.INode},System.Collections.Generic.HashSet{System.UInt64})
-  name: SaveSector((int X, int Z), string, List<MapItem>, List<INode>, HashSet<ulong>)
-  href: api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_SaveSector_System_ValueTuple_System_Int32_System_Int32__System_String_System_Collections_Generic_List_TruckLib_ScsMap_MapItem__System_Collections_Generic_List_TruckLib_ScsMap_INode__System_Collections_Generic_HashSet_System_UInt64__
-  commentId: M:TruckLib.ScsMap.Map.SaveSector(System.ValueTuple{System.Int32,System.Int32},System.String,System.Collections.Generic.List{TruckLib.ScsMap.MapItem},System.Collections.Generic.List{TruckLib.ScsMap.INode},System.Collections.Generic.HashSet{System.UInt64})
-  name.vb: SaveSector((X As Integer, Z As Integer), String, List(Of MapItem), List(Of INode), HashSet(Of ULong))
-  fullName: TruckLib.ScsMap.Map.SaveSector((int X, int Z), string, System.Collections.Generic.List<TruckLib.ScsMap.MapItem>, System.Collections.Generic.List<TruckLib.ScsMap.INode>, System.Collections.Generic.HashSet<ulong>)
-  fullName.vb: TruckLib.ScsMap.Map.SaveSector((X As Integer, Z As Integer), String, System.Collections.Generic.List(Of TruckLib.ScsMap.MapItem), System.Collections.Generic.List(Of TruckLib.ScsMap.INode), System.Collections.Generic.HashSet(Of ULong))
-  nameWithType: Map.SaveSector((int X, int Z), string, List<MapItem>, List<INode>, HashSet<ulong>)
-  nameWithType.vb: Map.SaveSector((X As Integer, Z As Integer), String, List(Of MapItem), List(Of INode), HashSet(Of ULong))
-- uid: TruckLib.ScsMap.Map.SaveSector*
-  name: SaveSector
-  href: api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_SaveSector_
-  commentId: Overload:TruckLib.ScsMap.Map.SaveSector
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.Map.SaveSector
-  nameWithType: Map.SaveSector
 - uid: TruckLib.ScsMap.Map.SectorSize
   name: SectorSize
   href: api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_SectorSize
@@ -18180,6 +18161,15 @@ references:
   fullName.vb: TruckLib.ScsMap.Sector.New(Integer, Integer, TruckLib.ScsMap.Map)
   nameWithType: Sector.Sector(int, int, Map)
   nameWithType.vb: Sector.New(Integer, Integer, Map)
+- uid: TruckLib.ScsMap.Sector.#ctor(TruckLib.ScsMap.SectorCoordinate,TruckLib.ScsMap.Map)
+  name: Sector(SectorCoordinate, Map)
+  href: api/TruckLib.ScsMap.Sector.html#TruckLib_ScsMap_Sector__ctor_TruckLib_ScsMap_SectorCoordinate_TruckLib_ScsMap_Map_
+  commentId: M:TruckLib.ScsMap.Sector.#ctor(TruckLib.ScsMap.SectorCoordinate,TruckLib.ScsMap.Map)
+  name.vb: New(SectorCoordinate, Map)
+  fullName: TruckLib.ScsMap.Sector.Sector(TruckLib.ScsMap.SectorCoordinate, TruckLib.ScsMap.Map)
+  fullName.vb: TruckLib.ScsMap.Sector.New(TruckLib.ScsMap.SectorCoordinate, TruckLib.ScsMap.Map)
+  nameWithType: Sector.Sector(SectorCoordinate, Map)
+  nameWithType.vb: Sector.New(SectorCoordinate, Map)
 - uid: TruckLib.ScsMap.Sector.#ctor*
   name: Sector
   href: api/TruckLib.ScsMap.Sector.html#TruckLib_ScsMap_Sector__ctor_
@@ -18203,6 +18193,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Sector.Climate
   nameWithType: Sector.Climate
+- uid: TruckLib.ScsMap.Sector.Coordinate
+  name: Coordinate
+  href: api/TruckLib.ScsMap.Sector.html#TruckLib_ScsMap_Sector_Coordinate
+  commentId: P:TruckLib.ScsMap.Sector.Coordinate
+  fullName: TruckLib.ScsMap.Sector.Coordinate
+  nameWithType: Sector.Coordinate
+- uid: TruckLib.ScsMap.Sector.Coordinate*
+  name: Coordinate
+  href: api/TruckLib.ScsMap.Sector.html#TruckLib_ScsMap_Sector_Coordinate_
+  commentId: Overload:TruckLib.ScsMap.Sector.Coordinate
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Sector.Coordinate
+  nameWithType: Sector.Coordinate
 - uid: TruckLib.ScsMap.Sector.Map
   name: Map
   href: api/TruckLib.ScsMap.Sector.html#TruckLib_ScsMap_Sector_Map
@@ -18258,15 +18261,12 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Sector.SectorCoordsFromSectorFilePath
   nameWithType: Sector.SectorCoordsFromSectorFilePath
-- uid: TruckLib.ScsMap.Sector.SectorFileNameFromSectorCoords(System.ValueTuple{System.Int32,System.Int32})
-  name: SectorFileNameFromSectorCoords((int X, int Z))
-  href: api/TruckLib.ScsMap.Sector.html#TruckLib_ScsMap_Sector_SectorFileNameFromSectorCoords_System_ValueTuple_System_Int32_System_Int32__
-  commentId: M:TruckLib.ScsMap.Sector.SectorFileNameFromSectorCoords(System.ValueTuple{System.Int32,System.Int32})
-  name.vb: SectorFileNameFromSectorCoords((X As Integer, Z As Integer))
-  fullName: TruckLib.ScsMap.Sector.SectorFileNameFromSectorCoords((int X, int Z))
-  fullName.vb: TruckLib.ScsMap.Sector.SectorFileNameFromSectorCoords((X As Integer, Z As Integer))
-  nameWithType: Sector.SectorFileNameFromSectorCoords((int X, int Z))
-  nameWithType.vb: Sector.SectorFileNameFromSectorCoords((X As Integer, Z As Integer))
+- uid: TruckLib.ScsMap.Sector.SectorFileNameFromSectorCoords(TruckLib.ScsMap.SectorCoordinate)
+  name: SectorFileNameFromSectorCoords(SectorCoordinate)
+  href: api/TruckLib.ScsMap.Sector.html#TruckLib_ScsMap_Sector_SectorFileNameFromSectorCoords_TruckLib_ScsMap_SectorCoordinate_
+  commentId: M:TruckLib.ScsMap.Sector.SectorFileNameFromSectorCoords(TruckLib.ScsMap.SectorCoordinate)
+  fullName: TruckLib.ScsMap.Sector.SectorFileNameFromSectorCoords(TruckLib.ScsMap.SectorCoordinate)
+  nameWithType: Sector.SectorFileNameFromSectorCoords(SectorCoordinate)
 - uid: TruckLib.ScsMap.Sector.SectorFileNameFromSectorCoords*
   name: SectorFileNameFromSectorCoords
   href: api/TruckLib.ScsMap.Sector.html#TruckLib_ScsMap_Sector_SectorFileNameFromSectorCoords_
@@ -18287,32 +18287,57 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Sector.ToString
   nameWithType: Sector.ToString
-- uid: TruckLib.ScsMap.Sector.X
-  name: X
-  href: api/TruckLib.ScsMap.Sector.html#TruckLib_ScsMap_Sector_X
-  commentId: P:TruckLib.ScsMap.Sector.X
-  fullName: TruckLib.ScsMap.Sector.X
-  nameWithType: Sector.X
-- uid: TruckLib.ScsMap.Sector.X*
-  name: X
-  href: api/TruckLib.ScsMap.Sector.html#TruckLib_ScsMap_Sector_X_
-  commentId: Overload:TruckLib.ScsMap.Sector.X
+- uid: TruckLib.ScsMap.SectorCoordinate
+  name: SectorCoordinate
+  href: api/TruckLib.ScsMap.SectorCoordinate.html
+  commentId: T:TruckLib.ScsMap.SectorCoordinate
+  fullName: TruckLib.ScsMap.SectorCoordinate
+  nameWithType: SectorCoordinate
+- uid: TruckLib.ScsMap.SectorCoordinate.#ctor(System.Int32,System.Int32)
+  name: SectorCoordinate(int, int)
+  href: api/TruckLib.ScsMap.SectorCoordinate.html#TruckLib_ScsMap_SectorCoordinate__ctor_System_Int32_System_Int32_
+  commentId: M:TruckLib.ScsMap.SectorCoordinate.#ctor(System.Int32,System.Int32)
+  name.vb: New(Integer, Integer)
+  fullName: TruckLib.ScsMap.SectorCoordinate.SectorCoordinate(int, int)
+  fullName.vb: TruckLib.ScsMap.SectorCoordinate.New(Integer, Integer)
+  nameWithType: SectorCoordinate.SectorCoordinate(int, int)
+  nameWithType.vb: SectorCoordinate.New(Integer, Integer)
+- uid: TruckLib.ScsMap.SectorCoordinate.#ctor*
+  name: SectorCoordinate
+  href: api/TruckLib.ScsMap.SectorCoordinate.html#TruckLib_ScsMap_SectorCoordinate__ctor_
+  commentId: Overload:TruckLib.ScsMap.SectorCoordinate.#ctor
   isSpec: "True"
-  fullName: TruckLib.ScsMap.Sector.X
-  nameWithType: Sector.X
-- uid: TruckLib.ScsMap.Sector.Z
-  name: Z
-  href: api/TruckLib.ScsMap.Sector.html#TruckLib_ScsMap_Sector_Z
-  commentId: P:TruckLib.ScsMap.Sector.Z
-  fullName: TruckLib.ScsMap.Sector.Z
-  nameWithType: Sector.Z
-- uid: TruckLib.ScsMap.Sector.Z*
-  name: Z
-  href: api/TruckLib.ScsMap.Sector.html#TruckLib_ScsMap_Sector_Z_
-  commentId: Overload:TruckLib.ScsMap.Sector.Z
+  name.vb: New
+  fullName: TruckLib.ScsMap.SectorCoordinate.SectorCoordinate
+  fullName.vb: TruckLib.ScsMap.SectorCoordinate.New
+  nameWithType: SectorCoordinate.SectorCoordinate
+  nameWithType.vb: SectorCoordinate.New
+- uid: TruckLib.ScsMap.SectorCoordinate.X
+  name: X
+  href: api/TruckLib.ScsMap.SectorCoordinate.html#TruckLib_ScsMap_SectorCoordinate_X
+  commentId: P:TruckLib.ScsMap.SectorCoordinate.X
+  fullName: TruckLib.ScsMap.SectorCoordinate.X
+  nameWithType: SectorCoordinate.X
+- uid: TruckLib.ScsMap.SectorCoordinate.X*
+  name: X
+  href: api/TruckLib.ScsMap.SectorCoordinate.html#TruckLib_ScsMap_SectorCoordinate_X_
+  commentId: Overload:TruckLib.ScsMap.SectorCoordinate.X
   isSpec: "True"
-  fullName: TruckLib.ScsMap.Sector.Z
-  nameWithType: Sector.Z
+  fullName: TruckLib.ScsMap.SectorCoordinate.X
+  nameWithType: SectorCoordinate.X
+- uid: TruckLib.ScsMap.SectorCoordinate.Z
+  name: Z
+  href: api/TruckLib.ScsMap.SectorCoordinate.html#TruckLib_ScsMap_SectorCoordinate_Z
+  commentId: P:TruckLib.ScsMap.SectorCoordinate.Z
+  fullName: TruckLib.ScsMap.SectorCoordinate.Z
+  nameWithType: SectorCoordinate.Z
+- uid: TruckLib.ScsMap.SectorCoordinate.Z*
+  name: Z
+  href: api/TruckLib.ScsMap.SectorCoordinate.html#TruckLib_ScsMap_SectorCoordinate_Z_
+  commentId: Overload:TruckLib.ScsMap.SectorCoordinate.Z
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.SectorCoordinate.Z
+  nameWithType: SectorCoordinate.Z
 - uid: TruckLib.ScsMap.Selection
   name: Selection
   href: api/TruckLib.ScsMap.Selection.html
