@@ -652,6 +652,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Collections.PathNodeList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Collections.PathNodeList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TruckLib.ScsMap.Collections.PolygonNodeList.yml",
       "output": {
         ".html": {

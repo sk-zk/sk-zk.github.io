@@ -6220,19 +6220,22 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.CameraPath.Keyframes
   nameWithType: CameraPath.Keyframes
-- uid: TruckLib.ScsMap.CameraPath.SetNodeRotations
-  name: SetNodeRotations()
-  href: api/TruckLib.ScsMap.CameraPath.html#TruckLib_ScsMap_CameraPath_SetNodeRotations
-  commentId: M:TruckLib.ScsMap.CameraPath.SetNodeRotations
-  fullName: TruckLib.ScsMap.CameraPath.SetNodeRotations()
-  nameWithType: CameraPath.SetNodeRotations()
-- uid: TruckLib.ScsMap.CameraPath.SetNodeRotations*
-  name: SetNodeRotations
-  href: api/TruckLib.ScsMap.CameraPath.html#TruckLib_ScsMap_CameraPath_SetNodeRotations_
-  commentId: Overload:TruckLib.ScsMap.CameraPath.SetNodeRotations
+- uid: TruckLib.ScsMap.CameraPath.RecalculateRotation(System.Int32)
+  name: RecalculateRotation(int)
+  href: api/TruckLib.ScsMap.CameraPath.html#TruckLib_ScsMap_CameraPath_RecalculateRotation_System_Int32_
+  commentId: M:TruckLib.ScsMap.CameraPath.RecalculateRotation(System.Int32)
+  name.vb: RecalculateRotation(Integer)
+  fullName: TruckLib.ScsMap.CameraPath.RecalculateRotation(int)
+  fullName.vb: TruckLib.ScsMap.CameraPath.RecalculateRotation(Integer)
+  nameWithType: CameraPath.RecalculateRotation(int)
+  nameWithType.vb: CameraPath.RecalculateRotation(Integer)
+- uid: TruckLib.ScsMap.CameraPath.RecalculateRotation*
+  name: RecalculateRotation
+  href: api/TruckLib.ScsMap.CameraPath.html#TruckLib_ScsMap_CameraPath_RecalculateRotation_
+  commentId: Overload:TruckLib.ScsMap.CameraPath.RecalculateRotation
   isSpec: "True"
-  fullName: TruckLib.ScsMap.CameraPath.SetNodeRotations
-  nameWithType: CameraPath.SetNodeRotations
+  fullName: TruckLib.ScsMap.CameraPath.RecalculateRotation
+  nameWithType: CameraPath.RecalculateRotation
 - uid: TruckLib.ScsMap.CameraPath.Tags
   name: Tags
   href: api/TruckLib.ScsMap.CameraPath.html#TruckLib_ScsMap_CameraPath_Tags
@@ -7494,6 +7497,268 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Collections.NodeDictionary.Within
   nameWithType: NodeDictionary.Within
+- uid: TruckLib.ScsMap.Collections.PathNodeList
+  name: PathNodeList
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html
+  commentId: T:TruckLib.ScsMap.Collections.PathNodeList
+  fullName: TruckLib.ScsMap.Collections.PathNodeList
+  nameWithType: PathNodeList
+- uid: TruckLib.ScsMap.Collections.PathNodeList.#ctor(TruckLib.ScsMap.PathItem)
+  name: PathNodeList(PathItem)
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList__ctor_TruckLib_ScsMap_PathItem_
+  commentId: M:TruckLib.ScsMap.Collections.PathNodeList.#ctor(TruckLib.ScsMap.PathItem)
+  name.vb: New(PathItem)
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.PathNodeList(TruckLib.ScsMap.PathItem)
+  fullName.vb: TruckLib.ScsMap.Collections.PathNodeList.New(TruckLib.ScsMap.PathItem)
+  nameWithType: PathNodeList.PathNodeList(PathItem)
+  nameWithType.vb: PathNodeList.New(PathItem)
+- uid: TruckLib.ScsMap.Collections.PathNodeList.#ctor*
+  name: PathNodeList
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList__ctor_
+  commentId: Overload:TruckLib.ScsMap.Collections.PathNodeList.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.PathNodeList
+  fullName.vb: TruckLib.ScsMap.Collections.PathNodeList.New
+  nameWithType: PathNodeList.PathNodeList
+  nameWithType.vb: PathNodeList.New
+- uid: TruckLib.ScsMap.Collections.PathNodeList.Add(System.Numerics.Vector3)
+  name: Add(Vector3)
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_Add_System_Numerics_Vector3_
+  commentId: M:TruckLib.ScsMap.Collections.PathNodeList.Add(System.Numerics.Vector3)
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.Add(System.Numerics.Vector3)
+  nameWithType: PathNodeList.Add(Vector3)
+- uid: TruckLib.ScsMap.Collections.PathNodeList.Add(TruckLib.ScsMap.INode)
+  name: Add(INode)
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_Add_TruckLib_ScsMap_INode_
+  commentId: M:TruckLib.ScsMap.Collections.PathNodeList.Add(TruckLib.ScsMap.INode)
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.Add(TruckLib.ScsMap.INode)
+  nameWithType: PathNodeList.Add(INode)
+- uid: TruckLib.ScsMap.Collections.PathNodeList.Add*
+  name: Add
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_Add_
+  commentId: Overload:TruckLib.ScsMap.Collections.PathNodeList.Add
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.Add
+  nameWithType: PathNodeList.Add
+- uid: TruckLib.ScsMap.Collections.PathNodeList.AddRange(System.Collections.Generic.IEnumerable{System.Numerics.Vector3})
+  name: AddRange(IEnumerable<Vector3>)
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_AddRange_System_Collections_Generic_IEnumerable_System_Numerics_Vector3__
+  commentId: M:TruckLib.ScsMap.Collections.PathNodeList.AddRange(System.Collections.Generic.IEnumerable{System.Numerics.Vector3})
+  name.vb: AddRange(IEnumerable(Of Vector3))
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.AddRange(System.Collections.Generic.IEnumerable<System.Numerics.Vector3>)
+  fullName.vb: TruckLib.ScsMap.Collections.PathNodeList.AddRange(System.Collections.Generic.IEnumerable(Of System.Numerics.Vector3))
+  nameWithType: PathNodeList.AddRange(IEnumerable<Vector3>)
+  nameWithType.vb: PathNodeList.AddRange(IEnumerable(Of Vector3))
+- uid: TruckLib.ScsMap.Collections.PathNodeList.AddRange(System.Collections.Generic.IEnumerable{TruckLib.ScsMap.INode})
+  name: AddRange(IEnumerable<INode>)
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_AddRange_System_Collections_Generic_IEnumerable_TruckLib_ScsMap_INode__
+  commentId: M:TruckLib.ScsMap.Collections.PathNodeList.AddRange(System.Collections.Generic.IEnumerable{TruckLib.ScsMap.INode})
+  name.vb: AddRange(IEnumerable(Of INode))
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.AddRange(System.Collections.Generic.IEnumerable<TruckLib.ScsMap.INode>)
+  fullName.vb: TruckLib.ScsMap.Collections.PathNodeList.AddRange(System.Collections.Generic.IEnumerable(Of TruckLib.ScsMap.INode))
+  nameWithType: PathNodeList.AddRange(IEnumerable<INode>)
+  nameWithType.vb: PathNodeList.AddRange(IEnumerable(Of INode))
+- uid: TruckLib.ScsMap.Collections.PathNodeList.AddRange*
+  name: AddRange
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_AddRange_
+  commentId: Overload:TruckLib.ScsMap.Collections.PathNodeList.AddRange
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.AddRange
+  nameWithType: PathNodeList.AddRange
+- uid: TruckLib.ScsMap.Collections.PathNodeList.Clear
+  name: Clear()
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_Clear
+  commentId: M:TruckLib.ScsMap.Collections.PathNodeList.Clear
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.Clear()
+  nameWithType: PathNodeList.Clear()
+- uid: TruckLib.ScsMap.Collections.PathNodeList.Clear*
+  name: Clear
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_Clear_
+  commentId: Overload:TruckLib.ScsMap.Collections.PathNodeList.Clear
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.Clear
+  nameWithType: PathNodeList.Clear
+- uid: TruckLib.ScsMap.Collections.PathNodeList.Contains(TruckLib.ScsMap.INode)
+  name: Contains(INode)
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_Contains_TruckLib_ScsMap_INode_
+  commentId: M:TruckLib.ScsMap.Collections.PathNodeList.Contains(TruckLib.ScsMap.INode)
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.Contains(TruckLib.ScsMap.INode)
+  nameWithType: PathNodeList.Contains(INode)
+- uid: TruckLib.ScsMap.Collections.PathNodeList.Contains*
+  name: Contains
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_Contains_
+  commentId: Overload:TruckLib.ScsMap.Collections.PathNodeList.Contains
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.Contains
+  nameWithType: PathNodeList.Contains
+- uid: TruckLib.ScsMap.Collections.PathNodeList.CopyTo(TruckLib.ScsMap.INode[],System.Int32)
+  name: CopyTo(INode[], int)
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_CopyTo_TruckLib_ScsMap_INode___System_Int32_
+  commentId: M:TruckLib.ScsMap.Collections.PathNodeList.CopyTo(TruckLib.ScsMap.INode[],System.Int32)
+  name.vb: CopyTo(INode(), Integer)
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.CopyTo(TruckLib.ScsMap.INode[], int)
+  fullName.vb: TruckLib.ScsMap.Collections.PathNodeList.CopyTo(TruckLib.ScsMap.INode(), Integer)
+  nameWithType: PathNodeList.CopyTo(INode[], int)
+  nameWithType.vb: PathNodeList.CopyTo(INode(), Integer)
+- uid: TruckLib.ScsMap.Collections.PathNodeList.CopyTo*
+  name: CopyTo
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_CopyTo_
+  commentId: Overload:TruckLib.ScsMap.Collections.PathNodeList.CopyTo
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.CopyTo
+  nameWithType: PathNodeList.CopyTo
+- uid: TruckLib.ScsMap.Collections.PathNodeList.Count
+  name: Count
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_Count
+  commentId: P:TruckLib.ScsMap.Collections.PathNodeList.Count
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.Count
+  nameWithType: PathNodeList.Count
+- uid: TruckLib.ScsMap.Collections.PathNodeList.Count*
+  name: Count
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_Count_
+  commentId: Overload:TruckLib.ScsMap.Collections.PathNodeList.Count
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.Count
+  nameWithType: PathNodeList.Count
+- uid: TruckLib.ScsMap.Collections.PathNodeList.GetEnumerator
+  name: GetEnumerator()
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_GetEnumerator
+  commentId: M:TruckLib.ScsMap.Collections.PathNodeList.GetEnumerator
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.GetEnumerator()
+  nameWithType: PathNodeList.GetEnumerator()
+- uid: TruckLib.ScsMap.Collections.PathNodeList.GetEnumerator*
+  name: GetEnumerator
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_GetEnumerator_
+  commentId: Overload:TruckLib.ScsMap.Collections.PathNodeList.GetEnumerator
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.GetEnumerator
+  nameWithType: PathNodeList.GetEnumerator
+- uid: TruckLib.ScsMap.Collections.PathNodeList.IndexOf(TruckLib.ScsMap.INode)
+  name: IndexOf(INode)
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_IndexOf_TruckLib_ScsMap_INode_
+  commentId: M:TruckLib.ScsMap.Collections.PathNodeList.IndexOf(TruckLib.ScsMap.INode)
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.IndexOf(TruckLib.ScsMap.INode)
+  nameWithType: PathNodeList.IndexOf(INode)
+- uid: TruckLib.ScsMap.Collections.PathNodeList.IndexOf*
+  name: IndexOf
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_IndexOf_
+  commentId: Overload:TruckLib.ScsMap.Collections.PathNodeList.IndexOf
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.IndexOf
+  nameWithType: PathNodeList.IndexOf
+- uid: TruckLib.ScsMap.Collections.PathNodeList.Insert(System.Int32,System.Numerics.Vector3)
+  name: Insert(int, Vector3)
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_Insert_System_Int32_System_Numerics_Vector3_
+  commentId: M:TruckLib.ScsMap.Collections.PathNodeList.Insert(System.Int32,System.Numerics.Vector3)
+  name.vb: Insert(Integer, Vector3)
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.Insert(int, System.Numerics.Vector3)
+  fullName.vb: TruckLib.ScsMap.Collections.PathNodeList.Insert(Integer, System.Numerics.Vector3)
+  nameWithType: PathNodeList.Insert(int, Vector3)
+  nameWithType.vb: PathNodeList.Insert(Integer, Vector3)
+- uid: TruckLib.ScsMap.Collections.PathNodeList.Insert(System.Int32,TruckLib.ScsMap.INode)
+  name: Insert(int, INode)
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_Insert_System_Int32_TruckLib_ScsMap_INode_
+  commentId: M:TruckLib.ScsMap.Collections.PathNodeList.Insert(System.Int32,TruckLib.ScsMap.INode)
+  name.vb: Insert(Integer, INode)
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.Insert(int, TruckLib.ScsMap.INode)
+  fullName.vb: TruckLib.ScsMap.Collections.PathNodeList.Insert(Integer, TruckLib.ScsMap.INode)
+  nameWithType: PathNodeList.Insert(int, INode)
+  nameWithType.vb: PathNodeList.Insert(Integer, INode)
+- uid: TruckLib.ScsMap.Collections.PathNodeList.Insert*
+  name: Insert
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_Insert_
+  commentId: Overload:TruckLib.ScsMap.Collections.PathNodeList.Insert
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.Insert
+  nameWithType: PathNodeList.Insert
+- uid: TruckLib.ScsMap.Collections.PathNodeList.IsReadOnly
+  name: IsReadOnly
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_IsReadOnly
+  commentId: P:TruckLib.ScsMap.Collections.PathNodeList.IsReadOnly
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.IsReadOnly
+  nameWithType: PathNodeList.IsReadOnly
+- uid: TruckLib.ScsMap.Collections.PathNodeList.IsReadOnly*
+  name: IsReadOnly
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_IsReadOnly_
+  commentId: Overload:TruckLib.ScsMap.Collections.PathNodeList.IsReadOnly
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.IsReadOnly
+  nameWithType: PathNodeList.IsReadOnly
+- uid: TruckLib.ScsMap.Collections.PathNodeList.Item(System.Int32)
+  name: this[int]
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_Item_System_Int32_
+  commentId: P:TruckLib.ScsMap.Collections.PathNodeList.Item(System.Int32)
+  name.vb: this[](Integer)
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.this[int]
+  fullName.vb: TruckLib.ScsMap.Collections.PathNodeList.this[](Integer)
+  nameWithType: PathNodeList.this[int]
+  nameWithType.vb: PathNodeList.this[](Integer)
+- uid: TruckLib.ScsMap.Collections.PathNodeList.Item*
+  name: this
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_Item_
+  commentId: Overload:TruckLib.ScsMap.Collections.PathNodeList.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.this
+  fullName.vb: TruckLib.ScsMap.Collections.PathNodeList.this[]
+  nameWithType: PathNodeList.this
+  nameWithType.vb: PathNodeList.this[]
+- uid: TruckLib.ScsMap.Collections.PathNodeList.Lengths
+  name: Lengths
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_Lengths
+  commentId: P:TruckLib.ScsMap.Collections.PathNodeList.Lengths
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.Lengths
+  nameWithType: PathNodeList.Lengths
+- uid: TruckLib.ScsMap.Collections.PathNodeList.Lengths*
+  name: Lengths
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_Lengths_
+  commentId: Overload:TruckLib.ScsMap.Collections.PathNodeList.Lengths
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.Lengths
+  nameWithType: PathNodeList.Lengths
+- uid: TruckLib.ScsMap.Collections.PathNodeList.Parent
+  name: Parent
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_Parent
+  commentId: P:TruckLib.ScsMap.Collections.PathNodeList.Parent
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.Parent
+  nameWithType: PathNodeList.Parent
+- uid: TruckLib.ScsMap.Collections.PathNodeList.Parent*
+  name: Parent
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_Parent_
+  commentId: Overload:TruckLib.ScsMap.Collections.PathNodeList.Parent
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.Parent
+  nameWithType: PathNodeList.Parent
+- uid: TruckLib.ScsMap.Collections.PathNodeList.Remove(TruckLib.ScsMap.INode)
+  name: Remove(INode)
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_Remove_TruckLib_ScsMap_INode_
+  commentId: M:TruckLib.ScsMap.Collections.PathNodeList.Remove(TruckLib.ScsMap.INode)
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.Remove(TruckLib.ScsMap.INode)
+  nameWithType: PathNodeList.Remove(INode)
+- uid: TruckLib.ScsMap.Collections.PathNodeList.Remove*
+  name: Remove
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_Remove_
+  commentId: Overload:TruckLib.ScsMap.Collections.PathNodeList.Remove
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.Remove
+  nameWithType: PathNodeList.Remove
+- uid: TruckLib.ScsMap.Collections.PathNodeList.RemoveAt(System.Int32)
+  name: RemoveAt(int)
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_RemoveAt_System_Int32_
+  commentId: M:TruckLib.ScsMap.Collections.PathNodeList.RemoveAt(System.Int32)
+  name.vb: RemoveAt(Integer)
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.RemoveAt(int)
+  fullName.vb: TruckLib.ScsMap.Collections.PathNodeList.RemoveAt(Integer)
+  nameWithType: PathNodeList.RemoveAt(int)
+  nameWithType.vb: PathNodeList.RemoveAt(Integer)
+- uid: TruckLib.ScsMap.Collections.PathNodeList.RemoveAt*
+  name: RemoveAt
+  href: api/TruckLib.ScsMap.Collections.PathNodeList.html#TruckLib_ScsMap_Collections_PathNodeList_RemoveAt_
+  commentId: Overload:TruckLib.ScsMap.Collections.PathNodeList.RemoveAt
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.PathNodeList.RemoveAt
+  nameWithType: PathNodeList.RemoveAt
 - uid: TruckLib.ScsMap.Collections.PolygonNodeList
   name: PolygonNodeList
   href: api/TruckLib.ScsMap.Collections.PolygonNodeList.html
@@ -8857,6 +9122,22 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.CutPlane.OneSideOnly
   nameWithType: CutPlane.OneSideOnly
+- uid: TruckLib.ScsMap.CutPlane.RecalculateRotation(System.Int32)
+  name: RecalculateRotation(int)
+  href: api/TruckLib.ScsMap.CutPlane.html#TruckLib_ScsMap_CutPlane_RecalculateRotation_System_Int32_
+  commentId: M:TruckLib.ScsMap.CutPlane.RecalculateRotation(System.Int32)
+  name.vb: RecalculateRotation(Integer)
+  fullName: TruckLib.ScsMap.CutPlane.RecalculateRotation(int)
+  fullName.vb: TruckLib.ScsMap.CutPlane.RecalculateRotation(Integer)
+  nameWithType: CutPlane.RecalculateRotation(int)
+  nameWithType.vb: CutPlane.RecalculateRotation(Integer)
+- uid: TruckLib.ScsMap.CutPlane.RecalculateRotation*
+  name: RecalculateRotation
+  href: api/TruckLib.ScsMap.CutPlane.html#TruckLib_ScsMap_CutPlane_RecalculateRotation_
+  commentId: Overload:TruckLib.ScsMap.CutPlane.RecalculateRotation
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.CutPlane.RecalculateRotation
+  nameWithType: CutPlane.RecalculateRotation
 - uid: TruckLib.ScsMap.CutPlane.RotatedLimits
   name: RotatedLimits
   href: api/TruckLib.ScsMap.CutPlane.html#TruckLib_ScsMap_CutPlane_RotatedLimits
@@ -8870,19 +9151,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.CutPlane.RotatedLimits
   nameWithType: CutPlane.RotatedLimits
-- uid: TruckLib.ScsMap.CutPlane.SetNodeRotations
-  name: SetNodeRotations()
-  href: api/TruckLib.ScsMap.CutPlane.html#TruckLib_ScsMap_CutPlane_SetNodeRotations
-  commentId: M:TruckLib.ScsMap.CutPlane.SetNodeRotations
-  fullName: TruckLib.ScsMap.CutPlane.SetNodeRotations()
-  nameWithType: CutPlane.SetNodeRotations()
-- uid: TruckLib.ScsMap.CutPlane.SetNodeRotations*
-  name: SetNodeRotations
-  href: api/TruckLib.ScsMap.CutPlane.html#TruckLib_ScsMap_CutPlane_SetNodeRotations_
-  commentId: Overload:TruckLib.ScsMap.CutPlane.SetNodeRotations
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.CutPlane.SetNodeRotations
-  nameWithType: CutPlane.SetNodeRotations
 - uid: TruckLib.ScsMap.CutPlane.StartNodeAngle
   name: StartNodeAngle
   href: api/TruckLib.ScsMap.CutPlane.html#TruckLib_ScsMap_CutPlane_StartNodeAngle
@@ -14884,19 +15152,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Mover.PreferNonMovableAnimation
   nameWithType: Mover.PreferNonMovableAnimation
-- uid: TruckLib.ScsMap.Mover.Recalculate
-  name: Recalculate()
-  href: api/TruckLib.ScsMap.Mover.html#TruckLib_ScsMap_Mover_Recalculate
-  commentId: M:TruckLib.ScsMap.Mover.Recalculate
-  fullName: TruckLib.ScsMap.Mover.Recalculate()
-  nameWithType: Mover.Recalculate()
-- uid: TruckLib.ScsMap.Mover.Recalculate*
-  name: Recalculate
-  href: api/TruckLib.ScsMap.Mover.html#TruckLib_ScsMap_Mover_Recalculate_
-  commentId: Overload:TruckLib.ScsMap.Mover.Recalculate
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.Mover.Recalculate
-  nameWithType: Mover.Recalculate
 - uid: TruckLib.ScsMap.Mover.Speed
   name: Speed
   href: api/TruckLib.ScsMap.Mover.html#TruckLib_ScsMap_Mover_Speed
@@ -15627,19 +15882,35 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.PathItem.Nodes
   nameWithType: PathItem.Nodes
-- uid: TruckLib.ScsMap.PathItem.SetNodeRotations
-  name: SetNodeRotations()
-  href: api/TruckLib.ScsMap.PathItem.html#TruckLib_ScsMap_PathItem_SetNodeRotations
-  commentId: M:TruckLib.ScsMap.PathItem.SetNodeRotations
-  fullName: TruckLib.ScsMap.PathItem.SetNodeRotations()
-  nameWithType: PathItem.SetNodeRotations()
-- uid: TruckLib.ScsMap.PathItem.SetNodeRotations*
-  name: SetNodeRotations
-  href: api/TruckLib.ScsMap.PathItem.html#TruckLib_ScsMap_PathItem_SetNodeRotations_
-  commentId: Overload:TruckLib.ScsMap.PathItem.SetNodeRotations
+- uid: TruckLib.ScsMap.PathItem.Recalculate
+  name: Recalculate()
+  href: api/TruckLib.ScsMap.PathItem.html#TruckLib_ScsMap_PathItem_Recalculate
+  commentId: M:TruckLib.ScsMap.PathItem.Recalculate
+  fullName: TruckLib.ScsMap.PathItem.Recalculate()
+  nameWithType: PathItem.Recalculate()
+- uid: TruckLib.ScsMap.PathItem.Recalculate*
+  name: Recalculate
+  href: api/TruckLib.ScsMap.PathItem.html#TruckLib_ScsMap_PathItem_Recalculate_
+  commentId: Overload:TruckLib.ScsMap.PathItem.Recalculate
   isSpec: "True"
-  fullName: TruckLib.ScsMap.PathItem.SetNodeRotations
-  nameWithType: PathItem.SetNodeRotations
+  fullName: TruckLib.ScsMap.PathItem.Recalculate
+  nameWithType: PathItem.Recalculate
+- uid: TruckLib.ScsMap.PathItem.RecalculateRotation(System.Int32)
+  name: RecalculateRotation(int)
+  href: api/TruckLib.ScsMap.PathItem.html#TruckLib_ScsMap_PathItem_RecalculateRotation_System_Int32_
+  commentId: M:TruckLib.ScsMap.PathItem.RecalculateRotation(System.Int32)
+  name.vb: RecalculateRotation(Integer)
+  fullName: TruckLib.ScsMap.PathItem.RecalculateRotation(int)
+  fullName.vb: TruckLib.ScsMap.PathItem.RecalculateRotation(Integer)
+  nameWithType: PathItem.RecalculateRotation(int)
+  nameWithType.vb: PathItem.RecalculateRotation(Integer)
+- uid: TruckLib.ScsMap.PathItem.RecalculateRotation*
+  name: RecalculateRotation
+  href: api/TruckLib.ScsMap.PathItem.html#TruckLib_ScsMap_PathItem_RecalculateRotation_
+  commentId: Overload:TruckLib.ScsMap.PathItem.RecalculateRotation
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.PathItem.RecalculateRotation
+  nameWithType: PathItem.RecalculateRotation
 - uid: TruckLib.ScsMap.PathItem.Translate(System.Numerics.Vector3)
   name: Translate(Vector3)
   href: api/TruckLib.ScsMap.PathItem.html#TruckLib_ScsMap_PathItem_Translate_System_Numerics_Vector3_
@@ -22024,19 +22295,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Walker.RandomSpeedFactor
   nameWithType: Walker.RandomSpeedFactor
-- uid: TruckLib.ScsMap.Walker.Recalculate
-  name: Recalculate()
-  href: api/TruckLib.ScsMap.Walker.html#TruckLib_ScsMap_Walker_Recalculate
-  commentId: M:TruckLib.ScsMap.Walker.Recalculate
-  fullName: TruckLib.ScsMap.Walker.Recalculate()
-  nameWithType: Walker.Recalculate()
-- uid: TruckLib.ScsMap.Walker.Recalculate*
-  name: Recalculate
-  href: api/TruckLib.ScsMap.Walker.html#TruckLib_ScsMap_Walker_Recalculate_
-  commentId: Overload:TruckLib.ScsMap.Walker.Recalculate
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.Walker.Recalculate
-  nameWithType: Walker.Recalculate
 - uid: TruckLib.ScsMap.Walker.Speed
   name: Speed
   href: api/TruckLib.ScsMap.Walker.html#TruckLib_ScsMap_Walker_Speed

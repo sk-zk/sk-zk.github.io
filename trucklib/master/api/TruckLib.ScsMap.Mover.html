@@ -140,7 +140,10 @@ Class Mover  <a class="header-action link-secondary" title="View source" href="h
       <a class="xref" href="TruckLib.ScsMap.PathItem.html#TruckLib_ScsMap_PathItem_CreateNodes_TruckLib_ScsMap_IItemContainer_System_Collections_Generic_IList_System_Numerics_Vector3__">PathItem.CreateNodes(IItemContainer, IList&lt;Vector3&gt;)</a>
     </div>
     <div>
-      <a class="xref" href="TruckLib.ScsMap.PathItem.html#TruckLib_ScsMap_PathItem_SetNodeRotations">PathItem.SetNodeRotations()</a>
+      <a class="xref" href="TruckLib.ScsMap.PathItem.html#TruckLib_ScsMap_PathItem_Recalculate">PathItem.Recalculate()</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.ScsMap.PathItem.html#TruckLib_ScsMap_PathItem_RecalculateRotation_System_Int32_">PathItem.RecalculateRotation(int)</a>
     </div>
     <div>
       <a class="xref" href="TruckLib.ScsMap.MapItem.html#TruckLib_ScsMap_MapItem_ItemFile">MapItem.ItemFile</a>
@@ -651,15 +654,15 @@ when <code class="paramref">BounceAtEnd</code> is enabled.</p>
 
   <h3 id="TruckLib_ScsMap_Mover_Lengths" data-uid="TruckLib.ScsMap.Mover.Lengths">
   Lengths
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Mover.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Mover.cs/#L77"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Cached lengths of the path segments.</p>
+  <div class="markdown level1 summary"><p>Cached lengths of the segments.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;float&gt; Lengths { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;float&gt; Lengths { get; }</code></pre>
   </div>
 
 
@@ -810,7 +813,7 @@ when <code class="paramref">BounceAtEnd</code> is enabled.</p>
 
   <h3 id="TruckLib_ScsMap_Mover_Tags" data-uid="TruckLib.ScsMap.Mover.Tags">
   Tags
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Mover.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Mover.cs/#L72"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Tags.</p>
@@ -1071,7 +1074,7 @@ rather than a linear path.</p>
 
   <h3 id="TruckLib_ScsMap_Mover_Add_TruckLib_ScsMap_IItemContainer_System_Collections_Generic_IList_System_Numerics_Vector3__TruckLib_Token_TruckLib_Token_TruckLib_Token_" data-uid="TruckLib.ScsMap.Mover.Add(TruckLib.ScsMap.IItemContainer,System.Collections.Generic.IList{System.Numerics.Vector3},TruckLib.Token,TruckLib.Token,TruckLib.Token)">
   Add(IItemContainer, IList&lt;Vector3&gt;, Token, Token, Token)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Mover.cs/#L228"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Mover.cs/#L227"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Adds a mover to the map.</p>
@@ -1149,7 +1152,7 @@ rather than a linear path.</p>
 
   <h3 id="TruckLib_ScsMap_Mover_Move_System_Numerics_Vector3_" data-uid="TruckLib.ScsMap.Mover.Move(System.Numerics.Vector3)">
   Move(Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Mover.cs/#L242"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Mover.cs/#L241"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Moves the item, where the given position will be the new position
@@ -1179,38 +1182,11 @@ of the node at index 0, and all other nodes will be moved relative to it.</p>
 
 
 
-  <a id="TruckLib_ScsMap_Mover_Recalculate_" data-uid="TruckLib.ScsMap.Mover.Recalculate*"></a>
-
-  <h3 id="TruckLib_ScsMap_Mover_Recalculate" data-uid="TruckLib.ScsMap.Mover.Recalculate">
-  Recalculate()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Mover.cs/#L256"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Recalculates properties that may need to be recalculated.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Recalculate()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
   <a id="TruckLib_ScsMap_Mover_Translate_" data-uid="TruckLib.ScsMap.Mover.Translate*"></a>
 
   <h3 id="TruckLib_ScsMap_Mover_Translate_System_Numerics_Vector3_" data-uid="TruckLib.ScsMap.Mover.Translate(System.Numerics.Vector3)">
   Translate(Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Mover.cs/#L249"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Mover.cs/#L248"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Translates the item by the given vector.</p>
