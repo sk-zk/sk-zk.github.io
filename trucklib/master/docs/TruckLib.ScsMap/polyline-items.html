@@ -101,17 +101,16 @@
 properties instead, set the optional parameter <code>cloneSettings</code> to <code>false</code>.</p>
 <h2 id="connecting-two-polyline-items">Connecting two polyline items</h2>
 <p>To connect two unconnected polyline items where one has a free forward node and one has a free backward node, call
-<a class="xref" href="../../api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_Merge_"><code>Merge</code></a> on the node you wish to keep:</p>
-<pre><code class="lang-cs">// Say you have the following two road items:
-Road road1 = Road.Add(map, new Vector3(10, 0, 10), new Vector3(30, 0, 10), &quot;ger1&quot;);
+<a class="xref" href="../../api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_Merge_"><code>Merge</code></a> on the node you wish to keep.</p>
+<p>Say you have the following two road items:</p>
+<pre><code class="lang-cs">Road road1 = Road.Add(map, new Vector3(10, 0, 10), new Vector3(30, 0, 10), &quot;ger1&quot;);
 Road road2 = Road.Add(map, new Vector3(32, 0, 12), new Vector3(50, 0, 30), &quot;ger1&quot;);
-
-// To connect the roads and keep the node at (30, 0, 10), do the following:
-road1.ForwardNode.Merge(road2.Node);
-
-// Alternatively, if you would like to keep the node at (32, 0, 12), call it 
-// the other way around:
-road2.Node.Merge(road1.ForwardNode);
+</code></pre>
+<p>To connect the roads and keep the node at (30, 0, 10), write the following:</p>
+<pre><code class="lang-cs">road1.ForwardNode.Merge(road2.Node);
+</code></pre>
+<p>Alternatively, if you would like to keep the node at (32, 0, 12), call it  the other way around:</p>
+<pre><code class="lang-cs">road2.Node.Merge(road1.ForwardNode);
 </code></pre>
 <h2 id="disconnecting-two-polyline-items">Disconnecting two polyline items</h2>
 <p>You can disconnect two polyline items by calling <a class="xref" href="../../api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_Split_"><code>Split</code></a> on the node
