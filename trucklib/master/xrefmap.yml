@@ -8436,6 +8436,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Compound.Nodes
   nameWithType: Compound.Nodes
+- uid: TruckLib.ScsMap.Compound.RecalculateCenter
+  name: RecalculateCenter()
+  href: api/TruckLib.ScsMap.Compound.html#TruckLib_ScsMap_Compound_RecalculateCenter
+  commentId: M:TruckLib.ScsMap.Compound.RecalculateCenter
+  fullName: TruckLib.ScsMap.Compound.RecalculateCenter()
+  nameWithType: Compound.RecalculateCenter()
+- uid: TruckLib.ScsMap.Compound.RecalculateCenter*
+  name: RecalculateCenter
+  href: api/TruckLib.ScsMap.Compound.html#TruckLib_ScsMap_Compound_RecalculateCenter_
+  commentId: Overload:TruckLib.ScsMap.Compound.RecalculateCenter
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Compound.RecalculateCenter
+  nameWithType: Compound.RecalculateCenter
 - uid: TruckLib.ScsMap.Compound.Shadows
   name: Shadows
   href: api/TruckLib.ScsMap.Compound.html#TruckLib_ScsMap_Compound_Shadows
@@ -13684,6 +13697,22 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Map.CityScale
   nameWithType: Map.CityScale
+- uid: TruckLib.ScsMap.Map.CompoundItems(System.Collections.Generic.IEnumerable{TruckLib.ScsMap.MapItem})
+  name: CompoundItems(IEnumerable<MapItem>)
+  href: api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_CompoundItems_System_Collections_Generic_IEnumerable_TruckLib_ScsMap_MapItem__
+  commentId: M:TruckLib.ScsMap.Map.CompoundItems(System.Collections.Generic.IEnumerable{TruckLib.ScsMap.MapItem})
+  name.vb: CompoundItems(IEnumerable(Of MapItem))
+  fullName: TruckLib.ScsMap.Map.CompoundItems(System.Collections.Generic.IEnumerable<TruckLib.ScsMap.MapItem>)
+  fullName.vb: TruckLib.ScsMap.Map.CompoundItems(System.Collections.Generic.IEnumerable(Of TruckLib.ScsMap.MapItem))
+  nameWithType: Map.CompoundItems(IEnumerable<MapItem>)
+  nameWithType.vb: Map.CompoundItems(IEnumerable(Of MapItem))
+- uid: TruckLib.ScsMap.Map.CompoundItems*
+  name: CompoundItems
+  href: api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_CompoundItems_
+  commentId: Overload:TruckLib.ScsMap.Map.CompoundItems
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Map.CompoundItems
+  nameWithType: Map.CompoundItems
 - uid: TruckLib.ScsMap.Map.Delete(TruckLib.ScsMap.INode)
   name: Delete(INode)
   href: api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_Delete_TruckLib_ScsMap_INode_
@@ -13858,6 +13887,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Map.Sectors
   nameWithType: Map.Sectors
+- uid: TruckLib.ScsMap.Map.UncompoundItems(TruckLib.ScsMap.Compound)
+  name: UncompoundItems(Compound)
+  href: api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_UncompoundItems_TruckLib_ScsMap_Compound_
+  commentId: M:TruckLib.ScsMap.Map.UncompoundItems(TruckLib.ScsMap.Compound)
+  fullName: TruckLib.ScsMap.Map.UncompoundItems(TruckLib.ScsMap.Compound)
+  nameWithType: Map.UncompoundItems(Compound)
+- uid: TruckLib.ScsMap.Map.UncompoundItems*
+  name: UncompoundItems
+  href: api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_UncompoundItems_
+  commentId: Overload:TruckLib.ScsMap.Map.UncompoundItems
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Map.UncompoundItems
+  nameWithType: Map.UncompoundItems
 - uid: TruckLib.ScsMap.MapArea
   name: MapArea
   href: api/TruckLib.ScsMap.MapArea.html
