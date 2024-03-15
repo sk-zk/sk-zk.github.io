@@ -1951,6 +1951,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/TruckLib.ScsMap/compounds.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/TruckLib.ScsMap/compounds.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/TruckLib.ScsMap/map-class.md",
       "output": {
         ".html": {

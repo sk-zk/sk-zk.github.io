@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Working with compounds | TruckLib </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Working with compounds | TruckLib ">
+      
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/TruckLib.ScsMap/compounds.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="TruckLib">
+            TruckLib
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="working-with-compounds">Working with compounds</h1>
+
+<h2 id="creating-a-compound">Creating a compound</h2>
+<p>To compound items, you can either start with an empty compound item and add to it, or you can
+compound existing items.</p>
+<h3 id="starting-with-an-empty-compound">Starting with an empty compound</h3>
+<p>To create an empty compound, call the static <a class="xref" href="../../api/TruckLib.ScsMap.Compound.html#TruckLib_ScsMap_Compound_Add_"><code>Add</code></a> method of the class, like with any other map item:</p>
+<pre><code class="lang-cs">Compound compound = Compound.Add(map, new Vector3(42, 0, 84));
+</code></pre>
+<p>The second parameter is the center point of the compound.</p>
+<p>Adding new items to a compound works the same way as adding them to the map directly – just use
+the compound item as the first parameter:</p>
+<pre><code class="lang-cs">Model model = Model.Add(compound, new Vector3(40, 0, 80), &quot;dlc_no_654&quot;, &quot;default&quot;, &quot;default&quot;);
+</code></pre>
+<h3 id="compound-existing-items">Compound existing items</h3>
+<p>The <a class="xref" href="../../api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_CompoundItems_"><code>CompoundItems</code></a> method of a map object takes a list of existing map items
+and compounds them. Its return value is the newly created compound item.</p>
+<pre><code class="lang-cs">Compound compound = map.CompoundItems(new[] {model1, model2});
+</code></pre>
+<h2 id="removing-an-item-from-a-compound">Removing an item from a compound</h2>
+<p>Like adding to a compound, <a class="xref" href="../../api/TruckLib.ScsMap.Compound.html#TruckLib_ScsMap_Compound_Delete_TruckLib_ScsMap_MapItem_">removing</a> from a compound also has the same interface as removing from a map:</p>
+<pre><code class="lang-cs">Compound compound = Compound.Add(map, new Vector3(42, 0, 84));
+Model model = Model.Add(compound, new Vector3(40, 0, 80), &quot;dlc_no_654&quot;, &quot;default&quot;, &quot;default&quot;);
+compound.Delete(model);
+// The compound is now empty again.
+</code></pre>
+<h2 id="dissolve-a-compound">Dissolve a compound</h2>
+<p>Dissolving a compound – moving its items back into the map itself and deleting the compound item – is accomplished with
+<a class="xref" href="../../api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_UncompoundItems_"><code>UncompoundItems</code></a>:</p>
+<pre><code class="lang-cs">map.UncompoundItems(compound);
+</code></pre>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/TruckLib.ScsMap/compounds.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
