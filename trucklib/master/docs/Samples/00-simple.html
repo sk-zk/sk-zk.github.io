@@ -174,7 +174,7 @@ model1.Node.Rotation = Quaternion.CreateFromYawPitchRoll(-2.99f, 0, 0);
 var model2 = Model.Add(map, new Vector3(159.64f, -0.1f, 36.91f), 
     &quot;378&quot;, // &quot;wood_heap1&quot;
     &quot;default&quot;, &quot;default&quot;); 
-model2.Node.Rotation = Quaternion.CreateFromYawPitchRoll((float)(Math.PI / 2), 0, 0);
+model2.Node.Rotation = Quaternion.CreateFromYawPitchRoll(MathF.PI / 2, 0, 0);
 </code></pre>
 <h2 id="saving-the-map">Saving the map</h2>
 <p>Let's now save the map. The following code will place it in the <code>user_map</code> directory (if you're not
