@@ -24228,7 +24228,6 @@ const options = {
   satOverlay: false,
   highDpi: false,
   labelsAndIconsOnly: false,
-  noLandUse: false,
   mapStyle: null,
   useOldStyle: false,
 };
@@ -24288,9 +24287,6 @@ function createUrl(options) {
   }
   if (options.labelsAndIconsOnly) {
     toggles.push(new Toggle(ToggleType.LabelsAndIconsOnly));
-  }
-  if (options.noLandUse) {
-    toggles.push(new Toggle(ToggleType.NoLandUse));
   }
 
   if (options.mapStyle) {
@@ -24489,12 +24485,6 @@ createCheckBox("toggles-container", "sat-overlay", "Hybrid overlay", options.sat
 createCheckBox("toggles-container", "labels-and-icons-only", "Labels and icons only", options.labelsAndIconsOnly,
   (checked) => {
     options.labelsAndIconsOnly = +checked;
-    refreshUrl();
-  }
-);
-createCheckBox("toggles-container", "no-land-use", "No land use", options.noLandUse,
-  (checked) => {
-    options.noLandUse = +checked;
     refreshUrl();
   }
 );
