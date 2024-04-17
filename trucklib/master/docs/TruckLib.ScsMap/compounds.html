@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
@@ -111,7 +111,7 @@ Model model = Model.Add(compound, new Vector3(40, 0, 80), &quot;dlc_no_654&quot;
 compound.Delete(model);
 // The compound is now empty again.
 </code></pre>
-<h2 id="dissolve-a-compound">Dissolve a compound</h2>
+<h2 id="uncompounding">Uncompounding</h2>
 <p>Dissolving a compound – moving its items back into the map itself and deleting the compound item – is accomplished with
 <a class="xref" href="../../api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_UncompoundItems_"><code>UncompoundItems</code></a>:</p>
 <pre><code class="lang-cs">map.UncompoundItems(compound);

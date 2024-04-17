@@ -13887,6 +13887,32 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Map.Sectors
   nameWithType: Map.Sectors
+- uid: TruckLib.ScsMap.Map.StartPosition
+  name: StartPosition
+  href: api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_StartPosition
+  commentId: P:TruckLib.ScsMap.Map.StartPosition
+  fullName: TruckLib.ScsMap.Map.StartPosition
+  nameWithType: Map.StartPosition
+- uid: TruckLib.ScsMap.Map.StartPosition*
+  name: StartPosition
+  href: api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_StartPosition_
+  commentId: Overload:TruckLib.ScsMap.Map.StartPosition
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Map.StartPosition
+  nameWithType: Map.StartPosition
+- uid: TruckLib.ScsMap.Map.StartRotation
+  name: StartRotation
+  href: api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_StartRotation
+  commentId: P:TruckLib.ScsMap.Map.StartRotation
+  fullName: TruckLib.ScsMap.Map.StartRotation
+  nameWithType: Map.StartRotation
+- uid: TruckLib.ScsMap.Map.StartRotation*
+  name: StartRotation
+  href: api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_StartRotation_
+  commentId: Overload:TruckLib.ScsMap.Map.StartRotation
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Map.StartRotation
+  nameWithType: Map.StartRotation
 - uid: TruckLib.ScsMap.Map.UncompoundItems(TruckLib.ScsMap.Compound)
   name: UncompoundItems(Compound)
   href: api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_UncompoundItems_TruckLib_ScsMap_Compound_

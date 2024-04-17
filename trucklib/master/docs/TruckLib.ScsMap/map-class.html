@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
@@ -138,6 +138,8 @@ to is decided when <a class="xref" href="../../api/TruckLib.ScsMap.Map.html#Truc
 <h2 id="map-metadata">Map metadata</h2>
 <p>The scale of the map can be set with the <a class="xref" href="../../api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_NormalScale"><code>NormalScale</code></a> and
 <a class="xref" href="../../api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_CityScale"><code>CityScale</code></a> properties.</p>
+<p>The spawnpoint for the Run Map feature of the editor can be set with <a class="xref" href="../../api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_StartPosition"><code>StartPosition</code></a>
+and <a class="xref" href="../../api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_StartRotation"><code>StartRotation</code></a>.</p>
 
 </article>
 
