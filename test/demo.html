@@ -11,8 +11,8 @@
     }
     #pano {
       position: absolute;
-      width: 100vw;
-      height: 100vh;
+      width: 100dvw;
+      height: 100dvh;
       z-index: 1;
     }
   </style>
@@ -25,7 +25,7 @@
     // Otherwise, replace it with "https://lookmap.eu.pythonanywhere.com", or your own instance if you have one.
     // You can also point the viewer at a custom backend (e.g. to serve downloaded panoramas locally)
     // as long as the API is the same.
-    const apiBaseUrl = "https://lookmap.eu.pythonanywhere.com";
+    const apiBaseUrl = "https://lookmap.eu.pythonanywhere.com/";
     
     // Set the location of the panorama viewer script here.
     import { createPanoViewer, InitialOrientation, Api, AdditionalMetadata } from "https://lookmap.eu.pythonanywhere.com/static/dist/viewer.js";
