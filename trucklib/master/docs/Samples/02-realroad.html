@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Sample #3: Real world data | TruckLib </title>
+      <title>Sample #3: Real-world data | TruckLib </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Sample #3: Real world data | TruckLib ">
+      <meta name="title" content="Sample #3: Real-world data | TruckLib ">
       
       
       <link rel="icon" href="../../favicon.ico">
@@ -85,17 +85,17 @@
         </div>
 
         <article data-uid="">
-<h1 id="sample-3-real-world-data">Sample #3: Real world data</h1>
+<h1 id="sample-3-real-world-data">Sample #3: Real-world data</h1>
 
 <p>This sample demonstrates one possible approach for importing the course of a real road into a map for the purpose
-of 1:1 mapping. In particular, it deals with the essential steps of fetching elevation data and projecting the points.
-You can find the full source code at <code>Samples/02-RealRoad/Program.cs</code>.</p>
+of 1:1 mapping. In particular, it deals with the essential steps of fetching elevation data and projecting the points.</p>
+<p>This page is meant to be read alongside the full source code, which you can find at <code>Samples/02-RealRoad/Program.cs</code>.</p>
 <h2 id="structs">Structs</h2>
 <p>For convenience, we define the structs <code>GeographicCoordinate</code> and <code>ProjectedCoordinate</code>.</p>
 <h2 id="loading-the-data">Loading the data</h2>
 <p><img src="../../images/02-data.png" alt=""></p>
 <p>Where you actually get the data from is out of scope for this sample, so I've provided a CSV file containing
-WGS84 latitude/longitude coordinates describing the course of a road in Germany (© OpenStreetMap contributors).</p>
+WGS84 latitude/longitude points describing the course of a road in Germany (© OpenStreetMap contributors).</p>
 <pre><code class="lang-cs">var coordinates = LoadCoordinates();
 </code></pre>
 <p>We'll skip over <code>LoadCoordinates</code> here – it just loads the CSV file into a list of <code>GeographicCoordinate</code>s.</p>
