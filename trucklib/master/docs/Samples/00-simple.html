@@ -148,7 +148,7 @@ have to be set on the right side, as the left side is ignored by the game.</p>
 <p>The road item now looks like this:</p>
 <p><img src="../../images/00-wip2.png" alt=""></p>
 <h2 id="appending-to-a-road">Appending to a road</h2>
-<p>We will now continue this road by appending some more segments:</p>
+<p>We will now continue this road by appending some more items:</p>
 <pre><code class="lang-cs">r.Append(new Vector3(98, 0, 43.5f))
    .Append(new Vector3(146.5f, 0, 25))
    .Append(new Vector3(216, 0, 25));
@@ -156,9 +156,9 @@ have to be set on the right side, as the left side is ignored by the game.</p>
 <p><code>Append</code> creates a new road item going from the forward node of the road you called it on
 to the given coordinate. Note that road items can only have one neighbor in either direction,
 and therefore can only be appended to once – the reason <code>Append</code> can be chained like this is
-because it returns the newly created road item.</p>
+because the method returns the newly created item.</p>
 <p>We don't need to set all the properties again like we did with the first road item
-because, by default, <code>Append</code> copies all properties to the new segment.</p>
+because, by default, <code>Append</code> copies all properties to the new item.</p>
 <p>Our map now looks like this:</p>
 <p><img src="../../images/00-wip3.png" alt=""></p>
 <h2 id="adding-models">Adding models</h2>
@@ -183,7 +183,7 @@ on Windows, this will probably need to be adjusted):</p>
 var userMap = Path.Combine(documents, &quot;Euro Truck Simulator 2/mod/user_map/map/&quot;);
 map.Save(userMap, true);
 </code></pre>
-<p>There should now be a <code>example.mbd</code> and a <code>example</code> directory in <code>mod/user_map/map</code> and
+<p>There should now be an <code>example.mbd</code> and an <code>example</code> directory in <code>mod/user_map/map</code> and
 you should be able to load the map in the editor.</p>
 <p>Remember to <strong>recompute the map</strong> (Map &gt; Recompute map). This is necessary because TruckLib
 does not calculate the bounding boxes of items. Once you did, this is what the final map
