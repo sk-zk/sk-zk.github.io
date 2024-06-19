@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/Samples/02-realroad.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/Samples/03-realroad.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,11 +89,11 @@
 
 <p>This sample demonstrates one possible approach for importing the course of a real road into a map for the purpose
 of 1:1 mapping. In particular, it deals with the essential steps of fetching elevation data and projecting the points.</p>
-<p>This page is meant to be read alongside the full source code, which you can find at <code>Samples/02-RealRoad/Program.cs</code>.</p>
+<p>This page is meant to be read alongside the full source code, which you can find at <code>Samples/03-RealRoad/Program.cs</code>.</p>
 <h2 id="structs">Structs</h2>
 <p>For convenience, we define the structs <code>GeographicCoordinate</code> and <code>ProjectedCoordinate</code>.</p>
 <h2 id="loading-the-data">Loading the data</h2>
-<p><img src="../../images/02-data.png" alt=""></p>
+<p><img src="../../images/03-data.png" alt=""></p>
 <p>Where you actually get the data from is out of scope for this sample, so I've provided a CSV file containing
 WGS84 latitude/longitude points describing the course of a road in Germany (© OpenStreetMap contributors).</p>
 <pre><code class="lang-cs">var coordinates = LoadCoordinates();
@@ -204,7 +204,7 @@ and know how long each segment will be in-game, we'll filter out these segments.
 </code></pre>
 <h2 id="adding-the-road-to-the-map">Adding the road to the map</h2>
 <p>We now have everything we need to add the road to a map. For this step, I will assume that you have read
-<a href="00-simple.html">Sample #1: Simple example</a>.</p>
+<a href="00-simple.md">Sample #1: Simple example</a>.</p>
 <p>As with the previous samples, we create an empty map:</p>
 <pre><code class="lang-cs">using TruckLib.ScsMap;
 
@@ -234,17 +234,17 @@ map.Save(userMap, true);
 <p>Remember to <strong>recompute the map</strong> (Map &gt; Recompute map). This is necessary because TruckLib
 does not calculate the bounding boxes of items.</p>
 <p>This is what you should see:</p>
-<p><img src="../../images/02-final.png" alt=""></p>
+<p><img src="../../images/03-final.png" alt=""></p>
 <h2 id="further-reading">Further reading</h2>
 <ul>
-<li><a href="00-simple.html">Sample #1: Simple example</a></li>
+<li><a href="01-simple.html">Sample #1: Simple example</a></li>
 <li><a href="../TruckLib.ScsMap/polyline-items.html">Working with polyline items</a></li>
 </ul>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/Samples/02-realroad.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/Samples/03-realroad.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

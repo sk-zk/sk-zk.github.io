@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/Samples/01-prefabs.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/Samples/02-prefabs.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -87,7 +87,7 @@
         <article data-uid="">
 <h1 id="sample-2-prefabs">Sample #2: Prefabs</h1>
 
-<p>In this sample, we will take a look at how to add prefabs to a map. You can find the full source code at <code>Samples/01-Prefabs/Program.cs</code>.</p>
+<p>In this sample, we will take a look at how to add prefabs to a map. You can find the full source code at <code>Samples/02-Prefabs/Program.cs</code>.</p>
 <h2 id="instantiating-the-map">Instantiating the map</h2>
 <p>As before, we'll start with an empty map:</p>
 <pre><code class="lang-cs">using TruckLib.ScsMap;
@@ -131,7 +131,7 @@ company.Look = &quot;green_fr&quot;;
 rotation of said node to this value in the editor.</p>
 <p>The library has also automatically created the necessary <code>Company</code> slave item.</p>
 <p>Here's our progress so far:</p>
-<p><img src="../../images/01-wip1.png" alt=""></p>
+<p><img src="../../images/02-wip1.png" alt=""></p>
 <h2 id="attaching-prefabs">Attaching prefabs</h2>
 <p>Secondly, we will place a T junction and attach it to the entrance of the company. As above, we will again extract the <code>.ppd</code> file:</p>
 <pre><code class="lang-cs">var crossingDescriptorFile = baseScs.Extract(&quot;/prefab2/cross_temp/fr/fr_r1_x_r1_t_narrow_tmpl.ppd&quot;);
@@ -160,7 +160,7 @@ junction:</p>
 of the two prefabs and merges them into one. In other scenarios, you will need to specify which nodes you
 would like to merge.</p>
 <p>Our map now looks like this:</p>
-<p><img src="../../images/01-wip2.png" alt=""></p>
+<p><img src="../../images/02-wip2.png" alt=""></p>
 <h2 id="appending-and-attaching-road">Appending and attaching road</h2>
 <p>As a final step, we will take a look at how prefabs and polyline items can be connected.</p>
 <p>Something you can do is to grow a road out of a prefab node:</p>
@@ -186,7 +186,7 @@ you should be able to load the map in the editor.</p>
 <p>Remember to <strong>recompute the map</strong> (Map &gt; Recompute map). This is necessary because TruckLib
 does not calculate the bounding boxes of items.</p>
 <p>Here's our final result:</p>
-<p><img src="../../images/01-final.png" alt=""></p>
+<p><img src="../../images/02-final.png" alt=""></p>
 <h2 id="further-reading">Further reading</h2>
 <ul>
 <li><a href="../TruckLib.ScsMap/prefabs.html">Working with prefabs</a></li>
@@ -196,7 +196,7 @@ does not calculate the bounding boxes of items.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/Samples/01-prefabs.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/Samples/02-prefabs.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
