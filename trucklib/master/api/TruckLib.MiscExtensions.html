@@ -89,7 +89,7 @@
 
 
   <h1 id="TruckLib_MiscExtensions" data-uid="TruckLib.MiscExtensions" class="text-break">
-Class MiscExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/MiscExtensions.cs/#L14"><i class="bi bi-code-slash"></i></a>
+Class MiscExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/MiscExtensions.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -148,183 +148,11 @@ Class MiscExtensions  <a class="header-action link-secondary" title="View source
 
 
 
-  <h2 class="section" id="methods">Methods
-</h2>
-
-
-  <a id="TruckLib_MiscExtensions_CloneItem_" data-uid="TruckLib.MiscExtensions.CloneItem*"></a>
-
-  <h3 id="TruckLib_MiscExtensions_CloneItem__1___0_" data-uid="TruckLib.MiscExtensions.CloneItem``1(``0)">
-  CloneItem&lt;T&gt;(T)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/MiscExtensions.cs/#L61"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Clones a MapItem.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T CloneItem&lt;T&gt;(this T item) where T : MapItem</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>item</code> <span class="xref">T</span></dt>
-    <dd><p>The MapItem to clone.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">T</span></dt>
-    <dd><p>The clone.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The type of the MapItem.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <a id="TruckLib_MiscExtensions_Clone_" data-uid="TruckLib.MiscExtensions.Clone*"></a>
-
-  <h3 id="TruckLib_MiscExtensions_Clone__1___0_" data-uid="TruckLib.MiscExtensions.Clone``1(``0)">
-  Clone&lt;T&gt;(T)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/MiscExtensions.cs/#L40"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Clones an IBinarySerializable object.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T Clone&lt;T&gt;(this T obj) where T : IBinarySerializable, new()</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>obj</code> <span class="xref">T</span></dt>
-    <dd><p>The object to clone.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">T</span></dt>
-    <dd><p>The clone.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The type of the object.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <a id="TruckLib_MiscExtensions_ToEuler_" data-uid="TruckLib.MiscExtensions.ToEuler*"></a>
-
-  <h3 id="TruckLib_MiscExtensions_ToEuler_System_Numerics_Quaternion_" data-uid="TruckLib.MiscExtensions.ToEuler(System.Numerics.Quaternion)">
-  ToEuler(Quaternion)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/MiscExtensions.cs/#L92"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Converts a quaternion to Euler angles.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Vector3 ToEuler(this Quaternion q)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>q</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.quaternion">Quaternion</a></dt>
-    <dd><p>The quaternion.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
-    <dd><p>Euler angles in radians.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="TruckLib_MiscExtensions_ToEulerDeg_" data-uid="TruckLib.MiscExtensions.ToEulerDeg*"></a>
-
-  <h3 id="TruckLib_MiscExtensions_ToEulerDeg_System_Numerics_Quaternion_" data-uid="TruckLib.MiscExtensions.ToEulerDeg(System.Numerics.Quaternion)">
-  ToEulerDeg(Quaternion)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/MiscExtensions.cs/#L132"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Converts a quaternion to Euler angles in degrees.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Vector3 ToEulerDeg(this Quaternion q)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>q</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.quaternion">Quaternion</a></dt>
-    <dd><p>The quaternion.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
-    <dd><p>Euler angles in degrees.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/MiscExtensions.cs/#L14" class="edit-link">Edit this page</a>
+          <a href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/MiscExtensions.cs/#L5" class="edit-link">Edit this page</a>
         </div>
 
 

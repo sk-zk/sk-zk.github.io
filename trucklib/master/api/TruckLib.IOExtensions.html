@@ -156,7 +156,7 @@ Class IOExtensions  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="TruckLib_IOExtensions_ReadColor_System_IO_BinaryReader_" data-uid="TruckLib.IOExtensions.ReadColor(System.IO.BinaryReader)">
   ReadColor(BinaryReader)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L69"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Reads a Color in RGBA format from the current stream and advances
@@ -196,7 +196,7 @@ the current position of the stream by four bytes.</p>
 
   <h3 id="TruckLib_IOExtensions_ReadMatrix4x4_System_IO_BinaryReader_" data-uid="TruckLib.IOExtensions.ReadMatrix4x4(System.IO.BinaryReader)">
   ReadMatrix4x4(BinaryReader)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L48"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Reads a Matrix4x4 from the current stream and advances the current position of the stream
@@ -236,7 +236,7 @@ by 64 bytes.</p>
 
   <h3 id="TruckLib_IOExtensions_ReadObjectList__1_System_IO_BinaryReader_System_UInt32_System_Nullable_System_UInt32__" data-uid="TruckLib.IOExtensions.ReadObjectList``1(System.IO.BinaryReader,System.UInt32,System.Nullable{System.UInt32})">
   ReadObjectList&lt;T&gt;(BinaryReader, uint, uint?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L132"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Reads a list of IBinarySerializable objects or various other types from the current stream
@@ -283,51 +283,11 @@ and advances the current position of the stream.</p>
 
 
 
-  <a id="TruckLib_IOExtensions_ReadPascalString_" data-uid="TruckLib.IOExtensions.ReadPascalString*"></a>
-
-  <h3 id="TruckLib_IOExtensions_ReadPascalString_System_IO_BinaryReader_" data-uid="TruckLib.IOExtensions.ReadPascalString(System.IO.BinaryReader)">
-  ReadPascalString(BinaryReader)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L71"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Reads a string in the format used in SCS's binary formats from the current stream
-and advances the current position of the stream.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ReadPascalString(this BinaryReader r)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>r</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.binaryreader">BinaryReader</a></dt>
-    <dd><p>A BinaryReader.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A string read from the current stream.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
   <a id="TruckLib_IOExtensions_ReadQuaternion_" data-uid="TruckLib.IOExtensions.ReadQuaternion*"></a>
 
   <h3 id="TruckLib_IOExtensions_ReadQuaternion_System_IO_BinaryReader_" data-uid="TruckLib.IOExtensions.ReadQuaternion(System.IO.BinaryReader)">
   ReadQuaternion(BinaryReader)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Reads a quaternion in WXYZ format from the current stream and advances
@@ -367,7 +327,7 @@ the current position of the stream by 16 bytes.</p>
 
   <h3 id="TruckLib_IOExtensions_ReadToken_System_IO_BinaryReader_" data-uid="TruckLib.IOExtensions.ReadToken(System.IO.BinaryReader)">
   ReadToken(BinaryReader)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Reads a Token from the current stream and advances the current position of the stream
@@ -407,7 +367,7 @@ by eight bytes.</p>
 
   <h3 id="TruckLib_IOExtensions_ReadVector2_System_IO_BinaryReader_" data-uid="TruckLib.IOExtensions.ReadVector2(System.IO.BinaryReader)">
   ReadVector2(BinaryReader)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Reads a Vector2 from the current stream and advances the current position of the stream
@@ -447,7 +407,7 @@ by eight bytes.</p>
 
   <h3 id="TruckLib_IOExtensions_ReadVector3_System_IO_BinaryReader_" data-uid="TruckLib.IOExtensions.ReadVector3(System.IO.BinaryReader)">
   ReadVector3(BinaryReader)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Reads a Vector3 from the current stream and advances the current position of the stream
@@ -487,7 +447,7 @@ by 12 bytes.</p>
 
   <h3 id="TruckLib_IOExtensions_ReadVector4_System_IO_BinaryReader_" data-uid="TruckLib.IOExtensions.ReadVector4(System.IO.BinaryReader)">
   ReadVector4(BinaryReader)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Reads a Vector4 from the current stream and advances the current position of the stream
@@ -527,7 +487,7 @@ by 16 bytes.</p>
 
   <h3 id="TruckLib_IOExtensions_Write_System_IO_BinaryWriter_System_Drawing_Color_" data-uid="TruckLib.IOExtensions.Write(System.IO.BinaryWriter,System.Drawing.Color)">
   Write(BinaryWriter, Color)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L276"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L259"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Writes a Color in RGBA format to the current stream and advances
@@ -564,7 +524,7 @@ the stream position by four bytes.</p>
 
   <h3 id="TruckLib_IOExtensions_Write_System_IO_BinaryWriter_System_Numerics_Matrix4x4_" data-uid="TruckLib.IOExtensions.Write(System.IO.BinaryWriter,System.Numerics.Matrix4x4)">
   Write(BinaryWriter, Matrix4x4)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L251"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L234"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Writes a Matrix4x4 to the current stream and advances the stream position by 64 bytes.</p>
@@ -599,7 +559,7 @@ the stream position by four bytes.</p>
 
   <h3 id="TruckLib_IOExtensions_Write_System_IO_BinaryWriter_System_Numerics_Quaternion_" data-uid="TruckLib.IOExtensions.Write(System.IO.BinaryWriter,System.Numerics.Quaternion)">
   Write(BinaryWriter, Quaternion)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L310"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L273"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Writes a quaternion in WXYZ format to the current stream and advances
@@ -636,7 +596,7 @@ the stream position by 16 bytes.</p>
 
   <h3 id="TruckLib_IOExtensions_Write_System_IO_BinaryWriter_System_Numerics_Vector2_" data-uid="TruckLib.IOExtensions.Write(System.IO.BinaryWriter,System.Numerics.Vector2)">
   Write(BinaryWriter, Vector2)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L215"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L198"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Writes a Vector2 to the current stream and advances the stream position by eight bytes.</p>
@@ -672,7 +632,7 @@ the stream position by 16 bytes.</p>
 
   <h3 id="TruckLib_IOExtensions_Write_System_IO_BinaryWriter_System_Numerics_Vector3_" data-uid="TruckLib.IOExtensions.Write(System.IO.BinaryWriter,System.Numerics.Vector3)">
   Write(BinaryWriter, Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L226"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L209"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Writes a Vector3 to the current stream and advances the stream position by 12 bytes.</p>
@@ -708,7 +668,7 @@ the stream position by 16 bytes.</p>
 
   <h3 id="TruckLib_IOExtensions_Write_System_IO_BinaryWriter_System_Numerics_Vector4_" data-uid="TruckLib.IOExtensions.Write(System.IO.BinaryWriter,System.Numerics.Vector4)">
   Write(BinaryWriter, Vector4)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L238"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L221"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Writes a Vector4 to the current stream and advances the stream position by 16 bytes.</p>
@@ -744,7 +704,7 @@ the stream position by 16 bytes.</p>
 
   <h3 id="TruckLib_IOExtensions_Write_System_IO_BinaryWriter_TruckLib_Token_" data-uid="TruckLib.IOExtensions.Write(System.IO.BinaryWriter,TruckLib.Token)">
   Write(BinaryWriter, Token)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L265"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L248"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Writes a token to the current stream and advances the
@@ -781,7 +741,7 @@ stream position by eight bytes.</p>
 
   <h3 id="TruckLib_IOExtensions_WriteObjectList__1_System_IO_BinaryWriter_System_Collections_Generic_List___0__" data-uid="TruckLib.IOExtensions.WriteObjectList``1(System.IO.BinaryWriter,System.Collections.Generic.List{``0})">
   WriteObjectList&lt;T&gt;(BinaryWriter, List&lt;T&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L327"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L289"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Writes a list of IBinarySerializable objects or various other types to the current stream
@@ -822,43 +782,6 @@ and advances the stream position.</p>
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.notimplementedexception">NotImplementedException</a></dt>
     <dd></dd>
   </dl>
-
-
-
-  <a id="TruckLib_IOExtensions_WritePascalString_" data-uid="TruckLib.IOExtensions.WritePascalString*"></a>
-
-  <h3 id="TruckLib_IOExtensions_WritePascalString_System_IO_BinaryWriter_System_String_" data-uid="TruckLib.IOExtensions.WritePascalString(System.IO.BinaryWriter,System.String)">
-  WritePascalString(BinaryWriter, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Extensions/IOExtensions.cs/#L290"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Writes a string in the format used in SCS's binary formats to the
-current stream and advances the stream position.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void WritePascalString(this BinaryWriter w, string str)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>w</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.binarywriter">BinaryWriter</a></dt>
-    <dd><p>The BinaryWriter.</p>
-</dd>
-    <dt><code>str</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The value to write.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
 
 
 

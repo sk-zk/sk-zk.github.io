@@ -952,19 +952,6 @@ references:
   fullName.vb: TruckLib.IOExtensions.ReadObjectList(Of T)(System.IO.BinaryReader, UInteger, UInteger?)
   nameWithType: IOExtensions.ReadObjectList<T>(BinaryReader, uint, uint?)
   nameWithType.vb: IOExtensions.ReadObjectList(Of T)(BinaryReader, UInteger, UInteger?)
-- uid: TruckLib.IOExtensions.ReadPascalString(System.IO.BinaryReader)
-  name: ReadPascalString(BinaryReader)
-  href: api/TruckLib.IOExtensions.html#TruckLib_IOExtensions_ReadPascalString_System_IO_BinaryReader_
-  commentId: M:TruckLib.IOExtensions.ReadPascalString(System.IO.BinaryReader)
-  fullName: TruckLib.IOExtensions.ReadPascalString(System.IO.BinaryReader)
-  nameWithType: IOExtensions.ReadPascalString(BinaryReader)
-- uid: TruckLib.IOExtensions.ReadPascalString*
-  name: ReadPascalString
-  href: api/TruckLib.IOExtensions.html#TruckLib_IOExtensions_ReadPascalString_
-  commentId: Overload:TruckLib.IOExtensions.ReadPascalString
-  isSpec: "True"
-  fullName: TruckLib.IOExtensions.ReadPascalString
-  nameWithType: IOExtensions.ReadPascalString
 - uid: TruckLib.IOExtensions.ReadQuaternion(System.IO.BinaryReader)
   name: ReadQuaternion(BinaryReader)
   href: api/TruckLib.IOExtensions.html#TruckLib_IOExtensions_ReadQuaternion_System_IO_BinaryReader_
@@ -1095,86 +1082,12 @@ references:
   fullName.vb: TruckLib.IOExtensions.WriteObjectList(Of T)(System.IO.BinaryWriter, System.Collections.Generic.List(Of T))
   nameWithType: IOExtensions.WriteObjectList<T>(BinaryWriter, List<T>)
   nameWithType.vb: IOExtensions.WriteObjectList(Of T)(BinaryWriter, List(Of T))
-- uid: TruckLib.IOExtensions.WritePascalString(System.IO.BinaryWriter,System.String)
-  name: WritePascalString(BinaryWriter, string)
-  href: api/TruckLib.IOExtensions.html#TruckLib_IOExtensions_WritePascalString_System_IO_BinaryWriter_System_String_
-  commentId: M:TruckLib.IOExtensions.WritePascalString(System.IO.BinaryWriter,System.String)
-  name.vb: WritePascalString(BinaryWriter, String)
-  fullName: TruckLib.IOExtensions.WritePascalString(System.IO.BinaryWriter, string)
-  fullName.vb: TruckLib.IOExtensions.WritePascalString(System.IO.BinaryWriter, String)
-  nameWithType: IOExtensions.WritePascalString(BinaryWriter, string)
-  nameWithType.vb: IOExtensions.WritePascalString(BinaryWriter, String)
-- uid: TruckLib.IOExtensions.WritePascalString*
-  name: WritePascalString
-  href: api/TruckLib.IOExtensions.html#TruckLib_IOExtensions_WritePascalString_
-  commentId: Overload:TruckLib.IOExtensions.WritePascalString
-  isSpec: "True"
-  fullName: TruckLib.IOExtensions.WritePascalString
-  nameWithType: IOExtensions.WritePascalString
 - uid: TruckLib.MiscExtensions
   name: MiscExtensions
   href: api/TruckLib.MiscExtensions.html
   commentId: T:TruckLib.MiscExtensions
   fullName: TruckLib.MiscExtensions
   nameWithType: MiscExtensions
-- uid: TruckLib.MiscExtensions.Clone*
-  name: Clone
-  href: api/TruckLib.MiscExtensions.html#TruckLib_MiscExtensions_Clone_
-  commentId: Overload:TruckLib.MiscExtensions.Clone
-  isSpec: "True"
-  fullName: TruckLib.MiscExtensions.Clone
-  nameWithType: MiscExtensions.Clone
-- uid: TruckLib.MiscExtensions.CloneItem*
-  name: CloneItem
-  href: api/TruckLib.MiscExtensions.html#TruckLib_MiscExtensions_CloneItem_
-  commentId: Overload:TruckLib.MiscExtensions.CloneItem
-  isSpec: "True"
-  fullName: TruckLib.MiscExtensions.CloneItem
-  nameWithType: MiscExtensions.CloneItem
-- uid: TruckLib.MiscExtensions.CloneItem``1(``0)
-  name: CloneItem<T>(T)
-  href: api/TruckLib.MiscExtensions.html#TruckLib_MiscExtensions_CloneItem__1___0_
-  commentId: M:TruckLib.MiscExtensions.CloneItem``1(``0)
-  name.vb: CloneItem(Of T)(T)
-  fullName: TruckLib.MiscExtensions.CloneItem<T>(T)
-  fullName.vb: TruckLib.MiscExtensions.CloneItem(Of T)(T)
-  nameWithType: MiscExtensions.CloneItem<T>(T)
-  nameWithType.vb: MiscExtensions.CloneItem(Of T)(T)
-- uid: TruckLib.MiscExtensions.Clone``1(``0)
-  name: Clone<T>(T)
-  href: api/TruckLib.MiscExtensions.html#TruckLib_MiscExtensions_Clone__1___0_
-  commentId: M:TruckLib.MiscExtensions.Clone``1(``0)
-  name.vb: Clone(Of T)(T)
-  fullName: TruckLib.MiscExtensions.Clone<T>(T)
-  fullName.vb: TruckLib.MiscExtensions.Clone(Of T)(T)
-  nameWithType: MiscExtensions.Clone<T>(T)
-  nameWithType.vb: MiscExtensions.Clone(Of T)(T)
-- uid: TruckLib.MiscExtensions.ToEuler(System.Numerics.Quaternion)
-  name: ToEuler(Quaternion)
-  href: api/TruckLib.MiscExtensions.html#TruckLib_MiscExtensions_ToEuler_System_Numerics_Quaternion_
-  commentId: M:TruckLib.MiscExtensions.ToEuler(System.Numerics.Quaternion)
-  fullName: TruckLib.MiscExtensions.ToEuler(System.Numerics.Quaternion)
-  nameWithType: MiscExtensions.ToEuler(Quaternion)
-- uid: TruckLib.MiscExtensions.ToEuler*
-  name: ToEuler
-  href: api/TruckLib.MiscExtensions.html#TruckLib_MiscExtensions_ToEuler_
-  commentId: Overload:TruckLib.MiscExtensions.ToEuler
-  isSpec: "True"
-  fullName: TruckLib.MiscExtensions.ToEuler
-  nameWithType: MiscExtensions.ToEuler
-- uid: TruckLib.MiscExtensions.ToEulerDeg(System.Numerics.Quaternion)
-  name: ToEulerDeg(Quaternion)
-  href: api/TruckLib.MiscExtensions.html#TruckLib_MiscExtensions_ToEulerDeg_System_Numerics_Quaternion_
-  commentId: M:TruckLib.MiscExtensions.ToEulerDeg(System.Numerics.Quaternion)
-  fullName: TruckLib.MiscExtensions.ToEulerDeg(System.Numerics.Quaternion)
-  nameWithType: MiscExtensions.ToEulerDeg(Quaternion)
-- uid: TruckLib.MiscExtensions.ToEulerDeg*
-  name: ToEulerDeg
-  href: api/TruckLib.MiscExtensions.html#TruckLib_MiscExtensions_ToEulerDeg_
-  commentId: Overload:TruckLib.MiscExtensions.ToEulerDeg
-  isSpec: "True"
-  fullName: TruckLib.MiscExtensions.ToEulerDeg
-  nameWithType: MiscExtensions.ToEulerDeg
 - uid: TruckLib.Models
   name: TruckLib.Models
   href: api/TruckLib.Models.html
