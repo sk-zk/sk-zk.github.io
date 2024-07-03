@@ -4367,6 +4367,32 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Tobj.Type
   nameWithType: Tobj.Type
+- uid: TruckLib.Models.Tobj.Unknown10
+  name: Unknown10
+  href: api/TruckLib.Models.Tobj.html#TruckLib_Models_Tobj_Unknown10
+  commentId: P:TruckLib.Models.Tobj.Unknown10
+  fullName: TruckLib.Models.Tobj.Unknown10
+  nameWithType: Tobj.Unknown10
+- uid: TruckLib.Models.Tobj.Unknown10*
+  name: Unknown10
+  href: api/TruckLib.Models.Tobj.html#TruckLib_Models_Tobj_Unknown10_
+  commentId: Overload:TruckLib.Models.Tobj.Unknown10
+  isSpec: "True"
+  fullName: TruckLib.Models.Tobj.Unknown10
+  nameWithType: Tobj.Unknown10
+- uid: TruckLib.Models.Tobj.Unknown4
+  name: Unknown4
+  href: api/TruckLib.Models.Tobj.html#TruckLib_Models_Tobj_Unknown4
+  commentId: P:TruckLib.Models.Tobj.Unknown4
+  fullName: TruckLib.Models.Tobj.Unknown4
+  nameWithType: Tobj.Unknown4
+- uid: TruckLib.Models.Tobj.Unknown4*
+  name: Unknown4
+  href: api/TruckLib.Models.Tobj.html#TruckLib_Models_Tobj_Unknown4_
+  commentId: Overload:TruckLib.Models.Tobj.Unknown4
+  isSpec: "True"
+  fullName: TruckLib.Models.Tobj.Unknown4
+  nameWithType: Tobj.Unknown4
 - uid: TruckLib.Models.TobjAddr
   name: TobjAddr
   href: api/TruckLib.Models.TobjAddr.html
@@ -4457,6 +4483,12 @@ references:
   commentId: F:TruckLib.Models.TobjMipFilter.Default
   fullName: TruckLib.Models.TobjMipFilter.Default
   nameWithType: TobjMipFilter.Default
+- uid: TruckLib.Models.TobjMipFilter.Nearest
+  name: Nearest
+  href: api/TruckLib.Models.TobjMipFilter.html#TruckLib_Models_TobjMipFilter_Nearest
+  commentId: F:TruckLib.Models.TobjMipFilter.Nearest
+  fullName: TruckLib.Models.TobjMipFilter.Nearest
+  nameWithType: TobjMipFilter.Nearest
 - uid: TruckLib.Models.TobjMipFilter.NoMips
   name: NoMips
   href: api/TruckLib.Models.TobjMipFilter.html#TruckLib_Models_TobjMipFilter_NoMips
