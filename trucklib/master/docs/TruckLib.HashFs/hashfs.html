@@ -95,9 +95,9 @@ cannot be reversed. To deal with this, archives can optionally contain directory
 with the path of a directory, enumerating the files and subdirectories it contains. All but three of the games' <code>.scs</code>
 files contain full directory listings, but mods may not – the top level listing in particular can be omitted to
 prevent the official extractor from extracting anything.</p>
-<p>HashFS v2, introduced with game version 1.50, is supported. Note that, in this version, .tobj/.dds pairs are
-dissolved into a packed .tobj entry from which TruckLib will reconstruct the original .tobj and .dds files
-when said .tobj entry is requested.</p>
+<p>HashFS v2, introduced with game version 1.50, is supported. Note that, in this version, <code>.tobj</code>/<code>.dds</code> pairs are
+dissolved into a packed <code>.tobj</code> entry from which TruckLib will reconstruct the original <code>.tobj</code> and <code>.dds</code> files
+when such a <code>.tobj</code> entry is requested.</p>
 <h2 id="opening-an-archive">Opening an archive</h2>
 <p>To open a HashFS file, call the static <a class="xref" href="../../api/TruckLib.HashFs.HashFsReader.html#TruckLib_HashFs_HashFsReader_Open_"><code>Open</code></a> method of the <code>HashFsReader</code> class:</p>
 <pre><code class="lang-cs">using TruckLib.HashFs;
@@ -125,13 +125,13 @@ var (subdirs, files) = reader.GetDirectoryListing(&quot;/&quot;);
 </code></pre>
 <p>This returns an array containing the extracted file(s) as <code>byte[]</code>.
 The method will return one file except in one special case: In HashFS v2,
-extracting a packed .tobj entry will return the reconstructed .tobj
-and .dds files in that order.</p>
+extracting a packed <code>.tobj</code> entry will return the reconstructed <code>.tobj</code>
+and <code>.dds</code> files in that order.</p>
 <p>Alternatively, you can write the entry to disk with <a class="xref" href="../../api/TruckLib.HashFs.IHashFsReader.html#TruckLib_HashFs_IHashFsReader_ExtractToFile_"><code>ExtractToFile</code></a>:</p>
 <pre><code class="lang-cs">reader.ExtractToFile(&quot;/def/world/prefab.sii&quot;, &quot;./prefab.sii&quot;);
 </code></pre>
-<p>In HashFS v2, extracting a packed .tobj entry will write both the reconstructed .tobj
-and .dds file.</p>
+<p>In HashFS v2, extracting a packed <code>.tobj</code> entry will write both the reconstructed <code>.tobj</code>
+and <code>.dds</code> file.</p>
 
 </article>
 

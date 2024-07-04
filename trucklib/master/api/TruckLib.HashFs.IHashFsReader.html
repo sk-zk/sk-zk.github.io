@@ -358,10 +358,12 @@ Interface IHashFsReader  <a class="header-action link-secondary" title="View sou
 
   <h3 id="TruckLib_HashFs_IHashFsReader_ExtractToFile_System_String_System_String_" data-uid="TruckLib.HashFs.IHashFsReader.ExtractToFile(System.String,System.String)">
   ExtractToFile(string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib.HashFs/IHashFsReader.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib.HashFs/IHashFsReader.cs/#L65"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Extracts and decompresses an entry to a file.</p>
+<p>In HashFS v2, when extracting a packed .tobj entry, both
+the reconstructed .tobj and .dds files will be written.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -394,12 +396,12 @@ Interface IHashFsReader  <a class="header-action link-secondary" title="View sou
 
   <h3 id="TruckLib_HashFs_IHashFsReader_ExtractToFile_TruckLib_HashFs_IEntry_System_String_System_String_" data-uid="TruckLib.HashFs.IHashFsReader.ExtractToFile(TruckLib.HashFs.IEntry,System.String,System.String)">
   ExtractToFile(IEntry, string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib.HashFs/IHashFsReader.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib.HashFs/IHashFsReader.cs/#L75"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Extracts and decompresses an entry to a file.</p>
-<p>In HashFS v2, extracting a packed .tobj entry will write both
-the reconstructed .tobj and .dds file.</p>
+<p>In HashFS v2, when extracting a packed .tobj entry, both
+the reconstructed .tobj and .dds files will be written.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -435,7 +437,7 @@ the reconstructed .tobj and .dds file.</p>
 
   <h3 id="TruckLib_HashFs_IHashFsReader_GetDirectoryListing_System_String_System_Boolean_System_Boolean_" data-uid="TruckLib.HashFs.IHashFsReader.GetDirectoryListing(System.String,System.Boolean,System.Boolean)">
   GetDirectoryListing(string, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib.HashFs/IHashFsReader.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib.HashFs/IHashFsReader.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a list of subdirectories and files in the given directory.</p>
@@ -480,7 +482,7 @@ the reconstructed .tobj and .dds file.</p>
 
   <h3 id="TruckLib_HashFs_IHashFsReader_GetDirectoryListing_TruckLib_HashFs_IEntry_System_Boolean_" data-uid="TruckLib.HashFs.IHashFsReader.GetDirectoryListing(TruckLib.HashFs.IEntry,System.Boolean)">
   GetDirectoryListing(IEntry, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib.HashFs/IHashFsReader.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib.HashFs/IHashFsReader.cs/#L92"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a list of subdirectories and files in the given directory.</p>
@@ -522,7 +524,7 @@ the reconstructed .tobj and .dds file.</p>
 
   <h3 id="TruckLib_HashFs_IHashFsReader_GetEntry_System_String_" data-uid="TruckLib.HashFs.IHashFsReader.GetEntry(System.String)">
   GetEntry(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib.HashFs/IHashFsReader.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib.HashFs/IHashFsReader.cs/#L99"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Retrieves the entry metadata for the given path.</p>
@@ -561,7 +563,7 @@ the reconstructed .tobj and .dds file.</p>
 
   <h3 id="TruckLib_HashFs_IHashFsReader_HashPath_System_String_System_Nullable_System_UInt32__" data-uid="TruckLib.HashFs.IHashFsReader.HashPath(System.String,System.Nullable{System.UInt32})">
   HashPath(string, uint?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib.HashFs/IHashFsReader.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib.HashFs/IHashFsReader.cs/#L108"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Hashes a file path.</p>
