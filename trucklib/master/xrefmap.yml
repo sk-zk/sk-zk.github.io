@@ -559,19 +559,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.HashFs.EntryV2.IsDirectory
   nameWithType: EntryV2.IsDirectory
-- uid: TruckLib.HashFs.EntryV2.IsTobj
-  name: IsTobj
-  href: api/TruckLib.HashFs.EntryV2.html#TruckLib_HashFs_EntryV2_IsTobj
-  commentId: P:TruckLib.HashFs.EntryV2.IsTobj
-  fullName: TruckLib.HashFs.EntryV2.IsTobj
-  nameWithType: EntryV2.IsTobj
-- uid: TruckLib.HashFs.EntryV2.IsTobj*
-  name: IsTobj
-  href: api/TruckLib.HashFs.EntryV2.html#TruckLib_HashFs_EntryV2_IsTobj_
-  commentId: Overload:TruckLib.HashFs.EntryV2.IsTobj
-  isSpec: "True"
-  fullName: TruckLib.HashFs.EntryV2.IsTobj
-  nameWithType: EntryV2.IsTobj
 - uid: TruckLib.HashFs.EntryV2.Offset
   name: Offset
   href: api/TruckLib.HashFs.EntryV2.html#TruckLib_HashFs_EntryV2_Offset
@@ -598,6 +585,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.HashFs.EntryV2.Size
   nameWithType: EntryV2.Size
+- uid: TruckLib.HashFs.EntryV2.TobjMetadata
+  name: TobjMetadata
+  href: api/TruckLib.HashFs.EntryV2.html#TruckLib_HashFs_EntryV2_TobjMetadata
+  commentId: P:TruckLib.HashFs.EntryV2.TobjMetadata
+  fullName: TruckLib.HashFs.EntryV2.TobjMetadata
+  nameWithType: EntryV2.TobjMetadata
+- uid: TruckLib.HashFs.EntryV2.TobjMetadata*
+  name: TobjMetadata
+  href: api/TruckLib.HashFs.EntryV2.html#TruckLib_HashFs_EntryV2_TobjMetadata_
+  commentId: Overload:TruckLib.HashFs.EntryV2.TobjMetadata
+  isSpec: "True"
+  fullName: TruckLib.HashFs.EntryV2.TobjMetadata
+  nameWithType: EntryV2.TobjMetadata
 - uid: TruckLib.HashFs.HashFsReader
   name: HashFsReader
   href: api/TruckLib.HashFs.HashFsReader.html
@@ -748,12 +748,15 @@ references:
   fullName.vb: TruckLib.HashFs.IHashFsReader.Extract(String)
   nameWithType: IHashFsReader.Extract(string)
   nameWithType.vb: IHashFsReader.Extract(String)
-- uid: TruckLib.HashFs.IHashFsReader.Extract(TruckLib.HashFs.IEntry)
-  name: Extract(IEntry)
-  href: api/TruckLib.HashFs.IHashFsReader.html#TruckLib_HashFs_IHashFsReader_Extract_TruckLib_HashFs_IEntry_
-  commentId: M:TruckLib.HashFs.IHashFsReader.Extract(TruckLib.HashFs.IEntry)
-  fullName: TruckLib.HashFs.IHashFsReader.Extract(TruckLib.HashFs.IEntry)
-  nameWithType: IHashFsReader.Extract(IEntry)
+- uid: TruckLib.HashFs.IHashFsReader.Extract(TruckLib.HashFs.IEntry,System.String)
+  name: Extract(IEntry, string)
+  href: api/TruckLib.HashFs.IHashFsReader.html#TruckLib_HashFs_IHashFsReader_Extract_TruckLib_HashFs_IEntry_System_String_
+  commentId: M:TruckLib.HashFs.IHashFsReader.Extract(TruckLib.HashFs.IEntry,System.String)
+  name.vb: Extract(IEntry, String)
+  fullName: TruckLib.HashFs.IHashFsReader.Extract(TruckLib.HashFs.IEntry, string)
+  fullName.vb: TruckLib.HashFs.IHashFsReader.Extract(TruckLib.HashFs.IEntry, String)
+  nameWithType: IHashFsReader.Extract(IEntry, string)
+  nameWithType.vb: IHashFsReader.Extract(IEntry, String)
 - uid: TruckLib.HashFs.IHashFsReader.Extract*
   name: Extract
   href: api/TruckLib.HashFs.IHashFsReader.html#TruckLib_HashFs_IHashFsReader_Extract_
@@ -770,15 +773,15 @@ references:
   fullName.vb: TruckLib.HashFs.IHashFsReader.ExtractToFile(String, String)
   nameWithType: IHashFsReader.ExtractToFile(string, string)
   nameWithType.vb: IHashFsReader.ExtractToFile(String, String)
-- uid: TruckLib.HashFs.IHashFsReader.ExtractToFile(TruckLib.HashFs.IEntry,System.String)
-  name: ExtractToFile(IEntry, string)
-  href: api/TruckLib.HashFs.IHashFsReader.html#TruckLib_HashFs_IHashFsReader_ExtractToFile_TruckLib_HashFs_IEntry_System_String_
-  commentId: M:TruckLib.HashFs.IHashFsReader.ExtractToFile(TruckLib.HashFs.IEntry,System.String)
-  name.vb: ExtractToFile(IEntry, String)
-  fullName: TruckLib.HashFs.IHashFsReader.ExtractToFile(TruckLib.HashFs.IEntry, string)
-  fullName.vb: TruckLib.HashFs.IHashFsReader.ExtractToFile(TruckLib.HashFs.IEntry, String)
-  nameWithType: IHashFsReader.ExtractToFile(IEntry, string)
-  nameWithType.vb: IHashFsReader.ExtractToFile(IEntry, String)
+- uid: TruckLib.HashFs.IHashFsReader.ExtractToFile(TruckLib.HashFs.IEntry,System.String,System.String)
+  name: ExtractToFile(IEntry, string, string)
+  href: api/TruckLib.HashFs.IHashFsReader.html#TruckLib_HashFs_IHashFsReader_ExtractToFile_TruckLib_HashFs_IEntry_System_String_System_String_
+  commentId: M:TruckLib.HashFs.IHashFsReader.ExtractToFile(TruckLib.HashFs.IEntry,System.String,System.String)
+  name.vb: ExtractToFile(IEntry, String, String)
+  fullName: TruckLib.HashFs.IHashFsReader.ExtractToFile(TruckLib.HashFs.IEntry, string, string)
+  fullName.vb: TruckLib.HashFs.IHashFsReader.ExtractToFile(TruckLib.HashFs.IEntry, String, String)
+  nameWithType: IHashFsReader.ExtractToFile(IEntry, string, string)
+  nameWithType.vb: IHashFsReader.ExtractToFile(IEntry, String, String)
 - uid: TruckLib.HashFs.IHashFsReader.ExtractToFile*
   name: ExtractToFile
   href: api/TruckLib.HashFs.IHashFsReader.html#TruckLib_HashFs_IHashFsReader_ExtractToFile_
@@ -869,6 +872,232 @@ references:
   isSpec: "True"
   fullName: TruckLib.HashFs.IHashFsReader.Salt
   nameWithType: IHashFsReader.Salt
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata
+  name: PackedTobjDdsMetadata
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html
+  commentId: T:TruckLib.HashFs.PackedTobjDdsMetadata
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata
+  nameWithType: PackedTobjDdsMetadata
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.AddrU
+  name: AddrU
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_AddrU
+  commentId: P:TruckLib.HashFs.PackedTobjDdsMetadata.AddrU
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.AddrU
+  nameWithType: PackedTobjDdsMetadata.AddrU
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.AddrU*
+  name: AddrU
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_AddrU_
+  commentId: Overload:TruckLib.HashFs.PackedTobjDdsMetadata.AddrU
+  isSpec: "True"
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.AddrU
+  nameWithType: PackedTobjDdsMetadata.AddrU
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.AddrV
+  name: AddrV
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_AddrV
+  commentId: P:TruckLib.HashFs.PackedTobjDdsMetadata.AddrV
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.AddrV
+  nameWithType: PackedTobjDdsMetadata.AddrV
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.AddrV*
+  name: AddrV
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_AddrV_
+  commentId: Overload:TruckLib.HashFs.PackedTobjDdsMetadata.AddrV
+  isSpec: "True"
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.AddrV
+  nameWithType: PackedTobjDdsMetadata.AddrV
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.AddrW
+  name: AddrW
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_AddrW
+  commentId: P:TruckLib.HashFs.PackedTobjDdsMetadata.AddrW
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.AddrW
+  nameWithType: PackedTobjDdsMetadata.AddrW
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.AddrW*
+  name: AddrW
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_AddrW_
+  commentId: Overload:TruckLib.HashFs.PackedTobjDdsMetadata.AddrW
+  isSpec: "True"
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.AddrW
+  nameWithType: PackedTobjDdsMetadata.AddrW
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.AsTobj(System.String)
+  name: AsTobj(string)
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_AsTobj_System_String_
+  commentId: M:TruckLib.HashFs.PackedTobjDdsMetadata.AsTobj(System.String)
+  name.vb: AsTobj(String)
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.AsTobj(string)
+  fullName.vb: TruckLib.HashFs.PackedTobjDdsMetadata.AsTobj(String)
+  nameWithType: PackedTobjDdsMetadata.AsTobj(string)
+  nameWithType.vb: PackedTobjDdsMetadata.AsTobj(String)
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.AsTobj*
+  name: AsTobj
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_AsTobj_
+  commentId: Overload:TruckLib.HashFs.PackedTobjDdsMetadata.AsTobj
+  isSpec: "True"
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.AsTobj
+  nameWithType: PackedTobjDdsMetadata.AsTobj
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.FaceCount
+  name: FaceCount
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_FaceCount
+  commentId: P:TruckLib.HashFs.PackedTobjDdsMetadata.FaceCount
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.FaceCount
+  nameWithType: PackedTobjDdsMetadata.FaceCount
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.FaceCount*
+  name: FaceCount
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_FaceCount_
+  commentId: Overload:TruckLib.HashFs.PackedTobjDdsMetadata.FaceCount
+  isSpec: "True"
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.FaceCount
+  nameWithType: PackedTobjDdsMetadata.FaceCount
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.Format
+  name: Format
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_Format
+  commentId: P:TruckLib.HashFs.PackedTobjDdsMetadata.Format
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.Format
+  nameWithType: PackedTobjDdsMetadata.Format
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.Format*
+  name: Format
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_Format_
+  commentId: Overload:TruckLib.HashFs.PackedTobjDdsMetadata.Format
+  isSpec: "True"
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.Format
+  nameWithType: PackedTobjDdsMetadata.Format
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.ImageAlignment
+  name: ImageAlignment
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_ImageAlignment
+  commentId: P:TruckLib.HashFs.PackedTobjDdsMetadata.ImageAlignment
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.ImageAlignment
+  nameWithType: PackedTobjDdsMetadata.ImageAlignment
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.ImageAlignment*
+  name: ImageAlignment
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_ImageAlignment_
+  commentId: Overload:TruckLib.HashFs.PackedTobjDdsMetadata.ImageAlignment
+  isSpec: "True"
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.ImageAlignment
+  nameWithType: PackedTobjDdsMetadata.ImageAlignment
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.IsCube
+  name: IsCube
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_IsCube
+  commentId: P:TruckLib.HashFs.PackedTobjDdsMetadata.IsCube
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.IsCube
+  nameWithType: PackedTobjDdsMetadata.IsCube
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.IsCube*
+  name: IsCube
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_IsCube_
+  commentId: Overload:TruckLib.HashFs.PackedTobjDdsMetadata.IsCube
+  isSpec: "True"
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.IsCube
+  nameWithType: PackedTobjDdsMetadata.IsCube
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.MagFilter
+  name: MagFilter
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_MagFilter
+  commentId: P:TruckLib.HashFs.PackedTobjDdsMetadata.MagFilter
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.MagFilter
+  nameWithType: PackedTobjDdsMetadata.MagFilter
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.MagFilter*
+  name: MagFilter
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_MagFilter_
+  commentId: Overload:TruckLib.HashFs.PackedTobjDdsMetadata.MagFilter
+  isSpec: "True"
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.MagFilter
+  nameWithType: PackedTobjDdsMetadata.MagFilter
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.MinFilter
+  name: MinFilter
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_MinFilter
+  commentId: P:TruckLib.HashFs.PackedTobjDdsMetadata.MinFilter
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.MinFilter
+  nameWithType: PackedTobjDdsMetadata.MinFilter
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.MinFilter*
+  name: MinFilter
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_MinFilter_
+  commentId: Overload:TruckLib.HashFs.PackedTobjDdsMetadata.MinFilter
+  isSpec: "True"
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.MinFilter
+  nameWithType: PackedTobjDdsMetadata.MinFilter
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.MipFilter
+  name: MipFilter
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_MipFilter
+  commentId: P:TruckLib.HashFs.PackedTobjDdsMetadata.MipFilter
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.MipFilter
+  nameWithType: PackedTobjDdsMetadata.MipFilter
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.MipFilter*
+  name: MipFilter
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_MipFilter_
+  commentId: Overload:TruckLib.HashFs.PackedTobjDdsMetadata.MipFilter
+  isSpec: "True"
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.MipFilter
+  nameWithType: PackedTobjDdsMetadata.MipFilter
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.MipmapCount
+  name: MipmapCount
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_MipmapCount
+  commentId: P:TruckLib.HashFs.PackedTobjDdsMetadata.MipmapCount
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.MipmapCount
+  nameWithType: PackedTobjDdsMetadata.MipmapCount
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.MipmapCount*
+  name: MipmapCount
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_MipmapCount_
+  commentId: Overload:TruckLib.HashFs.PackedTobjDdsMetadata.MipmapCount
+  isSpec: "True"
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.MipmapCount
+  nameWithType: PackedTobjDdsMetadata.MipmapCount
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.PitchAlignment
+  name: PitchAlignment
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_PitchAlignment
+  commentId: P:TruckLib.HashFs.PackedTobjDdsMetadata.PitchAlignment
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.PitchAlignment
+  nameWithType: PackedTobjDdsMetadata.PitchAlignment
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.PitchAlignment*
+  name: PitchAlignment
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_PitchAlignment_
+  commentId: Overload:TruckLib.HashFs.PackedTobjDdsMetadata.PitchAlignment
+  isSpec: "True"
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.PitchAlignment
+  nameWithType: PackedTobjDdsMetadata.PitchAlignment
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.TextureHeight
+  name: TextureHeight
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_TextureHeight
+  commentId: F:TruckLib.HashFs.PackedTobjDdsMetadata.TextureHeight
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.TextureHeight
+  nameWithType: PackedTobjDdsMetadata.TextureHeight
+- uid: TruckLib.HashFs.PackedTobjDdsMetadata.TextureWidth
+  name: TextureWidth
+  href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html#TruckLib_HashFs_PackedTobjDdsMetadata_TextureWidth
+  commentId: F:TruckLib.HashFs.PackedTobjDdsMetadata.TextureWidth
+  fullName: TruckLib.HashFs.PackedTobjDdsMetadata.TextureWidth
+  nameWithType: PackedTobjDdsMetadata.TextureWidth
+- uid: TruckLib.HashFs.Platform
+  name: Platform
+  href: api/TruckLib.HashFs.Platform.html
+  commentId: T:TruckLib.HashFs.Platform
+  fullName: TruckLib.HashFs.Platform
+  nameWithType: Platform
+- uid: TruckLib.HashFs.Platform.PC
+  name: PC
+  href: api/TruckLib.HashFs.Platform.html#TruckLib_HashFs_Platform_PC
+  commentId: F:TruckLib.HashFs.Platform.PC
+  fullName: TruckLib.HashFs.Platform.PC
+  nameWithType: Platform.PC
+- uid: TruckLib.HashFs.Platform.PS4
+  name: PS4
+  href: api/TruckLib.HashFs.Platform.html#TruckLib_HashFs_Platform_PS4
+  commentId: F:TruckLib.HashFs.Platform.PS4
+  fullName: TruckLib.HashFs.Platform.PS4
+  nameWithType: Platform.PS4
+- uid: TruckLib.HashFs.Platform.PS5
+  name: PS5
+  href: api/TruckLib.HashFs.Platform.html#TruckLib_HashFs_Platform_PS5
+  commentId: F:TruckLib.HashFs.Platform.PS5
+  fullName: TruckLib.HashFs.Platform.PS5
+  nameWithType: Platform.PS5
+- uid: TruckLib.HashFs.Platform.XboxOne
+  name: XboxOne
+  href: api/TruckLib.HashFs.Platform.html#TruckLib_HashFs_Platform_XboxOne
+  commentId: F:TruckLib.HashFs.Platform.XboxOne
+  fullName: TruckLib.HashFs.Platform.XboxOne
+  nameWithType: Platform.XboxOne
+- uid: TruckLib.HashFs.Platform.XboxSeries
+  name: XboxSeries
+  href: api/TruckLib.HashFs.Platform.html#TruckLib_HashFs_Platform_XboxSeries
+  commentId: F:TruckLib.HashFs.Platform.XboxSeries
+  fullName: TruckLib.HashFs.Platform.XboxSeries
+  nameWithType: Platform.XboxSeries
 - uid: TruckLib.IBinarySerializable
   name: IBinarySerializable
   href: api/TruckLib.IBinarySerializable.html
