@@ -2876,19 +2876,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Ppd.NavCurve.Deserialize15
   nameWithType: NavCurve.Deserialize15
-- uid: TruckLib.Models.Ppd.NavCurve.Deserialize16to17(System.IO.BinaryReader)
-  name: Deserialize16to17(BinaryReader)
-  href: api/TruckLib.Models.Ppd.NavCurve.html#TruckLib_Models_Ppd_NavCurve_Deserialize16to17_System_IO_BinaryReader_
-  commentId: M:TruckLib.Models.Ppd.NavCurve.Deserialize16to17(System.IO.BinaryReader)
-  fullName: TruckLib.Models.Ppd.NavCurve.Deserialize16to17(System.IO.BinaryReader)
-  nameWithType: NavCurve.Deserialize16to17(BinaryReader)
-- uid: TruckLib.Models.Ppd.NavCurve.Deserialize16to17*
-  name: Deserialize16to17
-  href: api/TruckLib.Models.Ppd.NavCurve.html#TruckLib_Models_Ppd_NavCurve_Deserialize16to17_
-  commentId: Overload:TruckLib.Models.Ppd.NavCurve.Deserialize16to17
+- uid: TruckLib.Models.Ppd.NavCurve.Deserialize16to18(System.IO.BinaryReader)
+  name: Deserialize16to18(BinaryReader)
+  href: api/TruckLib.Models.Ppd.NavCurve.html#TruckLib_Models_Ppd_NavCurve_Deserialize16to18_System_IO_BinaryReader_
+  commentId: M:TruckLib.Models.Ppd.NavCurve.Deserialize16to18(System.IO.BinaryReader)
+  fullName: TruckLib.Models.Ppd.NavCurve.Deserialize16to18(System.IO.BinaryReader)
+  nameWithType: NavCurve.Deserialize16to18(BinaryReader)
+- uid: TruckLib.Models.Ppd.NavCurve.Deserialize16to18*
+  name: Deserialize16to18
+  href: api/TruckLib.Models.Ppd.NavCurve.html#TruckLib_Models_Ppd_NavCurve_Deserialize16to18_
+  commentId: Overload:TruckLib.Models.Ppd.NavCurve.Deserialize16to18
   isSpec: "True"
-  fullName: TruckLib.Models.Ppd.NavCurve.Deserialize16to17
-  nameWithType: NavCurve.Deserialize16to17
+  fullName: TruckLib.Models.Ppd.NavCurve.Deserialize16to18
+  nameWithType: NavCurve.Deserialize16to18
 - uid: TruckLib.Models.Ppd.NavCurve.EndPosition
   name: EndPosition
   href: api/TruckLib.Models.Ppd.NavCurve.html#TruckLib_Models_Ppd_NavCurve_EndPosition
