@@ -12,16 +12,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/TruckLib.CardinalSpline.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TruckLib.CardinalSpline.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/TruckLib.CatmullRomSpline.yml",
       "output": {
         ".html": {

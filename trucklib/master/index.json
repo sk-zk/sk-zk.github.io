@@ -1,9 +1,4 @@
 {
-  "api/TruckLib.CardinalSpline.html": {
-    "href": "api/TruckLib.CardinalSpline.html",
-    "title": "Class CardinalSpline | TruckLib",
-    "keywords": "Class CardinalSpline Namespace TruckLib Assembly TruckLib.dll Functions for interpolating cardinal splines. public static class CardinalSpline Inheritance object CardinalSpline Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods ApproximateLength(Vector3, Vector3, Vector3, Vector3, float) public static float ApproximateLength(Vector3 p0, Vector3 p1, Vector3 p2, Vector3 p3, float tension) Parameters p0 Vector3 p1 Vector3 p2 Vector3 p3 Vector3 tension float Returns float Derivative(Vector3, Vector3, Vector3, Vector3, float, float) public static Vector3 Derivative(Vector3 p0, Vector3 p1, Vector3 p2, Vector3 p3, float t, float tension) Parameters p0 Vector3 p1 Vector3 p2 Vector3 p3 Vector3 t float tension float Returns Vector3 Interpolate(Vector3, Vector3, Vector3, Vector3, float, float) public static Vector3 Interpolate(Vector3 p0, Vector3 p1, Vector3 p2, Vector3 p3, float t, float tension) Parameters p0 Vector3 p1 Vector3 p2 Vector3 p3 Vector3 t float tension float Returns Vector3"
-  },
   "api/TruckLib.CatmullRomSpline.html": {
     "href": "api/TruckLib.CatmullRomSpline.html",
     "title": "Class CatmullRomSpline | TruckLib",
@@ -947,7 +942,7 @@
   "api/TruckLib.html": {
     "href": "api/TruckLib.html",
     "title": "Namespace TruckLib | TruckLib",
-    "keywords": "Namespace TruckLib Classes CardinalSpline Functions for interpolating cardinal splines. CatmullRomSpline Functions for interpolating Catmull-Rom splines. IOExtensions MiscExtensions UnsupportedVersionException Thrown if the version of a file format is not supported by this library. Structs FlagField Represents a 32-bit flag field. Nibble Represents an unsigned half-byte integer. Token A string type used in Prism3D which packs up to 12 characters of a limited character set into 8 bytes. Interfaces IBinarySerializable Interface for classes which can de/serialize themselves to a binary format."
+    "keywords": "Namespace TruckLib Classes CatmullRomSpline Functions for interpolating Catmull-Rom splines. IOExtensions MiscExtensions UnsupportedVersionException Thrown if the version of a file format is not supported by this library. Structs FlagField Represents a 32-bit flag field. Nibble Represents an unsigned half-byte integer. Token A string type used in Prism3D which packs up to 12 characters of a limited character set into 8 bytes. Interfaces IBinarySerializable Interface for classes which can de/serialize themselves to a binary format."
   },
   "docs/Samples/01-simple.html": {
     "href": "docs/Samples/01-simple.html",
