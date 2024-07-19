@@ -538,13 +538,10 @@ Class Piece  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="TruckLib_Models_Piece_Deserialize_System_IO_BinaryReader_System_Nullable_System_UInt32__" data-uid="TruckLib.Models.Piece.Deserialize(System.IO.BinaryReader,System.Nullable{System.UInt32})">
   Deserialize(BinaryReader, uint?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Models/Piece.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Models/Piece.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>! BE ADVISED ! <br>
-I usually prefer deserialization to be forward-only,
-but with this particular file structure, the reader
-has to jump back and forth a few times.</p>
+  <div class="markdown level1 summary"><p>Reads the object from a BinaryReader whose position is at the start of the object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -555,9 +552,11 @@ has to jump back and forth a few times.</p>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>r</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.binaryreader">BinaryReader</a></dt>
-    <dd></dd>
+    <dd><p>A BinaryReader whose position is at the start of the object.</p>
+</dd>
     <dt><code>version</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>?</dt>
-    <dd></dd>
+    <dd><p>The version number of the file format.</p>
+</dd>
   </dl>
 
 
@@ -575,7 +574,7 @@ has to jump back and forth a few times.</p>
 
   <h3 id="TruckLib_Models_Piece_Serialize_System_IO_BinaryWriter_" data-uid="TruckLib.Models.Piece.Serialize(System.IO.BinaryWriter)">
   Serialize(BinaryWriter)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Models/Piece.cs/#L263"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Models/Piece.cs/#L256"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Writes the object to a BinaryWriter.</p>
@@ -608,7 +607,7 @@ has to jump back and forth a few times.</p>
 
   <h3 id="TruckLib_Models_Piece_WriteHeaderPart_System_IO_BinaryWriter_System_Int32_System_Int32_" data-uid="TruckLib.Models.Piece.WriteHeaderPart(System.IO.BinaryWriter,System.Int32,System.Int32)">
   WriteHeaderPart(BinaryWriter, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Models/Piece.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Models/Piece.cs/#L116"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -643,7 +642,7 @@ has to jump back and forth a few times.</p>
 
   <h3 id="TruckLib_Models_Piece_WriteTriangles_System_IO_BinaryWriter_" data-uid="TruckLib.Models.Piece.WriteTriangles(System.IO.BinaryWriter)">
   WriteTriangles(BinaryWriter)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Models/Piece.cs/#L258"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Models/Piece.cs/#L251"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -674,7 +673,7 @@ has to jump back and forth a few times.</p>
 
   <h3 id="TruckLib_Models_Piece_WriteVertPart_System_IO_BinaryWriter_" data-uid="TruckLib.Models.Piece.WriteVertPart(System.IO.BinaryWriter)">
   WriteVertPart(BinaryWriter)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Models/Piece.cs/#L243"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/Models/Piece.cs/#L236"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
