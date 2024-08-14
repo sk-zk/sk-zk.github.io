@@ -117,7 +117,7 @@ will be emptied before saving the map.</p>
 <p>All map items are stored in the <a class="xref" href="../../api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_MapItems"><code>MapItems</code></a> dictionary, indexed by UID.</p>
 <pre><code class="lang-cs">bool exists = map.MapItems.TryGetValue(0x521CD80FA4000001, out MapItem item);
 
-var allMovers = map.MapItems.OfType&lt;Mover&gt;();
+var allMovers = map.MapItems.Where(x =&gt; x.Value is Mover);
 </code></pre>
 <p>Do not modify this dictionary directly – see &quot;Adding and deleting map items&quot; for the intended way to do that.</p>
 <h2 id="nodes">Nodes</h2>

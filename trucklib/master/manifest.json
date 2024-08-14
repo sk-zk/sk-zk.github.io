@@ -1904,11 +1904,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "api/toc.html"
-        },
         ".json": {
           "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
         }
       },
       "version": ""
@@ -1947,11 +1947,11 @@
       "type": "Toc",
       "source_relative_path": "docs/Samples/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "docs/Samples/toc.html"
-        },
         ".json": {
           "relative_path": "docs/Samples/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/Samples/toc.html"
         }
       },
       "version": ""
@@ -1970,11 +1970,11 @@
       "type": "Toc",
       "source_relative_path": "docs/TruckLib.HashFs/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "docs/TruckLib.HashFs/toc.html"
-        },
         ".json": {
           "relative_path": "docs/TruckLib.HashFs/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/TruckLib.HashFs/toc.html"
         }
       },
       "version": ""
@@ -2043,11 +2043,11 @@
       "type": "Toc",
       "source_relative_path": "docs/TruckLib.ScsMap/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "docs/TruckLib.ScsMap/toc.html"
-        },
         ".json": {
           "relative_path": "docs/TruckLib.ScsMap/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/TruckLib.ScsMap/toc.html"
         }
       },
       "version": ""
@@ -2066,11 +2066,11 @@
       "type": "Toc",
       "source_relative_path": "docs/TruckLib.Sii/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "docs/TruckLib.Sii/toc.html"
-        },
         ".json": {
           "relative_path": "docs/TruckLib.Sii/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/TruckLib.Sii/toc.html"
         }
       },
       "version": ""
@@ -2089,11 +2089,11 @@
       "type": "Toc",
       "source_relative_path": "docs/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "docs/toc.html"
-        },
         ".json": {
           "relative_path": "docs/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/toc.html"
         }
       },
       "version": ""
@@ -2212,11 +2212,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "toc.html"
-        },
         ".json": {
           "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
         }
       },
       "version": ""
