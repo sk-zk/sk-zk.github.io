@@ -97,7 +97,7 @@ Class Road  <a class="header-action link-secondary" title="View source" href="ht
   <dl><dt>Assembly</dt><dd>TruckLib.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>A road segment.</p>
+  <div class="markdown summary"><p>A road item.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -243,7 +243,7 @@ Class Road  <a class="header-action link-secondary" title="View source" href="ht
   <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Road.cs/#L48"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The maximum length of a road segment.</p>
+  <div class="markdown level1 summary"><p>The maximum length of a road item.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -632,7 +632,7 @@ If there isn't one, they will despawn instead.</p>
   <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Road.cs/#L148"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets or sets if the satnav should avoid this road segment.</p>
+  <div class="markdown level1 summary"><p>Gets or sets if the satnav should avoid this road item.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -890,7 +890,7 @@ public bool IsCityRoad { get; set; }</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Road.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Returns the minimum length of a road segment with the current resolution setting.</p>
+  <div class="markdown level1 summary"><p>Returns the minimum length of a road item with the current resolution setting.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1441,7 +1441,7 @@ public bool StretchTerrain { get; set; }</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Road.cs/#L315"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Adds a road segment to the map.</p>
+  <div class="markdown level1 summary"><p>Adds a road item to the map.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1474,7 +1474,7 @@ public bool StretchTerrain { get; set; }</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="TruckLib.ScsMap.Road.html">Road</a></dt>
-    <dd><p>The newly created road segment.</p>
+    <dd><p>The newly created road item.</p>
 </dd>
   </dl>
 
@@ -1495,7 +1495,7 @@ public bool StretchTerrain { get; set; }</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Road.cs/#L329"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Appends a road segment to this road.</p>
+  <div class="markdown level1 summary"><p>Appends a road item to this road.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1509,14 +1509,14 @@ public bool StretchTerrain { get; set; }</code></pre>
     <dd><p>The position of the ForwardNode of the new road.</p>
 </dd>
     <dt><code>cloneSettings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>Whether the new segment should have the same settings as this one.</p>
+    <dd><p>Whether the new item should have the same settings as this one.</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="TruckLib.ScsMap.Road.html">Road</a></dt>
-    <dd><p>The newly created road segment.</p>
+    <dd><p>The newly created road item.</p>
 </dd>
   </dl>
 
@@ -1537,7 +1537,7 @@ public bool StretchTerrain { get; set; }</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Road.cs/#L367"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Appends a road segment to this road.</p>
+  <div class="markdown level1 summary"><p>Appends a road item to this road.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1564,7 +1564,7 @@ public bool StretchTerrain { get; set; }</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="TruckLib.ScsMap.Road.html">Road</a></dt>
-    <dd><p>The newly created road.</p>
+    <dd><p>The newly created road item.</p>
 </dd>
   </dl>
 
@@ -1612,7 +1612,7 @@ public bool StretchTerrain { get; set; }</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Road.cs/#L381"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Prepends a road segment to this road.</p>
+  <div class="markdown level1 summary"><p>Prepends a road item to this road.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1630,7 +1630,7 @@ public bool StretchTerrain { get; set; }</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="TruckLib.ScsMap.Road.html">Road</a></dt>
-    <dd><p>The newly created road.</p>
+    <dd><p>The newly created road item.</p>
 </dd>
   </dl>
 
@@ -1651,7 +1651,7 @@ public bool StretchTerrain { get; set; }</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Road.cs/#L394"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Prepends a road segment to this road.</p>
+  <div class="markdown level1 summary"><p>Prepends a road item to this road.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1678,7 +1678,7 @@ public bool StretchTerrain { get; set; }</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="TruckLib.ScsMap.Road.html">Road</a></dt>
-    <dd><p>The newly created road.</p>
+    <dd><p>The newly created road item.</p>
 </dd>
   </dl>
 
