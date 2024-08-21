@@ -116,7 +116,7 @@ and if yes, whether it is a directory or a file:</p>
 <h3 id="directory-listings">Directory listings</h3>
 <p>You can retrieve the contents of a directory with the <a class="xref" href="../../api/TruckLib.HashFs.IHashFsReader.html#TruckLib_HashFs_IHashFsReader_GetDirectoryListing_"><code>GetDirectoryListing</code></a> method:</p>
 <pre><code class="lang-cs">// Get the top level of the archive
-var (subdirs, files) = reader.GetDirectoryListing(&quot;/&quot;);
+var directory = reader.GetDirectoryListing(&quot;/&quot;);
 </code></pre>
 <p>Keep in mind that, as mentioned above, directory listings are not required to exist.</p>
 <h2 id="extracting-entries">Extracting entries</h2>
