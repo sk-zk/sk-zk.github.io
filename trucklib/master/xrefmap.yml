@@ -869,6 +869,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.HashFs.IHashFsReader.Salt
   nameWithType: IHashFsReader.Salt
+- uid: TruckLib.HashFs.IHashFsReader.Version
+  name: Version
+  href: api/TruckLib.HashFs.IHashFsReader.html#TruckLib_HashFs_IHashFsReader_Version
+  commentId: P:TruckLib.HashFs.IHashFsReader.Version
+  fullName: TruckLib.HashFs.IHashFsReader.Version
+  nameWithType: IHashFsReader.Version
+- uid: TruckLib.HashFs.IHashFsReader.Version*
+  name: Version
+  href: api/TruckLib.HashFs.IHashFsReader.html#TruckLib_HashFs_IHashFsReader_Version_
+  commentId: Overload:TruckLib.HashFs.IHashFsReader.Version
+  isSpec: "True"
+  fullName: TruckLib.HashFs.IHashFsReader.Version
+  nameWithType: IHashFsReader.Version
 - uid: TruckLib.HashFs.PackedTobjDdsMetadata
   name: PackedTobjDdsMetadata
   href: api/TruckLib.HashFs.PackedTobjDdsMetadata.html
