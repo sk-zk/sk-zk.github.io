@@ -862,6 +862,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.EnvironmentArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.EnvironmentArea.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TruckLib.ScsMap.FarModel.yml",
       "output": {
         ".html": {
@@ -1152,16 +1162,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/TruckLib.ScsMap.MapAreaColor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TruckLib.ScsMap.MapAreaColor.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/TruckLib.ScsMap.MapAreaType.yml",
       "output": {
         ".html": {
@@ -1216,16 +1216,6 @@
       "output": {
         ".html": {
           "relative_path": "api/TruckLib.ScsMap.Mover.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/TruckLib.ScsMap.NoWeatherArea.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TruckLib.ScsMap.NoWeatherArea.html"
         }
       },
       "version": ""

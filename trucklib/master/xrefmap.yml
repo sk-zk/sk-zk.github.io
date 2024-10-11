@@ -3895,6 +3895,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Ppd.SpawnPoint.Type
   nameWithType: SpawnPoint.Type
+- uid: TruckLib.Models.Ppd.SpawnPoint.Unknown
+  name: Unknown
+  href: api/TruckLib.Models.Ppd.SpawnPoint.html#TruckLib_Models_Ppd_SpawnPoint_Unknown
+  commentId: P:TruckLib.Models.Ppd.SpawnPoint.Unknown
+  fullName: TruckLib.Models.Ppd.SpawnPoint.Unknown
+  nameWithType: SpawnPoint.Unknown
+- uid: TruckLib.Models.Ppd.SpawnPoint.Unknown*
+  name: Unknown
+  href: api/TruckLib.Models.Ppd.SpawnPoint.html#TruckLib_Models_Ppd_SpawnPoint_Unknown_
+  commentId: Overload:TruckLib.Models.Ppd.SpawnPoint.Unknown
+  isSpec: "True"
+  fullName: TruckLib.Models.Ppd.SpawnPoint.Unknown
+  nameWithType: SpawnPoint.Unknown
 - uid: TruckLib.Models.Ppd.SpawnPointType
   name: SpawnPointType
   href: api/TruckLib.Models.Ppd.SpawnPointType.html
@@ -10157,6 +10170,177 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.EdgeTerrain.UpdateQuadAmount
   nameWithType: EdgeTerrain.UpdateQuadAmount
+- uid: TruckLib.ScsMap.EnvironmentArea
+  name: EnvironmentArea
+  href: api/TruckLib.ScsMap.EnvironmentArea.html
+  commentId: T:TruckLib.ScsMap.EnvironmentArea
+  fullName: TruckLib.ScsMap.EnvironmentArea
+  nameWithType: EnvironmentArea
+- uid: TruckLib.ScsMap.EnvironmentArea.#ctor
+  name: EnvironmentArea()
+  href: api/TruckLib.ScsMap.EnvironmentArea.html#TruckLib_ScsMap_EnvironmentArea__ctor
+  commentId: M:TruckLib.ScsMap.EnvironmentArea.#ctor
+  name.vb: New()
+  fullName: TruckLib.ScsMap.EnvironmentArea.EnvironmentArea()
+  fullName.vb: TruckLib.ScsMap.EnvironmentArea.New()
+  nameWithType: EnvironmentArea.EnvironmentArea()
+  nameWithType.vb: EnvironmentArea.New()
+- uid: TruckLib.ScsMap.EnvironmentArea.#ctor*
+  name: EnvironmentArea
+  href: api/TruckLib.ScsMap.EnvironmentArea.html#TruckLib_ScsMap_EnvironmentArea__ctor_
+  commentId: Overload:TruckLib.ScsMap.EnvironmentArea.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TruckLib.ScsMap.EnvironmentArea.EnvironmentArea
+  fullName.vb: TruckLib.ScsMap.EnvironmentArea.New
+  nameWithType: EnvironmentArea.EnvironmentArea
+  nameWithType.vb: EnvironmentArea.New
+- uid: TruckLib.ScsMap.EnvironmentArea.Add(TruckLib.ScsMap.IItemContainer,System.Numerics.Vector3,System.Single,System.Single)
+  name: Add(IItemContainer, Vector3, float, float)
+  href: api/TruckLib.ScsMap.EnvironmentArea.html#TruckLib_ScsMap_EnvironmentArea_Add_TruckLib_ScsMap_IItemContainer_System_Numerics_Vector3_System_Single_System_Single_
+  commentId: M:TruckLib.ScsMap.EnvironmentArea.Add(TruckLib.ScsMap.IItemContainer,System.Numerics.Vector3,System.Single,System.Single)
+  name.vb: Add(IItemContainer, Vector3, Single, Single)
+  fullName: TruckLib.ScsMap.EnvironmentArea.Add(TruckLib.ScsMap.IItemContainer, System.Numerics.Vector3, float, float)
+  fullName.vb: TruckLib.ScsMap.EnvironmentArea.Add(TruckLib.ScsMap.IItemContainer, System.Numerics.Vector3, Single, Single)
+  nameWithType: EnvironmentArea.Add(IItemContainer, Vector3, float, float)
+  nameWithType.vb: EnvironmentArea.Add(IItemContainer, Vector3, Single, Single)
+- uid: TruckLib.ScsMap.EnvironmentArea.Add*
+  name: Add
+  href: api/TruckLib.ScsMap.EnvironmentArea.html#TruckLib_ScsMap_EnvironmentArea_Add_
+  commentId: Overload:TruckLib.ScsMap.EnvironmentArea.Add
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.EnvironmentArea.Add
+  nameWithType: EnvironmentArea.Add
+- uid: TruckLib.ScsMap.EnvironmentArea.Climate
+  name: Climate
+  href: api/TruckLib.ScsMap.EnvironmentArea.html#TruckLib_ScsMap_EnvironmentArea_Climate
+  commentId: P:TruckLib.ScsMap.EnvironmentArea.Climate
+  fullName: TruckLib.ScsMap.EnvironmentArea.Climate
+  nameWithType: EnvironmentArea.Climate
+- uid: TruckLib.ScsMap.EnvironmentArea.Climate*
+  name: Climate
+  href: api/TruckLib.ScsMap.EnvironmentArea.html#TruckLib_ScsMap_EnvironmentArea_Climate_
+  commentId: Overload:TruckLib.ScsMap.EnvironmentArea.Climate
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.EnvironmentArea.Climate
+  nameWithType: EnvironmentArea.Climate
+- uid: TruckLib.ScsMap.EnvironmentArea.DefaultItemFile
+  name: DefaultItemFile
+  href: api/TruckLib.ScsMap.EnvironmentArea.html#TruckLib_ScsMap_EnvironmentArea_DefaultItemFile
+  commentId: P:TruckLib.ScsMap.EnvironmentArea.DefaultItemFile
+  fullName: TruckLib.ScsMap.EnvironmentArea.DefaultItemFile
+  nameWithType: EnvironmentArea.DefaultItemFile
+- uid: TruckLib.ScsMap.EnvironmentArea.DefaultItemFile*
+  name: DefaultItemFile
+  href: api/TruckLib.ScsMap.EnvironmentArea.html#TruckLib_ScsMap_EnvironmentArea_DefaultItemFile_
+  commentId: Overload:TruckLib.ScsMap.EnvironmentArea.DefaultItemFile
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.EnvironmentArea.DefaultItemFile
+  nameWithType: EnvironmentArea.DefaultItemFile
+- uid: TruckLib.ScsMap.EnvironmentArea.DefaultViewDistance
+  name: DefaultViewDistance
+  href: api/TruckLib.ScsMap.EnvironmentArea.html#TruckLib_ScsMap_EnvironmentArea_DefaultViewDistance
+  commentId: P:TruckLib.ScsMap.EnvironmentArea.DefaultViewDistance
+  fullName: TruckLib.ScsMap.EnvironmentArea.DefaultViewDistance
+  nameWithType: EnvironmentArea.DefaultViewDistance
+- uid: TruckLib.ScsMap.EnvironmentArea.DefaultViewDistance*
+  name: DefaultViewDistance
+  href: api/TruckLib.ScsMap.EnvironmentArea.html#TruckLib_ScsMap_EnvironmentArea_DefaultViewDistance_
+  commentId: Overload:TruckLib.ScsMap.EnvironmentArea.DefaultViewDistance
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.EnvironmentArea.DefaultViewDistance
+  nameWithType: EnvironmentArea.DefaultViewDistance
+- uid: TruckLib.ScsMap.EnvironmentArea.FogBehavior
+  name: FogBehavior
+  href: api/TruckLib.ScsMap.EnvironmentArea.html#TruckLib_ScsMap_EnvironmentArea_FogBehavior
+  commentId: P:TruckLib.ScsMap.EnvironmentArea.FogBehavior
+  fullName: TruckLib.ScsMap.EnvironmentArea.FogBehavior
+  nameWithType: EnvironmentArea.FogBehavior
+- uid: TruckLib.ScsMap.EnvironmentArea.FogBehavior*
+  name: FogBehavior
+  href: api/TruckLib.ScsMap.EnvironmentArea.html#TruckLib_ScsMap_EnvironmentArea_FogBehavior_
+  commentId: Overload:TruckLib.ScsMap.EnvironmentArea.FogBehavior
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.EnvironmentArea.FogBehavior
+  nameWithType: EnvironmentArea.FogBehavior
+- uid: TruckLib.ScsMap.EnvironmentArea.Height
+  name: Height
+  href: api/TruckLib.ScsMap.EnvironmentArea.html#TruckLib_ScsMap_EnvironmentArea_Height
+  commentId: P:TruckLib.ScsMap.EnvironmentArea.Height
+  fullName: TruckLib.ScsMap.EnvironmentArea.Height
+  nameWithType: EnvironmentArea.Height
+- uid: TruckLib.ScsMap.EnvironmentArea.Height*
+  name: Height
+  href: api/TruckLib.ScsMap.EnvironmentArea.html#TruckLib_ScsMap_EnvironmentArea_Height_
+  commentId: Overload:TruckLib.ScsMap.EnvironmentArea.Height
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.EnvironmentArea.Height
+  nameWithType: EnvironmentArea.Height
+- uid: TruckLib.ScsMap.EnvironmentArea.Init
+  name: Init()
+  href: api/TruckLib.ScsMap.EnvironmentArea.html#TruckLib_ScsMap_EnvironmentArea_Init
+  commentId: M:TruckLib.ScsMap.EnvironmentArea.Init
+  fullName: TruckLib.ScsMap.EnvironmentArea.Init()
+  nameWithType: EnvironmentArea.Init()
+- uid: TruckLib.ScsMap.EnvironmentArea.Init*
+  name: Init
+  href: api/TruckLib.ScsMap.EnvironmentArea.html#TruckLib_ScsMap_EnvironmentArea_Init_
+  commentId: Overload:TruckLib.ScsMap.EnvironmentArea.Init
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.EnvironmentArea.Init
+  nameWithType: EnvironmentArea.Init
+- uid: TruckLib.ScsMap.EnvironmentArea.ItemType
+  name: ItemType
+  href: api/TruckLib.ScsMap.EnvironmentArea.html#TruckLib_ScsMap_EnvironmentArea_ItemType
+  commentId: P:TruckLib.ScsMap.EnvironmentArea.ItemType
+  fullName: TruckLib.ScsMap.EnvironmentArea.ItemType
+  nameWithType: EnvironmentArea.ItemType
+- uid: TruckLib.ScsMap.EnvironmentArea.ItemType*
+  name: ItemType
+  href: api/TruckLib.ScsMap.EnvironmentArea.html#TruckLib_ScsMap_EnvironmentArea_ItemType_
+  commentId: Overload:TruckLib.ScsMap.EnvironmentArea.ItemType
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.EnvironmentArea.ItemType
+  nameWithType: EnvironmentArea.ItemType
+- uid: TruckLib.ScsMap.EnvironmentArea.Precipitation
+  name: Precipitation
+  href: api/TruckLib.ScsMap.EnvironmentArea.html#TruckLib_ScsMap_EnvironmentArea_Precipitation
+  commentId: P:TruckLib.ScsMap.EnvironmentArea.Precipitation
+  fullName: TruckLib.ScsMap.EnvironmentArea.Precipitation
+  nameWithType: EnvironmentArea.Precipitation
+- uid: TruckLib.ScsMap.EnvironmentArea.Precipitation*
+  name: Precipitation
+  href: api/TruckLib.ScsMap.EnvironmentArea.html#TruckLib_ScsMap_EnvironmentArea_Precipitation_
+  commentId: Overload:TruckLib.ScsMap.EnvironmentArea.Precipitation
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.EnvironmentArea.Precipitation
+  nameWithType: EnvironmentArea.Precipitation
+- uid: TruckLib.ScsMap.EnvironmentArea.ReflectionCube
+  name: ReflectionCube
+  href: api/TruckLib.ScsMap.EnvironmentArea.html#TruckLib_ScsMap_EnvironmentArea_ReflectionCube
+  commentId: P:TruckLib.ScsMap.EnvironmentArea.ReflectionCube
+  fullName: TruckLib.ScsMap.EnvironmentArea.ReflectionCube
+  nameWithType: EnvironmentArea.ReflectionCube
+- uid: TruckLib.ScsMap.EnvironmentArea.ReflectionCube*
+  name: ReflectionCube
+  href: api/TruckLib.ScsMap.EnvironmentArea.html#TruckLib_ScsMap_EnvironmentArea_ReflectionCube_
+  commentId: Overload:TruckLib.ScsMap.EnvironmentArea.ReflectionCube
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.EnvironmentArea.ReflectionCube
+  nameWithType: EnvironmentArea.ReflectionCube
+- uid: TruckLib.ScsMap.EnvironmentArea.Width
+  name: Width
+  href: api/TruckLib.ScsMap.EnvironmentArea.html#TruckLib_ScsMap_EnvironmentArea_Width
+  commentId: P:TruckLib.ScsMap.EnvironmentArea.Width
+  fullName: TruckLib.ScsMap.EnvironmentArea.Width
+  nameWithType: EnvironmentArea.Width
+- uid: TruckLib.ScsMap.EnvironmentArea.Width*
+  name: Width
+  href: api/TruckLib.ScsMap.EnvironmentArea.html#TruckLib_ScsMap_EnvironmentArea_Width_
+  commentId: Overload:TruckLib.ScsMap.EnvironmentArea.Width
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.EnvironmentArea.Width
+  nameWithType: EnvironmentArea.Width
 - uid: TruckLib.ScsMap.FarModel
   name: FarModel
   href: api/TruckLib.ScsMap.FarModel.html
@@ -10237,6 +10421,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.FarModel.DefaultViewDistance
   nameWithType: FarModel.DefaultViewDistance
+- uid: TruckLib.ScsMap.FarModel.FarShadows
+  name: FarShadows
+  href: api/TruckLib.ScsMap.FarModel.html#TruckLib_ScsMap_FarModel_FarShadows
+  commentId: P:TruckLib.ScsMap.FarModel.FarShadows
+  fullName: TruckLib.ScsMap.FarModel.FarShadows
+  nameWithType: FarModel.FarShadows
+- uid: TruckLib.ScsMap.FarModel.FarShadows*
+  name: FarShadows
+  href: api/TruckLib.ScsMap.FarModel.html#TruckLib_ScsMap_FarModel_FarShadows_
+  commentId: Overload:TruckLib.ScsMap.FarModel.FarShadows
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.FarModel.FarShadows
+  nameWithType: FarModel.FarShadows
 - uid: TruckLib.ScsMap.FarModel.Height
   name: Height
   href: api/TruckLib.ScsMap.FarModel.html#TruckLib_ScsMap_FarModel_Height
@@ -12179,6 +12376,12 @@ references:
   commentId: F:TruckLib.ScsMap.ItemType.Cutscene
   fullName: TruckLib.ScsMap.ItemType.Cutscene
   nameWithType: ItemType.Cutscene
+- uid: TruckLib.ScsMap.ItemType.EnvironmentArea
+  name: EnvironmentArea
+  href: api/TruckLib.ScsMap.ItemType.html#TruckLib_ScsMap_ItemType_EnvironmentArea
+  commentId: F:TruckLib.ScsMap.ItemType.EnvironmentArea
+  fullName: TruckLib.ScsMap.ItemType.EnvironmentArea
+  nameWithType: ItemType.EnvironmentArea
 - uid: TruckLib.ScsMap.ItemType.FarModel
   name: FarModel
   href: api/TruckLib.ScsMap.ItemType.html#TruckLib_ScsMap_ItemType_FarModel
@@ -12245,12 +12448,6 @@ references:
   commentId: F:TruckLib.ScsMap.ItemType.Mover
   fullName: TruckLib.ScsMap.ItemType.Mover
   nameWithType: ItemType.Mover
-- uid: TruckLib.ScsMap.ItemType.NoWeatherArea
-  name: NoWeatherArea
-  href: api/TruckLib.ScsMap.ItemType.html#TruckLib_ScsMap_ItemType_NoWeatherArea
-  commentId: F:TruckLib.ScsMap.ItemType.NoWeatherArea
-  fullName: TruckLib.ScsMap.ItemType.NoWeatherArea
-  nameWithType: ItemType.NoWeatherArea
 - uid: TruckLib.ScsMap.ItemType.Prefab
   name: Prefab
   href: api/TruckLib.ScsMap.ItemType.html#TruckLib_ScsMap_ItemType_Prefab
@@ -14455,36 +14652,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.MapArea.Type
   nameWithType: MapArea.Type
-- uid: TruckLib.ScsMap.MapAreaColor
-  name: MapAreaColor
-  href: api/TruckLib.ScsMap.MapAreaColor.html
-  commentId: T:TruckLib.ScsMap.MapAreaColor
-  fullName: TruckLib.ScsMap.MapAreaColor
-  nameWithType: MapAreaColor
-- uid: TruckLib.ScsMap.MapAreaColor.Dark
-  name: Dark
-  href: api/TruckLib.ScsMap.MapAreaColor.html#TruckLib_ScsMap_MapAreaColor_Dark
-  commentId: F:TruckLib.ScsMap.MapAreaColor.Dark
-  fullName: TruckLib.ScsMap.MapAreaColor.Dark
-  nameWithType: MapAreaColor.Dark
-- uid: TruckLib.ScsMap.MapAreaColor.Green
-  name: Green
-  href: api/TruckLib.ScsMap.MapAreaColor.html#TruckLib_ScsMap_MapAreaColor_Green
-  commentId: F:TruckLib.ScsMap.MapAreaColor.Green
-  fullName: TruckLib.ScsMap.MapAreaColor.Green
-  nameWithType: MapAreaColor.Green
-- uid: TruckLib.ScsMap.MapAreaColor.Light
-  name: Light
-  href: api/TruckLib.ScsMap.MapAreaColor.html#TruckLib_ScsMap_MapAreaColor_Light
-  commentId: F:TruckLib.ScsMap.MapAreaColor.Light
-  fullName: TruckLib.ScsMap.MapAreaColor.Light
-  nameWithType: MapAreaColor.Light
-- uid: TruckLib.ScsMap.MapAreaColor.Road
-  name: Road
-  href: api/TruckLib.ScsMap.MapAreaColor.html#TruckLib_ScsMap_MapAreaColor_Road
-  commentId: F:TruckLib.ScsMap.MapAreaColor.Road
-  fullName: TruckLib.ScsMap.MapAreaColor.Road
-  nameWithType: MapAreaColor.Road
 - uid: TruckLib.ScsMap.MapAreaType
   name: MapAreaType
   href: api/TruckLib.ScsMap.MapAreaType.html
@@ -15708,138 +15875,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Mover.Width
   nameWithType: Mover.Width
-- uid: TruckLib.ScsMap.NoWeatherArea
-  name: NoWeatherArea
-  href: api/TruckLib.ScsMap.NoWeatherArea.html
-  commentId: T:TruckLib.ScsMap.NoWeatherArea
-  fullName: TruckLib.ScsMap.NoWeatherArea
-  nameWithType: NoWeatherArea
-- uid: TruckLib.ScsMap.NoWeatherArea.#ctor
-  name: NoWeatherArea()
-  href: api/TruckLib.ScsMap.NoWeatherArea.html#TruckLib_ScsMap_NoWeatherArea__ctor
-  commentId: M:TruckLib.ScsMap.NoWeatherArea.#ctor
-  name.vb: New()
-  fullName: TruckLib.ScsMap.NoWeatherArea.NoWeatherArea()
-  fullName.vb: TruckLib.ScsMap.NoWeatherArea.New()
-  nameWithType: NoWeatherArea.NoWeatherArea()
-  nameWithType.vb: NoWeatherArea.New()
-- uid: TruckLib.ScsMap.NoWeatherArea.#ctor*
-  name: NoWeatherArea
-  href: api/TruckLib.ScsMap.NoWeatherArea.html#TruckLib_ScsMap_NoWeatherArea__ctor_
-  commentId: Overload:TruckLib.ScsMap.NoWeatherArea.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: TruckLib.ScsMap.NoWeatherArea.NoWeatherArea
-  fullName.vb: TruckLib.ScsMap.NoWeatherArea.New
-  nameWithType: NoWeatherArea.NoWeatherArea
-  nameWithType.vb: NoWeatherArea.New
-- uid: TruckLib.ScsMap.NoWeatherArea.Add(TruckLib.ScsMap.IItemContainer,System.Numerics.Vector3,System.Single,System.Single)
-  name: Add(IItemContainer, Vector3, float, float)
-  href: api/TruckLib.ScsMap.NoWeatherArea.html#TruckLib_ScsMap_NoWeatherArea_Add_TruckLib_ScsMap_IItemContainer_System_Numerics_Vector3_System_Single_System_Single_
-  commentId: M:TruckLib.ScsMap.NoWeatherArea.Add(TruckLib.ScsMap.IItemContainer,System.Numerics.Vector3,System.Single,System.Single)
-  name.vb: Add(IItemContainer, Vector3, Single, Single)
-  fullName: TruckLib.ScsMap.NoWeatherArea.Add(TruckLib.ScsMap.IItemContainer, System.Numerics.Vector3, float, float)
-  fullName.vb: TruckLib.ScsMap.NoWeatherArea.Add(TruckLib.ScsMap.IItemContainer, System.Numerics.Vector3, Single, Single)
-  nameWithType: NoWeatherArea.Add(IItemContainer, Vector3, float, float)
-  nameWithType.vb: NoWeatherArea.Add(IItemContainer, Vector3, Single, Single)
-- uid: TruckLib.ScsMap.NoWeatherArea.Add*
-  name: Add
-  href: api/TruckLib.ScsMap.NoWeatherArea.html#TruckLib_ScsMap_NoWeatherArea_Add_
-  commentId: Overload:TruckLib.ScsMap.NoWeatherArea.Add
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.NoWeatherArea.Add
-  nameWithType: NoWeatherArea.Add
-- uid: TruckLib.ScsMap.NoWeatherArea.DefaultItemFile
-  name: DefaultItemFile
-  href: api/TruckLib.ScsMap.NoWeatherArea.html#TruckLib_ScsMap_NoWeatherArea_DefaultItemFile
-  commentId: P:TruckLib.ScsMap.NoWeatherArea.DefaultItemFile
-  fullName: TruckLib.ScsMap.NoWeatherArea.DefaultItemFile
-  nameWithType: NoWeatherArea.DefaultItemFile
-- uid: TruckLib.ScsMap.NoWeatherArea.DefaultItemFile*
-  name: DefaultItemFile
-  href: api/TruckLib.ScsMap.NoWeatherArea.html#TruckLib_ScsMap_NoWeatherArea_DefaultItemFile_
-  commentId: Overload:TruckLib.ScsMap.NoWeatherArea.DefaultItemFile
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.NoWeatherArea.DefaultItemFile
-  nameWithType: NoWeatherArea.DefaultItemFile
-- uid: TruckLib.ScsMap.NoWeatherArea.DefaultViewDistance
-  name: DefaultViewDistance
-  href: api/TruckLib.ScsMap.NoWeatherArea.html#TruckLib_ScsMap_NoWeatherArea_DefaultViewDistance
-  commentId: P:TruckLib.ScsMap.NoWeatherArea.DefaultViewDistance
-  fullName: TruckLib.ScsMap.NoWeatherArea.DefaultViewDistance
-  nameWithType: NoWeatherArea.DefaultViewDistance
-- uid: TruckLib.ScsMap.NoWeatherArea.DefaultViewDistance*
-  name: DefaultViewDistance
-  href: api/TruckLib.ScsMap.NoWeatherArea.html#TruckLib_ScsMap_NoWeatherArea_DefaultViewDistance_
-  commentId: Overload:TruckLib.ScsMap.NoWeatherArea.DefaultViewDistance
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.NoWeatherArea.DefaultViewDistance
-  nameWithType: NoWeatherArea.DefaultViewDistance
-- uid: TruckLib.ScsMap.NoWeatherArea.FogBehavior
-  name: FogBehavior
-  href: api/TruckLib.ScsMap.NoWeatherArea.html#TruckLib_ScsMap_NoWeatherArea_FogBehavior
-  commentId: P:TruckLib.ScsMap.NoWeatherArea.FogBehavior
-  fullName: TruckLib.ScsMap.NoWeatherArea.FogBehavior
-  nameWithType: NoWeatherArea.FogBehavior
-- uid: TruckLib.ScsMap.NoWeatherArea.FogBehavior*
-  name: FogBehavior
-  href: api/TruckLib.ScsMap.NoWeatherArea.html#TruckLib_ScsMap_NoWeatherArea_FogBehavior_
-  commentId: Overload:TruckLib.ScsMap.NoWeatherArea.FogBehavior
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.NoWeatherArea.FogBehavior
-  nameWithType: NoWeatherArea.FogBehavior
-- uid: TruckLib.ScsMap.NoWeatherArea.Height
-  name: Height
-  href: api/TruckLib.ScsMap.NoWeatherArea.html#TruckLib_ScsMap_NoWeatherArea_Height
-  commentId: P:TruckLib.ScsMap.NoWeatherArea.Height
-  fullName: TruckLib.ScsMap.NoWeatherArea.Height
-  nameWithType: NoWeatherArea.Height
-- uid: TruckLib.ScsMap.NoWeatherArea.Height*
-  name: Height
-  href: api/TruckLib.ScsMap.NoWeatherArea.html#TruckLib_ScsMap_NoWeatherArea_Height_
-  commentId: Overload:TruckLib.ScsMap.NoWeatherArea.Height
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.NoWeatherArea.Height
-  nameWithType: NoWeatherArea.Height
-- uid: TruckLib.ScsMap.NoWeatherArea.Init
-  name: Init()
-  href: api/TruckLib.ScsMap.NoWeatherArea.html#TruckLib_ScsMap_NoWeatherArea_Init
-  commentId: M:TruckLib.ScsMap.NoWeatherArea.Init
-  fullName: TruckLib.ScsMap.NoWeatherArea.Init()
-  nameWithType: NoWeatherArea.Init()
-- uid: TruckLib.ScsMap.NoWeatherArea.Init*
-  name: Init
-  href: api/TruckLib.ScsMap.NoWeatherArea.html#TruckLib_ScsMap_NoWeatherArea_Init_
-  commentId: Overload:TruckLib.ScsMap.NoWeatherArea.Init
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.NoWeatherArea.Init
-  nameWithType: NoWeatherArea.Init
-- uid: TruckLib.ScsMap.NoWeatherArea.ItemType
-  name: ItemType
-  href: api/TruckLib.ScsMap.NoWeatherArea.html#TruckLib_ScsMap_NoWeatherArea_ItemType
-  commentId: P:TruckLib.ScsMap.NoWeatherArea.ItemType
-  fullName: TruckLib.ScsMap.NoWeatherArea.ItemType
-  nameWithType: NoWeatherArea.ItemType
-- uid: TruckLib.ScsMap.NoWeatherArea.ItemType*
-  name: ItemType
-  href: api/TruckLib.ScsMap.NoWeatherArea.html#TruckLib_ScsMap_NoWeatherArea_ItemType_
-  commentId: Overload:TruckLib.ScsMap.NoWeatherArea.ItemType
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.NoWeatherArea.ItemType
-  nameWithType: NoWeatherArea.ItemType
-- uid: TruckLib.ScsMap.NoWeatherArea.Width
-  name: Width
-  href: api/TruckLib.ScsMap.NoWeatherArea.html#TruckLib_ScsMap_NoWeatherArea_Width
-  commentId: P:TruckLib.ScsMap.NoWeatherArea.Width
-  fullName: TruckLib.ScsMap.NoWeatherArea.Width
-  nameWithType: NoWeatherArea.Width
-- uid: TruckLib.ScsMap.NoWeatherArea.Width*
-  name: Width
-  href: api/TruckLib.ScsMap.NoWeatherArea.html#TruckLib_ScsMap_NoWeatherArea_Width_
-  commentId: Overload:TruckLib.ScsMap.NoWeatherArea.Width
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.NoWeatherArea.Width
-  nameWithType: NoWeatherArea.Width
 - uid: TruckLib.ScsMap.Node
   name: Node
   href: api/TruckLib.ScsMap.Node.html

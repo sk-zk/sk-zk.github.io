@@ -97,7 +97,7 @@ Class MapArea  <a class="header-action link-secondary" title="View source" href=
   <dl><dt>Assembly</dt><dd>TruckLib.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Draws a polygon onto the UI map.</p>
+  <div class="markdown summary"><p>Defines a polygon which is drawn onto the UI map.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -199,7 +199,7 @@ Class MapArea  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="TruckLib_ScsMap_MapArea__ctor" data-uid="TruckLib.ScsMap.MapArea.#ctor">
   MapArea()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/MapArea.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/MapArea.cs/#L74"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -229,15 +229,16 @@ Class MapArea  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="TruckLib_ScsMap_MapArea_Color" data-uid="TruckLib.ScsMap.MapArea.Color">
   Color
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/MapArea.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/MapArea.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The color of the map area.</p>
+  <div class="markdown level1 summary"><p>The color of the map area, as an index for the <code>map_area_*</code> arrays
+defined in <code>/def/map_data.sii</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MapAreaColor Color { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public uint Color { get; set; }</code></pre>
   </div>
 
 
@@ -246,7 +247,7 @@ Class MapArea  <a class="header-action link-secondary" title="View source" href=
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="TruckLib.ScsMap.MapAreaColor.html">MapAreaColor</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
     <dd></dd>
   </dl>
 
@@ -325,7 +326,7 @@ Class MapArea  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="TruckLib_ScsMap_MapArea_DlcGuard" data-uid="TruckLib.ScsMap.MapArea.DlcGuard">
   DlcGuard
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/MapArea.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/MapArea.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -356,7 +357,7 @@ Class MapArea  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="TruckLib_ScsMap_MapArea_DrawOutline" data-uid="TruckLib.ScsMap.MapArea.DrawOutline">
   DrawOutline
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/MapArea.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/MapArea.cs/#L50"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>TODO: What does this even do?</p>
@@ -388,7 +389,7 @@ Class MapArea  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="TruckLib_ScsMap_MapArea_DrawOver" data-uid="TruckLib.ScsMap.MapArea.DrawOver">
   DrawOver
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/MapArea.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/MapArea.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets if this map area is drawn on top of other items.</p>
@@ -452,7 +453,7 @@ Class MapArea  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="TruckLib_ScsMap_MapArea_Secret" data-uid="TruckLib.ScsMap.MapArea.Secret">
   Secret
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/MapArea.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/MapArea.cs/#L68"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets if this area is only visible in the UI map once discovered.</p>
@@ -565,7 +566,7 @@ Class MapArea  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="TruckLib_ScsMap_MapArea_Init" data-uid="TruckLib.ScsMap.MapArea.Init">
   Init()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/MapArea.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/MapArea.cs/#L82"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sets the item's properties to its default values.</p>
