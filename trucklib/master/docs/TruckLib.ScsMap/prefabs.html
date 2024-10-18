@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/docfx/docs/TruckLib.ScsMap/prefabs.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/TruckLib.ScsMap/prefabs.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -93,12 +93,12 @@
 <p>To add a prefab to the map, the positions of its control nodes and spawn points must be known to the library
 so that the map nodes can be placed correctly and slave items, if required, can be created. This means that
 the prefab descriptor (<code>.ppd</code>) file of the prefab must be opened first, which you can do with the
-<a href="xref:TruckLib.Models.Ppd.PrefabDescriptor"><code>PrefabDescriptor</code></a> class:</p>
+<a class="xref" href="../../api/TruckLib.Models.Ppd.PrefabDescriptor.html"><code>PrefabDescriptor</code></a> class:</p>
 <pre><code class="lang-cs">using TruckLib.Models.Ppd;
 
 PrefabDescriptor ppd = PrefabDescriptor.Open(&quot;&lt;location of extracted files&gt;/prefab2/car_dealer/car_dealer_01_fr.ppd&quot;);
 </code></pre>
-<p>Alternatively, you can use a <a href="xref:TruckLib.HashFs.HashFsReader"><code>HashFsReader</code></a> to load the descriptor directly
+<p>Alternatively, you can use a <a class="xref" href="../../api/TruckLib.HashFs.HashFsReader.html"><code>HashFsReader</code></a> to load the descriptor directly
 from its <code>.scs</code> file without having to extract it:</p>
 <pre><code class="lang-cs">using TruckLib.Models.Ppd;
 using TruckLib.HashFs;
@@ -173,7 +173,7 @@ on the node which connects them.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/docfx/docs/TruckLib.ScsMap/prefabs.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/TruckLib.ScsMap/prefabs.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
