@@ -87,16 +87,16 @@
         <article data-uid="">
 <h1 id="sii-files">SII files</h1>
 
-<p>TruckLib provides the <a class="xref" href="../../api/TruckLib.Sii.SiiFile.html"><code>SiiFile</code></a> class for serializing and deserializing SII files.</p>
-<p>A <code>SiiFile</code> object contains the units of the file in the <a class="xref" href="../../api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Units"><code>Units</code></a> list.
-A <a class="xref" href="../../api/TruckLib.Sii.Unit.html"><code>Unit</code></a> has a class name, unit name, and a number of key-value attributes stored as <code>Dictionary&lt;string, dynamic&gt;</code>.</p>
+<p>TruckLib provides the <a href="xref:TruckLib.Sii.SiiFile"><code>SiiFile</code></a> class for serializing and deserializing SII files.</p>
+<p>A <code>SiiFile</code> object contains the units of the file in the <a href="xref:TruckLib.Sii.SiiFile.Units"><code>Units</code></a> list.
+A <a href="xref:TruckLib.Sii.Unit"><code>Unit</code></a> has a class name, unit name, and a number of key-value attributes stored as <code>Dictionary&lt;string, dynamic&gt;</code>.</p>
 <h2 id="deserializing">Deserializing</h2>
-<p>You can deserialize SII files with the static <a class="xref" href="../../api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Open_"><code>SiiFile.Open</code></a> method:</p>
+<p>You can deserialize SII files with the static <a href="xref:TruckLib.Sii.SiiFile.Open*"><code>SiiFile.Open</code></a> method:</p>
 <pre><code class="lang-cs">using TruckLib.Sii;
 
 SiiFile sii = SiiFile.Open(&quot;/foo/bar.sii&quot;);
 </code></pre>
-<p>Alternatively, you can use <a class="xref" href="../../api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Load_"><code>SiiFile.Load</code></a> to parse a string.
+<p>Alternatively, you can use <a href="xref:TruckLib.Sii.SiiFile.Load*"><code>SiiFile.Load</code></a> to parse a string.
 In case the string contains <code>@include</code> directives, you must also pass the directory which the paths
 of the included files are relative to. (<code>Open</code> resolves this automatically.)</p>
 <pre><code class="lang-cs">SiiFile sii = SiiFile.Load(siiStr, &quot;/path/where/included/files/are/located&quot;);
@@ -117,9 +117,9 @@ Otherwise, they cannot be distinguished from a <code>float4</code> and are parse
 <li><p>Quoted strings are parsed to <code>string</code>. Again, the library does not differentiate between regular strings
 and <code>resource_tie</code>s as they are written the same way.</p>
 </li>
-<li><p>Unquoted strings are parsed to <a class="xref" href="../../api/TruckLib.Token.html"><code>Token</code></a> if they are a valid token. If not,
-they become an <a class="xref" href="../../api/TruckLib.Sii.OwnerPointer.html"><code>OwnerPointer</code></a> if they start with <code>.</code>, and a
-<a class="xref" href="../../api/TruckLib.Sii.LinkPointer.html"><code>LinkPointer</code></a> otherwise.</p>
+<li><p>Unquoted strings are parsed to <a href="xref:TruckLib.Token"><code>Token</code></a> if they are a valid token. If not,
+they become an <a href="xref:TruckLib.Sii.OwnerPointer"><code>OwnerPointer</code></a> if they start with <code>.</code>, and a
+<a href="xref:TruckLib.Sii.LinkPointer"><code>LinkPointer</code></a> otherwise.</p>
 </li>
 <li><p>The values <code>true</code> and <code>false</code> are parsed as <code>bool</code>.</p>
 </li>
@@ -128,7 +128,7 @@ parsed to a list.</p>
 </li>
 </ul>
 <h2 id="serializing">Serializing</h2>
-<p>To serialize a <code>SiiFile</code> to string, call the <a class="xref" href="../../api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Serialize_"><code>Serialize</code></a> method:</p>
+<p>To serialize a <code>SiiFile</code> to string, call the <a href="xref:TruckLib.Sii.SiiFile.Serialize*"><code>Serialize</code></a> method:</p>
 <pre><code class="lang-cs">SiiFile sii = new();
 Unit unit = new(&quot;prefab_model&quot;, &quot;prefab.dlc_blke_232&quot;);
 unit.Attributes.Add(&quot;model_desc&quot;, &quot;/prefab2/fork_temp/blke/blke_road2_no_offset_tram_to_road2_tram.pmd&quot;);
@@ -139,7 +139,7 @@ unit.Attributes.Add(&quot;corner1&quot;, new List&lt;Token&gt;{&quot;blke384&quo
 sii.Units.Add(unit);
 string siiStr = sii.Serialize();
 </code></pre>
-<p>You can also write it to disk using <a class="xref" href="../../api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Serialize_"><code>Save</code></a>:</p>
+<p>You can also write it to disk using <a href="xref:TruckLib.Sii.SiiFile.Serialize*"><code>Save</code></a>:</p>
 <pre><code class="lang-cs">sii.Save(&quot;foo.sii&quot;);
 </code></pre>
 <p>Both methods have an optional parameter <code>indentation</code> which sets the indentation inside units. The default is <code>\t</code>.</p>
