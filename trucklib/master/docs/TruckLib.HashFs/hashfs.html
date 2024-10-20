@@ -99,35 +99,35 @@ prevent the official extractor from extracting anything.</p>
 dissolved into a packed <code>.tobj</code> entry from which TruckLib will reconstruct the original <code>.tobj</code> and <code>.dds</code> files
 when such a <code>.tobj</code> entry is requested.</p>
 <h2 id="opening-an-archive">Opening an archive</h2>
-<p>To open a HashFS file, call the static <a href="xref:TruckLib.HashFs.HashFsReader.Open*"><code>Open</code></a> method of the <code>HashFsReader</code> class:</p>
+<p>To open a HashFS file, call the static <a class="xref" href="../../api/TruckLib.HashFs.HashFsReader.html#TruckLib_HashFs_HashFsReader_Open_"><code>Open</code></a> method of the <code>HashFsReader</code> class:</p>
 <pre><code class="lang-cs">using TruckLib.HashFs;
 
 using IHashFsReader reader = HashFsReader.Open(@&quot;E:\SteamLibrary\steamapps\common\Euro Truck Simulator 2\def.scs&quot;);
 </code></pre>
 <p>Depending on the HashFS version of the archive, this will create a <code>HashFsReaderV1</code> or
-<code>HashFsReaderV2</code> instance as <a href="xref:TruckLib.HashFs.IHashFsReader"><code>IHashFsReader</code></a> which you can use to extract files.</p>
+<code>HashFsReaderV2</code> instance as <a class="xref" href="../../api/TruckLib.HashFs.IHashFsReader.html"><code>IHashFsReader</code></a> which you can use to extract files.</p>
 <h2 id="finding-entries">Finding entries</h2>
 <h3 id="known-paths">Known paths</h3>
-<p>The <a href="xref:TruckLib.HashFs.IHashFsReader.EntryExists*"><code>EntryExists</code></a> method will tell you if the given path exists in the archive,
+<p>The <a class="xref" href="../../api/TruckLib.HashFs.IHashFsReader.html#TruckLib_HashFs_IHashFsReader_EntryExists_"><code>EntryExists</code></a> method will tell you if the given path exists in the archive,
 and if yes, whether it is a directory or a file:</p>
 <pre><code class="lang-cs">EntryType type = reader.EntryExists(&quot;/def/world/prefab.sii&quot;);
 </code></pre>
-<p><a href="xref:TruckLib.HashFs.EntryType"><code>EntryType</code></a> has the values <code>Directory</code>, <code>File</code>, or <code>NotFound</code>.</p>
+<p><a class="xref" href="../../api/TruckLib.HashFs.EntryType.html"><code>EntryType</code></a> has the values <code>Directory</code>, <code>File</code>, or <code>NotFound</code>.</p>
 <h3 id="directory-listings">Directory listings</h3>
-<p>You can retrieve the contents of a directory with the <a href="xref:TruckLib.HashFs.IHashFsReader.GetDirectoryListing*"><code>GetDirectoryListing</code></a> method:</p>
+<p>You can retrieve the contents of a directory with the <a class="xref" href="../../api/TruckLib.HashFs.IHashFsReader.html#TruckLib_HashFs_IHashFsReader_GetDirectoryListing_"><code>GetDirectoryListing</code></a> method:</p>
 <pre><code class="lang-cs">// Get the top level of the archive
 var directory = reader.GetDirectoryListing(&quot;/&quot;);
 </code></pre>
 <p>Keep in mind that, as mentioned above, directory listings are not required to exist.</p>
 <h2 id="extracting-entries">Extracting entries</h2>
-<p>Use the <a href="xref:TruckLib.HashFs.IHashFsReader.Extract*"><code>Extract</code></a> method to extract an entry:</p>
+<p>Use the <a class="xref" href="../../api/TruckLib.HashFs.IHashFsReader.html#TruckLib_HashFs_IHashFsReader_Extract_"><code>Extract</code></a> method to extract an entry:</p>
 <pre><code class="lang-cs">byte[][] data = reader.Extract(&quot;/def/world/prefab.sii&quot;);
 </code></pre>
 <p>This returns an array containing the extracted file(s) as <code>byte[]</code>.
 The method will return one file except in one special case: In HashFS v2,
 extracting a packed <code>.tobj</code> entry will return the reconstructed <code>.tobj</code>
 and <code>.dds</code> files in that order.</p>
-<p>Alternatively, you can write the entry to disk with <a href="xref:TruckLib.HashFs.IHashFsReader.ExtractToFile*"><code>ExtractToFile</code></a>:</p>
+<p>Alternatively, you can write the entry to disk with <a class="xref" href="../../api/TruckLib.HashFs.IHashFsReader.html#TruckLib_HashFs_IHashFsReader_ExtractToFile_"><code>ExtractToFile</code></a>:</p>
 <pre><code class="lang-cs">reader.ExtractToFile(&quot;/def/world/prefab.sii&quot;, &quot;./prefab.sii&quot;);
 </code></pre>
 <p>In HashFS v2, extracting a packed <code>.tobj</code> entry will write both the reconstructed <code>.tobj</code>
