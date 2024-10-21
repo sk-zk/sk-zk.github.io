@@ -17066,15 +17066,15 @@ references:
   fullName.vb: TruckLib.ScsMap.PathItem.New
   nameWithType: PathItem.PathItem
   nameWithType.vb: PathItem.New
-- uid: TruckLib.ScsMap.PathItem.CreateNodes(TruckLib.ScsMap.IItemContainer,System.Collections.Generic.IList{System.Numerics.Vector3})
-  name: CreateNodes(IItemContainer, IList<Vector3>)
-  href: api/TruckLib.ScsMap.PathItem.html#TruckLib_ScsMap_PathItem_CreateNodes_TruckLib_ScsMap_IItemContainer_System_Collections_Generic_IList_System_Numerics_Vector3__
-  commentId: M:TruckLib.ScsMap.PathItem.CreateNodes(TruckLib.ScsMap.IItemContainer,System.Collections.Generic.IList{System.Numerics.Vector3})
-  name.vb: CreateNodes(IItemContainer, IList(Of Vector3))
-  fullName: TruckLib.ScsMap.PathItem.CreateNodes(TruckLib.ScsMap.IItemContainer, System.Collections.Generic.IList<System.Numerics.Vector3>)
-  fullName.vb: TruckLib.ScsMap.PathItem.CreateNodes(TruckLib.ScsMap.IItemContainer, System.Collections.Generic.IList(Of System.Numerics.Vector3))
-  nameWithType: PathItem.CreateNodes(IItemContainer, IList<Vector3>)
-  nameWithType.vb: PathItem.CreateNodes(IItemContainer, IList(Of Vector3))
+- uid: TruckLib.ScsMap.PathItem.CreateNodes(System.Collections.Generic.IList{System.Numerics.Vector3})
+  name: CreateNodes(IList<Vector3>)
+  href: api/TruckLib.ScsMap.PathItem.html#TruckLib_ScsMap_PathItem_CreateNodes_System_Collections_Generic_IList_System_Numerics_Vector3__
+  commentId: M:TruckLib.ScsMap.PathItem.CreateNodes(System.Collections.Generic.IList{System.Numerics.Vector3})
+  name.vb: CreateNodes(IList(Of Vector3))
+  fullName: TruckLib.ScsMap.PathItem.CreateNodes(System.Collections.Generic.IList<System.Numerics.Vector3>)
+  fullName.vb: TruckLib.ScsMap.PathItem.CreateNodes(System.Collections.Generic.IList(Of System.Numerics.Vector3))
+  nameWithType: PathItem.CreateNodes(IList<Vector3>)
+  nameWithType.vb: PathItem.CreateNodes(IList(Of Vector3))
 - uid: TruckLib.ScsMap.PathItem.CreateNodes*
   name: CreateNodes
   href: api/TruckLib.ScsMap.PathItem.html#TruckLib_ScsMap_PathItem_CreateNodes_

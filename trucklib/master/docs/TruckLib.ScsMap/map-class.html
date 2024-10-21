@@ -121,7 +121,7 @@ var allMovers = map.MapItems.Where(x =&gt; x.Value is Mover);
 </code></pre>
 <p>Do not modify this dictionary directly – see &quot;Adding and deleting map items&quot; for the intended way to do that.</p>
 <h2 id="nodes">Nodes</h2>
-<p>Likewise, the <a class="xref" href="../../api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_Nodes"><code>Nodes</code></a> property is a dictionary plus R-tree containing all nodes in the map.</p>
+<p>Similarly, the <a class="xref" href="../../api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_Nodes"><code>Nodes</code></a> property is a dictionary plus R-tree containing all nodes in the map.</p>
 <p>You can retrieve nodes by UID just like any dictionary:</p>
 <pre><code class="lang-cs">bool exists = map.Nodes.TryGetValue(0x521CD80C53000000, out INode node);
 </code></pre>
