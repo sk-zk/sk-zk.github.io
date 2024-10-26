@@ -102,7 +102,7 @@ Interface IHashFsReader  <a class="header-action link-secondary" title="View sou
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IHashFsReader : IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IHashFsReader : IDisposable, IFileSystem</code></pre>
   </div>
 
 
@@ -116,6 +116,30 @@ Interface IHashFsReader  <a class="header-action link-secondary" title="View sou
     <dd>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable.dispose">IDisposable.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.IFileSystem.html#TruckLib_IFileSystem_FileExists_System_String_">IFileSystem.FileExists(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.IFileSystem.html#TruckLib_IFileSystem_GetFiles_System_String_">IFileSystem.GetFiles(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.IFileSystem.html#TruckLib_IFileSystem_ReadAllBytes_System_String_">IFileSystem.ReadAllBytes(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.IFileSystem.html#TruckLib_IFileSystem_ReadAllText_System_String_">IFileSystem.ReadAllText(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.IFileSystem.html#TruckLib_IFileSystem_ReadAllText_System_String_System_Text_Encoding_">IFileSystem.ReadAllText(string, Encoding)</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.IFileSystem.html#TruckLib_IFileSystem_Open_System_String_">IFileSystem.Open(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.IFileSystem.html#TruckLib_IFileSystem_GetParent_System_String_">IFileSystem.GetParent(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="TruckLib.IFileSystem.html#TruckLib_IFileSystem_DirectorySeparator">IFileSystem.DirectorySeparator</a>
     </div>
   </dd></dl>
 

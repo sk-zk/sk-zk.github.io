@@ -62,6 +62,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.DiskFileSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.DiskFileSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TruckLib.FlagField.yml",
       "output": {
         ".html": {
@@ -206,6 +216,16 @@
       "output": {
         ".html": {
           "relative_path": "api/TruckLib.IBinarySerializable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.IFileSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.IFileSystem.html"
         }
       },
       "version": ""

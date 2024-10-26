@@ -58,6 +58,130 @@ references:
   isSpec: "True"
   fullName: TruckLib.CatmullRomSpline.Interpolate
   nameWithType: CatmullRomSpline.Interpolate
+- uid: TruckLib.DiskFileSystem
+  name: DiskFileSystem
+  href: api/TruckLib.DiskFileSystem.html
+  commentId: T:TruckLib.DiskFileSystem
+  fullName: TruckLib.DiskFileSystem
+  nameWithType: DiskFileSystem
+- uid: TruckLib.DiskFileSystem.DirectorySeparator
+  name: DirectorySeparator
+  href: api/TruckLib.DiskFileSystem.html#TruckLib_DiskFileSystem_DirectorySeparator
+  commentId: P:TruckLib.DiskFileSystem.DirectorySeparator
+  fullName: TruckLib.DiskFileSystem.DirectorySeparator
+  nameWithType: DiskFileSystem.DirectorySeparator
+- uid: TruckLib.DiskFileSystem.DirectorySeparator*
+  name: DirectorySeparator
+  href: api/TruckLib.DiskFileSystem.html#TruckLib_DiskFileSystem_DirectorySeparator_
+  commentId: Overload:TruckLib.DiskFileSystem.DirectorySeparator
+  isSpec: "True"
+  fullName: TruckLib.DiskFileSystem.DirectorySeparator
+  nameWithType: DiskFileSystem.DirectorySeparator
+- uid: TruckLib.DiskFileSystem.FileExists(System.String)
+  name: FileExists(string)
+  href: api/TruckLib.DiskFileSystem.html#TruckLib_DiskFileSystem_FileExists_System_String_
+  commentId: M:TruckLib.DiskFileSystem.FileExists(System.String)
+  name.vb: FileExists(String)
+  fullName: TruckLib.DiskFileSystem.FileExists(string)
+  fullName.vb: TruckLib.DiskFileSystem.FileExists(String)
+  nameWithType: DiskFileSystem.FileExists(string)
+  nameWithType.vb: DiskFileSystem.FileExists(String)
+- uid: TruckLib.DiskFileSystem.FileExists*
+  name: FileExists
+  href: api/TruckLib.DiskFileSystem.html#TruckLib_DiskFileSystem_FileExists_
+  commentId: Overload:TruckLib.DiskFileSystem.FileExists
+  isSpec: "True"
+  fullName: TruckLib.DiskFileSystem.FileExists
+  nameWithType: DiskFileSystem.FileExists
+- uid: TruckLib.DiskFileSystem.GetFiles(System.String)
+  name: GetFiles(string)
+  href: api/TruckLib.DiskFileSystem.html#TruckLib_DiskFileSystem_GetFiles_System_String_
+  commentId: M:TruckLib.DiskFileSystem.GetFiles(System.String)
+  name.vb: GetFiles(String)
+  fullName: TruckLib.DiskFileSystem.GetFiles(string)
+  fullName.vb: TruckLib.DiskFileSystem.GetFiles(String)
+  nameWithType: DiskFileSystem.GetFiles(string)
+  nameWithType.vb: DiskFileSystem.GetFiles(String)
+- uid: TruckLib.DiskFileSystem.GetFiles*
+  name: GetFiles
+  href: api/TruckLib.DiskFileSystem.html#TruckLib_DiskFileSystem_GetFiles_
+  commentId: Overload:TruckLib.DiskFileSystem.GetFiles
+  isSpec: "True"
+  fullName: TruckLib.DiskFileSystem.GetFiles
+  nameWithType: DiskFileSystem.GetFiles
+- uid: TruckLib.DiskFileSystem.GetParent(System.String)
+  name: GetParent(string)
+  href: api/TruckLib.DiskFileSystem.html#TruckLib_DiskFileSystem_GetParent_System_String_
+  commentId: M:TruckLib.DiskFileSystem.GetParent(System.String)
+  name.vb: GetParent(String)
+  fullName: TruckLib.DiskFileSystem.GetParent(string)
+  fullName.vb: TruckLib.DiskFileSystem.GetParent(String)
+  nameWithType: DiskFileSystem.GetParent(string)
+  nameWithType.vb: DiskFileSystem.GetParent(String)
+- uid: TruckLib.DiskFileSystem.GetParent*
+  name: GetParent
+  href: api/TruckLib.DiskFileSystem.html#TruckLib_DiskFileSystem_GetParent_
+  commentId: Overload:TruckLib.DiskFileSystem.GetParent
+  isSpec: "True"
+  fullName: TruckLib.DiskFileSystem.GetParent
+  nameWithType: DiskFileSystem.GetParent
+- uid: TruckLib.DiskFileSystem.Open(System.String)
+  name: Open(string)
+  href: api/TruckLib.DiskFileSystem.html#TruckLib_DiskFileSystem_Open_System_String_
+  commentId: M:TruckLib.DiskFileSystem.Open(System.String)
+  name.vb: Open(String)
+  fullName: TruckLib.DiskFileSystem.Open(string)
+  fullName.vb: TruckLib.DiskFileSystem.Open(String)
+  nameWithType: DiskFileSystem.Open(string)
+  nameWithType.vb: DiskFileSystem.Open(String)
+- uid: TruckLib.DiskFileSystem.Open*
+  name: Open
+  href: api/TruckLib.DiskFileSystem.html#TruckLib_DiskFileSystem_Open_
+  commentId: Overload:TruckLib.DiskFileSystem.Open
+  isSpec: "True"
+  fullName: TruckLib.DiskFileSystem.Open
+  nameWithType: DiskFileSystem.Open
+- uid: TruckLib.DiskFileSystem.ReadAllBytes(System.String)
+  name: ReadAllBytes(string)
+  href: api/TruckLib.DiskFileSystem.html#TruckLib_DiskFileSystem_ReadAllBytes_System_String_
+  commentId: M:TruckLib.DiskFileSystem.ReadAllBytes(System.String)
+  name.vb: ReadAllBytes(String)
+  fullName: TruckLib.DiskFileSystem.ReadAllBytes(string)
+  fullName.vb: TruckLib.DiskFileSystem.ReadAllBytes(String)
+  nameWithType: DiskFileSystem.ReadAllBytes(string)
+  nameWithType.vb: DiskFileSystem.ReadAllBytes(String)
+- uid: TruckLib.DiskFileSystem.ReadAllBytes*
+  name: ReadAllBytes
+  href: api/TruckLib.DiskFileSystem.html#TruckLib_DiskFileSystem_ReadAllBytes_
+  commentId: Overload:TruckLib.DiskFileSystem.ReadAllBytes
+  isSpec: "True"
+  fullName: TruckLib.DiskFileSystem.ReadAllBytes
+  nameWithType: DiskFileSystem.ReadAllBytes
+- uid: TruckLib.DiskFileSystem.ReadAllText(System.String)
+  name: ReadAllText(string)
+  href: api/TruckLib.DiskFileSystem.html#TruckLib_DiskFileSystem_ReadAllText_System_String_
+  commentId: M:TruckLib.DiskFileSystem.ReadAllText(System.String)
+  name.vb: ReadAllText(String)
+  fullName: TruckLib.DiskFileSystem.ReadAllText(string)
+  fullName.vb: TruckLib.DiskFileSystem.ReadAllText(String)
+  nameWithType: DiskFileSystem.ReadAllText(string)
+  nameWithType.vb: DiskFileSystem.ReadAllText(String)
+- uid: TruckLib.DiskFileSystem.ReadAllText(System.String,System.Text.Encoding)
+  name: ReadAllText(string, Encoding)
+  href: api/TruckLib.DiskFileSystem.html#TruckLib_DiskFileSystem_ReadAllText_System_String_System_Text_Encoding_
+  commentId: M:TruckLib.DiskFileSystem.ReadAllText(System.String,System.Text.Encoding)
+  name.vb: ReadAllText(String, Encoding)
+  fullName: TruckLib.DiskFileSystem.ReadAllText(string, System.Text.Encoding)
+  fullName.vb: TruckLib.DiskFileSystem.ReadAllText(String, System.Text.Encoding)
+  nameWithType: DiskFileSystem.ReadAllText(string, Encoding)
+  nameWithType.vb: DiskFileSystem.ReadAllText(String, Encoding)
+- uid: TruckLib.DiskFileSystem.ReadAllText*
+  name: ReadAllText
+  href: api/TruckLib.DiskFileSystem.html#TruckLib_DiskFileSystem_ReadAllText_
+  commentId: Overload:TruckLib.DiskFileSystem.ReadAllText
+  isSpec: "True"
+  fullName: TruckLib.DiskFileSystem.ReadAllText
+  nameWithType: DiskFileSystem.ReadAllText
 - uid: TruckLib.FlagField
   name: FlagField
   href: api/TruckLib.FlagField.html
@@ -1893,6 +2017,130 @@ references:
   isSpec: "True"
   fullName: TruckLib.IBinarySerializable.Serialize
   nameWithType: IBinarySerializable.Serialize
+- uid: TruckLib.IFileSystem
+  name: IFileSystem
+  href: api/TruckLib.IFileSystem.html
+  commentId: T:TruckLib.IFileSystem
+  fullName: TruckLib.IFileSystem
+  nameWithType: IFileSystem
+- uid: TruckLib.IFileSystem.DirectorySeparator
+  name: DirectorySeparator
+  href: api/TruckLib.IFileSystem.html#TruckLib_IFileSystem_DirectorySeparator
+  commentId: P:TruckLib.IFileSystem.DirectorySeparator
+  fullName: TruckLib.IFileSystem.DirectorySeparator
+  nameWithType: IFileSystem.DirectorySeparator
+- uid: TruckLib.IFileSystem.DirectorySeparator*
+  name: DirectorySeparator
+  href: api/TruckLib.IFileSystem.html#TruckLib_IFileSystem_DirectorySeparator_
+  commentId: Overload:TruckLib.IFileSystem.DirectorySeparator
+  isSpec: "True"
+  fullName: TruckLib.IFileSystem.DirectorySeparator
+  nameWithType: IFileSystem.DirectorySeparator
+- uid: TruckLib.IFileSystem.FileExists(System.String)
+  name: FileExists(string)
+  href: api/TruckLib.IFileSystem.html#TruckLib_IFileSystem_FileExists_System_String_
+  commentId: M:TruckLib.IFileSystem.FileExists(System.String)
+  name.vb: FileExists(String)
+  fullName: TruckLib.IFileSystem.FileExists(string)
+  fullName.vb: TruckLib.IFileSystem.FileExists(String)
+  nameWithType: IFileSystem.FileExists(string)
+  nameWithType.vb: IFileSystem.FileExists(String)
+- uid: TruckLib.IFileSystem.FileExists*
+  name: FileExists
+  href: api/TruckLib.IFileSystem.html#TruckLib_IFileSystem_FileExists_
+  commentId: Overload:TruckLib.IFileSystem.FileExists
+  isSpec: "True"
+  fullName: TruckLib.IFileSystem.FileExists
+  nameWithType: IFileSystem.FileExists
+- uid: TruckLib.IFileSystem.GetFiles(System.String)
+  name: GetFiles(string)
+  href: api/TruckLib.IFileSystem.html#TruckLib_IFileSystem_GetFiles_System_String_
+  commentId: M:TruckLib.IFileSystem.GetFiles(System.String)
+  name.vb: GetFiles(String)
+  fullName: TruckLib.IFileSystem.GetFiles(string)
+  fullName.vb: TruckLib.IFileSystem.GetFiles(String)
+  nameWithType: IFileSystem.GetFiles(string)
+  nameWithType.vb: IFileSystem.GetFiles(String)
+- uid: TruckLib.IFileSystem.GetFiles*
+  name: GetFiles
+  href: api/TruckLib.IFileSystem.html#TruckLib_IFileSystem_GetFiles_
+  commentId: Overload:TruckLib.IFileSystem.GetFiles
+  isSpec: "True"
+  fullName: TruckLib.IFileSystem.GetFiles
+  nameWithType: IFileSystem.GetFiles
+- uid: TruckLib.IFileSystem.GetParent(System.String)
+  name: GetParent(string)
+  href: api/TruckLib.IFileSystem.html#TruckLib_IFileSystem_GetParent_System_String_
+  commentId: M:TruckLib.IFileSystem.GetParent(System.String)
+  name.vb: GetParent(String)
+  fullName: TruckLib.IFileSystem.GetParent(string)
+  fullName.vb: TruckLib.IFileSystem.GetParent(String)
+  nameWithType: IFileSystem.GetParent(string)
+  nameWithType.vb: IFileSystem.GetParent(String)
+- uid: TruckLib.IFileSystem.GetParent*
+  name: GetParent
+  href: api/TruckLib.IFileSystem.html#TruckLib_IFileSystem_GetParent_
+  commentId: Overload:TruckLib.IFileSystem.GetParent
+  isSpec: "True"
+  fullName: TruckLib.IFileSystem.GetParent
+  nameWithType: IFileSystem.GetParent
+- uid: TruckLib.IFileSystem.Open(System.String)
+  name: Open(string)
+  href: api/TruckLib.IFileSystem.html#TruckLib_IFileSystem_Open_System_String_
+  commentId: M:TruckLib.IFileSystem.Open(System.String)
+  name.vb: Open(String)
+  fullName: TruckLib.IFileSystem.Open(string)
+  fullName.vb: TruckLib.IFileSystem.Open(String)
+  nameWithType: IFileSystem.Open(string)
+  nameWithType.vb: IFileSystem.Open(String)
+- uid: TruckLib.IFileSystem.Open*
+  name: Open
+  href: api/TruckLib.IFileSystem.html#TruckLib_IFileSystem_Open_
+  commentId: Overload:TruckLib.IFileSystem.Open
+  isSpec: "True"
+  fullName: TruckLib.IFileSystem.Open
+  nameWithType: IFileSystem.Open
+- uid: TruckLib.IFileSystem.ReadAllBytes(System.String)
+  name: ReadAllBytes(string)
+  href: api/TruckLib.IFileSystem.html#TruckLib_IFileSystem_ReadAllBytes_System_String_
+  commentId: M:TruckLib.IFileSystem.ReadAllBytes(System.String)
+  name.vb: ReadAllBytes(String)
+  fullName: TruckLib.IFileSystem.ReadAllBytes(string)
+  fullName.vb: TruckLib.IFileSystem.ReadAllBytes(String)
+  nameWithType: IFileSystem.ReadAllBytes(string)
+  nameWithType.vb: IFileSystem.ReadAllBytes(String)
+- uid: TruckLib.IFileSystem.ReadAllBytes*
+  name: ReadAllBytes
+  href: api/TruckLib.IFileSystem.html#TruckLib_IFileSystem_ReadAllBytes_
+  commentId: Overload:TruckLib.IFileSystem.ReadAllBytes
+  isSpec: "True"
+  fullName: TruckLib.IFileSystem.ReadAllBytes
+  nameWithType: IFileSystem.ReadAllBytes
+- uid: TruckLib.IFileSystem.ReadAllText(System.String)
+  name: ReadAllText(string)
+  href: api/TruckLib.IFileSystem.html#TruckLib_IFileSystem_ReadAllText_System_String_
+  commentId: M:TruckLib.IFileSystem.ReadAllText(System.String)
+  name.vb: ReadAllText(String)
+  fullName: TruckLib.IFileSystem.ReadAllText(string)
+  fullName.vb: TruckLib.IFileSystem.ReadAllText(String)
+  nameWithType: IFileSystem.ReadAllText(string)
+  nameWithType.vb: IFileSystem.ReadAllText(String)
+- uid: TruckLib.IFileSystem.ReadAllText(System.String,System.Text.Encoding)
+  name: ReadAllText(string, Encoding)
+  href: api/TruckLib.IFileSystem.html#TruckLib_IFileSystem_ReadAllText_System_String_System_Text_Encoding_
+  commentId: M:TruckLib.IFileSystem.ReadAllText(System.String,System.Text.Encoding)
+  name.vb: ReadAllText(String, Encoding)
+  fullName: TruckLib.IFileSystem.ReadAllText(string, System.Text.Encoding)
+  fullName.vb: TruckLib.IFileSystem.ReadAllText(String, System.Text.Encoding)
+  nameWithType: IFileSystem.ReadAllText(string, Encoding)
+  nameWithType.vb: IFileSystem.ReadAllText(String, Encoding)
+- uid: TruckLib.IFileSystem.ReadAllText*
+  name: ReadAllText
+  href: api/TruckLib.IFileSystem.html#TruckLib_IFileSystem_ReadAllText_
+  commentId: Overload:TruckLib.IFileSystem.ReadAllText
+  isSpec: "True"
+  fullName: TruckLib.IFileSystem.ReadAllText
+  nameWithType: IFileSystem.ReadAllText
 - uid: TruckLib.IOExtensions
   name: IOExtensions
   href: api/TruckLib.IOExtensions.html
@@ -15937,6 +16185,15 @@ references:
   fullName.vb: TruckLib.ScsMap.Map.Open(String, System.Collections.Generic.IList(Of TruckLib.ScsMap.SectorCoordinate))
   nameWithType: Map.Open(string, IList<SectorCoordinate>)
   nameWithType.vb: Map.Open(String, IList(Of SectorCoordinate))
+- uid: TruckLib.ScsMap.Map.Open(System.String,TruckLib.IFileSystem,System.Collections.Generic.IList{TruckLib.ScsMap.SectorCoordinate})
+  name: Open(string, IFileSystem, IList<SectorCoordinate>)
+  href: api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_Open_System_String_TruckLib_IFileSystem_System_Collections_Generic_IList_TruckLib_ScsMap_SectorCoordinate__
+  commentId: M:TruckLib.ScsMap.Map.Open(System.String,TruckLib.IFileSystem,System.Collections.Generic.IList{TruckLib.ScsMap.SectorCoordinate})
+  name.vb: Open(String, IFileSystem, IList(Of SectorCoordinate))
+  fullName: TruckLib.ScsMap.Map.Open(string, TruckLib.IFileSystem, System.Collections.Generic.IList<TruckLib.ScsMap.SectorCoordinate>)
+  fullName.vb: TruckLib.ScsMap.Map.Open(String, TruckLib.IFileSystem, System.Collections.Generic.IList(Of TruckLib.ScsMap.SectorCoordinate))
+  nameWithType: Map.Open(string, IFileSystem, IList<SectorCoordinate>)
+  nameWithType.vb: Map.Open(String, IFileSystem, IList(Of SectorCoordinate))
 - uid: TruckLib.ScsMap.Map.Open*
   name: Open
   href: api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_Open_
@@ -20695,6 +20952,15 @@ references:
   fullName.vb: TruckLib.ScsMap.Selection.Open(String)
   nameWithType: Selection.Open(string)
   nameWithType.vb: Selection.Open(String)
+- uid: TruckLib.ScsMap.Selection.Open(System.String,TruckLib.IFileSystem)
+  name: Open(string, IFileSystem)
+  href: api/TruckLib.ScsMap.Selection.html#TruckLib_ScsMap_Selection_Open_System_String_TruckLib_IFileSystem_
+  commentId: M:TruckLib.ScsMap.Selection.Open(System.String,TruckLib.IFileSystem)
+  name.vb: Open(String, IFileSystem)
+  fullName: TruckLib.ScsMap.Selection.Open(string, TruckLib.IFileSystem)
+  fullName.vb: TruckLib.ScsMap.Selection.Open(String, TruckLib.IFileSystem)
+  nameWithType: Selection.Open(string, IFileSystem)
+  nameWithType.vb: Selection.Open(String, IFileSystem)
 - uid: TruckLib.ScsMap.Selection.Open*
   name: Open
   href: api/TruckLib.ScsMap.Selection.html#TruckLib_ScsMap_Selection_Open_
