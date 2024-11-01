@@ -2851,15 +2851,6 @@ references:
   fullName.vb: TruckLib.Models.Model.New()
   nameWithType: Model.Model()
   nameWithType.vb: Model.New()
-- uid: TruckLib.Models.Model.#ctor(System.String)
-  name: Model(string)
-  href: api/TruckLib.Models.Model.html#TruckLib_Models_Model__ctor_System_String_
-  commentId: M:TruckLib.Models.Model.#ctor(System.String)
-  name.vb: New(String)
-  fullName: TruckLib.Models.Model.Model(string)
-  fullName.vb: TruckLib.Models.Model.New(String)
-  nameWithType: Model.Model(string)
-  nameWithType.vb: Model.New(String)
 - uid: TruckLib.Models.Model.#ctor*
   name: Model
   href: api/TruckLib.Models.Model.html#TruckLib_Models_Model__ctor_
@@ -2909,6 +2900,28 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Model.BoundingBoxDiagonalSize
   nameWithType: Model.BoundingBoxDiagonalSize
+- uid: TruckLib.Models.Model.Load(System.Byte[],System.Byte[])
+  name: Load(byte[], byte[])
+  href: api/TruckLib.Models.Model.html#TruckLib_Models_Model_Load_System_Byte___System_Byte___
+  commentId: M:TruckLib.Models.Model.Load(System.Byte[],System.Byte[])
+  name.vb: Load(Byte(), Byte())
+  fullName: TruckLib.Models.Model.Load(byte[], byte[])
+  fullName.vb: TruckLib.Models.Model.Load(Byte(), Byte())
+  nameWithType: Model.Load(byte[], byte[])
+  nameWithType.vb: Model.Load(Byte(), Byte())
+- uid: TruckLib.Models.Model.Load(System.IO.Stream,System.IO.Stream)
+  name: Load(Stream, Stream)
+  href: api/TruckLib.Models.Model.html#TruckLib_Models_Model_Load_System_IO_Stream_System_IO_Stream_
+  commentId: M:TruckLib.Models.Model.Load(System.IO.Stream,System.IO.Stream)
+  fullName: TruckLib.Models.Model.Load(System.IO.Stream, System.IO.Stream)
+  nameWithType: Model.Load(Stream, Stream)
+- uid: TruckLib.Models.Model.Load*
+  name: Load
+  href: api/TruckLib.Models.Model.html#TruckLib_Models_Model_Load_
+  commentId: Overload:TruckLib.Models.Model.Load
+  isSpec: "True"
+  fullName: TruckLib.Models.Model.Load
+  nameWithType: Model.Load
 - uid: TruckLib.Models.Model.Looks
   name: Looks
   href: api/TruckLib.Models.Model.html#TruckLib_Models_Model_Looks
@@ -2922,19 +2935,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Model.Looks
   nameWithType: Model.Looks
-- uid: TruckLib.Models.Model.Name
-  name: Name
-  href: api/TruckLib.Models.Model.html#TruckLib_Models_Model_Name
-  commentId: P:TruckLib.Models.Model.Name
-  fullName: TruckLib.Models.Model.Name
-  nameWithType: Model.Name
-- uid: TruckLib.Models.Model.Name*
-  name: Name
-  href: api/TruckLib.Models.Model.html#TruckLib_Models_Model_Name_
-  commentId: Overload:TruckLib.Models.Model.Name
-  isSpec: "True"
-  fullName: TruckLib.Models.Model.Name
-  nameWithType: Model.Name
 - uid: TruckLib.Models.Model.Open(System.String)
   name: Open(string)
   href: api/TruckLib.Models.Model.html#TruckLib_Models_Model_Open_System_String_
@@ -2944,6 +2944,15 @@ references:
   fullName.vb: TruckLib.Models.Model.Open(String)
   nameWithType: Model.Open(string)
   nameWithType.vb: Model.Open(String)
+- uid: TruckLib.Models.Model.Open(System.String,TruckLib.IFileSystem)
+  name: Open(string, IFileSystem)
+  href: api/TruckLib.Models.Model.html#TruckLib_Models_Model_Open_System_String_TruckLib_IFileSystem_
+  commentId: M:TruckLib.Models.Model.Open(System.String,TruckLib.IFileSystem)
+  name.vb: Open(String, IFileSystem)
+  fullName: TruckLib.Models.Model.Open(string, TruckLib.IFileSystem)
+  fullName.vb: TruckLib.Models.Model.Open(String, TruckLib.IFileSystem)
+  nameWithType: Model.Open(string, IFileSystem)
+  nameWithType.vb: Model.Open(String, IFileSystem)
 - uid: TruckLib.Models.Model.Open*
   name: Open
   href: api/TruckLib.Models.Model.html#TruckLib_Models_Model_Open_
@@ -2964,15 +2973,15 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Model.Parts
   nameWithType: Model.Parts
-- uid: TruckLib.Models.Model.Save(System.String)
-  name: Save(string)
-  href: api/TruckLib.Models.Model.html#TruckLib_Models_Model_Save_System_String_
-  commentId: M:TruckLib.Models.Model.Save(System.String)
-  name.vb: Save(String)
-  fullName: TruckLib.Models.Model.Save(string)
-  fullName.vb: TruckLib.Models.Model.Save(String)
-  nameWithType: Model.Save(string)
-  nameWithType.vb: Model.Save(String)
+- uid: TruckLib.Models.Model.Save(System.String,System.String)
+  name: Save(string, string)
+  href: api/TruckLib.Models.Model.html#TruckLib_Models_Model_Save_System_String_System_String_
+  commentId: M:TruckLib.Models.Model.Save(System.String,System.String)
+  name.vb: Save(String, String)
+  fullName: TruckLib.Models.Model.Save(string, string)
+  fullName.vb: TruckLib.Models.Model.Save(String, String)
+  nameWithType: Model.Save(string, string)
+  nameWithType.vb: Model.Save(String, String)
 - uid: TruckLib.Models.Model.Save*
   name: Save
   href: api/TruckLib.Models.Model.html#TruckLib_Models_Model_Save_
@@ -4296,6 +4305,12 @@ references:
   fullName.vb: TruckLib.Models.Ppd.PrefabDescriptor.Load(Byte())
   nameWithType: PrefabDescriptor.Load(byte[])
   nameWithType.vb: PrefabDescriptor.Load(Byte())
+- uid: TruckLib.Models.Ppd.PrefabDescriptor.Load(System.IO.Stream)
+  name: Load(Stream)
+  href: api/TruckLib.Models.Ppd.PrefabDescriptor.html#TruckLib_Models_Ppd_PrefabDescriptor_Load_System_IO_Stream_
+  commentId: M:TruckLib.Models.Ppd.PrefabDescriptor.Load(System.IO.Stream)
+  fullName: TruckLib.Models.Ppd.PrefabDescriptor.Load(System.IO.Stream)
+  nameWithType: PrefabDescriptor.Load(Stream)
 - uid: TruckLib.Models.Ppd.PrefabDescriptor.Load*
   name: Load
   href: api/TruckLib.Models.Ppd.PrefabDescriptor.html#TruckLib_Models_Ppd_PrefabDescriptor_Load_
@@ -4351,6 +4366,15 @@ references:
   fullName.vb: TruckLib.Models.Ppd.PrefabDescriptor.Open(String)
   nameWithType: PrefabDescriptor.Open(string)
   nameWithType.vb: PrefabDescriptor.Open(String)
+- uid: TruckLib.Models.Ppd.PrefabDescriptor.Open(System.String,TruckLib.IFileSystem)
+  name: Open(string, IFileSystem)
+  href: api/TruckLib.Models.Ppd.PrefabDescriptor.html#TruckLib_Models_Ppd_PrefabDescriptor_Open_System_String_TruckLib_IFileSystem_
+  commentId: M:TruckLib.Models.Ppd.PrefabDescriptor.Open(System.String,TruckLib.IFileSystem)
+  name.vb: Open(String, IFileSystem)
+  fullName: TruckLib.Models.Ppd.PrefabDescriptor.Open(string, TruckLib.IFileSystem)
+  fullName.vb: TruckLib.Models.Ppd.PrefabDescriptor.Open(String, TruckLib.IFileSystem)
+  nameWithType: PrefabDescriptor.Open(string, IFileSystem)
+  nameWithType.vb: PrefabDescriptor.Open(String, IFileSystem)
 - uid: TruckLib.Models.Ppd.PrefabDescriptor.Open*
   name: Open
   href: api/TruckLib.Models.Ppd.PrefabDescriptor.html#TruckLib_Models_Ppd_PrefabDescriptor_Open_
@@ -24630,6 +24654,34 @@ references:
   commentId: N:TruckLib.Sii
   fullName: TruckLib.Sii
   nameWithType: TruckLib.Sii
+- uid: TruckLib.Sii.EncryptedSii
+  name: EncryptedSii
+  href: api/TruckLib.Sii.EncryptedSii.html
+  commentId: T:TruckLib.Sii.EncryptedSii
+  fullName: TruckLib.Sii.EncryptedSii
+  nameWithType: EncryptedSii
+- uid: TruckLib.Sii.EncryptedSii.Decrypt(System.Byte[])
+  name: Decrypt(byte[])
+  href: api/TruckLib.Sii.EncryptedSii.html#TruckLib_Sii_EncryptedSii_Decrypt_System_Byte___
+  commentId: M:TruckLib.Sii.EncryptedSii.Decrypt(System.Byte[])
+  name.vb: Decrypt(Byte())
+  fullName: TruckLib.Sii.EncryptedSii.Decrypt(byte[])
+  fullName.vb: TruckLib.Sii.EncryptedSii.Decrypt(Byte())
+  nameWithType: EncryptedSii.Decrypt(byte[])
+  nameWithType.vb: EncryptedSii.Decrypt(Byte())
+- uid: TruckLib.Sii.EncryptedSii.Decrypt(System.IO.Stream)
+  name: Decrypt(Stream)
+  href: api/TruckLib.Sii.EncryptedSii.html#TruckLib_Sii_EncryptedSii_Decrypt_System_IO_Stream_
+  commentId: M:TruckLib.Sii.EncryptedSii.Decrypt(System.IO.Stream)
+  fullName: TruckLib.Sii.EncryptedSii.Decrypt(System.IO.Stream)
+  nameWithType: EncryptedSii.Decrypt(Stream)
+- uid: TruckLib.Sii.EncryptedSii.Decrypt*
+  name: Decrypt
+  href: api/TruckLib.Sii.EncryptedSii.html#TruckLib_Sii_EncryptedSii_Decrypt_
+  commentId: Overload:TruckLib.Sii.EncryptedSii.Decrypt
+  isSpec: "True"
+  fullName: TruckLib.Sii.EncryptedSii.Decrypt
+  nameWithType: EncryptedSii.Decrypt
 - uid: TruckLib.Sii.LinkPointer
   name: LinkPointer
   href: api/TruckLib.Sii.LinkPointer.html
@@ -24753,6 +24805,15 @@ references:
   fullName.vb: TruckLib.Sii.MatFile.Open(String)
   nameWithType: MatFile.Open(string)
   nameWithType.vb: MatFile.Open(String)
+- uid: TruckLib.Sii.MatFile.Open(System.String,TruckLib.IFileSystem)
+  name: Open(string, IFileSystem)
+  href: api/TruckLib.Sii.MatFile.html#TruckLib_Sii_MatFile_Open_System_String_TruckLib_IFileSystem_
+  commentId: M:TruckLib.Sii.MatFile.Open(System.String,TruckLib.IFileSystem)
+  name.vb: Open(String, IFileSystem)
+  fullName: TruckLib.Sii.MatFile.Open(string, TruckLib.IFileSystem)
+  fullName.vb: TruckLib.Sii.MatFile.Open(String, TruckLib.IFileSystem)
+  nameWithType: MatFile.Open(string, IFileSystem)
+  nameWithType.vb: MatFile.Open(String, IFileSystem)
 - uid: TruckLib.Sii.MatFile.Open*
   name: Open
   href: api/TruckLib.Sii.MatFile.html#TruckLib_Sii_MatFile_Open_
@@ -24760,6 +24821,22 @@ references:
   isSpec: "True"
   fullName: TruckLib.Sii.MatFile.Open
   nameWithType: MatFile.Open
+- uid: TruckLib.Sii.MatFile.Save(System.String,System.String)
+  name: Save(string, string)
+  href: api/TruckLib.Sii.MatFile.html#TruckLib_Sii_MatFile_Save_System_String_System_String_
+  commentId: M:TruckLib.Sii.MatFile.Save(System.String,System.String)
+  name.vb: Save(String, String)
+  fullName: TruckLib.Sii.MatFile.Save(string, string)
+  fullName.vb: TruckLib.Sii.MatFile.Save(String, String)
+  nameWithType: MatFile.Save(string, string)
+  nameWithType.vb: MatFile.Save(String, String)
+- uid: TruckLib.Sii.MatFile.Save*
+  name: Save
+  href: api/TruckLib.Sii.MatFile.html#TruckLib_Sii_MatFile_Save_
+  commentId: Overload:TruckLib.Sii.MatFile.Save
+  isSpec: "True"
+  fullName: TruckLib.Sii.MatFile.Save
+  nameWithType: MatFile.Save
 - uid: TruckLib.Sii.MatFile.Serialize(System.String)
   name: Serialize(string)
   href: api/TruckLib.Sii.MatFile.html#TruckLib_Sii_MatFile_Serialize_System_String_
@@ -24769,15 +24846,6 @@ references:
   fullName.vb: TruckLib.Sii.MatFile.Serialize(String)
   nameWithType: MatFile.Serialize(string)
   nameWithType.vb: MatFile.Serialize(String)
-- uid: TruckLib.Sii.MatFile.Serialize(System.String,System.String)
-  name: Serialize(string, string)
-  href: api/TruckLib.Sii.MatFile.html#TruckLib_Sii_MatFile_Serialize_System_String_System_String_
-  commentId: M:TruckLib.Sii.MatFile.Serialize(System.String,System.String)
-  name.vb: Serialize(String, String)
-  fullName: TruckLib.Sii.MatFile.Serialize(string, string)
-  fullName.vb: TruckLib.Sii.MatFile.Serialize(String, String)
-  nameWithType: MatFile.Serialize(string, string)
-  nameWithType.vb: MatFile.Serialize(String, String)
 - uid: TruckLib.Sii.MatFile.Serialize*
   name: Serialize
   href: api/TruckLib.Sii.MatFile.html#TruckLib_Sii_MatFile_Serialize_
@@ -24940,6 +25008,33 @@ references:
   fullName.vb: TruckLib.Sii.SiiFile.New
   nameWithType: SiiFile.SiiFile
   nameWithType.vb: SiiFile.New
+- uid: TruckLib.Sii.SiiFile.Load(System.Byte[],System.String)
+  name: Load(byte[], string)
+  href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Load_System_Byte___System_String_
+  commentId: M:TruckLib.Sii.SiiFile.Load(System.Byte[],System.String)
+  name.vb: Load(Byte(), String)
+  fullName: TruckLib.Sii.SiiFile.Load(byte[], string)
+  fullName.vb: TruckLib.Sii.SiiFile.Load(Byte(), String)
+  nameWithType: SiiFile.Load(byte[], string)
+  nameWithType.vb: SiiFile.Load(Byte(), String)
+- uid: TruckLib.Sii.SiiFile.Load(System.Byte[],System.String,TruckLib.IFileSystem)
+  name: Load(byte[], string, IFileSystem)
+  href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Load_System_Byte___System_String_TruckLib_IFileSystem_
+  commentId: M:TruckLib.Sii.SiiFile.Load(System.Byte[],System.String,TruckLib.IFileSystem)
+  name.vb: Load(Byte(), String, IFileSystem)
+  fullName: TruckLib.Sii.SiiFile.Load(byte[], string, TruckLib.IFileSystem)
+  fullName.vb: TruckLib.Sii.SiiFile.Load(Byte(), String, TruckLib.IFileSystem)
+  nameWithType: SiiFile.Load(byte[], string, IFileSystem)
+  nameWithType.vb: SiiFile.Load(Byte(), String, IFileSystem)
+- uid: TruckLib.Sii.SiiFile.Load(System.Byte[],System.String,TruckLib.IFileSystem,System.Boolean)
+  name: Load(byte[], string, IFileSystem, bool)
+  href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Load_System_Byte___System_String_TruckLib_IFileSystem_System_Boolean_
+  commentId: M:TruckLib.Sii.SiiFile.Load(System.Byte[],System.String,TruckLib.IFileSystem,System.Boolean)
+  name.vb: Load(Byte(), String, IFileSystem, Boolean)
+  fullName: TruckLib.Sii.SiiFile.Load(byte[], string, TruckLib.IFileSystem, bool)
+  fullName.vb: TruckLib.Sii.SiiFile.Load(Byte(), String, TruckLib.IFileSystem, Boolean)
+  nameWithType: SiiFile.Load(byte[], string, IFileSystem, bool)
+  nameWithType.vb: SiiFile.Load(Byte(), String, IFileSystem, Boolean)
 - uid: TruckLib.Sii.SiiFile.Load(System.String,System.String)
   name: Load(string, string)
   href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Load_System_String_System_String_
@@ -24949,6 +25044,24 @@ references:
   fullName.vb: TruckLib.Sii.SiiFile.Load(String, String)
   nameWithType: SiiFile.Load(string, string)
   nameWithType.vb: SiiFile.Load(String, String)
+- uid: TruckLib.Sii.SiiFile.Load(System.String,System.String,TruckLib.IFileSystem)
+  name: Load(string, string, IFileSystem)
+  href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Load_System_String_System_String_TruckLib_IFileSystem_
+  commentId: M:TruckLib.Sii.SiiFile.Load(System.String,System.String,TruckLib.IFileSystem)
+  name.vb: Load(String, String, IFileSystem)
+  fullName: TruckLib.Sii.SiiFile.Load(string, string, TruckLib.IFileSystem)
+  fullName.vb: TruckLib.Sii.SiiFile.Load(String, String, TruckLib.IFileSystem)
+  nameWithType: SiiFile.Load(string, string, IFileSystem)
+  nameWithType.vb: SiiFile.Load(String, String, IFileSystem)
+- uid: TruckLib.Sii.SiiFile.Load(System.String,System.String,TruckLib.IFileSystem,System.Boolean)
+  name: Load(string, string, IFileSystem, bool)
+  href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Load_System_String_System_String_TruckLib_IFileSystem_System_Boolean_
+  commentId: M:TruckLib.Sii.SiiFile.Load(System.String,System.String,TruckLib.IFileSystem,System.Boolean)
+  name.vb: Load(String, String, IFileSystem, Boolean)
+  fullName: TruckLib.Sii.SiiFile.Load(string, string, TruckLib.IFileSystem, bool)
+  fullName.vb: TruckLib.Sii.SiiFile.Load(String, String, TruckLib.IFileSystem, Boolean)
+  nameWithType: SiiFile.Load(string, string, IFileSystem, bool)
+  nameWithType.vb: SiiFile.Load(String, String, IFileSystem, Boolean)
 - uid: TruckLib.Sii.SiiFile.Load*
   name: Load
   href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Load_
@@ -24965,6 +25078,24 @@ references:
   fullName.vb: TruckLib.Sii.SiiFile.Open(String)
   nameWithType: SiiFile.Open(string)
   nameWithType.vb: SiiFile.Open(String)
+- uid: TruckLib.Sii.SiiFile.Open(System.String,TruckLib.IFileSystem)
+  name: Open(string, IFileSystem)
+  href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Open_System_String_TruckLib_IFileSystem_
+  commentId: M:TruckLib.Sii.SiiFile.Open(System.String,TruckLib.IFileSystem)
+  name.vb: Open(String, IFileSystem)
+  fullName: TruckLib.Sii.SiiFile.Open(string, TruckLib.IFileSystem)
+  fullName.vb: TruckLib.Sii.SiiFile.Open(String, TruckLib.IFileSystem)
+  nameWithType: SiiFile.Open(string, IFileSystem)
+  nameWithType.vb: SiiFile.Open(String, IFileSystem)
+- uid: TruckLib.Sii.SiiFile.Open(System.String,TruckLib.IFileSystem,System.Boolean)
+  name: Open(string, IFileSystem, bool)
+  href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Open_System_String_TruckLib_IFileSystem_System_Boolean_
+  commentId: M:TruckLib.Sii.SiiFile.Open(System.String,TruckLib.IFileSystem,System.Boolean)
+  name.vb: Open(String, IFileSystem, Boolean)
+  fullName: TruckLib.Sii.SiiFile.Open(string, TruckLib.IFileSystem, bool)
+  fullName.vb: TruckLib.Sii.SiiFile.Open(String, TruckLib.IFileSystem, Boolean)
+  nameWithType: SiiFile.Open(string, IFileSystem, bool)
+  nameWithType.vb: SiiFile.Open(String, IFileSystem, Boolean)
 - uid: TruckLib.Sii.SiiFile.Open*
   name: Open
   href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Open_
@@ -25049,6 +25180,84 @@ references:
   isSpec: "True"
   fullName: TruckLib.Sii.Texture.Name
   nameWithType: Texture.Name
+- uid: TruckLib.Sii.ThreeNK
+  name: ThreeNK
+  href: api/TruckLib.Sii.ThreeNK.html
+  commentId: T:TruckLib.Sii.ThreeNK
+  fullName: TruckLib.Sii.ThreeNK
+  nameWithType: ThreeNK
+- uid: TruckLib.Sii.ThreeNK.Decode(System.Byte[])
+  name: Decode(byte[])
+  href: api/TruckLib.Sii.ThreeNK.html#TruckLib_Sii_ThreeNK_Decode_System_Byte___
+  commentId: M:TruckLib.Sii.ThreeNK.Decode(System.Byte[])
+  name.vb: Decode(Byte())
+  fullName: TruckLib.Sii.ThreeNK.Decode(byte[])
+  fullName.vb: TruckLib.Sii.ThreeNK.Decode(Byte())
+  nameWithType: ThreeNK.Decode(byte[])
+  nameWithType.vb: ThreeNK.Decode(Byte())
+- uid: TruckLib.Sii.ThreeNK.Decode(System.IO.Stream,System.IO.Stream)
+  name: Decode(Stream, Stream)
+  href: api/TruckLib.Sii.ThreeNK.html#TruckLib_Sii_ThreeNK_Decode_System_IO_Stream_System_IO_Stream_
+  commentId: M:TruckLib.Sii.ThreeNK.Decode(System.IO.Stream,System.IO.Stream)
+  fullName: TruckLib.Sii.ThreeNK.Decode(System.IO.Stream, System.IO.Stream)
+  nameWithType: ThreeNK.Decode(Stream, Stream)
+- uid: TruckLib.Sii.ThreeNK.Decode*
+  name: Decode
+  href: api/TruckLib.Sii.ThreeNK.html#TruckLib_Sii_ThreeNK_Decode_
+  commentId: Overload:TruckLib.Sii.ThreeNK.Decode
+  isSpec: "True"
+  fullName: TruckLib.Sii.ThreeNK.Decode
+  nameWithType: ThreeNK.Decode
+- uid: TruckLib.Sii.ThreeNK.Encode(System.Byte[],System.Byte)
+  name: Encode(byte[], byte)
+  href: api/TruckLib.Sii.ThreeNK.html#TruckLib_Sii_ThreeNK_Encode_System_Byte___System_Byte_
+  commentId: M:TruckLib.Sii.ThreeNK.Encode(System.Byte[],System.Byte)
+  name.vb: Encode(Byte(), Byte)
+  fullName: TruckLib.Sii.ThreeNK.Encode(byte[], byte)
+  fullName.vb: TruckLib.Sii.ThreeNK.Encode(Byte(), Byte)
+  nameWithType: ThreeNK.Encode(byte[], byte)
+  nameWithType.vb: ThreeNK.Encode(Byte(), Byte)
+- uid: TruckLib.Sii.ThreeNK.Encode(System.IO.Stream,System.IO.Stream,System.Byte)
+  name: Encode(Stream, Stream, byte)
+  href: api/TruckLib.Sii.ThreeNK.html#TruckLib_Sii_ThreeNK_Encode_System_IO_Stream_System_IO_Stream_System_Byte_
+  commentId: M:TruckLib.Sii.ThreeNK.Encode(System.IO.Stream,System.IO.Stream,System.Byte)
+  name.vb: Encode(Stream, Stream, Byte)
+  fullName: TruckLib.Sii.ThreeNK.Encode(System.IO.Stream, System.IO.Stream, byte)
+  fullName.vb: TruckLib.Sii.ThreeNK.Encode(System.IO.Stream, System.IO.Stream, Byte)
+  nameWithType: ThreeNK.Encode(Stream, Stream, byte)
+  nameWithType.vb: ThreeNK.Encode(Stream, Stream, Byte)
+- uid: TruckLib.Sii.ThreeNK.Encode*
+  name: Encode
+  href: api/TruckLib.Sii.ThreeNK.html#TruckLib_Sii_ThreeNK_Encode_
+  commentId: Overload:TruckLib.Sii.ThreeNK.Encode
+  isSpec: "True"
+  fullName: TruckLib.Sii.ThreeNK.Encode
+  nameWithType: ThreeNK.Encode
+- uid: TruckLib.Sii.ThreeNK.Transcode(System.Byte[],System.Byte)
+  name: Transcode(byte[], byte)
+  href: api/TruckLib.Sii.ThreeNK.html#TruckLib_Sii_ThreeNK_Transcode_System_Byte___System_Byte_
+  commentId: M:TruckLib.Sii.ThreeNK.Transcode(System.Byte[],System.Byte)
+  name.vb: Transcode(Byte(), Byte)
+  fullName: TruckLib.Sii.ThreeNK.Transcode(byte[], byte)
+  fullName.vb: TruckLib.Sii.ThreeNK.Transcode(Byte(), Byte)
+  nameWithType: ThreeNK.Transcode(byte[], byte)
+  nameWithType.vb: ThreeNK.Transcode(Byte(), Byte)
+- uid: TruckLib.Sii.ThreeNK.Transcode(System.IO.Stream,System.IO.Stream,System.Byte)
+  name: Transcode(Stream, Stream, byte)
+  href: api/TruckLib.Sii.ThreeNK.html#TruckLib_Sii_ThreeNK_Transcode_System_IO_Stream_System_IO_Stream_System_Byte_
+  commentId: M:TruckLib.Sii.ThreeNK.Transcode(System.IO.Stream,System.IO.Stream,System.Byte)
+  name.vb: Transcode(Stream, Stream, Byte)
+  fullName: TruckLib.Sii.ThreeNK.Transcode(System.IO.Stream, System.IO.Stream, byte)
+  fullName.vb: TruckLib.Sii.ThreeNK.Transcode(System.IO.Stream, System.IO.Stream, Byte)
+  nameWithType: ThreeNK.Transcode(Stream, Stream, byte)
+  nameWithType.vb: ThreeNK.Transcode(Stream, Stream, Byte)
+- uid: TruckLib.Sii.ThreeNK.Transcode*
+  name: Transcode
+  href: api/TruckLib.Sii.ThreeNK.html#TruckLib_Sii_ThreeNK_Transcode_
+  commentId: Overload:TruckLib.Sii.ThreeNK.Transcode
+  isSpec: "True"
+  fullName: TruckLib.Sii.ThreeNK.Transcode
+  nameWithType: ThreeNK.Transcode
 - uid: TruckLib.Sii.Unit
   name: Unit
   href: api/TruckLib.Sii.Unit.html
