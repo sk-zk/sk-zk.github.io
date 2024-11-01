@@ -101,7 +101,15 @@ In case the string contains <code>@include</code> directives, you must also pass
 of the included files are relative to. (<code>Open</code> resolves this automatically.)</p>
 <pre><code class="lang-cs">SiiFile sii = SiiFile.Load(siiStr, &quot;/path/where/included/files/are/located&quot;);
 </code></pre>
-<p>If an included file does not exist, <code>FileNotFoundException</code> is thrown.</p>
+<p>If an included file does not exist, <code>FileNotFoundException</code> is thrown unless the <code>ignoreMissingIncludes</code> parameter is set to true.</p>
+<p>There are additional overloads which allow loading a .sii file directly from a .scs file using a
+<a href="../TruckLib.HashFs/hashfs.html"><code>IHashFsReader</code></a>:</p>
+<pre><code class="lang-cs">using TruckLib.HashFs;
+using TruckLib.Sii;
+
+IHashFsReader reader = HashFsReader.Open(&quot;def.scs&quot;);
+SiiFile sii = SiiFile.Open(&quot;/def/country.sii&quot;, reader);
+</code></pre>
 <h3 id="data-types">Data types</h3>
 <ul>
 <li><p>Numbers which have a decimal component are parsed to <code>float</code>; numbers without will be the smallest of

@@ -2190,6 +2190,16 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "docs/TruckLib.ScsMap/selection-class.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/TruckLib.ScsMap/selection-class.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "docs/TruckLib.ScsMap/toc.yml",
       "output": {

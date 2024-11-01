@@ -20894,6 +20894,25 @@ references:
   commentId: T:TruckLib.ScsMap.Selection
   fullName: TruckLib.ScsMap.Selection
   nameWithType: Selection
+- uid: TruckLib.ScsMap.Selection.#ctor
+  name: Selection()
+  href: api/TruckLib.ScsMap.Selection.html#TruckLib_ScsMap_Selection__ctor
+  commentId: M:TruckLib.ScsMap.Selection.#ctor
+  name.vb: New()
+  fullName: TruckLib.ScsMap.Selection.Selection()
+  fullName.vb: TruckLib.ScsMap.Selection.New()
+  nameWithType: Selection.Selection()
+  nameWithType.vb: Selection.New()
+- uid: TruckLib.ScsMap.Selection.#ctor*
+  name: Selection
+  href: api/TruckLib.ScsMap.Selection.html#TruckLib_ScsMap_Selection__ctor_
+  commentId: Overload:TruckLib.ScsMap.Selection.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TruckLib.ScsMap.Selection.Selection
+  fullName.vb: TruckLib.ScsMap.Selection.New
+  nameWithType: Selection.Selection
+  nameWithType.vb: Selection.New
 - uid: TruckLib.ScsMap.Selection.AddNode(System.Numerics.Vector3)
   name: AddNode(Vector3)
   href: api/TruckLib.ScsMap.Selection.html#TruckLib_ScsMap_Selection_AddNode_System_Numerics_Vector3_
@@ -20916,6 +20935,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Selection.AddNode
   nameWithType: Selection.AddNode
+- uid: TruckLib.ScsMap.Selection.CenterOrigin
+  name: CenterOrigin()
+  href: api/TruckLib.ScsMap.Selection.html#TruckLib_ScsMap_Selection_CenterOrigin
+  commentId: M:TruckLib.ScsMap.Selection.CenterOrigin
+  fullName: TruckLib.ScsMap.Selection.CenterOrigin()
+  nameWithType: Selection.CenterOrigin()
+- uid: TruckLib.ScsMap.Selection.CenterOrigin*
+  name: CenterOrigin
+  href: api/TruckLib.ScsMap.Selection.html#TruckLib_ScsMap_Selection_CenterOrigin_
+  commentId: Overload:TruckLib.ScsMap.Selection.CenterOrigin
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Selection.CenterOrigin
+  nameWithType: Selection.CenterOrigin
 - uid: TruckLib.ScsMap.Selection.Delete(TruckLib.ScsMap.INode)
   name: Delete(INode)
   href: api/TruckLib.ScsMap.Selection.html#TruckLib_ScsMap_Selection_Delete_TruckLib_ScsMap_INode_
@@ -21005,6 +21037,22 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Selection.Origin
   nameWithType: Selection.Origin
+- uid: TruckLib.ScsMap.Selection.Save(System.String)
+  name: Save(string)
+  href: api/TruckLib.ScsMap.Selection.html#TruckLib_ScsMap_Selection_Save_System_String_
+  commentId: M:TruckLib.ScsMap.Selection.Save(System.String)
+  name.vb: Save(String)
+  fullName: TruckLib.ScsMap.Selection.Save(string)
+  fullName.vb: TruckLib.ScsMap.Selection.Save(String)
+  nameWithType: Selection.Save(string)
+  nameWithType.vb: Selection.Save(String)
+- uid: TruckLib.ScsMap.Selection.Save*
+  name: Save
+  href: api/TruckLib.ScsMap.Selection.html#TruckLib_ScsMap_Selection_Save_
+  commentId: Overload:TruckLib.ScsMap.Selection.Save
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Selection.Save
+  nameWithType: Selection.Save
 - uid: TruckLib.ScsMap.Service
   name: Service
   href: api/TruckLib.ScsMap.Service.html
