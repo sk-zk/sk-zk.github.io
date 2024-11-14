@@ -220,6 +220,46 @@ Class SiiFile  <a class="header-action link-secondary" title="View source" href=
 </h2>
 
 
+  <a id="TruckLib_Sii_SiiFile_Decode_" data-uid="TruckLib.Sii.SiiFile.Decode*"></a>
+
+  <h3 id="TruckLib_Sii_SiiFile_Decode_System_Byte___" data-uid="TruckLib.Sii.SiiFile.Decode(System.Byte[])">
+  Decode(byte[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Sii/blob/master/TruckLib.Sii/SiiFile.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Decodes a 3nK-encoded or encrypted SII file to its regular text form.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] Decode(byte[] sii)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sii</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd><p>The SII file to decode.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd><p>The decoded SII file. If the input was already in text form
+or is unsupported, it is returned unchanged.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="TruckLib_Sii_SiiFile_Load_" data-uid="TruckLib.Sii.SiiFile.Load*"></a>
 
   <h3 id="TruckLib_Sii_SiiFile_Load_System_Byte___System_String_" data-uid="TruckLib.Sii.SiiFile.Load(System.Byte[],System.String)">
@@ -635,7 +675,7 @@ If false, an exception will be thrown.</p>
 
   <h3 id="TruckLib_Sii_SiiFile_Save_System_String_System_String_" data-uid="TruckLib.Sii.SiiFile.Save(System.String,System.String)">
   Save(string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Sii/blob/master/TruckLib.Sii/SiiFile.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Sii/blob/master/TruckLib.Sii/SiiFile.cs/#L191"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Serializes this object and writes it to a file.</p>
@@ -671,7 +711,7 @@ If false, an exception will be thrown.</p>
 
   <h3 id="TruckLib_Sii_SiiFile_Serialize_System_String_" data-uid="TruckLib.Sii.SiiFile.Serialize(System.String)">
   Serialize(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Sii/blob/master/TruckLib.Sii/SiiFile.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Sii/blob/master/TruckLib.Sii/SiiFile.cs/#L183"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Serializes this object to a string.</p>

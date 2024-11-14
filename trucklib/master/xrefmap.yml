@@ -15910,6 +15910,24 @@ references:
   commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ets2.FranceAndItaly
   fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.FranceAndItaly
   nameWithType: DlcGuard.Ets2.FranceAndItaly
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Greece
+  name: Greece
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html#TruckLib_ScsMap_Lookup_DlcGuard_Ets2_Greece
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Greece
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Greece
+  nameWithType: DlcGuard.Ets2.Greece
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.GreeceAndEastBalkans
+  name: GreeceAndEastBalkans
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html#TruckLib_ScsMap_Lookup_DlcGuard_Ets2_GreeceAndEastBalkans
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ets2.GreeceAndEastBalkans
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.GreeceAndEastBalkans
+  nameWithType: DlcGuard.Ets2.GreeceAndEastBalkans
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.GreeceAndWestBalkans
+  name: GreeceAndWestBalkans
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html#TruckLib_ScsMap_Lookup_DlcGuard_Ets2_GreeceAndWestBalkans
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ets2.GreeceAndWestBalkans
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.GreeceAndWestBalkans
+  nameWithType: DlcGuard.Ets2.GreeceAndWestBalkans
 - uid: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Ibera
   name: Ibera
   href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html#TruckLib_ScsMap_Lookup_DlcGuard_Ets2_Ibera
@@ -25056,6 +25074,22 @@ references:
   fullName.vb: TruckLib.Sii.SiiFile.New
   nameWithType: SiiFile.SiiFile
   nameWithType.vb: SiiFile.New
+- uid: TruckLib.Sii.SiiFile.Decode(System.Byte[])
+  name: Decode(byte[])
+  href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Decode_System_Byte___
+  commentId: M:TruckLib.Sii.SiiFile.Decode(System.Byte[])
+  name.vb: Decode(Byte())
+  fullName: TruckLib.Sii.SiiFile.Decode(byte[])
+  fullName.vb: TruckLib.Sii.SiiFile.Decode(Byte())
+  nameWithType: SiiFile.Decode(byte[])
+  nameWithType.vb: SiiFile.Decode(Byte())
+- uid: TruckLib.Sii.SiiFile.Decode*
+  name: Decode
+  href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Decode_
+  commentId: Overload:TruckLib.Sii.SiiFile.Decode
+  isSpec: "True"
+  fullName: TruckLib.Sii.SiiFile.Decode
+  nameWithType: SiiFile.Decode
 - uid: TruckLib.Sii.SiiFile.Load(System.Byte[],System.String)
   name: Load(byte[], string)
   href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Load_System_Byte___System_String_
