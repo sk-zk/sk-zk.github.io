@@ -22896,30 +22896,30 @@ references:
   commentId: T:TruckLib.ScsMap.TerrainTransition
   fullName: TruckLib.ScsMap.TerrainTransition
   nameWithType: TerrainTransition
-- uid: TruckLib.ScsMap.TerrainTransition._16
-  name: _16
-  href: api/TruckLib.ScsMap.TerrainTransition.html#TruckLib_ScsMap_TerrainTransition__16
-  commentId: F:TruckLib.ScsMap.TerrainTransition._16
-  fullName: TruckLib.ScsMap.TerrainTransition._16
-  nameWithType: TerrainTransition._16
-- uid: TruckLib.ScsMap.TerrainTransition._32
-  name: _32
-  href: api/TruckLib.ScsMap.TerrainTransition.html#TruckLib_ScsMap_TerrainTransition__32
-  commentId: F:TruckLib.ScsMap.TerrainTransition._32
-  fullName: TruckLib.ScsMap.TerrainTransition._32
-  nameWithType: TerrainTransition._32
-- uid: TruckLib.ScsMap.TerrainTransition._4
-  name: _4
-  href: api/TruckLib.ScsMap.TerrainTransition.html#TruckLib_ScsMap_TerrainTransition__4
-  commentId: F:TruckLib.ScsMap.TerrainTransition._4
-  fullName: TruckLib.ScsMap.TerrainTransition._4
-  nameWithType: TerrainTransition._4
-- uid: TruckLib.ScsMap.TerrainTransition._8
-  name: _8
-  href: api/TruckLib.ScsMap.TerrainTransition.html#TruckLib_ScsMap_TerrainTransition__8
-  commentId: F:TruckLib.ScsMap.TerrainTransition._8
-  fullName: TruckLib.ScsMap.TerrainTransition._8
-  nameWithType: TerrainTransition._8
+- uid: TruckLib.ScsMap.TerrainTransition.Quads16
+  name: Quads16
+  href: api/TruckLib.ScsMap.TerrainTransition.html#TruckLib_ScsMap_TerrainTransition_Quads16
+  commentId: F:TruckLib.ScsMap.TerrainTransition.Quads16
+  fullName: TruckLib.ScsMap.TerrainTransition.Quads16
+  nameWithType: TerrainTransition.Quads16
+- uid: TruckLib.ScsMap.TerrainTransition.Quads32
+  name: Quads32
+  href: api/TruckLib.ScsMap.TerrainTransition.html#TruckLib_ScsMap_TerrainTransition_Quads32
+  commentId: F:TruckLib.ScsMap.TerrainTransition.Quads32
+  fullName: TruckLib.ScsMap.TerrainTransition.Quads32
+  nameWithType: TerrainTransition.Quads32
+- uid: TruckLib.ScsMap.TerrainTransition.Quads4
+  name: Quads4
+  href: api/TruckLib.ScsMap.TerrainTransition.html#TruckLib_ScsMap_TerrainTransition_Quads4
+  commentId: F:TruckLib.ScsMap.TerrainTransition.Quads4
+  fullName: TruckLib.ScsMap.TerrainTransition.Quads4
+  nameWithType: TerrainTransition.Quads4
+- uid: TruckLib.ScsMap.TerrainTransition.Quads8
+  name: Quads8
+  href: api/TruckLib.ScsMap.TerrainTransition.html#TruckLib_ScsMap_TerrainTransition_Quads8
+  commentId: F:TruckLib.ScsMap.TerrainTransition.Quads8
+  fullName: TruckLib.ScsMap.TerrainTransition.Quads8
+  nameWithType: TerrainTransition.Quads8
 - uid: TruckLib.ScsMap.TrafficArea
   name: TrafficArea
   href: api/TruckLib.ScsMap.TrafficArea.html
