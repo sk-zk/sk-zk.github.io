@@ -58,7 +58,11 @@
           "relative_path": "api/TruckLib.CatmullRomSpline.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.CatmullRomSpline",
+      "Summary": "<p sourcefile=\"api/TruckLib.CatmullRomSpline.yml\" sourcestartlinenumber=\"1\">Functions for interpolating Catmull-Rom splines.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -68,7 +72,11 @@
           "relative_path": "api/TruckLib.DiskFileSystem.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.DiskFileSystem",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -78,7 +86,11 @@
           "relative_path": "api/TruckLib.FlagField.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.FlagField",
+      "Summary": "<p sourcefile=\"api/TruckLib.FlagField.yml\" sourcestartlinenumber=\"1\">Represents a 32-bit flag field.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -88,7 +100,11 @@
           "relative_path": "api/TruckLib.HashFs.CityHash.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.CityHash",
+      "Summary": "<p sourcefile=\"api/TruckLib.HashFs.CityHash.yml\" sourcestartlinenumber=\"1\">Google's <a href=\"https://opensource.googleblog.com/2011/04/introducing-cityhash.html\">CityHash</a>\nfunction, which is the hash function used by HashFS.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -98,7 +114,11 @@
           "relative_path": "api/TruckLib.HashFs.Dds.DxgiFormat.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.Dds.DxgiFormat",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -108,7 +128,11 @@
           "relative_path": "api/TruckLib.HashFs.Dds.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.Dds",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -118,7 +142,11 @@
           "relative_path": "api/TruckLib.HashFs.DirectoryListing.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.DirectoryListing",
+      "Summary": "<p sourcefile=\"api/TruckLib.HashFs.DirectoryListing.yml\" sourcestartlinenumber=\"1\">Represents a directory listing file in a HashFS archive.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -128,7 +156,11 @@
           "relative_path": "api/TruckLib.HashFs.EntryType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.EntryType",
+      "Summary": "<p sourcefile=\"api/TruckLib.HashFs.EntryType.yml\" sourcestartlinenumber=\"1\">Return type for HashFsReader.EntryExists().</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -138,7 +170,11 @@
           "relative_path": "api/TruckLib.HashFs.EntryV1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.EntryV1",
+      "Summary": "<p sourcefile=\"api/TruckLib.HashFs.EntryV1.yml\" sourcestartlinenumber=\"1\">Represents the metadata of an entry in a HashFS v1 archive.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -148,7 +184,11 @@
           "relative_path": "api/TruckLib.HashFs.EntryV2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.EntryV2",
+      "Summary": "<p sourcefile=\"api/TruckLib.HashFs.EntryV2.yml\" sourcestartlinenumber=\"1\">Represents the metadata of an entry in a HashFS v2 archive.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -158,7 +198,11 @@
           "relative_path": "api/TruckLib.HashFs.HashFsReader.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.HashFsReader",
+      "Summary": "<p sourcefile=\"api/TruckLib.HashFs.HashFsReader.yml\" sourcestartlinenumber=\"1\">Static factory class for creating the appropriate HashFsV*Reader depending on\nthe HashFS version.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -168,7 +212,11 @@
           "relative_path": "api/TruckLib.HashFs.IEntry.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.IEntry",
+      "Summary": "<p sourcefile=\"api/TruckLib.HashFs.IEntry.yml\" sourcestartlinenumber=\"1\">Represents the metadata of an entry in a HashFS archive.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -178,7 +226,11 @@
           "relative_path": "api/TruckLib.HashFs.IHashFsReader.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.IHashFsReader",
+      "Summary": "<p sourcefile=\"api/TruckLib.HashFs.IHashFsReader.yml\" sourcestartlinenumber=\"1\">A HashFS reader for extracting files from HashFS archives.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -188,7 +240,11 @@
           "relative_path": "api/TruckLib.HashFs.PackedTobjDdsMetadata.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.PackedTobjDdsMetadata",
+      "Summary": "<p sourcefile=\"api/TruckLib.HashFs.PackedTobjDdsMetadata.yml\" sourcestartlinenumber=\"1\">Represents the metadata table values of a packed .tobj/.dds entry.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -198,7 +254,11 @@
           "relative_path": "api/TruckLib.HashFs.Platform.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.Platform",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -208,7 +268,11 @@
           "relative_path": "api/TruckLib.HashFs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -218,7 +282,11 @@
           "relative_path": "api/TruckLib.IBinarySerializable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.IBinarySerializable",
+      "Summary": "<p sourcefile=\"api/TruckLib.IBinarySerializable.yml\" sourcestartlinenumber=\"1\">Interface for classes which can de/serialize themselves to a binary format.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -228,7 +296,11 @@
           "relative_path": "api/TruckLib.IFileSystem.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.IFileSystem",
+      "Summary": "<p sourcefile=\"api/TruckLib.IFileSystem.yml\" sourcestartlinenumber=\"1\">Interface which abstracts read-only file system access to enable methods to read from\neither disk or HashFS.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -238,7 +310,11 @@
           "relative_path": "api/TruckLib.IOExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.IOExtensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -248,7 +324,11 @@
           "relative_path": "api/TruckLib.MathExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.MathExtensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -258,7 +338,11 @@
           "relative_path": "api/TruckLib.MiscExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.MiscExtensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -268,7 +352,11 @@
           "relative_path": "api/TruckLib.Models.AxisAlignedBox.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.AxisAlignedBox",
+      "Summary": "<p sourcefile=\"api/TruckLib.Models.AxisAlignedBox.yml\" sourcestartlinenumber=\"1\">Axis-aligned bounding box (AABB).</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -278,7 +366,11 @@
           "relative_path": "api/TruckLib.Models.Bone.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Bone",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -288,7 +380,11 @@
           "relative_path": "api/TruckLib.Models.Locator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Locator",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -298,7 +394,11 @@
           "relative_path": "api/TruckLib.Models.Look.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Look",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -308,7 +408,11 @@
           "relative_path": "api/TruckLib.Models.Model.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Model",
+      "Summary": "<p sourcefile=\"api/TruckLib.Models.Model.yml\" sourcestartlinenumber=\"1\">Represents the metadata and geometry of a model.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -318,7 +422,11 @@
           "relative_path": "api/TruckLib.Models.Part.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Part",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -328,7 +436,11 @@
           "relative_path": "api/TruckLib.Models.PartAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.PartAttribute",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -338,7 +450,11 @@
           "relative_path": "api/TruckLib.Models.Piece.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Piece",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -348,7 +464,11 @@
           "relative_path": "api/TruckLib.Models.Ppd.AllowedVehicles.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Ppd.AllowedVehicles",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -358,7 +478,11 @@
           "relative_path": "api/TruckLib.Models.Ppd.BlinkerType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Ppd.BlinkerType",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -368,7 +492,11 @@
           "relative_path": "api/TruckLib.Models.Ppd.ControlNode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Ppd.ControlNode",
+      "Summary": "<p sourcefile=\"api/TruckLib.Models.Ppd.ControlNode.yml\" sourcestartlinenumber=\"1\">Represents a control node.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -378,7 +506,11 @@
           "relative_path": "api/TruckLib.Models.Ppd.CustomColor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Ppd.CustomColor",
+      "Summary": "<p sourcefile=\"api/TruckLib.Models.Ppd.CustomColor.yml\" sourcestartlinenumber=\"1\">Color of prefab MapPoint polygons.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -388,7 +520,11 @@
           "relative_path": "api/TruckLib.Models.Ppd.Intersection.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Ppd.Intersection",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -398,7 +534,11 @@
           "relative_path": "api/TruckLib.Models.Ppd.Lookup.PriorityModifier.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Ppd.Lookup.PriorityModifier",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -408,7 +548,11 @@
           "relative_path": "api/TruckLib.Models.Ppd.Lookup.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Ppd.Lookup",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -418,7 +562,11 @@
           "relative_path": "api/TruckLib.Models.Ppd.MapPoint.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Ppd.MapPoint",
+      "Summary": "<p sourcefile=\"api/TruckLib.Models.Ppd.MapPoint.yml\" sourcestartlinenumber=\"1\">Represents a map point which is used to draw a representation\nof the item to the UI map.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -428,7 +576,11 @@
           "relative_path": "api/TruckLib.Models.Ppd.NavCurve.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Ppd.NavCurve",
+      "Summary": "<p sourcefile=\"api/TruckLib.Models.Ppd.NavCurve.yml\" sourcestartlinenumber=\"1\">Represents a navigation curve, used to define AI traffic paths and GPS navigation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -438,7 +590,11 @@
           "relative_path": "api/TruckLib.Models.Ppd.PrefabDescriptor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Ppd.PrefabDescriptor",
+      "Summary": "<p sourcefile=\"api/TruckLib.Models.Ppd.PrefabDescriptor.yml\" sourcestartlinenumber=\"1\">Represents a prefab descriptor (.ppd) file.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -448,7 +604,11 @@
           "relative_path": "api/TruckLib.Models.Ppd.RoadOffset.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Ppd.RoadOffset",
+      "Summary": "<p sourcefile=\"api/TruckLib.Models.Ppd.RoadOffset.yml\" sourcestartlinenumber=\"1\">Distance between road lanes in the UI map representation of a prefab road.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -458,7 +618,11 @@
           "relative_path": "api/TruckLib.Models.Ppd.RoadSize.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Ppd.RoadSize",
+      "Summary": "<p sourcefile=\"api/TruckLib.Models.Ppd.RoadSize.yml\" sourcestartlinenumber=\"1\">The type of road to draw as the UI map representation of a prefab road.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -468,7 +632,11 @@
           "relative_path": "api/TruckLib.Models.Ppd.Semaphore.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Ppd.Semaphore",
+      "Summary": "<p sourcefile=\"api/TruckLib.Models.Ppd.Semaphore.yml\" sourcestartlinenumber=\"1\">Represents a semaphore locator.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -478,7 +646,11 @@
           "relative_path": "api/TruckLib.Models.Ppd.SemaphoreType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Ppd.SemaphoreType",
+      "Summary": "<p sourcefile=\"api/TruckLib.Models.Ppd.SemaphoreType.yml\" sourcestartlinenumber=\"1\">Type of a prefab semaphore.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -488,7 +660,11 @@
           "relative_path": "api/TruckLib.Models.Ppd.Sign.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Ppd.Sign",
+      "Summary": "<p sourcefile=\"api/TruckLib.Models.Ppd.Sign.yml\" sourcestartlinenumber=\"1\">Represents a point where a sign or other static models will be added at runtime.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -498,7 +674,11 @@
           "relative_path": "api/TruckLib.Models.Ppd.SpawnPoint.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Ppd.SpawnPoint",
+      "Summary": "<p sourcefile=\"api/TruckLib.Models.Ppd.SpawnPoint.yml\" sourcestartlinenumber=\"1\">Represents a locator for various activators and spawn points prefabs use.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -508,7 +688,11 @@
           "relative_path": "api/TruckLib.Models.Ppd.SpawnPointType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Ppd.SpawnPointType",
+      "Summary": "<p sourcefile=\"api/TruckLib.Models.Ppd.SpawnPointType.yml\" sourcestartlinenumber=\"1\">Spawn type of a SpawnPoint prefab locator.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -518,7 +702,11 @@
           "relative_path": "api/TruckLib.Models.Ppd.TerrainPointVariant.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Ppd.TerrainPointVariant",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -528,7 +716,11 @@
           "relative_path": "api/TruckLib.Models.Ppd.TriggerPoint.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Ppd.TriggerPoint",
+      "Summary": "<p sourcefile=\"api/TruckLib.Models.Ppd.TriggerPoint.yml\" sourcestartlinenumber=\"1\">Represents an area that triggers an action, such as a rest area.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -538,7 +730,11 @@
           "relative_path": "api/TruckLib.Models.Ppd.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Ppd",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -548,7 +744,11 @@
           "relative_path": "api/TruckLib.Models.Tobj.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Tobj",
+      "Summary": "<p sourcefile=\"api/TruckLib.Models.Tobj.yml\" sourcestartlinenumber=\"1\">Represents a texture object file.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -558,7 +758,11 @@
           "relative_path": "api/TruckLib.Models.TobjAddr.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.TobjAddr",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -568,7 +772,11 @@
           "relative_path": "api/TruckLib.Models.TobjFilter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.TobjFilter",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -578,7 +786,11 @@
           "relative_path": "api/TruckLib.Models.TobjMipFilter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.TobjMipFilter",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -588,7 +800,11 @@
           "relative_path": "api/TruckLib.Models.TobjType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.TobjType",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -598,7 +814,11 @@
           "relative_path": "api/TruckLib.Models.Triangle.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Triangle",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -608,7 +828,11 @@
           "relative_path": "api/TruckLib.Models.Variant.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Variant",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -618,7 +842,11 @@
           "relative_path": "api/TruckLib.Models.Vertex.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Vertex",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -628,7 +856,11 @@
           "relative_path": "api/TruckLib.Models.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -638,7 +870,11 @@
           "relative_path": "api/TruckLib.Nibble.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Nibble",
+      "Summary": "<p sourcefile=\"api/TruckLib.Nibble.yml\" sourcestartlinenumber=\"1\">Represents an unsigned half-byte integer.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -648,7 +884,11 @@
           "relative_path": "api/TruckLib.ScsMap.ActionBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.ActionBase",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.ActionBase.yml\" sourcestartlinenumber=\"1\">Base class for <xref href=\"TruckLib.ScsMap.CutsceneAction\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"TruckLib.ScsMap.TriggerAction\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -658,7 +898,11 @@
           "relative_path": "api/TruckLib.ScsMap.ActionType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.ActionType",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.ActionType.yml\" sourcestartlinenumber=\"1\">Action type for <xref href=\"TruckLib.ScsMap.Trigger?text=triggers\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -668,7 +912,11 @@
           "relative_path": "api/TruckLib.ScsMap.AnimatedModel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.AnimatedModel",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.AnimatedModel.yml\" sourcestartlinenumber=\"1\">TODO: What even is this?</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -678,7 +926,11 @@
           "relative_path": "api/TruckLib.ScsMap.BezierPatch.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.BezierPatch",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.BezierPatch.yml\" sourcestartlinenumber=\"1\">A piece of terrain created by a Bézier surface.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -688,7 +940,11 @@
           "relative_path": "api/TruckLib.ScsMap.BlinkerType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.BlinkerType",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.BlinkerType.yml\" sourcestartlinenumber=\"1\">Blinker type for <xref href=\"TruckLib.ScsMap.Trajectory\" data-throw-if-not-resolved=\"false\"></xref> items.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -698,7 +954,11 @@
           "relative_path": "api/TruckLib.ScsMap.Buildings.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Buildings",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Buildings.yml\" sourcestartlinenumber=\"1\">A Buildings segment, which repeats one or more models along a path.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -708,7 +968,11 @@
           "relative_path": "api/TruckLib.ScsMap.BusStop.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.BusStop",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.BusStop.yml\" sourcestartlinenumber=\"1\">A prefab slave item which is placed for the <code>BusStop</code> spawn point type of a prefab.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -718,7 +982,11 @@
           "relative_path": "api/TruckLib.ScsMap.CameraPath.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.CameraPath",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.CameraPath.yml\" sourcestartlinenumber=\"1\">Defines a tracking shot through the map for use in cutscenes.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -728,7 +996,11 @@
           "relative_path": "api/TruckLib.ScsMap.CameraPoint.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.CameraPoint",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.CameraPoint.yml\" sourcestartlinenumber=\"1\">Defines the tracking point for various cutscenes\nand is also used to create random events.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -738,7 +1010,11 @@
           "relative_path": "api/TruckLib.ScsMap.CenterVegetation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.CenterVegetation",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.CenterVegetation.yml\" sourcestartlinenumber=\"1\">Properties of vegetation in the center of a dual carriageway <xref href=\"TruckLib.ScsMap.Road?text=road\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -748,7 +1024,11 @@
           "relative_path": "api/TruckLib.ScsMap.CityArea.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.CityArea",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.CityArea.yml\" sourcestartlinenumber=\"1\">A City item, which declares a rectangular area around the item's node as belonging to a city.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -758,7 +1038,11 @@
           "relative_path": "api/TruckLib.ScsMap.Collections.CurveLocatorList.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Collections.CurveLocatorList",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Collections.CurveLocatorList.yml\" sourcestartlinenumber=\"1\">Reperesents a list of <xref href=\"TruckLib.ScsMap.Curve.Locators?text=curve+locator+points\" data-throw-if-not-resolved=\"false\"></xref>.\nHas a maximum size of 2.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -768,7 +1052,11 @@
           "relative_path": "api/TruckLib.ScsMap.Collections.FarModelDataList.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Collections.FarModelDataList",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Collections.FarModelDataList.yml\" sourcestartlinenumber=\"1\">Reperesents a list of <xref href=\"TruckLib.ScsMap.FarModel.Models?text=Far+Model+models\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -778,7 +1066,11 @@
           "relative_path": "api/TruckLib.ScsMap.Collections.GateActivationPointList.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Collections.GateActivationPointList",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Collections.GateActivationPointList.yml\" sourcestartlinenumber=\"1\">Reperesents a list of <xref href=\"TruckLib.ScsMap.Gate.ActivationPoints?text=gate+activation+points\" data-throw-if-not-resolved=\"false\"></xref>.\nHas a maximum size of 2.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -788,7 +1080,11 @@
           "relative_path": "api/TruckLib.ScsMap.Collections.NodeDictionary.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Collections.NodeDictionary",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Collections.NodeDictionary.yml\" sourcestartlinenumber=\"1\">A collection for <xref href=\"TruckLib.ScsMap.Node?text=map+nodes\" data-throw-if-not-resolved=\"false\"></xref> which combines a dictionary and R-tree.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -798,7 +1094,11 @@
           "relative_path": "api/TruckLib.ScsMap.Collections.PathNodeList.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Collections.PathNodeList",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Collections.PathNodeList.yml\" sourcestartlinenumber=\"1\">Contains the nodes of a <xref href=\"TruckLib.ScsMap.PathItem?text=path+item\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -808,7 +1108,11 @@
           "relative_path": "api/TruckLib.ScsMap.Collections.PolygonNodeList.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Collections.PolygonNodeList",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Collections.PolygonNodeList.yml\" sourcestartlinenumber=\"1\">Contains the nodes of a <xref href=\"TruckLib.ScsMap.PolygonItem?text=polygon+item\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -818,7 +1122,11 @@
           "relative_path": "api/TruckLib.ScsMap.Collections.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Collections",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -828,7 +1136,11 @@
           "relative_path": "api/TruckLib.ScsMap.Company.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Company",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Company.yml\" sourcestartlinenumber=\"1\">A prefab slave item which is placed for the <code>CompanyPoint</code> spawn point type of company prefabs.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -838,7 +1150,11 @@
           "relative_path": "api/TruckLib.ScsMap.CompanySpawnPoint.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.CompanySpawnPoint",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.CompanySpawnPoint.yml\" sourcestartlinenumber=\"1\">Represents a prefab spawn point belonging to a <xref href=\"TruckLib.ScsMap.Company\" data-throw-if-not-resolved=\"false\"></xref> item.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -848,7 +1164,11 @@
           "relative_path": "api/TruckLib.ScsMap.CompanySpawnPointType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.CompanySpawnPointType",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.CompanySpawnPointType.yml\" sourcestartlinenumber=\"1\">The spawn point type of a node belonging to a <xref href=\"TruckLib.ScsMap.Company\" data-throw-if-not-resolved=\"false\"></xref> item.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -858,7 +1178,11 @@
           "relative_path": "api/TruckLib.ScsMap.Compound.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Compound",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Compound.yml\" sourcestartlinenumber=\"1\">A compound item, which groups multiple\n<a href=\"https://github.com/sk-zk/map-docs/wiki/base%2C-aux-and-snd\">aux items</a>\ninto one, with an additional parent node to which they are tethered.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -868,7 +1192,11 @@
           "relative_path": "api/TruckLib.ScsMap.Curve.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Curve",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Curve.yml\" sourcestartlinenumber=\"1\">A curve segment, which repeats one or more models along a path.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -878,7 +1206,11 @@
           "relative_path": "api/TruckLib.ScsMap.CutPlane.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.CutPlane",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.CutPlane.yml\" sourcestartlinenumber=\"1\">Defines a path creating one or more planes perpendicular to the ground plane.\nItems which are fully behind these planes from the point of view of the camera\nare not rendered.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -888,7 +1220,11 @@
           "relative_path": "api/TruckLib.ScsMap.CutPlaneNodeAngle.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.CutPlaneNodeAngle",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -898,7 +1234,11 @@
           "relative_path": "api/TruckLib.ScsMap.Cutscene.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Cutscene",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -908,7 +1248,11 @@
           "relative_path": "api/TruckLib.ScsMap.CutsceneAction.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.CutsceneAction",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -918,7 +1262,11 @@
           "relative_path": "api/TruckLib.ScsMap.CutsceneType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.CutsceneType",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.CutsceneType.yml\" sourcestartlinenumber=\"1\">The type of a <xref href=\"TruckLib.ScsMap.Cutscene\" data-throw-if-not-resolved=\"false\"></xref> item.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -928,7 +1276,11 @@
           "relative_path": "api/TruckLib.ScsMap.EasingFunction.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.EasingFunction",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.EasingFunction.yml\" sourcestartlinenumber=\"1\">Easing functions used by <xref href=\"TruckLib.ScsMap.Keyframe?text=keyframes\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -938,7 +1290,11 @@
           "relative_path": "api/TruckLib.ScsMap.EdgeOverride.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.EdgeOverride",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.EdgeOverride.yml\" sourcestartlinenumber=\"1\">Represents an edge model override of a <xref href=\"TruckLib.ScsMap.Road\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -948,7 +1304,11 @@
           "relative_path": "api/TruckLib.ScsMap.EdgeTerrain.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.EdgeTerrain",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.EdgeTerrain.yml\" sourcestartlinenumber=\"1\">Base class for <xref href=\"TruckLib.ScsMap.RoadTerrain\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"TruckLib.ScsMap.PrefabTerrain\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -958,7 +1318,11 @@
           "relative_path": "api/TruckLib.ScsMap.EnvironmentArea.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.EnvironmentArea",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.EnvironmentArea.yml\" sourcestartlinenumber=\"1\">Defines a rectangular area in which</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -968,7 +1332,11 @@
           "relative_path": "api/TruckLib.ScsMap.FarModel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.FarModel",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.FarModel.yml\" sourcestartlinenumber=\"1\">Defines a rectangular area which ignores the usual view distance limit of 1500 m\nfor specific items if the camera is inside it.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -978,7 +1346,11 @@
           "relative_path": "api/TruckLib.ScsMap.FarModelData.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.FarModelData",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.FarModelData.yml\" sourcestartlinenumber=\"1\">Properties of a model specific to <xref href=\"TruckLib.ScsMap.FarModel?text=Far+Model\" data-throw-if-not-resolved=\"false\"></xref> items.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -988,7 +1360,11 @@
           "relative_path": "api/TruckLib.ScsMap.Ferry.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Ferry",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Ferry.yml\" sourcestartlinenumber=\"1\">The activation point for a ferry.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -998,7 +1374,11 @@
           "relative_path": "api/TruckLib.ScsMap.FogMask.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.FogMask",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.FogMask.yml\" sourcestartlinenumber=\"1\">Fog behavior in a <xref href=\"TruckLib.ScsMap.EnvironmentArea?text=Environment+Area\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1008,7 +1388,11 @@
           "relative_path": "api/TruckLib.ScsMap.FuelPump.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.FuelPump",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.FuelPump.yml\" sourcestartlinenumber=\"1\">A prefab slave item which is placed for the <code>GasStation</code> spawn point type of a prefab.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1018,7 +1402,11 @@
           "relative_path": "api/TruckLib.ScsMap.Garage.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Garage",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Garage.yml\" sourcestartlinenumber=\"1\">A prefab slave item which is placed for the <code>GaragePoint</code> and <code>BuyPoint</code>\nspawn point types of a prefab.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1028,7 +1416,11 @@
           "relative_path": "api/TruckLib.ScsMap.Gate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Gate",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Gate.yml\" sourcestartlinenumber=\"1\">A gate which can be activated in various different ways.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1038,7 +1430,11 @@
           "relative_path": "api/TruckLib.ScsMap.GateActivationPoint.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.GateActivationPoint",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.GateActivationPoint.yml\" sourcestartlinenumber=\"1\">Properties of an activation point of a <xref href=\"TruckLib.ScsMap.Gate\" data-throw-if-not-resolved=\"false\"></xref> item.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1048,7 +1444,11 @@
           "relative_path": "api/TruckLib.ScsMap.GateType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.GateType",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.GateType.yml\" sourcestartlinenumber=\"1\">The behavior of a <xref href=\"TruckLib.ScsMap.Gate\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1058,7 +1458,11 @@
           "relative_path": "api/TruckLib.ScsMap.Header.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Header",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Header.yml\" sourcestartlinenumber=\"1\">Represents the header of .mbd, .base, .aux, .snd, .data, .layer, and .sbd files.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1068,7 +1472,11 @@
           "relative_path": "api/TruckLib.ScsMap.Hinge.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Hinge",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Hinge.yml\" sourcestartlinenumber=\"1\">According to the wiki: &quot;Currently unused. It defined object that could be placed\non map and be swung by player truck e.g. swing doors.&quot;</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1078,7 +1486,11 @@
           "relative_path": "api/TruckLib.ScsMap.Hookup.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Hookup",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Hookup.yml\" sourcestartlinenumber=\"1\">Defines a point where a random vehicle model is placed at runtime.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1088,7 +1500,11 @@
           "relative_path": "api/TruckLib.ScsMap.HookupModelDetail.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.HookupModelDetail",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.HookupModelDetail.yml\" sourcestartlinenumber=\"1\">The LOD of the spawned model of a <xref href=\"TruckLib.ScsMap.Hookup\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1098,7 +1514,11 @@
           "relative_path": "api/TruckLib.ScsMap.HookupNodeAlignment.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.HookupNodeAlignment",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.HookupNodeAlignment.yml\" sourcestartlinenumber=\"1\">The node alignment of a <xref href=\"TruckLib.ScsMap.Hookup\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1108,7 +1528,11 @@
           "relative_path": "api/TruckLib.ScsMap.HookupSpawnProbability.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.HookupSpawnProbability",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.HookupSpawnProbability.yml\" sourcestartlinenumber=\"1\">The likelihood in percent that a <xref href=\"TruckLib.ScsMap.Hookup\" data-throw-if-not-resolved=\"false\"></xref> will spawn a model.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1118,7 +1542,11 @@
           "relative_path": "api/TruckLib.ScsMap.IItemContainer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.IItemContainer",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.IItemContainer.yml\" sourcestartlinenumber=\"1\">Interface for classes that hold map items and nodes: <xref href=\"TruckLib.ScsMap.Map\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"TruckLib.ScsMap.Compound\" data-throw-if-not-resolved=\"false\"></xref>\nand <xref href=\"TruckLib.ScsMap.Selection\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1128,7 +1556,11 @@
           "relative_path": "api/TruckLib.ScsMap.IMapItem.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.IMapItem",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1138,7 +1570,11 @@
           "relative_path": "api/TruckLib.ScsMap.IMapObject.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.IMapObject",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.IMapObject.yml\" sourcestartlinenumber=\"1\">An interface implemented by both types of objects in a map:\n<xref href=\"TruckLib.ScsMap.MapItem?text=items\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"TruckLib.ScsMap.Node?text=nodes\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1148,7 +1584,11 @@
           "relative_path": "api/TruckLib.ScsMap.INode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.INode",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1158,7 +1598,11 @@
           "relative_path": "api/TruckLib.ScsMap.ISignOverrideAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.ISignOverrideAttribute",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.ISignOverrideAttribute.yml\" sourcestartlinenumber=\"1\">An interface for storing <xref href=\"TruckLib.ScsMap.SignOverrideAttribute%601?text=SignOverrideAttributes\" data-throw-if-not-resolved=\"false\"></xref>\nof any type in a collection.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1168,7 +1612,11 @@
           "relative_path": "api/TruckLib.ScsMap.ItemFile.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.ItemFile",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.ItemFile.yml\" sourcestartlinenumber=\"1\">Sector files that can hold <xref href=\"TruckLib.ScsMap.MapItem?text=map+items\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1178,7 +1626,11 @@
           "relative_path": "api/TruckLib.ScsMap.ItemType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.ItemType",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.ItemType.yml\" sourcestartlinenumber=\"1\">Item type IDs in .base/.aux/.snd files.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1188,7 +1640,11 @@
           "relative_path": "api/TruckLib.ScsMap.KdopBounds.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.KdopBounds",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.KdopBounds.yml\" sourcestartlinenumber=\"1\">Represents the k-DOP bounding box of a map item.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1198,7 +1654,11 @@
           "relative_path": "api/TruckLib.ScsMap.Keyframe.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Keyframe",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Keyframe.yml\" sourcestartlinenumber=\"1\">Represents the properties of one keyframe of a <xref href=\"TruckLib.ScsMap.CameraPath?text=camera+path\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1208,7 +1668,11 @@
           "relative_path": "api/TruckLib.ScsMap.Lookup.CountryId.Ats.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Lookup.CountryId.Ats",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Lookup.CountryId.Ats.yml\" sourcestartlinenumber=\"1\">Country IDs used or recommended for use in American Truck Simulator.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1218,7 +1682,11 @@
           "relative_path": "api/TruckLib.ScsMap.Lookup.CountryId.Ets2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Lookup.CountryId.Ets2",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Lookup.CountryId.Ets2.yml\" sourcestartlinenumber=\"1\">Country IDs used or recommended for use in Euro Truck Simulator 2.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1228,7 +1696,11 @@
           "relative_path": "api/TruckLib.ScsMap.Lookup.CountryId.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Lookup.CountryId",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Lookup.CountryId.yml\" sourcestartlinenumber=\"1\">Country IDs as defined by SCS. Mods may use other IDs.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1238,7 +1710,11 @@
           "relative_path": "api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Lookup.DlcGuard.Ats",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.yml\" sourcestartlinenumber=\"1\">DLC guard values used in American Truck Simulator.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1248,7 +1724,11 @@
           "relative_path": "api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Lookup.DlcGuard.Ets2",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.yml\" sourcestartlinenumber=\"1\">DLC guard values used in Euro Truck Simulator 2.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1258,7 +1738,11 @@
           "relative_path": "api/TruckLib.ScsMap.Lookup.DlcGuard.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Lookup.DlcGuard",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Lookup.DlcGuard.yml\" sourcestartlinenumber=\"1\">DLC guard values used in ETS2 and ATS.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1268,7 +1752,11 @@
           "relative_path": "api/TruckLib.ScsMap.Lookup.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Lookup",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1278,7 +1766,11 @@
           "relative_path": "api/TruckLib.ScsMap.Map.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Map",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Map.yml\" sourcestartlinenumber=\"1\">A map for Euro Truck Simulator 2 or American Truck Simulator.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1288,7 +1780,11 @@
           "relative_path": "api/TruckLib.ScsMap.MapArea.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.MapArea",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.MapArea.yml\" sourcestartlinenumber=\"1\">Defines a polygon which is drawn onto the UI map.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1298,7 +1794,11 @@
           "relative_path": "api/TruckLib.ScsMap.MapAreaType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.MapAreaType",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.MapAreaType.yml\" sourcestartlinenumber=\"1\">The type of a <xref href=\"TruckLib.ScsMap.MapArea?text=Map+Area\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1308,7 +1808,11 @@
           "relative_path": "api/TruckLib.ScsMap.MapItem.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.MapItem",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.MapItem.yml\" sourcestartlinenumber=\"1\">The base class for all map items.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1318,7 +1822,11 @@
           "relative_path": "api/TruckLib.ScsMap.MapOverlay.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.MapOverlay",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.MapOverlay.yml\" sourcestartlinenumber=\"1\">Overlays an image or text onto the UI map.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1328,7 +1836,11 @@
           "relative_path": "api/TruckLib.ScsMap.Material.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Material",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Material.yml\" sourcestartlinenumber=\"1\">Represents a terrain quad material.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1338,7 +1850,11 @@
           "relative_path": "api/TruckLib.ScsMap.Model.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Model",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Model.yml\" sourcestartlinenumber=\"1\">A static model.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1348,7 +1864,11 @@
           "relative_path": "api/TruckLib.ScsMap.Mover.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Mover",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Mover.yml\" sourcestartlinenumber=\"1\">An animated model which can optionally be moved along a path.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1358,7 +1878,11 @@
           "relative_path": "api/TruckLib.ScsMap.Node.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Node",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Node.yml\" sourcestartlinenumber=\"1\">Represents a map node.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1368,7 +1892,11 @@
           "relative_path": "api/TruckLib.ScsMap.OverlayType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.OverlayType",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.OverlayType.yml\" sourcestartlinenumber=\"1\">The type of a <xref href=\"TruckLib.ScsMap.MapOverlay?text=Map+Overlay\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1378,7 +1906,11 @@
           "relative_path": "api/TruckLib.ScsMap.PathItem.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.PathItem",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.PathItem.yml\" sourcestartlinenumber=\"1\">Base class for map items which define a polyline or spline that is fully contained\nin one item rather than being one piece of it.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1388,7 +1920,11 @@
           "relative_path": "api/TruckLib.ScsMap.PolygonItem.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.PolygonItem",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.PolygonItem.yml\" sourcestartlinenumber=\"1\">Base class for map items which define a polygonal area.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1398,7 +1934,11 @@
           "relative_path": "api/TruckLib.ScsMap.PolylineItem.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.PolylineItem",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.PolylineItem.yml\" sourcestartlinenumber=\"1\">Base class for map items which form a polyline with other\nitems of the same type, such as <xref href=\"TruckLib.ScsMap.Road?text=roads\" data-throw-if-not-resolved=\"false\"></xref> and\n<xref href=\"TruckLib.ScsMap.Buildings?text=buildings\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1408,7 +1948,11 @@
           "relative_path": "api/TruckLib.ScsMap.Prefab.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Prefab",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Prefab.yml\" sourcestartlinenumber=\"1\">A model with associated game logic which attaches to the road network.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1418,7 +1962,11 @@
           "relative_path": "api/TruckLib.ScsMap.PrefabNode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.PrefabNode",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.PrefabNode.yml\" sourcestartlinenumber=\"1\">Holds vegetation, terrain, and corner model properties for one node of a prefab.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1428,7 +1976,11 @@
           "relative_path": "api/TruckLib.ScsMap.PrefabSlaveItem.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.PrefabSlaveItem",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.PrefabSlaveItem.yml\" sourcestartlinenumber=\"1\">Base class for prefab slave items, which is a type of item that is placed\nfor certain spawn point types of a prefab.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1438,7 +1990,11 @@
           "relative_path": "api/TruckLib.ScsMap.PrefabTerrain.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.PrefabTerrain",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.PrefabTerrain.yml\" sourcestartlinenumber=\"1\">Properties of procedurally generated terrain of one edge of a <xref href=\"TruckLib.ScsMap.Prefab\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1448,7 +2004,11 @@
           "relative_path": "api/TruckLib.ScsMap.QuadVegetation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.QuadVegetation",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.QuadVegetation.yml\" sourcestartlinenumber=\"1\">Vegetation modes for terrain quads.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1458,7 +2018,11 @@
           "relative_path": "api/TruckLib.ScsMap.Railing.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Railing",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Railing.yml\" sourcestartlinenumber=\"1\">Represents one railing model of a road.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1468,7 +2032,11 @@
           "relative_path": "api/TruckLib.ScsMap.Railings.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Railings",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Railings.yml\" sourcestartlinenumber=\"1\">Represents the railings of a <xref href=\"TruckLib.ScsMap.Terrain\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1478,7 +2046,11 @@
           "relative_path": "api/TruckLib.ScsMap.Road.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Road",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Road.yml\" sourcestartlinenumber=\"1\">A road item.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1488,7 +2060,11 @@
           "relative_path": "api/TruckLib.ScsMap.RoadModel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.RoadModel",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.RoadModel.yml\" sourcestartlinenumber=\"1\">Properties of a road model.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1498,7 +2074,11 @@
           "relative_path": "api/TruckLib.ScsMap.RoadRailings.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.RoadRailings",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.RoadRailings.yml\" sourcestartlinenumber=\"1\">Represents the railings of a <xref href=\"TruckLib.ScsMap.Road\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1508,7 +2088,11 @@
           "relative_path": "api/TruckLib.ScsMap.RoadResolution.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.RoadResolution",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.RoadResolution.yml\" sourcestartlinenumber=\"1\">The resolution / step size of a <xref href=\"TruckLib.ScsMap.Road?text=road\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1518,7 +2102,11 @@
           "relative_path": "api/TruckLib.ScsMap.RoadSide.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.RoadSide",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.RoadSide.yml\" sourcestartlinenumber=\"1\">Properties of one side of a road, such as vegetation and railings.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1528,7 +2116,11 @@
           "relative_path": "api/TruckLib.ScsMap.RoadTerrain.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.RoadTerrain",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.RoadTerrain.yml\" sourcestartlinenumber=\"1\">Properties of the procedurally generated terrain of one side of a <xref href=\"TruckLib.ScsMap.Road\" data-throw-if-not-resolved=\"false\"></xref>\nor <xref href=\"TruckLib.ScsMap.Terrain\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1538,7 +2130,11 @@
           "relative_path": "api/TruckLib.ScsMap.RoadVegetation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.RoadVegetation",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.RoadVegetation.yml\" sourcestartlinenumber=\"1\">Properties of vegetation on the side of a road.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1548,7 +2144,11 @@
           "relative_path": "api/TruckLib.ScsMap.Sector.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Sector",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Sector.yml\" sourcestartlinenumber=\"1\">Represents metadata of one sector of a <xref href=\"TruckLib.ScsMap.Sector.Map\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1558,7 +2158,11 @@
           "relative_path": "api/TruckLib.ScsMap.SectorCoordinate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.SectorCoordinate",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.SectorCoordinate.yml\" sourcestartlinenumber=\"1\">Represents a map sector coordinate.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1568,7 +2172,11 @@
           "relative_path": "api/TruckLib.ScsMap.Selection.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Selection",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Selection.yml\" sourcestartlinenumber=\"1\">A selection (.sbd) file.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1578,7 +2186,11 @@
           "relative_path": "api/TruckLib.ScsMap.Service.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Service",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Service.yml\" sourcestartlinenumber=\"1\">A prefab slave item which is placed for several spawn point types of a prefab.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1588,7 +2200,11 @@
           "relative_path": "api/TruckLib.ScsMap.ServiceType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.ServiceType",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.ServiceType.yml\" sourcestartlinenumber=\"1\">The spawn point type of a <xref href=\"TruckLib.ScsMap.Service\" data-throw-if-not-resolved=\"false\"></xref> item.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1598,7 +2214,11 @@
           "relative_path": "api/TruckLib.ScsMap.Sidewalk.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Sidewalk",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Sidewalk.yml\" sourcestartlinenumber=\"1\">Sidewalk properties for legacy, pre-template roads.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1608,7 +2228,11 @@
           "relative_path": "api/TruckLib.ScsMap.SidewalkSize.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.SidewalkSize",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.SidewalkSize.yml\" sourcestartlinenumber=\"1\">Allowed values for sidewalk size in meters in the legacy pre-edge system.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1618,7 +2242,11 @@
           "relative_path": "api/TruckLib.ScsMap.Sign.SignBoard.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Sign.SignBoard",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Sign.SignBoard.yml\" sourcestartlinenumber=\"1\">Sign text for legacy navigation signs.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1628,7 +2256,11 @@
           "relative_path": "api/TruckLib.ScsMap.Sign.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Sign",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Sign.yml\" sourcestartlinenumber=\"1\">A traffic sign or navigation sign.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1638,7 +2270,11 @@
           "relative_path": "api/TruckLib.ScsMap.SignOverride.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.SignOverride",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.SignOverride.yml\" sourcestartlinenumber=\"1\">A sign override, which overrides attributes of a sign template object.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1648,7 +2284,11 @@
           "relative_path": "api/TruckLib.ScsMap.SignOverrideAttribute-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.SignOverrideAttribute<T>",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.SignOverrideAttribute-1.yml\" sourcestartlinenumber=\"1\">A sign override attribute, used to define which attributes of an\nobject in a sign template have been changed.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1658,7 +2298,11 @@
           "relative_path": "api/TruckLib.ScsMap.SingleNodeItem.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.SingleNodeItem",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.SingleNodeItem.yml\" sourcestartlinenumber=\"1\">Base class for map items which only have one node.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1668,7 +2312,11 @@
           "relative_path": "api/TruckLib.ScsMap.Sound.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Sound",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Sound.yml\" sourcestartlinenumber=\"1\">A sound which is played when the player is in range.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1678,7 +2326,11 @@
           "relative_path": "api/TruckLib.ScsMap.SoundType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.SoundType",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.SoundType.yml\" sourcestartlinenumber=\"1\">The type of a <xref href=\"TruckLib.ScsMap.Sound\" data-throw-if-not-resolved=\"false\"></xref> item.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1688,7 +2340,11 @@
           "relative_path": "api/TruckLib.ScsMap.StepSize.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.StepSize",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.StepSize.yml\" sourcestartlinenumber=\"1\">Quad resolution of a <xref href=\"TruckLib.ScsMap.Terrain\" data-throw-if-not-resolved=\"false\"></xref> item.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1698,7 +2354,11 @@
           "relative_path": "api/TruckLib.ScsMap.Terrain.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Terrain",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Terrain.yml\" sourcestartlinenumber=\"1\">A standalone terrain item which acts like a terrain-only road.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1708,7 +2368,11 @@
           "relative_path": "api/TruckLib.ScsMap.TerrainNoise.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.TerrainNoise",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.TerrainNoise.yml\" sourcestartlinenumber=\"1\">Allowed terrain noise values in percent.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1718,7 +2382,11 @@
           "relative_path": "api/TruckLib.ScsMap.TerrainQuad.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.TerrainQuad",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.TerrainQuad.yml\" sourcestartlinenumber=\"1\">Properties of an individual terrain quad.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1728,7 +2396,11 @@
           "relative_path": "api/TruckLib.ScsMap.TerrainQuadData.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.TerrainQuadData",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.TerrainQuadData.yml\" sourcestartlinenumber=\"1\">Represents the terrain configuration of one side of a road or prefab.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1738,7 +2410,11 @@
           "relative_path": "api/TruckLib.ScsMap.TerrainSide.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.TerrainSide",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.TerrainSide.yml\" sourcestartlinenumber=\"1\">Properties of one side of a <xref href=\"TruckLib.ScsMap.TerrainSide.Terrain\" data-throw-if-not-resolved=\"false\"></xref> item.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1748,7 +2424,11 @@
           "relative_path": "api/TruckLib.ScsMap.TerrainTransition.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.TerrainTransition",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.TerrainTransition.yml\" sourcestartlinenumber=\"1\">Allowed transition values for terrain in number of quads.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1758,7 +2438,11 @@
           "relative_path": "api/TruckLib.ScsMap.TrafficArea.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.TrafficArea",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.TrafficArea.yml\" sourcestartlinenumber=\"1\">Applies a traffic rule inside a polygon.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1768,7 +2452,11 @@
           "relative_path": "api/TruckLib.ScsMap.Trajectory.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Trajectory",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Trajectory.yml\" sourcestartlinenumber=\"1\">Used for Special Transport DLC. TODO: Figure out how this works</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1778,7 +2466,11 @@
           "relative_path": "api/TruckLib.ScsMap.TrajectoryCheckpoint.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.TrajectoryCheckpoint",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1788,7 +2480,11 @@
           "relative_path": "api/TruckLib.ScsMap.TrajectoryRule.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.TrajectoryRule",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1798,7 +2494,11 @@
           "relative_path": "api/TruckLib.ScsMap.Trigger.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Trigger",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Trigger.yml\" sourcestartlinenumber=\"1\">Defines a trigger area.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1808,7 +2508,11 @@
           "relative_path": "api/TruckLib.ScsMap.TriggerAction.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.TriggerAction",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.TriggerAction.yml\" sourcestartlinenumber=\"1\">Action properties of a <xref href=\"TruckLib.ScsMap.Trigger\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1818,7 +2522,11 @@
           "relative_path": "api/TruckLib.ScsMap.VariantOverride.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.VariantOverride",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.VariantOverride.yml\" sourcestartlinenumber=\"1\">Represents a variant override of a <xref href=\"TruckLib.ScsMap.Road\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1828,7 +2536,11 @@
           "relative_path": "api/TruckLib.ScsMap.Vegetation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Vegetation",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Vegetation.yml\" sourcestartlinenumber=\"1\">Properties of procedurally placed vegetation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1838,7 +2550,11 @@
           "relative_path": "api/TruckLib.ScsMap.VegetationPart.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.VegetationPart",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1848,7 +2564,11 @@
           "relative_path": "api/TruckLib.ScsMap.VegetationScale.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.VegetationScale",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.VegetationScale.yml\" sourcestartlinenumber=\"1\">Scale of vegetation models in percent.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1858,7 +2578,11 @@
           "relative_path": "api/TruckLib.ScsMap.VegetationSphere.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.VegetationSphere",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.VegetationSphere.yml\" sourcestartlinenumber=\"1\">A vegetation sphere.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1868,7 +2592,11 @@
           "relative_path": "api/TruckLib.ScsMap.VegetationSphereType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.VegetationSphereType",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.VegetationSphereType.yml\" sourcestartlinenumber=\"1\">Defines the behavior of a vegetation sphere.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1878,7 +2606,11 @@
           "relative_path": "api/TruckLib.ScsMap.VertexData.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.VertexData",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1888,7 +2620,11 @@
           "relative_path": "api/TruckLib.ScsMap.VisibilityArea.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.VisibilityArea",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.VisibilityArea.yml\" sourcestartlinenumber=\"1\">Defines a rectangular area in which, if the camera is inside it,\nchild items are rendered differently.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1898,7 +2634,11 @@
           "relative_path": "api/TruckLib.ScsMap.VisibilityAreaBehavior.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.VisibilityAreaBehavior",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.VisibilityAreaBehavior.yml\" sourcestartlinenumber=\"1\">The rendering behavior of a <xref href=\"TruckLib.ScsMap.VisibilityArea?text=visibility+area\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1908,7 +2648,11 @@
           "relative_path": "api/TruckLib.ScsMap.Walker.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Walker",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Walker.yml\" sourcestartlinenumber=\"1\">Obsolete item for making pedestrians move along a path.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1918,7 +2662,11 @@
           "relative_path": "api/TruckLib.ScsMap.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1928,7 +2676,11 @@
           "relative_path": "api/TruckLib.Sii.EncryptedSii.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Sii.EncryptedSii",
+      "Summary": "<p sourcefile=\"api/TruckLib.Sii.EncryptedSii.yml\" sourcestartlinenumber=\"1\">Functions for decrypting SII files.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1938,7 +2690,11 @@
           "relative_path": "api/TruckLib.Sii.LinkPointer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Sii.LinkPointer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1948,7 +2704,11 @@
           "relative_path": "api/TruckLib.Sii.MatFile.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Sii.MatFile",
+      "Summary": "<p sourcefile=\"api/TruckLib.Sii.MatFile.yml\" sourcestartlinenumber=\"1\">Represents a .mat file.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1958,7 +2718,11 @@
           "relative_path": "api/TruckLib.Sii.OwnerPointer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Sii.OwnerPointer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1968,7 +2732,11 @@
           "relative_path": "api/TruckLib.Sii.Placement.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Sii.Placement",
+      "Summary": "<p sourcefile=\"api/TruckLib.Sii.Placement.yml\" sourcestartlinenumber=\"1\">Represents the placement type used in SII files.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1978,7 +2746,11 @@
           "relative_path": "api/TruckLib.Sii.SiiFile.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Sii.SiiFile",
+      "Summary": "<p sourcefile=\"api/TruckLib.Sii.SiiFile.yml\" sourcestartlinenumber=\"1\">Represents an SII file.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1988,7 +2760,11 @@
           "relative_path": "api/TruckLib.Sii.Texture.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Sii.Texture",
+      "Summary": "<p sourcefile=\"api/TruckLib.Sii.Texture.yml\" sourcestartlinenumber=\"1\">Represents a texture unit of a .mat file.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1998,7 +2774,11 @@
           "relative_path": "api/TruckLib.Sii.ThreeNK.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Sii.ThreeNK",
+      "Summary": "<p sourcefile=\"api/TruckLib.Sii.ThreeNK.yml\" sourcestartlinenumber=\"1\">Functions for decoding and encoding the 3nK format.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2008,7 +2788,11 @@
           "relative_path": "api/TruckLib.Sii.Unit.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Sii.Unit",
+      "Summary": "<p sourcefile=\"api/TruckLib.Sii.Unit.yml\" sourcestartlinenumber=\"1\">Represents an SII unit.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2018,7 +2802,11 @@
           "relative_path": "api/TruckLib.Sii.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Sii",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2028,7 +2816,11 @@
           "relative_path": "api/TruckLib.Token.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Token",
+      "Summary": "<p sourcefile=\"api/TruckLib.Token.yml\" sourcestartlinenumber=\"1\">A string type used in Prism3D which packs up to 12 characters\nof a limited character set into 8 bytes.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2038,7 +2830,11 @@
           "relative_path": "api/TruckLib.UnsupportedVersionException.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.UnsupportedVersionException",
+      "Summary": "<p sourcefile=\"api/TruckLib.UnsupportedVersionException.yml\" sourcestartlinenumber=\"1\">Thrown if the version of a file format is not supported by this library.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2048,17 +2844,21 @@
           "relative_path": "api/TruckLib.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib",
+      "Summary": null
     },
     {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "api/toc.html"
-        },
         ".json": {
           "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
         }
       },
       "version": ""
@@ -2097,11 +2897,11 @@
       "type": "Toc",
       "source_relative_path": "docs/Samples/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "docs/Samples/toc.html"
-        },
         ".json": {
           "relative_path": "docs/Samples/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/Samples/toc.html"
         }
       },
       "version": ""
@@ -2120,11 +2920,11 @@
       "type": "Toc",
       "source_relative_path": "docs/TruckLib.HashFs/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "docs/TruckLib.HashFs/toc.html"
-        },
         ".json": {
           "relative_path": "docs/TruckLib.HashFs/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/TruckLib.HashFs/toc.html"
         }
       },
       "version": ""
@@ -2203,11 +3003,11 @@
       "type": "Toc",
       "source_relative_path": "docs/TruckLib.ScsMap/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "docs/TruckLib.ScsMap/toc.html"
-        },
         ".json": {
           "relative_path": "docs/TruckLib.ScsMap/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/TruckLib.ScsMap/toc.html"
         }
       },
       "version": ""
@@ -2226,11 +3026,11 @@
       "type": "Toc",
       "source_relative_path": "docs/TruckLib.Sii/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "docs/TruckLib.Sii/toc.html"
-        },
         ".json": {
           "relative_path": "docs/TruckLib.Sii/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/TruckLib.Sii/toc.html"
         }
       },
       "version": ""
@@ -2249,11 +3049,11 @@
       "type": "Toc",
       "source_relative_path": "docs/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "docs/toc.html"
-        },
         ".json": {
           "relative_path": "docs/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/toc.html"
         }
       },
       "version": ""
@@ -2372,11 +3172,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "toc.html"
-        },
         ".json": {
           "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
         }
       },
       "version": ""

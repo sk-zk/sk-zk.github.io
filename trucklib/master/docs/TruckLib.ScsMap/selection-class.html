@@ -102,12 +102,12 @@ selection.Save(&quot;example.sbd&quot;);
 <p>Note that, just like with maps, a recalculation (Map &gt; Recompute map) is required when importing this selection with the official editor
 because TruckLib does not calculate the bounding boxes of items.</p>
 <h2 id="origin">Origin</h2>
-<p>Selections have an origin point which the editor subtracts from all nodes before adding the items. You can modify this origin point via the
+<p>Selections have an origin point which the editor subtracts from all nodes before adding the items. You can modify it via the
 <a class="xref" href="../../api/TruckLib.ScsMap.Selection.html#TruckLib_ScsMap_Selection_Origin"><code>Origin</code></a> property. In addition, there is a <a class="xref" href="../../api/TruckLib.ScsMap.Selection.html#TruckLib_ScsMap_Selection_CenterOrigin_"><code>CenterOrigin</code></a>
 method which sets the origin to the center of all nodes, which is what the official editor does when exporting a selection.</p>
 <h2 id="importing-to-a-map">Importing to a <a class="xref" href="../../api/TruckLib.ScsMap.Map.html"><code>Map</code></a></h2>
 <p>You can import a selection into a map by calling <a class="xref" href="../../api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_Import_"><code>Import</code></a>:</p>
-<pre><code class="lang-cs">map.Import(selection, new(72.7f, 0f, 27.2f));
+<pre><code class="lang-cs">map.Import(selection, new Vector3(72.7f, 0f, 27.2f));
 </code></pre>
 <p>This will add a copy of the items in <code>selection</code> to <code>map</code> at the specified offset.
 UIDs of the nodes and items will differ from the originals in <code>selection</code>.</p>
