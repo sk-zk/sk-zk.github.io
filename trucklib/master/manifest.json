@@ -2750,7 +2750,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "TruckLib.Sii.SiiFile",
-      "Summary": "<p sourcefile=\"api/TruckLib.Sii.SiiFile.yml\" sourcestartlinenumber=\"1\">Represents an SII file.</p>\n"
+      "Summary": "<p sourcefile=\"api/TruckLib.Sii.SiiFile.yml\" sourcestartlinenumber=\"1\">Represents a SII file.</p>\n"
     },
     {
       "type": "ManagedReference",

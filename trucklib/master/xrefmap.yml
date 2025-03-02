@@ -25090,6 +25090,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.Sii.SiiFile.Decode
   nameWithType: SiiFile.Decode
+- uid: TruckLib.Sii.SiiFile.Includes
+  name: Includes
+  href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Includes
+  commentId: P:TruckLib.Sii.SiiFile.Includes
+  fullName: TruckLib.Sii.SiiFile.Includes
+  nameWithType: SiiFile.Includes
+- uid: TruckLib.Sii.SiiFile.Includes*
+  name: Includes
+  href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Includes_
+  commentId: Overload:TruckLib.Sii.SiiFile.Includes
+  isSpec: "True"
+  fullName: TruckLib.Sii.SiiFile.Includes
+  nameWithType: SiiFile.Includes
 - uid: TruckLib.Sii.SiiFile.Load(System.Byte[],System.String)
   name: Load(byte[], string)
   href: api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Load_System_Byte___System_String_
