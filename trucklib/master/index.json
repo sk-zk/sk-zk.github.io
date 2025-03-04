@@ -99,6 +99,11 @@
     "title": "Namespace TruckLib.HashFs | TruckLib",
     "summary": "Namespace TruckLib.HashFs Classes CityHash Google's CityHash function, which is the hash function used by HashFS. DirectoryListing Represents a directory listing file in a HashFS archive. HashFsReader Static factory class for creating the appropriate HashFsV*Reader depending on the HashFS version. Structs EntryV1 Represents the metadata of an entry in a HashFS v1 archive. EntryV2 Represents the metadata of an entry in a HashFS v2 archive. PackedTobjDdsMetadata Represents the metadata table values of a packed .tobj/.dds entry. Interfaces IEntry Represents the metadata of an entry in a HashFS archive. IHashFsReader A HashFS reader for extracting files from HashFS archives. Enums EntryType Return type for HashFsReader.EntryExists(). Platform"
   },
+  "api/TruckLib.HermiteSpline.html": {
+    "href": "api/TruckLib.HermiteSpline.html",
+    "title": "Class HermiteSpline | TruckLib",
+    "summary": "Class HermiteSpline Namespace TruckLib Assembly TruckLib.dll Functions for interpolating Hermite splines. public static class HermiteSpline Inheritance object HermiteSpline Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Derivative(Vector3, Vector3, Vector3, Vector3, float) public static Vector3 Derivative(Vector3 p0, Vector3 p1, Vector3 m0, Vector3 m1, float t) Parameters p0 Vector3 p1 Vector3 m0 Vector3 m1 Vector3 t float Returns Vector3 DerivativePolyline(INode, INode, float) public static Vector3 DerivativePolyline(INode start, INode end, float t) Parameters start INode end INode t float Returns Vector3 Interpolate(Vector3, Vector3, Vector3, Vector3, float) public static Vector3 Interpolate(Vector3 p0, Vector3 p1, Vector3 m0, Vector3 m1, float t) Parameters p0 Vector3 p1 Vector3 m0 Vector3 m1 Vector3 t float Returns Vector3 InterpolatePolyline(INode, INode, float) public static Vector3 InterpolatePolyline(INode start, INode end, float t) Parameters start INode end INode t float Returns Vector3"
+  },
   "api/TruckLib.IBinarySerializable.html": {
     "href": "api/TruckLib.IBinarySerializable.html",
     "title": "Interface IBinarySerializable | TruckLib",
@@ -1017,7 +1022,7 @@
   "api/TruckLib.html": {
     "href": "api/TruckLib.html",
     "title": "Namespace TruckLib | TruckLib",
-    "summary": "Namespace TruckLib Classes CatmullRomSpline Functions for interpolating Catmull-Rom splines. DiskFileSystem IOExtensions MathExtensions MiscExtensions UnsupportedVersionException Thrown if the version of a file format is not supported by this library. Structs FlagField Represents a 32-bit flag field. Nibble Represents an unsigned half-byte integer. Token A string type used in Prism3D which packs up to 12 characters of a limited character set into 8 bytes. Interfaces IBinarySerializable Interface for classes which can de/serialize themselves to a binary format. IFileSystem Interface which abstracts read-only file system access to enable methods to read from either disk or HashFS."
+    "summary": "Namespace TruckLib Classes CatmullRomSpline Functions for interpolating Catmull-Rom splines. DiskFileSystem HermiteSpline Functions for interpolating Hermite splines. IOExtensions MathExtensions MiscExtensions UnsupportedVersionException Thrown if the version of a file format is not supported by this library. Structs FlagField Represents a 32-bit flag field. Nibble Represents an unsigned half-byte integer. Token A string type used in Prism3D which packs up to 12 characters of a limited character set into 8 bytes. Interfaces IBinarySerializable Interface for classes which can de/serialize themselves to a binary format. IFileSystem Interface which abstracts read-only file system access to enable methods to read from either disk or HashFS."
   },
   "docs/Samples/01-simple.html": {
     "href": "docs/Samples/01-simple.html",

@@ -1982,6 +1982,76 @@ references:
   commentId: F:TruckLib.HashFs.Platform.XboxSeries
   fullName: TruckLib.HashFs.Platform.XboxSeries
   nameWithType: Platform.XboxSeries
+- uid: TruckLib.HermiteSpline
+  name: HermiteSpline
+  href: api/TruckLib.HermiteSpline.html
+  commentId: T:TruckLib.HermiteSpline
+  fullName: TruckLib.HermiteSpline
+  nameWithType: HermiteSpline
+- uid: TruckLib.HermiteSpline.Derivative(System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3,System.Single)
+  name: Derivative(Vector3, Vector3, Vector3, Vector3, float)
+  href: api/TruckLib.HermiteSpline.html#TruckLib_HermiteSpline_Derivative_System_Numerics_Vector3_System_Numerics_Vector3_System_Numerics_Vector3_System_Numerics_Vector3_System_Single_
+  commentId: M:TruckLib.HermiteSpline.Derivative(System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3,System.Single)
+  name.vb: Derivative(Vector3, Vector3, Vector3, Vector3, Single)
+  fullName: TruckLib.HermiteSpline.Derivative(System.Numerics.Vector3, System.Numerics.Vector3, System.Numerics.Vector3, System.Numerics.Vector3, float)
+  fullName.vb: TruckLib.HermiteSpline.Derivative(System.Numerics.Vector3, System.Numerics.Vector3, System.Numerics.Vector3, System.Numerics.Vector3, Single)
+  nameWithType: HermiteSpline.Derivative(Vector3, Vector3, Vector3, Vector3, float)
+  nameWithType.vb: HermiteSpline.Derivative(Vector3, Vector3, Vector3, Vector3, Single)
+- uid: TruckLib.HermiteSpline.Derivative*
+  name: Derivative
+  href: api/TruckLib.HermiteSpline.html#TruckLib_HermiteSpline_Derivative_
+  commentId: Overload:TruckLib.HermiteSpline.Derivative
+  isSpec: "True"
+  fullName: TruckLib.HermiteSpline.Derivative
+  nameWithType: HermiteSpline.Derivative
+- uid: TruckLib.HermiteSpline.DerivativePolyline(TruckLib.ScsMap.INode,TruckLib.ScsMap.INode,System.Single)
+  name: DerivativePolyline(INode, INode, float)
+  href: api/TruckLib.HermiteSpline.html#TruckLib_HermiteSpline_DerivativePolyline_TruckLib_ScsMap_INode_TruckLib_ScsMap_INode_System_Single_
+  commentId: M:TruckLib.HermiteSpline.DerivativePolyline(TruckLib.ScsMap.INode,TruckLib.ScsMap.INode,System.Single)
+  name.vb: DerivativePolyline(INode, INode, Single)
+  fullName: TruckLib.HermiteSpline.DerivativePolyline(TruckLib.ScsMap.INode, TruckLib.ScsMap.INode, float)
+  fullName.vb: TruckLib.HermiteSpline.DerivativePolyline(TruckLib.ScsMap.INode, TruckLib.ScsMap.INode, Single)
+  nameWithType: HermiteSpline.DerivativePolyline(INode, INode, float)
+  nameWithType.vb: HermiteSpline.DerivativePolyline(INode, INode, Single)
+- uid: TruckLib.HermiteSpline.DerivativePolyline*
+  name: DerivativePolyline
+  href: api/TruckLib.HermiteSpline.html#TruckLib_HermiteSpline_DerivativePolyline_
+  commentId: Overload:TruckLib.HermiteSpline.DerivativePolyline
+  isSpec: "True"
+  fullName: TruckLib.HermiteSpline.DerivativePolyline
+  nameWithType: HermiteSpline.DerivativePolyline
+- uid: TruckLib.HermiteSpline.Interpolate(System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3,System.Single)
+  name: Interpolate(Vector3, Vector3, Vector3, Vector3, float)
+  href: api/TruckLib.HermiteSpline.html#TruckLib_HermiteSpline_Interpolate_System_Numerics_Vector3_System_Numerics_Vector3_System_Numerics_Vector3_System_Numerics_Vector3_System_Single_
+  commentId: M:TruckLib.HermiteSpline.Interpolate(System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3,System.Single)
+  name.vb: Interpolate(Vector3, Vector3, Vector3, Vector3, Single)
+  fullName: TruckLib.HermiteSpline.Interpolate(System.Numerics.Vector3, System.Numerics.Vector3, System.Numerics.Vector3, System.Numerics.Vector3, float)
+  fullName.vb: TruckLib.HermiteSpline.Interpolate(System.Numerics.Vector3, System.Numerics.Vector3, System.Numerics.Vector3, System.Numerics.Vector3, Single)
+  nameWithType: HermiteSpline.Interpolate(Vector3, Vector3, Vector3, Vector3, float)
+  nameWithType.vb: HermiteSpline.Interpolate(Vector3, Vector3, Vector3, Vector3, Single)
+- uid: TruckLib.HermiteSpline.Interpolate*
+  name: Interpolate
+  href: api/TruckLib.HermiteSpline.html#TruckLib_HermiteSpline_Interpolate_
+  commentId: Overload:TruckLib.HermiteSpline.Interpolate
+  isSpec: "True"
+  fullName: TruckLib.HermiteSpline.Interpolate
+  nameWithType: HermiteSpline.Interpolate
+- uid: TruckLib.HermiteSpline.InterpolatePolyline(TruckLib.ScsMap.INode,TruckLib.ScsMap.INode,System.Single)
+  name: InterpolatePolyline(INode, INode, float)
+  href: api/TruckLib.HermiteSpline.html#TruckLib_HermiteSpline_InterpolatePolyline_TruckLib_ScsMap_INode_TruckLib_ScsMap_INode_System_Single_
+  commentId: M:TruckLib.HermiteSpline.InterpolatePolyline(TruckLib.ScsMap.INode,TruckLib.ScsMap.INode,System.Single)
+  name.vb: InterpolatePolyline(INode, INode, Single)
+  fullName: TruckLib.HermiteSpline.InterpolatePolyline(TruckLib.ScsMap.INode, TruckLib.ScsMap.INode, float)
+  fullName.vb: TruckLib.HermiteSpline.InterpolatePolyline(TruckLib.ScsMap.INode, TruckLib.ScsMap.INode, Single)
+  nameWithType: HermiteSpline.InterpolatePolyline(INode, INode, float)
+  nameWithType.vb: HermiteSpline.InterpolatePolyline(INode, INode, Single)
+- uid: TruckLib.HermiteSpline.InterpolatePolyline*
+  name: InterpolatePolyline
+  href: api/TruckLib.HermiteSpline.html#TruckLib_HermiteSpline_InterpolatePolyline_
+  commentId: Overload:TruckLib.HermiteSpline.InterpolatePolyline
+  isSpec: "True"
+  fullName: TruckLib.HermiteSpline.InterpolatePolyline
+  nameWithType: HermiteSpline.InterpolatePolyline
 - uid: TruckLib.IBinarySerializable
   name: IBinarySerializable
   href: api/TruckLib.IBinarySerializable.html

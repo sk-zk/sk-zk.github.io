@@ -276,6 +276,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.HermiteSpline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.HermiteSpline.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HermiteSpline",
+      "Summary": "<p sourcefile=\"api/TruckLib.HermiteSpline.yml\" sourcestartlinenumber=\"1\">Functions for interpolating Hermite splines.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TruckLib.IBinarySerializable.yml",
       "output": {
         ".html": {
