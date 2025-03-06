@@ -2020,6 +2020,22 @@ references:
   isSpec: "True"
   fullName: TruckLib.HermiteSpline.DerivativePolyline
   nameWithType: HermiteSpline.DerivativePolyline
+- uid: TruckLib.HermiteSpline.GetEquidistantPoints(TruckLib.ScsMap.INode,TruckLib.ScsMap.INode,System.Single,System.Single,System.Single)
+  name: GetEquidistantPoints(INode, INode, float, float, float)
+  href: api/TruckLib.HermiteSpline.html#TruckLib_HermiteSpline_GetEquidistantPoints_TruckLib_ScsMap_INode_TruckLib_ScsMap_INode_System_Single_System_Single_System_Single_
+  commentId: M:TruckLib.HermiteSpline.GetEquidistantPoints(TruckLib.ScsMap.INode,TruckLib.ScsMap.INode,System.Single,System.Single,System.Single)
+  name.vb: GetEquidistantPoints(INode, INode, Single, Single, Single)
+  fullName: TruckLib.HermiteSpline.GetEquidistantPoints(TruckLib.ScsMap.INode, TruckLib.ScsMap.INode, float, float, float)
+  fullName.vb: TruckLib.HermiteSpline.GetEquidistantPoints(TruckLib.ScsMap.INode, TruckLib.ScsMap.INode, Single, Single, Single)
+  nameWithType: HermiteSpline.GetEquidistantPoints(INode, INode, float, float, float)
+  nameWithType.vb: HermiteSpline.GetEquidistantPoints(INode, INode, Single, Single, Single)
+- uid: TruckLib.HermiteSpline.GetEquidistantPoints*
+  name: GetEquidistantPoints
+  href: api/TruckLib.HermiteSpline.html#TruckLib_HermiteSpline_GetEquidistantPoints_
+  commentId: Overload:TruckLib.HermiteSpline.GetEquidistantPoints
+  isSpec: "True"
+  fullName: TruckLib.HermiteSpline.GetEquidistantPoints
+  nameWithType: HermiteSpline.GetEquidistantPoints
 - uid: TruckLib.HermiteSpline.Interpolate(System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3,System.Single)
   name: Interpolate(Vector3, Vector3, Vector3, Vector3, float)
   href: api/TruckLib.HermiteSpline.html#TruckLib_HermiteSpline_Interpolate_System_Numerics_Vector3_System_Numerics_Vector3_System_Numerics_Vector3_System_Numerics_Vector3_System_Single_
@@ -6656,6 +6672,57 @@ references:
   fullName.vb: TruckLib.Nibble.-
   nameWithType: Nibble.operator -
   nameWithType.vb: Nibble.-
+- uid: TruckLib.OrientedPoint
+  name: OrientedPoint
+  href: api/TruckLib.OrientedPoint.html
+  commentId: T:TruckLib.OrientedPoint
+  fullName: TruckLib.OrientedPoint
+  nameWithType: OrientedPoint
+- uid: TruckLib.OrientedPoint.#ctor(System.Numerics.Vector3,System.Numerics.Quaternion)
+  name: OrientedPoint(Vector3, Quaternion)
+  href: api/TruckLib.OrientedPoint.html#TruckLib_OrientedPoint__ctor_System_Numerics_Vector3_System_Numerics_Quaternion_
+  commentId: M:TruckLib.OrientedPoint.#ctor(System.Numerics.Vector3,System.Numerics.Quaternion)
+  name.vb: New(Vector3, Quaternion)
+  fullName: TruckLib.OrientedPoint.OrientedPoint(System.Numerics.Vector3, System.Numerics.Quaternion)
+  fullName.vb: TruckLib.OrientedPoint.New(System.Numerics.Vector3, System.Numerics.Quaternion)
+  nameWithType: OrientedPoint.OrientedPoint(Vector3, Quaternion)
+  nameWithType.vb: OrientedPoint.New(Vector3, Quaternion)
+- uid: TruckLib.OrientedPoint.#ctor*
+  name: OrientedPoint
+  href: api/TruckLib.OrientedPoint.html#TruckLib_OrientedPoint__ctor_
+  commentId: Overload:TruckLib.OrientedPoint.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TruckLib.OrientedPoint.OrientedPoint
+  fullName.vb: TruckLib.OrientedPoint.New
+  nameWithType: OrientedPoint.OrientedPoint
+  nameWithType.vb: OrientedPoint.New
+- uid: TruckLib.OrientedPoint.Position
+  name: Position
+  href: api/TruckLib.OrientedPoint.html#TruckLib_OrientedPoint_Position
+  commentId: P:TruckLib.OrientedPoint.Position
+  fullName: TruckLib.OrientedPoint.Position
+  nameWithType: OrientedPoint.Position
+- uid: TruckLib.OrientedPoint.Position*
+  name: Position
+  href: api/TruckLib.OrientedPoint.html#TruckLib_OrientedPoint_Position_
+  commentId: Overload:TruckLib.OrientedPoint.Position
+  isSpec: "True"
+  fullName: TruckLib.OrientedPoint.Position
+  nameWithType: OrientedPoint.Position
+- uid: TruckLib.OrientedPoint.Rotation
+  name: Rotation
+  href: api/TruckLib.OrientedPoint.html#TruckLib_OrientedPoint_Rotation
+  commentId: P:TruckLib.OrientedPoint.Rotation
+  fullName: TruckLib.OrientedPoint.Rotation
+  nameWithType: OrientedPoint.Rotation
+- uid: TruckLib.OrientedPoint.Rotation*
+  name: Rotation
+  href: api/TruckLib.OrientedPoint.html#TruckLib_OrientedPoint_Rotation_
+  commentId: Overload:TruckLib.OrientedPoint.Rotation
+  isSpec: "True"
+  fullName: TruckLib.OrientedPoint.Rotation
+  nameWithType: OrientedPoint.Rotation
 - uid: TruckLib.ScsMap
   name: TruckLib.ScsMap
   href: api/TruckLib.ScsMap.html
@@ -18415,6 +18482,31 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.PolylineItem.BackwardItem
   nameWithType: PolylineItem.BackwardItem
+- uid: TruckLib.ScsMap.PolylineItem.CreateItemsAlongPath(TruckLib.ScsMap.PolylineItem,TruckLib.ScsMap.PolylineItem,System.Single,System.Func{TruckLib.ScsMap.IItemContainer,TruckLib.OrientedPoint,System.Collections.Generic.IList{TruckLib.ScsMap.MapItem}})
+  name: CreateItemsAlongPath(PolylineItem, PolylineItem, float, Func<IItemContainer, OrientedPoint, IList<MapItem>>)
+  href: api/TruckLib.ScsMap.PolylineItem.html#TruckLib_ScsMap_PolylineItem_CreateItemsAlongPath_TruckLib_ScsMap_PolylineItem_TruckLib_ScsMap_PolylineItem_System_Single_System_Func_TruckLib_ScsMap_IItemContainer_TruckLib_OrientedPoint_System_Collections_Generic_IList_TruckLib_ScsMap_MapItem___
+  commentId: M:TruckLib.ScsMap.PolylineItem.CreateItemsAlongPath(TruckLib.ScsMap.PolylineItem,TruckLib.ScsMap.PolylineItem,System.Single,System.Func{TruckLib.ScsMap.IItemContainer,TruckLib.OrientedPoint,System.Collections.Generic.IList{TruckLib.ScsMap.MapItem}})
+  name.vb: CreateItemsAlongPath(PolylineItem, PolylineItem, Single, Func(Of IItemContainer, OrientedPoint, IList(Of MapItem)))
+  fullName: TruckLib.ScsMap.PolylineItem.CreateItemsAlongPath(TruckLib.ScsMap.PolylineItem, TruckLib.ScsMap.PolylineItem, float, System.Func<TruckLib.ScsMap.IItemContainer, TruckLib.OrientedPoint, System.Collections.Generic.IList<TruckLib.ScsMap.MapItem>>)
+  fullName.vb: TruckLib.ScsMap.PolylineItem.CreateItemsAlongPath(TruckLib.ScsMap.PolylineItem, TruckLib.ScsMap.PolylineItem, Single, System.Func(Of TruckLib.ScsMap.IItemContainer, TruckLib.OrientedPoint, System.Collections.Generic.IList(Of TruckLib.ScsMap.MapItem)))
+  nameWithType: PolylineItem.CreateItemsAlongPath(PolylineItem, PolylineItem, float, Func<IItemContainer, OrientedPoint, IList<MapItem>>)
+  nameWithType.vb: PolylineItem.CreateItemsAlongPath(PolylineItem, PolylineItem, Single, Func(Of IItemContainer, OrientedPoint, IList(Of MapItem)))
+- uid: TruckLib.ScsMap.PolylineItem.CreateItemsAlongPath(TruckLib.ScsMap.PolylineItem,TruckLib.ScsMap.PolylineItem,System.Single,System.Single,System.Single,System.Func{TruckLib.ScsMap.IItemContainer,TruckLib.OrientedPoint,System.Collections.Generic.IList{TruckLib.ScsMap.MapItem}})
+  name: CreateItemsAlongPath(PolylineItem, PolylineItem, float, float, float, Func<IItemContainer, OrientedPoint, IList<MapItem>>)
+  href: api/TruckLib.ScsMap.PolylineItem.html#TruckLib_ScsMap_PolylineItem_CreateItemsAlongPath_TruckLib_ScsMap_PolylineItem_TruckLib_ScsMap_PolylineItem_System_Single_System_Single_System_Single_System_Func_TruckLib_ScsMap_IItemContainer_TruckLib_OrientedPoint_System_Collections_Generic_IList_TruckLib_ScsMap_MapItem___
+  commentId: M:TruckLib.ScsMap.PolylineItem.CreateItemsAlongPath(TruckLib.ScsMap.PolylineItem,TruckLib.ScsMap.PolylineItem,System.Single,System.Single,System.Single,System.Func{TruckLib.ScsMap.IItemContainer,TruckLib.OrientedPoint,System.Collections.Generic.IList{TruckLib.ScsMap.MapItem}})
+  name.vb: CreateItemsAlongPath(PolylineItem, PolylineItem, Single, Single, Single, Func(Of IItemContainer, OrientedPoint, IList(Of MapItem)))
+  fullName: TruckLib.ScsMap.PolylineItem.CreateItemsAlongPath(TruckLib.ScsMap.PolylineItem, TruckLib.ScsMap.PolylineItem, float, float, float, System.Func<TruckLib.ScsMap.IItemContainer, TruckLib.OrientedPoint, System.Collections.Generic.IList<TruckLib.ScsMap.MapItem>>)
+  fullName.vb: TruckLib.ScsMap.PolylineItem.CreateItemsAlongPath(TruckLib.ScsMap.PolylineItem, TruckLib.ScsMap.PolylineItem, Single, Single, Single, System.Func(Of TruckLib.ScsMap.IItemContainer, TruckLib.OrientedPoint, System.Collections.Generic.IList(Of TruckLib.ScsMap.MapItem)))
+  nameWithType: PolylineItem.CreateItemsAlongPath(PolylineItem, PolylineItem, float, float, float, Func<IItemContainer, OrientedPoint, IList<MapItem>>)
+  nameWithType.vb: PolylineItem.CreateItemsAlongPath(PolylineItem, PolylineItem, Single, Single, Single, Func(Of IItemContainer, OrientedPoint, IList(Of MapItem)))
+- uid: TruckLib.ScsMap.PolylineItem.CreateItemsAlongPath*
+  name: CreateItemsAlongPath
+  href: api/TruckLib.ScsMap.PolylineItem.html#TruckLib_ScsMap_PolylineItem_CreateItemsAlongPath_
+  commentId: Overload:TruckLib.ScsMap.PolylineItem.CreateItemsAlongPath
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.PolylineItem.CreateItemsAlongPath
+  nameWithType: PolylineItem.CreateItemsAlongPath
 - uid: TruckLib.ScsMap.PolylineItem.FindFirstItem
   name: FindFirstItem()
   href: api/TruckLib.ScsMap.PolylineItem.html#TruckLib_ScsMap_PolylineItem_FindFirstItem

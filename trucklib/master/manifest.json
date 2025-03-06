@@ -892,6 +892,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.OrientedPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.OrientedPoint.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.OrientedPoint",
+      "Summary": "<p sourcefile=\"api/TruckLib.OrientedPoint.yml\" sourcestartlinenumber=\"1\">Represents a point which has a position and a rotation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TruckLib.ScsMap.ActionBase.yml",
       "output": {
         ".html": {
