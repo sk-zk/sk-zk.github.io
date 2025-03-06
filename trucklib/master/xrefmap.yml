@@ -21405,6 +21405,12 @@ references:
   fullName.vb: TruckLib.ScsMap.Sign.New
   nameWithType: Sign.Sign
   nameWithType.vb: Sign.New
+- uid: TruckLib.ScsMap.Sign.Add(TruckLib.ScsMap.IItemContainer,System.Numerics.Vector3,TruckLib.Token)
+  name: Add(IItemContainer, Vector3, Token)
+  href: api/TruckLib.ScsMap.Sign.html#TruckLib_ScsMap_Sign_Add_TruckLib_ScsMap_IItemContainer_System_Numerics_Vector3_TruckLib_Token_
+  commentId: M:TruckLib.ScsMap.Sign.Add(TruckLib.ScsMap.IItemContainer,System.Numerics.Vector3,TruckLib.Token)
+  fullName: TruckLib.ScsMap.Sign.Add(TruckLib.ScsMap.IItemContainer, System.Numerics.Vector3, TruckLib.Token)
+  nameWithType: Sign.Add(IItemContainer, Vector3, Token)
 - uid: TruckLib.ScsMap.Sign.Add(TruckLib.ScsMap.IItemContainer,System.Numerics.Vector3,TruckLib.Token,System.String)
   name: Add(IItemContainer, Vector3, Token, string)
   href: api/TruckLib.ScsMap.Sign.html#TruckLib_ScsMap_Sign_Add_TruckLib_ScsMap_IItemContainer_System_Numerics_Vector3_TruckLib_Token_System_String_
