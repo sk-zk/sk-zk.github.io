@@ -576,6 +576,86 @@ of the created items.</p>
 
 
 
+  <a id="TruckLib_ScsMap_PolylineItem_InterpolateCurve_" data-uid="TruckLib.ScsMap.PolylineItem.InterpolateCurve*"></a>
+
+  <h3 id="TruckLib_ScsMap_PolylineItem_InterpolateCurve_System_Single_" data-uid="TruckLib.ScsMap.PolylineItem.InterpolateCurve(System.Single)">
+  InterpolateCurve(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/PolylineItem.cs/#L368"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Interpolates the spline between the two nodes at <em>t</em>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OrientedPoint InterpolateCurve(float t)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>t</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The interpolation parameter between 0 and 1.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.OrientedPoint.html">OrientedPoint</a></dt>
+    <dd><p>The position and rotation of the point at <em>t</em>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_PolylineItem_InterpolateCurveDist_" data-uid="TruckLib.ScsMap.PolylineItem.InterpolateCurveDist*"></a>
+
+  <h3 id="TruckLib_ScsMap_PolylineItem_InterpolateCurveDist_System_Single_" data-uid="TruckLib.ScsMap.PolylineItem.InterpolateCurveDist(System.Single)">
+  InterpolateCurveDist(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/PolylineItem.cs/#L382"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calculates the point on the spline which is <em>n</em> meters
+away from the <a class="xref" href="TruckLib.ScsMap.PolylineItem.html#TruckLib_ScsMap_PolylineItem_Node">backward node</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OrientedPoint? InterpolateCurveDist(float n)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>n</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The distance in meters.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.OrientedPoint.html">OrientedPoint</a>?</dt>
+    <dd><p>The position and rotation of the point,
+or null if the curve is shorter than <em>n</em>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="TruckLib_ScsMap_PolylineItem_Move_" data-uid="TruckLib.ScsMap.PolylineItem.Move*"></a>
 
   <h3 id="TruckLib_ScsMap_PolylineItem_Move_System_Numerics_Vector3_" data-uid="TruckLib.ScsMap.PolylineItem.Move(System.Numerics.Vector3)">

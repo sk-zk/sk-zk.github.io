@@ -2036,6 +2036,22 @@ references:
   isSpec: "True"
   fullName: TruckLib.HermiteSpline.GetEquidistantPoints
   nameWithType: HermiteSpline.GetEquidistantPoints
+- uid: TruckLib.HermiteSpline.GetSpacedPoints(TruckLib.ScsMap.INode,TruckLib.ScsMap.INode,System.Single[],System.Single,System.Single,System.Boolean)
+  name: GetSpacedPoints(INode, INode, float[], float, float, bool)
+  href: api/TruckLib.HermiteSpline.html#TruckLib_HermiteSpline_GetSpacedPoints_TruckLib_ScsMap_INode_TruckLib_ScsMap_INode_System_Single___System_Single_System_Single_System_Boolean_
+  commentId: M:TruckLib.HermiteSpline.GetSpacedPoints(TruckLib.ScsMap.INode,TruckLib.ScsMap.INode,System.Single[],System.Single,System.Single,System.Boolean)
+  name.vb: GetSpacedPoints(INode, INode, Single(), Single, Single, Boolean)
+  fullName: TruckLib.HermiteSpline.GetSpacedPoints(TruckLib.ScsMap.INode, TruckLib.ScsMap.INode, float[], float, float, bool)
+  fullName.vb: TruckLib.HermiteSpline.GetSpacedPoints(TruckLib.ScsMap.INode, TruckLib.ScsMap.INode, Single(), Single, Single, Boolean)
+  nameWithType: HermiteSpline.GetSpacedPoints(INode, INode, float[], float, float, bool)
+  nameWithType.vb: HermiteSpline.GetSpacedPoints(INode, INode, Single(), Single, Single, Boolean)
+- uid: TruckLib.HermiteSpline.GetSpacedPoints*
+  name: GetSpacedPoints
+  href: api/TruckLib.HermiteSpline.html#TruckLib_HermiteSpline_GetSpacedPoints_
+  commentId: Overload:TruckLib.HermiteSpline.GetSpacedPoints
+  isSpec: "True"
+  fullName: TruckLib.HermiteSpline.GetSpacedPoints
+  nameWithType: HermiteSpline.GetSpacedPoints
 - uid: TruckLib.HermiteSpline.Interpolate(System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3,System.Single)
   name: Interpolate(Vector3, Vector3, Vector3, Vector3, float)
   href: api/TruckLib.HermiteSpline.html#TruckLib_HermiteSpline_Interpolate_System_Numerics_Vector3_System_Numerics_Vector3_System_Numerics_Vector3_System_Numerics_Vector3_System_Single_
@@ -18589,6 +18605,38 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.PolylineItem.ForwardNode
   nameWithType: PolylineItem.ForwardNode
+- uid: TruckLib.ScsMap.PolylineItem.InterpolateCurve(System.Single)
+  name: InterpolateCurve(float)
+  href: api/TruckLib.ScsMap.PolylineItem.html#TruckLib_ScsMap_PolylineItem_InterpolateCurve_System_Single_
+  commentId: M:TruckLib.ScsMap.PolylineItem.InterpolateCurve(System.Single)
+  name.vb: InterpolateCurve(Single)
+  fullName: TruckLib.ScsMap.PolylineItem.InterpolateCurve(float)
+  fullName.vb: TruckLib.ScsMap.PolylineItem.InterpolateCurve(Single)
+  nameWithType: PolylineItem.InterpolateCurve(float)
+  nameWithType.vb: PolylineItem.InterpolateCurve(Single)
+- uid: TruckLib.ScsMap.PolylineItem.InterpolateCurve*
+  name: InterpolateCurve
+  href: api/TruckLib.ScsMap.PolylineItem.html#TruckLib_ScsMap_PolylineItem_InterpolateCurve_
+  commentId: Overload:TruckLib.ScsMap.PolylineItem.InterpolateCurve
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.PolylineItem.InterpolateCurve
+  nameWithType: PolylineItem.InterpolateCurve
+- uid: TruckLib.ScsMap.PolylineItem.InterpolateCurveDist(System.Single)
+  name: InterpolateCurveDist(float)
+  href: api/TruckLib.ScsMap.PolylineItem.html#TruckLib_ScsMap_PolylineItem_InterpolateCurveDist_System_Single_
+  commentId: M:TruckLib.ScsMap.PolylineItem.InterpolateCurveDist(System.Single)
+  name.vb: InterpolateCurveDist(Single)
+  fullName: TruckLib.ScsMap.PolylineItem.InterpolateCurveDist(float)
+  fullName.vb: TruckLib.ScsMap.PolylineItem.InterpolateCurveDist(Single)
+  nameWithType: PolylineItem.InterpolateCurveDist(float)
+  nameWithType.vb: PolylineItem.InterpolateCurveDist(Single)
+- uid: TruckLib.ScsMap.PolylineItem.InterpolateCurveDist*
+  name: InterpolateCurveDist
+  href: api/TruckLib.ScsMap.PolylineItem.html#TruckLib_ScsMap_PolylineItem_InterpolateCurveDist_
+  commentId: Overload:TruckLib.ScsMap.PolylineItem.InterpolateCurveDist
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.PolylineItem.InterpolateCurveDist
+  nameWithType: PolylineItem.InterpolateCurveDist
 - uid: TruckLib.ScsMap.PolylineItem.Length
   name: Length
   href: api/TruckLib.ScsMap.PolylineItem.html#TruckLib_ScsMap_PolylineItem_Length
