@@ -20509,19 +20509,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.RoadSide.AdditionalParts
   nameWithType: RoadSide.AdditionalParts
-- uid: TruckLib.ScsMap.RoadSide.Clone
-  name: Clone()
-  href: api/TruckLib.ScsMap.RoadSide.html#TruckLib_ScsMap_RoadSide_Clone
-  commentId: M:TruckLib.ScsMap.RoadSide.Clone
-  fullName: TruckLib.ScsMap.RoadSide.Clone()
-  nameWithType: RoadSide.Clone()
-- uid: TruckLib.ScsMap.RoadSide.Clone*
-  name: Clone
-  href: api/TruckLib.ScsMap.RoadSide.html#TruckLib_ScsMap_RoadSide_Clone_
-  commentId: Overload:TruckLib.ScsMap.RoadSide.Clone
+- uid: TruckLib.ScsMap.RoadSide.CopyTo(TruckLib.ScsMap.RoadSide)
+  name: CopyTo(RoadSide)
+  href: api/TruckLib.ScsMap.RoadSide.html#TruckLib_ScsMap_RoadSide_CopyTo_TruckLib_ScsMap_RoadSide_
+  commentId: M:TruckLib.ScsMap.RoadSide.CopyTo(TruckLib.ScsMap.RoadSide)
+  fullName: TruckLib.ScsMap.RoadSide.CopyTo(TruckLib.ScsMap.RoadSide)
+  nameWithType: RoadSide.CopyTo(RoadSide)
+- uid: TruckLib.ScsMap.RoadSide.CopyTo*
+  name: CopyTo
+  href: api/TruckLib.ScsMap.RoadSide.html#TruckLib_ScsMap_RoadSide_CopyTo_
+  commentId: Overload:TruckLib.ScsMap.RoadSide.CopyTo
   isSpec: "True"
-  fullName: TruckLib.ScsMap.RoadSide.Clone
-  nameWithType: RoadSide.Clone
+  fullName: TruckLib.ScsMap.RoadSide.CopyTo
+  nameWithType: RoadSide.CopyTo
 - uid: TruckLib.ScsMap.RoadSide.DetailVegetation
   name: DetailVegetation
   href: api/TruckLib.ScsMap.RoadSide.html#TruckLib_ScsMap_RoadSide_DetailVegetation
@@ -20819,19 +20819,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.RoadTerrain.CalculateQuadGrid
   nameWithType: RoadTerrain.CalculateQuadGrid
-- uid: TruckLib.ScsMap.RoadTerrain.Clone
-  name: Clone()
-  href: api/TruckLib.ScsMap.RoadTerrain.html#TruckLib_ScsMap_RoadTerrain_Clone
-  commentId: M:TruckLib.ScsMap.RoadTerrain.Clone
-  fullName: TruckLib.ScsMap.RoadTerrain.Clone()
-  nameWithType: RoadTerrain.Clone()
-- uid: TruckLib.ScsMap.RoadTerrain.Clone*
-  name: Clone
-  href: api/TruckLib.ScsMap.RoadTerrain.html#TruckLib_ScsMap_RoadTerrain_Clone_
-  commentId: Overload:TruckLib.ScsMap.RoadTerrain.Clone
+- uid: TruckLib.ScsMap.RoadTerrain.CopyTo(TruckLib.ScsMap.RoadTerrain)
+  name: CopyTo(RoadTerrain)
+  href: api/TruckLib.ScsMap.RoadTerrain.html#TruckLib_ScsMap_RoadTerrain_CopyTo_TruckLib_ScsMap_RoadTerrain_
+  commentId: M:TruckLib.ScsMap.RoadTerrain.CopyTo(TruckLib.ScsMap.RoadTerrain)
+  fullName: TruckLib.ScsMap.RoadTerrain.CopyTo(TruckLib.ScsMap.RoadTerrain)
+  nameWithType: RoadTerrain.CopyTo(RoadTerrain)
+- uid: TruckLib.ScsMap.RoadTerrain.CopyTo*
+  name: CopyTo
+  href: api/TruckLib.ScsMap.RoadTerrain.html#TruckLib_ScsMap_RoadTerrain_CopyTo_
+  commentId: Overload:TruckLib.ScsMap.RoadTerrain.CopyTo
   isSpec: "True"
-  fullName: TruckLib.ScsMap.RoadTerrain.Clone
-  nameWithType: RoadTerrain.Clone
+  fullName: TruckLib.ScsMap.RoadTerrain.CopyTo
+  nameWithType: RoadTerrain.CopyTo
 - uid: TruckLib.ScsMap.RoadTerrain.Init
   name: Init()
   href: api/TruckLib.ScsMap.RoadTerrain.html#TruckLib_ScsMap_RoadTerrain_Init
