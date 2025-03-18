@@ -3647,58 +3647,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Ppd.ControlNode.Serialize
   nameWithType: ControlNode.Serialize
-- uid: TruckLib.Models.Ppd.ControlNode.TerrainPointCount
-  name: TerrainPointCount
-  href: api/TruckLib.Models.Ppd.ControlNode.html#TruckLib_Models_Ppd_ControlNode_TerrainPointCount
-  commentId: P:TruckLib.Models.Ppd.ControlNode.TerrainPointCount
-  fullName: TruckLib.Models.Ppd.ControlNode.TerrainPointCount
-  nameWithType: ControlNode.TerrainPointCount
-- uid: TruckLib.Models.Ppd.ControlNode.TerrainPointCount*
-  name: TerrainPointCount
-  href: api/TruckLib.Models.Ppd.ControlNode.html#TruckLib_Models_Ppd_ControlNode_TerrainPointCount_
-  commentId: Overload:TruckLib.Models.Ppd.ControlNode.TerrainPointCount
+- uid: TruckLib.Models.Ppd.ControlNode.TerrainPoints
+  name: TerrainPoints
+  href: api/TruckLib.Models.Ppd.ControlNode.html#TruckLib_Models_Ppd_ControlNode_TerrainPoints
+  commentId: P:TruckLib.Models.Ppd.ControlNode.TerrainPoints
+  fullName: TruckLib.Models.Ppd.ControlNode.TerrainPoints
+  nameWithType: ControlNode.TerrainPoints
+- uid: TruckLib.Models.Ppd.ControlNode.TerrainPoints*
+  name: TerrainPoints
+  href: api/TruckLib.Models.Ppd.ControlNode.html#TruckLib_Models_Ppd_ControlNode_TerrainPoints_
+  commentId: Overload:TruckLib.Models.Ppd.ControlNode.TerrainPoints
   isSpec: "True"
-  fullName: TruckLib.Models.Ppd.ControlNode.TerrainPointCount
-  nameWithType: ControlNode.TerrainPointCount
-- uid: TruckLib.Models.Ppd.ControlNode.TerrainPointIndex
-  name: TerrainPointIndex
-  href: api/TruckLib.Models.Ppd.ControlNode.html#TruckLib_Models_Ppd_ControlNode_TerrainPointIndex
-  commentId: P:TruckLib.Models.Ppd.ControlNode.TerrainPointIndex
-  fullName: TruckLib.Models.Ppd.ControlNode.TerrainPointIndex
-  nameWithType: ControlNode.TerrainPointIndex
-- uid: TruckLib.Models.Ppd.ControlNode.TerrainPointIndex*
-  name: TerrainPointIndex
-  href: api/TruckLib.Models.Ppd.ControlNode.html#TruckLib_Models_Ppd_ControlNode_TerrainPointIndex_
-  commentId: Overload:TruckLib.Models.Ppd.ControlNode.TerrainPointIndex
-  isSpec: "True"
-  fullName: TruckLib.Models.Ppd.ControlNode.TerrainPointIndex
-  nameWithType: ControlNode.TerrainPointIndex
-- uid: TruckLib.Models.Ppd.ControlNode.VariantCount
-  name: VariantCount
-  href: api/TruckLib.Models.Ppd.ControlNode.html#TruckLib_Models_Ppd_ControlNode_VariantCount
-  commentId: P:TruckLib.Models.Ppd.ControlNode.VariantCount
-  fullName: TruckLib.Models.Ppd.ControlNode.VariantCount
-  nameWithType: ControlNode.VariantCount
-- uid: TruckLib.Models.Ppd.ControlNode.VariantCount*
-  name: VariantCount
-  href: api/TruckLib.Models.Ppd.ControlNode.html#TruckLib_Models_Ppd_ControlNode_VariantCount_
-  commentId: Overload:TruckLib.Models.Ppd.ControlNode.VariantCount
-  isSpec: "True"
-  fullName: TruckLib.Models.Ppd.ControlNode.VariantCount
-  nameWithType: ControlNode.VariantCount
-- uid: TruckLib.Models.Ppd.ControlNode.VariantIdx
-  name: VariantIdx
-  href: api/TruckLib.Models.Ppd.ControlNode.html#TruckLib_Models_Ppd_ControlNode_VariantIdx
-  commentId: P:TruckLib.Models.Ppd.ControlNode.VariantIdx
-  fullName: TruckLib.Models.Ppd.ControlNode.VariantIdx
-  nameWithType: ControlNode.VariantIdx
-- uid: TruckLib.Models.Ppd.ControlNode.VariantIdx*
-  name: VariantIdx
-  href: api/TruckLib.Models.Ppd.ControlNode.html#TruckLib_Models_Ppd_ControlNode_VariantIdx_
-  commentId: Overload:TruckLib.Models.Ppd.ControlNode.VariantIdx
-  isSpec: "True"
-  fullName: TruckLib.Models.Ppd.ControlNode.VariantIdx
-  nameWithType: ControlNode.VariantIdx
+  fullName: TruckLib.Models.Ppd.ControlNode.TerrainPoints
+  nameWithType: ControlNode.TerrainPoints
 - uid: TruckLib.Models.Ppd.CustomColor
   name: CustomColor
   href: api/TruckLib.Models.Ppd.CustomColor.html
@@ -4536,45 +4497,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Ppd.PrefabDescriptor.SpawnPoints
   nameWithType: PrefabDescriptor.SpawnPoints
-- uid: TruckLib.Models.Ppd.PrefabDescriptor.TerrainPointNormals
-  name: TerrainPointNormals
-  href: api/TruckLib.Models.Ppd.PrefabDescriptor.html#TruckLib_Models_Ppd_PrefabDescriptor_TerrainPointNormals
-  commentId: P:TruckLib.Models.Ppd.PrefabDescriptor.TerrainPointNormals
-  fullName: TruckLib.Models.Ppd.PrefabDescriptor.TerrainPointNormals
-  nameWithType: PrefabDescriptor.TerrainPointNormals
-- uid: TruckLib.Models.Ppd.PrefabDescriptor.TerrainPointNormals*
-  name: TerrainPointNormals
-  href: api/TruckLib.Models.Ppd.PrefabDescriptor.html#TruckLib_Models_Ppd_PrefabDescriptor_TerrainPointNormals_
-  commentId: Overload:TruckLib.Models.Ppd.PrefabDescriptor.TerrainPointNormals
-  isSpec: "True"
-  fullName: TruckLib.Models.Ppd.PrefabDescriptor.TerrainPointNormals
-  nameWithType: PrefabDescriptor.TerrainPointNormals
-- uid: TruckLib.Models.Ppd.PrefabDescriptor.TerrainPointPositions
-  name: TerrainPointPositions
-  href: api/TruckLib.Models.Ppd.PrefabDescriptor.html#TruckLib_Models_Ppd_PrefabDescriptor_TerrainPointPositions
-  commentId: P:TruckLib.Models.Ppd.PrefabDescriptor.TerrainPointPositions
-  fullName: TruckLib.Models.Ppd.PrefabDescriptor.TerrainPointPositions
-  nameWithType: PrefabDescriptor.TerrainPointPositions
-- uid: TruckLib.Models.Ppd.PrefabDescriptor.TerrainPointPositions*
-  name: TerrainPointPositions
-  href: api/TruckLib.Models.Ppd.PrefabDescriptor.html#TruckLib_Models_Ppd_PrefabDescriptor_TerrainPointPositions_
-  commentId: Overload:TruckLib.Models.Ppd.PrefabDescriptor.TerrainPointPositions
-  isSpec: "True"
-  fullName: TruckLib.Models.Ppd.PrefabDescriptor.TerrainPointPositions
-  nameWithType: PrefabDescriptor.TerrainPointPositions
-- uid: TruckLib.Models.Ppd.PrefabDescriptor.TerrainPointVariants
-  name: TerrainPointVariants
-  href: api/TruckLib.Models.Ppd.PrefabDescriptor.html#TruckLib_Models_Ppd_PrefabDescriptor_TerrainPointVariants
-  commentId: P:TruckLib.Models.Ppd.PrefabDescriptor.TerrainPointVariants
-  fullName: TruckLib.Models.Ppd.PrefabDescriptor.TerrainPointVariants
-  nameWithType: PrefabDescriptor.TerrainPointVariants
-- uid: TruckLib.Models.Ppd.PrefabDescriptor.TerrainPointVariants*
-  name: TerrainPointVariants
-  href: api/TruckLib.Models.Ppd.PrefabDescriptor.html#TruckLib_Models_Ppd_PrefabDescriptor_TerrainPointVariants_
-  commentId: Overload:TruckLib.Models.Ppd.PrefabDescriptor.TerrainPointVariants
-  isSpec: "True"
-  fullName: TruckLib.Models.Ppd.PrefabDescriptor.TerrainPointVariants
-  nameWithType: PrefabDescriptor.TerrainPointVariants
 - uid: TruckLib.Models.Ppd.PrefabDescriptor.TriggerPoints
   name: TriggerPoints
   href: api/TruckLib.Models.Ppd.PrefabDescriptor.html#TruckLib_Models_Ppd_PrefabDescriptor_TriggerPoints
@@ -5287,67 +5209,66 @@ references:
   commentId: F:TruckLib.Models.Ppd.SpawnPointType.WeighStationCat
   fullName: TruckLib.Models.Ppd.SpawnPointType.WeighStationCat
   nameWithType: SpawnPointType.WeighStationCat
-- uid: TruckLib.Models.Ppd.TerrainPointVariant
-  name: TerrainPointVariant
-  href: api/TruckLib.Models.Ppd.TerrainPointVariant.html
-  commentId: T:TruckLib.Models.Ppd.TerrainPointVariant
-  fullName: TruckLib.Models.Ppd.TerrainPointVariant
-  nameWithType: TerrainPointVariant
-- uid: TruckLib.Models.Ppd.TerrainPointVariant.Attach0
-  name: Attach0
-  href: api/TruckLib.Models.Ppd.TerrainPointVariant.html#TruckLib_Models_Ppd_TerrainPointVariant_Attach0
-  commentId: P:TruckLib.Models.Ppd.TerrainPointVariant.Attach0
-  fullName: TruckLib.Models.Ppd.TerrainPointVariant.Attach0
-  nameWithType: TerrainPointVariant.Attach0
-- uid: TruckLib.Models.Ppd.TerrainPointVariant.Attach0*
-  name: Attach0
-  href: api/TruckLib.Models.Ppd.TerrainPointVariant.html#TruckLib_Models_Ppd_TerrainPointVariant_Attach0_
-  commentId: Overload:TruckLib.Models.Ppd.TerrainPointVariant.Attach0
+- uid: TruckLib.Models.Ppd.TerrainPoint
+  name: TerrainPoint
+  href: api/TruckLib.Models.Ppd.TerrainPoint.html
+  commentId: T:TruckLib.Models.Ppd.TerrainPoint
+  fullName: TruckLib.Models.Ppd.TerrainPoint
+  nameWithType: TerrainPoint
+- uid: TruckLib.Models.Ppd.TerrainPoint.#ctor
+  name: TerrainPoint()
+  href: api/TruckLib.Models.Ppd.TerrainPoint.html#TruckLib_Models_Ppd_TerrainPoint__ctor
+  commentId: M:TruckLib.Models.Ppd.TerrainPoint.#ctor
+  name.vb: New()
+  fullName: TruckLib.Models.Ppd.TerrainPoint.TerrainPoint()
+  fullName.vb: TruckLib.Models.Ppd.TerrainPoint.New()
+  nameWithType: TerrainPoint.TerrainPoint()
+  nameWithType.vb: TerrainPoint.New()
+- uid: TruckLib.Models.Ppd.TerrainPoint.#ctor(System.Numerics.Vector3,System.Numerics.Vector3)
+  name: TerrainPoint(Vector3, Vector3)
+  href: api/TruckLib.Models.Ppd.TerrainPoint.html#TruckLib_Models_Ppd_TerrainPoint__ctor_System_Numerics_Vector3_System_Numerics_Vector3_
+  commentId: M:TruckLib.Models.Ppd.TerrainPoint.#ctor(System.Numerics.Vector3,System.Numerics.Vector3)
+  name.vb: New(Vector3, Vector3)
+  fullName: TruckLib.Models.Ppd.TerrainPoint.TerrainPoint(System.Numerics.Vector3, System.Numerics.Vector3)
+  fullName.vb: TruckLib.Models.Ppd.TerrainPoint.New(System.Numerics.Vector3, System.Numerics.Vector3)
+  nameWithType: TerrainPoint.TerrainPoint(Vector3, Vector3)
+  nameWithType.vb: TerrainPoint.New(Vector3, Vector3)
+- uid: TruckLib.Models.Ppd.TerrainPoint.#ctor*
+  name: TerrainPoint
+  href: api/TruckLib.Models.Ppd.TerrainPoint.html#TruckLib_Models_Ppd_TerrainPoint__ctor_
+  commentId: Overload:TruckLib.Models.Ppd.TerrainPoint.#ctor
   isSpec: "True"
-  fullName: TruckLib.Models.Ppd.TerrainPointVariant.Attach0
-  nameWithType: TerrainPointVariant.Attach0
-- uid: TruckLib.Models.Ppd.TerrainPointVariant.Attach1
-  name: Attach1
-  href: api/TruckLib.Models.Ppd.TerrainPointVariant.html#TruckLib_Models_Ppd_TerrainPointVariant_Attach1
-  commentId: P:TruckLib.Models.Ppd.TerrainPointVariant.Attach1
-  fullName: TruckLib.Models.Ppd.TerrainPointVariant.Attach1
-  nameWithType: TerrainPointVariant.Attach1
-- uid: TruckLib.Models.Ppd.TerrainPointVariant.Attach1*
-  name: Attach1
-  href: api/TruckLib.Models.Ppd.TerrainPointVariant.html#TruckLib_Models_Ppd_TerrainPointVariant_Attach1_
-  commentId: Overload:TruckLib.Models.Ppd.TerrainPointVariant.Attach1
+  name.vb: New
+  fullName: TruckLib.Models.Ppd.TerrainPoint.TerrainPoint
+  fullName.vb: TruckLib.Models.Ppd.TerrainPoint.New
+  nameWithType: TerrainPoint.TerrainPoint
+  nameWithType.vb: TerrainPoint.New
+- uid: TruckLib.Models.Ppd.TerrainPoint.Normal
+  name: Normal
+  href: api/TruckLib.Models.Ppd.TerrainPoint.html#TruckLib_Models_Ppd_TerrainPoint_Normal
+  commentId: P:TruckLib.Models.Ppd.TerrainPoint.Normal
+  fullName: TruckLib.Models.Ppd.TerrainPoint.Normal
+  nameWithType: TerrainPoint.Normal
+- uid: TruckLib.Models.Ppd.TerrainPoint.Normal*
+  name: Normal
+  href: api/TruckLib.Models.Ppd.TerrainPoint.html#TruckLib_Models_Ppd_TerrainPoint_Normal_
+  commentId: Overload:TruckLib.Models.Ppd.TerrainPoint.Normal
   isSpec: "True"
-  fullName: TruckLib.Models.Ppd.TerrainPointVariant.Attach1
-  nameWithType: TerrainPointVariant.Attach1
-- uid: TruckLib.Models.Ppd.TerrainPointVariant.Deserialize(System.IO.BinaryReader,System.Nullable{System.UInt32})
-  name: Deserialize(BinaryReader, uint?)
-  href: api/TruckLib.Models.Ppd.TerrainPointVariant.html#TruckLib_Models_Ppd_TerrainPointVariant_Deserialize_System_IO_BinaryReader_System_Nullable_System_UInt32__
-  commentId: M:TruckLib.Models.Ppd.TerrainPointVariant.Deserialize(System.IO.BinaryReader,System.Nullable{System.UInt32})
-  name.vb: Deserialize(BinaryReader, UInteger?)
-  fullName: TruckLib.Models.Ppd.TerrainPointVariant.Deserialize(System.IO.BinaryReader, uint?)
-  fullName.vb: TruckLib.Models.Ppd.TerrainPointVariant.Deserialize(System.IO.BinaryReader, UInteger?)
-  nameWithType: TerrainPointVariant.Deserialize(BinaryReader, uint?)
-  nameWithType.vb: TerrainPointVariant.Deserialize(BinaryReader, UInteger?)
-- uid: TruckLib.Models.Ppd.TerrainPointVariant.Deserialize*
-  name: Deserialize
-  href: api/TruckLib.Models.Ppd.TerrainPointVariant.html#TruckLib_Models_Ppd_TerrainPointVariant_Deserialize_
-  commentId: Overload:TruckLib.Models.Ppd.TerrainPointVariant.Deserialize
+  fullName: TruckLib.Models.Ppd.TerrainPoint.Normal
+  nameWithType: TerrainPoint.Normal
+- uid: TruckLib.Models.Ppd.TerrainPoint.Position
+  name: Position
+  href: api/TruckLib.Models.Ppd.TerrainPoint.html#TruckLib_Models_Ppd_TerrainPoint_Position
+  commentId: P:TruckLib.Models.Ppd.TerrainPoint.Position
+  fullName: TruckLib.Models.Ppd.TerrainPoint.Position
+  nameWithType: TerrainPoint.Position
+- uid: TruckLib.Models.Ppd.TerrainPoint.Position*
+  name: Position
+  href: api/TruckLib.Models.Ppd.TerrainPoint.html#TruckLib_Models_Ppd_TerrainPoint_Position_
+  commentId: Overload:TruckLib.Models.Ppd.TerrainPoint.Position
   isSpec: "True"
-  fullName: TruckLib.Models.Ppd.TerrainPointVariant.Deserialize
-  nameWithType: TerrainPointVariant.Deserialize
-- uid: TruckLib.Models.Ppd.TerrainPointVariant.Serialize(System.IO.BinaryWriter)
-  name: Serialize(BinaryWriter)
-  href: api/TruckLib.Models.Ppd.TerrainPointVariant.html#TruckLib_Models_Ppd_TerrainPointVariant_Serialize_System_IO_BinaryWriter_
-  commentId: M:TruckLib.Models.Ppd.TerrainPointVariant.Serialize(System.IO.BinaryWriter)
-  fullName: TruckLib.Models.Ppd.TerrainPointVariant.Serialize(System.IO.BinaryWriter)
-  nameWithType: TerrainPointVariant.Serialize(BinaryWriter)
-- uid: TruckLib.Models.Ppd.TerrainPointVariant.Serialize*
-  name: Serialize
-  href: api/TruckLib.Models.Ppd.TerrainPointVariant.html#TruckLib_Models_Ppd_TerrainPointVariant_Serialize_
-  commentId: Overload:TruckLib.Models.Ppd.TerrainPointVariant.Serialize
-  isSpec: "True"
-  fullName: TruckLib.Models.Ppd.TerrainPointVariant.Serialize
-  nameWithType: TerrainPointVariant.Serialize
+  fullName: TruckLib.Models.Ppd.TerrainPoint.Position
+  nameWithType: TerrainPoint.Position
 - uid: TruckLib.Models.Ppd.TriggerPoint
   name: TriggerPoint
   href: api/TruckLib.Models.Ppd.TriggerPoint.html
@@ -11441,19 +11362,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.EdgeTerrain.Size
   nameWithType: EdgeTerrain.Size
-- uid: TruckLib.ScsMap.EdgeTerrain.UpdateQuadAmount
-  name: UpdateQuadAmount()
-  href: api/TruckLib.ScsMap.EdgeTerrain.html#TruckLib_ScsMap_EdgeTerrain_UpdateQuadAmount
-  commentId: M:TruckLib.ScsMap.EdgeTerrain.UpdateQuadAmount
-  fullName: TruckLib.ScsMap.EdgeTerrain.UpdateQuadAmount()
-  nameWithType: EdgeTerrain.UpdateQuadAmount()
-- uid: TruckLib.ScsMap.EdgeTerrain.UpdateQuadAmount*
-  name: UpdateQuadAmount
-  href: api/TruckLib.ScsMap.EdgeTerrain.html#TruckLib_ScsMap_EdgeTerrain_UpdateQuadAmount_
-  commentId: Overload:TruckLib.ScsMap.EdgeTerrain.UpdateQuadAmount
+- uid: TruckLib.ScsMap.EdgeTerrain.UpdateQuadList
+  name: UpdateQuadList()
+  href: api/TruckLib.ScsMap.EdgeTerrain.html#TruckLib_ScsMap_EdgeTerrain_UpdateQuadList
+  commentId: M:TruckLib.ScsMap.EdgeTerrain.UpdateQuadList
+  fullName: TruckLib.ScsMap.EdgeTerrain.UpdateQuadList()
+  nameWithType: EdgeTerrain.UpdateQuadList()
+- uid: TruckLib.ScsMap.EdgeTerrain.UpdateQuadList*
+  name: UpdateQuadList
+  href: api/TruckLib.ScsMap.EdgeTerrain.html#TruckLib_ScsMap_EdgeTerrain_UpdateQuadList_
+  commentId: Overload:TruckLib.ScsMap.EdgeTerrain.UpdateQuadList
   isSpec: "True"
-  fullName: TruckLib.ScsMap.EdgeTerrain.UpdateQuadAmount
-  nameWithType: EdgeTerrain.UpdateQuadAmount
+  fullName: TruckLib.ScsMap.EdgeTerrain.UpdateQuadList
+  nameWithType: EdgeTerrain.UpdateQuadList
 - uid: TruckLib.ScsMap.EnvironmentArea
   name: EnvironmentArea
   href: api/TruckLib.ScsMap.EnvironmentArea.html
@@ -18746,6 +18667,12 @@ references:
   commentId: M:TruckLib.ScsMap.Prefab.Add(TruckLib.ScsMap.IItemContainer,System.Numerics.Vector3,TruckLib.Token,TruckLib.Models.Ppd.PrefabDescriptor,System.Nullable{System.Numerics.Quaternion})
   fullName: TruckLib.ScsMap.Prefab.Add(TruckLib.ScsMap.IItemContainer, System.Numerics.Vector3, TruckLib.Token, TruckLib.Models.Ppd.PrefabDescriptor, System.Numerics.Quaternion?)
   nameWithType: Prefab.Add(IItemContainer, Vector3, Token, PrefabDescriptor, Quaternion?)
+- uid: TruckLib.ScsMap.Prefab.Add(TruckLib.ScsMap.IItemContainer,System.Numerics.Vector3,TruckLib.Token,TruckLib.Models.Ppd.PrefabDescriptor,TruckLib.Models.Model,System.Nullable{System.Numerics.Quaternion})
+  name: Add(IItemContainer, Vector3, Token, PrefabDescriptor, Model, Quaternion?)
+  href: api/TruckLib.ScsMap.Prefab.html#TruckLib_ScsMap_Prefab_Add_TruckLib_ScsMap_IItemContainer_System_Numerics_Vector3_TruckLib_Token_TruckLib_Models_Ppd_PrefabDescriptor_TruckLib_Models_Model_System_Nullable_System_Numerics_Quaternion__
+  commentId: M:TruckLib.ScsMap.Prefab.Add(TruckLib.ScsMap.IItemContainer,System.Numerics.Vector3,TruckLib.Token,TruckLib.Models.Ppd.PrefabDescriptor,TruckLib.Models.Model,System.Nullable{System.Numerics.Quaternion})
+  fullName: TruckLib.ScsMap.Prefab.Add(TruckLib.ScsMap.IItemContainer, System.Numerics.Vector3, TruckLib.Token, TruckLib.Models.Ppd.PrefabDescriptor, TruckLib.Models.Model, System.Numerics.Quaternion?)
+  nameWithType: Prefab.Add(IItemContainer, Vector3, Token, PrefabDescriptor, Model, Quaternion?)
 - uid: TruckLib.ScsMap.Prefab.Add*
   name: Add
   href: api/TruckLib.ScsMap.Prefab.html#TruckLib_ScsMap_Prefab_Add_
@@ -19604,6 +19531,19 @@ references:
   fullName.vb: TruckLib.ScsMap.PrefabTerrain.New
   nameWithType: PrefabTerrain.PrefabTerrain
   nameWithType.vb: PrefabTerrain.New
+- uid: TruckLib.ScsMap.PrefabTerrain.CalculateQuadGrid
+  name: CalculateQuadGrid()
+  href: api/TruckLib.ScsMap.PrefabTerrain.html#TruckLib_ScsMap_PrefabTerrain_CalculateQuadGrid
+  commentId: M:TruckLib.ScsMap.PrefabTerrain.CalculateQuadGrid
+  fullName: TruckLib.ScsMap.PrefabTerrain.CalculateQuadGrid()
+  nameWithType: PrefabTerrain.CalculateQuadGrid()
+- uid: TruckLib.ScsMap.PrefabTerrain.CalculateQuadGrid*
+  name: CalculateQuadGrid
+  href: api/TruckLib.ScsMap.PrefabTerrain.html#TruckLib_ScsMap_PrefabTerrain_CalculateQuadGrid_
+  commentId: Overload:TruckLib.ScsMap.PrefabTerrain.CalculateQuadGrid
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.PrefabTerrain.CalculateQuadGrid
+  nameWithType: PrefabTerrain.CalculateQuadGrid
 - uid: TruckLib.ScsMap.PrefabTerrain.Init
   name: Init()
   href: api/TruckLib.ScsMap.PrefabTerrain.html#TruckLib_ScsMap_PrefabTerrain_Init

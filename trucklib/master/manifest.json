@@ -710,17 +710,17 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/TruckLib.Models.Ppd.TerrainPointVariant.yml",
+      "source_relative_path": "api/TruckLib.Models.Ppd.TerrainPoint.yml",
       "output": {
         ".html": {
-          "relative_path": "api/TruckLib.Models.Ppd.TerrainPointVariant.html"
+          "relative_path": "api/TruckLib.Models.Ppd.TerrainPoint.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "TruckLib.Models.Ppd.TerrainPointVariant",
-      "Summary": null
+      "Title": "TruckLib.Models.Ppd.TerrainPoint",
+      "Summary": "<p sourcefile=\"api/TruckLib.Models.Ppd.TerrainPoint.yml\" sourcestartlinenumber=\"1\">Represents a terrain point.</p>\n"
     },
     {
       "type": "ManagedReference",

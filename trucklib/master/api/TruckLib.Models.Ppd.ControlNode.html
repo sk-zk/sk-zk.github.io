@@ -89,7 +89,7 @@
 
 
   <h1 id="TruckLib_Models_Ppd_ControlNode" data-uid="TruckLib.Models.Ppd.ControlNode" class="text-break">
-Class ControlNode  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/Node.cs/#L14"><i class="bi bi-code-slash"></i></a>
+Class ControlNode  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/ControlNode.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -163,7 +163,7 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="TruckLib_Models_Ppd_ControlNode_Direction" data-uid="TruckLib.Models.Ppd.ControlNode.Direction">
   Direction
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/Node.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/ControlNode.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -194,7 +194,7 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="TruckLib_Models_Ppd_ControlNode_InputLines" data-uid="TruckLib.Models.Ppd.ControlNode.InputLines">
   InputLines
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/Node.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/ControlNode.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -225,7 +225,7 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="TruckLib_Models_Ppd_ControlNode_OutputLines" data-uid="TruckLib.Models.Ppd.ControlNode.OutputLines">
   OutputLines
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/Node.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/ControlNode.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -256,7 +256,7 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="TruckLib_Models_Ppd_ControlNode_Position" data-uid="TruckLib.Models.Ppd.ControlNode.Position">
   Position
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/Node.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/ControlNode.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -283,18 +283,21 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 
 
 
-  <a id="TruckLib_Models_Ppd_ControlNode_TerrainPointCount_" data-uid="TruckLib.Models.Ppd.ControlNode.TerrainPointCount*"></a>
+  <a id="TruckLib_Models_Ppd_ControlNode_TerrainPoints_" data-uid="TruckLib.Models.Ppd.ControlNode.TerrainPoints*"></a>
 
-  <h3 id="TruckLib_Models_Ppd_ControlNode_TerrainPointCount" data-uid="TruckLib.Models.Ppd.ControlNode.TerrainPointCount">
-  TerrainPointCount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/Node.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <h3 id="TruckLib_Models_Ppd_ControlNode_TerrainPoints" data-uid="TruckLib.Models.Ppd.ControlNode.TerrainPoints">
+  TerrainPoints
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/ControlNode.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The terrain points for this node, which are used to extrude
+terrain from the edge of this node.
+The key of the dictionary is the index of the model variant.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public uint TerrainPointCount { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;int, List&lt;TerrainPoint&gt;&gt; TerrainPoints { get; set; }</code></pre>
   </div>
 
 
@@ -303,100 +306,7 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="TruckLib_Models_Ppd_ControlNode_TerrainPointIndex_" data-uid="TruckLib.Models.Ppd.ControlNode.TerrainPointIndex*"></a>
-
-  <h3 id="TruckLib_Models_Ppd_ControlNode_TerrainPointIndex" data-uid="TruckLib.Models.Ppd.ControlNode.TerrainPointIndex">
-  TerrainPointIndex
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/Node.cs/#L18"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public uint TerrainPointIndex { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="TruckLib_Models_Ppd_ControlNode_VariantCount_" data-uid="TruckLib.Models.Ppd.ControlNode.VariantCount*"></a>
-
-  <h3 id="TruckLib_Models_Ppd_ControlNode_VariantCount" data-uid="TruckLib.Models.Ppd.ControlNode.VariantCount">
-  VariantCount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/Node.cs/#L25"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public uint VariantCount { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="TruckLib_Models_Ppd_ControlNode_VariantIdx_" data-uid="TruckLib.Models.Ppd.ControlNode.VariantIdx*"></a>
-
-  <h3 id="TruckLib_Models_Ppd_ControlNode_VariantIdx" data-uid="TruckLib.Models.Ppd.ControlNode.VariantIdx">
-  VariantIdx
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/Node.cs/#L23"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public uint VariantIdx { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="TruckLib.Models.Ppd.TerrainPoint.html">TerrainPoint</a>&gt;&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -415,7 +325,7 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="TruckLib_Models_Ppd_ControlNode_Deserialize_System_IO_BinaryReader_System_Nullable_System_UInt32__" data-uid="TruckLib.Models.Ppd.ControlNode.Deserialize(System.IO.BinaryReader,System.Nullable{System.UInt32})">
   Deserialize(BinaryReader, uint?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/Node.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/ControlNode.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -448,7 +358,7 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="TruckLib_Models_Ppd_ControlNode_Serialize_System_IO_BinaryWriter_" data-uid="TruckLib.Models.Ppd.ControlNode.Serialize(System.IO.BinaryWriter)">
   Serialize(BinaryWriter)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/Node.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/ControlNode.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -479,7 +389,7 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/Node.cs/#L14" class="edit-link">Edit this page</a>
+          <a href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/ControlNode.cs/#L14" class="edit-link">Edit this page</a>
         </div>
 
 
