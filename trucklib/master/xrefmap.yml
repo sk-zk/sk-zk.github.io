@@ -13165,22 +13165,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.INode.BackwardItem
   nameWithType: INode.BackwardItem
-- uid: TruckLib.ScsMap.INode.Deserialize(System.IO.BinaryReader,System.Nullable{System.UInt32})
-  name: Deserialize(BinaryReader, uint?)
-  href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_Deserialize_System_IO_BinaryReader_System_Nullable_System_UInt32__
-  commentId: M:TruckLib.ScsMap.INode.Deserialize(System.IO.BinaryReader,System.Nullable{System.UInt32})
-  name.vb: Deserialize(BinaryReader, UInteger?)
-  fullName: TruckLib.ScsMap.INode.Deserialize(System.IO.BinaryReader, uint?)
-  fullName.vb: TruckLib.ScsMap.INode.Deserialize(System.IO.BinaryReader, UInteger?)
-  nameWithType: INode.Deserialize(BinaryReader, uint?)
-  nameWithType.vb: INode.Deserialize(BinaryReader, UInteger?)
-- uid: TruckLib.ScsMap.INode.Deserialize*
-  name: Deserialize
-  href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_Deserialize_
-  commentId: Overload:TruckLib.ScsMap.INode.Deserialize
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.INode.Deserialize
-  nameWithType: INode.Deserialize
 - uid: TruckLib.ScsMap.INode.ForwardCountry
   name: ForwardCountry
   href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_ForwardCountry
@@ -13350,19 +13334,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.INode.Rotation
   nameWithType: INode.Rotation
-- uid: TruckLib.ScsMap.INode.Serialize(System.IO.BinaryWriter)
-  name: Serialize(BinaryWriter)
-  href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_Serialize_System_IO_BinaryWriter_
-  commentId: M:TruckLib.ScsMap.INode.Serialize(System.IO.BinaryWriter)
-  fullName: TruckLib.ScsMap.INode.Serialize(System.IO.BinaryWriter)
-  nameWithType: INode.Serialize(BinaryWriter)
-- uid: TruckLib.ScsMap.INode.Serialize*
-  name: Serialize
-  href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_Serialize_
-  commentId: Overload:TruckLib.ScsMap.INode.Serialize
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.INode.Serialize
-  nameWithType: INode.Serialize
 - uid: TruckLib.ScsMap.INode.Split
   name: Split()
   href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_Split
