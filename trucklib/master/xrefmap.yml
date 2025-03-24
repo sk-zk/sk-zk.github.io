@@ -10345,19 +10345,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Curve.Look
   nameWithType: Curve.Look
-- uid: TruckLib.ScsMap.Curve.LowPolyVegetation
-  name: LowPolyVegetation
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_LowPolyVegetation
-  commentId: P:TruckLib.ScsMap.Curve.LowPolyVegetation
-  fullName: TruckLib.ScsMap.Curve.LowPolyVegetation
-  nameWithType: Curve.LowPolyVegetation
-- uid: TruckLib.ScsMap.Curve.LowPolyVegetation*
-  name: LowPolyVegetation
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_LowPolyVegetation_
-  commentId: Overload:TruckLib.ScsMap.Curve.LowPolyVegetation
+- uid: TruckLib.ScsMap.Curve.LowDetail
+  name: LowDetail
+  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_LowDetail
+  commentId: P:TruckLib.ScsMap.Curve.LowDetail
+  fullName: TruckLib.ScsMap.Curve.LowDetail
+  nameWithType: Curve.LowDetail
+- uid: TruckLib.ScsMap.Curve.LowDetail*
+  name: LowDetail
+  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_LowDetail_
+  commentId: Overload:TruckLib.ScsMap.Curve.LowDetail
   isSpec: "True"
-  fullName: TruckLib.ScsMap.Curve.LowPolyVegetation
-  nameWithType: Curve.LowPolyVegetation
+  fullName: TruckLib.ScsMap.Curve.LowDetail
+  nameWithType: Curve.LowDetail
 - uid: TruckLib.ScsMap.Curve.MaxLength
   name: MaxLength
   href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_MaxLength
@@ -18967,6 +18967,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Prefab.LowPolyVegetation
   nameWithType: Prefab.LowPolyVegetation
+- uid: TruckLib.ScsMap.Prefab.MergeRoads
+  name: MergeRoads
+  href: api/TruckLib.ScsMap.Prefab.html#TruckLib_ScsMap_Prefab_MergeRoads
+  commentId: P:TruckLib.ScsMap.Prefab.MergeRoads
+  fullName: TruckLib.ScsMap.Prefab.MergeRoads
+  nameWithType: Prefab.MergeRoads
+- uid: TruckLib.ScsMap.Prefab.MergeRoads*
+  name: MergeRoads
+  href: api/TruckLib.ScsMap.Prefab.html#TruckLib_ScsMap_Prefab_MergeRoads_
+  commentId: Overload:TruckLib.ScsMap.Prefab.MergeRoads
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Prefab.MergeRoads
+  nameWithType: Prefab.MergeRoads
 - uid: TruckLib.ScsMap.Prefab.Model
   name: Model
   href: api/TruckLib.ScsMap.Prefab.html#TruckLib_ScsMap_Prefab_Model
@@ -20714,15 +20727,15 @@ references:
   fullName.vb: TruckLib.ScsMap.RoadTerrain.CalculateQuadGrid(TruckLib.ScsMap.RoadResolution, Single)
   nameWithType: RoadTerrain.CalculateQuadGrid(RoadResolution, float)
   nameWithType.vb: RoadTerrain.CalculateQuadGrid(RoadResolution, Single)
-- uid: TruckLib.ScsMap.RoadTerrain.CalculateQuadGrid(TruckLib.ScsMap.StepSize,System.Single)
-  name: CalculateQuadGrid(StepSize, float)
-  href: api/TruckLib.ScsMap.RoadTerrain.html#TruckLib_ScsMap_RoadTerrain_CalculateQuadGrid_TruckLib_ScsMap_StepSize_System_Single_
-  commentId: M:TruckLib.ScsMap.RoadTerrain.CalculateQuadGrid(TruckLib.ScsMap.StepSize,System.Single)
-  name.vb: CalculateQuadGrid(StepSize, Single)
-  fullName: TruckLib.ScsMap.RoadTerrain.CalculateQuadGrid(TruckLib.ScsMap.StepSize, float)
-  fullName.vb: TruckLib.ScsMap.RoadTerrain.CalculateQuadGrid(TruckLib.ScsMap.StepSize, Single)
-  nameWithType: RoadTerrain.CalculateQuadGrid(StepSize, float)
-  nameWithType.vb: RoadTerrain.CalculateQuadGrid(StepSize, Single)
+- uid: TruckLib.ScsMap.RoadTerrain.CalculateQuadGrid(TruckLib.ScsMap.StepSize,System.Single,System.Boolean)
+  name: CalculateQuadGrid(StepSize, float, bool)
+  href: api/TruckLib.ScsMap.RoadTerrain.html#TruckLib_ScsMap_RoadTerrain_CalculateQuadGrid_TruckLib_ScsMap_StepSize_System_Single_System_Boolean_
+  commentId: M:TruckLib.ScsMap.RoadTerrain.CalculateQuadGrid(TruckLib.ScsMap.StepSize,System.Single,System.Boolean)
+  name.vb: CalculateQuadGrid(StepSize, Single, Boolean)
+  fullName: TruckLib.ScsMap.RoadTerrain.CalculateQuadGrid(TruckLib.ScsMap.StepSize, float, bool)
+  fullName.vb: TruckLib.ScsMap.RoadTerrain.CalculateQuadGrid(TruckLib.ScsMap.StepSize, Single, Boolean)
+  nameWithType: RoadTerrain.CalculateQuadGrid(StepSize, float, bool)
+  nameWithType.vb: RoadTerrain.CalculateQuadGrid(StepSize, Single, Boolean)
 - uid: TruckLib.ScsMap.RoadTerrain.CalculateQuadGrid*
   name: CalculateQuadGrid
   href: api/TruckLib.ScsMap.RoadTerrain.html#TruckLib_ScsMap_RoadTerrain_CalculateQuadGrid_
@@ -22142,6 +22155,19 @@ references:
   fullName.vb: TruckLib.ScsMap.Terrain.New
   nameWithType: Terrain.Terrain
   nameWithType.vb: Terrain.New
+- uid: TruckLib.ScsMap.Terrain.AdaptiveTessellation
+  name: AdaptiveTessellation
+  href: api/TruckLib.ScsMap.Terrain.html#TruckLib_ScsMap_Terrain_AdaptiveTessellation
+  commentId: P:TruckLib.ScsMap.Terrain.AdaptiveTessellation
+  fullName: TruckLib.ScsMap.Terrain.AdaptiveTessellation
+  nameWithType: Terrain.AdaptiveTessellation
+- uid: TruckLib.ScsMap.Terrain.AdaptiveTessellation*
+  name: AdaptiveTessellation
+  href: api/TruckLib.ScsMap.Terrain.html#TruckLib_ScsMap_Terrain_AdaptiveTessellation_
+  commentId: Overload:TruckLib.ScsMap.Terrain.AdaptiveTessellation
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Terrain.AdaptiveTessellation
+  nameWithType: Terrain.AdaptiveTessellation
 - uid: TruckLib.ScsMap.Terrain.Add(TruckLib.ScsMap.IItemContainer,System.Numerics.Vector3,System.Numerics.Vector3,TruckLib.Token,System.Single,System.Single)
   name: Add(IItemContainer, Vector3, Vector3, Token, float, float)
   href: api/TruckLib.ScsMap.Terrain.html#TruckLib_ScsMap_Terrain_Add_TruckLib_ScsMap_IItemContainer_System_Numerics_Vector3_System_Numerics_Vector3_TruckLib_Token_System_Single_System_Single_

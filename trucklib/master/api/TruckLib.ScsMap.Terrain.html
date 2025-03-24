@@ -223,7 +223,7 @@ Class Terrain  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="TruckLib_ScsMap_Terrain__ctor" data-uid="TruckLib.ScsMap.Terrain.#ctor">
   Terrain()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Terrain.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Terrain.cs/#L153"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -247,6 +247,42 @@ Class Terrain  <a class="header-action link-secondary" title="View source" href=
 
   <h2 class="section" id="properties">Properties
 </h2>
+
+
+  <a id="TruckLib_ScsMap_Terrain_AdaptiveTessellation_" data-uid="TruckLib.ScsMap.Terrain.AdaptiveTessellation*"></a>
+
+  <h3 id="TruckLib_ScsMap_Terrain_AdaptiveTessellation" data-uid="TruckLib.ScsMap.Terrain.AdaptiveTessellation">
+  AdaptiveTessellation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Terrain.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Changes the step size in two specific scenarios.</p>
+<p>If <a class="xref" href="TruckLib.ScsMap.Terrain.html#TruckLib_ScsMap_Terrain_StepSize">StepSize</a> is 2 and Length
+is less than 2, the actual step size is 0.2.</p>
+<p>If <a class="xref" href="TruckLib.ScsMap.Terrain.html#TruckLib_ScsMap_Terrain_StepSize">StepSize</a> is 16 and Length
+is greater than 64, the actual step size is 32.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AdaptiveTessellation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="TruckLib_ScsMap_Terrain_Boundary_" data-uid="TruckLib.ScsMap.Terrain.Boundary*"></a>
@@ -861,7 +897,7 @@ public bool StretchTerrain { get; set; }</code></pre>
 
   <h3 id="TruckLib_ScsMap_Terrain_Unknown" data-uid="TruckLib.ScsMap.Terrain.Unknown">
   Unknown
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Terrain.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Terrain.cs/#L150"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -892,7 +928,7 @@ public bool StretchTerrain { get; set; }</code></pre>
 
   <h3 id="TruckLib_ScsMap_Terrain_Unknown2" data-uid="TruckLib.ScsMap.Terrain.Unknown2">
   Unknown2
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Terrain.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Terrain.cs/#L151"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1023,7 +1059,7 @@ public bool StretchTerrain { get; set; }</code></pre>
 
   <h3 id="TruckLib_ScsMap_Terrain_Add_TruckLib_ScsMap_IItemContainer_System_Numerics_Vector3_System_Numerics_Vector3_TruckLib_Token_System_Single_System_Single_" data-uid="TruckLib.ScsMap.Terrain.Add(TruckLib.ScsMap.IItemContainer,System.Numerics.Vector3,System.Numerics.Vector3,TruckLib.Token,System.Single,System.Single)">
   Add(IItemContainer, Vector3, Vector3, Token, float, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Terrain.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Terrain.cs/#L181"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Adds a single terrain item to the map.</p>
@@ -1077,7 +1113,7 @@ public bool StretchTerrain { get; set; }</code></pre>
 
   <h3 id="TruckLib_ScsMap_Terrain_Append_System_Numerics_Vector3_TruckLib_Token_System_Single_System_Single_" data-uid="TruckLib.ScsMap.Terrain.Append(System.Numerics.Vector3,TruckLib.Token,System.Single,System.Single)">
   Append(Vector3, Token, float, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Terrain.cs/#L176"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Terrain.cs/#L197"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Appends a terrain item to this terrain.</p>
@@ -1125,7 +1161,7 @@ public bool StretchTerrain { get; set; }</code></pre>
 
   <h3 id="TruckLib_ScsMap_Terrain_Init" data-uid="TruckLib.ScsMap.Terrain.Init">
   Init()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Terrain.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Terrain.cs/#L161"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sets the item's properties to its default values.</p>
@@ -1152,7 +1188,7 @@ public bool StretchTerrain { get; set; }</code></pre>
 
   <h3 id="TruckLib_ScsMap_Terrain_Recalculate" data-uid="TruckLib.ScsMap.Terrain.Recalculate">
   Recalculate()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Terrain.cs/#L200"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Terrain.cs/#L220"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Recalculates this item's length and adjusts properties based on it.</p>

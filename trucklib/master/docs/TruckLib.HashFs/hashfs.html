@@ -109,7 +109,7 @@ using IHashFsReader reader = HashFsReader.Open(@&quot;E:\SteamLibrary\steamapps\
 <h2 id="finding-entries">Finding entries</h2>
 <h3 id="known-paths">Known paths</h3>
 <p>The <a class="xref" href="../../api/TruckLib.HashFs.IHashFsReader.html#TruckLib_HashFs_IHashFsReader_EntryExists_"><code>EntryExists</code></a> method will tell you if the given path exists in the archive,
-and if yes, whether it is a directory or a file:</p>
+and if so, whether it is a directory or a file:</p>
 <pre><code class="lang-cs">EntryType type = reader.EntryExists(&quot;/def/world/prefab.sii&quot;);
 </code></pre>
 <p><a class="xref" href="../../api/TruckLib.HashFs.EntryType.html"><code>EntryType</code></a> has the values <code>Directory</code>, <code>File</code>, or <code>NotFound</code>.</p>

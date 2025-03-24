@@ -320,9 +320,9 @@ to this one, given as the number of quads.</p>
 
   <a id="TruckLib_ScsMap_RoadTerrain_CalculateQuadGrid_" data-uid="TruckLib.ScsMap.RoadTerrain.CalculateQuadGrid*"></a>
 
-  <h3 id="TruckLib_ScsMap_RoadTerrain_CalculateQuadGrid_TruckLib_ScsMap_StepSize_System_Single_" data-uid="TruckLib.ScsMap.RoadTerrain.CalculateQuadGrid(TruckLib.ScsMap.StepSize,System.Single)">
-  CalculateQuadGrid(StepSize, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/RoadTerrain.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  <h3 id="TruckLib_ScsMap_RoadTerrain_CalculateQuadGrid_TruckLib_ScsMap_StepSize_System_Single_System_Boolean_" data-uid="TruckLib.ScsMap.RoadTerrain.CalculateQuadGrid(TruckLib.ScsMap.StepSize,System.Single,System.Boolean)">
+  CalculateQuadGrid(StepSize, float, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/RoadTerrain.cs/#L98"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Updates the amount of quad columns and rows of this terrain.</p>
@@ -330,7 +330,7 @@ to this one, given as the number of quads.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void CalculateQuadGrid(StepSize stepSize, float length)</code></pre>
+    <pre><code class="lang-csharp hljs">public void CalculateQuadGrid(StepSize stepSize, float length, bool adaptiveTessellation)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -340,6 +340,9 @@ to this one, given as the number of quads.</p>
 </dd>
     <dt><code>length</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd><p>The length of the standalone terrain.</p>
+</dd>
+    <dt><code>adaptiveTessellation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether adaptive tessellation is enabled.</p>
 </dd>
   </dl>
 
@@ -358,7 +361,7 @@ to this one, given as the number of quads.</p>
 
   <h3 id="TruckLib_ScsMap_RoadTerrain_CopyTo_TruckLib_ScsMap_RoadTerrain_" data-uid="TruckLib.ScsMap.RoadTerrain.CopyTo(TruckLib.ScsMap.RoadTerrain)">
   CopyTo(RoadTerrain)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/RoadTerrain.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/RoadTerrain.cs/#L142"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Copies the properties of this RoadTerrain object to another.</p>
