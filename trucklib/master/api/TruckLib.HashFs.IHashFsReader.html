@@ -619,7 +619,7 @@ the reconstructed .tobj and .dds files will be written.</p>
 
   <h3 id="TruckLib_HashFs_IHashFsReader_HashPath_System_String_System_Nullable_System_UInt32__" data-uid="TruckLib.HashFs.IHashFsReader.HashPath(System.String,System.Nullable{System.UInt32})">
   HashPath(string, uint?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/IHashFsReader.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/IHashFsReader.cs/#L121"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Hashes a file path.</p>
@@ -645,6 +645,48 @@ the one specified by the archive's header.</p>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
     <dd><p>The hash of the path.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_HashFs_IHashFsReader_TryGetEntry_" data-uid="TruckLib.HashFs.IHashFsReader.TryGetEntry*"></a>
+
+  <h3 id="TruckLib_HashFs_IHashFsReader_TryGetEntry_System_String_TruckLib_HashFs_IEntry__" data-uid="TruckLib.HashFs.IHashFsReader.TryGetEntry(System.String,TruckLib.HashFs.IEntry@)">
+  TryGetEntry(string, out IEntry)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/IHashFsReader.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves the entry metadata for the given path if it exists.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">EntryType TryGetEntry(string path, out IEntry entry)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The path.</p>
+</dd>
+    <dt><code>entry</code> <a class="xref" href="TruckLib.HashFs.IEntry.html">IEntry</a></dt>
+    <dd><p>The entry.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.HashFs.EntryType.html">EntryType</a></dt>
+    <dd><p>The entry type.</p>
 </dd>
   </dl>
 

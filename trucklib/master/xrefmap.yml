@@ -1743,6 +1743,22 @@ references:
   isSpec: "True"
   fullName: TruckLib.HashFs.IHashFsReader.Salt
   nameWithType: IHashFsReader.Salt
+- uid: TruckLib.HashFs.IHashFsReader.TryGetEntry(System.String,TruckLib.HashFs.IEntry@)
+  name: TryGetEntry(string, out IEntry)
+  href: api/TruckLib.HashFs.IHashFsReader.html#TruckLib_HashFs_IHashFsReader_TryGetEntry_System_String_TruckLib_HashFs_IEntry__
+  commentId: M:TruckLib.HashFs.IHashFsReader.TryGetEntry(System.String,TruckLib.HashFs.IEntry@)
+  name.vb: TryGetEntry(String, IEntry)
+  fullName: TruckLib.HashFs.IHashFsReader.TryGetEntry(string, out TruckLib.HashFs.IEntry)
+  fullName.vb: TruckLib.HashFs.IHashFsReader.TryGetEntry(String, TruckLib.HashFs.IEntry)
+  nameWithType: IHashFsReader.TryGetEntry(string, out IEntry)
+  nameWithType.vb: IHashFsReader.TryGetEntry(String, IEntry)
+- uid: TruckLib.HashFs.IHashFsReader.TryGetEntry*
+  name: TryGetEntry
+  href: api/TruckLib.HashFs.IHashFsReader.html#TruckLib_HashFs_IHashFsReader_TryGetEntry_
+  commentId: Overload:TruckLib.HashFs.IHashFsReader.TryGetEntry
+  isSpec: "True"
+  fullName: TruckLib.HashFs.IHashFsReader.TryGetEntry
+  nameWithType: IHashFsReader.TryGetEntry
 - uid: TruckLib.HashFs.IHashFsReader.Version
   name: Version
   href: api/TruckLib.HashFs.IHashFsReader.html#TruckLib_HashFs_IHashFsReader_Version
