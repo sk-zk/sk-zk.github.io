@@ -1060,6 +1060,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Collections.CompanySpawnPointList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Collections.CompanySpawnPointList",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Collections.CompanySpawnPointList.yml\" sourcestartlinenumber=\"1\">Reperesents a list of <xref href=\"TruckLib.ScsMap.Company\" data-throw-if-not-resolved=\"false\"></xref> spawn points.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TruckLib.ScsMap.Collections.CurveLocatorList.yml",
       "output": {
         ".html": {

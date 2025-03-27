@@ -8156,6 +8156,230 @@ references:
   commentId: N:TruckLib.ScsMap.Collections
   fullName: TruckLib.ScsMap.Collections
   nameWithType: TruckLib.ScsMap.Collections
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList
+  name: CompanySpawnPointList
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html
+  commentId: T:TruckLib.ScsMap.Collections.CompanySpawnPointList
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList
+  nameWithType: CompanySpawnPointList
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.#ctor(TruckLib.ScsMap.Company)
+  name: CompanySpawnPointList(Company)
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList__ctor_TruckLib_ScsMap_Company_
+  commentId: M:TruckLib.ScsMap.Collections.CompanySpawnPointList.#ctor(TruckLib.ScsMap.Company)
+  name.vb: New(Company)
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.CompanySpawnPointList(TruckLib.ScsMap.Company)
+  fullName.vb: TruckLib.ScsMap.Collections.CompanySpawnPointList.New(TruckLib.ScsMap.Company)
+  nameWithType: CompanySpawnPointList.CompanySpawnPointList(Company)
+  nameWithType.vb: CompanySpawnPointList.New(Company)
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.#ctor*
+  name: CompanySpawnPointList
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList__ctor_
+  commentId: Overload:TruckLib.ScsMap.Collections.CompanySpawnPointList.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.CompanySpawnPointList
+  fullName.vb: TruckLib.ScsMap.Collections.CompanySpawnPointList.New
+  nameWithType: CompanySpawnPointList.CompanySpawnPointList
+  nameWithType.vb: CompanySpawnPointList.New
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.Add(System.Numerics.Vector3,System.Numerics.Quaternion,TruckLib.ScsMap.CompanySpawnPointType)
+  name: Add(Vector3, Quaternion, CompanySpawnPointType)
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_Add_System_Numerics_Vector3_System_Numerics_Quaternion_TruckLib_ScsMap_CompanySpawnPointType_
+  commentId: M:TruckLib.ScsMap.Collections.CompanySpawnPointList.Add(System.Numerics.Vector3,System.Numerics.Quaternion,TruckLib.ScsMap.CompanySpawnPointType)
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.Add(System.Numerics.Vector3, System.Numerics.Quaternion, TruckLib.ScsMap.CompanySpawnPointType)
+  nameWithType: CompanySpawnPointList.Add(Vector3, Quaternion, CompanySpawnPointType)
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.Add(TruckLib.ScsMap.CompanySpawnPoint)
+  name: Add(CompanySpawnPoint)
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_Add_TruckLib_ScsMap_CompanySpawnPoint_
+  commentId: M:TruckLib.ScsMap.Collections.CompanySpawnPointList.Add(TruckLib.ScsMap.CompanySpawnPoint)
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.Add(TruckLib.ScsMap.CompanySpawnPoint)
+  nameWithType: CompanySpawnPointList.Add(CompanySpawnPoint)
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.Add*
+  name: Add
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_Add_
+  commentId: Overload:TruckLib.ScsMap.Collections.CompanySpawnPointList.Add
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.Add
+  nameWithType: CompanySpawnPointList.Add
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.Clear
+  name: Clear()
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_Clear
+  commentId: M:TruckLib.ScsMap.Collections.CompanySpawnPointList.Clear
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.Clear()
+  nameWithType: CompanySpawnPointList.Clear()
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.Clear*
+  name: Clear
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_Clear_
+  commentId: Overload:TruckLib.ScsMap.Collections.CompanySpawnPointList.Clear
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.Clear
+  nameWithType: CompanySpawnPointList.Clear
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.Contains(TruckLib.ScsMap.CompanySpawnPoint)
+  name: Contains(CompanySpawnPoint)
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_Contains_TruckLib_ScsMap_CompanySpawnPoint_
+  commentId: M:TruckLib.ScsMap.Collections.CompanySpawnPointList.Contains(TruckLib.ScsMap.CompanySpawnPoint)
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.Contains(TruckLib.ScsMap.CompanySpawnPoint)
+  nameWithType: CompanySpawnPointList.Contains(CompanySpawnPoint)
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.Contains*
+  name: Contains
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_Contains_
+  commentId: Overload:TruckLib.ScsMap.Collections.CompanySpawnPointList.Contains
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.Contains
+  nameWithType: CompanySpawnPointList.Contains
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.CopyTo(TruckLib.ScsMap.CompanySpawnPoint[],System.Int32)
+  name: CopyTo(CompanySpawnPoint[], int)
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_CopyTo_TruckLib_ScsMap_CompanySpawnPoint___System_Int32_
+  commentId: M:TruckLib.ScsMap.Collections.CompanySpawnPointList.CopyTo(TruckLib.ScsMap.CompanySpawnPoint[],System.Int32)
+  name.vb: CopyTo(CompanySpawnPoint(), Integer)
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.CopyTo(TruckLib.ScsMap.CompanySpawnPoint[], int)
+  fullName.vb: TruckLib.ScsMap.Collections.CompanySpawnPointList.CopyTo(TruckLib.ScsMap.CompanySpawnPoint(), Integer)
+  nameWithType: CompanySpawnPointList.CopyTo(CompanySpawnPoint[], int)
+  nameWithType.vb: CompanySpawnPointList.CopyTo(CompanySpawnPoint(), Integer)
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.CopyTo*
+  name: CopyTo
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_CopyTo_
+  commentId: Overload:TruckLib.ScsMap.Collections.CompanySpawnPointList.CopyTo
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.CopyTo
+  nameWithType: CompanySpawnPointList.CopyTo
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.Count
+  name: Count
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_Count
+  commentId: P:TruckLib.ScsMap.Collections.CompanySpawnPointList.Count
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.Count
+  nameWithType: CompanySpawnPointList.Count
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.Count*
+  name: Count
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_Count_
+  commentId: Overload:TruckLib.ScsMap.Collections.CompanySpawnPointList.Count
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.Count
+  nameWithType: CompanySpawnPointList.Count
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.GetEnumerator
+  name: GetEnumerator()
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_GetEnumerator
+  commentId: M:TruckLib.ScsMap.Collections.CompanySpawnPointList.GetEnumerator
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.GetEnumerator()
+  nameWithType: CompanySpawnPointList.GetEnumerator()
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.GetEnumerator*
+  name: GetEnumerator
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_GetEnumerator_
+  commentId: Overload:TruckLib.ScsMap.Collections.CompanySpawnPointList.GetEnumerator
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.GetEnumerator
+  nameWithType: CompanySpawnPointList.GetEnumerator
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.IndexOf(TruckLib.ScsMap.CompanySpawnPoint)
+  name: IndexOf(CompanySpawnPoint)
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_IndexOf_TruckLib_ScsMap_CompanySpawnPoint_
+  commentId: M:TruckLib.ScsMap.Collections.CompanySpawnPointList.IndexOf(TruckLib.ScsMap.CompanySpawnPoint)
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.IndexOf(TruckLib.ScsMap.CompanySpawnPoint)
+  nameWithType: CompanySpawnPointList.IndexOf(CompanySpawnPoint)
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.IndexOf*
+  name: IndexOf
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_IndexOf_
+  commentId: Overload:TruckLib.ScsMap.Collections.CompanySpawnPointList.IndexOf
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.IndexOf
+  nameWithType: CompanySpawnPointList.IndexOf
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.Insert(System.Int32,System.Numerics.Vector3,System.Numerics.Quaternion,TruckLib.ScsMap.CompanySpawnPointType)
+  name: Insert(int, Vector3, Quaternion, CompanySpawnPointType)
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_Insert_System_Int32_System_Numerics_Vector3_System_Numerics_Quaternion_TruckLib_ScsMap_CompanySpawnPointType_
+  commentId: M:TruckLib.ScsMap.Collections.CompanySpawnPointList.Insert(System.Int32,System.Numerics.Vector3,System.Numerics.Quaternion,TruckLib.ScsMap.CompanySpawnPointType)
+  name.vb: Insert(Integer, Vector3, Quaternion, CompanySpawnPointType)
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.Insert(int, System.Numerics.Vector3, System.Numerics.Quaternion, TruckLib.ScsMap.CompanySpawnPointType)
+  fullName.vb: TruckLib.ScsMap.Collections.CompanySpawnPointList.Insert(Integer, System.Numerics.Vector3, System.Numerics.Quaternion, TruckLib.ScsMap.CompanySpawnPointType)
+  nameWithType: CompanySpawnPointList.Insert(int, Vector3, Quaternion, CompanySpawnPointType)
+  nameWithType.vb: CompanySpawnPointList.Insert(Integer, Vector3, Quaternion, CompanySpawnPointType)
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.Insert(System.Int32,TruckLib.ScsMap.CompanySpawnPoint)
+  name: Insert(int, CompanySpawnPoint)
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_Insert_System_Int32_TruckLib_ScsMap_CompanySpawnPoint_
+  commentId: M:TruckLib.ScsMap.Collections.CompanySpawnPointList.Insert(System.Int32,TruckLib.ScsMap.CompanySpawnPoint)
+  name.vb: Insert(Integer, CompanySpawnPoint)
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.Insert(int, TruckLib.ScsMap.CompanySpawnPoint)
+  fullName.vb: TruckLib.ScsMap.Collections.CompanySpawnPointList.Insert(Integer, TruckLib.ScsMap.CompanySpawnPoint)
+  nameWithType: CompanySpawnPointList.Insert(int, CompanySpawnPoint)
+  nameWithType.vb: CompanySpawnPointList.Insert(Integer, CompanySpawnPoint)
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.Insert*
+  name: Insert
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_Insert_
+  commentId: Overload:TruckLib.ScsMap.Collections.CompanySpawnPointList.Insert
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.Insert
+  nameWithType: CompanySpawnPointList.Insert
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.IsReadOnly
+  name: IsReadOnly
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_IsReadOnly
+  commentId: P:TruckLib.ScsMap.Collections.CompanySpawnPointList.IsReadOnly
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.IsReadOnly
+  nameWithType: CompanySpawnPointList.IsReadOnly
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.IsReadOnly*
+  name: IsReadOnly
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_IsReadOnly_
+  commentId: Overload:TruckLib.ScsMap.Collections.CompanySpawnPointList.IsReadOnly
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.IsReadOnly
+  nameWithType: CompanySpawnPointList.IsReadOnly
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.Item(System.Int32)
+  name: this[int]
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_Item_System_Int32_
+  commentId: P:TruckLib.ScsMap.Collections.CompanySpawnPointList.Item(System.Int32)
+  name.vb: this[](Integer)
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.this[int]
+  fullName.vb: TruckLib.ScsMap.Collections.CompanySpawnPointList.this[](Integer)
+  nameWithType: CompanySpawnPointList.this[int]
+  nameWithType.vb: CompanySpawnPointList.this[](Integer)
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.Item*
+  name: this
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_Item_
+  commentId: Overload:TruckLib.ScsMap.Collections.CompanySpawnPointList.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.this
+  fullName.vb: TruckLib.ScsMap.Collections.CompanySpawnPointList.this[]
+  nameWithType: CompanySpawnPointList.this
+  nameWithType.vb: CompanySpawnPointList.this[]
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.Parent
+  name: Parent
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_Parent
+  commentId: P:TruckLib.ScsMap.Collections.CompanySpawnPointList.Parent
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.Parent
+  nameWithType: CompanySpawnPointList.Parent
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.Parent*
+  name: Parent
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_Parent_
+  commentId: Overload:TruckLib.ScsMap.Collections.CompanySpawnPointList.Parent
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.Parent
+  nameWithType: CompanySpawnPointList.Parent
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.Remove(TruckLib.ScsMap.CompanySpawnPoint)
+  name: Remove(CompanySpawnPoint)
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_Remove_TruckLib_ScsMap_CompanySpawnPoint_
+  commentId: M:TruckLib.ScsMap.Collections.CompanySpawnPointList.Remove(TruckLib.ScsMap.CompanySpawnPoint)
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.Remove(TruckLib.ScsMap.CompanySpawnPoint)
+  nameWithType: CompanySpawnPointList.Remove(CompanySpawnPoint)
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.Remove*
+  name: Remove
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_Remove_
+  commentId: Overload:TruckLib.ScsMap.Collections.CompanySpawnPointList.Remove
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.Remove
+  nameWithType: CompanySpawnPointList.Remove
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.RemoveAt(System.Int32)
+  name: RemoveAt(int)
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_RemoveAt_System_Int32_
+  commentId: M:TruckLib.ScsMap.Collections.CompanySpawnPointList.RemoveAt(System.Int32)
+  name.vb: RemoveAt(Integer)
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.RemoveAt(int)
+  fullName.vb: TruckLib.ScsMap.Collections.CompanySpawnPointList.RemoveAt(Integer)
+  nameWithType: CompanySpawnPointList.RemoveAt(int)
+  nameWithType.vb: CompanySpawnPointList.RemoveAt(Integer)
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.RemoveAt*
+  name: RemoveAt
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_RemoveAt_
+  commentId: Overload:TruckLib.ScsMap.Collections.CompanySpawnPointList.RemoveAt
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.RemoveAt
+  nameWithType: CompanySpawnPointList.RemoveAt
 - uid: TruckLib.ScsMap.Collections.CurveLocatorList
   name: CurveLocatorList
   href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html
