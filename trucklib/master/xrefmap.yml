@@ -10000,6 +10000,32 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.CompanySpawnPoint.Node
   nameWithType: CompanySpawnPoint.Node
+- uid: TruckLib.ScsMap.CompanySpawnPoint.TrailerLength
+  name: TrailerLength
+  href: api/TruckLib.ScsMap.CompanySpawnPoint.html#TruckLib_ScsMap_CompanySpawnPoint_TrailerLength
+  commentId: P:TruckLib.ScsMap.CompanySpawnPoint.TrailerLength
+  fullName: TruckLib.ScsMap.CompanySpawnPoint.TrailerLength
+  nameWithType: CompanySpawnPoint.TrailerLength
+- uid: TruckLib.ScsMap.CompanySpawnPoint.TrailerLength*
+  name: TrailerLength
+  href: api/TruckLib.ScsMap.CompanySpawnPoint.html#TruckLib_ScsMap_CompanySpawnPoint_TrailerLength_
+  commentId: Overload:TruckLib.ScsMap.CompanySpawnPoint.TrailerLength
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.CompanySpawnPoint.TrailerLength
+  nameWithType: CompanySpawnPoint.TrailerLength
+- uid: TruckLib.ScsMap.CompanySpawnPoint.TrailerType
+  name: TrailerType
+  href: api/TruckLib.ScsMap.CompanySpawnPoint.html#TruckLib_ScsMap_CompanySpawnPoint_TrailerType
+  commentId: P:TruckLib.ScsMap.CompanySpawnPoint.TrailerType
+  fullName: TruckLib.ScsMap.CompanySpawnPoint.TrailerType
+  nameWithType: CompanySpawnPoint.TrailerType
+- uid: TruckLib.ScsMap.CompanySpawnPoint.TrailerType*
+  name: TrailerType
+  href: api/TruckLib.ScsMap.CompanySpawnPoint.html#TruckLib_ScsMap_CompanySpawnPoint_TrailerType_
+  commentId: Overload:TruckLib.ScsMap.CompanySpawnPoint.TrailerType
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.CompanySpawnPoint.TrailerType
+  nameWithType: CompanySpawnPoint.TrailerType
 - uid: TruckLib.ScsMap.CompanySpawnPoint.Type
   name: Type
   href: api/TruckLib.ScsMap.CompanySpawnPoint.html#TruckLib_ScsMap_CompanySpawnPoint_Type
@@ -10013,12 +10039,66 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.CompanySpawnPoint.Type
   nameWithType: CompanySpawnPoint.Type
+- uid: TruckLib.ScsMap.CompanySpawnPointTrailerType
+  name: CompanySpawnPointTrailerType
+  href: api/TruckLib.ScsMap.CompanySpawnPointTrailerType.html
+  commentId: T:TruckLib.ScsMap.CompanySpawnPointTrailerType
+  fullName: TruckLib.ScsMap.CompanySpawnPointTrailerType
+  nameWithType: CompanySpawnPointTrailerType
+- uid: TruckLib.ScsMap.CompanySpawnPointTrailerType.Any
+  name: Any
+  href: api/TruckLib.ScsMap.CompanySpawnPointTrailerType.html#TruckLib_ScsMap_CompanySpawnPointTrailerType_Any
+  commentId: F:TruckLib.ScsMap.CompanySpawnPointTrailerType.Any
+  fullName: TruckLib.ScsMap.CompanySpawnPointTrailerType.Any
+  nameWithType: CompanySpawnPointTrailerType.Any
+- uid: TruckLib.ScsMap.CompanySpawnPointTrailerType.Box
+  name: Box
+  href: api/TruckLib.ScsMap.CompanySpawnPointTrailerType.html#TruckLib_ScsMap_CompanySpawnPointTrailerType_Box
+  commentId: F:TruckLib.ScsMap.CompanySpawnPointTrailerType.Box
+  fullName: TruckLib.ScsMap.CompanySpawnPointTrailerType.Box
+  nameWithType: CompanySpawnPointTrailerType.Box
+- uid: TruckLib.ScsMap.CompanySpawnPointTrailerType.DumpAndBulk
+  name: DumpAndBulk
+  href: api/TruckLib.ScsMap.CompanySpawnPointTrailerType.html#TruckLib_ScsMap_CompanySpawnPointTrailerType_DumpAndBulk
+  commentId: F:TruckLib.ScsMap.CompanySpawnPointTrailerType.DumpAndBulk
+  fullName: TruckLib.ScsMap.CompanySpawnPointTrailerType.DumpAndBulk
+  nameWithType: CompanySpawnPointTrailerType.DumpAndBulk
+- uid: TruckLib.ScsMap.CompanySpawnPointTrailerType.Livestock
+  name: Livestock
+  href: api/TruckLib.ScsMap.CompanySpawnPointTrailerType.html#TruckLib_ScsMap_CompanySpawnPointTrailerType_Livestock
+  commentId: F:TruckLib.ScsMap.CompanySpawnPointTrailerType.Livestock
+  fullName: TruckLib.ScsMap.CompanySpawnPointTrailerType.Livestock
+  nameWithType: CompanySpawnPointTrailerType.Livestock
+- uid: TruckLib.ScsMap.CompanySpawnPointTrailerType.Log
+  name: Log
+  href: api/TruckLib.ScsMap.CompanySpawnPointTrailerType.html#TruckLib_ScsMap_CompanySpawnPointTrailerType_Log
+  commentId: F:TruckLib.ScsMap.CompanySpawnPointTrailerType.Log
+  fullName: TruckLib.ScsMap.CompanySpawnPointTrailerType.Log
+  nameWithType: CompanySpawnPointTrailerType.Log
+- uid: TruckLib.ScsMap.CompanySpawnPointTrailerType.PlatformLogAndContainer
+  name: PlatformLogAndContainer
+  href: api/TruckLib.ScsMap.CompanySpawnPointTrailerType.html#TruckLib_ScsMap_CompanySpawnPointTrailerType_PlatformLogAndContainer
+  commentId: F:TruckLib.ScsMap.CompanySpawnPointTrailerType.PlatformLogAndContainer
+  fullName: TruckLib.ScsMap.CompanySpawnPointTrailerType.PlatformLogAndContainer
+  nameWithType: CompanySpawnPointTrailerType.PlatformLogAndContainer
+- uid: TruckLib.ScsMap.CompanySpawnPointTrailerType.Tank
+  name: Tank
+  href: api/TruckLib.ScsMap.CompanySpawnPointTrailerType.html#TruckLib_ScsMap_CompanySpawnPointTrailerType_Tank
+  commentId: F:TruckLib.ScsMap.CompanySpawnPointTrailerType.Tank
+  fullName: TruckLib.ScsMap.CompanySpawnPointTrailerType.Tank
+  nameWithType: CompanySpawnPointTrailerType.Tank
 - uid: TruckLib.ScsMap.CompanySpawnPointType
   name: CompanySpawnPointType
   href: api/TruckLib.ScsMap.CompanySpawnPointType.html
   commentId: T:TruckLib.ScsMap.CompanySpawnPointType
   fullName: TruckLib.ScsMap.CompanySpawnPointType
   nameWithType: CompanySpawnPointType
+- uid: TruckLib.ScsMap.CompanySpawnPointType.LoadPoint
+  name: LoadPoint
+  href: api/TruckLib.ScsMap.CompanySpawnPointType.html#TruckLib_ScsMap_CompanySpawnPointType_LoadPoint
+  commentId: F:TruckLib.ScsMap.CompanySpawnPointType.LoadPoint
+  fullName: TruckLib.ScsMap.CompanySpawnPointType.LoadPoint
+  nameWithType: CompanySpawnPointType.LoadPoint
 - uid: TruckLib.ScsMap.CompanySpawnPointType.Trailer
   name: Trailer
   href: api/TruckLib.ScsMap.CompanySpawnPointType.html#TruckLib_ScsMap_CompanySpawnPointType_Trailer

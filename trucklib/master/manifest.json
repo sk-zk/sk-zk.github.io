@@ -1200,6 +1200,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.CompanySpawnPointTrailerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.CompanySpawnPointTrailerType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.CompanySpawnPointTrailerType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TruckLib.ScsMap.CompanySpawnPointType.yml",
       "output": {
         ".html": {
