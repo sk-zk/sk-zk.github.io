@@ -386,7 +386,7 @@ which parents these models.</p>
 
   <h3 id="TruckLib_ScsMap_Collections_PathNodeList_Add_System_Numerics_Vector3_" data-uid="TruckLib.ScsMap.Collections.PathNodeList.Add(System.Numerics.Vector3)">
   Add(Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PathNodeList.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PathNodeList.cs/#L128"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a map node at the specified position and adds it to the end of the list.</p>
@@ -394,7 +394,7 @@ which parents these models.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Add(Vector3 position)</code></pre>
+    <pre><code class="lang-csharp hljs">public INode Add(Vector3 position)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -404,6 +404,12 @@ which parents these models.</p>
 </dd>
   </dl>
 
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.INode.html">INode</a></dt>
+    <dd><p>The newly created node.</p>
+</dd>
+  </dl>
 
 
 
@@ -458,7 +464,7 @@ which parents these models.</p>
 
   <h3 id="TruckLib_ScsMap_Collections_PathNodeList_AddRange_System_Collections_Generic_IEnumerable_System_Numerics_Vector3__" data-uid="TruckLib.ScsMap.Collections.PathNodeList.AddRange(System.Collections.Generic.IEnumerable{System.Numerics.Vector3})">
   AddRange(IEnumerable&lt;Vector3&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PathNodeList.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PathNodeList.cs/#L139"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates map nodes at the specified positions and adds them to the end of the list.</p>
@@ -524,7 +530,7 @@ which parents these models.</p>
 
   <h3 id="TruckLib_ScsMap_Collections_PathNodeList_Clear" data-uid="TruckLib.ScsMap.Collections.PathNodeList.Clear">
   Clear()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PathNodeList.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PathNodeList.cs/#L147"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Removes all items from the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a>.</p>
@@ -557,7 +563,7 @@ which parents these models.</p>
 
   <h3 id="TruckLib_ScsMap_Collections_PathNodeList_Contains_TruckLib_ScsMap_INode_" data-uid="TruckLib.ScsMap.Collections.PathNodeList.Contains(TruckLib.ScsMap.INode)">
   Contains(INode)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PathNodeList.cs/#L153"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PathNodeList.cs/#L156"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Determines whether the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a> contains a specific value.</p>
@@ -596,7 +602,7 @@ which parents these models.</p>
 
   <h3 id="TruckLib_ScsMap_Collections_PathNodeList_CopyTo_TruckLib_ScsMap_INode___System_Int32_" data-uid="TruckLib.ScsMap.Collections.PathNodeList.CopyTo(TruckLib.ScsMap.INode[],System.Int32)">
   CopyTo(INode[], int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PathNodeList.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PathNodeList.cs/#L162"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Copies the elements of the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a> to an <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.array">Array</a>, starting at a particular <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.array">Array</a> index.</p>
@@ -644,7 +650,7 @@ which parents these models.</p>
 
   <h3 id="TruckLib_ScsMap_Collections_PathNodeList_GetEnumerator" data-uid="TruckLib.ScsMap.Collections.PathNodeList.GetEnumerator">
   GetEnumerator()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PathNodeList.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PathNodeList.cs/#L168"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns an enumerator that iterates through the collection.</p>
@@ -677,7 +683,7 @@ which parents these models.</p>
 
   <h3 id="TruckLib_ScsMap_Collections_PathNodeList_IndexOf_TruckLib_ScsMap_INode_" data-uid="TruckLib.ScsMap.Collections.PathNodeList.IndexOf(TruckLib.ScsMap.INode)">
   IndexOf(INode)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PathNodeList.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PathNodeList.cs/#L174"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Determines the index of a specific item in the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList&lt;T&gt;</a>.</p>
@@ -716,7 +722,7 @@ which parents these models.</p>
 
   <h3 id="TruckLib_ScsMap_Collections_PathNodeList_Insert_System_Int32_System_Numerics_Vector3_" data-uid="TruckLib.ScsMap.Collections.PathNodeList.Insert(System.Int32,System.Numerics.Vector3)">
   Insert(int, Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PathNodeList.cs/#L197"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PathNodeList.cs/#L201"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a map node at the specified position and inserts it
@@ -725,7 +731,7 @@ with the given properties at the specified index.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Insert(int index, Vector3 position)</code></pre>
+    <pre><code class="lang-csharp hljs">public INode Insert(int index, Vector3 position)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -738,6 +744,12 @@ with the given properties at the specified index.</p>
 </dd>
   </dl>
 
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.INode.html">INode</a></dt>
+    <dd><p>The newly created node.</p>
+</dd>
+  </dl>
 
 
 
@@ -753,7 +765,7 @@ with the given properties at the specified index.</p>
 
   <h3 id="TruckLib_ScsMap_Collections_PathNodeList_Insert_System_Int32_TruckLib_ScsMap_INode_" data-uid="TruckLib.ScsMap.Collections.PathNodeList.Insert(System.Int32,TruckLib.ScsMap.INode)">
   Insert(int, INode)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PathNodeList.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PathNodeList.cs/#L180"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Inserts an item to the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList&lt;T&gt;</a> at the specified index.</p>
@@ -798,7 +810,7 @@ with the given properties at the specified index.</p>
 
   <h3 id="TruckLib_ScsMap_Collections_PathNodeList_Remove_TruckLib_ScsMap_INode_" data-uid="TruckLib.ScsMap.Collections.PathNodeList.Remove(TruckLib.ScsMap.INode)">
   Remove(INode)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PathNodeList.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PathNodeList.cs/#L213"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Removes the first occurrence of the specified node from the list
@@ -844,7 +856,7 @@ and deletes it from the map if it is not connected to anything else.</p>
 
   <h3 id="TruckLib_ScsMap_Collections_PathNodeList_RemoveAt_System_Int32_" data-uid="TruckLib.ScsMap.Collections.PathNodeList.RemoveAt(System.Int32)">
   RemoveAt(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PathNodeList.cs/#L220"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/PathNodeList.cs/#L226"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Removes the node at the specified index from the list
