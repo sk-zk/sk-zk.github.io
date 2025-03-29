@@ -1102,7 +1102,7 @@
   "docs/introduction.html": {
     "href": "docs/introduction.html",
     "title": "Introduction | TruckLib",
-    "summary": "Introduction This is the documentation for TruckLib, a library for the map format of Euro Truck Simulator 2 and American Truck Simulator. Install dotnet add package TruckLib Getting started To get started with the library, check out the Creating and modifying maps section and the sample code. Supported formats Map TruckLib supports map format version 901 (game version 1.51–1.53). Support for more than one version at a time is not planned, so you will need to update existing maps in the editor whenever this library updates to a newer version. HashFS Both HashFS v1 and v2 are supported. Prefab descriptors TruckLib can read .ppd versions 21 to 24."
+    "summary": "Introduction This is the documentation for TruckLib, a library for the map format of Euro Truck Simulator 2 and American Truck Simulator. Install dotnet add package TruckLib Getting started To get started with the library, check out the Creating and modifying maps section and the sample code. Supported formats Map TruckLib supports map format version 901 (game version 1.51–1.54). Support for more than one version at a time is not planned, so you will need to update existing maps in the editor whenever this library updates to a newer version. HashFS Both HashFS v1 and v2 are supported. Prefab descriptors TruckLib can read .ppd versions 21 to 24."
   },
   "index.html": {
     "href": "index.html",
