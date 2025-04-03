@@ -122,8 +122,6 @@ const ToggleType = Object.freeze({
   /** Google Maps uses this style if terrain is enabled. */ 
   WhiteAndGrayRoads: 63,
 
-  NoLandUse: 64,
-
   /** Enables the terrain overlay in conjunction with adding base layers 5 and 6. */
   Terrain: 67,
 
@@ -24229,7 +24227,6 @@ const options = {
   highDpi: false,
   labelsAndIconsOnly: false,
   mapStyle: null,
-  useOldStyle: false,
 };
 
 // TODO maybe use dict style instead of this
@@ -24322,7 +24319,7 @@ function buildMessage(options, layers, toggles) {
     new Message(3, [
       new Field(2, "s", options.language),
       new Field(3, "s", options.regionCode),
-      new Field(5, "e", options.useOldStyle ? 18 : 1105),
+      new Field(5, "e", 1105),
 
       ...toggles.map(x => x.toMessage()),
     ]),
@@ -24334,7 +24331,8 @@ function buildMessage(options, layers, toggles) {
       new Message(8, [
         new Field(1, "e", 1),
         new Field(1, "e", 1)
-      ])
+      ]),
+      new Field(8, "i", 47083502)
     ]),
 
     new Message(6, [
@@ -24407,8 +24405,6 @@ new Map$1({
 });
 
 
-// BEGIN UI CODE
-
 createRadioSelector("raster-type-container", "raster-type",
   [
     { value: RasterType.PNG, description: "PNG", checked: true }, 
@@ -24458,12 +24454,6 @@ createCheckBox("overlays-container", "traffic", "Live traffic", options.trafficO
   }
 );
 
-createCheckBox("toggles-container", "old-style", "Old style", options.useOldStyle,
-  (checked) => {
-    options.useOldStyle = +checked;
-    refreshUrl();
-  }
-);
 createCheckBox("toggles-container", "high-dpi", "2x scale (High DPI)", options.highDpi,
   (checked) => {
     options.highDpi = +checked;
@@ -24521,5 +24511,3 @@ document.querySelector("#map-style").addEventListener("change", (e) => {
   options.mapStyle = e.target.value;
   refreshUrl();
 });
-
-// END UI CODE
