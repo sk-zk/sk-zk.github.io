@@ -2868,19 +2868,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Locator.Serialize
   nameWithType: Locator.Serialize
-- uid: TruckLib.Models.Locator.ToString
-  name: ToString()
-  href: api/TruckLib.Models.Locator.html#TruckLib_Models_Locator_ToString
-  commentId: M:TruckLib.Models.Locator.ToString
-  fullName: TruckLib.Models.Locator.ToString()
-  nameWithType: Locator.ToString()
-- uid: TruckLib.Models.Locator.ToString*
-  name: ToString
-  href: api/TruckLib.Models.Locator.html#TruckLib_Models_Locator_ToString_
-  commentId: Overload:TruckLib.Models.Locator.ToString
-  isSpec: "True"
-  fullName: TruckLib.Models.Locator.ToString
-  nameWithType: Locator.ToString
 - uid: TruckLib.Models.Look
   name: Look
   href: api/TruckLib.Models.Look.html
@@ -2941,19 +2928,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Look.Name
   nameWithType: Look.Name
-- uid: TruckLib.Models.Look.ToString
-  name: ToString()
-  href: api/TruckLib.Models.Look.html#TruckLib_Models_Look_ToString
-  commentId: M:TruckLib.Models.Look.ToString
-  fullName: TruckLib.Models.Look.ToString()
-  nameWithType: Look.ToString()
-- uid: TruckLib.Models.Look.ToString*
-  name: ToString
-  href: api/TruckLib.Models.Look.html#TruckLib_Models_Look_ToString_
-  commentId: Overload:TruckLib.Models.Look.ToString
-  isSpec: "True"
-  fullName: TruckLib.Models.Look.ToString
-  nameWithType: Look.ToString
 - uid: TruckLib.Models.Model
   name: Model
   href: api/TruckLib.Models.Model.html
@@ -3107,6 +3081,32 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Model.Save
   nameWithType: Model.Save
+- uid: TruckLib.Models.Model.SerializePmd(System.IO.BinaryWriter)
+  name: SerializePmd(BinaryWriter)
+  href: api/TruckLib.Models.Model.html#TruckLib_Models_Model_SerializePmd_System_IO_BinaryWriter_
+  commentId: M:TruckLib.Models.Model.SerializePmd(System.IO.BinaryWriter)
+  fullName: TruckLib.Models.Model.SerializePmd(System.IO.BinaryWriter)
+  nameWithType: Model.SerializePmd(BinaryWriter)
+- uid: TruckLib.Models.Model.SerializePmd*
+  name: SerializePmd
+  href: api/TruckLib.Models.Model.html#TruckLib_Models_Model_SerializePmd_
+  commentId: Overload:TruckLib.Models.Model.SerializePmd
+  isSpec: "True"
+  fullName: TruckLib.Models.Model.SerializePmd
+  nameWithType: Model.SerializePmd
+- uid: TruckLib.Models.Model.SerializePmg(System.IO.BinaryWriter)
+  name: SerializePmg(BinaryWriter)
+  href: api/TruckLib.Models.Model.html#TruckLib_Models_Model_SerializePmg_System_IO_BinaryWriter_
+  commentId: M:TruckLib.Models.Model.SerializePmg(System.IO.BinaryWriter)
+  fullName: TruckLib.Models.Model.SerializePmg(System.IO.BinaryWriter)
+  nameWithType: Model.SerializePmg(BinaryWriter)
+- uid: TruckLib.Models.Model.SerializePmg*
+  name: SerializePmg
+  href: api/TruckLib.Models.Model.html#TruckLib_Models_Model_SerializePmg_
+  commentId: Overload:TruckLib.Models.Model.SerializePmg
+  isSpec: "True"
+  fullName: TruckLib.Models.Model.SerializePmg
+  nameWithType: Model.SerializePmg
 - uid: TruckLib.Models.Model.Skeleton
   name: Skeleton
   href: api/TruckLib.Models.Model.html#TruckLib_Models_Model_Skeleton
@@ -3206,19 +3206,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Part.Pieces
   nameWithType: Part.Pieces
-- uid: TruckLib.Models.Part.ToString
-  name: ToString()
-  href: api/TruckLib.Models.Part.html#TruckLib_Models_Part_ToString
-  commentId: M:TruckLib.Models.Part.ToString
-  fullName: TruckLib.Models.Part.ToString()
-  nameWithType: Part.ToString()
-- uid: TruckLib.Models.Part.ToString*
-  name: ToString
-  href: api/TruckLib.Models.Part.html#TruckLib_Models_Part_ToString_
-  commentId: Overload:TruckLib.Models.Part.ToString
-  isSpec: "True"
-  fullName: TruckLib.Models.Part.ToString
-  nameWithType: Part.ToString
 - uid: TruckLib.Models.PartAttribute
   name: PartAttribute
   href: api/TruckLib.Models.PartAttribute.html
@@ -3238,19 +3225,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.PartAttribute.Tag
   nameWithType: PartAttribute.Tag
-- uid: TruckLib.Models.PartAttribute.ToString
-  name: ToString()
-  href: api/TruckLib.Models.PartAttribute.html#TruckLib_Models_PartAttribute_ToString
-  commentId: M:TruckLib.Models.PartAttribute.ToString
-  fullName: TruckLib.Models.PartAttribute.ToString()
-  nameWithType: PartAttribute.ToString()
-- uid: TruckLib.Models.PartAttribute.ToString*
-  name: ToString
-  href: api/TruckLib.Models.PartAttribute.html#TruckLib_Models_PartAttribute_ToString_
-  commentId: Overload:TruckLib.Models.PartAttribute.ToString
-  isSpec: "True"
-  fullName: TruckLib.Models.PartAttribute.ToString
-  nameWithType: PartAttribute.ToString
 - uid: TruckLib.Models.PartAttribute.Type
   name: Type
   href: api/TruckLib.Models.PartAttribute.html#TruckLib_Models_PartAttribute_Type
@@ -3364,6 +3338,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Piece.Serialize
   nameWithType: Piece.Serialize
+- uid: TruckLib.Models.Piece.TextureCoordinateMask
+  name: TextureCoordinateMask
+  href: api/TruckLib.Models.Piece.html#TruckLib_Models_Piece_TextureCoordinateMask
+  commentId: P:TruckLib.Models.Piece.TextureCoordinateMask
+  fullName: TruckLib.Models.Piece.TextureCoordinateMask
+  nameWithType: Piece.TextureCoordinateMask
+- uid: TruckLib.Models.Piece.TextureCoordinateMask*
+  name: TextureCoordinateMask
+  href: api/TruckLib.Models.Piece.html#TruckLib_Models_Piece_TextureCoordinateMask_
+  commentId: Overload:TruckLib.Models.Piece.TextureCoordinateMask
+  isSpec: "True"
+  fullName: TruckLib.Models.Piece.TextureCoordinateMask
+  nameWithType: Piece.TextureCoordinateMask
 - uid: TruckLib.Models.Piece.TextureCoordinateWidth
   name: TextureCoordinateWidth
   href: api/TruckLib.Models.Piece.html#TruckLib_Models_Piece_TextureCoordinateWidth
@@ -5972,19 +5959,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Triangle.Serialize
   nameWithType: Triangle.Serialize
-- uid: TruckLib.Models.Triangle.ToString
-  name: ToString()
-  href: api/TruckLib.Models.Triangle.html#TruckLib_Models_Triangle_ToString
-  commentId: M:TruckLib.Models.Triangle.ToString
-  fullName: TruckLib.Models.Triangle.ToString()
-  nameWithType: Triangle.ToString()
-- uid: TruckLib.Models.Triangle.ToString*
-  name: ToString
-  href: api/TruckLib.Models.Triangle.html#TruckLib_Models_Triangle_ToString_
-  commentId: Overload:TruckLib.Models.Triangle.ToString
-  isSpec: "True"
-  fullName: TruckLib.Models.Triangle.ToString
-  nameWithType: Triangle.ToString
 - uid: TruckLib.Models.Variant
   name: Variant
   href: api/TruckLib.Models.Variant.html
@@ -6036,19 +6010,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Variant.Name
   nameWithType: Variant.Name
-- uid: TruckLib.Models.Variant.ToString
-  name: ToString()
-  href: api/TruckLib.Models.Variant.html#TruckLib_Models_Variant_ToString
-  commentId: M:TruckLib.Models.Variant.ToString
-  fullName: TruckLib.Models.Variant.ToString()
-  nameWithType: Variant.ToString()
-- uid: TruckLib.Models.Variant.ToString*
-  name: ToString
-  href: api/TruckLib.Models.Variant.html#TruckLib_Models_Variant_ToString_
-  commentId: Overload:TruckLib.Models.Variant.ToString
-  isSpec: "True"
-  fullName: TruckLib.Models.Variant.ToString
-  nameWithType: Variant.ToString
 - uid: TruckLib.Models.Vertex
   name: Vertex
   href: api/TruckLib.Models.Vertex.html
@@ -6209,19 +6170,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Vertex.TextureCoordinates
   nameWithType: Vertex.TextureCoordinates
-- uid: TruckLib.Models.Vertex.ToString
-  name: ToString()
-  href: api/TruckLib.Models.Vertex.html#TruckLib_Models_Vertex_ToString
-  commentId: M:TruckLib.Models.Vertex.ToString
-  fullName: TruckLib.Models.Vertex.ToString()
-  nameWithType: Vertex.ToString()
-- uid: TruckLib.Models.Vertex.ToString*
-  name: ToString
-  href: api/TruckLib.Models.Vertex.html#TruckLib_Models_Vertex_ToString_
-  commentId: Overload:TruckLib.Models.Vertex.ToString
-  isSpec: "True"
-  fullName: TruckLib.Models.Vertex.ToString
-  nameWithType: Vertex.ToString
 - uid: TruckLib.Nibble
   name: Nibble
   href: api/TruckLib.Nibble.html
@@ -25929,19 +25877,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.Sii.Unit.Name
   nameWithType: Unit.Name
-- uid: TruckLib.Sii.Unit.ToString
-  name: ToString()
-  href: api/TruckLib.Sii.Unit.html#TruckLib_Sii_Unit_ToString
-  commentId: M:TruckLib.Sii.Unit.ToString
-  fullName: TruckLib.Sii.Unit.ToString()
-  nameWithType: Unit.ToString()
-- uid: TruckLib.Sii.Unit.ToString*
-  name: ToString
-  href: api/TruckLib.Sii.Unit.html#TruckLib_Sii_Unit_ToString_
-  commentId: Overload:TruckLib.Sii.Unit.ToString
-  isSpec: "True"
-  fullName: TruckLib.Sii.Unit.ToString
-  nameWithType: Unit.ToString
 - uid: TruckLib.Token
   name: Token
   href: api/TruckLib.Token.html

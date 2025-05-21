@@ -106,7 +106,6 @@ using TruckLib.HashFs;
 HashFsReader baseScs = HashFsReader.Open(&quot;&lt;game root&gt;/base.scs&quot;);
 PrefabDescriptor ppd = PrefabDescriptor.Open(&quot;/prefab2/car_dealer/car_dealer_01_fr.ppd&quot;, baseScs);
 </code></pre>
-<p>Note that this will not work while the game is running because the game locks the file.</p>
 <h3 id="creating-the-prefab">Creating the prefab</h3>
 <p>Now that we have the prefab descriptor, we can call <a class="xref" href="../../api/TruckLib.ScsMap.Prefab.html#TruckLib_ScsMap_Prefab_Add_"><code>Prefab.Add</code></a>
 to add the prefab to the map:</p>

@@ -104,7 +104,6 @@ fetch it directly from <code>base.scs</code> using the <code>HashFsReader</code>
 var gameRoot = @&quot;E:\SteamLibrary\steamapps\common\Euro Truck Simulator 2&quot;;
 var baseScs = HashFsReader.Open(Path.Combine(gameRoot, &quot;base.scs&quot;));
 </code></pre>
-<p>Note that the game must be closed for this because it locks the file.</p>
 <h2 id="placing-a-prefab">Placing a prefab</h2>
 <p>Let's now place a company prefab. The first step is to load the prefab descriptor:</p>
 <pre><code class="lang-cs">using TruckLib.Models.Ppd;
