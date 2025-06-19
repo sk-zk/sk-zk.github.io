@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/new/master/apiSpec/new?filename=TruckLib_ScsMap_INode.md&amp;value=---%0Auid%3A%20TruckLib.ScsMap.INode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/new/pkg-refactor/apiSpec/new?filename=TruckLib_ScsMap_INode.md&amp;value=---%0Auid%3A%20TruckLib.ScsMap.INode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="TruckLib_ScsMap_INode" data-uid="TruckLib.ScsMap.INode" class="text-break">
-Interface INode  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/INode.cs/#L8"><i class="bi bi-code-slash"></i></a>
+Interface INode  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/INode.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,7 @@ Interface INode  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface INode : IMapObject, IBinarySerializable</code></pre>
+    <pre><code class="lang-csharp hljs">public interface INode : IMapObject</code></pre>
   </div>
 
 
@@ -115,12 +115,6 @@ Interface INode  <a class="header-action link-secondary" title="View source" hre
     <dd>
     <div>
       <a class="xref" href="TruckLib.ScsMap.IMapObject.html#TruckLib_ScsMap_IMapObject_Uid">IMapObject.Uid</a>
-    </div>
-    <div>
-      <a class="xref" href="TruckLib.IBinarySerializable.html#TruckLib_IBinarySerializable_Deserialize_System_IO_BinaryReader_System_Nullable_System_UInt32__">IBinarySerializable.Deserialize(BinaryReader, uint?)</a>
-    </div>
-    <div>
-      <a class="xref" href="TruckLib.IBinarySerializable.html#TruckLib_IBinarySerializable_Serialize_System_IO_BinaryWriter_">IBinarySerializable.Serialize(BinaryWriter)</a>
     </div>
   </dd></dl>
 
@@ -137,11 +131,10 @@ Interface INode  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="TruckLib_ScsMap_INode_BackwardCountry" data-uid="TruckLib.ScsMap.INode.BackwardCountry">
   BackwardCountry
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/INode.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/INode.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The country of the backward item if this node is a country border.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -169,11 +162,10 @@ Interface INode  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="TruckLib_ScsMap_INode_BackwardItem" data-uid="TruckLib.ScsMap.INode.BackwardItem">
   BackwardItem
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/INode.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/INode.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The backward item belonging to this node.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -201,11 +193,10 @@ Interface INode  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="TruckLib_ScsMap_INode_ForwardCountry" data-uid="TruckLib.ScsMap.INode.ForwardCountry">
   ForwardCountry
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/INode.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/INode.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The country of the forward item if this node is a country border.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -233,11 +224,10 @@ Interface INode  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="TruckLib_ScsMap_INode_ForwardItem" data-uid="TruckLib.ScsMap.INode.ForwardItem">
   ForwardItem
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/INode.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/INode.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The forward item belonging to this node.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -265,12 +255,10 @@ Interface INode  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="TruckLib_ScsMap_INode_FreeRotation" data-uid="TruckLib.ScsMap.INode.FreeRotation">
   FreeRotation
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/INode.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/INode.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets or sets if the game will use whichever rotation is specified without
-reverting to its default rotation when the node is updated.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -298,11 +286,10 @@ reverting to its default rotation when the node is updated.</p>
 
   <h3 id="TruckLib_ScsMap_INode_IsCountryBorder" data-uid="TruckLib.ScsMap.INode.IsCountryBorder">
   IsCountryBorder
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/INode.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/INode.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets or sets if this node is a country border.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -330,11 +317,10 @@ reverting to its default rotation when the node is updated.</p>
 
   <h3 id="TruckLib_ScsMap_INode_IsCurveLocator" data-uid="TruckLib.ScsMap.INode.IsCurveLocator">
   IsCurveLocator
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/INode.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/INode.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets or sets if this node represents a curve locator.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -362,11 +348,10 @@ reverting to its default rotation when the node is updated.</p>
 
   <h3 id="TruckLib_ScsMap_INode_IsRed" data-uid="TruckLib.ScsMap.INode.IsRed">
   IsRed
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/INode.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/INode.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets or sets if this node is red or green.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -394,11 +379,10 @@ reverting to its default rotation when the node is updated.</p>
 
   <h3 id="TruckLib_ScsMap_INode_Locked" data-uid="TruckLib.ScsMap.INode.Locked">
   Locked
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/INode.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/INode.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets or sets if this node can be moved or deleted in the editor.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -426,11 +410,10 @@ reverting to its default rotation when the node is updated.</p>
 
   <h3 id="TruckLib_ScsMap_INode_Parent" data-uid="TruckLib.ScsMap.INode.Parent">
   Parent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/INode.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/INode.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The map, selection or compound which contains this node.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -458,11 +441,10 @@ reverting to its default rotation when the node is updated.</p>
 
   <h3 id="TruckLib_ScsMap_INode_Position" data-uid="TruckLib.ScsMap.INode.Position">
   Position
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/INode.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/INode.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Position of the node. Note that this will be serialized as fixed point values.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -490,11 +472,10 @@ reverting to its default rotation when the node is updated.</p>
 
   <h3 id="TruckLib_ScsMap_INode_Rotation" data-uid="TruckLib.ScsMap.INode.Rotation">
   Rotation
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/INode.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/INode.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Rotation of the node.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -522,15 +503,47 @@ reverting to its default rotation when the node is updated.</p>
 </h2>
 
 
+  <a id="TruckLib_ScsMap_INode_Deserialize_" data-uid="TruckLib.ScsMap.INode.Deserialize*"></a>
+
+  <h3 id="TruckLib_ScsMap_INode_Deserialize_System_IO_BinaryReader_System_Nullable_System_UInt32__" data-uid="TruckLib.ScsMap.INode.Deserialize(System.IO.BinaryReader,System.Nullable{System.UInt32})">
+  Deserialize(BinaryReader, uint?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/INode.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Deserialize(BinaryReader r, uint? version = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>r</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.binaryreader">BinaryReader</a></dt>
+    <dd></dd>
+    <dt><code>version</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="TruckLib_ScsMap_INode_IsOrphaned_" data-uid="TruckLib.ScsMap.INode.IsOrphaned*"></a>
 
   <h3 id="TruckLib_ScsMap_INode_IsOrphaned" data-uid="TruckLib.ScsMap.INode.IsOrphaned">
   IsOrphaned()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/INode.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/INode.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Returns whether the node has no ForwardItem and no BackwardItem.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -541,8 +554,7 @@ reverting to its default rotation when the node is updated.</p>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>Whether the node has no ForwardItem and no BackwardItem.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
@@ -559,12 +571,10 @@ reverting to its default rotation when the node is updated.</p>
 
   <h3 id="TruckLib_ScsMap_INode_Merge_TruckLib_ScsMap_INode_" data-uid="TruckLib.ScsMap.INode.Merge(TruckLib.ScsMap.INode)">
   Merge(INode)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/INode.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/INode.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Merges the node <i>n2</i> into this one, if possible, and then deletes <i>n2</i>.
-Note that the flags and rotation of <i>n2</i> will not be preserved.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -574,8 +584,7 @@ Note that the flags and rotation of <i>n2</i> will not be preserved.</p>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>n2</code> <a class="xref" href="TruckLib.ScsMap.INode.html">INode</a></dt>
-    <dd><p>The node to merge into this one.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
@@ -586,12 +595,6 @@ Note that the flags and rotation of <i>n2</i> will not be preserved.</p>
 
 
 
-  <h4 class="section">Exceptions</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
-    <dd><p>Thrown if the nodes can't be merged.</p>
-</dd>
-  </dl>
 
 
 
@@ -599,11 +602,10 @@ Note that the flags and rotation of <i>n2</i> will not be preserved.</p>
 
   <h3 id="TruckLib_ScsMap_INode_Move_System_Numerics_Vector3_" data-uid="TruckLib.ScsMap.INode.Move(System.Numerics.Vector3)">
   Move(Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/INode.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/INode.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Moves the node to another position.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -613,8 +615,38 @@ Note that the flags and rotation of <i>n2</i> will not be preserved.</p>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>newPos</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
-    <dd><p>The new position of the node.</p>
-</dd>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_INode_Serialize_" data-uid="TruckLib.ScsMap.INode.Serialize*"></a>
+
+  <h3 id="TruckLib_ScsMap_INode_Serialize_System_IO_BinaryWriter_" data-uid="TruckLib.ScsMap.INode.Serialize(System.IO.BinaryWriter)">
+  Serialize(BinaryWriter)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/INode.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Serialize(BinaryWriter w)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>w</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.binarywriter">BinaryWriter</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -632,13 +664,10 @@ Note that the flags and rotation of <i>n2</i> will not be preserved.</p>
 
   <h3 id="TruckLib_ScsMap_INode_Split" data-uid="TruckLib.ScsMap.INode.Split">
   Split()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/INode.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/INode.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Splits this node into one node holding the backward item and one node
-holding the forward item.
-This method is the opposite of <a class="xref" href="TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_Merge_TruckLib_ScsMap_INode_">Merge</a>.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -649,9 +678,7 @@ This method is the opposite of <a class="xref" href="TruckLib.ScsMap.INode.html#
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="TruckLib.ScsMap.INode.html">INode</a></dt>
-    <dd><p>The newly created node. If no action was performed because
-this node is already only used by one item, the method returns null.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
@@ -661,12 +688,6 @@ this node is already only used by one item, the method returns null.</p>
 
 
 
-  <h4 class="section">Exceptions</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
-    <dd><p>Thrown if the node can't be split.</p>
-</dd>
-  </dl>
 
 
 
@@ -674,7 +695,7 @@ this node is already only used by one item, the method returns null.</p>
 
   <h3 id="TruckLib_ScsMap_INode_ToString" data-uid="TruckLib.ScsMap.INode.ToString">
   ToString()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/INode.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/INode.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -705,11 +726,10 @@ this node is already only used by one item, the method returns null.</p>
 
   <h3 id="TruckLib_ScsMap_INode_Translate_System_Numerics_Vector3_" data-uid="TruckLib.ScsMap.INode.Translate(System.Numerics.Vector3)">
   Translate(Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/INode.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/INode.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Translates the node by the given vector.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -719,8 +739,7 @@ this node is already only used by one item, the method returns null.</p>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>translation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
-    <dd><p>The translation vector.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
@@ -738,12 +757,10 @@ this node is already only used by one item, the method returns null.</p>
 
   <h3 id="TruckLib_ScsMap_INode_UpdateItemReferences_System_Collections_Generic_Dictionary_System_UInt64_TruckLib_ScsMap_MapItem__" data-uid="TruckLib.ScsMap.INode.UpdateItemReferences(System.Collections.Generic.Dictionary{System.UInt64,TruckLib.ScsMap.MapItem})">
   UpdateItemReferences(Dictionary&lt;ulong, MapItem&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/INode.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/INode.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Searches a list of all map items for the map items referenced by UID by this node
-and updates the respective references.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -753,8 +770,7 @@ and updates the respective references.</p>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>allItems</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>, <a class="xref" href="TruckLib.ScsMap.MapItem.html">MapItem</a>&gt;</dt>
-    <dd><p>A dictionary of all items in the entire map.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
@@ -772,7 +788,7 @@ and updates the respective references.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/INode.cs/#L8" class="edit-link">Edit this page</a>
+          <a href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/INode.cs/#L7" class="edit-link">Edit this page</a>
         </div>
 
 
