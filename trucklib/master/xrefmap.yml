@@ -4106,19 +4106,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Ppd.NavCurve.Deserialize15
   nameWithType: NavCurve.Deserialize15
-- uid: TruckLib.Models.Ppd.NavCurve.Deserialize16to18(System.IO.BinaryReader)
-  name: Deserialize16to18(BinaryReader)
-  href: api/TruckLib.Models.Ppd.NavCurve.html#TruckLib_Models_Ppd_NavCurve_Deserialize16to18_System_IO_BinaryReader_
-  commentId: M:TruckLib.Models.Ppd.NavCurve.Deserialize16to18(System.IO.BinaryReader)
-  fullName: TruckLib.Models.Ppd.NavCurve.Deserialize16to18(System.IO.BinaryReader)
-  nameWithType: NavCurve.Deserialize16to18(BinaryReader)
-- uid: TruckLib.Models.Ppd.NavCurve.Deserialize16to18*
-  name: Deserialize16to18
-  href: api/TruckLib.Models.Ppd.NavCurve.html#TruckLib_Models_Ppd_NavCurve_Deserialize16to18_
-  commentId: Overload:TruckLib.Models.Ppd.NavCurve.Deserialize16to18
+- uid: TruckLib.Models.Ppd.NavCurve.Deserialize16to19(System.IO.BinaryReader)
+  name: Deserialize16to19(BinaryReader)
+  href: api/TruckLib.Models.Ppd.NavCurve.html#TruckLib_Models_Ppd_NavCurve_Deserialize16to19_System_IO_BinaryReader_
+  commentId: M:TruckLib.Models.Ppd.NavCurve.Deserialize16to19(System.IO.BinaryReader)
+  fullName: TruckLib.Models.Ppd.NavCurve.Deserialize16to19(System.IO.BinaryReader)
+  nameWithType: NavCurve.Deserialize16to19(BinaryReader)
+- uid: TruckLib.Models.Ppd.NavCurve.Deserialize16to19*
+  name: Deserialize16to19
+  href: api/TruckLib.Models.Ppd.NavCurve.html#TruckLib_Models_Ppd_NavCurve_Deserialize16to19_
+  commentId: Overload:TruckLib.Models.Ppd.NavCurve.Deserialize16to19
   isSpec: "True"
-  fullName: TruckLib.Models.Ppd.NavCurve.Deserialize16to18
-  nameWithType: NavCurve.Deserialize16to18
+  fullName: TruckLib.Models.Ppd.NavCurve.Deserialize16to19
+  nameWithType: NavCurve.Deserialize16to19
 - uid: TruckLib.Models.Ppd.NavCurve.EndPosition
   name: EndPosition
   href: api/TruckLib.Models.Ppd.NavCurve.html#TruckLib_Models_Ppd_NavCurve_EndPosition
@@ -4700,6 +4700,32 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Ppd.Semaphore.Deserialize
   nameWithType: Semaphore.Deserialize
+- uid: TruckLib.Models.Ppd.Semaphore.Deserialize15to18(System.IO.BinaryReader)
+  name: Deserialize15to18(BinaryReader)
+  href: api/TruckLib.Models.Ppd.Semaphore.html#TruckLib_Models_Ppd_Semaphore_Deserialize15to18_System_IO_BinaryReader_
+  commentId: M:TruckLib.Models.Ppd.Semaphore.Deserialize15to18(System.IO.BinaryReader)
+  fullName: TruckLib.Models.Ppd.Semaphore.Deserialize15to18(System.IO.BinaryReader)
+  nameWithType: Semaphore.Deserialize15to18(BinaryReader)
+- uid: TruckLib.Models.Ppd.Semaphore.Deserialize15to18*
+  name: Deserialize15to18
+  href: api/TruckLib.Models.Ppd.Semaphore.html#TruckLib_Models_Ppd_Semaphore_Deserialize15to18_
+  commentId: Overload:TruckLib.Models.Ppd.Semaphore.Deserialize15to18
+  isSpec: "True"
+  fullName: TruckLib.Models.Ppd.Semaphore.Deserialize15to18
+  nameWithType: Semaphore.Deserialize15to18
+- uid: TruckLib.Models.Ppd.Semaphore.Deserialize19(System.IO.BinaryReader)
+  name: Deserialize19(BinaryReader)
+  href: api/TruckLib.Models.Ppd.Semaphore.html#TruckLib_Models_Ppd_Semaphore_Deserialize19_System_IO_BinaryReader_
+  commentId: M:TruckLib.Models.Ppd.Semaphore.Deserialize19(System.IO.BinaryReader)
+  fullName: TruckLib.Models.Ppd.Semaphore.Deserialize19(System.IO.BinaryReader)
+  nameWithType: Semaphore.Deserialize19(BinaryReader)
+- uid: TruckLib.Models.Ppd.Semaphore.Deserialize19*
+  name: Deserialize19
+  href: api/TruckLib.Models.Ppd.Semaphore.html#TruckLib_Models_Ppd_Semaphore_Deserialize19_
+  commentId: Overload:TruckLib.Models.Ppd.Semaphore.Deserialize19
+  isSpec: "True"
+  fullName: TruckLib.Models.Ppd.Semaphore.Deserialize19
+  nameWithType: Semaphore.Deserialize19
 - uid: TruckLib.Models.Ppd.Semaphore.Intervals
   name: Intervals
   href: api/TruckLib.Models.Ppd.Semaphore.html#TruckLib_Models_Ppd_Semaphore_Intervals
@@ -4985,6 +5011,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Ppd.SpawnPoint.Deserialize
   nameWithType: SpawnPoint.Deserialize
+- uid: TruckLib.Models.Ppd.SpawnPoint.Flags
+  name: Flags
+  href: api/TruckLib.Models.Ppd.SpawnPoint.html#TruckLib_Models_Ppd_SpawnPoint_Flags
+  commentId: P:TruckLib.Models.Ppd.SpawnPoint.Flags
+  fullName: TruckLib.Models.Ppd.SpawnPoint.Flags
+  nameWithType: SpawnPoint.Flags
+- uid: TruckLib.Models.Ppd.SpawnPoint.Flags*
+  name: Flags
+  href: api/TruckLib.Models.Ppd.SpawnPoint.html#TruckLib_Models_Ppd_SpawnPoint_Flags_
+  commentId: Overload:TruckLib.Models.Ppd.SpawnPoint.Flags
+  isSpec: "True"
+  fullName: TruckLib.Models.Ppd.SpawnPoint.Flags
+  nameWithType: SpawnPoint.Flags
 - uid: TruckLib.Models.Ppd.SpawnPoint.Position
   name: Position
   href: api/TruckLib.Models.Ppd.SpawnPoint.html#TruckLib_Models_Ppd_SpawnPoint_Position
@@ -5037,19 +5076,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Ppd.SpawnPoint.Type
   nameWithType: SpawnPoint.Type
-- uid: TruckLib.Models.Ppd.SpawnPoint.Unknown
-  name: Unknown
-  href: api/TruckLib.Models.Ppd.SpawnPoint.html#TruckLib_Models_Ppd_SpawnPoint_Unknown
-  commentId: P:TruckLib.Models.Ppd.SpawnPoint.Unknown
-  fullName: TruckLib.Models.Ppd.SpawnPoint.Unknown
-  nameWithType: SpawnPoint.Unknown
-- uid: TruckLib.Models.Ppd.SpawnPoint.Unknown*
-  name: Unknown
-  href: api/TruckLib.Models.Ppd.SpawnPoint.html#TruckLib_Models_Ppd_SpawnPoint_Unknown_
-  commentId: Overload:TruckLib.Models.Ppd.SpawnPoint.Unknown
-  isSpec: "True"
-  fullName: TruckLib.Models.Ppd.SpawnPoint.Unknown
-  nameWithType: SpawnPoint.Unknown
 - uid: TruckLib.Models.Ppd.SpawnPointType
   name: SpawnPointType
   href: api/TruckLib.Models.Ppd.SpawnPointType.html
@@ -10629,27 +10655,13 @@ references:
 - uid: TruckLib.ScsMap.Curve.MaxLength
   name: MaxLength
   href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_MaxLength
-  commentId: P:TruckLib.ScsMap.Curve.MaxLength
-  fullName: TruckLib.ScsMap.Curve.MaxLength
-  nameWithType: Curve.MaxLength
-- uid: TruckLib.ScsMap.Curve.MaxLength*
-  name: MaxLength
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_MaxLength_
-  commentId: Overload:TruckLib.ScsMap.Curve.MaxLength
-  isSpec: "True"
+  commentId: F:TruckLib.ScsMap.Curve.MaxLength
   fullName: TruckLib.ScsMap.Curve.MaxLength
   nameWithType: Curve.MaxLength
 - uid: TruckLib.ScsMap.Curve.MinLength
   name: MinLength
   href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_MinLength
-  commentId: P:TruckLib.ScsMap.Curve.MinLength
-  fullName: TruckLib.ScsMap.Curve.MinLength
-  nameWithType: Curve.MinLength
-- uid: TruckLib.ScsMap.Curve.MinLength*
-  name: MinLength
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_MinLength_
-  commentId: Overload:TruckLib.ScsMap.Curve.MinLength
-  isSpec: "True"
+  commentId: F:TruckLib.ScsMap.Curve.MinLength
   fullName: TruckLib.ScsMap.Curve.MinLength
   nameWithType: Curve.MinLength
 - uid: TruckLib.ScsMap.Curve.MirrorReflection
@@ -12330,6 +12342,25 @@ references:
   commentId: T:TruckLib.ScsMap.FuelPump
   fullName: TruckLib.ScsMap.FuelPump
   nameWithType: FuelPump
+- uid: TruckLib.ScsMap.FuelPump.#ctor
+  name: FuelPump()
+  href: api/TruckLib.ScsMap.FuelPump.html#TruckLib_ScsMap_FuelPump__ctor
+  commentId: M:TruckLib.ScsMap.FuelPump.#ctor
+  name.vb: New()
+  fullName: TruckLib.ScsMap.FuelPump.FuelPump()
+  fullName.vb: TruckLib.ScsMap.FuelPump.New()
+  nameWithType: FuelPump.FuelPump()
+  nameWithType.vb: FuelPump.New()
+- uid: TruckLib.ScsMap.FuelPump.#ctor*
+  name: FuelPump
+  href: api/TruckLib.ScsMap.FuelPump.html#TruckLib_ScsMap_FuelPump__ctor_
+  commentId: Overload:TruckLib.ScsMap.FuelPump.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TruckLib.ScsMap.FuelPump.FuelPump
+  fullName.vb: TruckLib.ScsMap.FuelPump.New
+  nameWithType: FuelPump.FuelPump
+  nameWithType.vb: FuelPump.New
 - uid: TruckLib.ScsMap.FuelPump.Add(TruckLib.ScsMap.IItemContainer,TruckLib.ScsMap.Prefab,System.Numerics.Vector3)
   name: Add(IItemContainer, Prefab, Vector3)
   href: api/TruckLib.ScsMap.FuelPump.html#TruckLib_ScsMap_FuelPump_Add_TruckLib_ScsMap_IItemContainer_TruckLib_ScsMap_Prefab_System_Numerics_Vector3_
@@ -22741,32 +22772,84 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Terrain.TerrainShadows
   nameWithType: Terrain.TerrainShadows
-- uid: TruckLib.ScsMap.Terrain.Unknown
-  name: Unknown
-  href: api/TruckLib.ScsMap.Terrain.html#TruckLib_ScsMap_Terrain_Unknown
-  commentId: P:TruckLib.ScsMap.Terrain.Unknown
-  fullName: TruckLib.ScsMap.Terrain.Unknown
-  nameWithType: Terrain.Unknown
-- uid: TruckLib.ScsMap.Terrain.Unknown*
-  name: Unknown
-  href: api/TruckLib.ScsMap.Terrain.html#TruckLib_ScsMap_Terrain_Unknown_
-  commentId: Overload:TruckLib.ScsMap.Terrain.Unknown
+- uid: TruckLib.ScsMap.Terrain.UnknownB7
+  name: UnknownB7
+  href: api/TruckLib.ScsMap.Terrain.html#TruckLib_ScsMap_Terrain_UnknownB7
+  commentId: P:TruckLib.ScsMap.Terrain.UnknownB7
+  fullName: TruckLib.ScsMap.Terrain.UnknownB7
+  nameWithType: Terrain.UnknownB7
+- uid: TruckLib.ScsMap.Terrain.UnknownB7*
+  name: UnknownB7
+  href: api/TruckLib.ScsMap.Terrain.html#TruckLib_ScsMap_Terrain_UnknownB7_
+  commentId: Overload:TruckLib.ScsMap.Terrain.UnknownB7
   isSpec: "True"
-  fullName: TruckLib.ScsMap.Terrain.Unknown
-  nameWithType: Terrain.Unknown
-- uid: TruckLib.ScsMap.Terrain.Unknown2
-  name: Unknown2
-  href: api/TruckLib.ScsMap.Terrain.html#TruckLib_ScsMap_Terrain_Unknown2
-  commentId: P:TruckLib.ScsMap.Terrain.Unknown2
-  fullName: TruckLib.ScsMap.Terrain.Unknown2
-  nameWithType: Terrain.Unknown2
-- uid: TruckLib.ScsMap.Terrain.Unknown2*
-  name: Unknown2
-  href: api/TruckLib.ScsMap.Terrain.html#TruckLib_ScsMap_Terrain_Unknown2_
-  commentId: Overload:TruckLib.ScsMap.Terrain.Unknown2
+  fullName: TruckLib.ScsMap.Terrain.UnknownB7
+  nameWithType: Terrain.UnknownB7
+- uid: TruckLib.ScsMap.Terrain.UnknownC1
+  name: UnknownC1
+  href: api/TruckLib.ScsMap.Terrain.html#TruckLib_ScsMap_Terrain_UnknownC1
+  commentId: P:TruckLib.ScsMap.Terrain.UnknownC1
+  fullName: TruckLib.ScsMap.Terrain.UnknownC1
+  nameWithType: Terrain.UnknownC1
+- uid: TruckLib.ScsMap.Terrain.UnknownC1*
+  name: UnknownC1
+  href: api/TruckLib.ScsMap.Terrain.html#TruckLib_ScsMap_Terrain_UnknownC1_
+  commentId: Overload:TruckLib.ScsMap.Terrain.UnknownC1
   isSpec: "True"
-  fullName: TruckLib.ScsMap.Terrain.Unknown2
-  nameWithType: Terrain.Unknown2
+  fullName: TruckLib.ScsMap.Terrain.UnknownC1
+  nameWithType: Terrain.UnknownC1
+- uid: TruckLib.ScsMap.Terrain.UnknownC4
+  name: UnknownC4
+  href: api/TruckLib.ScsMap.Terrain.html#TruckLib_ScsMap_Terrain_UnknownC4
+  commentId: P:TruckLib.ScsMap.Terrain.UnknownC4
+  fullName: TruckLib.ScsMap.Terrain.UnknownC4
+  nameWithType: Terrain.UnknownC4
+- uid: TruckLib.ScsMap.Terrain.UnknownC4*
+  name: UnknownC4
+  href: api/TruckLib.ScsMap.Terrain.html#TruckLib_ScsMap_Terrain_UnknownC4_
+  commentId: Overload:TruckLib.ScsMap.Terrain.UnknownC4
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Terrain.UnknownC4
+  nameWithType: Terrain.UnknownC4
+- uid: TruckLib.ScsMap.Terrain.UnknownC5
+  name: UnknownC5
+  href: api/TruckLib.ScsMap.Terrain.html#TruckLib_ScsMap_Terrain_UnknownC5
+  commentId: P:TruckLib.ScsMap.Terrain.UnknownC5
+  fullName: TruckLib.ScsMap.Terrain.UnknownC5
+  nameWithType: Terrain.UnknownC5
+- uid: TruckLib.ScsMap.Terrain.UnknownC5*
+  name: UnknownC5
+  href: api/TruckLib.ScsMap.Terrain.html#TruckLib_ScsMap_Terrain_UnknownC5_
+  commentId: Overload:TruckLib.ScsMap.Terrain.UnknownC5
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Terrain.UnknownC5
+  nameWithType: Terrain.UnknownC5
+- uid: TruckLib.ScsMap.Terrain.UnknownC6
+  name: UnknownC6
+  href: api/TruckLib.ScsMap.Terrain.html#TruckLib_ScsMap_Terrain_UnknownC6
+  commentId: P:TruckLib.ScsMap.Terrain.UnknownC6
+  fullName: TruckLib.ScsMap.Terrain.UnknownC6
+  nameWithType: Terrain.UnknownC6
+- uid: TruckLib.ScsMap.Terrain.UnknownC6*
+  name: UnknownC6
+  href: api/TruckLib.ScsMap.Terrain.html#TruckLib_ScsMap_Terrain_UnknownC6_
+  commentId: Overload:TruckLib.ScsMap.Terrain.UnknownC6
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Terrain.UnknownC6
+  nameWithType: Terrain.UnknownC6
+- uid: TruckLib.ScsMap.Terrain.UnknownC7
+  name: UnknownC7
+  href: api/TruckLib.ScsMap.Terrain.html#TruckLib_ScsMap_Terrain_UnknownC7
+  commentId: P:TruckLib.ScsMap.Terrain.UnknownC7
+  fullName: TruckLib.ScsMap.Terrain.UnknownC7
+  nameWithType: Terrain.UnknownC7
+- uid: TruckLib.ScsMap.Terrain.UnknownC7*
+  name: UnknownC7
+  href: api/TruckLib.ScsMap.Terrain.html#TruckLib_ScsMap_Terrain_UnknownC7_
+  commentId: Overload:TruckLib.ScsMap.Terrain.UnknownC7
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Terrain.UnknownC7
+  nameWithType: Terrain.UnknownC7
 - uid: TruckLib.ScsMap.Terrain.VegetationSpheres
   name: VegetationSpheres
   href: api/TruckLib.ScsMap.Terrain.html#TruckLib_ScsMap_Terrain_VegetationSpheres
