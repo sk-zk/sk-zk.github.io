@@ -8982,12 +8982,12 @@ references:
   fullName.vb: TruckLib.ScsMap.Collections.CurveLocatorList.this[]
   nameWithType: CurveLocatorList.this
   nameWithType.vb: CurveLocatorList.this[]
-- uid: TruckLib.ScsMap.Collections.CurveLocatorList.MaxSize
-  name: MaxSize
-  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_MaxSize
-  commentId: F:TruckLib.ScsMap.Collections.CurveLocatorList.MaxSize
-  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.MaxSize
-  nameWithType: CurveLocatorList.MaxSize
+- uid: TruckLib.ScsMap.Collections.CurveLocatorList.MaxCapacity
+  name: MaxCapacity
+  href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_MaxCapacity
+  commentId: F:TruckLib.ScsMap.Collections.CurveLocatorList.MaxCapacity
+  fullName: TruckLib.ScsMap.Collections.CurveLocatorList.MaxCapacity
+  nameWithType: CurveLocatorList.MaxCapacity
 - uid: TruckLib.ScsMap.Collections.CurveLocatorList.Parent
   name: Parent
   href: api/TruckLib.ScsMap.Collections.CurveLocatorList.html#TruckLib_ScsMap_Collections_CurveLocatorList_Parent
@@ -9439,12 +9439,12 @@ references:
   fullName.vb: TruckLib.ScsMap.Collections.GateActivationPointList.this[]
   nameWithType: GateActivationPointList.this
   nameWithType.vb: GateActivationPointList.this[]
-- uid: TruckLib.ScsMap.Collections.GateActivationPointList.MaxSize
-  name: MaxSize
-  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_MaxSize
-  commentId: F:TruckLib.ScsMap.Collections.GateActivationPointList.MaxSize
-  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.MaxSize
-  nameWithType: GateActivationPointList.MaxSize
+- uid: TruckLib.ScsMap.Collections.GateActivationPointList.MaxCapacity
+  name: MaxCapacity
+  href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_MaxCapacity
+  commentId: F:TruckLib.ScsMap.Collections.GateActivationPointList.MaxCapacity
+  fullName: TruckLib.ScsMap.Collections.GateActivationPointList.MaxCapacity
+  nameWithType: GateActivationPointList.MaxCapacity
 - uid: TruckLib.ScsMap.Collections.GateActivationPointList.Parent
   name: Parent
   href: api/TruckLib.ScsMap.Collections.GateActivationPointList.html#TruckLib_ScsMap_Collections_GateActivationPointList_Parent
