@@ -14499,6 +14499,31 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.KdopBounds.Minimums
   nameWithType: KdopBounds.Minimums
+- uid: TruckLib.ScsMap.KdopItemFlagFieldSubView
+  name: KdopItemFlagFieldSubView
+  href: api/TruckLib.ScsMap.KdopItemFlagFieldSubView.html
+  commentId: T:TruckLib.ScsMap.KdopItemFlagFieldSubView
+  fullName: TruckLib.ScsMap.KdopItemFlagFieldSubView
+  nameWithType: KdopItemFlagFieldSubView
+- uid: TruckLib.ScsMap.KdopItemFlagFieldSubView.Item(System.Int32)
+  name: this[int]
+  href: api/TruckLib.ScsMap.KdopItemFlagFieldSubView.html#TruckLib_ScsMap_KdopItemFlagFieldSubView_Item_System_Int32_
+  commentId: P:TruckLib.ScsMap.KdopItemFlagFieldSubView.Item(System.Int32)
+  name.vb: this[](Integer)
+  fullName: TruckLib.ScsMap.KdopItemFlagFieldSubView.this[int]
+  fullName.vb: TruckLib.ScsMap.KdopItemFlagFieldSubView.this[](Integer)
+  nameWithType: KdopItemFlagFieldSubView.this[int]
+  nameWithType.vb: KdopItemFlagFieldSubView.this[](Integer)
+- uid: TruckLib.ScsMap.KdopItemFlagFieldSubView.Item*
+  name: this
+  href: api/TruckLib.ScsMap.KdopItemFlagFieldSubView.html#TruckLib_ScsMap_KdopItemFlagFieldSubView_Item_
+  commentId: Overload:TruckLib.ScsMap.KdopItemFlagFieldSubView.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: TruckLib.ScsMap.KdopItemFlagFieldSubView.this
+  fullName.vb: TruckLib.ScsMap.KdopItemFlagFieldSubView.this[]
+  nameWithType: KdopItemFlagFieldSubView.this
+  nameWithType.vb: KdopItemFlagFieldSubView.this[]
 - uid: TruckLib.ScsMap.Keyframe
   name: Keyframe
   href: api/TruckLib.ScsMap.Keyframe.html

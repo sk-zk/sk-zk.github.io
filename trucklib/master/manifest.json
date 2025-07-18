@@ -1774,6 +1774,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.KdopItemFlagFieldSubView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.KdopItemFlagFieldSubView.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.KdopItemFlagFieldSubView",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TruckLib.ScsMap.Keyframe.yml",
       "output": {
         ".html": {
