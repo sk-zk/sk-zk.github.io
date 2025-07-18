@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ControlNode | TruckLib </title>
+      <title>Class NavNodeConnectionInfo | TruckLib </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ControlNode | TruckLib ">
+      <meta name="title" content="Class NavNodeConnectionInfo | TruckLib ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib.Models/new/master/apiSpec/new?filename=TruckLib_Models_Ppd_ControlNode.md&amp;value=---%0Auid%3A%20TruckLib.Models.Ppd.ControlNode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib.Models/new/master/apiSpec/new?filename=TruckLib_Models_Ppd_NavNodeConnectionInfo.md&amp;value=---%0Auid%3A%20TruckLib.Models.Ppd.NavNodeConnectionInfo%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="TruckLib.Models.Ppd.ControlNode">
+        <article data-uid="TruckLib.Models.Ppd.NavNodeConnectionInfo">
 
 
 
-  <h1 id="TruckLib_Models_Ppd_ControlNode" data-uid="TruckLib.Models.Ppd.ControlNode" class="text-break">
-Class ControlNode  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/ControlNode.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <h1 id="TruckLib_Models_Ppd_NavNodeConnectionInfo" data-uid="TruckLib.Models.Ppd.NavNodeConnectionInfo" class="text-break">
+Class NavNodeConnectionInfo  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/NavNode.cs/#L55"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,11 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
   <dl><dt>Assembly</dt><dd>TruckLib.Models.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Represents a control node.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ControlNode : IBinarySerializable</code></pre>
+    <pre><code class="lang-csharp hljs">public class NavNodeConnectionInfo : IBinarySerializable</code></pre>
   </div>
 
 
@@ -112,7 +111,7 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">ControlNode</span></div>
+      <div><span class="xref">NavNodeConnectionInfo</span></div>
     </dd>
   </dl>
 
@@ -159,18 +158,18 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 </h2>
 
 
-  <a id="TruckLib_Models_Ppd_ControlNode_Direction_" data-uid="TruckLib.Models.Ppd.ControlNode.Direction*"></a>
+  <a id="TruckLib_Models_Ppd_NavNodeConnectionInfo_CurveIndices_" data-uid="TruckLib.Models.Ppd.NavNodeConnectionInfo.CurveIndices*"></a>
 
-  <h3 id="TruckLib_Models_Ppd_ControlNode_Direction" data-uid="TruckLib.Models.Ppd.ControlNode.Direction">
-  Direction
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/ControlNode.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <h3 id="TruckLib_Models_Ppd_NavNodeConnectionInfo_CurveIndices" data-uid="TruckLib.Models.Ppd.NavNodeConnectionInfo.CurveIndices">
+  CurveIndices
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/NavNode.cs/#L63"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 Direction { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public LimitedList&lt;ushort&gt; CurveIndices { get; }</code></pre>
   </div>
 
 
@@ -179,7 +178,7 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dt><a class="xref" href="https://github.com/sk-zk/TruckLib.Core/blob/master/TruckLib.Core/LimitedList.cs">LimitedList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -190,18 +189,18 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 
 
 
-  <a id="TruckLib_Models_Ppd_ControlNode_InputLines_" data-uid="TruckLib.Models.Ppd.ControlNode.InputLines*"></a>
+  <a id="TruckLib_Models_Ppd_NavNodeConnectionInfo_Length_" data-uid="TruckLib.Models.Ppd.NavNodeConnectionInfo.Length*"></a>
 
-  <h3 id="TruckLib_Models_Ppd_ControlNode_InputLines" data-uid="TruckLib.Models.Ppd.ControlNode.InputLines">
-  InputLines
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/ControlNode.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <h3 id="TruckLib_Models_Ppd_NavNodeConnectionInfo_Length" data-uid="TruckLib.Models.Ppd.NavNodeConnectionInfo.Length">
+  Length
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/NavNode.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int[] InputLines { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public float Length { get; set; }</code></pre>
   </div>
 
 
@@ -210,7 +209,7 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd></dd>
   </dl>
 
@@ -221,18 +220,18 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 
 
 
-  <a id="TruckLib_Models_Ppd_ControlNode_OutputLines_" data-uid="TruckLib.Models.Ppd.ControlNode.OutputLines*"></a>
+  <a id="TruckLib_Models_Ppd_NavNodeConnectionInfo_TargetNodeIndex_" data-uid="TruckLib.Models.Ppd.NavNodeConnectionInfo.TargetNodeIndex*"></a>
 
-  <h3 id="TruckLib_Models_Ppd_ControlNode_OutputLines" data-uid="TruckLib.Models.Ppd.ControlNode.OutputLines">
-  OutputLines
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/ControlNode.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <h3 id="TruckLib_Models_Ppd_NavNodeConnectionInfo_TargetNodeIndex" data-uid="TruckLib.Models.Ppd.NavNodeConnectionInfo.TargetNodeIndex">
+  TargetNodeIndex
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/NavNode.cs/#L57"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int[] OutputLines { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ushort TargetNodeIndex { get; set; }</code></pre>
   </div>
 
 
@@ -241,72 +240,7 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="TruckLib_Models_Ppd_ControlNode_Position_" data-uid="TruckLib.Models.Ppd.ControlNode.Position*"></a>
-
-  <h3 id="TruckLib_Models_Ppd_ControlNode_Position" data-uid="TruckLib.Models.Ppd.ControlNode.Position">
-  Position
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/ControlNode.cs/#L16"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 Position { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="TruckLib_Models_Ppd_ControlNode_TerrainPoints_" data-uid="TruckLib.Models.Ppd.ControlNode.TerrainPoints*"></a>
-
-  <h3 id="TruckLib_Models_Ppd_ControlNode_TerrainPoints" data-uid="TruckLib.Models.Ppd.ControlNode.TerrainPoints">
-  TerrainPoints
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/ControlNode.cs/#L29"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>The terrain points for this node, which are used to extrude
-terrain from the edge of this node.</p>
-<p>The key of the dictionary is the index of the model variant.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;int, List&lt;TerrainPoint&gt;&gt; TerrainPoints { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="TruckLib.Models.Ppd.TerrainPoint.html">TerrainPoint</a>&gt;&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
     <dd></dd>
   </dl>
 
@@ -321,11 +255,11 @@ terrain from the edge of this node.</p>
 </h2>
 
 
-  <a id="TruckLib_Models_Ppd_ControlNode_Deserialize_" data-uid="TruckLib.Models.Ppd.ControlNode.Deserialize*"></a>
+  <a id="TruckLib_Models_Ppd_NavNodeConnectionInfo_Deserialize_" data-uid="TruckLib.Models.Ppd.NavNodeConnectionInfo.Deserialize*"></a>
 
-  <h3 id="TruckLib_Models_Ppd_ControlNode_Deserialize_System_IO_BinaryReader_System_Nullable_System_UInt32__" data-uid="TruckLib.Models.Ppd.ControlNode.Deserialize(System.IO.BinaryReader,System.Nullable{System.UInt32})">
+  <h3 id="TruckLib_Models_Ppd_NavNodeConnectionInfo_Deserialize_System_IO_BinaryReader_System_Nullable_System_UInt32__" data-uid="TruckLib.Models.Ppd.NavNodeConnectionInfo.Deserialize(System.IO.BinaryReader,System.Nullable{System.UInt32})">
   Deserialize(BinaryReader, uint?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/ControlNode.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/NavNode.cs/#L65"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -354,11 +288,11 @@ terrain from the edge of this node.</p>
 
 
 
-  <a id="TruckLib_Models_Ppd_ControlNode_Serialize_" data-uid="TruckLib.Models.Ppd.ControlNode.Serialize*"></a>
+  <a id="TruckLib_Models_Ppd_NavNodeConnectionInfo_Serialize_" data-uid="TruckLib.Models.Ppd.NavNodeConnectionInfo.Serialize*"></a>
 
-  <h3 id="TruckLib_Models_Ppd_ControlNode_Serialize_System_IO_BinaryWriter_" data-uid="TruckLib.Models.Ppd.ControlNode.Serialize(System.IO.BinaryWriter)">
+  <h3 id="TruckLib_Models_Ppd_NavNodeConnectionInfo_Serialize_System_IO_BinaryWriter_" data-uid="TruckLib.Models.Ppd.NavNodeConnectionInfo.Serialize(System.IO.BinaryWriter)">
   Serialize(BinaryWriter)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/ControlNode.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/NavNode.cs/#L75"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -389,7 +323,7 @@ terrain from the edge of this node.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/ControlNode.cs/#L14" class="edit-link">Edit this page</a>
+          <a href="https://github.com/sk-zk/TruckLib.Models/blob/master/TruckLib.Models/Ppd/NavNode.cs/#L55" class="edit-link">Edit this page</a>
         </div>
 
 

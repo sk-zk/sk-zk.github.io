@@ -2441,15 +2441,15 @@ references:
   isSpec: "True"
   fullName: TruckLib.IOExtensions.WriteObjectList
   nameWithType: IOExtensions.WriteObjectList
-- uid: TruckLib.IOExtensions.WriteObjectList``1(System.IO.BinaryWriter,System.Collections.Generic.List{``0})
-  name: WriteObjectList<T>(BinaryWriter, List<T>)
-  href: api/TruckLib.IOExtensions.html#TruckLib_IOExtensions_WriteObjectList__1_System_IO_BinaryWriter_System_Collections_Generic_List___0__
-  commentId: M:TruckLib.IOExtensions.WriteObjectList``1(System.IO.BinaryWriter,System.Collections.Generic.List{``0})
-  name.vb: WriteObjectList(Of T)(BinaryWriter, List(Of T))
-  fullName: TruckLib.IOExtensions.WriteObjectList<T>(System.IO.BinaryWriter, System.Collections.Generic.List<T>)
-  fullName.vb: TruckLib.IOExtensions.WriteObjectList(Of T)(System.IO.BinaryWriter, System.Collections.Generic.List(Of T))
-  nameWithType: IOExtensions.WriteObjectList<T>(BinaryWriter, List<T>)
-  nameWithType.vb: IOExtensions.WriteObjectList(Of T)(BinaryWriter, List(Of T))
+- uid: TruckLib.IOExtensions.WriteObjectList``1(System.IO.BinaryWriter,System.Collections.Generic.IList{``0})
+  name: WriteObjectList<T>(BinaryWriter, IList<T>)
+  href: api/TruckLib.IOExtensions.html#TruckLib_IOExtensions_WriteObjectList__1_System_IO_BinaryWriter_System_Collections_Generic_IList___0__
+  commentId: M:TruckLib.IOExtensions.WriteObjectList``1(System.IO.BinaryWriter,System.Collections.Generic.IList{``0})
+  name.vb: WriteObjectList(Of T)(BinaryWriter, IList(Of T))
+  fullName: TruckLib.IOExtensions.WriteObjectList<T>(System.IO.BinaryWriter, System.Collections.Generic.IList<T>)
+  fullName.vb: TruckLib.IOExtensions.WriteObjectList(Of T)(System.IO.BinaryWriter, System.Collections.Generic.IList(Of T))
+  nameWithType: IOExtensions.WriteObjectList<T>(BinaryWriter, IList<T>)
+  nameWithType.vb: IOExtensions.WriteObjectList(Of T)(BinaryWriter, IList(Of T))
 - uid: TruckLib.IOExtensions.WritePascalString(System.IO.BinaryWriter,System.String)
   name: WritePascalString(BinaryWriter, string)
   href: api/TruckLib.IOExtensions.html#TruckLib_IOExtensions_WritePascalString_System_IO_BinaryWriter_System_String_
@@ -2466,6 +2466,278 @@ references:
   isSpec: "True"
   fullName: TruckLib.IOExtensions.WritePascalString
   nameWithType: IOExtensions.WritePascalString
+- uid: TruckLib.LimitedList`1
+  name: LimitedList<T>
+  href: api/TruckLib.LimitedList-1.html
+  commentId: T:TruckLib.LimitedList`1
+  name.vb: LimitedList(Of T)
+  fullName: TruckLib.LimitedList<T>
+  fullName.vb: TruckLib.LimitedList(Of T)
+  nameWithType: LimitedList<T>
+  nameWithType.vb: LimitedList(Of T)
+- uid: TruckLib.LimitedList`1.#ctor(System.UInt32)
+  name: LimitedList(uint)
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1__ctor_System_UInt32_
+  commentId: M:TruckLib.LimitedList`1.#ctor(System.UInt32)
+  name.vb: New(UInteger)
+  fullName: TruckLib.LimitedList<T>.LimitedList(uint)
+  fullName.vb: TruckLib.LimitedList(Of T).New(UInteger)
+  nameWithType: LimitedList<T>.LimitedList(uint)
+  nameWithType.vb: LimitedList(Of T).New(UInteger)
+- uid: TruckLib.LimitedList`1.#ctor(System.UInt32,System.Collections.Generic.IEnumerable{`0})
+  name: LimitedList(uint, IEnumerable<T>)
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1__ctor_System_UInt32_System_Collections_Generic_IEnumerable__0__
+  commentId: M:TruckLib.LimitedList`1.#ctor(System.UInt32,System.Collections.Generic.IEnumerable{`0})
+  name.vb: New(UInteger, IEnumerable(Of T))
+  fullName: TruckLib.LimitedList<T>.LimitedList(uint, System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: TruckLib.LimitedList(Of T).New(UInteger, System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: LimitedList<T>.LimitedList(uint, IEnumerable<T>)
+  nameWithType.vb: LimitedList(Of T).New(UInteger, IEnumerable(Of T))
+- uid: TruckLib.LimitedList`1.#ctor(System.UInt32,System.Int32)
+  name: LimitedList(uint, int)
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1__ctor_System_UInt32_System_Int32_
+  commentId: M:TruckLib.LimitedList`1.#ctor(System.UInt32,System.Int32)
+  name.vb: New(UInteger, Integer)
+  fullName: TruckLib.LimitedList<T>.LimitedList(uint, int)
+  fullName.vb: TruckLib.LimitedList(Of T).New(UInteger, Integer)
+  nameWithType: LimitedList<T>.LimitedList(uint, int)
+  nameWithType.vb: LimitedList(Of T).New(UInteger, Integer)
+- uid: TruckLib.LimitedList`1.#ctor*
+  name: LimitedList
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1__ctor_
+  commentId: Overload:TruckLib.LimitedList`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TruckLib.LimitedList<T>.LimitedList
+  fullName.vb: TruckLib.LimitedList(Of T).New
+  nameWithType: LimitedList<T>.LimitedList
+  nameWithType.vb: LimitedList(Of T).New
+- uid: TruckLib.LimitedList`1.Add(`0)
+  name: Add(T)
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_Add__0_
+  commentId: M:TruckLib.LimitedList`1.Add(`0)
+  fullName: TruckLib.LimitedList<T>.Add(T)
+  fullName.vb: TruckLib.LimitedList(Of T).Add(T)
+  nameWithType: LimitedList<T>.Add(T)
+  nameWithType.vb: LimitedList(Of T).Add(T)
+- uid: TruckLib.LimitedList`1.Add*
+  name: Add
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_Add_
+  commentId: Overload:TruckLib.LimitedList`1.Add
+  isSpec: "True"
+  fullName: TruckLib.LimitedList<T>.Add
+  fullName.vb: TruckLib.LimitedList(Of T).Add
+  nameWithType: LimitedList<T>.Add
+  nameWithType.vb: LimitedList(Of T).Add
+- uid: TruckLib.LimitedList`1.Clear
+  name: Clear()
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_Clear
+  commentId: M:TruckLib.LimitedList`1.Clear
+  fullName: TruckLib.LimitedList<T>.Clear()
+  fullName.vb: TruckLib.LimitedList(Of T).Clear()
+  nameWithType: LimitedList<T>.Clear()
+  nameWithType.vb: LimitedList(Of T).Clear()
+- uid: TruckLib.LimitedList`1.Clear*
+  name: Clear
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_Clear_
+  commentId: Overload:TruckLib.LimitedList`1.Clear
+  isSpec: "True"
+  fullName: TruckLib.LimitedList<T>.Clear
+  fullName.vb: TruckLib.LimitedList(Of T).Clear
+  nameWithType: LimitedList<T>.Clear
+  nameWithType.vb: LimitedList(Of T).Clear
+- uid: TruckLib.LimitedList`1.Contains(`0)
+  name: Contains(T)
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_Contains__0_
+  commentId: M:TruckLib.LimitedList`1.Contains(`0)
+  fullName: TruckLib.LimitedList<T>.Contains(T)
+  fullName.vb: TruckLib.LimitedList(Of T).Contains(T)
+  nameWithType: LimitedList<T>.Contains(T)
+  nameWithType.vb: LimitedList(Of T).Contains(T)
+- uid: TruckLib.LimitedList`1.Contains*
+  name: Contains
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_Contains_
+  commentId: Overload:TruckLib.LimitedList`1.Contains
+  isSpec: "True"
+  fullName: TruckLib.LimitedList<T>.Contains
+  fullName.vb: TruckLib.LimitedList(Of T).Contains
+  nameWithType: LimitedList<T>.Contains
+  nameWithType.vb: LimitedList(Of T).Contains
+- uid: TruckLib.LimitedList`1.CopyTo(`0[],System.Int32)
+  name: CopyTo(T[], int)
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_CopyTo__0___System_Int32_
+  commentId: M:TruckLib.LimitedList`1.CopyTo(`0[],System.Int32)
+  name.vb: CopyTo(T(), Integer)
+  fullName: TruckLib.LimitedList<T>.CopyTo(T[], int)
+  fullName.vb: TruckLib.LimitedList(Of T).CopyTo(T(), Integer)
+  nameWithType: LimitedList<T>.CopyTo(T[], int)
+  nameWithType.vb: LimitedList(Of T).CopyTo(T(), Integer)
+- uid: TruckLib.LimitedList`1.CopyTo*
+  name: CopyTo
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_CopyTo_
+  commentId: Overload:TruckLib.LimitedList`1.CopyTo
+  isSpec: "True"
+  fullName: TruckLib.LimitedList<T>.CopyTo
+  fullName.vb: TruckLib.LimitedList(Of T).CopyTo
+  nameWithType: LimitedList<T>.CopyTo
+  nameWithType.vb: LimitedList(Of T).CopyTo
+- uid: TruckLib.LimitedList`1.Count
+  name: Count
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_Count
+  commentId: P:TruckLib.LimitedList`1.Count
+  fullName: TruckLib.LimitedList<T>.Count
+  fullName.vb: TruckLib.LimitedList(Of T).Count
+  nameWithType: LimitedList<T>.Count
+  nameWithType.vb: LimitedList(Of T).Count
+- uid: TruckLib.LimitedList`1.Count*
+  name: Count
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_Count_
+  commentId: Overload:TruckLib.LimitedList`1.Count
+  isSpec: "True"
+  fullName: TruckLib.LimitedList<T>.Count
+  fullName.vb: TruckLib.LimitedList(Of T).Count
+  nameWithType: LimitedList<T>.Count
+  nameWithType.vb: LimitedList(Of T).Count
+- uid: TruckLib.LimitedList`1.GetEnumerator
+  name: GetEnumerator()
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_GetEnumerator
+  commentId: M:TruckLib.LimitedList`1.GetEnumerator
+  fullName: TruckLib.LimitedList<T>.GetEnumerator()
+  fullName.vb: TruckLib.LimitedList(Of T).GetEnumerator()
+  nameWithType: LimitedList<T>.GetEnumerator()
+  nameWithType.vb: LimitedList(Of T).GetEnumerator()
+- uid: TruckLib.LimitedList`1.GetEnumerator*
+  name: GetEnumerator
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_GetEnumerator_
+  commentId: Overload:TruckLib.LimitedList`1.GetEnumerator
+  isSpec: "True"
+  fullName: TruckLib.LimitedList<T>.GetEnumerator
+  fullName.vb: TruckLib.LimitedList(Of T).GetEnumerator
+  nameWithType: LimitedList<T>.GetEnumerator
+  nameWithType.vb: LimitedList(Of T).GetEnumerator
+- uid: TruckLib.LimitedList`1.IndexOf(`0)
+  name: IndexOf(T)
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_IndexOf__0_
+  commentId: M:TruckLib.LimitedList`1.IndexOf(`0)
+  fullName: TruckLib.LimitedList<T>.IndexOf(T)
+  fullName.vb: TruckLib.LimitedList(Of T).IndexOf(T)
+  nameWithType: LimitedList<T>.IndexOf(T)
+  nameWithType.vb: LimitedList(Of T).IndexOf(T)
+- uid: TruckLib.LimitedList`1.IndexOf*
+  name: IndexOf
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_IndexOf_
+  commentId: Overload:TruckLib.LimitedList`1.IndexOf
+  isSpec: "True"
+  fullName: TruckLib.LimitedList<T>.IndexOf
+  fullName.vb: TruckLib.LimitedList(Of T).IndexOf
+  nameWithType: LimitedList<T>.IndexOf
+  nameWithType.vb: LimitedList(Of T).IndexOf
+- uid: TruckLib.LimitedList`1.Insert(System.Int32,`0)
+  name: Insert(int, T)
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_Insert_System_Int32__0_
+  commentId: M:TruckLib.LimitedList`1.Insert(System.Int32,`0)
+  name.vb: Insert(Integer, T)
+  fullName: TruckLib.LimitedList<T>.Insert(int, T)
+  fullName.vb: TruckLib.LimitedList(Of T).Insert(Integer, T)
+  nameWithType: LimitedList<T>.Insert(int, T)
+  nameWithType.vb: LimitedList(Of T).Insert(Integer, T)
+- uid: TruckLib.LimitedList`1.Insert*
+  name: Insert
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_Insert_
+  commentId: Overload:TruckLib.LimitedList`1.Insert
+  isSpec: "True"
+  fullName: TruckLib.LimitedList<T>.Insert
+  fullName.vb: TruckLib.LimitedList(Of T).Insert
+  nameWithType: LimitedList<T>.Insert
+  nameWithType.vb: LimitedList(Of T).Insert
+- uid: TruckLib.LimitedList`1.IsReadOnly
+  name: IsReadOnly
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_IsReadOnly
+  commentId: P:TruckLib.LimitedList`1.IsReadOnly
+  fullName: TruckLib.LimitedList<T>.IsReadOnly
+  fullName.vb: TruckLib.LimitedList(Of T).IsReadOnly
+  nameWithType: LimitedList<T>.IsReadOnly
+  nameWithType.vb: LimitedList(Of T).IsReadOnly
+- uid: TruckLib.LimitedList`1.IsReadOnly*
+  name: IsReadOnly
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_IsReadOnly_
+  commentId: Overload:TruckLib.LimitedList`1.IsReadOnly
+  isSpec: "True"
+  fullName: TruckLib.LimitedList<T>.IsReadOnly
+  fullName.vb: TruckLib.LimitedList(Of T).IsReadOnly
+  nameWithType: LimitedList<T>.IsReadOnly
+  nameWithType.vb: LimitedList(Of T).IsReadOnly
+- uid: TruckLib.LimitedList`1.Item(System.Int32)
+  name: this[int]
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_Item_System_Int32_
+  commentId: P:TruckLib.LimitedList`1.Item(System.Int32)
+  name.vb: this[](Integer)
+  fullName: TruckLib.LimitedList<T>.this[int]
+  fullName.vb: TruckLib.LimitedList(Of T).this[](Integer)
+  nameWithType: LimitedList<T>.this[int]
+  nameWithType.vb: LimitedList(Of T).this[](Integer)
+- uid: TruckLib.LimitedList`1.Item*
+  name: this
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_Item_
+  commentId: Overload:TruckLib.LimitedList`1.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: TruckLib.LimitedList<T>.this
+  fullName.vb: TruckLib.LimitedList(Of T).this[]
+  nameWithType: LimitedList<T>.this
+  nameWithType.vb: LimitedList(Of T).this[]
+- uid: TruckLib.LimitedList`1.MaxCapacity
+  name: MaxCapacity
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_MaxCapacity
+  commentId: P:TruckLib.LimitedList`1.MaxCapacity
+  fullName: TruckLib.LimitedList<T>.MaxCapacity
+  fullName.vb: TruckLib.LimitedList(Of T).MaxCapacity
+  nameWithType: LimitedList<T>.MaxCapacity
+  nameWithType.vb: LimitedList(Of T).MaxCapacity
+- uid: TruckLib.LimitedList`1.MaxCapacity*
+  name: MaxCapacity
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_MaxCapacity_
+  commentId: Overload:TruckLib.LimitedList`1.MaxCapacity
+  isSpec: "True"
+  fullName: TruckLib.LimitedList<T>.MaxCapacity
+  fullName.vb: TruckLib.LimitedList(Of T).MaxCapacity
+  nameWithType: LimitedList<T>.MaxCapacity
+  nameWithType.vb: LimitedList(Of T).MaxCapacity
+- uid: TruckLib.LimitedList`1.Remove(`0)
+  name: Remove(T)
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_Remove__0_
+  commentId: M:TruckLib.LimitedList`1.Remove(`0)
+  fullName: TruckLib.LimitedList<T>.Remove(T)
+  fullName.vb: TruckLib.LimitedList(Of T).Remove(T)
+  nameWithType: LimitedList<T>.Remove(T)
+  nameWithType.vb: LimitedList(Of T).Remove(T)
+- uid: TruckLib.LimitedList`1.Remove*
+  name: Remove
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_Remove_
+  commentId: Overload:TruckLib.LimitedList`1.Remove
+  isSpec: "True"
+  fullName: TruckLib.LimitedList<T>.Remove
+  fullName.vb: TruckLib.LimitedList(Of T).Remove
+  nameWithType: LimitedList<T>.Remove
+  nameWithType.vb: LimitedList(Of T).Remove
+- uid: TruckLib.LimitedList`1.RemoveAt(System.Int32)
+  name: RemoveAt(int)
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_RemoveAt_System_Int32_
+  commentId: M:TruckLib.LimitedList`1.RemoveAt(System.Int32)
+  name.vb: RemoveAt(Integer)
+  fullName: TruckLib.LimitedList<T>.RemoveAt(int)
+  fullName.vb: TruckLib.LimitedList(Of T).RemoveAt(Integer)
+  nameWithType: LimitedList<T>.RemoveAt(int)
+  nameWithType.vb: LimitedList(Of T).RemoveAt(Integer)
+- uid: TruckLib.LimitedList`1.RemoveAt*
+  name: RemoveAt
+  href: api/TruckLib.LimitedList-1.html#TruckLib_LimitedList_1_RemoveAt_
+  commentId: Overload:TruckLib.LimitedList`1.RemoveAt
+  isSpec: "True"
+  fullName: TruckLib.LimitedList<T>.RemoveAt
+  fullName.vb: TruckLib.LimitedList(Of T).RemoveAt
+  nameWithType: LimitedList<T>.RemoveAt
+  nameWithType.vb: LimitedList(Of T).RemoveAt
 - uid: TruckLib.MathExtensions
   name: MathExtensions
   href: api/TruckLib.MathExtensions.html
@@ -3889,19 +4161,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Ppd.MapPoint.ExtValue
   nameWithType: MapPoint.ExtValue
-- uid: TruckLib.Models.Ppd.MapPoint.Neighbours
-  name: Neighbours
-  href: api/TruckLib.Models.Ppd.MapPoint.html#TruckLib_Models_Ppd_MapPoint_Neighbours
-  commentId: P:TruckLib.Models.Ppd.MapPoint.Neighbours
-  fullName: TruckLib.Models.Ppd.MapPoint.Neighbours
-  nameWithType: MapPoint.Neighbours
-- uid: TruckLib.Models.Ppd.MapPoint.Neighbours*
-  name: Neighbours
-  href: api/TruckLib.Models.Ppd.MapPoint.html#TruckLib_Models_Ppd_MapPoint_Neighbours_
-  commentId: Overload:TruckLib.Models.Ppd.MapPoint.Neighbours
+- uid: TruckLib.Models.Ppd.MapPoint.Neighbors
+  name: Neighbors
+  href: api/TruckLib.Models.Ppd.MapPoint.html#TruckLib_Models_Ppd_MapPoint_Neighbors
+  commentId: P:TruckLib.Models.Ppd.MapPoint.Neighbors
+  fullName: TruckLib.Models.Ppd.MapPoint.Neighbors
+  nameWithType: MapPoint.Neighbors
+- uid: TruckLib.Models.Ppd.MapPoint.Neighbors*
+  name: Neighbors
+  href: api/TruckLib.Models.Ppd.MapPoint.html#TruckLib_Models_Ppd_MapPoint_Neighbors_
+  commentId: Overload:TruckLib.Models.Ppd.MapPoint.Neighbors
   isSpec: "True"
-  fullName: TruckLib.Models.Ppd.MapPoint.Neighbours
-  nameWithType: MapPoint.Neighbours
+  fullName: TruckLib.Models.Ppd.MapPoint.Neighbors
+  nameWithType: MapPoint.Neighbors
 - uid: TruckLib.Models.Ppd.MapPoint.Outline
   name: Outline
   href: api/TruckLib.Models.Ppd.MapPoint.html#TruckLib_Models_Ppd_MapPoint_Outline
@@ -4051,32 +4323,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Ppd.NavCurve.Blinker
   nameWithType: NavCurve.Blinker
-- uid: TruckLib.Models.Ppd.NavCurve.CountNext
-  name: CountNext
-  href: api/TruckLib.Models.Ppd.NavCurve.html#TruckLib_Models_Ppd_NavCurve_CountNext
-  commentId: P:TruckLib.Models.Ppd.NavCurve.CountNext
-  fullName: TruckLib.Models.Ppd.NavCurve.CountNext
-  nameWithType: NavCurve.CountNext
-- uid: TruckLib.Models.Ppd.NavCurve.CountNext*
-  name: CountNext
-  href: api/TruckLib.Models.Ppd.NavCurve.html#TruckLib_Models_Ppd_NavCurve_CountNext_
-  commentId: Overload:TruckLib.Models.Ppd.NavCurve.CountNext
-  isSpec: "True"
-  fullName: TruckLib.Models.Ppd.NavCurve.CountNext
-  nameWithType: NavCurve.CountNext
-- uid: TruckLib.Models.Ppd.NavCurve.CountPrevious
-  name: CountPrevious
-  href: api/TruckLib.Models.Ppd.NavCurve.html#TruckLib_Models_Ppd_NavCurve_CountPrevious
-  commentId: P:TruckLib.Models.Ppd.NavCurve.CountPrevious
-  fullName: TruckLib.Models.Ppd.NavCurve.CountPrevious
-  nameWithType: NavCurve.CountPrevious
-- uid: TruckLib.Models.Ppd.NavCurve.CountPrevious*
-  name: CountPrevious
-  href: api/TruckLib.Models.Ppd.NavCurve.html#TruckLib_Models_Ppd_NavCurve_CountPrevious_
-  commentId: Overload:TruckLib.Models.Ppd.NavCurve.CountPrevious
-  isSpec: "True"
-  fullName: TruckLib.Models.Ppd.NavCurve.CountPrevious
-  nameWithType: NavCurve.CountPrevious
 - uid: TruckLib.Models.Ppd.NavCurve.Deserialize(System.IO.BinaryReader,System.Nullable{System.UInt32})
   name: Deserialize(BinaryReader, uint?)
   href: api/TruckLib.Models.Ppd.NavCurve.html#TruckLib_Models_Ppd_NavCurve_Deserialize_System_IO_BinaryReader_System_Nullable_System_UInt32__
@@ -4210,19 +4456,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Ppd.NavCurve.Name
   nameWithType: NavCurve.Name
-- uid: TruckLib.Models.Ppd.NavCurve.NewData1Id
-  name: NewData1Id
-  href: api/TruckLib.Models.Ppd.NavCurve.html#TruckLib_Models_Ppd_NavCurve_NewData1Id
-  commentId: P:TruckLib.Models.Ppd.NavCurve.NewData1Id
-  fullName: TruckLib.Models.Ppd.NavCurve.NewData1Id
-  nameWithType: NavCurve.NewData1Id
-- uid: TruckLib.Models.Ppd.NavCurve.NewData1Id*
-  name: NewData1Id
-  href: api/TruckLib.Models.Ppd.NavCurve.html#TruckLib_Models_Ppd_NavCurve_NewData1Id_
-  commentId: Overload:TruckLib.Models.Ppd.NavCurve.NewData1Id
+- uid: TruckLib.Models.Ppd.NavCurve.NavNodeIndex
+  name: NavNodeIndex
+  href: api/TruckLib.Models.Ppd.NavCurve.html#TruckLib_Models_Ppd_NavCurve_NavNodeIndex
+  commentId: P:TruckLib.Models.Ppd.NavCurve.NavNodeIndex
+  fullName: TruckLib.Models.Ppd.NavCurve.NavNodeIndex
+  nameWithType: NavCurve.NavNodeIndex
+- uid: TruckLib.Models.Ppd.NavCurve.NavNodeIndex*
+  name: NavNodeIndex
+  href: api/TruckLib.Models.Ppd.NavCurve.html#TruckLib_Models_Ppd_NavCurve_NavNodeIndex_
+  commentId: Overload:TruckLib.Models.Ppd.NavCurve.NavNodeIndex
   isSpec: "True"
-  fullName: TruckLib.Models.Ppd.NavCurve.NewData1Id
-  nameWithType: NavCurve.NewData1Id
+  fullName: TruckLib.Models.Ppd.NavCurve.NavNodeIndex
+  nameWithType: NavCurve.NavNodeIndex
 - uid: TruckLib.Models.Ppd.NavCurve.NextLines
   name: NextLines
   href: api/TruckLib.Models.Ppd.NavCurve.html#TruckLib_Models_Ppd_NavCurve_NextLines
@@ -4327,6 +4573,172 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Ppd.NavCurve.TrafficRule
   nameWithType: NavCurve.TrafficRule
+- uid: TruckLib.Models.Ppd.NavNode
+  name: NavNode
+  href: api/TruckLib.Models.Ppd.NavNode.html
+  commentId: T:TruckLib.Models.Ppd.NavNode
+  fullName: TruckLib.Models.Ppd.NavNode
+  nameWithType: NavNode
+- uid: TruckLib.Models.Ppd.NavNode.Connections
+  name: Connections
+  href: api/TruckLib.Models.Ppd.NavNode.html#TruckLib_Models_Ppd_NavNode_Connections
+  commentId: P:TruckLib.Models.Ppd.NavNode.Connections
+  fullName: TruckLib.Models.Ppd.NavNode.Connections
+  nameWithType: NavNode.Connections
+- uid: TruckLib.Models.Ppd.NavNode.Connections*
+  name: Connections
+  href: api/TruckLib.Models.Ppd.NavNode.html#TruckLib_Models_Ppd_NavNode_Connections_
+  commentId: Overload:TruckLib.Models.Ppd.NavNode.Connections
+  isSpec: "True"
+  fullName: TruckLib.Models.Ppd.NavNode.Connections
+  nameWithType: NavNode.Connections
+- uid: TruckLib.Models.Ppd.NavNode.Deserialize(System.IO.BinaryReader,System.Nullable{System.UInt32})
+  name: Deserialize(BinaryReader, uint?)
+  href: api/TruckLib.Models.Ppd.NavNode.html#TruckLib_Models_Ppd_NavNode_Deserialize_System_IO_BinaryReader_System_Nullable_System_UInt32__
+  commentId: M:TruckLib.Models.Ppd.NavNode.Deserialize(System.IO.BinaryReader,System.Nullable{System.UInt32})
+  name.vb: Deserialize(BinaryReader, UInteger?)
+  fullName: TruckLib.Models.Ppd.NavNode.Deserialize(System.IO.BinaryReader, uint?)
+  fullName.vb: TruckLib.Models.Ppd.NavNode.Deserialize(System.IO.BinaryReader, UInteger?)
+  nameWithType: NavNode.Deserialize(BinaryReader, uint?)
+  nameWithType.vb: NavNode.Deserialize(BinaryReader, UInteger?)
+- uid: TruckLib.Models.Ppd.NavNode.Deserialize*
+  name: Deserialize
+  href: api/TruckLib.Models.Ppd.NavNode.html#TruckLib_Models_Ppd_NavNode_Deserialize_
+  commentId: Overload:TruckLib.Models.Ppd.NavNode.Deserialize
+  isSpec: "True"
+  fullName: TruckLib.Models.Ppd.NavNode.Deserialize
+  nameWithType: NavNode.Deserialize
+- uid: TruckLib.Models.Ppd.NavNode.Index
+  name: Index
+  href: api/TruckLib.Models.Ppd.NavNode.html#TruckLib_Models_Ppd_NavNode_Index
+  commentId: P:TruckLib.Models.Ppd.NavNode.Index
+  fullName: TruckLib.Models.Ppd.NavNode.Index
+  nameWithType: NavNode.Index
+- uid: TruckLib.Models.Ppd.NavNode.Index*
+  name: Index
+  href: api/TruckLib.Models.Ppd.NavNode.html#TruckLib_Models_Ppd_NavNode_Index_
+  commentId: Overload:TruckLib.Models.Ppd.NavNode.Index
+  isSpec: "True"
+  fullName: TruckLib.Models.Ppd.NavNode.Index
+  nameWithType: NavNode.Index
+- uid: TruckLib.Models.Ppd.NavNode.Serialize(System.IO.BinaryWriter)
+  name: Serialize(BinaryWriter)
+  href: api/TruckLib.Models.Ppd.NavNode.html#TruckLib_Models_Ppd_NavNode_Serialize_System_IO_BinaryWriter_
+  commentId: M:TruckLib.Models.Ppd.NavNode.Serialize(System.IO.BinaryWriter)
+  fullName: TruckLib.Models.Ppd.NavNode.Serialize(System.IO.BinaryWriter)
+  nameWithType: NavNode.Serialize(BinaryWriter)
+- uid: TruckLib.Models.Ppd.NavNode.Serialize*
+  name: Serialize
+  href: api/TruckLib.Models.Ppd.NavNode.html#TruckLib_Models_Ppd_NavNode_Serialize_
+  commentId: Overload:TruckLib.Models.Ppd.NavNode.Serialize
+  isSpec: "True"
+  fullName: TruckLib.Models.Ppd.NavNode.Serialize
+  nameWithType: NavNode.Serialize
+- uid: TruckLib.Models.Ppd.NavNode.Type
+  name: Type
+  href: api/TruckLib.Models.Ppd.NavNode.html#TruckLib_Models_Ppd_NavNode_Type
+  commentId: P:TruckLib.Models.Ppd.NavNode.Type
+  fullName: TruckLib.Models.Ppd.NavNode.Type
+  nameWithType: NavNode.Type
+- uid: TruckLib.Models.Ppd.NavNode.Type*
+  name: Type
+  href: api/TruckLib.Models.Ppd.NavNode.html#TruckLib_Models_Ppd_NavNode_Type_
+  commentId: Overload:TruckLib.Models.Ppd.NavNode.Type
+  isSpec: "True"
+  fullName: TruckLib.Models.Ppd.NavNode.Type
+  nameWithType: NavNode.Type
+- uid: TruckLib.Models.Ppd.NavNodeConnectionInfo
+  name: NavNodeConnectionInfo
+  href: api/TruckLib.Models.Ppd.NavNodeConnectionInfo.html
+  commentId: T:TruckLib.Models.Ppd.NavNodeConnectionInfo
+  fullName: TruckLib.Models.Ppd.NavNodeConnectionInfo
+  nameWithType: NavNodeConnectionInfo
+- uid: TruckLib.Models.Ppd.NavNodeConnectionInfo.CurveIndices
+  name: CurveIndices
+  href: api/TruckLib.Models.Ppd.NavNodeConnectionInfo.html#TruckLib_Models_Ppd_NavNodeConnectionInfo_CurveIndices
+  commentId: P:TruckLib.Models.Ppd.NavNodeConnectionInfo.CurveIndices
+  fullName: TruckLib.Models.Ppd.NavNodeConnectionInfo.CurveIndices
+  nameWithType: NavNodeConnectionInfo.CurveIndices
+- uid: TruckLib.Models.Ppd.NavNodeConnectionInfo.CurveIndices*
+  name: CurveIndices
+  href: api/TruckLib.Models.Ppd.NavNodeConnectionInfo.html#TruckLib_Models_Ppd_NavNodeConnectionInfo_CurveIndices_
+  commentId: Overload:TruckLib.Models.Ppd.NavNodeConnectionInfo.CurveIndices
+  isSpec: "True"
+  fullName: TruckLib.Models.Ppd.NavNodeConnectionInfo.CurveIndices
+  nameWithType: NavNodeConnectionInfo.CurveIndices
+- uid: TruckLib.Models.Ppd.NavNodeConnectionInfo.Deserialize(System.IO.BinaryReader,System.Nullable{System.UInt32})
+  name: Deserialize(BinaryReader, uint?)
+  href: api/TruckLib.Models.Ppd.NavNodeConnectionInfo.html#TruckLib_Models_Ppd_NavNodeConnectionInfo_Deserialize_System_IO_BinaryReader_System_Nullable_System_UInt32__
+  commentId: M:TruckLib.Models.Ppd.NavNodeConnectionInfo.Deserialize(System.IO.BinaryReader,System.Nullable{System.UInt32})
+  name.vb: Deserialize(BinaryReader, UInteger?)
+  fullName: TruckLib.Models.Ppd.NavNodeConnectionInfo.Deserialize(System.IO.BinaryReader, uint?)
+  fullName.vb: TruckLib.Models.Ppd.NavNodeConnectionInfo.Deserialize(System.IO.BinaryReader, UInteger?)
+  nameWithType: NavNodeConnectionInfo.Deserialize(BinaryReader, uint?)
+  nameWithType.vb: NavNodeConnectionInfo.Deserialize(BinaryReader, UInteger?)
+- uid: TruckLib.Models.Ppd.NavNodeConnectionInfo.Deserialize*
+  name: Deserialize
+  href: api/TruckLib.Models.Ppd.NavNodeConnectionInfo.html#TruckLib_Models_Ppd_NavNodeConnectionInfo_Deserialize_
+  commentId: Overload:TruckLib.Models.Ppd.NavNodeConnectionInfo.Deserialize
+  isSpec: "True"
+  fullName: TruckLib.Models.Ppd.NavNodeConnectionInfo.Deserialize
+  nameWithType: NavNodeConnectionInfo.Deserialize
+- uid: TruckLib.Models.Ppd.NavNodeConnectionInfo.Length
+  name: Length
+  href: api/TruckLib.Models.Ppd.NavNodeConnectionInfo.html#TruckLib_Models_Ppd_NavNodeConnectionInfo_Length
+  commentId: P:TruckLib.Models.Ppd.NavNodeConnectionInfo.Length
+  fullName: TruckLib.Models.Ppd.NavNodeConnectionInfo.Length
+  nameWithType: NavNodeConnectionInfo.Length
+- uid: TruckLib.Models.Ppd.NavNodeConnectionInfo.Length*
+  name: Length
+  href: api/TruckLib.Models.Ppd.NavNodeConnectionInfo.html#TruckLib_Models_Ppd_NavNodeConnectionInfo_Length_
+  commentId: Overload:TruckLib.Models.Ppd.NavNodeConnectionInfo.Length
+  isSpec: "True"
+  fullName: TruckLib.Models.Ppd.NavNodeConnectionInfo.Length
+  nameWithType: NavNodeConnectionInfo.Length
+- uid: TruckLib.Models.Ppd.NavNodeConnectionInfo.Serialize(System.IO.BinaryWriter)
+  name: Serialize(BinaryWriter)
+  href: api/TruckLib.Models.Ppd.NavNodeConnectionInfo.html#TruckLib_Models_Ppd_NavNodeConnectionInfo_Serialize_System_IO_BinaryWriter_
+  commentId: M:TruckLib.Models.Ppd.NavNodeConnectionInfo.Serialize(System.IO.BinaryWriter)
+  fullName: TruckLib.Models.Ppd.NavNodeConnectionInfo.Serialize(System.IO.BinaryWriter)
+  nameWithType: NavNodeConnectionInfo.Serialize(BinaryWriter)
+- uid: TruckLib.Models.Ppd.NavNodeConnectionInfo.Serialize*
+  name: Serialize
+  href: api/TruckLib.Models.Ppd.NavNodeConnectionInfo.html#TruckLib_Models_Ppd_NavNodeConnectionInfo_Serialize_
+  commentId: Overload:TruckLib.Models.Ppd.NavNodeConnectionInfo.Serialize
+  isSpec: "True"
+  fullName: TruckLib.Models.Ppd.NavNodeConnectionInfo.Serialize
+  nameWithType: NavNodeConnectionInfo.Serialize
+- uid: TruckLib.Models.Ppd.NavNodeConnectionInfo.TargetNodeIndex
+  name: TargetNodeIndex
+  href: api/TruckLib.Models.Ppd.NavNodeConnectionInfo.html#TruckLib_Models_Ppd_NavNodeConnectionInfo_TargetNodeIndex
+  commentId: P:TruckLib.Models.Ppd.NavNodeConnectionInfo.TargetNodeIndex
+  fullName: TruckLib.Models.Ppd.NavNodeConnectionInfo.TargetNodeIndex
+  nameWithType: NavNodeConnectionInfo.TargetNodeIndex
+- uid: TruckLib.Models.Ppd.NavNodeConnectionInfo.TargetNodeIndex*
+  name: TargetNodeIndex
+  href: api/TruckLib.Models.Ppd.NavNodeConnectionInfo.html#TruckLib_Models_Ppd_NavNodeConnectionInfo_TargetNodeIndex_
+  commentId: Overload:TruckLib.Models.Ppd.NavNodeConnectionInfo.TargetNodeIndex
+  isSpec: "True"
+  fullName: TruckLib.Models.Ppd.NavNodeConnectionInfo.TargetNodeIndex
+  nameWithType: NavNodeConnectionInfo.TargetNodeIndex
+- uid: TruckLib.Models.Ppd.NavNodeType
+  name: NavNodeType
+  href: api/TruckLib.Models.Ppd.NavNodeType.html
+  commentId: T:TruckLib.Models.Ppd.NavNodeType
+  fullName: TruckLib.Models.Ppd.NavNodeType
+  nameWithType: NavNodeType
+- uid: TruckLib.Models.Ppd.NavNodeType.AiNode
+  name: AiNode
+  href: api/TruckLib.Models.Ppd.NavNodeType.html#TruckLib_Models_Ppd_NavNodeType_AiNode
+  commentId: F:TruckLib.Models.Ppd.NavNodeType.AiNode
+  fullName: TruckLib.Models.Ppd.NavNodeType.AiNode
+  nameWithType: NavNodeType.AiNode
+- uid: TruckLib.Models.Ppd.NavNodeType.PhysicalNode
+  name: PhysicalNode
+  href: api/TruckLib.Models.Ppd.NavNodeType.html#TruckLib_Models_Ppd_NavNodeType_PhysicalNode
+  commentId: F:TruckLib.Models.Ppd.NavNodeType.PhysicalNode
+  fullName: TruckLib.Models.Ppd.NavNodeType.PhysicalNode
+  nameWithType: NavNodeType.PhysicalNode
 - uid: TruckLib.Models.Ppd.PrefabDescriptor
   name: PrefabDescriptor
   href: api/TruckLib.Models.Ppd.PrefabDescriptor.html
@@ -4410,6 +4822,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Ppd.PrefabDescriptor.NavCurves
   nameWithType: PrefabDescriptor.NavCurves
+- uid: TruckLib.Models.Ppd.PrefabDescriptor.NavNodes
+  name: NavNodes
+  href: api/TruckLib.Models.Ppd.PrefabDescriptor.html#TruckLib_Models_Ppd_PrefabDescriptor_NavNodes
+  commentId: P:TruckLib.Models.Ppd.PrefabDescriptor.NavNodes
+  fullName: TruckLib.Models.Ppd.PrefabDescriptor.NavNodes
+  nameWithType: PrefabDescriptor.NavNodes
+- uid: TruckLib.Models.Ppd.PrefabDescriptor.NavNodes*
+  name: NavNodes
+  href: api/TruckLib.Models.Ppd.PrefabDescriptor.html#TruckLib_Models_Ppd_PrefabDescriptor_NavNodes_
+  commentId: Overload:TruckLib.Models.Ppd.PrefabDescriptor.NavNodes
+  isSpec: "True"
+  fullName: TruckLib.Models.Ppd.PrefabDescriptor.NavNodes
+  nameWithType: PrefabDescriptor.NavNodes
 - uid: TruckLib.Models.Ppd.PrefabDescriptor.Nodes
   name: Nodes
   href: api/TruckLib.Models.Ppd.PrefabDescriptor.html#TruckLib_Models_Ppd_PrefabDescriptor_Nodes
@@ -4448,6 +4873,22 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Ppd.PrefabDescriptor.Open
   nameWithType: PrefabDescriptor.Open
+- uid: TruckLib.Models.Ppd.PrefabDescriptor.Save(System.String)
+  name: Save(string)
+  href: api/TruckLib.Models.Ppd.PrefabDescriptor.html#TruckLib_Models_Ppd_PrefabDescriptor_Save_System_String_
+  commentId: M:TruckLib.Models.Ppd.PrefabDescriptor.Save(System.String)
+  name.vb: Save(String)
+  fullName: TruckLib.Models.Ppd.PrefabDescriptor.Save(string)
+  fullName.vb: TruckLib.Models.Ppd.PrefabDescriptor.Save(String)
+  nameWithType: PrefabDescriptor.Save(string)
+  nameWithType.vb: PrefabDescriptor.Save(String)
+- uid: TruckLib.Models.Ppd.PrefabDescriptor.Save*
+  name: Save
+  href: api/TruckLib.Models.Ppd.PrefabDescriptor.html#TruckLib_Models_Ppd_PrefabDescriptor_Save_
+  commentId: Overload:TruckLib.Models.Ppd.PrefabDescriptor.Save
+  isSpec: "True"
+  fullName: TruckLib.Models.Ppd.PrefabDescriptor.Save
+  nameWithType: PrefabDescriptor.Save
 - uid: TruckLib.Models.Ppd.PrefabDescriptor.Semaphores
   name: Semaphores
   href: api/TruckLib.Models.Ppd.PrefabDescriptor.html#TruckLib_Models_Ppd_PrefabDescriptor_Semaphores
@@ -4513,19 +4954,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Ppd.PrefabDescriptor.TriggerPoints
   nameWithType: PrefabDescriptor.TriggerPoints
-- uid: TruckLib.Models.Ppd.PrefabDescriptor.Unknown
-  name: Unknown
-  href: api/TruckLib.Models.Ppd.PrefabDescriptor.html#TruckLib_Models_Ppd_PrefabDescriptor_Unknown
-  commentId: P:TruckLib.Models.Ppd.PrefabDescriptor.Unknown
-  fullName: TruckLib.Models.Ppd.PrefabDescriptor.Unknown
-  nameWithType: PrefabDescriptor.Unknown
-- uid: TruckLib.Models.Ppd.PrefabDescriptor.Unknown*
-  name: Unknown
-  href: api/TruckLib.Models.Ppd.PrefabDescriptor.html#TruckLib_Models_Ppd_PrefabDescriptor_Unknown_
-  commentId: Overload:TruckLib.Models.Ppd.PrefabDescriptor.Unknown
-  isSpec: "True"
-  fullName: TruckLib.Models.Ppd.PrefabDescriptor.Unknown
-  nameWithType: PrefabDescriptor.Unknown
 - uid: TruckLib.Models.Ppd.PrefabDescriptor.Version
   name: Version
   href: api/TruckLib.Models.Ppd.PrefabDescriptor.html#TruckLib_Models_Ppd_PrefabDescriptor_Version
@@ -5346,19 +5774,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Ppd.TriggerPoint.ManualActivation
   nameWithType: TriggerPoint.ManualActivation
-- uid: TruckLib.Models.Ppd.TriggerPoint.Neighbours
-  name: Neighbours
-  href: api/TruckLib.Models.Ppd.TriggerPoint.html#TruckLib_Models_Ppd_TriggerPoint_Neighbours
-  commentId: P:TruckLib.Models.Ppd.TriggerPoint.Neighbours
-  fullName: TruckLib.Models.Ppd.TriggerPoint.Neighbours
-  nameWithType: TriggerPoint.Neighbours
-- uid: TruckLib.Models.Ppd.TriggerPoint.Neighbours*
-  name: Neighbours
-  href: api/TruckLib.Models.Ppd.TriggerPoint.html#TruckLib_Models_Ppd_TriggerPoint_Neighbours_
-  commentId: Overload:TruckLib.Models.Ppd.TriggerPoint.Neighbours
+- uid: TruckLib.Models.Ppd.TriggerPoint.Neighbors
+  name: Neighbors
+  href: api/TruckLib.Models.Ppd.TriggerPoint.html#TruckLib_Models_Ppd_TriggerPoint_Neighbors
+  commentId: P:TruckLib.Models.Ppd.TriggerPoint.Neighbors
+  fullName: TruckLib.Models.Ppd.TriggerPoint.Neighbors
+  nameWithType: TriggerPoint.Neighbors
+- uid: TruckLib.Models.Ppd.TriggerPoint.Neighbors*
+  name: Neighbors
+  href: api/TruckLib.Models.Ppd.TriggerPoint.html#TruckLib_Models_Ppd_TriggerPoint_Neighbors_
+  commentId: Overload:TruckLib.Models.Ppd.TriggerPoint.Neighbors
   isSpec: "True"
-  fullName: TruckLib.Models.Ppd.TriggerPoint.Neighbours
-  nameWithType: TriggerPoint.Neighbours
+  fullName: TruckLib.Models.Ppd.TriggerPoint.Neighbors
+  nameWithType: TriggerPoint.Neighbors
 - uid: TruckLib.Models.Ppd.TriggerPoint.OneTimeActivation
   name: OneTimeActivation
   href: api/TruckLib.Models.Ppd.TriggerPoint.html#TruckLib_Models_Ppd_TriggerPoint_OneTimeActivation
@@ -5689,19 +6117,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.Models.Tobj.Serialize
   nameWithType: Tobj.Serialize
-- uid: TruckLib.Models.Tobj.TexturePaths
-  name: TexturePaths
-  href: api/TruckLib.Models.Tobj.html#TruckLib_Models_Tobj_TexturePaths
-  commentId: P:TruckLib.Models.Tobj.TexturePaths
-  fullName: TruckLib.Models.Tobj.TexturePaths
-  nameWithType: Tobj.TexturePaths
-- uid: TruckLib.Models.Tobj.TexturePaths*
-  name: TexturePaths
-  href: api/TruckLib.Models.Tobj.html#TruckLib_Models_Tobj_TexturePaths_
-  commentId: Overload:TruckLib.Models.Tobj.TexturePaths
+- uid: TruckLib.Models.Tobj.TexturePath
+  name: TexturePath
+  href: api/TruckLib.Models.Tobj.html#TruckLib_Models_Tobj_TexturePath
+  commentId: P:TruckLib.Models.Tobj.TexturePath
+  fullName: TruckLib.Models.Tobj.TexturePath
+  nameWithType: Tobj.TexturePath
+- uid: TruckLib.Models.Tobj.TexturePath*
+  name: TexturePath
+  href: api/TruckLib.Models.Tobj.html#TruckLib_Models_Tobj_TexturePath_
+  commentId: Overload:TruckLib.Models.Tobj.TexturePath
   isSpec: "True"
-  fullName: TruckLib.Models.Tobj.TexturePaths
-  nameWithType: Tobj.TexturePaths
+  fullName: TruckLib.Models.Tobj.TexturePath
+  nameWithType: Tobj.TexturePath
 - uid: TruckLib.Models.Tobj.Type
   name: Type
   href: api/TruckLib.Models.Tobj.html#TruckLib_Models_Tobj_Type
@@ -5789,6 +6217,24 @@ references:
   commentId: F:TruckLib.Models.TobjAddr.Repeat
   fullName: TruckLib.Models.TobjAddr.Repeat
   nameWithType: TobjAddr.Repeat
+- uid: TruckLib.Models.TobjColorSpace
+  name: TobjColorSpace
+  href: api/TruckLib.Models.TobjColorSpace.html
+  commentId: T:TruckLib.Models.TobjColorSpace
+  fullName: TruckLib.Models.TobjColorSpace
+  nameWithType: TobjColorSpace
+- uid: TruckLib.Models.TobjColorSpace.Linear
+  name: Linear
+  href: api/TruckLib.Models.TobjColorSpace.html#TruckLib_Models_TobjColorSpace_Linear
+  commentId: F:TruckLib.Models.TobjColorSpace.Linear
+  fullName: TruckLib.Models.TobjColorSpace.Linear
+  nameWithType: TobjColorSpace.Linear
+- uid: TruckLib.Models.TobjColorSpace.Srgb
+  name: Srgb
+  href: api/TruckLib.Models.TobjColorSpace.html#TruckLib_Models_TobjColorSpace_Srgb
+  commentId: F:TruckLib.Models.TobjColorSpace.Srgb
+  fullName: TruckLib.Models.TobjColorSpace.Srgb
+  nameWithType: TobjColorSpace.Srgb
 - uid: TruckLib.Models.TobjFilter
   name: TobjFilter
   href: api/TruckLib.Models.TobjFilter.html
@@ -16302,18 +16748,18 @@ references:
   commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ets2.GreeceAndWestBalkans
   fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.GreeceAndWestBalkans
   nameWithType: DlcGuard.Ets2.GreeceAndWestBalkans
-- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Ibera
-  name: Ibera
-  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html#TruckLib_ScsMap_Lookup_DlcGuard_Ets2_Ibera
-  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Ibera
-  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Ibera
-  nameWithType: DlcGuard.Ets2.Ibera
-- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.IberaAndFrance
-  name: IberaAndFrance
-  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html#TruckLib_ScsMap_Lookup_DlcGuard_Ets2_IberaAndFrance
-  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ets2.IberaAndFrance
-  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.IberaAndFrance
-  nameWithType: DlcGuard.Ets2.IberaAndFrance
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Iberia
+  name: Iberia
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html#TruckLib_ScsMap_Lookup_DlcGuard_Ets2_Iberia
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Iberia
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Iberia
+  nameWithType: DlcGuard.Ets2.Iberia
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.IberiaAndFrance
+  name: IberiaAndFrance
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html#TruckLib_ScsMap_Lookup_DlcGuard_Ets2_IberiaAndFrance
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ets2.IberiaAndFrance
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.IberiaAndFrance
+  nameWithType: DlcGuard.Ets2.IberiaAndFrance
 - uid: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Italy
   name: Italy
   href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html#TruckLib_ScsMap_Lookup_DlcGuard_Ets2_Italy

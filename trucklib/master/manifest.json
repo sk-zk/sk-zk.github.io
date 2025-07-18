@@ -332,6 +332,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.LimitedList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.LimitedList-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.LimitedList<T>",
+      "Summary": "<p sourcefile=\"api/TruckLib.LimitedList-1.yml\" sourcestartlinenumber=\"1\">Represents a list with a fixed maximum capacity.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TruckLib.MathExtensions.yml",
       "output": {
         ".html": {
@@ -598,6 +612,48 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Ppd.NavNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Ppd.NavNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Ppd.NavNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Ppd.NavNodeConnectionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Ppd.NavNodeConnectionInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Ppd.NavNodeConnectionInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.Ppd.NavNodeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.Ppd.NavNodeType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.Ppd.NavNodeType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TruckLib.Models.Ppd.PrefabDescriptor.yml",
       "output": {
         ".html": {
@@ -776,6 +832,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "TruckLib.Models.TobjAddr",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.Models.TobjColorSpace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.Models.TobjColorSpace.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.Models.TobjColorSpace",
       "Summary": null
     },
     {
