@@ -2572,6 +2572,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Tesselation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Tesselation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Tesselation",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Tesselation.yml\" sourcestartlinenumber=\"1\">Stores the resolution of the terrain quad grid of a Beziér patch item.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TruckLib.ScsMap.TrafficArea.yml",
       "output": {
         ".html": {

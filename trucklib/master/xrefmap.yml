@@ -7397,6 +7397,15 @@ references:
   fullName.vb: TruckLib.ScsMap.BezierPatch.Add(TruckLib.ScsMap.IItemContainer, System.Numerics.Vector3, System.Numerics.Vector3(,))
   nameWithType: BezierPatch.Add(IItemContainer, Vector3, Vector3[,])
   nameWithType.vb: BezierPatch.Add(IItemContainer, Vector3, Vector3(,))
+- uid: TruckLib.ScsMap.BezierPatch.Add(TruckLib.ScsMap.IItemContainer,System.Numerics.Vector3,System.Numerics.Vector3[0:,0:],TruckLib.ScsMap.Tesselation)
+  name: Add(IItemContainer, Vector3, Vector3[,], Tesselation)
+  href: api/TruckLib.ScsMap.BezierPatch.html#TruckLib_ScsMap_BezierPatch_Add_TruckLib_ScsMap_IItemContainer_System_Numerics_Vector3_System_Numerics_Vector3_0__0___TruckLib_ScsMap_Tesselation_
+  commentId: M:TruckLib.ScsMap.BezierPatch.Add(TruckLib.ScsMap.IItemContainer,System.Numerics.Vector3,System.Numerics.Vector3[0:,0:],TruckLib.ScsMap.Tesselation)
+  name.vb: Add(IItemContainer, Vector3, Vector3(,), Tesselation)
+  fullName: TruckLib.ScsMap.BezierPatch.Add(TruckLib.ScsMap.IItemContainer, System.Numerics.Vector3, System.Numerics.Vector3[,], TruckLib.ScsMap.Tesselation)
+  fullName.vb: TruckLib.ScsMap.BezierPatch.Add(TruckLib.ScsMap.IItemContainer, System.Numerics.Vector3, System.Numerics.Vector3(,), TruckLib.ScsMap.Tesselation)
+  nameWithType: BezierPatch.Add(IItemContainer, Vector3, Vector3[,], Tesselation)
+  nameWithType.vb: BezierPatch.Add(IItemContainer, Vector3, Vector3(,), Tesselation)
 - uid: TruckLib.ScsMap.BezierPatch.Add(TruckLib.ScsMap.IItemContainer,System.Numerics.Vector3,System.Single,System.Single)
   name: Add(IItemContainer, Vector3, float, float)
   href: api/TruckLib.ScsMap.BezierPatch.html#TruckLib_ScsMap_BezierPatch_Add_TruckLib_ScsMap_IItemContainer_System_Numerics_Vector3_System_Single_System_Single_
@@ -7406,6 +7415,15 @@ references:
   fullName.vb: TruckLib.ScsMap.BezierPatch.Add(TruckLib.ScsMap.IItemContainer, System.Numerics.Vector3, Single, Single)
   nameWithType: BezierPatch.Add(IItemContainer, Vector3, float, float)
   nameWithType.vb: BezierPatch.Add(IItemContainer, Vector3, Single, Single)
+- uid: TruckLib.ScsMap.BezierPatch.Add(TruckLib.ScsMap.IItemContainer,System.Numerics.Vector3,System.Single,System.Single,TruckLib.ScsMap.Tesselation)
+  name: Add(IItemContainer, Vector3, float, float, Tesselation)
+  href: api/TruckLib.ScsMap.BezierPatch.html#TruckLib_ScsMap_BezierPatch_Add_TruckLib_ScsMap_IItemContainer_System_Numerics_Vector3_System_Single_System_Single_TruckLib_ScsMap_Tesselation_
+  commentId: M:TruckLib.ScsMap.BezierPatch.Add(TruckLib.ScsMap.IItemContainer,System.Numerics.Vector3,System.Single,System.Single,TruckLib.ScsMap.Tesselation)
+  name.vb: Add(IItemContainer, Vector3, Single, Single, Tesselation)
+  fullName: TruckLib.ScsMap.BezierPatch.Add(TruckLib.ScsMap.IItemContainer, System.Numerics.Vector3, float, float, TruckLib.ScsMap.Tesselation)
+  fullName.vb: TruckLib.ScsMap.BezierPatch.Add(TruckLib.ScsMap.IItemContainer, System.Numerics.Vector3, Single, Single, TruckLib.ScsMap.Tesselation)
+  nameWithType: BezierPatch.Add(IItemContainer, Vector3, float, float, Tesselation)
+  nameWithType.vb: BezierPatch.Add(IItemContainer, Vector3, Single, Single, Tesselation)
 - uid: TruckLib.ScsMap.BezierPatch.Add*
   name: Add
   href: api/TruckLib.ScsMap.BezierPatch.html#TruckLib_ScsMap_BezierPatch_Add_
@@ -7608,6 +7626,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.BezierPatch.TerrainShadows
   nameWithType: BezierPatch.TerrainShadows
+- uid: TruckLib.ScsMap.BezierPatch.Tesselation
+  name: Tesselation
+  href: api/TruckLib.ScsMap.BezierPatch.html#TruckLib_ScsMap_BezierPatch_Tesselation
+  commentId: P:TruckLib.ScsMap.BezierPatch.Tesselation
+  fullName: TruckLib.ScsMap.BezierPatch.Tesselation
+  nameWithType: BezierPatch.Tesselation
+- uid: TruckLib.ScsMap.BezierPatch.Tesselation*
+  name: Tesselation
+  href: api/TruckLib.ScsMap.BezierPatch.html#TruckLib_ScsMap_BezierPatch_Tesselation_
+  commentId: Overload:TruckLib.ScsMap.BezierPatch.Tesselation
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.BezierPatch.Tesselation
+  nameWithType: BezierPatch.Tesselation
 - uid: TruckLib.ScsMap.BezierPatch.Vegetation
   name: Vegetation
   href: api/TruckLib.ScsMap.BezierPatch.html#TruckLib_ScsMap_BezierPatch_Vegetation
@@ -7673,32 +7704,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.BezierPatch.WaterReflection
   nameWithType: BezierPatch.WaterReflection
-- uid: TruckLib.ScsMap.BezierPatch.XTesselation
-  name: XTesselation
-  href: api/TruckLib.ScsMap.BezierPatch.html#TruckLib_ScsMap_BezierPatch_XTesselation
-  commentId: P:TruckLib.ScsMap.BezierPatch.XTesselation
-  fullName: TruckLib.ScsMap.BezierPatch.XTesselation
-  nameWithType: BezierPatch.XTesselation
-- uid: TruckLib.ScsMap.BezierPatch.XTesselation*
-  name: XTesselation
-  href: api/TruckLib.ScsMap.BezierPatch.html#TruckLib_ScsMap_BezierPatch_XTesselation_
-  commentId: Overload:TruckLib.ScsMap.BezierPatch.XTesselation
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.BezierPatch.XTesselation
-  nameWithType: BezierPatch.XTesselation
-- uid: TruckLib.ScsMap.BezierPatch.ZTesselation
-  name: ZTesselation
-  href: api/TruckLib.ScsMap.BezierPatch.html#TruckLib_ScsMap_BezierPatch_ZTesselation
-  commentId: P:TruckLib.ScsMap.BezierPatch.ZTesselation
-  fullName: TruckLib.ScsMap.BezierPatch.ZTesselation
-  nameWithType: BezierPatch.ZTesselation
-- uid: TruckLib.ScsMap.BezierPatch.ZTesselation*
-  name: ZTesselation
-  href: api/TruckLib.ScsMap.BezierPatch.html#TruckLib_ScsMap_BezierPatch_ZTesselation_
-  commentId: Overload:TruckLib.ScsMap.BezierPatch.ZTesselation
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.BezierPatch.ZTesselation
-  nameWithType: BezierPatch.ZTesselation
 - uid: TruckLib.ScsMap.BlinkerType
   name: BlinkerType
   href: api/TruckLib.ScsMap.BlinkerType.html
@@ -23943,6 +23948,57 @@ references:
   commentId: F:TruckLib.ScsMap.TerrainTransition.Quads8
   fullName: TruckLib.ScsMap.TerrainTransition.Quads8
   nameWithType: TerrainTransition.Quads8
+- uid: TruckLib.ScsMap.Tesselation
+  name: Tesselation
+  href: api/TruckLib.ScsMap.Tesselation.html
+  commentId: T:TruckLib.ScsMap.Tesselation
+  fullName: TruckLib.ScsMap.Tesselation
+  nameWithType: Tesselation
+- uid: TruckLib.ScsMap.Tesselation.#ctor(System.UInt16,System.UInt16)
+  name: Tesselation(ushort, ushort)
+  href: api/TruckLib.ScsMap.Tesselation.html#TruckLib_ScsMap_Tesselation__ctor_System_UInt16_System_UInt16_
+  commentId: M:TruckLib.ScsMap.Tesselation.#ctor(System.UInt16,System.UInt16)
+  name.vb: New(UShort, UShort)
+  fullName: TruckLib.ScsMap.Tesselation.Tesselation(ushort, ushort)
+  fullName.vb: TruckLib.ScsMap.Tesselation.New(UShort, UShort)
+  nameWithType: Tesselation.Tesselation(ushort, ushort)
+  nameWithType.vb: Tesselation.New(UShort, UShort)
+- uid: TruckLib.ScsMap.Tesselation.#ctor*
+  name: Tesselation
+  href: api/TruckLib.ScsMap.Tesselation.html#TruckLib_ScsMap_Tesselation__ctor_
+  commentId: Overload:TruckLib.ScsMap.Tesselation.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TruckLib.ScsMap.Tesselation.Tesselation
+  fullName.vb: TruckLib.ScsMap.Tesselation.New
+  nameWithType: Tesselation.Tesselation
+  nameWithType.vb: Tesselation.New
+- uid: TruckLib.ScsMap.Tesselation.X
+  name: X
+  href: api/TruckLib.ScsMap.Tesselation.html#TruckLib_ScsMap_Tesselation_X
+  commentId: P:TruckLib.ScsMap.Tesselation.X
+  fullName: TruckLib.ScsMap.Tesselation.X
+  nameWithType: Tesselation.X
+- uid: TruckLib.ScsMap.Tesselation.X*
+  name: X
+  href: api/TruckLib.ScsMap.Tesselation.html#TruckLib_ScsMap_Tesselation_X_
+  commentId: Overload:TruckLib.ScsMap.Tesselation.X
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Tesselation.X
+  nameWithType: Tesselation.X
+- uid: TruckLib.ScsMap.Tesselation.Z
+  name: Z
+  href: api/TruckLib.ScsMap.Tesselation.html#TruckLib_ScsMap_Tesselation_Z
+  commentId: P:TruckLib.ScsMap.Tesselation.Z
+  fullName: TruckLib.ScsMap.Tesselation.Z
+  nameWithType: Tesselation.Z
+- uid: TruckLib.ScsMap.Tesselation.Z*
+  name: Z
+  href: api/TruckLib.ScsMap.Tesselation.html#TruckLib_ScsMap_Tesselation_Z_
+  commentId: Overload:TruckLib.ScsMap.Tesselation.Z
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Tesselation.Z
+  nameWithType: Tesselation.Z
 - uid: TruckLib.ScsMap.TrafficArea
   name: TrafficArea
   href: api/TruckLib.ScsMap.TrafficArea.html
