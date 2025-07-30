@@ -2738,6 +2738,119 @@ references:
   fullName.vb: TruckLib.LimitedList(Of T).RemoveAt
   nameWithType: LimitedList<T>.RemoveAt
   nameWithType.vb: LimitedList(Of T).RemoveAt
+- uid: TruckLib.MathEx
+  name: MathEx
+  href: api/TruckLib.MathEx.html
+  commentId: T:TruckLib.MathEx
+  fullName: TruckLib.MathEx
+  nameWithType: MathEx
+- uid: TruckLib.MathEx.Deg(System.Double)
+  name: Deg(double)
+  href: api/TruckLib.MathEx.html#TruckLib_MathEx_Deg_System_Double_
+  commentId: M:TruckLib.MathEx.Deg(System.Double)
+  name.vb: Deg(Double)
+  fullName: TruckLib.MathEx.Deg(double)
+  fullName.vb: TruckLib.MathEx.Deg(Double)
+  nameWithType: MathEx.Deg(double)
+  nameWithType.vb: MathEx.Deg(Double)
+- uid: TruckLib.MathEx.Deg(System.Single)
+  name: Deg(float)
+  href: api/TruckLib.MathEx.html#TruckLib_MathEx_Deg_System_Single_
+  commentId: M:TruckLib.MathEx.Deg(System.Single)
+  name.vb: Deg(Single)
+  fullName: TruckLib.MathEx.Deg(float)
+  fullName.vb: TruckLib.MathEx.Deg(Single)
+  nameWithType: MathEx.Deg(float)
+  nameWithType.vb: MathEx.Deg(Single)
+- uid: TruckLib.MathEx.Deg*
+  name: Deg
+  href: api/TruckLib.MathEx.html#TruckLib_MathEx_Deg_
+  commentId: Overload:TruckLib.MathEx.Deg
+  isSpec: "True"
+  fullName: TruckLib.MathEx.Deg
+  nameWithType: MathEx.Deg
+- uid: TruckLib.MathEx.GetNodeRotation(System.Numerics.Vector3)
+  name: GetNodeRotation(Vector3)
+  href: api/TruckLib.MathEx.html#TruckLib_MathEx_GetNodeRotation_System_Numerics_Vector3_
+  commentId: M:TruckLib.MathEx.GetNodeRotation(System.Numerics.Vector3)
+  fullName: TruckLib.MathEx.GetNodeRotation(System.Numerics.Vector3)
+  nameWithType: MathEx.GetNodeRotation(Vector3)
+- uid: TruckLib.MathEx.GetNodeRotation(System.Numerics.Vector3,System.Numerics.Vector3)
+  name: GetNodeRotation(Vector3, Vector3)
+  href: api/TruckLib.MathEx.html#TruckLib_MathEx_GetNodeRotation_System_Numerics_Vector3_System_Numerics_Vector3_
+  commentId: M:TruckLib.MathEx.GetNodeRotation(System.Numerics.Vector3,System.Numerics.Vector3)
+  fullName: TruckLib.MathEx.GetNodeRotation(System.Numerics.Vector3, System.Numerics.Vector3)
+  nameWithType: MathEx.GetNodeRotation(Vector3, Vector3)
+- uid: TruckLib.MathEx.GetNodeRotation*
+  name: GetNodeRotation
+  href: api/TruckLib.MathEx.html#TruckLib_MathEx_GetNodeRotation_
+  commentId: Overload:TruckLib.MathEx.GetNodeRotation
+  isSpec: "True"
+  fullName: TruckLib.MathEx.GetNodeRotation
+  nameWithType: MathEx.GetNodeRotation
+- uid: TruckLib.MathEx.Mod(System.Double,System.Double)
+  name: Mod(double, double)
+  href: api/TruckLib.MathEx.html#TruckLib_MathEx_Mod_System_Double_System_Double_
+  commentId: M:TruckLib.MathEx.Mod(System.Double,System.Double)
+  name.vb: Mod(Double, Double)
+  fullName: TruckLib.MathEx.Mod(double, double)
+  fullName.vb: TruckLib.MathEx.Mod(Double, Double)
+  nameWithType: MathEx.Mod(double, double)
+  nameWithType.vb: MathEx.Mod(Double, Double)
+- uid: TruckLib.MathEx.Mod(System.Int32,System.Int32)
+  name: Mod(int, int)
+  href: api/TruckLib.MathEx.html#TruckLib_MathEx_Mod_System_Int32_System_Int32_
+  commentId: M:TruckLib.MathEx.Mod(System.Int32,System.Int32)
+  name.vb: Mod(Integer, Integer)
+  fullName: TruckLib.MathEx.Mod(int, int)
+  fullName.vb: TruckLib.MathEx.Mod(Integer, Integer)
+  nameWithType: MathEx.Mod(int, int)
+  nameWithType.vb: MathEx.Mod(Integer, Integer)
+- uid: TruckLib.MathEx.Mod*
+  name: Mod
+  href: api/TruckLib.MathEx.html#TruckLib_MathEx_Mod_
+  commentId: Overload:TruckLib.MathEx.Mod
+  isSpec: "True"
+  fullName: TruckLib.MathEx.Mod
+  nameWithType: MathEx.Mod
+- uid: TruckLib.MathEx.Rad(System.Double)
+  name: Rad(double)
+  href: api/TruckLib.MathEx.html#TruckLib_MathEx_Rad_System_Double_
+  commentId: M:TruckLib.MathEx.Rad(System.Double)
+  name.vb: Rad(Double)
+  fullName: TruckLib.MathEx.Rad(double)
+  fullName.vb: TruckLib.MathEx.Rad(Double)
+  nameWithType: MathEx.Rad(double)
+  nameWithType.vb: MathEx.Rad(Double)
+- uid: TruckLib.MathEx.Rad(System.Single)
+  name: Rad(float)
+  href: api/TruckLib.MathEx.html#TruckLib_MathEx_Rad_System_Single_
+  commentId: M:TruckLib.MathEx.Rad(System.Single)
+  name.vb: Rad(Single)
+  fullName: TruckLib.MathEx.Rad(float)
+  fullName.vb: TruckLib.MathEx.Rad(Single)
+  nameWithType: MathEx.Rad(float)
+  nameWithType.vb: MathEx.Rad(Single)
+- uid: TruckLib.MathEx.Rad*
+  name: Rad
+  href: api/TruckLib.MathEx.html#TruckLib_MathEx_Rad_
+  commentId: Overload:TruckLib.MathEx.Rad
+  isSpec: "True"
+  fullName: TruckLib.MathEx.Rad
+  nameWithType: MathEx.Rad
+- uid: TruckLib.MathEx.RotatePointAroundPivot(System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Quaternion)
+  name: RotatePointAroundPivot(Vector3, Vector3, Quaternion)
+  href: api/TruckLib.MathEx.html#TruckLib_MathEx_RotatePointAroundPivot_System_Numerics_Vector3_System_Numerics_Vector3_System_Numerics_Quaternion_
+  commentId: M:TruckLib.MathEx.RotatePointAroundPivot(System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Quaternion)
+  fullName: TruckLib.MathEx.RotatePointAroundPivot(System.Numerics.Vector3, System.Numerics.Vector3, System.Numerics.Quaternion)
+  nameWithType: MathEx.RotatePointAroundPivot(Vector3, Vector3, Quaternion)
+- uid: TruckLib.MathEx.RotatePointAroundPivot*
+  name: RotatePointAroundPivot
+  href: api/TruckLib.MathEx.html#TruckLib_MathEx_RotatePointAroundPivot_
+  commentId: Overload:TruckLib.MathEx.RotatePointAroundPivot
+  isSpec: "True"
+  fullName: TruckLib.MathEx.RotatePointAroundPivot
+  nameWithType: MathEx.RotatePointAroundPivot
 - uid: TruckLib.MathExtensions
   name: MathExtensions
   href: api/TruckLib.MathExtensions.html

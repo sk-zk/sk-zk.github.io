@@ -346,6 +346,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.MathEx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.MathEx.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.MathEx",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TruckLib.MathExtensions.yml",
       "output": {
         ".html": {
