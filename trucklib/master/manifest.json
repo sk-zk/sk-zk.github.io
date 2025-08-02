@@ -1462,7 +1462,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "TruckLib.ScsMap.EnvironmentArea",
-      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.EnvironmentArea.yml\" sourcestartlinenumber=\"1\">Defines a rectangular area in which</p>\n"
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.EnvironmentArea.yml\" sourcestartlinenumber=\"1\">Defines a rectangular area in which various environmental graphical effects are different.</p>\n"
     },
     {
       "type": "ManagedReference",
