@@ -1581,6 +1581,19 @@ references:
   commentId: T:TruckLib.HashFs.IHashFsReader
   fullName: TruckLib.HashFs.IHashFsReader
   nameWithType: IHashFsReader
+- uid: TruckLib.HashFs.IHashFsReader.BaseReader
+  name: BaseReader
+  href: api/TruckLib.HashFs.IHashFsReader.html#TruckLib_HashFs_IHashFsReader_BaseReader
+  commentId: P:TruckLib.HashFs.IHashFsReader.BaseReader
+  fullName: TruckLib.HashFs.IHashFsReader.BaseReader
+  nameWithType: IHashFsReader.BaseReader
+- uid: TruckLib.HashFs.IHashFsReader.BaseReader*
+  name: BaseReader
+  href: api/TruckLib.HashFs.IHashFsReader.html#TruckLib_HashFs_IHashFsReader_BaseReader_
+  commentId: Overload:TruckLib.HashFs.IHashFsReader.BaseReader
+  isSpec: "True"
+  fullName: TruckLib.HashFs.IHashFsReader.BaseReader
+  nameWithType: IHashFsReader.BaseReader
 - uid: TruckLib.HashFs.IHashFsReader.Entries
   name: Entries
   href: api/TruckLib.HashFs.IHashFsReader.html#TruckLib_HashFs_IHashFsReader_Entries
