@@ -194,6 +194,47 @@ Class DiskFileSystem  <a class="header-action link-secondary" title="View source
 </h2>
 
 
+  <a id="TruckLib_DiskFileSystem_DirectoryExists_" data-uid="TruckLib.DiskFileSystem.DirectoryExists*"></a>
+
+  <h3 id="TruckLib_DiskFileSystem_DirectoryExists_System_String_" data-uid="TruckLib.DiskFileSystem.DirectoryExists(System.String)">
+  DirectoryExists(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Core/blob/master/TruckLib.Core/DiskFileSystem.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether the given path refers to an existing directory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DirectoryExists(string path)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The directory to check.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><code>true</code> if path refers to an existing directory; <code>false</code> if
+the directory does not exist or an error occurs when trying to determine
+if the specified directory exists.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="TruckLib_DiskFileSystem_FileExists_" data-uid="TruckLib.DiskFileSystem.FileExists*"></a>
 
   <h3 id="TruckLib_DiskFileSystem_FileExists_System_String_" data-uid="TruckLib.DiskFileSystem.FileExists(System.String)">
@@ -238,7 +279,7 @@ contains the name of an existing file; otherwise, <code>false</code>.</p>
 
   <h3 id="TruckLib_DiskFileSystem_GetFiles_System_String_" data-uid="TruckLib.DiskFileSystem.GetFiles(System.String)">
   GetFiles(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Core/blob/master/TruckLib.Core/DiskFileSystem.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Core/blob/master/TruckLib.Core/DiskFileSystem.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns the names of files (including their paths) in the specified directory.</p>
@@ -278,7 +319,7 @@ specified directory, or an empty array if no files are found.</p>
 
   <h3 id="TruckLib_DiskFileSystem_GetParent_System_String_" data-uid="TruckLib.DiskFileSystem.GetParent(System.String)">
   GetParent(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Core/blob/master/TruckLib.Core/DiskFileSystem.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Core/blob/master/TruckLib.Core/DiskFileSystem.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Retrieves the parent directory of the specified path.</p>
@@ -317,7 +358,7 @@ specified directory, or an empty array if no files are found.</p>
 
   <h3 id="TruckLib_DiskFileSystem_Open_System_String_" data-uid="TruckLib.DiskFileSystem.Open(System.String)">
   Open(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Core/blob/master/TruckLib.Core/DiskFileSystem.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Core/blob/master/TruckLib.Core/DiskFileSystem.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Opens a stream on the specified path.</p>
@@ -356,7 +397,7 @@ specified directory, or an empty array if no files are found.</p>
 
   <h3 id="TruckLib_DiskFileSystem_ReadAllBytes_System_String_" data-uid="TruckLib.DiskFileSystem.ReadAllBytes(System.String)">
   ReadAllBytes(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Core/blob/master/TruckLib.Core/DiskFileSystem.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Core/blob/master/TruckLib.Core/DiskFileSystem.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Opens a binary file, reads the contents of the file into a byte array,
@@ -396,7 +437,7 @@ and then closes the file.</p>
 
   <h3 id="TruckLib_DiskFileSystem_ReadAllText_System_String_" data-uid="TruckLib.DiskFileSystem.ReadAllText(System.String)">
   ReadAllText(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Core/blob/master/TruckLib.Core/DiskFileSystem.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Core/blob/master/TruckLib.Core/DiskFileSystem.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Opens a text file, reads all the text in the file into a string, and then
@@ -436,7 +477,7 @@ closes the file.</p>
 
   <h3 id="TruckLib_DiskFileSystem_ReadAllText_System_String_System_Text_Encoding_" data-uid="TruckLib.DiskFileSystem.ReadAllText(System.String,System.Text.Encoding)">
   ReadAllText(string, Encoding)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Core/blob/master/TruckLib.Core/DiskFileSystem.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.Core/blob/master/TruckLib.Core/DiskFileSystem.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Opens a file, reads all text in the file with the specified encoding, and then

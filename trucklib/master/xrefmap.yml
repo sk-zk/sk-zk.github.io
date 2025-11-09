@@ -64,6 +64,22 @@ references:
   commentId: T:TruckLib.DiskFileSystem
   fullName: TruckLib.DiskFileSystem
   nameWithType: DiskFileSystem
+- uid: TruckLib.DiskFileSystem.DirectoryExists(System.String)
+  name: DirectoryExists(string)
+  href: api/TruckLib.DiskFileSystem.html#TruckLib_DiskFileSystem_DirectoryExists_System_String_
+  commentId: M:TruckLib.DiskFileSystem.DirectoryExists(System.String)
+  name.vb: DirectoryExists(String)
+  fullName: TruckLib.DiskFileSystem.DirectoryExists(string)
+  fullName.vb: TruckLib.DiskFileSystem.DirectoryExists(String)
+  nameWithType: DiskFileSystem.DirectoryExists(string)
+  nameWithType.vb: DiskFileSystem.DirectoryExists(String)
+- uid: TruckLib.DiskFileSystem.DirectoryExists*
+  name: DirectoryExists
+  href: api/TruckLib.DiskFileSystem.html#TruckLib_DiskFileSystem_DirectoryExists_
+  commentId: Overload:TruckLib.DiskFileSystem.DirectoryExists
+  isSpec: "True"
+  fullName: TruckLib.DiskFileSystem.DirectoryExists
+  nameWithType: DiskFileSystem.DirectoryExists
 - uid: TruckLib.DiskFileSystem.DirectorySeparator
   name: DirectorySeparator
   href: api/TruckLib.DiskFileSystem.html#TruckLib_DiskFileSystem_DirectorySeparator
@@ -402,6 +418,165 @@ references:
   commentId: N:TruckLib.HashFs
   fullName: TruckLib.HashFs
   nameWithType: TruckLib.HashFs
+- uid: TruckLib.HashFs.AssetLoader
+  name: AssetLoader
+  href: api/TruckLib.HashFs.AssetLoader.html
+  commentId: T:TruckLib.HashFs.AssetLoader
+  fullName: TruckLib.HashFs.AssetLoader
+  nameWithType: AssetLoader
+- uid: TruckLib.HashFs.AssetLoader.#ctor(TruckLib.IFileSystem[])
+  name: AssetLoader(IFileSystem[])
+  href: api/TruckLib.HashFs.AssetLoader.html#TruckLib_HashFs_AssetLoader__ctor_TruckLib_IFileSystem___
+  commentId: M:TruckLib.HashFs.AssetLoader.#ctor(TruckLib.IFileSystem[])
+  name.vb: New(IFileSystem())
+  fullName: TruckLib.HashFs.AssetLoader.AssetLoader(TruckLib.IFileSystem[])
+  fullName.vb: TruckLib.HashFs.AssetLoader.New(TruckLib.IFileSystem())
+  nameWithType: AssetLoader.AssetLoader(IFileSystem[])
+  nameWithType.vb: AssetLoader.New(IFileSystem())
+- uid: TruckLib.HashFs.AssetLoader.#ctor*
+  name: AssetLoader
+  href: api/TruckLib.HashFs.AssetLoader.html#TruckLib_HashFs_AssetLoader__ctor_
+  commentId: Overload:TruckLib.HashFs.AssetLoader.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TruckLib.HashFs.AssetLoader.AssetLoader
+  fullName.vb: TruckLib.HashFs.AssetLoader.New
+  nameWithType: AssetLoader.AssetLoader
+  nameWithType.vb: AssetLoader.New
+- uid: TruckLib.HashFs.AssetLoader.DirectoryExists(System.String)
+  name: DirectoryExists(string)
+  href: api/TruckLib.HashFs.AssetLoader.html#TruckLib_HashFs_AssetLoader_DirectoryExists_System_String_
+  commentId: M:TruckLib.HashFs.AssetLoader.DirectoryExists(System.String)
+  name.vb: DirectoryExists(String)
+  fullName: TruckLib.HashFs.AssetLoader.DirectoryExists(string)
+  fullName.vb: TruckLib.HashFs.AssetLoader.DirectoryExists(String)
+  nameWithType: AssetLoader.DirectoryExists(string)
+  nameWithType.vb: AssetLoader.DirectoryExists(String)
+- uid: TruckLib.HashFs.AssetLoader.DirectoryExists*
+  name: DirectoryExists
+  href: api/TruckLib.HashFs.AssetLoader.html#TruckLib_HashFs_AssetLoader_DirectoryExists_
+  commentId: Overload:TruckLib.HashFs.AssetLoader.DirectoryExists
+  isSpec: "True"
+  fullName: TruckLib.HashFs.AssetLoader.DirectoryExists
+  nameWithType: AssetLoader.DirectoryExists
+- uid: TruckLib.HashFs.AssetLoader.DirectorySeparator
+  name: DirectorySeparator
+  href: api/TruckLib.HashFs.AssetLoader.html#TruckLib_HashFs_AssetLoader_DirectorySeparator
+  commentId: P:TruckLib.HashFs.AssetLoader.DirectorySeparator
+  fullName: TruckLib.HashFs.AssetLoader.DirectorySeparator
+  nameWithType: AssetLoader.DirectorySeparator
+- uid: TruckLib.HashFs.AssetLoader.DirectorySeparator*
+  name: DirectorySeparator
+  href: api/TruckLib.HashFs.AssetLoader.html#TruckLib_HashFs_AssetLoader_DirectorySeparator_
+  commentId: Overload:TruckLib.HashFs.AssetLoader.DirectorySeparator
+  isSpec: "True"
+  fullName: TruckLib.HashFs.AssetLoader.DirectorySeparator
+  nameWithType: AssetLoader.DirectorySeparator
+- uid: TruckLib.HashFs.AssetLoader.FileExists(System.String)
+  name: FileExists(string)
+  href: api/TruckLib.HashFs.AssetLoader.html#TruckLib_HashFs_AssetLoader_FileExists_System_String_
+  commentId: M:TruckLib.HashFs.AssetLoader.FileExists(System.String)
+  name.vb: FileExists(String)
+  fullName: TruckLib.HashFs.AssetLoader.FileExists(string)
+  fullName.vb: TruckLib.HashFs.AssetLoader.FileExists(String)
+  nameWithType: AssetLoader.FileExists(string)
+  nameWithType.vb: AssetLoader.FileExists(String)
+- uid: TruckLib.HashFs.AssetLoader.FileExists*
+  name: FileExists
+  href: api/TruckLib.HashFs.AssetLoader.html#TruckLib_HashFs_AssetLoader_FileExists_
+  commentId: Overload:TruckLib.HashFs.AssetLoader.FileExists
+  isSpec: "True"
+  fullName: TruckLib.HashFs.AssetLoader.FileExists
+  nameWithType: AssetLoader.FileExists
+- uid: TruckLib.HashFs.AssetLoader.GetFiles(System.String)
+  name: GetFiles(string)
+  href: api/TruckLib.HashFs.AssetLoader.html#TruckLib_HashFs_AssetLoader_GetFiles_System_String_
+  commentId: M:TruckLib.HashFs.AssetLoader.GetFiles(System.String)
+  name.vb: GetFiles(String)
+  fullName: TruckLib.HashFs.AssetLoader.GetFiles(string)
+  fullName.vb: TruckLib.HashFs.AssetLoader.GetFiles(String)
+  nameWithType: AssetLoader.GetFiles(string)
+  nameWithType.vb: AssetLoader.GetFiles(String)
+- uid: TruckLib.HashFs.AssetLoader.GetFiles*
+  name: GetFiles
+  href: api/TruckLib.HashFs.AssetLoader.html#TruckLib_HashFs_AssetLoader_GetFiles_
+  commentId: Overload:TruckLib.HashFs.AssetLoader.GetFiles
+  isSpec: "True"
+  fullName: TruckLib.HashFs.AssetLoader.GetFiles
+  nameWithType: AssetLoader.GetFiles
+- uid: TruckLib.HashFs.AssetLoader.GetParent(System.String)
+  name: GetParent(string)
+  href: api/TruckLib.HashFs.AssetLoader.html#TruckLib_HashFs_AssetLoader_GetParent_System_String_
+  commentId: M:TruckLib.HashFs.AssetLoader.GetParent(System.String)
+  name.vb: GetParent(String)
+  fullName: TruckLib.HashFs.AssetLoader.GetParent(string)
+  fullName.vb: TruckLib.HashFs.AssetLoader.GetParent(String)
+  nameWithType: AssetLoader.GetParent(string)
+  nameWithType.vb: AssetLoader.GetParent(String)
+- uid: TruckLib.HashFs.AssetLoader.GetParent*
+  name: GetParent
+  href: api/TruckLib.HashFs.AssetLoader.html#TruckLib_HashFs_AssetLoader_GetParent_
+  commentId: Overload:TruckLib.HashFs.AssetLoader.GetParent
+  isSpec: "True"
+  fullName: TruckLib.HashFs.AssetLoader.GetParent
+  nameWithType: AssetLoader.GetParent
+- uid: TruckLib.HashFs.AssetLoader.Open(System.String)
+  name: Open(string)
+  href: api/TruckLib.HashFs.AssetLoader.html#TruckLib_HashFs_AssetLoader_Open_System_String_
+  commentId: M:TruckLib.HashFs.AssetLoader.Open(System.String)
+  name.vb: Open(String)
+  fullName: TruckLib.HashFs.AssetLoader.Open(string)
+  fullName.vb: TruckLib.HashFs.AssetLoader.Open(String)
+  nameWithType: AssetLoader.Open(string)
+  nameWithType.vb: AssetLoader.Open(String)
+- uid: TruckLib.HashFs.AssetLoader.Open*
+  name: Open
+  href: api/TruckLib.HashFs.AssetLoader.html#TruckLib_HashFs_AssetLoader_Open_
+  commentId: Overload:TruckLib.HashFs.AssetLoader.Open
+  isSpec: "True"
+  fullName: TruckLib.HashFs.AssetLoader.Open
+  nameWithType: AssetLoader.Open
+- uid: TruckLib.HashFs.AssetLoader.ReadAllBytes(System.String)
+  name: ReadAllBytes(string)
+  href: api/TruckLib.HashFs.AssetLoader.html#TruckLib_HashFs_AssetLoader_ReadAllBytes_System_String_
+  commentId: M:TruckLib.HashFs.AssetLoader.ReadAllBytes(System.String)
+  name.vb: ReadAllBytes(String)
+  fullName: TruckLib.HashFs.AssetLoader.ReadAllBytes(string)
+  fullName.vb: TruckLib.HashFs.AssetLoader.ReadAllBytes(String)
+  nameWithType: AssetLoader.ReadAllBytes(string)
+  nameWithType.vb: AssetLoader.ReadAllBytes(String)
+- uid: TruckLib.HashFs.AssetLoader.ReadAllBytes*
+  name: ReadAllBytes
+  href: api/TruckLib.HashFs.AssetLoader.html#TruckLib_HashFs_AssetLoader_ReadAllBytes_
+  commentId: Overload:TruckLib.HashFs.AssetLoader.ReadAllBytes
+  isSpec: "True"
+  fullName: TruckLib.HashFs.AssetLoader.ReadAllBytes
+  nameWithType: AssetLoader.ReadAllBytes
+- uid: TruckLib.HashFs.AssetLoader.ReadAllText(System.String)
+  name: ReadAllText(string)
+  href: api/TruckLib.HashFs.AssetLoader.html#TruckLib_HashFs_AssetLoader_ReadAllText_System_String_
+  commentId: M:TruckLib.HashFs.AssetLoader.ReadAllText(System.String)
+  name.vb: ReadAllText(String)
+  fullName: TruckLib.HashFs.AssetLoader.ReadAllText(string)
+  fullName.vb: TruckLib.HashFs.AssetLoader.ReadAllText(String)
+  nameWithType: AssetLoader.ReadAllText(string)
+  nameWithType.vb: AssetLoader.ReadAllText(String)
+- uid: TruckLib.HashFs.AssetLoader.ReadAllText(System.String,System.Text.Encoding)
+  name: ReadAllText(string, Encoding)
+  href: api/TruckLib.HashFs.AssetLoader.html#TruckLib_HashFs_AssetLoader_ReadAllText_System_String_System_Text_Encoding_
+  commentId: M:TruckLib.HashFs.AssetLoader.ReadAllText(System.String,System.Text.Encoding)
+  name.vb: ReadAllText(String, Encoding)
+  fullName: TruckLib.HashFs.AssetLoader.ReadAllText(string, System.Text.Encoding)
+  fullName.vb: TruckLib.HashFs.AssetLoader.ReadAllText(String, System.Text.Encoding)
+  nameWithType: AssetLoader.ReadAllText(string, Encoding)
+  nameWithType.vb: AssetLoader.ReadAllText(String, Encoding)
+- uid: TruckLib.HashFs.AssetLoader.ReadAllText*
+  name: ReadAllText
+  href: api/TruckLib.HashFs.AssetLoader.html#TruckLib_HashFs_AssetLoader_ReadAllText_
+  commentId: Overload:TruckLib.HashFs.AssetLoader.ReadAllText
+  isSpec: "True"
+  fullName: TruckLib.HashFs.AssetLoader.ReadAllText
+  nameWithType: AssetLoader.ReadAllText
 - uid: TruckLib.HashFs.CityHash
   name: CityHash
   href: api/TruckLib.HashFs.CityHash.html
@@ -2154,6 +2329,22 @@ references:
   commentId: T:TruckLib.IFileSystem
   fullName: TruckLib.IFileSystem
   nameWithType: IFileSystem
+- uid: TruckLib.IFileSystem.DirectoryExists(System.String)
+  name: DirectoryExists(string)
+  href: api/TruckLib.IFileSystem.html#TruckLib_IFileSystem_DirectoryExists_System_String_
+  commentId: M:TruckLib.IFileSystem.DirectoryExists(System.String)
+  name.vb: DirectoryExists(String)
+  fullName: TruckLib.IFileSystem.DirectoryExists(string)
+  fullName.vb: TruckLib.IFileSystem.DirectoryExists(String)
+  nameWithType: IFileSystem.DirectoryExists(string)
+  nameWithType.vb: IFileSystem.DirectoryExists(String)
+- uid: TruckLib.IFileSystem.DirectoryExists*
+  name: DirectoryExists
+  href: api/TruckLib.IFileSystem.html#TruckLib_IFileSystem_DirectoryExists_
+  commentId: Overload:TruckLib.IFileSystem.DirectoryExists
+  isSpec: "True"
+  fullName: TruckLib.IFileSystem.DirectoryExists
+  nameWithType: IFileSystem.DirectoryExists
 - uid: TruckLib.IFileSystem.DirectorySeparator
   name: DirectorySeparator
   href: api/TruckLib.IFileSystem.html#TruckLib_IFileSystem_DirectorySeparator
@@ -17430,6 +17621,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.MapArea.DrawOver
   nameWithType: MapArea.DrawOver
+- uid: TruckLib.ScsMap.MapArea.DrawUnder
+  name: DrawUnder
+  href: api/TruckLib.ScsMap.MapArea.html#TruckLib_ScsMap_MapArea_DrawUnder
+  commentId: P:TruckLib.ScsMap.MapArea.DrawUnder
+  fullName: TruckLib.ScsMap.MapArea.DrawUnder
+  nameWithType: MapArea.DrawUnder
+- uid: TruckLib.ScsMap.MapArea.DrawUnder*
+  name: DrawUnder
+  href: api/TruckLib.ScsMap.MapArea.html#TruckLib_ScsMap_MapArea_DrawUnder_
+  commentId: Overload:TruckLib.ScsMap.MapArea.DrawUnder
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.MapArea.DrawUnder
+  nameWithType: MapArea.DrawUnder
 - uid: TruckLib.ScsMap.MapArea.Init
   name: Init()
   href: api/TruckLib.ScsMap.MapArea.html#TruckLib_ScsMap_MapArea_Init
