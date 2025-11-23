@@ -12223,6 +12223,15 @@ references:
   fullName.vb: TruckLib.ScsMap.EdgeOverride.New(TruckLib.Token, UShort, UShort)
   nameWithType: EdgeOverride.EdgeOverride(Token, ushort, ushort)
   nameWithType.vb: EdgeOverride.New(Token, UShort, UShort)
+- uid: TruckLib.ScsMap.EdgeOverride.#ctor(TruckLib.Token,TruckLib.Token,System.UInt16,System.UInt16)
+  name: EdgeOverride(Token, Token, ushort, ushort)
+  href: api/TruckLib.ScsMap.EdgeOverride.html#TruckLib_ScsMap_EdgeOverride__ctor_TruckLib_Token_TruckLib_Token_System_UInt16_System_UInt16_
+  commentId: M:TruckLib.ScsMap.EdgeOverride.#ctor(TruckLib.Token,TruckLib.Token,System.UInt16,System.UInt16)
+  name.vb: New(Token, Token, UShort, UShort)
+  fullName: TruckLib.ScsMap.EdgeOverride.EdgeOverride(TruckLib.Token, TruckLib.Token, ushort, ushort)
+  fullName.vb: TruckLib.ScsMap.EdgeOverride.New(TruckLib.Token, TruckLib.Token, UShort, UShort)
+  nameWithType: EdgeOverride.EdgeOverride(Token, Token, ushort, ushort)
+  nameWithType.vb: EdgeOverride.New(Token, Token, UShort, UShort)
 - uid: TruckLib.ScsMap.EdgeOverride.#ctor*
   name: EdgeOverride
   href: api/TruckLib.ScsMap.EdgeOverride.html#TruckLib_ScsMap_EdgeOverride__ctor_
@@ -12275,6 +12284,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.EdgeOverride.Length
   nameWithType: EdgeOverride.Length
+- uid: TruckLib.ScsMap.EdgeOverride.Look
+  name: Look
+  href: api/TruckLib.ScsMap.EdgeOverride.html#TruckLib_ScsMap_EdgeOverride_Look
+  commentId: P:TruckLib.ScsMap.EdgeOverride.Look
+  fullName: TruckLib.ScsMap.EdgeOverride.Look
+  nameWithType: EdgeOverride.Look
+- uid: TruckLib.ScsMap.EdgeOverride.Look*
+  name: Look
+  href: api/TruckLib.ScsMap.EdgeOverride.html#TruckLib_ScsMap_EdgeOverride_Look_
+  commentId: Overload:TruckLib.ScsMap.EdgeOverride.Look
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.EdgeOverride.Look
+  nameWithType: EdgeOverride.Look
 - uid: TruckLib.ScsMap.EdgeOverride.Offset
   name: Offset
   href: api/TruckLib.ScsMap.EdgeOverride.html#TruckLib_ScsMap_EdgeOverride_Offset
@@ -14232,6 +14254,45 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.INode.BackwardItem
   nameWithType: INode.BackwardItem
+- uid: TruckLib.ScsMap.INode.BwdBus
+  name: BwdBus
+  href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_BwdBus
+  commentId: P:TruckLib.ScsMap.INode.BwdBus
+  fullName: TruckLib.ScsMap.INode.BwdBus
+  nameWithType: INode.BwdBus
+- uid: TruckLib.ScsMap.INode.BwdBus*
+  name: BwdBus
+  href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_BwdBus_
+  commentId: Overload:TruckLib.ScsMap.INode.BwdBus
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.INode.BwdBus
+  nameWithType: INode.BwdBus
+- uid: TruckLib.ScsMap.INode.BwdCar
+  name: BwdCar
+  href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_BwdCar
+  commentId: P:TruckLib.ScsMap.INode.BwdCar
+  fullName: TruckLib.ScsMap.INode.BwdCar
+  nameWithType: INode.BwdCar
+- uid: TruckLib.ScsMap.INode.BwdCar*
+  name: BwdCar
+  href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_BwdCar_
+  commentId: Overload:TruckLib.ScsMap.INode.BwdCar
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.INode.BwdCar
+  nameWithType: INode.BwdCar
+- uid: TruckLib.ScsMap.INode.BwdTruck
+  name: BwdTruck
+  href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_BwdTruck
+  commentId: P:TruckLib.ScsMap.INode.BwdTruck
+  fullName: TruckLib.ScsMap.INode.BwdTruck
+  nameWithType: INode.BwdTruck
+- uid: TruckLib.ScsMap.INode.BwdTruck*
+  name: BwdTruck
+  href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_BwdTruck_
+  commentId: Overload:TruckLib.ScsMap.INode.BwdTruck
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.INode.BwdTruck
+  nameWithType: INode.BwdTruck
 - uid: TruckLib.ScsMap.INode.ForwardCountry
   name: ForwardCountry
   href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_ForwardCountry
@@ -14271,6 +14332,45 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.INode.FreeRotation
   nameWithType: INode.FreeRotation
+- uid: TruckLib.ScsMap.INode.FwdBus
+  name: FwdBus
+  href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_FwdBus
+  commentId: P:TruckLib.ScsMap.INode.FwdBus
+  fullName: TruckLib.ScsMap.INode.FwdBus
+  nameWithType: INode.FwdBus
+- uid: TruckLib.ScsMap.INode.FwdBus*
+  name: FwdBus
+  href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_FwdBus_
+  commentId: Overload:TruckLib.ScsMap.INode.FwdBus
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.INode.FwdBus
+  nameWithType: INode.FwdBus
+- uid: TruckLib.ScsMap.INode.FwdCar
+  name: FwdCar
+  href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_FwdCar
+  commentId: P:TruckLib.ScsMap.INode.FwdCar
+  fullName: TruckLib.ScsMap.INode.FwdCar
+  nameWithType: INode.FwdCar
+- uid: TruckLib.ScsMap.INode.FwdCar*
+  name: FwdCar
+  href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_FwdCar_
+  commentId: Overload:TruckLib.ScsMap.INode.FwdCar
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.INode.FwdCar
+  nameWithType: INode.FwdCar
+- uid: TruckLib.ScsMap.INode.FwdTruck
+  name: FwdTruck
+  href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_FwdTruck
+  commentId: P:TruckLib.ScsMap.INode.FwdTruck
+  fullName: TruckLib.ScsMap.INode.FwdTruck
+  nameWithType: INode.FwdTruck
+- uid: TruckLib.ScsMap.INode.FwdTruck*
+  name: FwdTruck
+  href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_FwdTruck_
+  commentId: Overload:TruckLib.ScsMap.INode.FwdTruck
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.INode.FwdTruck
+  nameWithType: INode.FwdTruck
 - uid: TruckLib.ScsMap.INode.IsCountryBorder
   name: IsCountryBorder
   href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_IsCountryBorder
@@ -14375,6 +14475,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.INode.Parent
   nameWithType: INode.Parent
+- uid: TruckLib.ScsMap.INode.PlayerVehicleTypeChange
+  name: PlayerVehicleTypeChange
+  href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_PlayerVehicleTypeChange
+  commentId: P:TruckLib.ScsMap.INode.PlayerVehicleTypeChange
+  fullName: TruckLib.ScsMap.INode.PlayerVehicleTypeChange
+  nameWithType: INode.PlayerVehicleTypeChange
+- uid: TruckLib.ScsMap.INode.PlayerVehicleTypeChange*
+  name: PlayerVehicleTypeChange
+  href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_PlayerVehicleTypeChange_
+  commentId: Overload:TruckLib.ScsMap.INode.PlayerVehicleTypeChange
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.INode.PlayerVehicleTypeChange
+  nameWithType: INode.PlayerVehicleTypeChange
 - uid: TruckLib.ScsMap.INode.Position
   name: Position
   href: api/TruckLib.ScsMap.INode.html#TruckLib_ScsMap_INode_Position
@@ -16861,6 +16974,24 @@ references:
   commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.KansasAndOklahoma
   fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.KansasAndOklahoma
   nameWithType: DlcGuard.Ats.KansasAndOklahoma
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.Louisiana
+  name: Louisiana
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_Louisiana
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.Louisiana
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.Louisiana
+  nameWithType: DlcGuard.Ats.Louisiana
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.LouisianaAndArkansas
+  name: LouisianaAndArkansas
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_LouisianaAndArkansas
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.LouisianaAndArkansas
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.LouisianaAndArkansas
+  nameWithType: DlcGuard.Ats.LouisianaAndArkansas
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.LouisianaAndTexas
+  name: LouisianaAndTexas
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_LouisianaAndTexas
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.LouisianaAndTexas
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.LouisianaAndTexas
+  nameWithType: DlcGuard.Ats.LouisianaAndTexas
 - uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.Missouri
   name: Missouri
   href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_Missouri
@@ -17143,6 +17274,24 @@ references:
   commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ets2.None
   fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.None
   nameWithType: DlcGuard.Ets2.None
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Nordic
+  name: Nordic
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html#TruckLib_ScsMap_Lookup_DlcGuard_Ets2_Nordic
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Nordic
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Nordic
+  nameWithType: DlcGuard.Ets2.Nordic
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.NordicAndBaltic
+  name: NordicAndBaltic
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html#TruckLib_ScsMap_Lookup_DlcGuard_Ets2_NordicAndBaltic
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ets2.NordicAndBaltic
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.NordicAndBaltic
+  nameWithType: DlcGuard.Ets2.NordicAndBaltic
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.NordicAndScandinavia
+  name: NordicAndScandinavia
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html#TruckLib_ScsMap_Lookup_DlcGuard_Ets2_NordicAndScandinavia
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ets2.NordicAndScandinavia
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.NordicAndScandinavia
+  nameWithType: DlcGuard.Ets2.NordicAndScandinavia
 - uid: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Russia
   name: Russia
   href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html#TruckLib_ScsMap_Lookup_DlcGuard_Ets2_Russia
@@ -18960,6 +19109,45 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Node.BackwardItem
   nameWithType: Node.BackwardItem
+- uid: TruckLib.ScsMap.Node.BwdBus
+  name: BwdBus
+  href: api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_BwdBus
+  commentId: P:TruckLib.ScsMap.Node.BwdBus
+  fullName: TruckLib.ScsMap.Node.BwdBus
+  nameWithType: Node.BwdBus
+- uid: TruckLib.ScsMap.Node.BwdBus*
+  name: BwdBus
+  href: api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_BwdBus_
+  commentId: Overload:TruckLib.ScsMap.Node.BwdBus
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Node.BwdBus
+  nameWithType: Node.BwdBus
+- uid: TruckLib.ScsMap.Node.BwdCar
+  name: BwdCar
+  href: api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_BwdCar
+  commentId: P:TruckLib.ScsMap.Node.BwdCar
+  fullName: TruckLib.ScsMap.Node.BwdCar
+  nameWithType: Node.BwdCar
+- uid: TruckLib.ScsMap.Node.BwdCar*
+  name: BwdCar
+  href: api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_BwdCar_
+  commentId: Overload:TruckLib.ScsMap.Node.BwdCar
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Node.BwdCar
+  nameWithType: Node.BwdCar
+- uid: TruckLib.ScsMap.Node.BwdTruck
+  name: BwdTruck
+  href: api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_BwdTruck
+  commentId: P:TruckLib.ScsMap.Node.BwdTruck
+  fullName: TruckLib.ScsMap.Node.BwdTruck
+  nameWithType: Node.BwdTruck
+- uid: TruckLib.ScsMap.Node.BwdTruck*
+  name: BwdTruck
+  href: api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_BwdTruck_
+  commentId: Overload:TruckLib.ScsMap.Node.BwdTruck
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Node.BwdTruck
+  nameWithType: Node.BwdTruck
 - uid: TruckLib.ScsMap.Node.Deserialize(System.IO.BinaryReader,System.Nullable{System.UInt32})
   name: Deserialize(BinaryReader, uint?)
   href: api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_Deserialize_System_IO_BinaryReader_System_Nullable_System_UInt32__
@@ -19015,6 +19203,45 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Node.FreeRotation
   nameWithType: Node.FreeRotation
+- uid: TruckLib.ScsMap.Node.FwdBus
+  name: FwdBus
+  href: api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_FwdBus
+  commentId: P:TruckLib.ScsMap.Node.FwdBus
+  fullName: TruckLib.ScsMap.Node.FwdBus
+  nameWithType: Node.FwdBus
+- uid: TruckLib.ScsMap.Node.FwdBus*
+  name: FwdBus
+  href: api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_FwdBus_
+  commentId: Overload:TruckLib.ScsMap.Node.FwdBus
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Node.FwdBus
+  nameWithType: Node.FwdBus
+- uid: TruckLib.ScsMap.Node.FwdCar
+  name: FwdCar
+  href: api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_FwdCar
+  commentId: P:TruckLib.ScsMap.Node.FwdCar
+  fullName: TruckLib.ScsMap.Node.FwdCar
+  nameWithType: Node.FwdCar
+- uid: TruckLib.ScsMap.Node.FwdCar*
+  name: FwdCar
+  href: api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_FwdCar_
+  commentId: Overload:TruckLib.ScsMap.Node.FwdCar
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Node.FwdCar
+  nameWithType: Node.FwdCar
+- uid: TruckLib.ScsMap.Node.FwdTruck
+  name: FwdTruck
+  href: api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_FwdTruck
+  commentId: P:TruckLib.ScsMap.Node.FwdTruck
+  fullName: TruckLib.ScsMap.Node.FwdTruck
+  nameWithType: Node.FwdTruck
+- uid: TruckLib.ScsMap.Node.FwdTruck*
+  name: FwdTruck
+  href: api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_FwdTruck_
+  commentId: Overload:TruckLib.ScsMap.Node.FwdTruck
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Node.FwdTruck
+  nameWithType: Node.FwdTruck
 - uid: TruckLib.ScsMap.Node.Init
   name: Init()
   href: api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_Init
@@ -19132,6 +19359,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Node.Parent
   nameWithType: Node.Parent
+- uid: TruckLib.ScsMap.Node.PlayerVehicleTypeChange
+  name: PlayerVehicleTypeChange
+  href: api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_PlayerVehicleTypeChange
+  commentId: P:TruckLib.ScsMap.Node.PlayerVehicleTypeChange
+  fullName: TruckLib.ScsMap.Node.PlayerVehicleTypeChange
+  nameWithType: Node.PlayerVehicleTypeChange
+- uid: TruckLib.ScsMap.Node.PlayerVehicleTypeChange*
+  name: PlayerVehicleTypeChange
+  href: api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_PlayerVehicleTypeChange_
+  commentId: Overload:TruckLib.ScsMap.Node.PlayerVehicleTypeChange
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Node.PlayerVehicleTypeChange
+  nameWithType: Node.PlayerVehicleTypeChange
 - uid: TruckLib.ScsMap.Node.Position
   name: Position
   href: api/TruckLib.ScsMap.Node.html#TruckLib_ScsMap_Node_Position
@@ -20869,6 +21109,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Road.Boundary
   nameWithType: Road.Boundary
+- uid: TruckLib.ScsMap.Road.CenterBlocked
+  name: CenterBlocked
+  href: api/TruckLib.ScsMap.Road.html#TruckLib_ScsMap_Road_CenterBlocked
+  commentId: P:TruckLib.ScsMap.Road.CenterBlocked
+  fullName: TruckLib.ScsMap.Road.CenterBlocked
+  nameWithType: Road.CenterBlocked
+- uid: TruckLib.ScsMap.Road.CenterBlocked*
+  name: CenterBlocked
+  href: api/TruckLib.ScsMap.Road.html#TruckLib_ScsMap_Road_CenterBlocked_
+  commentId: Overload:TruckLib.ScsMap.Road.CenterBlocked
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Road.CenterBlocked
+  nameWithType: Road.CenterBlocked
 - uid: TruckLib.ScsMap.Road.CenterDetailVegetation
   name: CenterDetailVegetation
   href: api/TruckLib.ScsMap.Road.html#TruckLib_ScsMap_Road_CenterDetailVegetation
@@ -21634,6 +21887,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.RoadSide.LeftEdge
   nameWithType: RoadSide.LeftEdge
+- uid: TruckLib.ScsMap.RoadSide.LeftEdgeLook
+  name: LeftEdgeLook
+  href: api/TruckLib.ScsMap.RoadSide.html#TruckLib_ScsMap_RoadSide_LeftEdgeLook
+  commentId: P:TruckLib.ScsMap.RoadSide.LeftEdgeLook
+  fullName: TruckLib.ScsMap.RoadSide.LeftEdgeLook
+  nameWithType: RoadSide.LeftEdgeLook
+- uid: TruckLib.ScsMap.RoadSide.LeftEdgeLook*
+  name: LeftEdgeLook
+  href: api/TruckLib.ScsMap.RoadSide.html#TruckLib_ScsMap_RoadSide_LeftEdgeLook_
+  commentId: Overload:TruckLib.ScsMap.RoadSide.LeftEdgeLook
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.RoadSide.LeftEdgeLook
+  nameWithType: RoadSide.LeftEdgeLook
 - uid: TruckLib.ScsMap.RoadSide.Look
   name: Look
   href: api/TruckLib.ScsMap.RoadSide.html#TruckLib_ScsMap_RoadSide_Look
@@ -21712,6 +21978,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.RoadSide.RightEdge
   nameWithType: RoadSide.RightEdge
+- uid: TruckLib.ScsMap.RoadSide.RightEdgeLook
+  name: RightEdgeLook
+  href: api/TruckLib.ScsMap.RoadSide.html#TruckLib_ScsMap_RoadSide_RightEdgeLook
+  commentId: P:TruckLib.ScsMap.RoadSide.RightEdgeLook
+  fullName: TruckLib.ScsMap.RoadSide.RightEdgeLook
+  nameWithType: RoadSide.RightEdgeLook
+- uid: TruckLib.ScsMap.RoadSide.RightEdgeLook*
+  name: RightEdgeLook
+  href: api/TruckLib.ScsMap.RoadSide.html#TruckLib_ScsMap_RoadSide_RightEdgeLook_
+  commentId: Overload:TruckLib.ScsMap.RoadSide.RightEdgeLook
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.RoadSide.RightEdgeLook
+  nameWithType: RoadSide.RightEdgeLook
 - uid: TruckLib.ScsMap.RoadSide.ShoulderBlocked
   name: ShoulderBlocked
   href: api/TruckLib.ScsMap.RoadSide.html#TruckLib_ScsMap_RoadSide_ShoulderBlocked
