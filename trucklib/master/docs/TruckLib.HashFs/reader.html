@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/TruckLib.HashFs/hashfs.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/TruckLib.HashFs/reader.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -96,7 +96,7 @@ with the path of a directory, listing the files and subdirectories it contains. 
 files contain full directory listings, but mods may not – the top level listing in particular can be omitted to
 prevent the official extractor from extracting anything.</p>
 <p>HashFS v2, introduced with game version 1.50, is supported. Note that, in this version, <code>.tobj</code>/<code>.dds</code> pairs are
-dissolved into a packed <code>.tobj</code> entry from which TruckLib will reconstruct the original <code>.tobj</code> and <code>.dds</code> files
+dissolved into a single <code>.tobj</code> entry from which TruckLib will reconstruct the original <code>.tobj</code> and <code>.dds</code> files
 when such a <code>.tobj</code> entry is requested.</p>
 <h2 id="opening-an-archive">Opening an archive</h2>
 <p>To open a HashFS file, call the static <a class="xref" href="../../api/TruckLib.HashFs.HashFsReader.html#TruckLib_HashFs_HashFsReader_Open_"><code>Open</code></a> method of the <code>HashFsReader</code> class:</p>
@@ -104,8 +104,8 @@ when such a <code>.tobj</code> entry is requested.</p>
 
 using IHashFsReader reader = HashFsReader.Open(@&quot;E:\SteamLibrary\steamapps\common\Euro Truck Simulator 2\def.scs&quot;);
 </code></pre>
-<p>Depending on the HashFS version of the archive, this will create a <code>HashFsReaderV1</code> or
-<code>HashFsReaderV2</code> instance as <a class="xref" href="../../api/TruckLib.HashFs.IHashFsReader.html"><code>IHashFsReader</code></a> which you can use to extract files.</p>
+<p>Depending on the HashFS version of the archive, this will create a <code>HashFsV1Reader</code> or
+<code>HashFsV2Reader</code> instance as <a class="xref" href="../../api/TruckLib.HashFs.IHashFsReader.html"><code>IHashFsReader</code></a> which you can use to extract files.</p>
 <h2 id="finding-entries">Finding entries</h2>
 <h3 id="known-paths">Known paths</h3>
 <p>The <a class="xref" href="../../api/TruckLib.HashFs.IHashFsReader.html#TruckLib_HashFs_IHashFsReader_TryGetEntry_"><code>TryGetEntry</code></a> method retrieves metadata of the entry with the given path
@@ -136,7 +136,7 @@ and <code>.dds</code> file.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/TruckLib.HashFs/hashfs.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/TruckLib.HashFs/reader.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

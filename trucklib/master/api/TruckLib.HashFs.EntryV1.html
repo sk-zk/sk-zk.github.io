@@ -89,7 +89,7 @@
 
 
   <h1 id="TruckLib_HashFs_EntryV1" data-uid="TruckLib.HashFs.EntryV1" class="text-break">
-Struct EntryV1  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/EntryV1.cs/#L11"><i class="bi bi-code-slash"></i></a>
+Struct EntryV1  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/EntryV1.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Struct EntryV1  <a class="header-action link-secondary" title="View source" href
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct EntryV1 : IEntry</code></pre>
+    <pre><code class="lang-csharp hljs">public struct EntryV1 : IEntry, IBinarySerializable</code></pre>
   </div>
 
 
@@ -113,6 +113,7 @@ Struct EntryV1  <a class="header-action link-secondary" title="View source" href
     <dt>Implements</dt>
     <dd>
       <div><a class="xref" href="TruckLib.HashFs.IEntry.html">IEntry</a></div>
+      <div><a class="xref" href="TruckLib.IBinarySerializable.html">IBinarySerializable</a></div>
     </dd>
   </dl>
 
@@ -153,7 +154,7 @@ Struct EntryV1  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="TruckLib_HashFs_EntryV1_CompressedSize" data-uid="TruckLib.HashFs.EntryV1.CompressedSize">
   CompressedSize
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/EntryV1.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/EntryV1.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Size of the file in the archive.</p>
@@ -185,7 +186,7 @@ Struct EntryV1  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="TruckLib_HashFs_EntryV1_Crc" data-uid="TruckLib.HashFs.EntryV1.Crc">
   Crc
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/EntryV1.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/EntryV1.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>CRC32 checksum of the file.</p>
@@ -217,7 +218,7 @@ Struct EntryV1  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="TruckLib_HashFs_EntryV1_Hash" data-uid="TruckLib.HashFs.EntryV1.Hash">
   Hash
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/EntryV1.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/EntryV1.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Hash of the full path of the file.</p>
@@ -249,7 +250,7 @@ Struct EntryV1  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="TruckLib_HashFs_EntryV1_IsCompressed" data-uid="TruckLib.HashFs.EntryV1.IsCompressed">
   IsCompressed
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/EntryV1.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/EntryV1.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Whether the file is compressed.</p>
@@ -257,7 +258,7 @@ Struct EntryV1  <a class="header-action link-secondary" title="View source" href
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsCompressed { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsCompressed { get; set; }</code></pre>
   </div>
 
 
@@ -281,7 +282,7 @@ Struct EntryV1  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="TruckLib_HashFs_EntryV1_IsDirectory" data-uid="TruckLib.HashFs.EntryV1.IsDirectory">
   IsDirectory
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/EntryV1.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/EntryV1.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Whether the entry is a directory listing.</p>
@@ -313,7 +314,7 @@ Struct EntryV1  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="TruckLib_HashFs_EntryV1_IsEncrypted" data-uid="TruckLib.HashFs.EntryV1.IsEncrypted">
   IsEncrypted
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/EntryV1.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/EntryV1.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -344,7 +345,7 @@ Struct EntryV1  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="TruckLib_HashFs_EntryV1_Offset" data-uid="TruckLib.HashFs.EntryV1.Offset">
   Offset
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/EntryV1.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/EntryV1.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Start of the file contents in the archive.</p>
@@ -376,7 +377,7 @@ Struct EntryV1  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="TruckLib_HashFs_EntryV1_Size" data-uid="TruckLib.HashFs.EntryV1.Size">
   Size
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/EntryV1.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/EntryV1.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Size of the file when uncompressed.</p>
@@ -408,7 +409,7 @@ Struct EntryV1  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="TruckLib_HashFs_EntryV1_Verify" data-uid="TruckLib.HashFs.EntryV1.Verify">
   Verify
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/EntryV1.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/EntryV1.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -435,11 +436,79 @@ Struct EntryV1  <a class="header-action link-secondary" title="View source" href
 
 
 
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="TruckLib_HashFs_EntryV1_Deserialize_" data-uid="TruckLib.HashFs.EntryV1.Deserialize*"></a>
+
+  <h3 id="TruckLib_HashFs_EntryV1_Deserialize_System_IO_BinaryReader_System_Nullable_System_UInt32__" data-uid="TruckLib.HashFs.EntryV1.Deserialize(System.IO.BinaryReader,System.Nullable{System.UInt32})">
+  Deserialize(BinaryReader, uint?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/EntryV1.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Deserialize(BinaryReader r, uint? version = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>r</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.binaryreader">BinaryReader</a></dt>
+    <dd></dd>
+    <dt><code>version</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_HashFs_EntryV1_Serialize_" data-uid="TruckLib.HashFs.EntryV1.Serialize*"></a>
+
+  <h3 id="TruckLib_HashFs_EntryV1_Serialize_System_IO_BinaryWriter_" data-uid="TruckLib.HashFs.EntryV1.Serialize(System.IO.BinaryWriter)">
+  Serialize(BinaryWriter)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/EntryV1.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Serialize(BinaryWriter w)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>w</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.binarywriter">BinaryWriter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/EntryV1.cs/#L11" class="edit-link">Edit this page</a>
+          <a href="https://github.com/sk-zk/TruckLib.HashFs/blob/master/TruckLib.HashFs/EntryV1.cs/#L12" class="edit-link">Edit this page</a>
         </div>
 
 

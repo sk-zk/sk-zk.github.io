@@ -132,7 +132,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "TruckLib.HashFs.Dds.DxgiFormat",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/TruckLib.HashFs.Dds.DxgiFormat.yml\" sourcestartlinenumber=\"1\">The surface pixel format; see\n<a href=\"https://learn.microsoft.com/en-us/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format\">\nMSDN</a> for details.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -220,6 +220,104 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.HashFs.HashFsV1Writer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.HashFs.HashFsV1Writer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.HashFsV1Writer",
+      "Summary": "<p sourcefile=\"api/TruckLib.HashFs.HashFsV1Writer.yml\" sourcestartlinenumber=\"1\">Creates a new HashFS v1 archive.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.HashFs.HashFsV2.PackedTobjDdsMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.HashFs.HashFsV2.PackedTobjDdsMetadata.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.HashFsV2.PackedTobjDdsMetadata",
+      "Summary": "<p sourcefile=\"api/TruckLib.HashFs.HashFsV2.PackedTobjDdsMetadata.yml\" sourcestartlinenumber=\"1\">Represents the metadata table values of a packed .tobj/.dds entry.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.HashFs.HashFsV2.Platform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.HashFs.HashFsV2.Platform.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.HashFsV2.Platform",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.HashFs.HashFsV2.TexturePackingException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.HashFs.HashFsV2.TexturePackingException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.HashFsV2.TexturePackingException",
+      "Summary": "<p sourcefile=\"api/TruckLib.HashFs.HashFsV2.TexturePackingException.yml\" sourcestartlinenumber=\"1\">Thrown if an error occurred while packing a .tobj/.dds pair into a HashFS v2 archive.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.HashFs.HashFsV2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.HashFs.HashFsV2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.HashFsV2",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.HashFs.HashFsV2Writer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.HashFs.HashFsV2Writer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.HashFsV2Writer",
+      "Summary": "<p sourcefile=\"api/TruckLib.HashFs.HashFsV2Writer.yml\" sourcestartlinenumber=\"1\">Creates a new HashFS v2 archive.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.HashFs.HashFsWriterBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.HashFs.HashFsWriterBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.HashFsWriterBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TruckLib.HashFs.IEntry.yml",
       "output": {
         ".html": {
@@ -245,34 +343,6 @@
       "IsMRef": true,
       "Title": "TruckLib.HashFs.IHashFsReader",
       "Summary": "<p sourcefile=\"api/TruckLib.HashFs.IHashFsReader.yml\" sourcestartlinenumber=\"1\">A HashFS reader for extracting files from HashFS archives.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/TruckLib.HashFs.PackedTobjDdsMetadata.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TruckLib.HashFs.PackedTobjDdsMetadata.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "TruckLib.HashFs.PackedTobjDdsMetadata",
-      "Summary": "<p sourcefile=\"api/TruckLib.HashFs.PackedTobjDdsMetadata.yml\" sourcestartlinenumber=\"1\">Represents the metadata table values of a packed .tobj/.dds entry.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/TruckLib.HashFs.Platform.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TruckLib.HashFs.Platform.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "TruckLib.HashFs.Platform",
-      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3090,10 +3160,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/TruckLib.HashFs/hashfs.md",
+      "source_relative_path": "docs/TruckLib.HashFs/reader.md",
       "output": {
         ".html": {
-          "relative_path": "docs/TruckLib.HashFs/hashfs.html"
+          "relative_path": "docs/TruckLib.HashFs/reader.html"
         }
       },
       "version": ""
@@ -3107,6 +3177,16 @@
         },
         ".json": {
           "relative_path": "docs/TruckLib.HashFs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/TruckLib.HashFs/writer.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/TruckLib.HashFs/writer.html"
         }
       },
       "version": ""
