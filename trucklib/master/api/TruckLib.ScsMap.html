@@ -146,6 +146,11 @@ and is also used to create random events.</p>
 </dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="TruckLib.ScsMap.CompanySpawnPoint.html">CompanySpawnPoint</a></dt>
+      <dd><p>Represents a prefab spawn point belonging to a <a class="xref" href="TruckLib.ScsMap.Company.html">Company</a> item.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="TruckLib.ScsMap.Compound.html">Compound</a></dt>
       <dd><p>A compound item, which groups multiple
 <a href="https://github.com/sk-zk/map-docs/wiki/base%2C-aux-and-snd">aux items</a>
@@ -179,7 +184,7 @@ are not rendered.</p>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="TruckLib.ScsMap.EnvironmentArea.html">EnvironmentArea</a></dt>
-      <dd><p>Defines a rectangular area in which</p>
+      <dd><p>Defines a rectangular area in which various environmental graphical effects are different.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -229,6 +234,10 @@ on map and be swung by player truck e.g. swing doors.&quot;</p>
       <dt><a class="xref" href="TruckLib.ScsMap.KdopBounds.html">KdopBounds</a></dt>
       <dd><p>Represents the k-DOP bounding box of a map item.</p>
 </dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="TruckLib.ScsMap.KdopItemFlagFieldSubView.html">KdopItemFlagFieldSubView</a></dt>
+      <dd></dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="TruckLib.ScsMap.Keyframe.html">Keyframe</a></dt>
@@ -403,7 +412,7 @@ object in a sign template have been changed.</p>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="TruckLib.ScsMap.TerrainSide.html">TerrainSide</a></dt>
-      <dd><p>Properties of one side of a terrain item.</p>
+      <dd><p>Properties of one side of a <a class="xref" href="TruckLib.ScsMap.TerrainSide.html#TruckLib_ScsMap_TerrainSide_Terrain">Terrain</a> item.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -463,11 +472,6 @@ child items are rendered differently.</p>
 Structs
 </h3>
     <dl class="jumplist">
-      <dt><a class="xref" href="TruckLib.ScsMap.CompanySpawnPoint.html">CompanySpawnPoint</a></dt>
-      <dd><p>Represents a prefab spawn point belonging to a <a class="xref" href="TruckLib.ScsMap.Company.html">Company</a> item.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
       <dt><a class="xref" href="TruckLib.ScsMap.CutPlaneNodeAngle.html">CutPlaneNodeAngle</a></dt>
       <dd></dd>
     </dl>
@@ -509,6 +513,11 @@ Structs
     <dl class="jumplist">
       <dt><a class="xref" href="TruckLib.ScsMap.TerrainQuad.html">TerrainQuad</a></dt>
       <dd><p>Properties of an individual terrain quad.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="TruckLib.ScsMap.Tesselation.html">Tesselation</a></dt>
+      <dd><p>Stores the resolution of the terrain quad grid of a Beziér patch item.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -563,6 +572,10 @@ Enums
 </dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="TruckLib.ScsMap.CompanySpawnPointTrailerType.html">CompanySpawnPointTrailerType</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="TruckLib.ScsMap.CompanySpawnPointType.html">CompanySpawnPointType</a></dt>
       <dd><p>The spawn point type of a node belonging to a <a class="xref" href="TruckLib.ScsMap.Company.html">Company</a> item.</p>
 </dd>
@@ -579,7 +592,7 @@ Enums
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="TruckLib.ScsMap.FogMask.html">FogMask</a></dt>
-      <dd><p>Fog behavior in a <a class="xref" href="TruckLib.ScsMap.EnvironmentArea.html">No Weather Area</a>.</p>
+      <dd><p>Fog behavior in a <a class="xref" href="TruckLib.ScsMap.EnvironmentArea.html">Environment Area</a>.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -659,7 +672,7 @@ Enums
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="TruckLib.ScsMap.TerrainTransition.html">TerrainTransition</a></dt>
-      <dd><p>Allowed transition values for terrain in meters(?).</p>
+      <dd><p>Allowed transition values for terrain in number of quads.</p>
 </dd>
     </dl>
     <dl class="jumplist">

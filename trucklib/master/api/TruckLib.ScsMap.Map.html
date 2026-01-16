@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/new/pkg-refactor/apiSpec/new?filename=TruckLib_ScsMap_Map.md&amp;value=---%0Auid%3A%20TruckLib.ScsMap.Map%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/new/master/apiSpec/new?filename=TruckLib_ScsMap_Map.md&amp;value=---%0Auid%3A%20TruckLib.ScsMap.Map%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="TruckLib_ScsMap_Map" data-uid="TruckLib.ScsMap.Map" class="text-break">
-Class Map  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L19"><i class="bi bi-code-slash"></i></a>
+Class Map  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -161,9 +161,9 @@ Class Map  <a class="header-action link-secondary" title="View source" href="htt
 
   <a id="TruckLib_ScsMap_Map__ctor_" data-uid="TruckLib.ScsMap.Map.#ctor*"></a>
 
-  <h3 id="TruckLib_ScsMap_Map__ctor_System_String_" data-uid="TruckLib.ScsMap.Map.#ctor(System.String)">
-  Map(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  <h3 id="TruckLib_ScsMap_Map__ctor" data-uid="TruckLib.ScsMap.Map.#ctor">
+  Map()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L94"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates an empty map.</p>
@@ -171,15 +171,9 @@ Class Map  <a class="header-action link-secondary" title="View source" href="htt
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Map(string name)</code></pre>
+    <pre><code class="lang-csharp hljs">public Map()</code></pre>
   </div>
 
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The name of the map.</p>
-</dd>
-  </dl>
 
 
 
@@ -199,7 +193,7 @@ Class Map  <a class="header-action link-secondary" title="View source" href="htt
 
   <h3 id="TruckLib_ScsMap_Map_SectorSize" data-uid="TruckLib.ScsMap.Map.SectorSize">
   SectorSize
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The size of a sector in engine units (= meters).</p>
@@ -207,7 +201,7 @@ Class Map  <a class="header-action link-secondary" title="View source" href="htt
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly int SectorSize</code></pre>
+    <pre><code class="lang-csharp hljs">public const int SectorSize = 4000</code></pre>
   </div>
 
 
@@ -235,7 +229,7 @@ Class Map  <a class="header-action link-secondary" title="View source" href="htt
 
   <h3 id="TruckLib_ScsMap_Map_CityScale" data-uid="TruckLib.ScsMap.Map.CityScale">
   CityScale
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Scale and time compression of the game inside cities.</p>
@@ -267,7 +261,7 @@ Class Map  <a class="header-action link-secondary" title="View source" href="htt
 
   <h3 id="TruckLib_ScsMap_Map_EditorMapId" data-uid="TruckLib.ScsMap.Map.EditorMapId">
   EditorMapId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L71"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -298,10 +292,10 @@ Class Map  <a class="header-action link-secondary" title="View source" href="htt
 
   <h3 id="TruckLib_ScsMap_Map_EuropeMapUiCorrections" data-uid="TruckLib.ScsMap.Map.EuropeMapUiCorrections">
   EuropeMapUiCorrections
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L69"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets or sets if SCS's Europe map UI corrections are enabled.</p>
+  <div class="markdown level1 summary"><p>Whether SCS's Europe map UI corrections are enabled.</p>
 <p>Nobody seems to know definitively what this does, but it might have
 something to do with the scale of the UK in <code>europe.mbd.</code></p>
 </div>
@@ -332,7 +326,7 @@ something to do with the scale of the UK in <code>europe.mbd.</code></p>
 
   <h3 id="TruckLib_ScsMap_Map_MapItems" data-uid="TruckLib.ScsMap.Map.MapItems">
   MapItems
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Contains the map's items.</p>
@@ -360,43 +354,11 @@ something to do with the scale of the UK in <code>europe.mbd.</code></p>
 
 
 
-  <a id="TruckLib_ScsMap_Map_Name_" data-uid="TruckLib.ScsMap.Map.Name*"></a>
-
-  <h3 id="TruckLib_ScsMap_Map_Name" data-uid="TruckLib.ScsMap.Map.Name">
-  Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L25"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>The name of the map, which is used for file and directory names.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="TruckLib_ScsMap_Map_Nodes_" data-uid="TruckLib.ScsMap.Map.Nodes*"></a>
 
   <h3 id="TruckLib_ScsMap_Map_Nodes" data-uid="TruckLib.ScsMap.Map.Nodes">
   Nodes
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Contains the map's nodes.</p>
@@ -428,7 +390,7 @@ something to do with the scale of the UK in <code>europe.mbd.</code></p>
 
   <h3 id="TruckLib_ScsMap_Map_NormalScale" data-uid="TruckLib.ScsMap.Map.NormalScale">
   NormalScale
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Scale and time compression of the game outside cities.</p>
@@ -460,7 +422,7 @@ something to do with the scale of the UK in <code>europe.mbd.</code></p>
 
   <h3 id="TruckLib_ScsMap_Map_Sectors" data-uid="TruckLib.ScsMap.Map.Sectors">
   Sectors
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Metadata of the map's sectors.</p>
@@ -492,7 +454,7 @@ something to do with the scale of the UK in <code>europe.mbd.</code></p>
 
   <h3 id="TruckLib_ScsMap_Map_StartPosition" data-uid="TruckLib.ScsMap.Map.StartPosition">
   StartPosition
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Editor start position.</p>
@@ -524,7 +486,7 @@ something to do with the scale of the UK in <code>europe.mbd.</code></p>
 
   <h3 id="TruckLib_ScsMap_Map_StartRotation" data-uid="TruckLib.ScsMap.Map.StartRotation">
   StartRotation
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Editor start rotation.</p>
@@ -560,7 +522,7 @@ something to do with the scale of the UK in <code>europe.mbd.</code></p>
 
   <h3 id="TruckLib_ScsMap_Map_AddNode_System_Numerics_Vector3_" data-uid="TruckLib.ScsMap.Map.AddNode(System.Numerics.Vector3)">
   AddNode(Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L224"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a new node.</p>
@@ -599,7 +561,7 @@ something to do with the scale of the UK in <code>europe.mbd.</code></p>
 
   <h3 id="TruckLib_ScsMap_Map_AddNode_System_Numerics_Vector3_System_Boolean_" data-uid="TruckLib.ScsMap.Map.AddNode(System.Numerics.Vector3,System.Boolean)">
   AddNode(Vector3, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L188"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L235"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a new node.</p>
@@ -641,7 +603,7 @@ something to do with the scale of the UK in <code>europe.mbd.</code></p>
 
   <h3 id="TruckLib_ScsMap_Map_AddNode_System_Numerics_Vector3_System_Boolean_TruckLib_ScsMap_MapItem_" data-uid="TruckLib.ScsMap.Map.AddNode(System.Numerics.Vector3,System.Boolean,TruckLib.ScsMap.MapItem)">
   AddNode(Vector3, bool, MapItem)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L213"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L260"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a new node.</p>
@@ -686,7 +648,7 @@ something to do with the scale of the UK in <code>europe.mbd.</code></p>
 
   <h3 id="TruckLib_ScsMap_Map_AddSector_System_Int32_System_Int32_" data-uid="TruckLib.ScsMap.Map.AddSector(System.Int32,System.Int32)">
   AddSector(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L216"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a new sector.</p>
@@ -728,7 +690,7 @@ something to do with the scale of the UK in <code>europe.mbd.</code></p>
 
   <h3 id="TruckLib_ScsMap_Map_AddSector_TruckLib_ScsMap_SectorCoordinate_" data-uid="TruckLib.ScsMap.Map.AddSector(TruckLib.ScsMap.SectorCoordinate)">
   AddSector(SectorCoordinate)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L153"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L200"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a new sector.</p>
@@ -767,7 +729,7 @@ something to do with the scale of the UK in <code>europe.mbd.</code></p>
 
   <h3 id="TruckLib_ScsMap_Map_CompoundItems_System_Collections_Generic_IEnumerable_TruckLib_ScsMap_MapItem__" data-uid="TruckLib.ScsMap.Map.CompoundItems(System.Collections.Generic.IEnumerable{TruckLib.ScsMap.MapItem})">
   CompoundItems(IEnumerable&lt;MapItem&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L338"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L386"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a <a class="xref" href="TruckLib.ScsMap.Compound.html">Compound</a> item and makes it the parent of the given map items.</p>
@@ -807,6 +769,9 @@ are compoundable.</p>
     <dd><p>Thrown if any of the map items or nodes
 are not parented by this map.</p>
 </dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>Thrown if any of the map items is not an aux item.</p>
+</dd>
   </dl>
 
 
@@ -815,7 +780,7 @@ are not parented by this map.</p>
 
   <h3 id="TruckLib_ScsMap_Map_Delete_TruckLib_ScsMap_INode_" data-uid="TruckLib.ScsMap.Map.Delete(TruckLib.ScsMap.INode)">
   Delete(INode)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L311"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L358"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Deletes a node and the items attached to it.</p>
@@ -848,7 +813,7 @@ are not parented by this map.</p>
 
   <h3 id="TruckLib_ScsMap_Map_Delete_TruckLib_ScsMap_MapItem_" data-uid="TruckLib.ScsMap.Map.Delete(TruckLib.ScsMap.MapItem)">
   Delete(MapItem)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L243"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L290"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Deletes an item. Nodes that are only used by this item will also be deleted.</p>
@@ -881,7 +846,7 @@ are not parented by this map.</p>
 
   <h3 id="TruckLib_ScsMap_Map_GetSectorOfCoordinate_System_Numerics_Vector3_" data-uid="TruckLib.ScsMap.Map.GetSectorOfCoordinate(System.Numerics.Vector3)">
   GetSectorOfCoordinate(Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L236"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L283"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns the index of the sector the given coordinate falls into.</p>
@@ -920,7 +885,7 @@ are not parented by this map.</p>
 
   <h3 id="TruckLib_ScsMap_Map_Import_TruckLib_ScsMap_Selection_System_Numerics_Vector3_" data-uid="TruckLib.ScsMap.Map.Import(TruckLib.ScsMap.Selection,System.Numerics.Vector3)">
   Import(Selection, Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L413"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L461"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Imports the contents of a Selection (.sbd) file into this map.</p>
@@ -952,28 +917,73 @@ are not parented by this map.</p>
 
 
 
-  <a id="TruckLib_ScsMap_Map_Open_" data-uid="TruckLib.ScsMap.Map.Open*"></a>
+  <a id="TruckLib_ScsMap_Map_OnSectorLoading_" data-uid="TruckLib.ScsMap.Map.OnSectorLoading*"></a>
 
-  <h3 id="TruckLib_ScsMap_Map_Open_System_String_System_Collections_Generic_IList_TruckLib_ScsMap_SectorCoordinate__" data-uid="TruckLib.ScsMap.Map.Open(System.String,System.Collections.Generic.IList{TruckLib.ScsMap.SectorCoordinate})">
-  Open(string, IList&lt;SectorCoordinate&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  <h3 id="TruckLib_ScsMap_Map_OnSectorLoading_TruckLib_ScsMap_Sector_System_Int32_System_Int32_" data-uid="TruckLib.ScsMap.Map.OnSectorLoading(TruckLib.ScsMap.Sector,System.Int32,System.Int32)">
+  OnSectorLoading(Sector, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L563"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Opens a map.</p>
+  <div class="markdown level1 summary"><p>Called before a sector is loaded.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Map Open(string mbdPath, IList&lt;SectorCoordinate&gt; sectors = null)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void OnSectorLoading(Sector sector, int index, int total)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>mbdPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Path to the .mbd file of the map.</p>
+    <dt><code>sector</code> <a class="xref" href="TruckLib.ScsMap.Sector.html">Sector</a></dt>
+    <dd><p>The sector which will be loaded.</p>
+</dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The sector's index in the load process.</p>
+</dd>
+    <dt><code>total</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The total number of sectors to be loaded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Map_Open_" data-uid="TruckLib.ScsMap.Map.Open*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map_Open_System_String_System_Collections_Generic_IList_TruckLib_ScsMap_SectorCoordinate__" data-uid="TruckLib.ScsMap.Map.Open(System.String,System.Collections.Generic.IList{TruckLib.ScsMap.SectorCoordinate})">
+  Open(string, IList&lt;SectorCoordinate&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deserializes a map.</p>
+<p>If the given path points to an .mbd file, metadata is read from it and
+the sectors are loaded from a sibling subdirectory with the same name.</p>
+<p>If the path points to a sector directory, the metadata fields that would
+otherwise have been read from the .mbd file, such as <a class="xref" href="TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_NormalScale">NormalScale</a>,
+are left at their default values.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Map Open(string path, IList&lt;SectorCoordinate&gt; sectors = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Path to the .mbd file or sector directory of the map.</p>
 </dd>
     <dt><code>sectors</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="TruckLib.ScsMap.SectorCoordinate.html">SectorCoordinate</a>&gt;</dt>
-    <dd><p>If set, only the given sectors will be loaded.</p>
+    <dd><p>If set, only the specified sectors will be loaded.</p>
 </dd>
   </dl>
 
@@ -994,11 +1004,190 @@ are not parented by this map.</p>
 
 
 
+  <a id="TruckLib_ScsMap_Map_Open_" data-uid="TruckLib.ScsMap.Map.Open*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map_Open_System_String_TruckLib_IFileSystem_System_Collections_Generic_IList_TruckLib_ScsMap_SectorCoordinate__" data-uid="TruckLib.ScsMap.Map.Open(System.String,TruckLib.IFileSystem,System.Collections.Generic.IList{TruckLib.ScsMap.SectorCoordinate})">
+  Open(string, IFileSystem, IList&lt;SectorCoordinate&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deserializes a map.</p>
+<p>If the given path points to an .mbd file, metadata is read from it and
+the sectors are loaded from a sibling subdirectory with the same name.</p>
+<p>If the path points to a sector directory, the metadata fields that would
+otherwise have been read from the .mbd file, such as <a class="xref" href="TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_NormalScale">NormalScale</a>,
+are left at their default values.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Map Open(string path, IFileSystem fs, IList&lt;SectorCoordinate&gt; sectors = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Path to the .mbd file or sector directory of the map.</p>
+</dd>
+    <dt><code>fs</code> <a class="xref" href="TruckLib.IFileSystem.html">IFileSystem</a></dt>
+    <dd><p>The file system to load the map from. This accepts
+a <a class="xref" href="TruckLib.HashFs.IHashFsReader.html">HashFS reader</a>.</p>
+</dd>
+    <dt><code>sectors</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="TruckLib.ScsMap.SectorCoordinate.html">SectorCoordinate</a>&gt;</dt>
+    <dd><p>If set, only the specified sectors will be loaded.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TruckLib.ScsMap.Map.html">Map</a></dt>
+    <dd><p>A Map object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Map_PostProcessItem_" data-uid="TruckLib.ScsMap.Map.PostProcessItem*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map_PostProcessItem_TruckLib_ScsMap_MapItem_" data-uid="TruckLib.ScsMap.Map.PostProcessItem(TruckLib.ScsMap.MapItem)">
+  PostProcessItem(MapItem)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L748"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called after all item data has been read in for a map item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool PostProcessItem(MapItem item)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="TruckLib.ScsMap.MapItem.html">MapItem</a></dt>
+    <dd><p>The item.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>If true, the item will be kept in memory. If false, it will be discarded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Map_Read_" data-uid="TruckLib.ScsMap.Map.Read*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map_Read_System_String_System_Collections_Generic_IList_TruckLib_ScsMap_SectorCoordinate__" data-uid="TruckLib.ScsMap.Map.Read(System.String,System.Collections.Generic.IList{TruckLib.ScsMap.SectorCoordinate})">
+  Read(string, IList&lt;SectorCoordinate&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deserializes a map.</p>
+<p>If the given path points to an .mbd file, metadata is read from it and
+the sectors are loaded from a sibling subdirectory with the same name.</p>
+<p>If the path points to a sector directory, the metadata fields that would
+otherwise have been read from the .mbd file, such as <a class="xref" href="TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_NormalScale">NormalScale</a>,
+are left at their default values.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Read(string path, IList&lt;SectorCoordinate&gt; sectors = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Path to the .mbd file or sector directory of the map.</p>
+</dd>
+    <dt><code>sectors</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="TruckLib.ScsMap.SectorCoordinate.html">SectorCoordinate</a>&gt;</dt>
+    <dd><p>If set, only the specified sectors will be loaded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Map_Read_" data-uid="TruckLib.ScsMap.Map.Read*"></a>
+
+  <h3 id="TruckLib_ScsMap_Map_Read_System_String_TruckLib_IFileSystem_System_Collections_Generic_IList_TruckLib_ScsMap_SectorCoordinate__" data-uid="TruckLib.ScsMap.Map.Read(System.String,TruckLib.IFileSystem,System.Collections.Generic.IList{TruckLib.ScsMap.SectorCoordinate})">
+  Read(string, IFileSystem, IList&lt;SectorCoordinate&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deserializes a map.</p>
+<p>If the given path points to an .mbd file, metadata is read from it and
+the sectors are loaded from a sibling subdirectory with the same name.</p>
+<p>If the path points to a sector directory, the metadata fields that would
+otherwise have been read from the .mbd file, such as <a class="xref" href="TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_NormalScale">NormalScale</a>,
+are left at their default values.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Read(string path, IFileSystem fs, IList&lt;SectorCoordinate&gt; sectors = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Path to the .mbd file or sector directory of the map.</p>
+</dd>
+    <dt><code>fs</code> <a class="xref" href="TruckLib.IFileSystem.html">IFileSystem</a></dt>
+    <dd><p>The file system to load the map from. This accepts
+a <a class="xref" href="TruckLib.HashFs.IHashFsReader.html">HashFS reader</a>.</p>
+</dd>
+    <dt><code>sectors</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="TruckLib.ScsMap.SectorCoordinate.html">SectorCoordinate</a>&gt;</dt>
+    <dd><p>If set, only the specified sectors will be loaded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="TruckLib_ScsMap_Map_Save_" data-uid="TruckLib.ScsMap.Map.Save*"></a>
 
-  <h3 id="TruckLib_ScsMap_Map_Save_System_String_System_Boolean_" data-uid="TruckLib.ScsMap.Map.Save(System.String,System.Boolean)">
-  Save(string, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L712"><i class="bi bi-code-slash"></i></a>
+  <h3 id="TruckLib_ScsMap_Map_Save_System_String_System_String_System_Boolean_" data-uid="TruckLib.ScsMap.Map.Save(System.String,System.String,System.Boolean)">
+  Save(string, string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L816"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Saves the map in binary format. If the sector directory does not yet exist, it will be created.</p>
@@ -1006,7 +1195,7 @@ are not parented by this map.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Save(string mapDirectory, bool cleanSectorDirectory = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Save(string mapDirectory, string name, bool cleanSectorDirectory = true)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1014,9 +1203,12 @@ are not parented by this map.</p>
     <dt><code>mapDirectory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>The path of the directory to save the map into.</p>
 </dd>
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the .mbd file and sector directory (without extension).</p>
+</dd>
     <dt><code>cleanSectorDirectory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>If true, the sector directory will be emptied
-before saving the map.</p>
+    <dd><p>If true, existing sector files will be removed
+from the sector directory before saving the map.</p>
 </dd>
   </dl>
 
@@ -1035,7 +1227,7 @@ before saving the map.</p>
 
   <h3 id="TruckLib_ScsMap_Map_UncompoundItems_TruckLib_ScsMap_Compound_" data-uid="TruckLib.ScsMap.Map.UncompoundItems(TruckLib.ScsMap.Compound)">
   UncompoundItems(Compound)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L387"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L435"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Deletes the given <a class="xref" href="TruckLib.ScsMap.Compound.html">Compound</a> item and adds its child items to the map itself.</p>
@@ -1075,7 +1267,7 @@ by this map.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/TruckLib/ScsMap/Map.cs/#L19" class="edit-link">Edit this page</a>
+          <a href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Map.cs/#L20" class="edit-link">Edit this page</a>
         </div>
 
 

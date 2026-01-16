@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/docfx/docs/TruckLib.ScsMap/add-delete-items.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/TruckLib.ScsMap/add-delete-items.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -92,7 +92,7 @@
 add and configure map nodes for the item, add the item to the map, and then return the object.</p>
 <p>Let's <a class="xref" href="../../api/TruckLib.ScsMap.Model.html#TruckLib_ScsMap_Model_Add_">add a Model</a> to the map. The first parameter of any <code>Add</code> method is the map,
 compound or Selection the item will be added to; what follows next depends on the item type. In this case, it is the
-position of the model, the unit name of the model, and its variant and look:</p>
+position of the item, the unit name of the model, and its variant and look:</p>
 <pre><code class="lang-cs">Model model = Model.Add(
   map,          // container
   new Vector3(10f, 0f, 10f), // position 
@@ -109,7 +109,7 @@ model.WaterReflection = true;
 <h2 id="deleting-a-map-item">Deleting a map item</h2>
 <p>To delete an item from a map, call the map's <a class="xref" href="../../api/TruckLib.ScsMap.IItemContainer.html#TruckLib_ScsMap_IItemContainer_Delete_TruckLib_ScsMap_MapItem_"><code>Delete</code></a>
 method with the item:</p>
-<pre><code class="lang-cs">map.Delete(model);
+<pre><code class="lang-cs">map.Delete(theItem);
 </code></pre>
 <p>Nodes which are exclusively used by this item will also be deleted.
 When deleting a prefab, the prefab's slave items will be deleted as well.</p>
@@ -117,7 +117,7 @@ When deleting a prefab, the prefab's slave items will be deleted as well.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/docfx/docs/TruckLib.ScsMap/add-delete-items.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/TruckLib.ScsMap/add-delete-items.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

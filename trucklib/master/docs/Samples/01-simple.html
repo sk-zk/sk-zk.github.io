@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/docfx/docs/Samples/01-simple.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/Samples/01-simple.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -93,10 +93,8 @@ You can find the full source code at <code>Samples/01-SimpleExample/Program.cs</
 <p>We begin by instantiating an empty map:</p>
 <pre><code class="lang-cs">using TruckLib.ScsMap;
 
-var map = new Map(&quot;example&quot;);
+var map = new Map();
 </code></pre>
-<p><code>&quot;example&quot;</code> is the filename of the map, meaning that, when the map is saved, it will be named
-<code>example.mbd</code>, and its sectors will be written to the <code>example</code> directory.</p>
 <h2 id="adding-a-road-item">Adding a road item</h2>
 <p>Let's create a road. For the sake of simplicity, we will be using hardcoded coordinates. Here's how
 you can add one individual road item:</p>
@@ -181,7 +179,7 @@ model2.Node.Rotation = Quaternion.CreateFromYawPitchRoll(MathF.PI / 2, 0, 0);
 on Windows, this will probably need to be adjusted):</p>
 <pre><code class="lang-cs">var documents = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
 var userMap = Path.Combine(documents, &quot;Euro Truck Simulator 2/mod/user_map/map/&quot;);
-map.Save(userMap, true);
+map.Save(userMap, &quot;example&quot;, true);
 </code></pre>
 <p>There should now be an <code>example.mbd</code> and an <code>example</code> directory in <code>mod/user_map/map</code> and
 you should be able to load the map in the editor.</p>
@@ -198,7 +196,7 @@ should look like:</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/docfx/docs/Samples/01-simple.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/Samples/01-simple.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
