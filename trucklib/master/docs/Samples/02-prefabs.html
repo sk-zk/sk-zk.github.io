@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/Samples/02-prefabs.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/docfx/docs/Samples/02-prefabs.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -104,11 +104,13 @@ fetch it directly from <code>base.scs</code> using the <code>HashFsReader</code>
 var gameRoot = @&quot;E:\SteamLibrary\steamapps\common\Euro Truck Simulator 2&quot;;
 var baseScs = HashFsReader.Open(Path.Combine(gameRoot, &quot;base.scs&quot;));
 </code></pre>
+<p>Note that the game must be closed for this because it locks the file.</p>
 <h2 id="placing-a-prefab">Placing a prefab</h2>
-<p>Let's now place a company prefab. The first step is to load the prefab descriptor:</p>
+<p>Let's now place a company prefab. The first step is to extract the prefab descriptor:</p>
 <pre><code class="lang-cs">using TruckLib.Models.Ppd;
 
-var companyDescriptor = PrefabDescriptor.Open(&quot;/prefab2/car_dealer/car_dealer_01_fr.ppd&quot;, baseScs);
+var companyDescriptorFile = baseScs.Extract(&quot;/prefab2/car_dealer/car_dealer_01_fr.ppd&quot;);
+var companyDescriptor = PrefabDescriptor.Load(companyDescriptorFile);
 </code></pre>
 <p>With this, we can call the <code>Prefab.Add</code> method, which will add a prefab to the map.
 (This sample, like the first, uses hardcoded coordinates.)</p>
@@ -125,14 +127,15 @@ company.Variant = &quot;bhv_fr&quot;;
 company.Look = &quot;green_fr&quot;;
 </code></pre>
 <p>The map now contains a <code>car_dealer_01_fr</code> prefab whose control node 0 is at
-(55, 0, 70) and which is rotated the same way as it would be if you had set the
+(55, 0, 70) and which is rotated the same way as it would be if you set the
 rotation of said node to this value in the editor.</p>
 <p>The library has also automatically created the necessary <code>Company</code> slave item.</p>
 <p>Here's our progress so far:</p>
 <p><img src="../../images/02-wip1.png" alt=""></p>
 <h2 id="attaching-prefabs">Attaching prefabs</h2>
-<p>Next, we will place a T junction and attach it to the entrance of the company. As above, we will again extract the <code>.ppd</code> file:</p>
-<pre><code class="lang-cs">var crossingDescriptor = PrefabDescriptor.Open(&quot;/prefab2/cross_temp/fr/fr_r1_x_r1_t_narrow_tmpl.ppd&quot;, baseScs);
+<p>Secondly, we will place a T junction and attach it to the entrance of the company. As above, we will again extract the <code>.ppd</code> file:</p>
+<pre><code class="lang-cs">var crossingDescriptorFile = baseScs.Extract(&quot;/prefab2/cross_temp/fr/fr_r1_x_r1_t_narrow_tmpl.ppd&quot;);
+var crossingDescriptor = PrefabDescriptor.Load(crossingDescriptorFile);
 </code></pre>
 <p>We can now add the junction to the map:</p>
 <pre><code class="lang-cs">var crossing = Prefab.Add(map, company.Nodes[0].Position, &quot;387&quot;, 
@@ -187,13 +190,13 @@ does not calculate the bounding boxes of items.</p>
 <h2 id="further-reading">Further reading</h2>
 <ul>
 <li><a href="../TruckLib.ScsMap/prefabs.html">Working with prefabs</a></li>
-<li><a href="../TruckLib.HashFs/reader.html">Reading HashFS (.scs) archives</a></li>
+<li><a href="../TruckLib.HashFs/hashfs.html">Reading HashFS (.scs) archives</a></li>
 </ul>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/Samples/02-prefabs.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/docfx/docs/Samples/02-prefabs.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

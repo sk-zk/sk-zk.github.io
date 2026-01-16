@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/TruckLib.ScsMap/map-class.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/docfx/docs/TruckLib.ScsMap/map-class.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -103,14 +103,6 @@ Map map = Map.Open(@&quot;E:\SteamLibrary\steamapps\common\Euro Truck Simulator 
 </code></pre>
 <p>If you would like to load specific sectors only, use the optional <code>sectors</code> parameter.
 It expects a list or array of <a class="xref" href="../../api/TruckLib.ScsMap.SectorCoordinate.html">sector coordinates</a>.</p>
-<p>There is an additional overload which allows loading a map directly from a .scs file using a
-<a href="../TruckLib.HashFs/reader.html"><code>IHashFsReader</code></a>:</p>
-<pre><code class="lang-cs">using TruckLib.HashFs;
-using TruckLib.ScsMap;
-
-IHashFsReader reader = HashFsReader.Open(&quot;base_map.scs&quot;);
-Map map = Map.Open(&quot;/map/europe.mbd&quot;, reader);
-</code></pre>
 <h2 id="saving-a-map">Saving a map</h2>
 <p>To save a map, call the <a class="xref" href="../../api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_Save_"><code>Save</code></a> method of the map object. The map will be
 written to the specified directory.</p>
@@ -129,7 +121,7 @@ var allMovers = map.MapItems.Where(x =&gt; x.Value is Mover);
 </code></pre>
 <p>Do not modify this dictionary directly – see &quot;Adding and deleting map items&quot; for the intended way to do that.</p>
 <h2 id="nodes">Nodes</h2>
-<p>Similarly, the <a class="xref" href="../../api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_Nodes"><code>Nodes</code></a> property is a dictionary plus R-tree containing all nodes in the map.</p>
+<p>Likewise, the <a class="xref" href="../../api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map_Nodes"><code>Nodes</code></a> property is a dictionary plus R-tree containing all nodes in the map.</p>
 <p>You can retrieve nodes by UID just like any dictionary:</p>
 <pre><code class="lang-cs">bool exists = map.Nodes.TryGetValue(0x521CD80C53000000, out INode node);
 </code></pre>
@@ -152,7 +144,7 @@ and <a class="xref" href="../../api/TruckLib.ScsMap.Map.html#TruckLib_ScsMap_Map
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/TruckLib.ScsMap/map-class.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/docfx/docs/TruckLib.ScsMap/map-class.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

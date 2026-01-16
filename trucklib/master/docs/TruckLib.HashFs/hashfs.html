@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Writing HashFS (.scs) archives | TruckLib </title>
+      <title>Reading HashFS (.scs) archives | TruckLib </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Writing HashFS (.scs) archives | TruckLib ">
+      <meta name="title" content="Reading HashFS (.scs) archives | TruckLib ">
       
       
       <link rel="icon" href="../../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/TruckLib.HashFs/writer.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/docfx/docs/TruckLib.HashFs/hashfs.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,35 +85,58 @@
         </div>
 
         <article data-uid="">
-<h1 id="writing-hashfs-scs-archives">Writing HashFS (.scs) archives</h1>
+<h1 id="reading-hashfs-scs-archives">Reading HashFS (.scs) archives</h1>
 
-<p>TruckLib provides the classes <a class="xref" href="../../api/TruckLib.HashFs.HashFsV1Writer.html"><code>HashFsV1Writer</code></a> and <a class="xref" href="../../api/TruckLib.HashFs.HashFsV2Writer.html"><code>HashFsV2Writer</code></a>
-for writing HashFS v1 and v2 archives respectively.</p>
-<h2 id="usage">Usage</h2>
-<p>First, construct a new writer and stage files for packing with the <code>Add</code> method:</p>
+<p>Euro Truck Simulator 2 and American Truck Simulator store their game assets in HashFS files with the extension <code>.scs</code>.
+Mods may also be distributed in this format, though a ZIP file renamed to <code>.scs</code> is also allowed.</p>
+<p>In a HashFS archive, the identifier of the contained files is a CityHash64 hash of its full path (encoded as UTF-8).
+This means that a file can be retrieved by its path, but it is not possible to list every path in the archive, as the hashes
+cannot be reversed. To deal with this, archives can optionally contain directory listings, which are special files
+with the path of a directory, enumerating the files and subdirectories it contains. All but three of the games' <code>.scs</code>
+files contain full directory listings, but mods may not – the top level listing in particular can be omitted to
+prevent the official extractor from extracting anything.</p>
+<p>HashFS v2, introduced with game version 1.50, is supported. Note that, in this version, <code>.tobj</code>/<code>.dds</code> pairs are
+dissolved into a packed <code>.tobj</code> entry from which TruckLib will reconstruct the original <code>.tobj</code> and <code>.dds</code> files
+when such a <code>.tobj</code> entry is requested.</p>
+<h2 id="opening-an-archive">Opening an archive</h2>
+<p>To open a HashFS file, call the static <a href="xref:TruckLib.HashFs.HashFsReader.Open*"><code>Open</code></a> method of the <code>HashFsReader</code> class:</p>
 <pre><code class="lang-cs">using TruckLib.HashFs;
 
-HashFsV2Writer writer = new();
-writer.Add(@&quot;D:\foo\bar\manifest.sii&quot;, &quot;/manifest.sii&quot;);
-writer.Add(@&quot;C:\stuff\my_house.pmd&quot;, &quot;/model/building/my_house.pmd&quot;);
+using IHashFsReader reader = HashFsReader.Open(@&quot;E:\SteamLibrary\steamapps\common\Euro Truck Simulator 2\def.scs&quot;);
 </code></pre>
-<p>The first parameter of this method is either the path to a file on your file system, a stream, or a byte array.
-The second parameter is the absolute path which this file will have in the HashFS archive.</p>
-<p><code>Add</code> will throw <code>ArgumentException</code> if the archive path is empty or invalid.</p>
-<p>Once you've specified the files you want to pack, call <code>Save</code> with either an output path or output stream:</p>
-<pre><code class="lang-cs">writer.Save(&quot;example.scs&quot;);
+<p>Depending on the HashFS version of the archive, this will create a <code>HashFsReaderV1</code> or
+<code>HashFsReaderV2</code> instance as <a href="xref:TruckLib.HashFs.IHashFsReader"><code>IHashFsReader</code></a> which you can use to extract files.</p>
+<h2 id="finding-entries">Finding entries</h2>
+<h3 id="known-paths">Known paths</h3>
+<p>The <a href="xref:TruckLib.HashFs.IHashFsReader.EntryExists*"><code>EntryExists</code></a> method will tell you if the given path exists in the archive,
+and if yes, whether it is a directory or a file:</p>
+<pre><code class="lang-cs">EntryType type = reader.EntryExists(&quot;/def/world/prefab.sii&quot;);
 </code></pre>
-<p>The files will now be opened, compressed, and written to a new HashFS archive.</p>
-<h2 id="textures-in-hashfs-v2">Textures in HashFS v2</h2>
-<p>In HashFS v2, <code>.tobj</code>/<code>.dds</code> pairs are packed into just one entry whose path will be that of the <code>.tobj</code> file.
-If either of these two files cannot be parsed or the <code>.dds</code> file referenced in the <code>.tobj</code> file does not exist,
-<code>Save</code> will throw a <a class="xref" href="../../api/TruckLib.HashFs.HashFsV2.TexturePackingException.html"><code>TexturePackingException</code></a>.
-Loose <code>.dds</code> files which are not referenced by any <code>.tobj</code> file will not be added to the archive.</p>
+<p><a href="xref:TruckLib.HashFs.EntryType"><code>EntryType</code></a> has the values <code>Directory</code>, <code>File</code>, or <code>NotFound</code>.</p>
+<h3 id="directory-listings">Directory listings</h3>
+<p>You can retrieve the contents of a directory with the <a href="xref:TruckLib.HashFs.IHashFsReader.GetDirectoryListing*"><code>GetDirectoryListing</code></a> method:</p>
+<pre><code class="lang-cs">// Get the top level of the archive
+var directory = reader.GetDirectoryListing(&quot;/&quot;);
+</code></pre>
+<p>Keep in mind that, as mentioned above, directory listings are not required to exist.</p>
+<h2 id="extracting-entries">Extracting entries</h2>
+<p>Use the <a href="xref:TruckLib.HashFs.IHashFsReader.Extract*"><code>Extract</code></a> method to extract an entry:</p>
+<pre><code class="lang-cs">byte[][] data = reader.Extract(&quot;/def/world/prefab.sii&quot;);
+</code></pre>
+<p>This returns an array containing the extracted file(s) as <code>byte[]</code>.
+The method will return one file except in one special case: In HashFS v2,
+extracting a packed <code>.tobj</code> entry will return the reconstructed <code>.tobj</code>
+and <code>.dds</code> files in that order.</p>
+<p>Alternatively, you can write the entry to disk with <a href="xref:TruckLib.HashFs.IHashFsReader.ExtractToFile*"><code>ExtractToFile</code></a>:</p>
+<pre><code class="lang-cs">reader.ExtractToFile(&quot;/def/world/prefab.sii&quot;, &quot;./prefab.sii&quot;);
+</code></pre>
+<p>In HashFS v2, extracting a packed <code>.tobj</code> entry will write both the reconstructed <code>.tobj</code>
+and <code>.dds</code> file.</p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/sk-zk/TruckLib/blob/master/docfx/docs/TruckLib.HashFs/writer.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/sk-zk/TruckLib/blob/pkg-refactor/docfx/docs/TruckLib.HashFs/hashfs.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
