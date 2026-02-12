@@ -190,7 +190,7 @@ Class Sign  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="TruckLib_ScsMap_Sign__ctor" data-uid="TruckLib.ScsMap.Sign.#ctor">
   Sign()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sign.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sign.cs/#L117"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -214,6 +214,70 @@ Class Sign  <a class="header-action link-secondary" title="View source" href="ht
 
   <h2 class="section" id="properties">Properties
 </h2>
+
+
+  <a id="TruckLib_ScsMap_Sign_BoardOverrides_" data-uid="TruckLib.ScsMap.Sign.BoardOverrides*"></a>
+
+  <h3 id="TruckLib_ScsMap_Sign_BoardOverrides" data-uid="TruckLib.ScsMap.Sign.BoardOverrides">
+  BoardOverrides
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sign.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The board overrides applied to the sign template.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;SignBoardOverride&gt; BoardOverrides { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="TruckLib.ScsMap.SignBoardOverride.html">SignBoardOverride</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TruckLib_ScsMap_Sign_Collision_" data-uid="TruckLib.ScsMap.Sign.Collision*"></a>
+
+  <h3 id="TruckLib_ScsMap_Sign_Collision" data-uid="TruckLib.ScsMap.Sign.Collision">
+  Collision
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sign.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets if collision is enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Collision { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="TruckLib_ScsMap_Sign_DefaultItemFile_" data-uid="TruckLib.ScsMap.Sign.DefaultItemFile*"></a>
@@ -284,7 +348,7 @@ Class Sign  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="TruckLib_ScsMap_Sign_FollowRoadDir" data-uid="TruckLib.ScsMap.Sign.FollowRoadDir">
   FollowRoadDir
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sign.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sign.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets if the game will rotate this sign to align with the direction of the closest lane
@@ -317,7 +381,7 @@ of a <a class="xref" href="TruckLib.ScsMap.Road.html">road</a>.</p>
 
   <h3 id="TruckLib_ScsMap_Sign_IgnoreCutPlanes" data-uid="TruckLib.ScsMap.Sign.IgnoreCutPlanes">
   IgnoreCutPlanes
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sign.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sign.cs/#L102"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets if this item will render behind a cut plane.</p>
@@ -514,7 +578,7 @@ associated with it, set it to <a class="xref" href="TruckLib.ScsMap.ItemFile.htm
   <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sign.cs/#L73"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The attribute overrides used on the sign template.</p>
+  <div class="markdown level1 summary"><p>The attribute overrides applied to the sign template.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -639,7 +703,7 @@ associated with it, set it to <a class="xref" href="TruckLib.ScsMap.ItemFile.htm
 
   <h3 id="TruckLib_ScsMap_Sign_WaterReflection" data-uid="TruckLib.ScsMap.Sign.WaterReflection">
   WaterReflection
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sign.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sign.cs/#L93"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets if the item is reflected on water surfaces.</p>
@@ -675,7 +739,7 @@ associated with it, set it to <a class="xref" href="TruckLib.ScsMap.ItemFile.htm
 
   <h3 id="TruckLib_ScsMap_Sign_Add_TruckLib_ScsMap_IItemContainer_System_Numerics_Vector3_TruckLib_Token_" data-uid="TruckLib.ScsMap.Sign.Add(TruckLib.ScsMap.IItemContainer,System.Numerics.Vector3,TruckLib.Token)">
   Add(IItemContainer, Vector3, Token)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sign.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sign.cs/#L141"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Adds a sign to the map.</p>
@@ -720,7 +784,7 @@ associated with it, set it to <a class="xref" href="TruckLib.ScsMap.ItemFile.htm
 
   <h3 id="TruckLib_ScsMap_Sign_Add_TruckLib_ScsMap_IItemContainer_System_Numerics_Vector3_TruckLib_Token_System_String_" data-uid="TruckLib.ScsMap.Sign.Add(TruckLib.ScsMap.IItemContainer,System.Numerics.Vector3,TruckLib.Token,System.String)">
   Add(IItemContainer, Vector3, Token, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sign.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sign.cs/#L154"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Adds a sign to the map.</p>
@@ -768,7 +832,7 @@ associated with it, set it to <a class="xref" href="TruckLib.ScsMap.ItemFile.htm
 
   <h3 id="TruckLib_ScsMap_Sign_Init" data-uid="TruckLib.ScsMap.Sign.Init">
   Init()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sign.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Sign.cs/#L127"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sets the item's properties to its default values.</p>

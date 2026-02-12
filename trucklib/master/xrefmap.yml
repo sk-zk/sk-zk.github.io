@@ -1472,6 +1472,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.HashFs.EntryV1.Deserialize
   nameWithType: EntryV1.Deserialize
+- uid: TruckLib.HashFs.EntryV1.Flags
+  name: Flags
+  href: api/TruckLib.HashFs.EntryV1.html#TruckLib_HashFs_EntryV1_Flags
+  commentId: P:TruckLib.HashFs.EntryV1.Flags
+  fullName: TruckLib.HashFs.EntryV1.Flags
+  nameWithType: EntryV1.Flags
+- uid: TruckLib.HashFs.EntryV1.Flags*
+  name: Flags
+  href: api/TruckLib.HashFs.EntryV1.html#TruckLib_HashFs_EntryV1_Flags_
+  commentId: Overload:TruckLib.HashFs.EntryV1.Flags
+  isSpec: "True"
+  fullName: TruckLib.HashFs.EntryV1.Flags
+  nameWithType: EntryV1.Flags
 - uid: TruckLib.HashFs.EntryV1.Hash
   name: Hash
   href: api/TruckLib.HashFs.EntryV1.html#TruckLib_HashFs_EntryV1_Hash
@@ -2423,6 +2436,22 @@ references:
   isSpec: "True"
   fullName: TruckLib.HashFs.IHashFsReader.GetEntry
   nameWithType: IHashFsReader.GetEntry
+- uid: TruckLib.HashFs.IHashFsReader.HashPath(System.String)
+  name: HashPath(string)
+  href: api/TruckLib.HashFs.IHashFsReader.html#TruckLib_HashFs_IHashFsReader_HashPath_System_String_
+  commentId: M:TruckLib.HashFs.IHashFsReader.HashPath(System.String)
+  name.vb: HashPath(String)
+  fullName: TruckLib.HashFs.IHashFsReader.HashPath(string)
+  fullName.vb: TruckLib.HashFs.IHashFsReader.HashPath(String)
+  nameWithType: IHashFsReader.HashPath(string)
+  nameWithType.vb: IHashFsReader.HashPath(String)
+- uid: TruckLib.HashFs.IHashFsReader.HashPath*
+  name: HashPath
+  href: api/TruckLib.HashFs.IHashFsReader.html#TruckLib_HashFs_IHashFsReader_HashPath_
+  commentId: Overload:TruckLib.HashFs.IHashFsReader.HashPath
+  isSpec: "True"
+  fullName: TruckLib.HashFs.IHashFsReader.HashPath
+  nameWithType: IHashFsReader.HashPath
 - uid: TruckLib.HashFs.IHashFsReader.Salt
   name: Salt
   href: api/TruckLib.HashFs.IHashFsReader.html#TruckLib_HashFs_IHashFsReader_Salt
@@ -23252,6 +23281,32 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Sign.Add
   nameWithType: Sign.Add
+- uid: TruckLib.ScsMap.Sign.BoardOverrides
+  name: BoardOverrides
+  href: api/TruckLib.ScsMap.Sign.html#TruckLib_ScsMap_Sign_BoardOverrides
+  commentId: P:TruckLib.ScsMap.Sign.BoardOverrides
+  fullName: TruckLib.ScsMap.Sign.BoardOverrides
+  nameWithType: Sign.BoardOverrides
+- uid: TruckLib.ScsMap.Sign.BoardOverrides*
+  name: BoardOverrides
+  href: api/TruckLib.ScsMap.Sign.html#TruckLib_ScsMap_Sign_BoardOverrides_
+  commentId: Overload:TruckLib.ScsMap.Sign.BoardOverrides
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Sign.BoardOverrides
+  nameWithType: Sign.BoardOverrides
+- uid: TruckLib.ScsMap.Sign.Collision
+  name: Collision
+  href: api/TruckLib.ScsMap.Sign.html#TruckLib_ScsMap_Sign_Collision
+  commentId: P:TruckLib.ScsMap.Sign.Collision
+  fullName: TruckLib.ScsMap.Sign.Collision
+  nameWithType: Sign.Collision
+- uid: TruckLib.ScsMap.Sign.Collision*
+  name: Collision
+  href: api/TruckLib.ScsMap.Sign.html#TruckLib_ScsMap_Sign_Collision_
+  commentId: Overload:TruckLib.ScsMap.Sign.Collision
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Sign.Collision
+  nameWithType: Sign.Collision
 - uid: TruckLib.ScsMap.Sign.DefaultItemFile
   name: DefaultItemFile
   href: api/TruckLib.ScsMap.Sign.html#TruckLib_ScsMap_Sign_DefaultItemFile
@@ -23471,6 +23526,80 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Sign.WaterReflection
   nameWithType: Sign.WaterReflection
+- uid: TruckLib.ScsMap.SignBoardOverride
+  name: SignBoardOverride
+  href: api/TruckLib.ScsMap.SignBoardOverride.html
+  commentId: T:TruckLib.ScsMap.SignBoardOverride
+  fullName: TruckLib.ScsMap.SignBoardOverride
+  nameWithType: SignBoardOverride
+- uid: TruckLib.ScsMap.SignBoardOverride.AreaName
+  name: AreaName
+  href: api/TruckLib.ScsMap.SignBoardOverride.html#TruckLib_ScsMap_SignBoardOverride_AreaName
+  commentId: P:TruckLib.ScsMap.SignBoardOverride.AreaName
+  fullName: TruckLib.ScsMap.SignBoardOverride.AreaName
+  nameWithType: SignBoardOverride.AreaName
+- uid: TruckLib.ScsMap.SignBoardOverride.AreaName*
+  name: AreaName
+  href: api/TruckLib.ScsMap.SignBoardOverride.html#TruckLib_ScsMap_SignBoardOverride_AreaName_
+  commentId: Overload:TruckLib.ScsMap.SignBoardOverride.AreaName
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.SignBoardOverride.AreaName
+  nameWithType: SignBoardOverride.AreaName
+- uid: TruckLib.ScsMap.SignBoardOverride.Board
+  name: Board
+  href: api/TruckLib.ScsMap.SignBoardOverride.html#TruckLib_ScsMap_SignBoardOverride_Board
+  commentId: P:TruckLib.ScsMap.SignBoardOverride.Board
+  fullName: TruckLib.ScsMap.SignBoardOverride.Board
+  nameWithType: SignBoardOverride.Board
+- uid: TruckLib.ScsMap.SignBoardOverride.Board*
+  name: Board
+  href: api/TruckLib.ScsMap.SignBoardOverride.html#TruckLib_ScsMap_SignBoardOverride_Board_
+  commentId: Overload:TruckLib.ScsMap.SignBoardOverride.Board
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.SignBoardOverride.Board
+  nameWithType: SignBoardOverride.Board
+- uid: TruckLib.ScsMap.SignBoardOverride.Deserialize(System.IO.BinaryReader,System.Nullable{System.UInt32})
+  name: Deserialize(BinaryReader, uint?)
+  href: api/TruckLib.ScsMap.SignBoardOverride.html#TruckLib_ScsMap_SignBoardOverride_Deserialize_System_IO_BinaryReader_System_Nullable_System_UInt32__
+  commentId: M:TruckLib.ScsMap.SignBoardOverride.Deserialize(System.IO.BinaryReader,System.Nullable{System.UInt32})
+  name.vb: Deserialize(BinaryReader, UInteger?)
+  fullName: TruckLib.ScsMap.SignBoardOverride.Deserialize(System.IO.BinaryReader, uint?)
+  fullName.vb: TruckLib.ScsMap.SignBoardOverride.Deserialize(System.IO.BinaryReader, UInteger?)
+  nameWithType: SignBoardOverride.Deserialize(BinaryReader, uint?)
+  nameWithType.vb: SignBoardOverride.Deserialize(BinaryReader, UInteger?)
+- uid: TruckLib.ScsMap.SignBoardOverride.Deserialize*
+  name: Deserialize
+  href: api/TruckLib.ScsMap.SignBoardOverride.html#TruckLib_ScsMap_SignBoardOverride_Deserialize_
+  commentId: Overload:TruckLib.ScsMap.SignBoardOverride.Deserialize
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.SignBoardOverride.Deserialize
+  nameWithType: SignBoardOverride.Deserialize
+- uid: TruckLib.ScsMap.SignBoardOverride.Offset
+  name: Offset
+  href: api/TruckLib.ScsMap.SignBoardOverride.html#TruckLib_ScsMap_SignBoardOverride_Offset
+  commentId: P:TruckLib.ScsMap.SignBoardOverride.Offset
+  fullName: TruckLib.ScsMap.SignBoardOverride.Offset
+  nameWithType: SignBoardOverride.Offset
+- uid: TruckLib.ScsMap.SignBoardOverride.Offset*
+  name: Offset
+  href: api/TruckLib.ScsMap.SignBoardOverride.html#TruckLib_ScsMap_SignBoardOverride_Offset_
+  commentId: Overload:TruckLib.ScsMap.SignBoardOverride.Offset
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.SignBoardOverride.Offset
+  nameWithType: SignBoardOverride.Offset
+- uid: TruckLib.ScsMap.SignBoardOverride.Serialize(System.IO.BinaryWriter)
+  name: Serialize(BinaryWriter)
+  href: api/TruckLib.ScsMap.SignBoardOverride.html#TruckLib_ScsMap_SignBoardOverride_Serialize_System_IO_BinaryWriter_
+  commentId: M:TruckLib.ScsMap.SignBoardOverride.Serialize(System.IO.BinaryWriter)
+  fullName: TruckLib.ScsMap.SignBoardOverride.Serialize(System.IO.BinaryWriter)
+  nameWithType: SignBoardOverride.Serialize(BinaryWriter)
+- uid: TruckLib.ScsMap.SignBoardOverride.Serialize*
+  name: Serialize
+  href: api/TruckLib.ScsMap.SignBoardOverride.html#TruckLib_ScsMap_SignBoardOverride_Serialize_
+  commentId: Overload:TruckLib.ScsMap.SignBoardOverride.Serialize
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.SignBoardOverride.Serialize
+  nameWithType: SignBoardOverride.Serialize
 - uid: TruckLib.ScsMap.SignOverride
   name: SignOverride
   href: api/TruckLib.ScsMap.SignOverride.html
@@ -26061,6 +26190,12 @@ references:
   commentId: F:TruckLib.ScsMap.VegetationScale.Percent100to140
   fullName: TruckLib.ScsMap.VegetationScale.Percent100to140
   nameWithType: VegetationScale.Percent100to140
+- uid: TruckLib.ScsMap.VegetationScale.Percent180to200
+  name: Percent180to200
+  href: api/TruckLib.ScsMap.VegetationScale.html#TruckLib_ScsMap_VegetationScale_Percent180to200
+  commentId: F:TruckLib.ScsMap.VegetationScale.Percent180to200
+  fullName: TruckLib.ScsMap.VegetationScale.Percent180to200
+  nameWithType: VegetationScale.Percent180to200
 - uid: TruckLib.ScsMap.VegetationScale.Percent35to50
   name: Percent35to50
   href: api/TruckLib.ScsMap.VegetationScale.html#TruckLib_ScsMap_VegetationScale_Percent35to50

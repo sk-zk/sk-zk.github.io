@@ -2502,6 +2502,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.SignBoardOverride.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.SignBoardOverride.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.SignBoardOverride",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.SignBoardOverride.yml\" sourcestartlinenumber=\"1\">Overrides sign board attributes of a sign template.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TruckLib.ScsMap.SignOverride.yml",
       "output": {
         ".html": {
@@ -2512,7 +2526,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "TruckLib.ScsMap.SignOverride",
-      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.SignOverride.yml\" sourcestartlinenumber=\"1\">A sign override, which overrides attributes of a sign template object.</p>\n"
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.SignOverride.yml\" sourcestartlinenumber=\"1\">Overrides attributes of a sign template object.</p>\n"
     },
     {
       "type": "ManagedReference",
