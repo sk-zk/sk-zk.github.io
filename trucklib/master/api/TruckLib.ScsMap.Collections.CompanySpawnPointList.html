@@ -351,18 +351,18 @@ Class CompanySpawnPointList  <a class="header-action link-secondary" title="View
 
   <a id="TruckLib_ScsMap_Collections_CompanySpawnPointList_Add_" data-uid="TruckLib.ScsMap.Collections.CompanySpawnPointList.Add*"></a>
 
-  <h3 id="TruckLib_ScsMap_Collections_CompanySpawnPointList_Add_System_Numerics_Vector3_System_Numerics_Quaternion_TruckLib_ScsMap_CompanySpawnPointType_" data-uid="TruckLib.ScsMap.Collections.CompanySpawnPointList.Add(System.Numerics.Vector3,System.Numerics.Quaternion,TruckLib.ScsMap.CompanySpawnPointType)">
-  Add(Vector3, Quaternion, CompanySpawnPointType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/CompanySpawnPointList.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  <h3 id="TruckLib_ScsMap_Collections_CompanySpawnPointList_Add_System_Numerics_Vector3_System_Numerics_Quaternion_TruckLib_ScsMap_CompanyDepotType_TruckLib_ScsMap_CompanyUnloadDifficulty_" data-uid="TruckLib.ScsMap.Collections.CompanySpawnPointList.Add(System.Numerics.Vector3,System.Numerics.Quaternion,TruckLib.ScsMap.CompanyDepotType,TruckLib.ScsMap.CompanyUnloadDifficulty)">
+  Add(Vector3, Quaternion, CompanyDepotType, CompanyUnloadDifficulty)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/CompanySpawnPointList.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Creates a map node at the specified position and adds a <a class="xref" href="TruckLib.ScsMap.CompanySpawnPointType.html">CompanySpawnPointType</a>
+  <div class="markdown level1 summary"><p>Creates a map node at the specified position and adds a <a class="xref" href="TruckLib.ScsMap.CompanyUnloadDifficulty.html">CompanyUnloadDifficulty</a>
 object with the given properties to the end of the list.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CompanySpawnPoint Add(Vector3 position, Quaternion rotation, CompanySpawnPointType type)</code></pre>
+    <pre><code class="lang-csharp hljs">public CompanySpawnPoint Add(Vector3 position, Quaternion rotation, CompanyDepotType type, CompanyUnloadDifficulty difficulty)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -373,8 +373,11 @@ object with the given properties to the end of the list.</p>
     <dt><code>rotation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.quaternion">Quaternion</a></dt>
     <dd><p>The rotation of the node.</p>
 </dd>
-    <dt><code>type</code> <a class="xref" href="TruckLib.ScsMap.CompanySpawnPointType.html">CompanySpawnPointType</a></dt>
-    <dd><p>The spawn point type.</p>
+    <dt><code>type</code> <a class="xref" href="TruckLib.ScsMap.CompanyDepotType.html">CompanyDepotType</a></dt>
+    <dd><p>The depot type.</p>
+</dd>
+    <dt><code>difficulty</code> <a class="xref" href="TruckLib.ScsMap.CompanyUnloadDifficulty.html">CompanyUnloadDifficulty</a></dt>
+    <dd><p>The unload difficulty.</p>
 </dd>
   </dl>
 
@@ -438,7 +441,7 @@ object with the given properties to the end of the list.</p>
 
   <h3 id="TruckLib_ScsMap_Collections_CompanySpawnPointList_Clear" data-uid="TruckLib.ScsMap.Collections.CompanySpawnPointList.Clear">
   Clear()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/CompanySpawnPointList.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/CompanySpawnPointList.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Removes all items from the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a>.</p>
@@ -471,7 +474,7 @@ object with the given properties to the end of the list.</p>
 
   <h3 id="TruckLib_ScsMap_Collections_CompanySpawnPointList_Contains_TruckLib_ScsMap_CompanySpawnPoint_" data-uid="TruckLib.ScsMap.Collections.CompanySpawnPointList.Contains(TruckLib.ScsMap.CompanySpawnPoint)">
   Contains(CompanySpawnPoint)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/CompanySpawnPointList.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/CompanySpawnPointList.cs/#L78"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Determines whether the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a> contains a specific value.</p>
@@ -510,7 +513,7 @@ object with the given properties to the end of the list.</p>
 
   <h3 id="TruckLib_ScsMap_Collections_CompanySpawnPointList_CopyTo_TruckLib_ScsMap_CompanySpawnPoint___System_Int32_" data-uid="TruckLib.ScsMap.Collections.CompanySpawnPointList.CopyTo(TruckLib.ScsMap.CompanySpawnPoint[],System.Int32)">
   CopyTo(CompanySpawnPoint[], int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/CompanySpawnPointList.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/CompanySpawnPointList.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Copies the elements of the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a> to an <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.array">Array</a>, starting at a particular <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.array">Array</a> index.</p>
@@ -558,7 +561,7 @@ object with the given properties to the end of the list.</p>
 
   <h3 id="TruckLib_ScsMap_Collections_CompanySpawnPointList_GetEnumerator" data-uid="TruckLib.ScsMap.Collections.CompanySpawnPointList.GetEnumerator">
   GetEnumerator()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/CompanySpawnPointList.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/CompanySpawnPointList.cs/#L90"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns an enumerator that iterates through the collection.</p>
@@ -591,7 +594,7 @@ object with the given properties to the end of the list.</p>
 
   <h3 id="TruckLib_ScsMap_Collections_CompanySpawnPointList_IndexOf_TruckLib_ScsMap_CompanySpawnPoint_" data-uid="TruckLib.ScsMap.Collections.CompanySpawnPointList.IndexOf(TruckLib.ScsMap.CompanySpawnPoint)">
   IndexOf(CompanySpawnPoint)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/CompanySpawnPointList.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/CompanySpawnPointList.cs/#L96"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Determines the index of a specific item in the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList&lt;T&gt;</a>.</p>
@@ -628,9 +631,9 @@ object with the given properties to the end of the list.</p>
 
   <a id="TruckLib_ScsMap_Collections_CompanySpawnPointList_Insert_" data-uid="TruckLib.ScsMap.Collections.CompanySpawnPointList.Insert*"></a>
 
-  <h3 id="TruckLib_ScsMap_Collections_CompanySpawnPointList_Insert_System_Int32_System_Numerics_Vector3_System_Numerics_Quaternion_TruckLib_ScsMap_CompanySpawnPointType_" data-uid="TruckLib.ScsMap.Collections.CompanySpawnPointList.Insert(System.Int32,System.Numerics.Vector3,System.Numerics.Quaternion,TruckLib.ScsMap.CompanySpawnPointType)">
-  Insert(int, Vector3, Quaternion, CompanySpawnPointType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/CompanySpawnPointList.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  <h3 id="TruckLib_ScsMap_Collections_CompanySpawnPointList_Insert_System_Int32_System_Numerics_Vector3_System_Numerics_Quaternion_TruckLib_ScsMap_CompanyDepotType_TruckLib_ScsMap_CompanyUnloadDifficulty_" data-uid="TruckLib.ScsMap.Collections.CompanySpawnPointList.Insert(System.Int32,System.Numerics.Vector3,System.Numerics.Quaternion,TruckLib.ScsMap.CompanyDepotType,TruckLib.ScsMap.CompanyUnloadDifficulty)">
+  Insert(int, Vector3, Quaternion, CompanyDepotType, CompanyUnloadDifficulty)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/CompanySpawnPointList.cs/#L117"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a map node at the specified position and inserts a <a class="xref" href="TruckLib.ScsMap.CompanySpawnPoint.html">CompanySpawnPoint</a>
@@ -639,7 +642,7 @@ object with the given properties at the specified index.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CompanySpawnPoint Insert(int index, Vector3 position, Quaternion rotation, CompanySpawnPointType type)</code></pre>
+    <pre><code class="lang-csharp hljs">public CompanySpawnPoint Insert(int index, Vector3 position, Quaternion rotation, CompanyDepotType type, CompanyUnloadDifficulty difficulty)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -653,8 +656,11 @@ object with the given properties at the specified index.</p>
     <dt><code>rotation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.quaternion">Quaternion</a></dt>
     <dd><p>The rotation of the node.</p>
 </dd>
-    <dt><code>type</code> <a class="xref" href="TruckLib.ScsMap.CompanySpawnPointType.html">CompanySpawnPointType</a></dt>
-    <dd><p>The spawn point type.</p>
+    <dt><code>type</code> <a class="xref" href="TruckLib.ScsMap.CompanyDepotType.html">CompanyDepotType</a></dt>
+    <dd><p>The depot type.</p>
+</dd>
+    <dt><code>difficulty</code> <a class="xref" href="TruckLib.ScsMap.CompanyUnloadDifficulty.html">CompanyUnloadDifficulty</a></dt>
+    <dd><p>The unload difficulty.</p>
 </dd>
   </dl>
 
@@ -679,7 +685,7 @@ object with the given properties at the specified index.</p>
 
   <h3 id="TruckLib_ScsMap_Collections_CompanySpawnPointList_Insert_System_Int32_TruckLib_ScsMap_CompanySpawnPoint_" data-uid="TruckLib.ScsMap.Collections.CompanySpawnPointList.Insert(System.Int32,TruckLib.ScsMap.CompanySpawnPoint)">
   Insert(int, CompanySpawnPoint)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/CompanySpawnPointList.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/CompanySpawnPointList.cs/#L102"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Inserts an item to the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList&lt;T&gt;</a> at the specified index.</p>
@@ -724,7 +730,7 @@ object with the given properties at the specified index.</p>
 
   <h3 id="TruckLib_ScsMap_Collections_CompanySpawnPointList_Remove_TruckLib_ScsMap_CompanySpawnPoint_" data-uid="TruckLib.ScsMap.Collections.CompanySpawnPointList.Remove(TruckLib.ScsMap.CompanySpawnPoint)">
   Remove(CompanySpawnPoint)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/CompanySpawnPointList.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/CompanySpawnPointList.cs/#L131"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Removes the first occurrence of the specified object from the list
@@ -770,7 +776,7 @@ and deletes its map node if it is not connected to anything else.</p>
 
   <h3 id="TruckLib_ScsMap_Collections_CompanySpawnPointList_RemoveAt_System_Int32_" data-uid="TruckLib.ScsMap.Collections.CompanySpawnPointList.RemoveAt(System.Int32)">
   RemoveAt(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/CompanySpawnPointList.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Collections/CompanySpawnPointList.cs/#L144"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Removes the element at the specified index from the list

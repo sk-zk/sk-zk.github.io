@@ -1154,7 +1154,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "TruckLib.ScsMap.Buildings",
-      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Buildings.yml\" sourcestartlinenumber=\"1\">A Buildings segment, which repeats one or more models along a path.</p>\n"
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Buildings.yml\" sourcestartlinenumber=\"1\">Repeats models along a path.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1354,6 +1354,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.CompanyDepotType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.CompanyDepotType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.CompanyDepotType",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.CompanyDepotType.yml\" sourcestartlinenumber=\"1\">Depot type of a <xref href=\"TruckLib.ScsMap.CompanySpawnPoint\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TruckLib.ScsMap.CompanySpawnPoint.yml",
       "output": {
         ".html": {
@@ -1368,31 +1382,31 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/TruckLib.ScsMap.CompanySpawnPointTrailerType.yml",
+      "source_relative_path": "api/TruckLib.ScsMap.CompanyTrailerType.yml",
       "output": {
         ".html": {
-          "relative_path": "api/TruckLib.ScsMap.CompanySpawnPointTrailerType.html"
+          "relative_path": "api/TruckLib.ScsMap.CompanyTrailerType.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "TruckLib.ScsMap.CompanySpawnPointTrailerType",
-      "Summary": null
+      "Title": "TruckLib.ScsMap.CompanyTrailerType",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.CompanyTrailerType.yml\" sourcestartlinenumber=\"1\">Accepted trailer types of a <xref href=\"TruckLib.ScsMap.CompanySpawnPoint\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/TruckLib.ScsMap.CompanySpawnPointType.yml",
+      "source_relative_path": "api/TruckLib.ScsMap.CompanyUnloadDifficulty.yml",
       "output": {
         ".html": {
-          "relative_path": "api/TruckLib.ScsMap.CompanySpawnPointType.html"
+          "relative_path": "api/TruckLib.ScsMap.CompanyUnloadDifficulty.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "TruckLib.ScsMap.CompanySpawnPointType",
-      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.CompanySpawnPointType.yml\" sourcestartlinenumber=\"1\">The spawn point type of a node belonging to a <xref href=\"TruckLib.ScsMap.Company\" data-throw-if-not-resolved=\"false\"></xref> item.</p>\n"
+      "Title": "TruckLib.ScsMap.CompanyUnloadDifficulty",
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.CompanyUnloadDifficulty.yml\" sourcestartlinenumber=\"1\">Trailer parking difficulty of a <xref href=\"TruckLib.ScsMap.CompanySpawnPoint\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1420,7 +1434,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "TruckLib.ScsMap.Curve",
-      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Curve.yml\" sourcestartlinenumber=\"1\">A curve segment, which repeats one or more models along a path.</p>\n"
+      "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.Curve.yml\" sourcestartlinenumber=\"1\">Repeats models along a path.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2597,6 +2611,20 @@
       "IsMRef": true,
       "Title": "TruckLib.ScsMap.StepSize",
       "Summary": "<p sourcefile=\"api/TruckLib.ScsMap.StepSize.yml\" sourcestartlinenumber=\"1\">Quad resolution of a <xref href=\"TruckLib.ScsMap.Terrain\" data-throw-if-not-resolved=\"false\"></xref> item.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.ScsMap.Subcurve.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.ScsMap.Subcurve.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.ScsMap.Subcurve",
+      "Summary": null
     },
     {
       "type": "ManagedReference",

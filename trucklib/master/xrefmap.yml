@@ -9240,12 +9240,12 @@ references:
   fullName.vb: TruckLib.ScsMap.Collections.CompanySpawnPointList.New
   nameWithType: CompanySpawnPointList.CompanySpawnPointList
   nameWithType.vb: CompanySpawnPointList.New
-- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.Add(System.Numerics.Vector3,System.Numerics.Quaternion,TruckLib.ScsMap.CompanySpawnPointType)
-  name: Add(Vector3, Quaternion, CompanySpawnPointType)
-  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_Add_System_Numerics_Vector3_System_Numerics_Quaternion_TruckLib_ScsMap_CompanySpawnPointType_
-  commentId: M:TruckLib.ScsMap.Collections.CompanySpawnPointList.Add(System.Numerics.Vector3,System.Numerics.Quaternion,TruckLib.ScsMap.CompanySpawnPointType)
-  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.Add(System.Numerics.Vector3, System.Numerics.Quaternion, TruckLib.ScsMap.CompanySpawnPointType)
-  nameWithType: CompanySpawnPointList.Add(Vector3, Quaternion, CompanySpawnPointType)
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.Add(System.Numerics.Vector3,System.Numerics.Quaternion,TruckLib.ScsMap.CompanyDepotType,TruckLib.ScsMap.CompanyUnloadDifficulty)
+  name: Add(Vector3, Quaternion, CompanyDepotType, CompanyUnloadDifficulty)
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_Add_System_Numerics_Vector3_System_Numerics_Quaternion_TruckLib_ScsMap_CompanyDepotType_TruckLib_ScsMap_CompanyUnloadDifficulty_
+  commentId: M:TruckLib.ScsMap.Collections.CompanySpawnPointList.Add(System.Numerics.Vector3,System.Numerics.Quaternion,TruckLib.ScsMap.CompanyDepotType,TruckLib.ScsMap.CompanyUnloadDifficulty)
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.Add(System.Numerics.Vector3, System.Numerics.Quaternion, TruckLib.ScsMap.CompanyDepotType, TruckLib.ScsMap.CompanyUnloadDifficulty)
+  nameWithType: CompanySpawnPointList.Add(Vector3, Quaternion, CompanyDepotType, CompanyUnloadDifficulty)
 - uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.Add(TruckLib.ScsMap.CompanySpawnPoint)
   name: Add(CompanySpawnPoint)
   href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_Add_TruckLib_ScsMap_CompanySpawnPoint_
@@ -9340,15 +9340,15 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.IndexOf
   nameWithType: CompanySpawnPointList.IndexOf
-- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.Insert(System.Int32,System.Numerics.Vector3,System.Numerics.Quaternion,TruckLib.ScsMap.CompanySpawnPointType)
-  name: Insert(int, Vector3, Quaternion, CompanySpawnPointType)
-  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_Insert_System_Int32_System_Numerics_Vector3_System_Numerics_Quaternion_TruckLib_ScsMap_CompanySpawnPointType_
-  commentId: M:TruckLib.ScsMap.Collections.CompanySpawnPointList.Insert(System.Int32,System.Numerics.Vector3,System.Numerics.Quaternion,TruckLib.ScsMap.CompanySpawnPointType)
-  name.vb: Insert(Integer, Vector3, Quaternion, CompanySpawnPointType)
-  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.Insert(int, System.Numerics.Vector3, System.Numerics.Quaternion, TruckLib.ScsMap.CompanySpawnPointType)
-  fullName.vb: TruckLib.ScsMap.Collections.CompanySpawnPointList.Insert(Integer, System.Numerics.Vector3, System.Numerics.Quaternion, TruckLib.ScsMap.CompanySpawnPointType)
-  nameWithType: CompanySpawnPointList.Insert(int, Vector3, Quaternion, CompanySpawnPointType)
-  nameWithType.vb: CompanySpawnPointList.Insert(Integer, Vector3, Quaternion, CompanySpawnPointType)
+- uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.Insert(System.Int32,System.Numerics.Vector3,System.Numerics.Quaternion,TruckLib.ScsMap.CompanyDepotType,TruckLib.ScsMap.CompanyUnloadDifficulty)
+  name: Insert(int, Vector3, Quaternion, CompanyDepotType, CompanyUnloadDifficulty)
+  href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_Insert_System_Int32_System_Numerics_Vector3_System_Numerics_Quaternion_TruckLib_ScsMap_CompanyDepotType_TruckLib_ScsMap_CompanyUnloadDifficulty_
+  commentId: M:TruckLib.ScsMap.Collections.CompanySpawnPointList.Insert(System.Int32,System.Numerics.Vector3,System.Numerics.Quaternion,TruckLib.ScsMap.CompanyDepotType,TruckLib.ScsMap.CompanyUnloadDifficulty)
+  name.vb: Insert(Integer, Vector3, Quaternion, CompanyDepotType, CompanyUnloadDifficulty)
+  fullName: TruckLib.ScsMap.Collections.CompanySpawnPointList.Insert(int, System.Numerics.Vector3, System.Numerics.Quaternion, TruckLib.ScsMap.CompanyDepotType, TruckLib.ScsMap.CompanyUnloadDifficulty)
+  fullName.vb: TruckLib.ScsMap.Collections.CompanySpawnPointList.Insert(Integer, System.Numerics.Vector3, System.Numerics.Quaternion, TruckLib.ScsMap.CompanyDepotType, TruckLib.ScsMap.CompanyUnloadDifficulty)
+  nameWithType: CompanySpawnPointList.Insert(int, Vector3, Quaternion, CompanyDepotType, CompanyUnloadDifficulty)
+  nameWithType.vb: CompanySpawnPointList.Insert(Integer, Vector3, Quaternion, CompanyDepotType, CompanyUnloadDifficulty)
 - uid: TruckLib.ScsMap.Collections.CompanySpawnPointList.Insert(System.Int32,TruckLib.ScsMap.CompanySpawnPoint)
   name: Insert(int, CompanySpawnPoint)
   href: api/TruckLib.ScsMap.Collections.CompanySpawnPointList.html#TruckLib_ScsMap_Collections_CompanySpawnPointList_Insert_System_Int32_TruckLib_ScsMap_CompanySpawnPoint_
@@ -11012,6 +11012,24 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Company.Translate
   nameWithType: Company.Translate
+- uid: TruckLib.ScsMap.CompanyDepotType
+  name: CompanyDepotType
+  href: api/TruckLib.ScsMap.CompanyDepotType.html
+  commentId: T:TruckLib.ScsMap.CompanyDepotType
+  fullName: TruckLib.ScsMap.CompanyDepotType
+  nameWithType: CompanyDepotType
+- uid: TruckLib.ScsMap.CompanyDepotType.Load
+  name: Load
+  href: api/TruckLib.ScsMap.CompanyDepotType.html#TruckLib_ScsMap_CompanyDepotType_Load
+  commentId: F:TruckLib.ScsMap.CompanyDepotType.Load
+  fullName: TruckLib.ScsMap.CompanyDepotType.Load
+  nameWithType: CompanyDepotType.Load
+- uid: TruckLib.ScsMap.CompanyDepotType.Unload
+  name: Unload
+  href: api/TruckLib.ScsMap.CompanyDepotType.html#TruckLib_ScsMap_CompanyDepotType_Unload
+  commentId: F:TruckLib.ScsMap.CompanyDepotType.Unload
+  fullName: TruckLib.ScsMap.CompanyDepotType.Unload
+  nameWithType: CompanyDepotType.Unload
 - uid: TruckLib.ScsMap.CompanySpawnPoint
   name: CompanySpawnPoint
   href: api/TruckLib.ScsMap.CompanySpawnPoint.html
@@ -11027,15 +11045,15 @@ references:
   fullName.vb: TruckLib.ScsMap.CompanySpawnPoint.New(TruckLib.ScsMap.INode, UInteger)
   nameWithType: CompanySpawnPoint.CompanySpawnPoint(INode, uint)
   nameWithType.vb: CompanySpawnPoint.New(INode, UInteger)
-- uid: TruckLib.ScsMap.CompanySpawnPoint.#ctor(TruckLib.ScsMap.INode,TruckLib.ScsMap.CompanySpawnPointType)
-  name: CompanySpawnPoint(INode, CompanySpawnPointType)
-  href: api/TruckLib.ScsMap.CompanySpawnPoint.html#TruckLib_ScsMap_CompanySpawnPoint__ctor_TruckLib_ScsMap_INode_TruckLib_ScsMap_CompanySpawnPointType_
-  commentId: M:TruckLib.ScsMap.CompanySpawnPoint.#ctor(TruckLib.ScsMap.INode,TruckLib.ScsMap.CompanySpawnPointType)
-  name.vb: New(INode, CompanySpawnPointType)
-  fullName: TruckLib.ScsMap.CompanySpawnPoint.CompanySpawnPoint(TruckLib.ScsMap.INode, TruckLib.ScsMap.CompanySpawnPointType)
-  fullName.vb: TruckLib.ScsMap.CompanySpawnPoint.New(TruckLib.ScsMap.INode, TruckLib.ScsMap.CompanySpawnPointType)
-  nameWithType: CompanySpawnPoint.CompanySpawnPoint(INode, CompanySpawnPointType)
-  nameWithType.vb: CompanySpawnPoint.New(INode, CompanySpawnPointType)
+- uid: TruckLib.ScsMap.CompanySpawnPoint.#ctor(TruckLib.ScsMap.INode,TruckLib.ScsMap.CompanyDepotType,TruckLib.ScsMap.CompanyUnloadDifficulty)
+  name: CompanySpawnPoint(INode, CompanyDepotType, CompanyUnloadDifficulty)
+  href: api/TruckLib.ScsMap.CompanySpawnPoint.html#TruckLib_ScsMap_CompanySpawnPoint__ctor_TruckLib_ScsMap_INode_TruckLib_ScsMap_CompanyDepotType_TruckLib_ScsMap_CompanyUnloadDifficulty_
+  commentId: M:TruckLib.ScsMap.CompanySpawnPoint.#ctor(TruckLib.ScsMap.INode,TruckLib.ScsMap.CompanyDepotType,TruckLib.ScsMap.CompanyUnloadDifficulty)
+  name.vb: New(INode, CompanyDepotType, CompanyUnloadDifficulty)
+  fullName: TruckLib.ScsMap.CompanySpawnPoint.CompanySpawnPoint(TruckLib.ScsMap.INode, TruckLib.ScsMap.CompanyDepotType, TruckLib.ScsMap.CompanyUnloadDifficulty)
+  fullName.vb: TruckLib.ScsMap.CompanySpawnPoint.New(TruckLib.ScsMap.INode, TruckLib.ScsMap.CompanyDepotType, TruckLib.ScsMap.CompanyUnloadDifficulty)
+  nameWithType: CompanySpawnPoint.CompanySpawnPoint(INode, CompanyDepotType, CompanyUnloadDifficulty)
+  nameWithType.vb: CompanySpawnPoint.New(INode, CompanyDepotType, CompanyUnloadDifficulty)
 - uid: TruckLib.ScsMap.CompanySpawnPoint.#ctor*
   name: CompanySpawnPoint
   href: api/TruckLib.ScsMap.CompanySpawnPoint.html#TruckLib_ScsMap_CompanySpawnPoint__ctor_
@@ -11046,6 +11064,32 @@ references:
   fullName.vb: TruckLib.ScsMap.CompanySpawnPoint.New
   nameWithType: CompanySpawnPoint.CompanySpawnPoint
   nameWithType.vb: CompanySpawnPoint.New
+- uid: TruckLib.ScsMap.CompanySpawnPoint.DepotType
+  name: DepotType
+  href: api/TruckLib.ScsMap.CompanySpawnPoint.html#TruckLib_ScsMap_CompanySpawnPoint_DepotType
+  commentId: P:TruckLib.ScsMap.CompanySpawnPoint.DepotType
+  fullName: TruckLib.ScsMap.CompanySpawnPoint.DepotType
+  nameWithType: CompanySpawnPoint.DepotType
+- uid: TruckLib.ScsMap.CompanySpawnPoint.DepotType*
+  name: DepotType
+  href: api/TruckLib.ScsMap.CompanySpawnPoint.html#TruckLib_ScsMap_CompanySpawnPoint_DepotType_
+  commentId: Overload:TruckLib.ScsMap.CompanySpawnPoint.DepotType
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.CompanySpawnPoint.DepotType
+  nameWithType: CompanySpawnPoint.DepotType
+- uid: TruckLib.ScsMap.CompanySpawnPoint.Difficulty
+  name: Difficulty
+  href: api/TruckLib.ScsMap.CompanySpawnPoint.html#TruckLib_ScsMap_CompanySpawnPoint_Difficulty
+  commentId: P:TruckLib.ScsMap.CompanySpawnPoint.Difficulty
+  fullName: TruckLib.ScsMap.CompanySpawnPoint.Difficulty
+  nameWithType: CompanySpawnPoint.Difficulty
+- uid: TruckLib.ScsMap.CompanySpawnPoint.Difficulty*
+  name: Difficulty
+  href: api/TruckLib.ScsMap.CompanySpawnPoint.html#TruckLib_ScsMap_CompanySpawnPoint_Difficulty_
+  commentId: Overload:TruckLib.ScsMap.CompanySpawnPoint.Difficulty
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.CompanySpawnPoint.Difficulty
+  nameWithType: CompanySpawnPoint.Difficulty
 - uid: TruckLib.ScsMap.CompanySpawnPoint.Node
   name: Node
   href: api/TruckLib.ScsMap.CompanySpawnPoint.html#TruckLib_ScsMap_CompanySpawnPoint_Node
@@ -11085,103 +11129,84 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.CompanySpawnPoint.TrailerType
   nameWithType: CompanySpawnPoint.TrailerType
-- uid: TruckLib.ScsMap.CompanySpawnPoint.Type
-  name: Type
-  href: api/TruckLib.ScsMap.CompanySpawnPoint.html#TruckLib_ScsMap_CompanySpawnPoint_Type
-  commentId: P:TruckLib.ScsMap.CompanySpawnPoint.Type
-  fullName: TruckLib.ScsMap.CompanySpawnPoint.Type
-  nameWithType: CompanySpawnPoint.Type
-- uid: TruckLib.ScsMap.CompanySpawnPoint.Type*
-  name: Type
-  href: api/TruckLib.ScsMap.CompanySpawnPoint.html#TruckLib_ScsMap_CompanySpawnPoint_Type_
-  commentId: Overload:TruckLib.ScsMap.CompanySpawnPoint.Type
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.CompanySpawnPoint.Type
-  nameWithType: CompanySpawnPoint.Type
-- uid: TruckLib.ScsMap.CompanySpawnPointTrailerType
-  name: CompanySpawnPointTrailerType
-  href: api/TruckLib.ScsMap.CompanySpawnPointTrailerType.html
-  commentId: T:TruckLib.ScsMap.CompanySpawnPointTrailerType
-  fullName: TruckLib.ScsMap.CompanySpawnPointTrailerType
-  nameWithType: CompanySpawnPointTrailerType
-- uid: TruckLib.ScsMap.CompanySpawnPointTrailerType.Any
+- uid: TruckLib.ScsMap.CompanyTrailerType
+  name: CompanyTrailerType
+  href: api/TruckLib.ScsMap.CompanyTrailerType.html
+  commentId: T:TruckLib.ScsMap.CompanyTrailerType
+  fullName: TruckLib.ScsMap.CompanyTrailerType
+  nameWithType: CompanyTrailerType
+- uid: TruckLib.ScsMap.CompanyTrailerType.Any
   name: Any
-  href: api/TruckLib.ScsMap.CompanySpawnPointTrailerType.html#TruckLib_ScsMap_CompanySpawnPointTrailerType_Any
-  commentId: F:TruckLib.ScsMap.CompanySpawnPointTrailerType.Any
-  fullName: TruckLib.ScsMap.CompanySpawnPointTrailerType.Any
-  nameWithType: CompanySpawnPointTrailerType.Any
-- uid: TruckLib.ScsMap.CompanySpawnPointTrailerType.Box
+  href: api/TruckLib.ScsMap.CompanyTrailerType.html#TruckLib_ScsMap_CompanyTrailerType_Any
+  commentId: F:TruckLib.ScsMap.CompanyTrailerType.Any
+  fullName: TruckLib.ScsMap.CompanyTrailerType.Any
+  nameWithType: CompanyTrailerType.Any
+- uid: TruckLib.ScsMap.CompanyTrailerType.Box
   name: Box
-  href: api/TruckLib.ScsMap.CompanySpawnPointTrailerType.html#TruckLib_ScsMap_CompanySpawnPointTrailerType_Box
-  commentId: F:TruckLib.ScsMap.CompanySpawnPointTrailerType.Box
-  fullName: TruckLib.ScsMap.CompanySpawnPointTrailerType.Box
-  nameWithType: CompanySpawnPointTrailerType.Box
-- uid: TruckLib.ScsMap.CompanySpawnPointTrailerType.DumpAndBulk
+  href: api/TruckLib.ScsMap.CompanyTrailerType.html#TruckLib_ScsMap_CompanyTrailerType_Box
+  commentId: F:TruckLib.ScsMap.CompanyTrailerType.Box
+  fullName: TruckLib.ScsMap.CompanyTrailerType.Box
+  nameWithType: CompanyTrailerType.Box
+- uid: TruckLib.ScsMap.CompanyTrailerType.DumpAndBulk
   name: DumpAndBulk
-  href: api/TruckLib.ScsMap.CompanySpawnPointTrailerType.html#TruckLib_ScsMap_CompanySpawnPointTrailerType_DumpAndBulk
-  commentId: F:TruckLib.ScsMap.CompanySpawnPointTrailerType.DumpAndBulk
-  fullName: TruckLib.ScsMap.CompanySpawnPointTrailerType.DumpAndBulk
-  nameWithType: CompanySpawnPointTrailerType.DumpAndBulk
-- uid: TruckLib.ScsMap.CompanySpawnPointTrailerType.Livestock
+  href: api/TruckLib.ScsMap.CompanyTrailerType.html#TruckLib_ScsMap_CompanyTrailerType_DumpAndBulk
+  commentId: F:TruckLib.ScsMap.CompanyTrailerType.DumpAndBulk
+  fullName: TruckLib.ScsMap.CompanyTrailerType.DumpAndBulk
+  nameWithType: CompanyTrailerType.DumpAndBulk
+- uid: TruckLib.ScsMap.CompanyTrailerType.Livestock
   name: Livestock
-  href: api/TruckLib.ScsMap.CompanySpawnPointTrailerType.html#TruckLib_ScsMap_CompanySpawnPointTrailerType_Livestock
-  commentId: F:TruckLib.ScsMap.CompanySpawnPointTrailerType.Livestock
-  fullName: TruckLib.ScsMap.CompanySpawnPointTrailerType.Livestock
-  nameWithType: CompanySpawnPointTrailerType.Livestock
-- uid: TruckLib.ScsMap.CompanySpawnPointTrailerType.Log
+  href: api/TruckLib.ScsMap.CompanyTrailerType.html#TruckLib_ScsMap_CompanyTrailerType_Livestock
+  commentId: F:TruckLib.ScsMap.CompanyTrailerType.Livestock
+  fullName: TruckLib.ScsMap.CompanyTrailerType.Livestock
+  nameWithType: CompanyTrailerType.Livestock
+- uid: TruckLib.ScsMap.CompanyTrailerType.Log
   name: Log
-  href: api/TruckLib.ScsMap.CompanySpawnPointTrailerType.html#TruckLib_ScsMap_CompanySpawnPointTrailerType_Log
-  commentId: F:TruckLib.ScsMap.CompanySpawnPointTrailerType.Log
-  fullName: TruckLib.ScsMap.CompanySpawnPointTrailerType.Log
-  nameWithType: CompanySpawnPointTrailerType.Log
-- uid: TruckLib.ScsMap.CompanySpawnPointTrailerType.PlatformLogAndContainer
+  href: api/TruckLib.ScsMap.CompanyTrailerType.html#TruckLib_ScsMap_CompanyTrailerType_Log
+  commentId: F:TruckLib.ScsMap.CompanyTrailerType.Log
+  fullName: TruckLib.ScsMap.CompanyTrailerType.Log
+  nameWithType: CompanyTrailerType.Log
+- uid: TruckLib.ScsMap.CompanyTrailerType.PlatformLogAndContainer
   name: PlatformLogAndContainer
-  href: api/TruckLib.ScsMap.CompanySpawnPointTrailerType.html#TruckLib_ScsMap_CompanySpawnPointTrailerType_PlatformLogAndContainer
-  commentId: F:TruckLib.ScsMap.CompanySpawnPointTrailerType.PlatformLogAndContainer
-  fullName: TruckLib.ScsMap.CompanySpawnPointTrailerType.PlatformLogAndContainer
-  nameWithType: CompanySpawnPointTrailerType.PlatformLogAndContainer
-- uid: TruckLib.ScsMap.CompanySpawnPointTrailerType.Tank
+  href: api/TruckLib.ScsMap.CompanyTrailerType.html#TruckLib_ScsMap_CompanyTrailerType_PlatformLogAndContainer
+  commentId: F:TruckLib.ScsMap.CompanyTrailerType.PlatformLogAndContainer
+  fullName: TruckLib.ScsMap.CompanyTrailerType.PlatformLogAndContainer
+  nameWithType: CompanyTrailerType.PlatformLogAndContainer
+- uid: TruckLib.ScsMap.CompanyTrailerType.Tank
   name: Tank
-  href: api/TruckLib.ScsMap.CompanySpawnPointTrailerType.html#TruckLib_ScsMap_CompanySpawnPointTrailerType_Tank
-  commentId: F:TruckLib.ScsMap.CompanySpawnPointTrailerType.Tank
-  fullName: TruckLib.ScsMap.CompanySpawnPointTrailerType.Tank
-  nameWithType: CompanySpawnPointTrailerType.Tank
-- uid: TruckLib.ScsMap.CompanySpawnPointType
-  name: CompanySpawnPointType
-  href: api/TruckLib.ScsMap.CompanySpawnPointType.html
-  commentId: T:TruckLib.ScsMap.CompanySpawnPointType
-  fullName: TruckLib.ScsMap.CompanySpawnPointType
-  nameWithType: CompanySpawnPointType
-- uid: TruckLib.ScsMap.CompanySpawnPointType.LoadPoint
-  name: LoadPoint
-  href: api/TruckLib.ScsMap.CompanySpawnPointType.html#TruckLib_ScsMap_CompanySpawnPointType_LoadPoint
-  commentId: F:TruckLib.ScsMap.CompanySpawnPointType.LoadPoint
-  fullName: TruckLib.ScsMap.CompanySpawnPointType.LoadPoint
-  nameWithType: CompanySpawnPointType.LoadPoint
-- uid: TruckLib.ScsMap.CompanySpawnPointType.Trailer
-  name: Trailer
-  href: api/TruckLib.ScsMap.CompanySpawnPointType.html#TruckLib_ScsMap_CompanySpawnPointType_Trailer
-  commentId: F:TruckLib.ScsMap.CompanySpawnPointType.Trailer
-  fullName: TruckLib.ScsMap.CompanySpawnPointType.Trailer
-  nameWithType: CompanySpawnPointType.Trailer
-- uid: TruckLib.ScsMap.CompanySpawnPointType.UnloadEasy
-  name: UnloadEasy
-  href: api/TruckLib.ScsMap.CompanySpawnPointType.html#TruckLib_ScsMap_CompanySpawnPointType_UnloadEasy
-  commentId: F:TruckLib.ScsMap.CompanySpawnPointType.UnloadEasy
-  fullName: TruckLib.ScsMap.CompanySpawnPointType.UnloadEasy
-  nameWithType: CompanySpawnPointType.UnloadEasy
-- uid: TruckLib.ScsMap.CompanySpawnPointType.UnloadHard
-  name: UnloadHard
-  href: api/TruckLib.ScsMap.CompanySpawnPointType.html#TruckLib_ScsMap_CompanySpawnPointType_UnloadHard
-  commentId: F:TruckLib.ScsMap.CompanySpawnPointType.UnloadHard
-  fullName: TruckLib.ScsMap.CompanySpawnPointType.UnloadHard
-  nameWithType: CompanySpawnPointType.UnloadHard
-- uid: TruckLib.ScsMap.CompanySpawnPointType.UnloadMedium
-  name: UnloadMedium
-  href: api/TruckLib.ScsMap.CompanySpawnPointType.html#TruckLib_ScsMap_CompanySpawnPointType_UnloadMedium
-  commentId: F:TruckLib.ScsMap.CompanySpawnPointType.UnloadMedium
-  fullName: TruckLib.ScsMap.CompanySpawnPointType.UnloadMedium
-  nameWithType: CompanySpawnPointType.UnloadMedium
+  href: api/TruckLib.ScsMap.CompanyTrailerType.html#TruckLib_ScsMap_CompanyTrailerType_Tank
+  commentId: F:TruckLib.ScsMap.CompanyTrailerType.Tank
+  fullName: TruckLib.ScsMap.CompanyTrailerType.Tank
+  nameWithType: CompanyTrailerType.Tank
+- uid: TruckLib.ScsMap.CompanyUnloadDifficulty
+  name: CompanyUnloadDifficulty
+  href: api/TruckLib.ScsMap.CompanyUnloadDifficulty.html
+  commentId: T:TruckLib.ScsMap.CompanyUnloadDifficulty
+  fullName: TruckLib.ScsMap.CompanyUnloadDifficulty
+  nameWithType: CompanyUnloadDifficulty
+- uid: TruckLib.ScsMap.CompanyUnloadDifficulty.Easy
+  name: Easy
+  href: api/TruckLib.ScsMap.CompanyUnloadDifficulty.html#TruckLib_ScsMap_CompanyUnloadDifficulty_Easy
+  commentId: F:TruckLib.ScsMap.CompanyUnloadDifficulty.Easy
+  fullName: TruckLib.ScsMap.CompanyUnloadDifficulty.Easy
+  nameWithType: CompanyUnloadDifficulty.Easy
+- uid: TruckLib.ScsMap.CompanyUnloadDifficulty.Hard
+  name: Hard
+  href: api/TruckLib.ScsMap.CompanyUnloadDifficulty.html#TruckLib_ScsMap_CompanyUnloadDifficulty_Hard
+  commentId: F:TruckLib.ScsMap.CompanyUnloadDifficulty.Hard
+  fullName: TruckLib.ScsMap.CompanyUnloadDifficulty.Hard
+  nameWithType: CompanyUnloadDifficulty.Hard
+- uid: TruckLib.ScsMap.CompanyUnloadDifficulty.Medium
+  name: Medium
+  href: api/TruckLib.ScsMap.CompanyUnloadDifficulty.html#TruckLib_ScsMap_CompanyUnloadDifficulty_Medium
+  commentId: F:TruckLib.ScsMap.CompanyUnloadDifficulty.Medium
+  fullName: TruckLib.ScsMap.CompanyUnloadDifficulty.Medium
+  nameWithType: CompanyUnloadDifficulty.Medium
+- uid: TruckLib.ScsMap.CompanyUnloadDifficulty.None
+  name: None
+  href: api/TruckLib.ScsMap.CompanyUnloadDifficulty.html#TruckLib_ScsMap_CompanyUnloadDifficulty_None
+  commentId: F:TruckLib.ScsMap.CompanyUnloadDifficulty.None
+  fullName: TruckLib.ScsMap.CompanyUnloadDifficulty.None
+  nameWithType: CompanyUnloadDifficulty.None
 - uid: TruckLib.ScsMap.Compound
   name: Compound
   href: api/TruckLib.ScsMap.Compound.html
@@ -11516,19 +11541,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Curve.Append
   nameWithType: Curve.Append
-- uid: TruckLib.ScsMap.Curve.CenterPartVariation
-  name: CenterPartVariation
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_CenterPartVariation
-  commentId: P:TruckLib.ScsMap.Curve.CenterPartVariation
-  fullName: TruckLib.ScsMap.Curve.CenterPartVariation
-  nameWithType: Curve.CenterPartVariation
-- uid: TruckLib.ScsMap.Curve.CenterPartVariation*
-  name: CenterPartVariation
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_CenterPartVariation_
-  commentId: Overload:TruckLib.ScsMap.Curve.CenterPartVariation
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.Curve.CenterPartVariation
-  nameWithType: Curve.CenterPartVariation
 - uid: TruckLib.ScsMap.Curve.Collision
   name: Collision
   href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_Collision
@@ -11594,45 +11606,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Curve.DetailVegetation
   nameWithType: Curve.DetailVegetation
-- uid: TruckLib.ScsMap.Curve.FirstPart
-  name: FirstPart
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_FirstPart
-  commentId: P:TruckLib.ScsMap.Curve.FirstPart
-  fullName: TruckLib.ScsMap.Curve.FirstPart
-  nameWithType: Curve.FirstPart
-- uid: TruckLib.ScsMap.Curve.FirstPart*
-  name: FirstPart
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_FirstPart_
-  commentId: Overload:TruckLib.ScsMap.Curve.FirstPart
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.Curve.FirstPart
-  nameWithType: Curve.FirstPart
-- uid: TruckLib.ScsMap.Curve.FixedStep
-  name: FixedStep
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_FixedStep
-  commentId: P:TruckLib.ScsMap.Curve.FixedStep
-  fullName: TruckLib.ScsMap.Curve.FixedStep
-  nameWithType: Curve.FixedStep
-- uid: TruckLib.ScsMap.Curve.FixedStep*
-  name: FixedStep
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_FixedStep_
-  commentId: Overload:TruckLib.ScsMap.Curve.FixedStep
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.Curve.FixedStep
-  nameWithType: Curve.FixedStep
-- uid: TruckLib.ScsMap.Curve.HeightOffsets
-  name: HeightOffsets
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_HeightOffsets
-  commentId: P:TruckLib.ScsMap.Curve.HeightOffsets
-  fullName: TruckLib.ScsMap.Curve.HeightOffsets
-  nameWithType: Curve.HeightOffsets
-- uid: TruckLib.ScsMap.Curve.HeightOffsets*
-  name: HeightOffsets
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_HeightOffsets_
-  commentId: Overload:TruckLib.ScsMap.Curve.HeightOffsets
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.Curve.HeightOffsets
-  nameWithType: Curve.HeightOffsets
 - uid: TruckLib.ScsMap.Curve.IgnoreCutPlanes
   name: IgnoreCutPlanes
   href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_IgnoreCutPlanes
@@ -11659,19 +11632,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Curve.Init
   nameWithType: Curve.Init
-- uid: TruckLib.ScsMap.Curve.InvertGeometry
-  name: InvertGeometry
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_InvertGeometry
-  commentId: P:TruckLib.ScsMap.Curve.InvertGeometry
-  fullName: TruckLib.ScsMap.Curve.InvertGeometry
-  nameWithType: Curve.InvertGeometry
-- uid: TruckLib.ScsMap.Curve.InvertGeometry*
-  name: InvertGeometry
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_InvertGeometry_
-  commentId: Overload:TruckLib.ScsMap.Curve.InvertGeometry
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.Curve.InvertGeometry
-  nameWithType: Curve.InvertGeometry
 - uid: TruckLib.ScsMap.Curve.ItemType
   name: ItemType
   href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_ItemType
@@ -11685,19 +11645,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Curve.ItemType
   nameWithType: Curve.ItemType
-- uid: TruckLib.ScsMap.Curve.LastPart
-  name: LastPart
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_LastPart
-  commentId: P:TruckLib.ScsMap.Curve.LastPart
-  fullName: TruckLib.ScsMap.Curve.LastPart
-  nameWithType: Curve.LastPart
-- uid: TruckLib.ScsMap.Curve.LastPart*
-  name: LastPart
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_LastPart_
-  commentId: Overload:TruckLib.ScsMap.Curve.LastPart
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.Curve.LastPart
-  nameWithType: Curve.LastPart
 - uid: TruckLib.ScsMap.Curve.Locators
   name: Locators
   href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_Locators
@@ -11711,19 +11658,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Curve.Locators
   nameWithType: Curve.Locators
-- uid: TruckLib.ScsMap.Curve.Look
-  name: Look
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_Look
-  commentId: P:TruckLib.ScsMap.Curve.Look
-  fullName: TruckLib.ScsMap.Curve.Look
-  nameWithType: Curve.Look
-- uid: TruckLib.ScsMap.Curve.Look*
-  name: Look
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_Look_
-  commentId: Overload:TruckLib.ScsMap.Curve.Look
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.Curve.Look
-  nameWithType: Curve.Look
 - uid: TruckLib.ScsMap.Curve.LowDetail
   name: LowDetail
   href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_LowDetail
@@ -11762,19 +11696,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Curve.MirrorReflection
   nameWithType: Curve.MirrorReflection
-- uid: TruckLib.ScsMap.Curve.Model
-  name: Model
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_Model
-  commentId: P:TruckLib.ScsMap.Curve.Model
-  fullName: TruckLib.ScsMap.Curve.Model
-  nameWithType: Curve.Model
-- uid: TruckLib.ScsMap.Curve.Model*
-  name: Model
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_Model_
-  commentId: Overload:TruckLib.ScsMap.Curve.Model
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.Curve.Model
-  nameWithType: Curve.Model
 - uid: TruckLib.ScsMap.Curve.Move(System.Numerics.Vector3)
   name: Move(Vector3)
   href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_Move_System_Numerics_Vector3_
@@ -11788,45 +11709,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Curve.Move
   nameWithType: Curve.Move
-- uid: TruckLib.ScsMap.Curve.PerlinNoise
-  name: PerlinNoise
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_PerlinNoise
-  commentId: P:TruckLib.ScsMap.Curve.PerlinNoise
-  fullName: TruckLib.ScsMap.Curve.PerlinNoise
-  nameWithType: Curve.PerlinNoise
-- uid: TruckLib.ScsMap.Curve.PerlinNoise*
-  name: PerlinNoise
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_PerlinNoise_
-  commentId: Overload:TruckLib.ScsMap.Curve.PerlinNoise
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.Curve.PerlinNoise
-  nameWithType: Curve.PerlinNoise
-- uid: TruckLib.ScsMap.Curve.RandomSeed
-  name: RandomSeed
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_RandomSeed
-  commentId: P:TruckLib.ScsMap.Curve.RandomSeed
-  fullName: TruckLib.ScsMap.Curve.RandomSeed
-  nameWithType: Curve.RandomSeed
-- uid: TruckLib.ScsMap.Curve.RandomSeed*
-  name: RandomSeed
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_RandomSeed_
-  commentId: Overload:TruckLib.ScsMap.Curve.RandomSeed
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.Curve.RandomSeed
-  nameWithType: Curve.RandomSeed
-- uid: TruckLib.ScsMap.Curve.Scale
-  name: Scale
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_Scale
-  commentId: P:TruckLib.ScsMap.Curve.Scale
-  fullName: TruckLib.ScsMap.Curve.Scale
-  nameWithType: Curve.Scale
-- uid: TruckLib.ScsMap.Curve.Scale*
-  name: Scale
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_Scale_
-  commentId: Overload:TruckLib.ScsMap.Curve.Scale
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.Curve.Scale
-  nameWithType: Curve.Scale
 - uid: TruckLib.ScsMap.Curve.Shadows
   name: Shadows
   href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_Shadows
@@ -11840,71 +11722,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Curve.Shadows
   nameWithType: Curve.Shadows
-- uid: TruckLib.ScsMap.Curve.SteppedGeometry
-  name: SteppedGeometry
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_SteppedGeometry
-  commentId: P:TruckLib.ScsMap.Curve.SteppedGeometry
-  fullName: TruckLib.ScsMap.Curve.SteppedGeometry
-  nameWithType: Curve.SteppedGeometry
-- uid: TruckLib.ScsMap.Curve.SteppedGeometry*
-  name: SteppedGeometry
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_SteppedGeometry_
-  commentId: Overload:TruckLib.ScsMap.Curve.SteppedGeometry
+- uid: TruckLib.ScsMap.Curve.Subcurves
+  name: Subcurves
+  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_Subcurves
+  commentId: P:TruckLib.ScsMap.Curve.Subcurves
+  fullName: TruckLib.ScsMap.Curve.Subcurves
+  nameWithType: Curve.Subcurves
+- uid: TruckLib.ScsMap.Curve.Subcurves*
+  name: Subcurves
+  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_Subcurves_
+  commentId: Overload:TruckLib.ScsMap.Curve.Subcurves
   isSpec: "True"
-  fullName: TruckLib.ScsMap.Curve.SteppedGeometry
-  nameWithType: Curve.SteppedGeometry
-- uid: TruckLib.ScsMap.Curve.Stretch
-  name: Stretch
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_Stretch
-  commentId: P:TruckLib.ScsMap.Curve.Stretch
-  fullName: TruckLib.ScsMap.Curve.Stretch
-  nameWithType: Curve.Stretch
-- uid: TruckLib.ScsMap.Curve.Stretch*
-  name: Stretch
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_Stretch_
-  commentId: Overload:TruckLib.ScsMap.Curve.Stretch
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.Curve.Stretch
-  nameWithType: Curve.Stretch
-- uid: TruckLib.ScsMap.Curve.TerrainColor
-  name: TerrainColor
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_TerrainColor
-  commentId: P:TruckLib.ScsMap.Curve.TerrainColor
-  fullName: TruckLib.ScsMap.Curve.TerrainColor
-  nameWithType: Curve.TerrainColor
-- uid: TruckLib.ScsMap.Curve.TerrainColor*
-  name: TerrainColor
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_TerrainColor_
-  commentId: Overload:TruckLib.ScsMap.Curve.TerrainColor
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.Curve.TerrainColor
-  nameWithType: Curve.TerrainColor
-- uid: TruckLib.ScsMap.Curve.TerrainMaterial
-  name: TerrainMaterial
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_TerrainMaterial
-  commentId: P:TruckLib.ScsMap.Curve.TerrainMaterial
-  fullName: TruckLib.ScsMap.Curve.TerrainMaterial
-  nameWithType: Curve.TerrainMaterial
-- uid: TruckLib.ScsMap.Curve.TerrainMaterial*
-  name: TerrainMaterial
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_TerrainMaterial_
-  commentId: Overload:TruckLib.ScsMap.Curve.TerrainMaterial
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.Curve.TerrainMaterial
-  nameWithType: Curve.TerrainMaterial
-- uid: TruckLib.ScsMap.Curve.TerrainRotation
-  name: TerrainRotation
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_TerrainRotation
-  commentId: P:TruckLib.ScsMap.Curve.TerrainRotation
-  fullName: TruckLib.ScsMap.Curve.TerrainRotation
-  nameWithType: Curve.TerrainRotation
-- uid: TruckLib.ScsMap.Curve.TerrainRotation*
-  name: TerrainRotation
-  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_TerrainRotation_
-  commentId: Overload:TruckLib.ScsMap.Curve.TerrainRotation
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.Curve.TerrainRotation
-  nameWithType: Curve.TerrainRotation
+  fullName: TruckLib.ScsMap.Curve.Subcurves
+  nameWithType: Curve.Subcurves
 - uid: TruckLib.ScsMap.Curve.Translate(System.Numerics.Vector3)
   name: Translate(Vector3)
   href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_Translate_System_Numerics_Vector3_
@@ -12411,6 +12241,18 @@ references:
   commentId: F:TruckLib.ScsMap.CutsceneType.MapScene
   fullName: TruckLib.ScsMap.CutsceneType.MapScene
   nameWithType: CutsceneType.MapScene
+- uid: TruckLib.ScsMap.CutsceneType.PointOfInterest
+  name: PointOfInterest
+  href: api/TruckLib.ScsMap.CutsceneType.html#TruckLib_ScsMap_CutsceneType_PointOfInterest
+  commentId: F:TruckLib.ScsMap.CutsceneType.PointOfInterest
+  fullName: TruckLib.ScsMap.CutsceneType.PointOfInterest
+  nameWithType: CutsceneType.PointOfInterest
+- uid: TruckLib.ScsMap.CutsceneType.TouristBoard
+  name: TouristBoard
+  href: api/TruckLib.ScsMap.CutsceneType.html#TruckLib_ScsMap_CutsceneType_TouristBoard
+  commentId: F:TruckLib.ScsMap.CutsceneType.TouristBoard
+  fullName: TruckLib.ScsMap.CutsceneType.TouristBoard
+  nameWithType: CutsceneType.TouristBoard
 - uid: TruckLib.ScsMap.CutsceneType.Viewpoint
   name: Viewpoint
   href: api/TruckLib.ScsMap.CutsceneType.html#TruckLib_ScsMap_CutsceneType_Viewpoint
@@ -17219,12 +17061,6 @@ references:
   commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.ColoradoAndUtah
   fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.ColoradoAndUtah
   nameWithType: DlcGuard.Ats.ColoradoAndUtah
-- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.ColoradoAndWyoming
-  name: ColoradoAndWyoming
-  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_ColoradoAndWyoming
-  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.ColoradoAndWyoming
-  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.ColoradoAndWyoming
-  nameWithType: DlcGuard.Ats.ColoradoAndWyoming
 - uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.Idaho
   name: Idaho
   href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_Idaho
@@ -17249,12 +17085,24 @@ references:
   commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.IdahoAndWashington
   fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.IdahoAndWashington
   nameWithType: DlcGuard.Ats.IdahoAndWashington
-- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.IdahoAndWyoming
-  name: IdahoAndWyoming
-  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_IdahoAndWyoming
-  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.IdahoAndWyoming
-  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.IdahoAndWyoming
-  nameWithType: DlcGuard.Ats.IdahoAndWyoming
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.Illinois
+  name: Illinois
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_Illinois
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.Illinois
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.Illinois
+  nameWithType: DlcGuard.Ats.Illinois
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.IllinoisAndIowa
+  name: IllinoisAndIowa
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_IllinoisAndIowa
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.IllinoisAndIowa
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.IllinoisAndIowa
+  nameWithType: DlcGuard.Ats.IllinoisAndIowa
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.IllinoisAndMissouri
+  name: IllinoisAndMissouri
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_IllinoisAndMissouri
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.IllinoisAndMissouri
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.IllinoisAndMissouri
+  nameWithType: DlcGuard.Ats.IllinoisAndMissouri
 - uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.Iowa
   name: Iowa
   href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_Iowa
@@ -17393,12 +17241,6 @@ references:
   commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.NewMexico
   fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.NewMexico
   nameWithType: DlcGuard.Ats.NewMexico
-- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.NewMexicoAndUtah
-  name: NewMexicoAndUtah
-  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_NewMexicoAndUtah
-  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.NewMexicoAndUtah
-  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.NewMexicoAndUtah
-  nameWithType: DlcGuard.Ats.NewMexicoAndUtah
 - uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.None
   name: None
   href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_None
@@ -17435,12 +17277,36 @@ references:
   commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.Oregon
   fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.Oregon
   nameWithType: DlcGuard.Ats.Oregon
-- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.OregonAndWashington
-  name: OregonAndWashington
-  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_OregonAndWashington
-  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.OregonAndWashington
-  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.OregonAndWashington
-  nameWithType: DlcGuard.Ats.OregonAndWashington
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.SouthDakota
+  name: SouthDakota
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_SouthDakota
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.SouthDakota
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.SouthDakota
+  nameWithType: DlcGuard.Ats.SouthDakota
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.SouthDakotaAndIowa
+  name: SouthDakotaAndIowa
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_SouthDakotaAndIowa
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.SouthDakotaAndIowa
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.SouthDakotaAndIowa
+  nameWithType: DlcGuard.Ats.SouthDakotaAndIowa
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.SouthDakotaAndMontana
+  name: SouthDakotaAndMontana
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_SouthDakotaAndMontana
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.SouthDakotaAndMontana
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.SouthDakotaAndMontana
+  nameWithType: DlcGuard.Ats.SouthDakotaAndMontana
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.SouthDakotaAndNebraska
+  name: SouthDakotaAndNebraska
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_SouthDakotaAndNebraska
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.SouthDakotaAndNebraska
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.SouthDakotaAndNebraska
+  nameWithType: DlcGuard.Ats.SouthDakotaAndNebraska
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.SouthDakotaAndWyoming
+  name: SouthDakotaAndWyoming
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_SouthDakotaAndWyoming
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.SouthDakotaAndWyoming
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.SouthDakotaAndWyoming
+  nameWithType: DlcGuard.Ats.SouthDakotaAndWyoming
 - uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.Texas
   name: Texas
   href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_Texas
@@ -17459,24 +17325,48 @@ references:
   commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.Utah
   fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.Utah
   nameWithType: DlcGuard.Ats.Utah
-- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.UtahAndWyoming
-  name: UtahAndWyoming
-  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_UtahAndWyoming
-  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.UtahAndWyoming
-  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.UtahAndWyoming
-  nameWithType: DlcGuard.Ats.UtahAndWyoming
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.UtahAndNewMexico
+  name: UtahAndNewMexico
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_UtahAndNewMexico
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.UtahAndNewMexico
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.UtahAndNewMexico
+  nameWithType: DlcGuard.Ats.UtahAndNewMexico
 - uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.Washington
   name: Washington
   href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_Washington
   commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.Washington
   fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.Washington
   nameWithType: DlcGuard.Ats.Washington
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.WashingtonAndOregon
+  name: WashingtonAndOregon
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_WashingtonAndOregon
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.WashingtonAndOregon
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.WashingtonAndOregon
+  nameWithType: DlcGuard.Ats.WashingtonAndOregon
 - uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.Wyoming
   name: Wyoming
   href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_Wyoming
   commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.Wyoming
   fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.Wyoming
   nameWithType: DlcGuard.Ats.Wyoming
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.WyomingAndColorado
+  name: WyomingAndColorado
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_WyomingAndColorado
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.WyomingAndColorado
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.WyomingAndColorado
+  nameWithType: DlcGuard.Ats.WyomingAndColorado
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.WyomingAndIdaho
+  name: WyomingAndIdaho
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_WyomingAndIdaho
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.WyomingAndIdaho
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.WyomingAndIdaho
+  nameWithType: DlcGuard.Ats.WyomingAndIdaho
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ats.WyomingAndUtah
+  name: WyomingAndUtah
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ats.html#TruckLib_ScsMap_Lookup_DlcGuard_Ats_WyomingAndUtah
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ats.WyomingAndUtah
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ats.WyomingAndUtah
+  nameWithType: DlcGuard.Ats.WyomingAndUtah
 - uid: TruckLib.ScsMap.Lookup.DlcGuard.Ets2
   name: DlcGuard.Ets2
   href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html
@@ -17495,12 +17385,6 @@ references:
   commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ets2.BalticAndEast
   fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.BalticAndEast
   nameWithType: DlcGuard.Ets2.BalticAndEast
-- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.BalticAndRussia
-  name: BalticAndRussia
-  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html#TruckLib_ScsMap_Lookup_DlcGuard_Ets2_BalticAndRussia
-  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ets2.BalticAndRussia
-  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.BalticAndRussia
-  nameWithType: DlcGuard.Ets2.BalticAndRussia
 - uid: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.BalticAndScandinavia
   name: BalticAndScandinavia
   href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html#TruckLib_ScsMap_Lookup_DlcGuard_Ets2_BalticAndScandinavia
@@ -17537,12 +17421,6 @@ references:
   commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ets2.France
   fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.France
   nameWithType: DlcGuard.Ets2.France
-- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.FranceAndItaly
-  name: FranceAndItaly
-  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html#TruckLib_ScsMap_Lookup_DlcGuard_Ets2_FranceAndItaly
-  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ets2.FranceAndItaly
-  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.FranceAndItaly
-  nameWithType: DlcGuard.Ets2.FranceAndItaly
 - uid: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Greece
   name: Greece
   href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html#TruckLib_ScsMap_Lookup_DlcGuard_Ets2_Greece
@@ -17579,6 +17457,12 @@ references:
   commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Italy
   fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Italy
   nameWithType: DlcGuard.Ets2.Italy
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.ItalyAndFrance
+  name: ItalyAndFrance
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html#TruckLib_ScsMap_Lookup_DlcGuard_Ets2_ItalyAndFrance
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ets2.ItalyAndFrance
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.ItalyAndFrance
+  nameWithType: DlcGuard.Ets2.ItalyAndFrance
 - uid: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Krone
   name: Krone
   href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html#TruckLib_ScsMap_Lookup_DlcGuard_Ets2_Krone
@@ -17615,6 +17499,12 @@ references:
   commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Russia
   fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Russia
   nameWithType: DlcGuard.Ets2.Russia
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.RussiaAndBaltic
+  name: RussiaAndBaltic
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html#TruckLib_ScsMap_Lookup_DlcGuard_Ets2_RussiaAndBaltic
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ets2.RussiaAndBaltic
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.RussiaAndBaltic
+  nameWithType: DlcGuard.Ets2.RussiaAndBaltic
 - uid: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Scandinavia
   name: Scandinavia
   href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html#TruckLib_ScsMap_Lookup_DlcGuard_Ets2_Scandinavia
@@ -23990,6 +23880,372 @@ references:
   commentId: F:TruckLib.ScsMap.StepSize.Meters4
   fullName: TruckLib.ScsMap.StepSize.Meters4
   nameWithType: StepSize.Meters4
+- uid: TruckLib.ScsMap.Subcurve
+  name: Subcurve
+  href: api/TruckLib.ScsMap.Subcurve.html
+  commentId: T:TruckLib.ScsMap.Subcurve
+  fullName: TruckLib.ScsMap.Subcurve
+  nameWithType: Subcurve
+- uid: TruckLib.ScsMap.Subcurve.#ctor
+  name: Subcurve()
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve__ctor
+  commentId: M:TruckLib.ScsMap.Subcurve.#ctor
+  name.vb: New()
+  fullName: TruckLib.ScsMap.Subcurve.Subcurve()
+  fullName.vb: TruckLib.ScsMap.Subcurve.New()
+  nameWithType: Subcurve.Subcurve()
+  nameWithType.vb: Subcurve.New()
+- uid: TruckLib.ScsMap.Subcurve.#ctor*
+  name: Subcurve
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve__ctor_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TruckLib.ScsMap.Subcurve.Subcurve
+  fullName.vb: TruckLib.ScsMap.Subcurve.New
+  nameWithType: Subcurve.Subcurve
+  nameWithType.vb: Subcurve.New
+- uid: TruckLib.ScsMap.Subcurve.CenterPartVariation
+  name: CenterPartVariation
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_CenterPartVariation
+  commentId: P:TruckLib.ScsMap.Subcurve.CenterPartVariation
+  fullName: TruckLib.ScsMap.Subcurve.CenterPartVariation
+  nameWithType: Subcurve.CenterPartVariation
+- uid: TruckLib.ScsMap.Subcurve.CenterPartVariation*
+  name: CenterPartVariation
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_CenterPartVariation_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.CenterPartVariation
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.CenterPartVariation
+  nameWithType: Subcurve.CenterPartVariation
+- uid: TruckLib.ScsMap.Subcurve.Clone
+  name: Clone()
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_Clone
+  commentId: M:TruckLib.ScsMap.Subcurve.Clone
+  fullName: TruckLib.ScsMap.Subcurve.Clone()
+  nameWithType: Subcurve.Clone()
+- uid: TruckLib.ScsMap.Subcurve.Clone*
+  name: Clone
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_Clone_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.Clone
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.Clone
+  nameWithType: Subcurve.Clone
+- uid: TruckLib.ScsMap.Subcurve.Deserialize(System.IO.BinaryReader,System.Nullable{System.UInt32})
+  name: Deserialize(BinaryReader, uint?)
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_Deserialize_System_IO_BinaryReader_System_Nullable_System_UInt32__
+  commentId: M:TruckLib.ScsMap.Subcurve.Deserialize(System.IO.BinaryReader,System.Nullable{System.UInt32})
+  name.vb: Deserialize(BinaryReader, UInteger?)
+  fullName: TruckLib.ScsMap.Subcurve.Deserialize(System.IO.BinaryReader, uint?)
+  fullName.vb: TruckLib.ScsMap.Subcurve.Deserialize(System.IO.BinaryReader, UInteger?)
+  nameWithType: Subcurve.Deserialize(BinaryReader, uint?)
+  nameWithType.vb: Subcurve.Deserialize(BinaryReader, UInteger?)
+- uid: TruckLib.ScsMap.Subcurve.Deserialize*
+  name: Deserialize
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_Deserialize_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.Deserialize
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.Deserialize
+  nameWithType: Subcurve.Deserialize
+- uid: TruckLib.ScsMap.Subcurve.FirstPart
+  name: FirstPart
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_FirstPart
+  commentId: P:TruckLib.ScsMap.Subcurve.FirstPart
+  fullName: TruckLib.ScsMap.Subcurve.FirstPart
+  nameWithType: Subcurve.FirstPart
+- uid: TruckLib.ScsMap.Subcurve.FirstPart*
+  name: FirstPart
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_FirstPart_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.FirstPart
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.FirstPart
+  nameWithType: Subcurve.FirstPart
+- uid: TruckLib.ScsMap.Subcurve.FixedStep
+  name: FixedStep
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_FixedStep
+  commentId: P:TruckLib.ScsMap.Subcurve.FixedStep
+  fullName: TruckLib.ScsMap.Subcurve.FixedStep
+  nameWithType: Subcurve.FixedStep
+- uid: TruckLib.ScsMap.Subcurve.FixedStep*
+  name: FixedStep
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_FixedStep_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.FixedStep
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.FixedStep
+  nameWithType: Subcurve.FixedStep
+- uid: TruckLib.ScsMap.Subcurve.HeightOffsets
+  name: HeightOffsets
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_HeightOffsets
+  commentId: P:TruckLib.ScsMap.Subcurve.HeightOffsets
+  fullName: TruckLib.ScsMap.Subcurve.HeightOffsets
+  nameWithType: Subcurve.HeightOffsets
+- uid: TruckLib.ScsMap.Subcurve.HeightOffsets*
+  name: HeightOffsets
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_HeightOffsets_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.HeightOffsets
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.HeightOffsets
+  nameWithType: Subcurve.HeightOffsets
+- uid: TruckLib.ScsMap.Subcurve.IgnoreHeightOffsets
+  name: IgnoreHeightOffsets
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_IgnoreHeightOffsets
+  commentId: P:TruckLib.ScsMap.Subcurve.IgnoreHeightOffsets
+  fullName: TruckLib.ScsMap.Subcurve.IgnoreHeightOffsets
+  nameWithType: Subcurve.IgnoreHeightOffsets
+- uid: TruckLib.ScsMap.Subcurve.IgnoreHeightOffsets*
+  name: IgnoreHeightOffsets
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_IgnoreHeightOffsets_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.IgnoreHeightOffsets
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.IgnoreHeightOffsets
+  nameWithType: Subcurve.IgnoreHeightOffsets
+- uid: TruckLib.ScsMap.Subcurve.InitialHeightOffset
+  name: InitialHeightOffset
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_InitialHeightOffset
+  commentId: P:TruckLib.ScsMap.Subcurve.InitialHeightOffset
+  fullName: TruckLib.ScsMap.Subcurve.InitialHeightOffset
+  nameWithType: Subcurve.InitialHeightOffset
+- uid: TruckLib.ScsMap.Subcurve.InitialHeightOffset*
+  name: InitialHeightOffset
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_InitialHeightOffset_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.InitialHeightOffset
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.InitialHeightOffset
+  nameWithType: Subcurve.InitialHeightOffset
+- uid: TruckLib.ScsMap.Subcurve.InvertGeometry
+  name: InvertGeometry
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_InvertGeometry
+  commentId: P:TruckLib.ScsMap.Subcurve.InvertGeometry
+  fullName: TruckLib.ScsMap.Subcurve.InvertGeometry
+  nameWithType: Subcurve.InvertGeometry
+- uid: TruckLib.ScsMap.Subcurve.InvertGeometry*
+  name: InvertGeometry
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_InvertGeometry_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.InvertGeometry
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.InvertGeometry
+  nameWithType: Subcurve.InvertGeometry
+- uid: TruckLib.ScsMap.Subcurve.LastPart
+  name: LastPart
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_LastPart
+  commentId: P:TruckLib.ScsMap.Subcurve.LastPart
+  fullName: TruckLib.ScsMap.Subcurve.LastPart
+  nameWithType: Subcurve.LastPart
+- uid: TruckLib.ScsMap.Subcurve.LastPart*
+  name: LastPart
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_LastPart_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.LastPart
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.LastPart
+  nameWithType: Subcurve.LastPart
+- uid: TruckLib.ScsMap.Subcurve.Look
+  name: Look
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_Look
+  commentId: P:TruckLib.ScsMap.Subcurve.Look
+  fullName: TruckLib.ScsMap.Subcurve.Look
+  nameWithType: Subcurve.Look
+- uid: TruckLib.ScsMap.Subcurve.Look*
+  name: Look
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_Look_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.Look
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.Look
+  nameWithType: Subcurve.Look
+- uid: TruckLib.ScsMap.Subcurve.Model
+  name: Model
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_Model
+  commentId: P:TruckLib.ScsMap.Subcurve.Model
+  fullName: TruckLib.ScsMap.Subcurve.Model
+  nameWithType: Subcurve.Model
+- uid: TruckLib.ScsMap.Subcurve.Model*
+  name: Model
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_Model_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.Model
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.Model
+  nameWithType: Subcurve.Model
+- uid: TruckLib.ScsMap.Subcurve.NoPathInterpolation
+  name: NoPathInterpolation
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_NoPathInterpolation
+  commentId: P:TruckLib.ScsMap.Subcurve.NoPathInterpolation
+  fullName: TruckLib.ScsMap.Subcurve.NoPathInterpolation
+  nameWithType: Subcurve.NoPathInterpolation
+- uid: TruckLib.ScsMap.Subcurve.NoPathInterpolation*
+  name: NoPathInterpolation
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_NoPathInterpolation_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.NoPathInterpolation
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.NoPathInterpolation
+  nameWithType: Subcurve.NoPathInterpolation
+- uid: TruckLib.ScsMap.Subcurve.OffsetFromBaseCurveEndX
+  name: OffsetFromBaseCurveEndX
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_OffsetFromBaseCurveEndX
+  commentId: P:TruckLib.ScsMap.Subcurve.OffsetFromBaseCurveEndX
+  fullName: TruckLib.ScsMap.Subcurve.OffsetFromBaseCurveEndX
+  nameWithType: Subcurve.OffsetFromBaseCurveEndX
+- uid: TruckLib.ScsMap.Subcurve.OffsetFromBaseCurveEndX*
+  name: OffsetFromBaseCurveEndX
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_OffsetFromBaseCurveEndX_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.OffsetFromBaseCurveEndX
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.OffsetFromBaseCurveEndX
+  nameWithType: Subcurve.OffsetFromBaseCurveEndX
+- uid: TruckLib.ScsMap.Subcurve.OffsetFromBaseCurveEndY
+  name: OffsetFromBaseCurveEndY
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_OffsetFromBaseCurveEndY
+  commentId: P:TruckLib.ScsMap.Subcurve.OffsetFromBaseCurveEndY
+  fullName: TruckLib.ScsMap.Subcurve.OffsetFromBaseCurveEndY
+  nameWithType: Subcurve.OffsetFromBaseCurveEndY
+- uid: TruckLib.ScsMap.Subcurve.OffsetFromBaseCurveEndY*
+  name: OffsetFromBaseCurveEndY
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_OffsetFromBaseCurveEndY_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.OffsetFromBaseCurveEndY
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.OffsetFromBaseCurveEndY
+  nameWithType: Subcurve.OffsetFromBaseCurveEndY
+- uid: TruckLib.ScsMap.Subcurve.OffsetFromBaseCurveStartX
+  name: OffsetFromBaseCurveStartX
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_OffsetFromBaseCurveStartX
+  commentId: P:TruckLib.ScsMap.Subcurve.OffsetFromBaseCurveStartX
+  fullName: TruckLib.ScsMap.Subcurve.OffsetFromBaseCurveStartX
+  nameWithType: Subcurve.OffsetFromBaseCurveStartX
+- uid: TruckLib.ScsMap.Subcurve.OffsetFromBaseCurveStartX*
+  name: OffsetFromBaseCurveStartX
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_OffsetFromBaseCurveStartX_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.OffsetFromBaseCurveStartX
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.OffsetFromBaseCurveStartX
+  nameWithType: Subcurve.OffsetFromBaseCurveStartX
+- uid: TruckLib.ScsMap.Subcurve.OffsetFromBaseCurveStartY
+  name: OffsetFromBaseCurveStartY
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_OffsetFromBaseCurveStartY
+  commentId: P:TruckLib.ScsMap.Subcurve.OffsetFromBaseCurveStartY
+  fullName: TruckLib.ScsMap.Subcurve.OffsetFromBaseCurveStartY
+  nameWithType: Subcurve.OffsetFromBaseCurveStartY
+- uid: TruckLib.ScsMap.Subcurve.OffsetFromBaseCurveStartY*
+  name: OffsetFromBaseCurveStartY
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_OffsetFromBaseCurveStartY_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.OffsetFromBaseCurveStartY
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.OffsetFromBaseCurveStartY
+  nameWithType: Subcurve.OffsetFromBaseCurveStartY
+- uid: TruckLib.ScsMap.Subcurve.PerlinNoise
+  name: PerlinNoise
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_PerlinNoise
+  commentId: P:TruckLib.ScsMap.Subcurve.PerlinNoise
+  fullName: TruckLib.ScsMap.Subcurve.PerlinNoise
+  nameWithType: Subcurve.PerlinNoise
+- uid: TruckLib.ScsMap.Subcurve.PerlinNoise*
+  name: PerlinNoise
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_PerlinNoise_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.PerlinNoise
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.PerlinNoise
+  nameWithType: Subcurve.PerlinNoise
+- uid: TruckLib.ScsMap.Subcurve.Scale
+  name: Scale
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_Scale
+  commentId: P:TruckLib.ScsMap.Subcurve.Scale
+  fullName: TruckLib.ScsMap.Subcurve.Scale
+  nameWithType: Subcurve.Scale
+- uid: TruckLib.ScsMap.Subcurve.Scale*
+  name: Scale
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_Scale_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.Scale
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.Scale
+  nameWithType: Subcurve.Scale
+- uid: TruckLib.ScsMap.Subcurve.Seed
+  name: Seed
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_Seed
+  commentId: P:TruckLib.ScsMap.Subcurve.Seed
+  fullName: TruckLib.ScsMap.Subcurve.Seed
+  nameWithType: Subcurve.Seed
+- uid: TruckLib.ScsMap.Subcurve.Seed*
+  name: Seed
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_Seed_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.Seed
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.Seed
+  nameWithType: Subcurve.Seed
+- uid: TruckLib.ScsMap.Subcurve.Serialize(System.IO.BinaryWriter)
+  name: Serialize(BinaryWriter)
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_Serialize_System_IO_BinaryWriter_
+  commentId: M:TruckLib.ScsMap.Subcurve.Serialize(System.IO.BinaryWriter)
+  fullName: TruckLib.ScsMap.Subcurve.Serialize(System.IO.BinaryWriter)
+  nameWithType: Subcurve.Serialize(BinaryWriter)
+- uid: TruckLib.ScsMap.Subcurve.Serialize*
+  name: Serialize
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_Serialize_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.Serialize
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.Serialize
+  nameWithType: Subcurve.Serialize
+- uid: TruckLib.ScsMap.Subcurve.SteppedGeometry
+  name: SteppedGeometry
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_SteppedGeometry
+  commentId: P:TruckLib.ScsMap.Subcurve.SteppedGeometry
+  fullName: TruckLib.ScsMap.Subcurve.SteppedGeometry
+  nameWithType: Subcurve.SteppedGeometry
+- uid: TruckLib.ScsMap.Subcurve.SteppedGeometry*
+  name: SteppedGeometry
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_SteppedGeometry_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.SteppedGeometry
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.SteppedGeometry
+  nameWithType: Subcurve.SteppedGeometry
+- uid: TruckLib.ScsMap.Subcurve.Stretch
+  name: Stretch
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_Stretch
+  commentId: P:TruckLib.ScsMap.Subcurve.Stretch
+  fullName: TruckLib.ScsMap.Subcurve.Stretch
+  nameWithType: Subcurve.Stretch
+- uid: TruckLib.ScsMap.Subcurve.Stretch*
+  name: Stretch
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_Stretch_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.Stretch
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.Stretch
+  nameWithType: Subcurve.Stretch
+- uid: TruckLib.ScsMap.Subcurve.TerrainColor
+  name: TerrainColor
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_TerrainColor
+  commentId: P:TruckLib.ScsMap.Subcurve.TerrainColor
+  fullName: TruckLib.ScsMap.Subcurve.TerrainColor
+  nameWithType: Subcurve.TerrainColor
+- uid: TruckLib.ScsMap.Subcurve.TerrainColor*
+  name: TerrainColor
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_TerrainColor_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.TerrainColor
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.TerrainColor
+  nameWithType: Subcurve.TerrainColor
+- uid: TruckLib.ScsMap.Subcurve.TerrainMaterial
+  name: TerrainMaterial
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_TerrainMaterial
+  commentId: P:TruckLib.ScsMap.Subcurve.TerrainMaterial
+  fullName: TruckLib.ScsMap.Subcurve.TerrainMaterial
+  nameWithType: Subcurve.TerrainMaterial
+- uid: TruckLib.ScsMap.Subcurve.TerrainMaterial*
+  name: TerrainMaterial
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_TerrainMaterial_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.TerrainMaterial
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.TerrainMaterial
+  nameWithType: Subcurve.TerrainMaterial
+- uid: TruckLib.ScsMap.Subcurve.TerrainRotation
+  name: TerrainRotation
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_TerrainRotation
+  commentId: P:TruckLib.ScsMap.Subcurve.TerrainRotation
+  fullName: TruckLib.ScsMap.Subcurve.TerrainRotation
+  nameWithType: Subcurve.TerrainRotation
+- uid: TruckLib.ScsMap.Subcurve.TerrainRotation*
+  name: TerrainRotation
+  href: api/TruckLib.ScsMap.Subcurve.html#TruckLib_ScsMap_Subcurve_TerrainRotation_
+  commentId: Overload:TruckLib.ScsMap.Subcurve.TerrainRotation
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Subcurve.TerrainRotation
+  nameWithType: Subcurve.TerrainRotation
 - uid: TruckLib.ScsMap.Terrain
   name: Terrain
   href: api/TruckLib.ScsMap.Terrain.html

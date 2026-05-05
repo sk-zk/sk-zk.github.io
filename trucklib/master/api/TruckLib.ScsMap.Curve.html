@@ -97,7 +97,7 @@ Class Curve  <a class="header-action link-secondary" title="View source" href="h
   <dl><dt>Assembly</dt><dd>TruckLib.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>A curve segment, which repeats one or more models along a path.</p>
+  <div class="markdown summary"><p>Repeats models along a path.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -220,7 +220,7 @@ Class Curve  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="TruckLib_ScsMap_Curve__ctor" data-uid="TruckLib.ScsMap.Curve.#ctor">
   Curve()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L144"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -312,43 +312,11 @@ Class Curve  <a class="header-action link-secondary" title="View source" href="h
 </h2>
 
 
-  <a id="TruckLib_ScsMap_Curve_CenterPartVariation_" data-uid="TruckLib.ScsMap.Curve.CenterPartVariation*"></a>
-
-  <h3 id="TruckLib_ScsMap_Curve_CenterPartVariation" data-uid="TruckLib.ScsMap.Curve.CenterPartVariation">
-  CenterPartVariation
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L65"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Unit name of the center part variation.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Token CenterPartVariation { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="TruckLib.Token.html">Token</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="TruckLib_ScsMap_Curve_Collision_" data-uid="TruckLib.ScsMap.Curve.Collision*"></a>
 
   <h3 id="TruckLib_ScsMap_Curve_Collision" data-uid="TruckLib.ScsMap.Curve.Collision">
   Collision
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L74"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets if collision is enabled.</p>
@@ -380,10 +348,11 @@ Class Curve  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="TruckLib_ScsMap_Curve_ColorVariant" data-uid="TruckLib.ScsMap.Curve.ColorVariant">
   ColorVariant
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L102"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>1-indexed color variant of the model. Set to 0 if there aren't any.</p>
+  <div class="markdown level1 summary"><p>1-indexed color variant of the models, shared across all subcurves.
+Set to 0 if there aren't any.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -476,7 +445,7 @@ Class Curve  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="TruckLib_ScsMap_Curve_DetailVegetation" data-uid="TruckLib.ScsMap.Curve.DetailVegetation">
   DetailVegetation
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L131"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets if detail vegetation (small clumps of grass etc.) is rendered
@@ -505,110 +474,11 @@ if the selected terrain material supports it.</p>
 
 
 
-  <a id="TruckLib_ScsMap_Curve_FirstPart_" data-uid="TruckLib.ScsMap.Curve.FirstPart*"></a>
-
-  <h3 id="TruckLib_ScsMap_Curve_FirstPart" data-uid="TruckLib.ScsMap.Curve.FirstPart">
-  FirstPart
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L60"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Unit name of the first part, if applicable.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Token FirstPart { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="TruckLib.Token.html">Token</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="TruckLib_ScsMap_Curve_FixedStep_" data-uid="TruckLib.ScsMap.Curve.FixedStep*"></a>
-
-  <h3 id="TruckLib_ScsMap_Curve_FixedStep" data-uid="TruckLib.ScsMap.Curve.FixedStep">
-  FixedStep
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L93"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>If not 0, the model will repeat every <i>n</i> meters, overriding the default.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float FixedStep { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="TruckLib_ScsMap_Curve_HeightOffsets_" data-uid="TruckLib.ScsMap.Curve.HeightOffsets*"></a>
-
-  <h3 id="TruckLib_ScsMap_Curve_HeightOffsets" data-uid="TruckLib.ScsMap.Curve.HeightOffsets">
-  HeightOffsets
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L111"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Height offsets for individual elements of the curve.</p>
-<p>Offsets are applied to elements in order. For instance, if you want
-the third element to have an offset of 5, the content of the list should be
-[0, 0, 5].</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;float&gt; HeightOffsets { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="TruckLib_ScsMap_Curve_IgnoreCutPlanes_" data-uid="TruckLib.ScsMap.Curve.IgnoreCutPlanes*"></a>
 
   <h3 id="TruckLib_ScsMap_Curve_IgnoreCutPlanes" data-uid="TruckLib.ScsMap.Curve.IgnoreCutPlanes">
   IgnoreCutPlanes
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L65"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets if this item will render behind a cut plane.</p>
@@ -617,38 +487,6 @@ the third element to have an offset of 5, the content of the list should be
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool IgnoreCutPlanes { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="TruckLib_ScsMap_Curve_InvertGeometry_" data-uid="TruckLib.ScsMap.Curve.InvertGeometry*"></a>
-
-  <h3 id="TruckLib_ScsMap_Curve_InvertGeometry" data-uid="TruckLib.ScsMap.Curve.InvertGeometry">
-  InvertGeometry
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L145"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Flips the model on the axis formed by the curve's two nodes.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool InvertGeometry { get; set; }</code></pre>
   </div>
 
 
@@ -700,46 +538,16 @@ the third element to have an offset of 5, the content of the list should be
 
 
 
-  <a id="TruckLib_ScsMap_Curve_LastPart_" data-uid="TruckLib.ScsMap.Curve.LastPart*"></a>
-
-  <h3 id="TruckLib_ScsMap_Curve_LastPart" data-uid="TruckLib.ScsMap.Curve.LastPart">
-  LastPart
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L70"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Unit name of the last part, if applicable.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Token LastPart { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="TruckLib.Token.html">Token</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="TruckLib_ScsMap_Curve_Locators_" data-uid="TruckLib.ScsMap.Curve.Locators*"></a>
 
   <h3 id="TruckLib_ScsMap_Curve_Locators" data-uid="TruckLib.ScsMap.Curve.Locators">
   Locators
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The helper nodes placed for the corresponding locators
+of the curve model.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -763,43 +571,11 @@ the third element to have an offset of 5, the content of the list should be
 
 
 
-  <a id="TruckLib_ScsMap_Curve_Look_" data-uid="TruckLib.ScsMap.Curve.Look*"></a>
-
-  <h3 id="TruckLib_ScsMap_Curve_Look" data-uid="TruckLib.ScsMap.Curve.Look">
-  Look
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L55"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Unit name of the model look.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Token Look { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="TruckLib.Token.html">Token</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="TruckLib_ScsMap_Curve_LowDetail_" data-uid="TruckLib.ScsMap.Curve.LowDetail*"></a>
 
   <h3 id="TruckLib_ScsMap_Curve_LowDetail" data-uid="TruckLib.ScsMap.Curve.LowDetail">
   LowDetail
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L111"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Forces the use of low LOD versions of models.</p>
@@ -831,7 +607,7 @@ the third element to have an offset of 5, the content of the list should be
 
   <h3 id="TruckLib_ScsMap_Curve_MirrorReflection" data-uid="TruckLib.ScsMap.Curve.MirrorReflection">
   MirrorReflection
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L92"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets if this item is visible in mirrors.</p>
@@ -859,139 +635,11 @@ the third element to have an offset of 5, the content of the list should be
 
 
 
-  <a id="TruckLib_ScsMap_Curve_Model_" data-uid="TruckLib.ScsMap.Curve.Model*"></a>
-
-  <h3 id="TruckLib_ScsMap_Curve_Model" data-uid="TruckLib.ScsMap.Curve.Model">
-  Model
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L50"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Unit name of the curve model, as defined in <code>/def/world/curve_model.sii</code>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Token Model { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="TruckLib.Token.html">Token</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="TruckLib_ScsMap_Curve_PerlinNoise_" data-uid="TruckLib.ScsMap.Curve.PerlinNoise*"></a>
-
-  <h3 id="TruckLib_ScsMap_Curve_PerlinNoise" data-uid="TruckLib.ScsMap.Curve.PerlinNoise">
-  PerlinNoise
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L165"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Gets or sets if vertices of the model are covered in a random tint noise.<br>
-That's what the editor tooltip says, anyway. I don't really see any difference.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool PerlinNoise { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="TruckLib_ScsMap_Curve_RandomSeed_" data-uid="TruckLib.ScsMap.Curve.RandomSeed*"></a>
-
-  <h3 id="TruckLib_ScsMap_Curve_RandomSeed" data-uid="TruckLib.ScsMap.Curve.RandomSeed">
-  RandomSeed
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L82"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public uint RandomSeed { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="TruckLib_ScsMap_Curve_Scale_" data-uid="TruckLib.ScsMap.Curve.Scale*"></a>
-
-  <h3 id="TruckLib_ScsMap_Curve_Scale" data-uid="TruckLib.ScsMap.Curve.Scale">
-  Scale
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L98"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Relative scale of the model.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Scale { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="TruckLib_ScsMap_Curve_Shadows_" data-uid="TruckLib.ScsMap.Curve.Shadows*"></a>
 
   <h3 id="TruckLib_ScsMap_Curve_Shadows" data-uid="TruckLib.ScsMap.Curve.Shadows">
   Shadows
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L83"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets if the item casts shadows.</p>
@@ -1019,20 +667,19 @@ That's what the editor tooltip says, anyway. I don't really see any difference.<
 
 
 
-  <a id="TruckLib_ScsMap_Curve_SteppedGeometry_" data-uid="TruckLib.ScsMap.Curve.SteppedGeometry*"></a>
+  <a id="TruckLib_ScsMap_Curve_Subcurves_" data-uid="TruckLib.ScsMap.Curve.Subcurves*"></a>
 
-  <h3 id="TruckLib_ScsMap_Curve_SteppedGeometry" data-uid="TruckLib.ScsMap.Curve.SteppedGeometry">
-  SteppedGeometry
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L155"><i class="bi bi-code-slash"></i></a>
+  <h3 id="TruckLib_ScsMap_Curve_Subcurves" data-uid="TruckLib.ScsMap.Curve.Subcurves">
+  Subcurves
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L142"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets or sets if elements of a sloped item are rendered like stair steps
-rather than being stretched along the path.</p>
+  <div class="markdown level1 summary"><p>The subcurves of this item.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool SteppedGeometry { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Subcurve[] Subcurves { get; }</code></pre>
   </div>
 
 
@@ -1041,136 +688,7 @@ rather than being stretched along the path.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="TruckLib_ScsMap_Curve_Stretch_" data-uid="TruckLib.ScsMap.Curve.Stretch*"></a>
-
-  <h3 id="TruckLib_ScsMap_Curve_Stretch" data-uid="TruckLib.ScsMap.Curve.Stretch">
-  Stretch
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L88"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Coefficient for stretching the scheme along the path. For some curves,
-this stretches the model; for others, it places its elements further apart.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Stretch { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="TruckLib_ScsMap_Curve_TerrainColor_" data-uid="TruckLib.ScsMap.Curve.TerrainColor*"></a>
-
-  <h3 id="TruckLib_ScsMap_Curve_TerrainColor" data-uid="TruckLib.ScsMap.Curve.TerrainColor">
-  TerrainColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L80"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Color tint of the terrain.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Color TerrainColor { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.color">Color</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="TruckLib_ScsMap_Curve_TerrainMaterial_" data-uid="TruckLib.ScsMap.Curve.TerrainMaterial*"></a>
-
-  <h3 id="TruckLib_ScsMap_Curve_TerrainMaterial" data-uid="TruckLib.ScsMap.Curve.TerrainMaterial">
-  TerrainMaterial
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L75"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Unit name of the terrain material, if applicable.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Token TerrainMaterial { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="TruckLib.Token.html">Token</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="TruckLib_ScsMap_Curve_TerrainRotation_" data-uid="TruckLib.ScsMap.Curve.TerrainRotation*"></a>
-
-  <h3 id="TruckLib_ScsMap_Curve_TerrainRotation" data-uid="TruckLib.ScsMap.Curve.TerrainRotation">
-  TerrainRotation
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L103"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>UV rotation of the terrain texture.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float TerrainRotation { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dt><a class="xref" href="TruckLib.ScsMap.Subcurve.html">Subcurve</a>[]</dt>
     <dd></dd>
   </dl>
 
@@ -1185,7 +703,7 @@ this stretches the model; for others, it places its elements further apart.</p>
 
   <h3 id="TruckLib_ScsMap_Curve_UseLinearPath" data-uid="TruckLib.ScsMap.Curve.UseLinearPath">
   UseLinearPath
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L211"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L121"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Makes the model follow a linear path from backward to forward node
@@ -1250,7 +768,7 @@ rather than the curved path created by the spline.</p>
 
   <h3 id="TruckLib_ScsMap_Curve_WaterReflection" data-uid="TruckLib.ScsMap.Curve.WaterReflection">
   WaterReflection
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets if the item is reflected on water surfaces.</p>
@@ -1286,7 +804,7 @@ rather than the curved path created by the spline.</p>
 
   <h3 id="TruckLib_ScsMap_Curve_Add_TruckLib_ScsMap_IItemContainer_System_Numerics_Vector3_System_Numerics_Vector3_TruckLib_Token_" data-uid="TruckLib.ScsMap.Curve.Add(TruckLib.ScsMap.IItemContainer,System.Numerics.Vector3,System.Numerics.Vector3,TruckLib.Token)">
   Add(IItemContainer, Vector3, Vector3, Token)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L254"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L168"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Adds a curve to the map.</p>
@@ -1334,7 +852,7 @@ rather than the curved path created by the spline.</p>
 
   <h3 id="TruckLib_ScsMap_Curve_Append_System_Numerics_Vector3_System_Boolean_" data-uid="TruckLib.ScsMap.Curve.Append(System.Numerics.Vector3,System.Boolean)">
   Append(Vector3, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L269"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L183"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Appends a curve segment to the end of this one.</p>
@@ -1378,7 +896,7 @@ same settings as this one. If false, the defaults will be used.</p>
 
   <h3 id="TruckLib_ScsMap_Curve_Append_System_Numerics_Vector3_TruckLib_Token_" data-uid="TruckLib.ScsMap.Curve.Append(System.Numerics.Vector3,TruckLib.Token)">
   Append(Vector3, Token)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L288"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L202"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Appends a curve segment to the end of this one.</p>
@@ -1421,7 +939,7 @@ of the new curve segment.</p>
 
   <h3 id="TruckLib_ScsMap_Curve_Init" data-uid="TruckLib.ScsMap.Curve.Init">
   Init()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L235"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L152"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sets the item's properties to its default values.</p>
@@ -1448,7 +966,7 @@ of the new curve segment.</p>
 
   <h3 id="TruckLib_ScsMap_Curve_Move_System_Numerics_Vector3_" data-uid="TruckLib.ScsMap.Curve.Move(System.Numerics.Vector3)">
   Move(Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L296"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L210"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Moves the item to a different location.</p>
@@ -1481,7 +999,7 @@ of the new curve segment.</p>
 
   <h3 id="TruckLib_ScsMap_Curve_Translate_System_Numerics_Vector3_" data-uid="TruckLib.ScsMap.Curve.Translate(System.Numerics.Vector3)">
   Translate(Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L307"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/ScsMap/Curve.cs/#L221"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Translates the item by the given vector.</p>

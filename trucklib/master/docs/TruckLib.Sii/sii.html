@@ -102,7 +102,7 @@ of the included files are relative to. (<code>Open</code> resolves this automati
 <pre><code class="lang-cs">SiiFile sii = SiiFile.Load(siiStr, &quot;/path/where/included/files/are/located&quot;);
 </code></pre>
 <p>If an included file does not exist, <code>FileNotFoundException</code> is thrown unless the <code>ignoreMissingIncludes</code> parameter is set to true.</p>
-<p>There are additional overloads which allow loading a .sii file directly from a .scs file using a
+<p>There are additional overloads which allow loading a SII file directly from a <code>.scs</code> archive using an
 <a href="../TruckLib.HashFs/reader.html"><code>IHashFsReader</code></a>:</p>
 <pre><code class="lang-cs">using TruckLib.HashFs;
 using TruckLib.Sii;
@@ -147,10 +147,10 @@ unit.Attributes.Add(&quot;corner1&quot;, new List&lt;Token&gt;{&quot;blke384&quo
 sii.Units.Add(unit);
 string siiStr = sii.Serialize();
 </code></pre>
-<p>You can also write it to disk using <a class="xref" href="../../api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Serialize_"><code>Save</code></a>:</p>
+<p>You can also write to disk directly using <a class="xref" href="../../api/TruckLib.Sii.SiiFile.html#TruckLib_Sii_SiiFile_Serialize_"><code>Save</code></a>:</p>
 <pre><code class="lang-cs">sii.Save(&quot;foo.sii&quot;);
 </code></pre>
-<p>Both methods have an optional parameter <code>indentation</code> which sets the indentation inside units. The default is <code>\t</code>.</p>
+<p>Both methods have an optional parameter <code>indentation</code> which sets the string to use as indentation inside units. Its default value is <code>\t</code>.</p>
 
 </article>
 
