@@ -220,6 +220,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.HashFs.HashFsReaderBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.HashFs.HashFsReaderBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.HashFsReaderBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.HashFs.HashFsV1Reader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.HashFs.HashFsV1Reader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.HashFsV1Reader",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TruckLib.HashFs.HashFsV1Writer.yml",
       "output": {
         ".html": {
@@ -231,6 +259,34 @@
       "IsMRef": true,
       "Title": "TruckLib.HashFs.HashFsV1Writer",
       "Summary": "<p sourcefile=\"api/TruckLib.HashFs.HashFsV1Writer.yml\" sourcestartlinenumber=\"1\">Creates a new HashFS v1 archive.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.HashFs.HashFsV2.EntryTableEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.HashFs.HashFsV2.EntryTableEntry.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.HashFsV2.EntryTableEntry",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.HashFs.HashFsV2.MetadataChunkType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.HashFs.HashFsV2.MetadataChunkType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.HashFsV2.MetadataChunkType",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -290,6 +346,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.HashFs.HashFsV2Reader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.HashFs.HashFsV2Reader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.HashFsV2Reader",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TruckLib.HashFs.HashFsV2Writer.yml",
       "output": {
         ".html": {
@@ -314,6 +384,48 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "TruckLib.HashFs.HashFsWriterBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.HashFs.Header.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.HashFs.Header.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.Header",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.HashFs.HeaderV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.HashFs.HeaderV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.HeaderV1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TruckLib.HashFs.HeaderV2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TruckLib.HashFs.HeaderV2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TruckLib.HashFs.HeaderV2",
       "Summary": null
     },
     {

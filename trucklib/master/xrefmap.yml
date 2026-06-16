@@ -1732,6 +1732,373 @@ references:
   isSpec: "True"
   fullName: TruckLib.HashFs.HashFsReader.Open
   nameWithType: HashFsReader.Open
+- uid: TruckLib.HashFs.HashFsReaderBase
+  name: HashFsReaderBase
+  href: api/TruckLib.HashFs.HashFsReaderBase.html
+  commentId: T:TruckLib.HashFs.HashFsReaderBase
+  fullName: TruckLib.HashFs.HashFsReaderBase
+  nameWithType: HashFsReaderBase
+- uid: TruckLib.HashFs.HashFsReaderBase.BaseReader
+  name: BaseReader
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_BaseReader
+  commentId: P:TruckLib.HashFs.HashFsReaderBase.BaseReader
+  fullName: TruckLib.HashFs.HashFsReaderBase.BaseReader
+  nameWithType: HashFsReaderBase.BaseReader
+- uid: TruckLib.HashFs.HashFsReaderBase.BaseReader*
+  name: BaseReader
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_BaseReader_
+  commentId: Overload:TruckLib.HashFs.HashFsReaderBase.BaseReader
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsReaderBase.BaseReader
+  nameWithType: HashFsReaderBase.BaseReader
+- uid: TruckLib.HashFs.HashFsReaderBase.CopyStream(System.IO.Stream,System.IO.Stream,System.Int64)
+  name: CopyStream(Stream, Stream, long)
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_CopyStream_System_IO_Stream_System_IO_Stream_System_Int64_
+  commentId: M:TruckLib.HashFs.HashFsReaderBase.CopyStream(System.IO.Stream,System.IO.Stream,System.Int64)
+  name.vb: CopyStream(Stream, Stream, Long)
+  fullName: TruckLib.HashFs.HashFsReaderBase.CopyStream(System.IO.Stream, System.IO.Stream, long)
+  fullName.vb: TruckLib.HashFs.HashFsReaderBase.CopyStream(System.IO.Stream, System.IO.Stream, Long)
+  nameWithType: HashFsReaderBase.CopyStream(Stream, Stream, long)
+  nameWithType.vb: HashFsReaderBase.CopyStream(Stream, Stream, Long)
+- uid: TruckLib.HashFs.HashFsReaderBase.CopyStream*
+  name: CopyStream
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_CopyStream_
+  commentId: Overload:TruckLib.HashFs.HashFsReaderBase.CopyStream
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsReaderBase.CopyStream
+  nameWithType: HashFsReaderBase.CopyStream
+- uid: TruckLib.HashFs.HashFsReaderBase.DecompressZLib(System.Byte[])
+  name: DecompressZLib(byte[])
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_DecompressZLib_System_Byte___
+  commentId: M:TruckLib.HashFs.HashFsReaderBase.DecompressZLib(System.Byte[])
+  name.vb: DecompressZLib(Byte())
+  fullName: TruckLib.HashFs.HashFsReaderBase.DecompressZLib(byte[])
+  fullName.vb: TruckLib.HashFs.HashFsReaderBase.DecompressZLib(Byte())
+  nameWithType: HashFsReaderBase.DecompressZLib(byte[])
+  nameWithType.vb: HashFsReaderBase.DecompressZLib(Byte())
+- uid: TruckLib.HashFs.HashFsReaderBase.DecompressZLib(System.IO.Stream)
+  name: DecompressZLib(Stream)
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_DecompressZLib_System_IO_Stream_
+  commentId: M:TruckLib.HashFs.HashFsReaderBase.DecompressZLib(System.IO.Stream)
+  fullName: TruckLib.HashFs.HashFsReaderBase.DecompressZLib(System.IO.Stream)
+  nameWithType: HashFsReaderBase.DecompressZLib(Stream)
+- uid: TruckLib.HashFs.HashFsReaderBase.DecompressZLib*
+  name: DecompressZLib
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_DecompressZLib_
+  commentId: Overload:TruckLib.HashFs.HashFsReaderBase.DecompressZLib
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsReaderBase.DecompressZLib
+  nameWithType: HashFsReaderBase.DecompressZLib
+- uid: TruckLib.HashFs.HashFsReaderBase.Dispose
+  name: Dispose()
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_Dispose
+  commentId: M:TruckLib.HashFs.HashFsReaderBase.Dispose
+  fullName: TruckLib.HashFs.HashFsReaderBase.Dispose()
+  nameWithType: HashFsReaderBase.Dispose()
+- uid: TruckLib.HashFs.HashFsReaderBase.Dispose*
+  name: Dispose
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_Dispose_
+  commentId: Overload:TruckLib.HashFs.HashFsReaderBase.Dispose
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsReaderBase.Dispose
+  nameWithType: HashFsReaderBase.Dispose
+- uid: TruckLib.HashFs.HashFsReaderBase.Entries
+  name: Entries
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_Entries
+  commentId: P:TruckLib.HashFs.HashFsReaderBase.Entries
+  fullName: TruckLib.HashFs.HashFsReaderBase.Entries
+  nameWithType: HashFsReaderBase.Entries
+- uid: TruckLib.HashFs.HashFsReaderBase.Entries*
+  name: Entries
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_Entries_
+  commentId: Overload:TruckLib.HashFs.HashFsReaderBase.Entries
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsReaderBase.Entries
+  nameWithType: HashFsReaderBase.Entries
+- uid: TruckLib.HashFs.HashFsReaderBase.EntryExists(System.String)
+  name: EntryExists(string)
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_EntryExists_System_String_
+  commentId: M:TruckLib.HashFs.HashFsReaderBase.EntryExists(System.String)
+  name.vb: EntryExists(String)
+  fullName: TruckLib.HashFs.HashFsReaderBase.EntryExists(string)
+  fullName.vb: TruckLib.HashFs.HashFsReaderBase.EntryExists(String)
+  nameWithType: HashFsReaderBase.EntryExists(string)
+  nameWithType.vb: HashFsReaderBase.EntryExists(String)
+- uid: TruckLib.HashFs.HashFsReaderBase.EntryExists*
+  name: EntryExists
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_EntryExists_
+  commentId: Overload:TruckLib.HashFs.HashFsReaderBase.EntryExists
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsReaderBase.EntryExists
+  nameWithType: HashFsReaderBase.EntryExists
+- uid: TruckLib.HashFs.HashFsReaderBase.Extract(System.String)
+  name: Extract(string)
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_Extract_System_String_
+  commentId: M:TruckLib.HashFs.HashFsReaderBase.Extract(System.String)
+  name.vb: Extract(String)
+  fullName: TruckLib.HashFs.HashFsReaderBase.Extract(string)
+  fullName.vb: TruckLib.HashFs.HashFsReaderBase.Extract(String)
+  nameWithType: HashFsReaderBase.Extract(string)
+  nameWithType.vb: HashFsReaderBase.Extract(String)
+- uid: TruckLib.HashFs.HashFsReaderBase.Extract(TruckLib.HashFs.IEntry,System.String)
+  name: Extract(IEntry, string)
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_Extract_TruckLib_HashFs_IEntry_System_String_
+  commentId: M:TruckLib.HashFs.HashFsReaderBase.Extract(TruckLib.HashFs.IEntry,System.String)
+  name.vb: Extract(IEntry, String)
+  fullName: TruckLib.HashFs.HashFsReaderBase.Extract(TruckLib.HashFs.IEntry, string)
+  fullName.vb: TruckLib.HashFs.HashFsReaderBase.Extract(TruckLib.HashFs.IEntry, String)
+  nameWithType: HashFsReaderBase.Extract(IEntry, string)
+  nameWithType.vb: HashFsReaderBase.Extract(IEntry, String)
+- uid: TruckLib.HashFs.HashFsReaderBase.Extract*
+  name: Extract
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_Extract_
+  commentId: Overload:TruckLib.HashFs.HashFsReaderBase.Extract
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsReaderBase.Extract
+  nameWithType: HashFsReaderBase.Extract
+- uid: TruckLib.HashFs.HashFsReaderBase.ExtractToFile(System.String,System.String)
+  name: ExtractToFile(string, string)
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_ExtractToFile_System_String_System_String_
+  commentId: M:TruckLib.HashFs.HashFsReaderBase.ExtractToFile(System.String,System.String)
+  name.vb: ExtractToFile(String, String)
+  fullName: TruckLib.HashFs.HashFsReaderBase.ExtractToFile(string, string)
+  fullName.vb: TruckLib.HashFs.HashFsReaderBase.ExtractToFile(String, String)
+  nameWithType: HashFsReaderBase.ExtractToFile(string, string)
+  nameWithType.vb: HashFsReaderBase.ExtractToFile(String, String)
+- uid: TruckLib.HashFs.HashFsReaderBase.ExtractToFile(TruckLib.HashFs.IEntry,System.String,System.String)
+  name: ExtractToFile(IEntry, string, string)
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_ExtractToFile_TruckLib_HashFs_IEntry_System_String_System_String_
+  commentId: M:TruckLib.HashFs.HashFsReaderBase.ExtractToFile(TruckLib.HashFs.IEntry,System.String,System.String)
+  name.vb: ExtractToFile(IEntry, String, String)
+  fullName: TruckLib.HashFs.HashFsReaderBase.ExtractToFile(TruckLib.HashFs.IEntry, string, string)
+  fullName.vb: TruckLib.HashFs.HashFsReaderBase.ExtractToFile(TruckLib.HashFs.IEntry, String, String)
+  nameWithType: HashFsReaderBase.ExtractToFile(IEntry, string, string)
+  nameWithType.vb: HashFsReaderBase.ExtractToFile(IEntry, String, String)
+- uid: TruckLib.HashFs.HashFsReaderBase.ExtractToFile*
+  name: ExtractToFile
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_ExtractToFile_
+  commentId: Overload:TruckLib.HashFs.HashFsReaderBase.ExtractToFile
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsReaderBase.ExtractToFile
+  nameWithType: HashFsReaderBase.ExtractToFile
+- uid: TruckLib.HashFs.HashFsReaderBase.GetDirectoryListing(System.String,System.Boolean,System.Boolean)
+  name: GetDirectoryListing(string, bool, bool)
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_GetDirectoryListing_System_String_System_Boolean_System_Boolean_
+  commentId: M:TruckLib.HashFs.HashFsReaderBase.GetDirectoryListing(System.String,System.Boolean,System.Boolean)
+  name.vb: GetDirectoryListing(String, Boolean, Boolean)
+  fullName: TruckLib.HashFs.HashFsReaderBase.GetDirectoryListing(string, bool, bool)
+  fullName.vb: TruckLib.HashFs.HashFsReaderBase.GetDirectoryListing(String, Boolean, Boolean)
+  nameWithType: HashFsReaderBase.GetDirectoryListing(string, bool, bool)
+  nameWithType.vb: HashFsReaderBase.GetDirectoryListing(String, Boolean, Boolean)
+- uid: TruckLib.HashFs.HashFsReaderBase.GetDirectoryListing(TruckLib.HashFs.IEntry,System.Boolean)
+  name: GetDirectoryListing(IEntry, bool)
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_GetDirectoryListing_TruckLib_HashFs_IEntry_System_Boolean_
+  commentId: M:TruckLib.HashFs.HashFsReaderBase.GetDirectoryListing(TruckLib.HashFs.IEntry,System.Boolean)
+  name.vb: GetDirectoryListing(IEntry, Boolean)
+  fullName: TruckLib.HashFs.HashFsReaderBase.GetDirectoryListing(TruckLib.HashFs.IEntry, bool)
+  fullName.vb: TruckLib.HashFs.HashFsReaderBase.GetDirectoryListing(TruckLib.HashFs.IEntry, Boolean)
+  nameWithType: HashFsReaderBase.GetDirectoryListing(IEntry, bool)
+  nameWithType.vb: HashFsReaderBase.GetDirectoryListing(IEntry, Boolean)
+- uid: TruckLib.HashFs.HashFsReaderBase.GetDirectoryListing*
+  name: GetDirectoryListing
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_GetDirectoryListing_
+  commentId: Overload:TruckLib.HashFs.HashFsReaderBase.GetDirectoryListing
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsReaderBase.GetDirectoryListing
+  nameWithType: HashFsReaderBase.GetDirectoryListing
+- uid: TruckLib.HashFs.HashFsReaderBase.GetEntry(System.String)
+  name: GetEntry(string)
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_GetEntry_System_String_
+  commentId: M:TruckLib.HashFs.HashFsReaderBase.GetEntry(System.String)
+  name.vb: GetEntry(String)
+  fullName: TruckLib.HashFs.HashFsReaderBase.GetEntry(string)
+  fullName.vb: TruckLib.HashFs.HashFsReaderBase.GetEntry(String)
+  nameWithType: HashFsReaderBase.GetEntry(string)
+  nameWithType.vb: HashFsReaderBase.GetEntry(String)
+- uid: TruckLib.HashFs.HashFsReaderBase.GetEntry*
+  name: GetEntry
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_GetEntry_
+  commentId: Overload:TruckLib.HashFs.HashFsReaderBase.GetEntry
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsReaderBase.GetEntry
+  nameWithType: HashFsReaderBase.GetEntry
+- uid: TruckLib.HashFs.HashFsReaderBase.GetEntryContent(TruckLib.HashFs.IEntry)
+  name: GetEntryContent(IEntry)
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_GetEntryContent_TruckLib_HashFs_IEntry_
+  commentId: M:TruckLib.HashFs.HashFsReaderBase.GetEntryContent(TruckLib.HashFs.IEntry)
+  fullName: TruckLib.HashFs.HashFsReaderBase.GetEntryContent(TruckLib.HashFs.IEntry)
+  nameWithType: HashFsReaderBase.GetEntryContent(IEntry)
+- uid: TruckLib.HashFs.HashFsReaderBase.GetEntryContent*
+  name: GetEntryContent
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_GetEntryContent_
+  commentId: Overload:TruckLib.HashFs.HashFsReaderBase.GetEntryContent
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsReaderBase.GetEntryContent
+  nameWithType: HashFsReaderBase.GetEntryContent
+- uid: TruckLib.HashFs.HashFsReaderBase.HashPath(System.String)
+  name: HashPath(string)
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_HashPath_System_String_
+  commentId: M:TruckLib.HashFs.HashFsReaderBase.HashPath(System.String)
+  name.vb: HashPath(String)
+  fullName: TruckLib.HashFs.HashFsReaderBase.HashPath(string)
+  fullName.vb: TruckLib.HashFs.HashFsReaderBase.HashPath(String)
+  nameWithType: HashFsReaderBase.HashPath(string)
+  nameWithType.vb: HashFsReaderBase.HashPath(String)
+- uid: TruckLib.HashFs.HashFsReaderBase.HashPath*
+  name: HashPath
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_HashPath_
+  commentId: Overload:TruckLib.HashFs.HashFsReaderBase.HashPath
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsReaderBase.HashPath
+  nameWithType: HashFsReaderBase.HashPath
+- uid: TruckLib.HashFs.HashFsReaderBase.MakePathsAbsolute(System.String,System.Collections.Generic.List{System.String})
+  name: MakePathsAbsolute(string, List<string>)
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_MakePathsAbsolute_System_String_System_Collections_Generic_List_System_String__
+  commentId: M:TruckLib.HashFs.HashFsReaderBase.MakePathsAbsolute(System.String,System.Collections.Generic.List{System.String})
+  name.vb: MakePathsAbsolute(String, List(Of String))
+  fullName: TruckLib.HashFs.HashFsReaderBase.MakePathsAbsolute(string, System.Collections.Generic.List<string>)
+  fullName.vb: TruckLib.HashFs.HashFsReaderBase.MakePathsAbsolute(String, System.Collections.Generic.List(Of String))
+  nameWithType: HashFsReaderBase.MakePathsAbsolute(string, List<string>)
+  nameWithType.vb: HashFsReaderBase.MakePathsAbsolute(String, List(Of String))
+- uid: TruckLib.HashFs.HashFsReaderBase.MakePathsAbsolute*
+  name: MakePathsAbsolute
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_MakePathsAbsolute_
+  commentId: Overload:TruckLib.HashFs.HashFsReaderBase.MakePathsAbsolute
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsReaderBase.MakePathsAbsolute
+  nameWithType: HashFsReaderBase.MakePathsAbsolute
+- uid: TruckLib.HashFs.HashFsReaderBase.Reader
+  name: Reader
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_Reader
+  commentId: P:TruckLib.HashFs.HashFsReaderBase.Reader
+  fullName: TruckLib.HashFs.HashFsReaderBase.Reader
+  nameWithType: HashFsReaderBase.Reader
+- uid: TruckLib.HashFs.HashFsReaderBase.Reader*
+  name: Reader
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_Reader_
+  commentId: Overload:TruckLib.HashFs.HashFsReaderBase.Reader
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsReaderBase.Reader
+  nameWithType: HashFsReaderBase.Reader
+- uid: TruckLib.HashFs.HashFsReaderBase.RemoveTrailingSlash(System.String)
+  name: RemoveTrailingSlash(string)
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_RemoveTrailingSlash_System_String_
+  commentId: M:TruckLib.HashFs.HashFsReaderBase.RemoveTrailingSlash(System.String)
+  name.vb: RemoveTrailingSlash(String)
+  fullName: TruckLib.HashFs.HashFsReaderBase.RemoveTrailingSlash(string)
+  fullName.vb: TruckLib.HashFs.HashFsReaderBase.RemoveTrailingSlash(String)
+  nameWithType: HashFsReaderBase.RemoveTrailingSlash(string)
+  nameWithType.vb: HashFsReaderBase.RemoveTrailingSlash(String)
+- uid: TruckLib.HashFs.HashFsReaderBase.RemoveTrailingSlash*
+  name: RemoveTrailingSlash
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_RemoveTrailingSlash_
+  commentId: Overload:TruckLib.HashFs.HashFsReaderBase.RemoveTrailingSlash
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsReaderBase.RemoveTrailingSlash
+  nameWithType: HashFsReaderBase.RemoveTrailingSlash
+- uid: TruckLib.HashFs.HashFsReaderBase.Salt
+  name: Salt
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_Salt
+  commentId: P:TruckLib.HashFs.HashFsReaderBase.Salt
+  fullName: TruckLib.HashFs.HashFsReaderBase.Salt
+  nameWithType: HashFsReaderBase.Salt
+- uid: TruckLib.HashFs.HashFsReaderBase.Salt*
+  name: Salt
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_Salt_
+  commentId: Overload:TruckLib.HashFs.HashFsReaderBase.Salt
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsReaderBase.Salt
+  nameWithType: HashFsReaderBase.Salt
+- uid: TruckLib.HashFs.HashFsReaderBase.TryGetEntry(System.String,TruckLib.HashFs.IEntry@)
+  name: TryGetEntry(string, out IEntry)
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_TryGetEntry_System_String_TruckLib_HashFs_IEntry__
+  commentId: M:TruckLib.HashFs.HashFsReaderBase.TryGetEntry(System.String,TruckLib.HashFs.IEntry@)
+  name.vb: TryGetEntry(String, IEntry)
+  fullName: TruckLib.HashFs.HashFsReaderBase.TryGetEntry(string, out TruckLib.HashFs.IEntry)
+  fullName.vb: TruckLib.HashFs.HashFsReaderBase.TryGetEntry(String, TruckLib.HashFs.IEntry)
+  nameWithType: HashFsReaderBase.TryGetEntry(string, out IEntry)
+  nameWithType.vb: HashFsReaderBase.TryGetEntry(String, IEntry)
+- uid: TruckLib.HashFs.HashFsReaderBase.TryGetEntry*
+  name: TryGetEntry
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_TryGetEntry_
+  commentId: Overload:TruckLib.HashFs.HashFsReaderBase.TryGetEntry
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsReaderBase.TryGetEntry
+  nameWithType: HashFsReaderBase.TryGetEntry
+- uid: TruckLib.HashFs.HashFsReaderBase.Version
+  name: Version
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_Version
+  commentId: P:TruckLib.HashFs.HashFsReaderBase.Version
+  fullName: TruckLib.HashFs.HashFsReaderBase.Version
+  nameWithType: HashFsReaderBase.Version
+- uid: TruckLib.HashFs.HashFsReaderBase.Version*
+  name: Version
+  href: api/TruckLib.HashFs.HashFsReaderBase.html#TruckLib_HashFs_HashFsReaderBase_Version_
+  commentId: Overload:TruckLib.HashFs.HashFsReaderBase.Version
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsReaderBase.Version
+  nameWithType: HashFsReaderBase.Version
+- uid: TruckLib.HashFs.HashFsV1Reader
+  name: HashFsV1Reader
+  href: api/TruckLib.HashFs.HashFsV1Reader.html
+  commentId: T:TruckLib.HashFs.HashFsV1Reader
+  fullName: TruckLib.HashFs.HashFsV1Reader
+  nameWithType: HashFsV1Reader
+- uid: TruckLib.HashFs.HashFsV1Reader.GetDirectoryListing(TruckLib.HashFs.IEntry,System.Boolean)
+  name: GetDirectoryListing(IEntry, bool)
+  href: api/TruckLib.HashFs.HashFsV1Reader.html#TruckLib_HashFs_HashFsV1Reader_GetDirectoryListing_TruckLib_HashFs_IEntry_System_Boolean_
+  commentId: M:TruckLib.HashFs.HashFsV1Reader.GetDirectoryListing(TruckLib.HashFs.IEntry,System.Boolean)
+  name.vb: GetDirectoryListing(IEntry, Boolean)
+  fullName: TruckLib.HashFs.HashFsV1Reader.GetDirectoryListing(TruckLib.HashFs.IEntry, bool)
+  fullName.vb: TruckLib.HashFs.HashFsV1Reader.GetDirectoryListing(TruckLib.HashFs.IEntry, Boolean)
+  nameWithType: HashFsV1Reader.GetDirectoryListing(IEntry, bool)
+  nameWithType.vb: HashFsV1Reader.GetDirectoryListing(IEntry, Boolean)
+- uid: TruckLib.HashFs.HashFsV1Reader.GetDirectoryListing*
+  name: GetDirectoryListing
+  href: api/TruckLib.HashFs.HashFsV1Reader.html#TruckLib_HashFs_HashFsV1Reader_GetDirectoryListing_
+  commentId: Overload:TruckLib.HashFs.HashFsV1Reader.GetDirectoryListing
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsV1Reader.GetDirectoryListing
+  nameWithType: HashFsV1Reader.GetDirectoryListing
+- uid: TruckLib.HashFs.HashFsV1Reader.Header
+  name: Header
+  href: api/TruckLib.HashFs.HashFsV1Reader.html#TruckLib_HashFs_HashFsV1Reader_Header
+  commentId: P:TruckLib.HashFs.HashFsV1Reader.Header
+  fullName: TruckLib.HashFs.HashFsV1Reader.Header
+  nameWithType: HashFsV1Reader.Header
+- uid: TruckLib.HashFs.HashFsV1Reader.Header*
+  name: Header
+  href: api/TruckLib.HashFs.HashFsV1Reader.html#TruckLib_HashFs_HashFsV1Reader_Header_
+  commentId: Overload:TruckLib.HashFs.HashFsV1Reader.Header
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsV1Reader.Header
+  nameWithType: HashFsV1Reader.Header
+- uid: TruckLib.HashFs.HashFsV1Reader.Salt
+  name: Salt
+  href: api/TruckLib.HashFs.HashFsV1Reader.html#TruckLib_HashFs_HashFsV1Reader_Salt
+  commentId: P:TruckLib.HashFs.HashFsV1Reader.Salt
+  fullName: TruckLib.HashFs.HashFsV1Reader.Salt
+  nameWithType: HashFsV1Reader.Salt
+- uid: TruckLib.HashFs.HashFsV1Reader.Salt*
+  name: Salt
+  href: api/TruckLib.HashFs.HashFsV1Reader.html#TruckLib_HashFs_HashFsV1Reader_Salt_
+  commentId: Overload:TruckLib.HashFs.HashFsV1Reader.Salt
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsV1Reader.Salt
+  nameWithType: HashFsV1Reader.Salt
+- uid: TruckLib.HashFs.HashFsV1Reader.Version
+  name: Version
+  href: api/TruckLib.HashFs.HashFsV1Reader.html#TruckLib_HashFs_HashFsV1Reader_Version
+  commentId: P:TruckLib.HashFs.HashFsV1Reader.Version
+  fullName: TruckLib.HashFs.HashFsV1Reader.Version
+  nameWithType: HashFsV1Reader.Version
+- uid: TruckLib.HashFs.HashFsV1Reader.Version*
+  name: Version
+  href: api/TruckLib.HashFs.HashFsV1Reader.html#TruckLib_HashFs_HashFsV1Reader_Version_
+  commentId: Overload:TruckLib.HashFs.HashFsV1Reader.Version
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsV1Reader.Version
+  nameWithType: HashFsV1Reader.Version
 - uid: TruckLib.HashFs.HashFsV1Writer
   name: HashFsV1Writer
   href: api/TruckLib.HashFs.HashFsV1Writer.html
@@ -1779,6 +2146,102 @@ references:
   commentId: N:TruckLib.HashFs.HashFsV2
   fullName: TruckLib.HashFs.HashFsV2
   nameWithType: TruckLib.HashFs.HashFsV2
+- uid: TruckLib.HashFs.HashFsV2.EntryTableEntry
+  name: EntryTableEntry
+  href: api/TruckLib.HashFs.HashFsV2.EntryTableEntry.html
+  commentId: T:TruckLib.HashFs.HashFsV2.EntryTableEntry
+  fullName: TruckLib.HashFs.HashFsV2.EntryTableEntry
+  nameWithType: EntryTableEntry
+- uid: TruckLib.HashFs.HashFsV2.EntryTableEntry.Flags
+  name: Flags
+  href: api/TruckLib.HashFs.HashFsV2.EntryTableEntry.html#TruckLib_HashFs_HashFsV2_EntryTableEntry_Flags
+  commentId: F:TruckLib.HashFs.HashFsV2.EntryTableEntry.Flags
+  fullName: TruckLib.HashFs.HashFsV2.EntryTableEntry.Flags
+  nameWithType: EntryTableEntry.Flags
+- uid: TruckLib.HashFs.HashFsV2.EntryTableEntry.Hash
+  name: Hash
+  href: api/TruckLib.HashFs.HashFsV2.EntryTableEntry.html#TruckLib_HashFs_HashFsV2_EntryTableEntry_Hash
+  commentId: F:TruckLib.HashFs.HashFsV2.EntryTableEntry.Hash
+  fullName: TruckLib.HashFs.HashFsV2.EntryTableEntry.Hash
+  nameWithType: EntryTableEntry.Hash
+- uid: TruckLib.HashFs.HashFsV2.EntryTableEntry.MetadataCount
+  name: MetadataCount
+  href: api/TruckLib.HashFs.HashFsV2.EntryTableEntry.html#TruckLib_HashFs_HashFsV2_EntryTableEntry_MetadataCount
+  commentId: F:TruckLib.HashFs.HashFsV2.EntryTableEntry.MetadataCount
+  fullName: TruckLib.HashFs.HashFsV2.EntryTableEntry.MetadataCount
+  nameWithType: EntryTableEntry.MetadataCount
+- uid: TruckLib.HashFs.HashFsV2.EntryTableEntry.MetadataIndex
+  name: MetadataIndex
+  href: api/TruckLib.HashFs.HashFsV2.EntryTableEntry.html#TruckLib_HashFs_HashFsV2_EntryTableEntry_MetadataIndex
+  commentId: F:TruckLib.HashFs.HashFsV2.EntryTableEntry.MetadataIndex
+  fullName: TruckLib.HashFs.HashFsV2.EntryTableEntry.MetadataIndex
+  nameWithType: EntryTableEntry.MetadataIndex
+- uid: TruckLib.HashFs.HashFsV2.MetadataChunkType
+  name: MetadataChunkType
+  href: api/TruckLib.HashFs.HashFsV2.MetadataChunkType.html
+  commentId: T:TruckLib.HashFs.HashFsV2.MetadataChunkType
+  fullName: TruckLib.HashFs.HashFsV2.MetadataChunkType
+  nameWithType: MetadataChunkType
+- uid: TruckLib.HashFs.HashFsV2.MetadataChunkType.Directory
+  name: Directory
+  href: api/TruckLib.HashFs.HashFsV2.MetadataChunkType.html#TruckLib_HashFs_HashFsV2_MetadataChunkType_Directory
+  commentId: F:TruckLib.HashFs.HashFsV2.MetadataChunkType.Directory
+  fullName: TruckLib.HashFs.HashFsV2.MetadataChunkType.Directory
+  nameWithType: MetadataChunkType.Directory
+- uid: TruckLib.HashFs.HashFsV2.MetadataChunkType.Image
+  name: Image
+  href: api/TruckLib.HashFs.HashFsV2.MetadataChunkType.html#TruckLib_HashFs_HashFsV2_MetadataChunkType_Image
+  commentId: F:TruckLib.HashFs.HashFsV2.MetadataChunkType.Image
+  fullName: TruckLib.HashFs.HashFsV2.MetadataChunkType.Image
+  nameWithType: MetadataChunkType.Image
+- uid: TruckLib.HashFs.HashFsV2.MetadataChunkType.InlineDirectory
+  name: InlineDirectory
+  href: api/TruckLib.HashFs.HashFsV2.MetadataChunkType.html#TruckLib_HashFs_HashFsV2_MetadataChunkType_InlineDirectory
+  commentId: F:TruckLib.HashFs.HashFsV2.MetadataChunkType.InlineDirectory
+  fullName: TruckLib.HashFs.HashFsV2.MetadataChunkType.InlineDirectory
+  nameWithType: MetadataChunkType.InlineDirectory
+- uid: TruckLib.HashFs.HashFsV2.MetadataChunkType.Mip0
+  name: Mip0
+  href: api/TruckLib.HashFs.HashFsV2.MetadataChunkType.html#TruckLib_HashFs_HashFsV2_MetadataChunkType_Mip0
+  commentId: F:TruckLib.HashFs.HashFsV2.MetadataChunkType.Mip0
+  fullName: TruckLib.HashFs.HashFsV2.MetadataChunkType.Mip0
+  nameWithType: MetadataChunkType.Mip0
+- uid: TruckLib.HashFs.HashFsV2.MetadataChunkType.Mip1
+  name: Mip1
+  href: api/TruckLib.HashFs.HashFsV2.MetadataChunkType.html#TruckLib_HashFs_HashFsV2_MetadataChunkType_Mip1
+  commentId: F:TruckLib.HashFs.HashFsV2.MetadataChunkType.Mip1
+  fullName: TruckLib.HashFs.HashFsV2.MetadataChunkType.Mip1
+  nameWithType: MetadataChunkType.Mip1
+- uid: TruckLib.HashFs.HashFsV2.MetadataChunkType.MipProxy
+  name: MipProxy
+  href: api/TruckLib.HashFs.HashFsV2.MetadataChunkType.html#TruckLib_HashFs_HashFsV2_MetadataChunkType_MipProxy
+  commentId: F:TruckLib.HashFs.HashFsV2.MetadataChunkType.MipProxy
+  fullName: TruckLib.HashFs.HashFsV2.MetadataChunkType.MipProxy
+  nameWithType: MetadataChunkType.MipProxy
+- uid: TruckLib.HashFs.HashFsV2.MetadataChunkType.MipTail
+  name: MipTail
+  href: api/TruckLib.HashFs.HashFsV2.MetadataChunkType.html#TruckLib_HashFs_HashFsV2_MetadataChunkType_MipTail
+  commentId: F:TruckLib.HashFs.HashFsV2.MetadataChunkType.MipTail
+  fullName: TruckLib.HashFs.HashFsV2.MetadataChunkType.MipTail
+  nameWithType: MetadataChunkType.MipTail
+- uid: TruckLib.HashFs.HashFsV2.MetadataChunkType.Plain
+  name: Plain
+  href: api/TruckLib.HashFs.HashFsV2.MetadataChunkType.html#TruckLib_HashFs_HashFsV2_MetadataChunkType_Plain
+  commentId: F:TruckLib.HashFs.HashFsV2.MetadataChunkType.Plain
+  fullName: TruckLib.HashFs.HashFsV2.MetadataChunkType.Plain
+  nameWithType: MetadataChunkType.Plain
+- uid: TruckLib.HashFs.HashFsV2.MetadataChunkType.Sample
+  name: Sample
+  href: api/TruckLib.HashFs.HashFsV2.MetadataChunkType.html#TruckLib_HashFs_HashFsV2_MetadataChunkType_Sample
+  commentId: F:TruckLib.HashFs.HashFsV2.MetadataChunkType.Sample
+  fullName: TruckLib.HashFs.HashFsV2.MetadataChunkType.Sample
+  nameWithType: MetadataChunkType.Sample
+- uid: TruckLib.HashFs.HashFsV2.MetadataChunkType.Unknown6
+  name: Unknown6
+  href: api/TruckLib.HashFs.HashFsV2.MetadataChunkType.html#TruckLib_HashFs_HashFsV2_MetadataChunkType_Unknown6
+  commentId: F:TruckLib.HashFs.HashFsV2.MetadataChunkType.Unknown6
+  fullName: TruckLib.HashFs.HashFsV2.MetadataChunkType.Unknown6
+  nameWithType: MetadataChunkType.Unknown6
 - uid: TruckLib.HashFs.HashFsV2.PackedTobjDdsMetadata
   name: PackedTobjDdsMetadata
   href: api/TruckLib.HashFs.HashFsV2.PackedTobjDdsMetadata.html
@@ -2072,6 +2535,125 @@ references:
   isSpec: "True"
   fullName: TruckLib.HashFs.HashFsV2.TexturePackingException.TobjPath
   nameWithType: TexturePackingException.TobjPath
+- uid: TruckLib.HashFs.HashFsV2Reader
+  name: HashFsV2Reader
+  href: api/TruckLib.HashFs.HashFsV2Reader.html
+  commentId: T:TruckLib.HashFs.HashFsV2Reader
+  fullName: TruckLib.HashFs.HashFsV2Reader
+  nameWithType: HashFsV2Reader
+- uid: TruckLib.HashFs.HashFsV2Reader.Extract(TruckLib.HashFs.IEntry,System.String)
+  name: Extract(IEntry, string)
+  href: api/TruckLib.HashFs.HashFsV2Reader.html#TruckLib_HashFs_HashFsV2Reader_Extract_TruckLib_HashFs_IEntry_System_String_
+  commentId: M:TruckLib.HashFs.HashFsV2Reader.Extract(TruckLib.HashFs.IEntry,System.String)
+  name.vb: Extract(IEntry, String)
+  fullName: TruckLib.HashFs.HashFsV2Reader.Extract(TruckLib.HashFs.IEntry, string)
+  fullName.vb: TruckLib.HashFs.HashFsV2Reader.Extract(TruckLib.HashFs.IEntry, String)
+  nameWithType: HashFsV2Reader.Extract(IEntry, string)
+  nameWithType.vb: HashFsV2Reader.Extract(IEntry, String)
+- uid: TruckLib.HashFs.HashFsV2Reader.Extract*
+  name: Extract
+  href: api/TruckLib.HashFs.HashFsV2Reader.html#TruckLib_HashFs_HashFsV2Reader_Extract_
+  commentId: Overload:TruckLib.HashFs.HashFsV2Reader.Extract
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsV2Reader.Extract
+  nameWithType: HashFsV2Reader.Extract
+- uid: TruckLib.HashFs.HashFsV2Reader.ExtractToFile(TruckLib.HashFs.IEntry,System.String,System.String)
+  name: ExtractToFile(IEntry, string, string)
+  href: api/TruckLib.HashFs.HashFsV2Reader.html#TruckLib_HashFs_HashFsV2Reader_ExtractToFile_TruckLib_HashFs_IEntry_System_String_System_String_
+  commentId: M:TruckLib.HashFs.HashFsV2Reader.ExtractToFile(TruckLib.HashFs.IEntry,System.String,System.String)
+  name.vb: ExtractToFile(IEntry, String, String)
+  fullName: TruckLib.HashFs.HashFsV2Reader.ExtractToFile(TruckLib.HashFs.IEntry, string, string)
+  fullName.vb: TruckLib.HashFs.HashFsV2Reader.ExtractToFile(TruckLib.HashFs.IEntry, String, String)
+  nameWithType: HashFsV2Reader.ExtractToFile(IEntry, string, string)
+  nameWithType.vb: HashFsV2Reader.ExtractToFile(IEntry, String, String)
+- uid: TruckLib.HashFs.HashFsV2Reader.ExtractToFile*
+  name: ExtractToFile
+  href: api/TruckLib.HashFs.HashFsV2Reader.html#TruckLib_HashFs_HashFsV2Reader_ExtractToFile_
+  commentId: Overload:TruckLib.HashFs.HashFsV2Reader.ExtractToFile
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsV2Reader.ExtractToFile
+  nameWithType: HashFsV2Reader.ExtractToFile
+- uid: TruckLib.HashFs.HashFsV2Reader.GetDirectoryListing(TruckLib.HashFs.IEntry,System.Boolean)
+  name: GetDirectoryListing(IEntry, bool)
+  href: api/TruckLib.HashFs.HashFsV2Reader.html#TruckLib_HashFs_HashFsV2Reader_GetDirectoryListing_TruckLib_HashFs_IEntry_System_Boolean_
+  commentId: M:TruckLib.HashFs.HashFsV2Reader.GetDirectoryListing(TruckLib.HashFs.IEntry,System.Boolean)
+  name.vb: GetDirectoryListing(IEntry, Boolean)
+  fullName: TruckLib.HashFs.HashFsV2Reader.GetDirectoryListing(TruckLib.HashFs.IEntry, bool)
+  fullName.vb: TruckLib.HashFs.HashFsV2Reader.GetDirectoryListing(TruckLib.HashFs.IEntry, Boolean)
+  nameWithType: HashFsV2Reader.GetDirectoryListing(IEntry, bool)
+  nameWithType.vb: HashFsV2Reader.GetDirectoryListing(IEntry, Boolean)
+- uid: TruckLib.HashFs.HashFsV2Reader.GetDirectoryListing*
+  name: GetDirectoryListing
+  href: api/TruckLib.HashFs.HashFsV2Reader.html#TruckLib_HashFs_HashFsV2Reader_GetDirectoryListing_
+  commentId: Overload:TruckLib.HashFs.HashFsV2Reader.GetDirectoryListing
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsV2Reader.GetDirectoryListing
+  nameWithType: HashFsV2Reader.GetDirectoryListing
+- uid: TruckLib.HashFs.HashFsV2Reader.Header
+  name: Header
+  href: api/TruckLib.HashFs.HashFsV2Reader.html#TruckLib_HashFs_HashFsV2Reader_Header
+  commentId: P:TruckLib.HashFs.HashFsV2Reader.Header
+  fullName: TruckLib.HashFs.HashFsV2Reader.Header
+  nameWithType: HashFsV2Reader.Header
+- uid: TruckLib.HashFs.HashFsV2Reader.Header*
+  name: Header
+  href: api/TruckLib.HashFs.HashFsV2Reader.html#TruckLib_HashFs_HashFsV2Reader_Header_
+  commentId: Overload:TruckLib.HashFs.HashFsV2Reader.Header
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsV2Reader.Header
+  nameWithType: HashFsV2Reader.Header
+- uid: TruckLib.HashFs.HashFsV2Reader.Platform
+  name: Platform
+  href: api/TruckLib.HashFs.HashFsV2Reader.html#TruckLib_HashFs_HashFsV2Reader_Platform
+  commentId: P:TruckLib.HashFs.HashFsV2Reader.Platform
+  fullName: TruckLib.HashFs.HashFsV2Reader.Platform
+  nameWithType: HashFsV2Reader.Platform
+- uid: TruckLib.HashFs.HashFsV2Reader.Platform*
+  name: Platform
+  href: api/TruckLib.HashFs.HashFsV2Reader.html#TruckLib_HashFs_HashFsV2Reader_Platform_
+  commentId: Overload:TruckLib.HashFs.HashFsV2Reader.Platform
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsV2Reader.Platform
+  nameWithType: HashFsV2Reader.Platform
+- uid: TruckLib.HashFs.HashFsV2Reader.Salt
+  name: Salt
+  href: api/TruckLib.HashFs.HashFsV2Reader.html#TruckLib_HashFs_HashFsV2Reader_Salt
+  commentId: P:TruckLib.HashFs.HashFsV2Reader.Salt
+  fullName: TruckLib.HashFs.HashFsV2Reader.Salt
+  nameWithType: HashFsV2Reader.Salt
+- uid: TruckLib.HashFs.HashFsV2Reader.Salt*
+  name: Salt
+  href: api/TruckLib.HashFs.HashFsV2Reader.html#TruckLib_HashFs_HashFsV2Reader_Salt_
+  commentId: Overload:TruckLib.HashFs.HashFsV2Reader.Salt
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsV2Reader.Salt
+  nameWithType: HashFsV2Reader.Salt
+- uid: TruckLib.HashFs.HashFsV2Reader.UnimplementedEntries
+  name: UnimplementedEntries
+  href: api/TruckLib.HashFs.HashFsV2Reader.html#TruckLib_HashFs_HashFsV2Reader_UnimplementedEntries
+  commentId: P:TruckLib.HashFs.HashFsV2Reader.UnimplementedEntries
+  fullName: TruckLib.HashFs.HashFsV2Reader.UnimplementedEntries
+  nameWithType: HashFsV2Reader.UnimplementedEntries
+- uid: TruckLib.HashFs.HashFsV2Reader.UnimplementedEntries*
+  name: UnimplementedEntries
+  href: api/TruckLib.HashFs.HashFsV2Reader.html#TruckLib_HashFs_HashFsV2Reader_UnimplementedEntries_
+  commentId: Overload:TruckLib.HashFs.HashFsV2Reader.UnimplementedEntries
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsV2Reader.UnimplementedEntries
+  nameWithType: HashFsV2Reader.UnimplementedEntries
+- uid: TruckLib.HashFs.HashFsV2Reader.Version
+  name: Version
+  href: api/TruckLib.HashFs.HashFsV2Reader.html#TruckLib_HashFs_HashFsV2Reader_Version
+  commentId: P:TruckLib.HashFs.HashFsV2Reader.Version
+  fullName: TruckLib.HashFs.HashFsV2Reader.Version
+  nameWithType: HashFsV2Reader.Version
+- uid: TruckLib.HashFs.HashFsV2Reader.Version*
+  name: Version
+  href: api/TruckLib.HashFs.HashFsV2Reader.html#TruckLib_HashFs_HashFsV2Reader_Version_
+  commentId: Overload:TruckLib.HashFs.HashFsV2Reader.Version
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HashFsV2Reader.Version
+  nameWithType: HashFsV2Reader.Version
 - uid: TruckLib.HashFs.HashFsV2Writer
   name: HashFsV2Writer
   href: api/TruckLib.HashFs.HashFsV2Writer.html
@@ -2213,6 +2795,263 @@ references:
   commentId: F:TruckLib.HashFs.HashFsWriterBase.tree
   fullName: TruckLib.HashFs.HashFsWriterBase.tree
   nameWithType: HashFsWriterBase.tree
+- uid: TruckLib.HashFs.Header
+  name: Header
+  href: api/TruckLib.HashFs.Header.html
+  commentId: T:TruckLib.HashFs.Header
+  fullName: TruckLib.HashFs.Header
+  nameWithType: Header
+- uid: TruckLib.HashFs.Header.Deserialize(System.IO.BinaryReader)
+  name: Deserialize(BinaryReader)
+  href: api/TruckLib.HashFs.Header.html#TruckLib_HashFs_Header_Deserialize_System_IO_BinaryReader_
+  commentId: M:TruckLib.HashFs.Header.Deserialize(System.IO.BinaryReader)
+  fullName: TruckLib.HashFs.Header.Deserialize(System.IO.BinaryReader)
+  nameWithType: Header.Deserialize(BinaryReader)
+- uid: TruckLib.HashFs.Header.Deserialize*
+  name: Deserialize
+  href: api/TruckLib.HashFs.Header.html#TruckLib_HashFs_Header_Deserialize_
+  commentId: Overload:TruckLib.HashFs.Header.Deserialize
+  isSpec: "True"
+  fullName: TruckLib.HashFs.Header.Deserialize
+  nameWithType: Header.Deserialize
+- uid: TruckLib.HashFs.Header.HashMethod
+  name: HashMethod
+  href: api/TruckLib.HashFs.Header.html#TruckLib_HashFs_Header_HashMethod
+  commentId: P:TruckLib.HashFs.Header.HashMethod
+  fullName: TruckLib.HashFs.Header.HashMethod
+  nameWithType: Header.HashMethod
+- uid: TruckLib.HashFs.Header.HashMethod*
+  name: HashMethod
+  href: api/TruckLib.HashFs.Header.html#TruckLib_HashFs_Header_HashMethod_
+  commentId: Overload:TruckLib.HashFs.Header.HashMethod
+  isSpec: "True"
+  fullName: TruckLib.HashFs.Header.HashMethod
+  nameWithType: Header.HashMethod
+- uid: TruckLib.HashFs.Header.Magic
+  name: Magic
+  href: api/TruckLib.HashFs.Header.html#TruckLib_HashFs_Header_Magic
+  commentId: F:TruckLib.HashFs.Header.Magic
+  fullName: TruckLib.HashFs.Header.Magic
+  nameWithType: Header.Magic
+- uid: TruckLib.HashFs.Header.NumEntries
+  name: NumEntries
+  href: api/TruckLib.HashFs.Header.html#TruckLib_HashFs_Header_NumEntries
+  commentId: P:TruckLib.HashFs.Header.NumEntries
+  fullName: TruckLib.HashFs.Header.NumEntries
+  nameWithType: Header.NumEntries
+- uid: TruckLib.HashFs.Header.NumEntries*
+  name: NumEntries
+  href: api/TruckLib.HashFs.Header.html#TruckLib_HashFs_Header_NumEntries_
+  commentId: Overload:TruckLib.HashFs.Header.NumEntries
+  isSpec: "True"
+  fullName: TruckLib.HashFs.Header.NumEntries
+  nameWithType: Header.NumEntries
+- uid: TruckLib.HashFs.Header.Salt
+  name: Salt
+  href: api/TruckLib.HashFs.Header.html#TruckLib_HashFs_Header_Salt
+  commentId: P:TruckLib.HashFs.Header.Salt
+  fullName: TruckLib.HashFs.Header.Salt
+  nameWithType: Header.Salt
+- uid: TruckLib.HashFs.Header.Salt*
+  name: Salt
+  href: api/TruckLib.HashFs.Header.html#TruckLib_HashFs_Header_Salt_
+  commentId: Overload:TruckLib.HashFs.Header.Salt
+  isSpec: "True"
+  fullName: TruckLib.HashFs.Header.Salt
+  nameWithType: Header.Salt
+- uid: TruckLib.HashFs.Header.Version
+  name: Version
+  href: api/TruckLib.HashFs.Header.html#TruckLib_HashFs_Header_Version
+  commentId: P:TruckLib.HashFs.Header.Version
+  fullName: TruckLib.HashFs.Header.Version
+  nameWithType: Header.Version
+- uid: TruckLib.HashFs.Header.Version*
+  name: Version
+  href: api/TruckLib.HashFs.Header.html#TruckLib_HashFs_Header_Version_
+  commentId: Overload:TruckLib.HashFs.Header.Version
+  isSpec: "True"
+  fullName: TruckLib.HashFs.Header.Version
+  nameWithType: Header.Version
+- uid: TruckLib.HashFs.HeaderV1
+  name: HeaderV1
+  href: api/TruckLib.HashFs.HeaderV1.html
+  commentId: T:TruckLib.HashFs.HeaderV1
+  fullName: TruckLib.HashFs.HeaderV1
+  nameWithType: HeaderV1
+- uid: TruckLib.HashFs.HeaderV1.#ctor
+  name: HeaderV1()
+  href: api/TruckLib.HashFs.HeaderV1.html#TruckLib_HashFs_HeaderV1__ctor
+  commentId: M:TruckLib.HashFs.HeaderV1.#ctor
+  name.vb: New()
+  fullName: TruckLib.HashFs.HeaderV1.HeaderV1()
+  fullName.vb: TruckLib.HashFs.HeaderV1.New()
+  nameWithType: HeaderV1.HeaderV1()
+  nameWithType.vb: HeaderV1.New()
+- uid: TruckLib.HashFs.HeaderV1.#ctor*
+  name: HeaderV1
+  href: api/TruckLib.HashFs.HeaderV1.html#TruckLib_HashFs_HeaderV1__ctor_
+  commentId: Overload:TruckLib.HashFs.HeaderV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TruckLib.HashFs.HeaderV1.HeaderV1
+  fullName.vb: TruckLib.HashFs.HeaderV1.New
+  nameWithType: HeaderV1.HeaderV1
+  nameWithType.vb: HeaderV1.New
+- uid: TruckLib.HashFs.HeaderV1.Serialize(System.IO.BinaryWriter)
+  name: Serialize(BinaryWriter)
+  href: api/TruckLib.HashFs.HeaderV1.html#TruckLib_HashFs_HeaderV1_Serialize_System_IO_BinaryWriter_
+  commentId: M:TruckLib.HashFs.HeaderV1.Serialize(System.IO.BinaryWriter)
+  fullName: TruckLib.HashFs.HeaderV1.Serialize(System.IO.BinaryWriter)
+  nameWithType: HeaderV1.Serialize(BinaryWriter)
+- uid: TruckLib.HashFs.HeaderV1.Serialize*
+  name: Serialize
+  href: api/TruckLib.HashFs.HeaderV1.html#TruckLib_HashFs_HeaderV1_Serialize_
+  commentId: Overload:TruckLib.HashFs.HeaderV1.Serialize
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HeaderV1.Serialize
+  nameWithType: HeaderV1.Serialize
+- uid: TruckLib.HashFs.HeaderV1.StartOffset
+  name: StartOffset
+  href: api/TruckLib.HashFs.HeaderV1.html#TruckLib_HashFs_HeaderV1_StartOffset
+  commentId: P:TruckLib.HashFs.HeaderV1.StartOffset
+  fullName: TruckLib.HashFs.HeaderV1.StartOffset
+  nameWithType: HeaderV1.StartOffset
+- uid: TruckLib.HashFs.HeaderV1.StartOffset*
+  name: StartOffset
+  href: api/TruckLib.HashFs.HeaderV1.html#TruckLib_HashFs_HeaderV1_StartOffset_
+  commentId: Overload:TruckLib.HashFs.HeaderV1.StartOffset
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HeaderV1.StartOffset
+  nameWithType: HeaderV1.StartOffset
+- uid: TruckLib.HashFs.HeaderV2
+  name: HeaderV2
+  href: api/TruckLib.HashFs.HeaderV2.html
+  commentId: T:TruckLib.HashFs.HeaderV2
+  fullName: TruckLib.HashFs.HeaderV2
+  nameWithType: HeaderV2
+- uid: TruckLib.HashFs.HeaderV2.#ctor
+  name: HeaderV2()
+  href: api/TruckLib.HashFs.HeaderV2.html#TruckLib_HashFs_HeaderV2__ctor
+  commentId: M:TruckLib.HashFs.HeaderV2.#ctor
+  name.vb: New()
+  fullName: TruckLib.HashFs.HeaderV2.HeaderV2()
+  fullName.vb: TruckLib.HashFs.HeaderV2.New()
+  nameWithType: HeaderV2.HeaderV2()
+  nameWithType.vb: HeaderV2.New()
+- uid: TruckLib.HashFs.HeaderV2.#ctor*
+  name: HeaderV2
+  href: api/TruckLib.HashFs.HeaderV2.html#TruckLib_HashFs_HeaderV2__ctor_
+  commentId: Overload:TruckLib.HashFs.HeaderV2.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TruckLib.HashFs.HeaderV2.HeaderV2
+  fullName.vb: TruckLib.HashFs.HeaderV2.New
+  nameWithType: HeaderV2.HeaderV2
+  nameWithType.vb: HeaderV2.New
+- uid: TruckLib.HashFs.HeaderV2.EntryTableLength
+  name: EntryTableLength
+  href: api/TruckLib.HashFs.HeaderV2.html#TruckLib_HashFs_HeaderV2_EntryTableLength
+  commentId: P:TruckLib.HashFs.HeaderV2.EntryTableLength
+  fullName: TruckLib.HashFs.HeaderV2.EntryTableLength
+  nameWithType: HeaderV2.EntryTableLength
+- uid: TruckLib.HashFs.HeaderV2.EntryTableLength*
+  name: EntryTableLength
+  href: api/TruckLib.HashFs.HeaderV2.html#TruckLib_HashFs_HeaderV2_EntryTableLength_
+  commentId: Overload:TruckLib.HashFs.HeaderV2.EntryTableLength
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HeaderV2.EntryTableLength
+  nameWithType: HeaderV2.EntryTableLength
+- uid: TruckLib.HashFs.HeaderV2.EntryTableStart
+  name: EntryTableStart
+  href: api/TruckLib.HashFs.HeaderV2.html#TruckLib_HashFs_HeaderV2_EntryTableStart
+  commentId: P:TruckLib.HashFs.HeaderV2.EntryTableStart
+  fullName: TruckLib.HashFs.HeaderV2.EntryTableStart
+  nameWithType: HeaderV2.EntryTableStart
+- uid: TruckLib.HashFs.HeaderV2.EntryTableStart*
+  name: EntryTableStart
+  href: api/TruckLib.HashFs.HeaderV2.html#TruckLib_HashFs_HeaderV2_EntryTableStart_
+  commentId: Overload:TruckLib.HashFs.HeaderV2.EntryTableStart
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HeaderV2.EntryTableStart
+  nameWithType: HeaderV2.EntryTableStart
+- uid: TruckLib.HashFs.HeaderV2.MetadataTableLength
+  name: MetadataTableLength
+  href: api/TruckLib.HashFs.HeaderV2.html#TruckLib_HashFs_HeaderV2_MetadataTableLength
+  commentId: P:TruckLib.HashFs.HeaderV2.MetadataTableLength
+  fullName: TruckLib.HashFs.HeaderV2.MetadataTableLength
+  nameWithType: HeaderV2.MetadataTableLength
+- uid: TruckLib.HashFs.HeaderV2.MetadataTableLength*
+  name: MetadataTableLength
+  href: api/TruckLib.HashFs.HeaderV2.html#TruckLib_HashFs_HeaderV2_MetadataTableLength_
+  commentId: Overload:TruckLib.HashFs.HeaderV2.MetadataTableLength
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HeaderV2.MetadataTableLength
+  nameWithType: HeaderV2.MetadataTableLength
+- uid: TruckLib.HashFs.HeaderV2.MetadataTableStart
+  name: MetadataTableStart
+  href: api/TruckLib.HashFs.HeaderV2.html#TruckLib_HashFs_HeaderV2_MetadataTableStart
+  commentId: P:TruckLib.HashFs.HeaderV2.MetadataTableStart
+  fullName: TruckLib.HashFs.HeaderV2.MetadataTableStart
+  nameWithType: HeaderV2.MetadataTableStart
+- uid: TruckLib.HashFs.HeaderV2.MetadataTableStart*
+  name: MetadataTableStart
+  href: api/TruckLib.HashFs.HeaderV2.html#TruckLib_HashFs_HeaderV2_MetadataTableStart_
+  commentId: Overload:TruckLib.HashFs.HeaderV2.MetadataTableStart
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HeaderV2.MetadataTableStart
+  nameWithType: HeaderV2.MetadataTableStart
+- uid: TruckLib.HashFs.HeaderV2.NumMetadataEntries
+  name: NumMetadataEntries
+  href: api/TruckLib.HashFs.HeaderV2.html#TruckLib_HashFs_HeaderV2_NumMetadataEntries
+  commentId: P:TruckLib.HashFs.HeaderV2.NumMetadataEntries
+  fullName: TruckLib.HashFs.HeaderV2.NumMetadataEntries
+  nameWithType: HeaderV2.NumMetadataEntries
+- uid: TruckLib.HashFs.HeaderV2.NumMetadataEntries*
+  name: NumMetadataEntries
+  href: api/TruckLib.HashFs.HeaderV2.html#TruckLib_HashFs_HeaderV2_NumMetadataEntries_
+  commentId: Overload:TruckLib.HashFs.HeaderV2.NumMetadataEntries
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HeaderV2.NumMetadataEntries
+  nameWithType: HeaderV2.NumMetadataEntries
+- uid: TruckLib.HashFs.HeaderV2.Platform
+  name: Platform
+  href: api/TruckLib.HashFs.HeaderV2.html#TruckLib_HashFs_HeaderV2_Platform
+  commentId: P:TruckLib.HashFs.HeaderV2.Platform
+  fullName: TruckLib.HashFs.HeaderV2.Platform
+  nameWithType: HeaderV2.Platform
+- uid: TruckLib.HashFs.HeaderV2.Platform*
+  name: Platform
+  href: api/TruckLib.HashFs.HeaderV2.html#TruckLib_HashFs_HeaderV2_Platform_
+  commentId: Overload:TruckLib.HashFs.HeaderV2.Platform
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HeaderV2.Platform
+  nameWithType: HeaderV2.Platform
+- uid: TruckLib.HashFs.HeaderV2.SecurityDescriptorOffset
+  name: SecurityDescriptorOffset
+  href: api/TruckLib.HashFs.HeaderV2.html#TruckLib_HashFs_HeaderV2_SecurityDescriptorOffset
+  commentId: P:TruckLib.HashFs.HeaderV2.SecurityDescriptorOffset
+  fullName: TruckLib.HashFs.HeaderV2.SecurityDescriptorOffset
+  nameWithType: HeaderV2.SecurityDescriptorOffset
+- uid: TruckLib.HashFs.HeaderV2.SecurityDescriptorOffset*
+  name: SecurityDescriptorOffset
+  href: api/TruckLib.HashFs.HeaderV2.html#TruckLib_HashFs_HeaderV2_SecurityDescriptorOffset_
+  commentId: Overload:TruckLib.HashFs.HeaderV2.SecurityDescriptorOffset
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HeaderV2.SecurityDescriptorOffset
+  nameWithType: HeaderV2.SecurityDescriptorOffset
+- uid: TruckLib.HashFs.HeaderV2.Serialize(System.IO.BinaryWriter)
+  name: Serialize(BinaryWriter)
+  href: api/TruckLib.HashFs.HeaderV2.html#TruckLib_HashFs_HeaderV2_Serialize_System_IO_BinaryWriter_
+  commentId: M:TruckLib.HashFs.HeaderV2.Serialize(System.IO.BinaryWriter)
+  fullName: TruckLib.HashFs.HeaderV2.Serialize(System.IO.BinaryWriter)
+  nameWithType: HeaderV2.Serialize(BinaryWriter)
+- uid: TruckLib.HashFs.HeaderV2.Serialize*
+  name: Serialize
+  href: api/TruckLib.HashFs.HeaderV2.html#TruckLib_HashFs_HeaderV2_Serialize_
+  commentId: Overload:TruckLib.HashFs.HeaderV2.Serialize
+  isSpec: "True"
+  fullName: TruckLib.HashFs.HeaderV2.Serialize
+  nameWithType: HeaderV2.Serialize
 - uid: TruckLib.HashFs.IEntry
   name: IEntry
   href: api/TruckLib.HashFs.IEntry.html
