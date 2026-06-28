@@ -199,8 +199,8 @@ Class HermiteSpline  <a class="header-action link-secondary" title="View source"
 
   <a id="TruckLib_HermiteSpline_DerivativePolyline_" data-uid="TruckLib.HermiteSpline.DerivativePolyline*"></a>
 
-  <h3 id="TruckLib_HermiteSpline_DerivativePolyline_TruckLib_ScsMap_INode_TruckLib_ScsMap_INode_System_Single_" data-uid="TruckLib.HermiteSpline.DerivativePolyline(TruckLib.ScsMap.INode,TruckLib.ScsMap.INode,System.Single)">
-  DerivativePolyline(INode, INode, float)
+  <h3 id="TruckLib_HermiteSpline_DerivativePolyline_TruckLib_ScsMap_INode_TruckLib_ScsMap_INode_System_Single_System_Nullable_System_Single__" data-uid="TruckLib.HermiteSpline.DerivativePolyline(TruckLib.ScsMap.INode,TruckLib.ScsMap.INode,System.Single,System.Nullable{System.Single})">
+  DerivativePolyline(INode, INode, float, float?)
   <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/HermiteSpline.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -208,7 +208,7 @@ Class HermiteSpline  <a class="header-action link-secondary" title="View source"
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Vector3 DerivativePolyline(INode start, INode end, float t)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Vector3 DerivativePolyline(INode start, INode end, float t, float? cachedLength = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -218,6 +218,8 @@ Class HermiteSpline  <a class="header-action link-secondary" title="View source"
     <dt><code>end</code> <a class="xref" href="TruckLib.ScsMap.INode.html">INode</a></dt>
     <dd></dd>
     <dt><code>t</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>cachedLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>?</dt>
     <dd></dd>
   </dl>
 
@@ -393,8 +395,8 @@ will cease to create points after each interval has been used once.</p>
 
   <a id="TruckLib_HermiteSpline_InterpolatePolyline_" data-uid="TruckLib.HermiteSpline.InterpolatePolyline*"></a>
 
-  <h3 id="TruckLib_HermiteSpline_InterpolatePolyline_TruckLib_ScsMap_INode_TruckLib_ScsMap_INode_System_Single_" data-uid="TruckLib.HermiteSpline.InterpolatePolyline(TruckLib.ScsMap.INode,TruckLib.ScsMap.INode,System.Single)">
-  InterpolatePolyline(INode, INode, float)
+  <h3 id="TruckLib_HermiteSpline_InterpolatePolyline_TruckLib_ScsMap_INode_TruckLib_ScsMap_INode_System_Single_System_Nullable_System_Single__" data-uid="TruckLib.HermiteSpline.InterpolatePolyline(TruckLib.ScsMap.INode,TruckLib.ScsMap.INode,System.Single,System.Nullable{System.Single})">
+  InterpolatePolyline(INode, INode, float, float?)
   <a class="header-action link-secondary" title="View source" href="https://github.com/sk-zk/TruckLib/blob/master/TruckLib/HermiteSpline.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -402,7 +404,7 @@ will cease to create points after each interval has been used once.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Vector3 InterpolatePolyline(INode start, INode end, float t)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Vector3 InterpolatePolyline(INode start, INode end, float t, float? cachedLength = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -412,6 +414,8 @@ will cease to create points after each interval has been used once.</p>
     <dt><code>end</code> <a class="xref" href="TruckLib.ScsMap.INode.html">INode</a></dt>
     <dd></dd>
     <dt><code>t</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>cachedLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>?</dt>
     <dd></dd>
   </dl>
 

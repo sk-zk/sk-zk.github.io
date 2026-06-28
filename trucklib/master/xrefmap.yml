@@ -3355,15 +3355,15 @@ references:
   isSpec: "True"
   fullName: TruckLib.HermiteSpline.Derivative
   nameWithType: HermiteSpline.Derivative
-- uid: TruckLib.HermiteSpline.DerivativePolyline(TruckLib.ScsMap.INode,TruckLib.ScsMap.INode,System.Single)
-  name: DerivativePolyline(INode, INode, float)
-  href: api/TruckLib.HermiteSpline.html#TruckLib_HermiteSpline_DerivativePolyline_TruckLib_ScsMap_INode_TruckLib_ScsMap_INode_System_Single_
-  commentId: M:TruckLib.HermiteSpline.DerivativePolyline(TruckLib.ScsMap.INode,TruckLib.ScsMap.INode,System.Single)
-  name.vb: DerivativePolyline(INode, INode, Single)
-  fullName: TruckLib.HermiteSpline.DerivativePolyline(TruckLib.ScsMap.INode, TruckLib.ScsMap.INode, float)
-  fullName.vb: TruckLib.HermiteSpline.DerivativePolyline(TruckLib.ScsMap.INode, TruckLib.ScsMap.INode, Single)
-  nameWithType: HermiteSpline.DerivativePolyline(INode, INode, float)
-  nameWithType.vb: HermiteSpline.DerivativePolyline(INode, INode, Single)
+- uid: TruckLib.HermiteSpline.DerivativePolyline(TruckLib.ScsMap.INode,TruckLib.ScsMap.INode,System.Single,System.Nullable{System.Single})
+  name: DerivativePolyline(INode, INode, float, float?)
+  href: api/TruckLib.HermiteSpline.html#TruckLib_HermiteSpline_DerivativePolyline_TruckLib_ScsMap_INode_TruckLib_ScsMap_INode_System_Single_System_Nullable_System_Single__
+  commentId: M:TruckLib.HermiteSpline.DerivativePolyline(TruckLib.ScsMap.INode,TruckLib.ScsMap.INode,System.Single,System.Nullable{System.Single})
+  name.vb: DerivativePolyline(INode, INode, Single, Single?)
+  fullName: TruckLib.HermiteSpline.DerivativePolyline(TruckLib.ScsMap.INode, TruckLib.ScsMap.INode, float, float?)
+  fullName.vb: TruckLib.HermiteSpline.DerivativePolyline(TruckLib.ScsMap.INode, TruckLib.ScsMap.INode, Single, Single?)
+  nameWithType: HermiteSpline.DerivativePolyline(INode, INode, float, float?)
+  nameWithType.vb: HermiteSpline.DerivativePolyline(INode, INode, Single, Single?)
 - uid: TruckLib.HermiteSpline.DerivativePolyline*
   name: DerivativePolyline
   href: api/TruckLib.HermiteSpline.html#TruckLib_HermiteSpline_DerivativePolyline_
@@ -3419,15 +3419,15 @@ references:
   isSpec: "True"
   fullName: TruckLib.HermiteSpline.Interpolate
   nameWithType: HermiteSpline.Interpolate
-- uid: TruckLib.HermiteSpline.InterpolatePolyline(TruckLib.ScsMap.INode,TruckLib.ScsMap.INode,System.Single)
-  name: InterpolatePolyline(INode, INode, float)
-  href: api/TruckLib.HermiteSpline.html#TruckLib_HermiteSpline_InterpolatePolyline_TruckLib_ScsMap_INode_TruckLib_ScsMap_INode_System_Single_
-  commentId: M:TruckLib.HermiteSpline.InterpolatePolyline(TruckLib.ScsMap.INode,TruckLib.ScsMap.INode,System.Single)
-  name.vb: InterpolatePolyline(INode, INode, Single)
-  fullName: TruckLib.HermiteSpline.InterpolatePolyline(TruckLib.ScsMap.INode, TruckLib.ScsMap.INode, float)
-  fullName.vb: TruckLib.HermiteSpline.InterpolatePolyline(TruckLib.ScsMap.INode, TruckLib.ScsMap.INode, Single)
-  nameWithType: HermiteSpline.InterpolatePolyline(INode, INode, float)
-  nameWithType.vb: HermiteSpline.InterpolatePolyline(INode, INode, Single)
+- uid: TruckLib.HermiteSpline.InterpolatePolyline(TruckLib.ScsMap.INode,TruckLib.ScsMap.INode,System.Single,System.Nullable{System.Single})
+  name: InterpolatePolyline(INode, INode, float, float?)
+  href: api/TruckLib.HermiteSpline.html#TruckLib_HermiteSpline_InterpolatePolyline_TruckLib_ScsMap_INode_TruckLib_ScsMap_INode_System_Single_System_Nullable_System_Single__
+  commentId: M:TruckLib.HermiteSpline.InterpolatePolyline(TruckLib.ScsMap.INode,TruckLib.ScsMap.INode,System.Single,System.Nullable{System.Single})
+  name.vb: InterpolatePolyline(INode, INode, Single, Single?)
+  fullName: TruckLib.HermiteSpline.InterpolatePolyline(TruckLib.ScsMap.INode, TruckLib.ScsMap.INode, float, float?)
+  fullName.vb: TruckLib.HermiteSpline.InterpolatePolyline(TruckLib.ScsMap.INode, TruckLib.ScsMap.INode, Single, Single?)
+  nameWithType: HermiteSpline.InterpolatePolyline(INode, INode, float, float?)
+  nameWithType.vb: HermiteSpline.InterpolatePolyline(INode, INode, Single, Single?)
 - uid: TruckLib.HermiteSpline.InterpolatePolyline*
   name: InterpolatePolyline
   href: api/TruckLib.HermiteSpline.html#TruckLib_HermiteSpline_InterpolatePolyline_
