@@ -23466,6 +23466,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Sector.MinBoundary
   nameWithType: Sector.MinBoundary
+- uid: TruckLib.ScsMap.Sector.ReflectionCube
+  name: ReflectionCube
+  href: api/TruckLib.ScsMap.Sector.html#TruckLib_ScsMap_Sector_ReflectionCube
+  commentId: P:TruckLib.ScsMap.Sector.ReflectionCube
+  fullName: TruckLib.ScsMap.Sector.ReflectionCube
+  nameWithType: Sector.ReflectionCube
+- uid: TruckLib.ScsMap.Sector.ReflectionCube*
+  name: ReflectionCube
+  href: api/TruckLib.ScsMap.Sector.html#TruckLib_ScsMap_Sector_ReflectionCube_
+  commentId: Overload:TruckLib.ScsMap.Sector.ReflectionCube
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Sector.ReflectionCube
+  nameWithType: Sector.ReflectionCube
 - uid: TruckLib.ScsMap.Sector.SectorCoordsFromSectorFilePath(System.String)
   name: SectorCoordsFromSectorFilePath(string)
   href: api/TruckLib.ScsMap.Sector.html#TruckLib_ScsMap_Sector_SectorCoordsFromSectorFilePath_System_String_
