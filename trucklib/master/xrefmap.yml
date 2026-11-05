@@ -18290,6 +18290,18 @@ references:
   commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ets2.IberiaAndFrance
   fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.IberiaAndFrance
   nameWithType: DlcGuard.Ets2.IberiaAndFrance
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Iceland
+  name: Iceland
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html#TruckLib_ScsMap_Lookup_DlcGuard_Ets2_Iceland
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Iceland
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Iceland
+  nameWithType: DlcGuard.Ets2.Iceland
+- uid: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.IcelandAndNordic
+  name: IcelandAndNordic
+  href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html#TruckLib_ScsMap_Lookup_DlcGuard_Ets2_IcelandAndNordic
+  commentId: F:TruckLib.ScsMap.Lookup.DlcGuard.Ets2.IcelandAndNordic
+  fullName: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.IcelandAndNordic
+  nameWithType: DlcGuard.Ets2.IcelandAndNordic
 - uid: TruckLib.ScsMap.Lookup.DlcGuard.Ets2.Italy
   name: Italy
   href: api/TruckLib.ScsMap.Lookup.DlcGuard.Ets2.html#TruckLib_ScsMap_Lookup_DlcGuard_Ets2_Italy
