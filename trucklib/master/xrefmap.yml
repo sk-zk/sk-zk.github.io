@@ -21555,6 +21555,19 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.Prefab.SemaphoreProfile
   nameWithType: Prefab.SemaphoreProfile
+- uid: TruckLib.ScsMap.Prefab.Semaphores
+  name: Semaphores
+  href: api/TruckLib.ScsMap.Prefab.html#TruckLib_ScsMap_Prefab_Semaphores
+  commentId: P:TruckLib.ScsMap.Prefab.Semaphores
+  fullName: TruckLib.ScsMap.Prefab.Semaphores
+  nameWithType: Prefab.Semaphores
+- uid: TruckLib.ScsMap.Prefab.Semaphores*
+  name: Semaphores
+  href: api/TruckLib.ScsMap.Prefab.html#TruckLib_ScsMap_Prefab_Semaphores_
+  commentId: Overload:TruckLib.ScsMap.Prefab.Semaphores
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.Prefab.Semaphores
+  nameWithType: Prefab.Semaphores
 - uid: TruckLib.ScsMap.Prefab.ShowInUiMap
   name: ShowInUiMap
   href: api/TruckLib.ScsMap.Prefab.html#TruckLib_ScsMap_Prefab_ShowInUiMap
