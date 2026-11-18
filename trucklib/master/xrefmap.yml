@@ -22947,6 +22947,32 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.RoadSide.DetailVegetation
   nameWithType: RoadSide.DetailVegetation
+- uid: TruckLib.ScsMap.RoadSide.DetailVegetationFrom
+  name: DetailVegetationFrom
+  href: api/TruckLib.ScsMap.RoadSide.html#TruckLib_ScsMap_RoadSide_DetailVegetationFrom
+  commentId: P:TruckLib.ScsMap.RoadSide.DetailVegetationFrom
+  fullName: TruckLib.ScsMap.RoadSide.DetailVegetationFrom
+  nameWithType: RoadSide.DetailVegetationFrom
+- uid: TruckLib.ScsMap.RoadSide.DetailVegetationFrom*
+  name: DetailVegetationFrom
+  href: api/TruckLib.ScsMap.RoadSide.html#TruckLib_ScsMap_RoadSide_DetailVegetationFrom_
+  commentId: Overload:TruckLib.ScsMap.RoadSide.DetailVegetationFrom
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.RoadSide.DetailVegetationFrom
+  nameWithType: RoadSide.DetailVegetationFrom
+- uid: TruckLib.ScsMap.RoadSide.DetailVegetationTo
+  name: DetailVegetationTo
+  href: api/TruckLib.ScsMap.RoadSide.html#TruckLib_ScsMap_RoadSide_DetailVegetationTo
+  commentId: P:TruckLib.ScsMap.RoadSide.DetailVegetationTo
+  fullName: TruckLib.ScsMap.RoadSide.DetailVegetationTo
+  nameWithType: RoadSide.DetailVegetationTo
+- uid: TruckLib.ScsMap.RoadSide.DetailVegetationTo*
+  name: DetailVegetationTo
+  href: api/TruckLib.ScsMap.RoadSide.html#TruckLib_ScsMap_RoadSide_DetailVegetationTo_
+  commentId: Overload:TruckLib.ScsMap.RoadSide.DetailVegetationTo
+  isSpec: "True"
+  fullName: TruckLib.ScsMap.RoadSide.DetailVegetationTo
+  nameWithType: RoadSide.DetailVegetationTo
 - uid: TruckLib.ScsMap.RoadSide.EdgeOverrides
   name: EdgeOverrides
   href: api/TruckLib.ScsMap.RoadSide.html#TruckLib_ScsMap_RoadSide_EdgeOverrides
@@ -23038,32 +23064,6 @@ references:
   isSpec: "True"
   fullName: TruckLib.ScsMap.RoadSide.Models
   nameWithType: RoadSide.Models
-- uid: TruckLib.ScsMap.RoadSide.NoDetailVegetationFrom
-  name: NoDetailVegetationFrom
-  href: api/TruckLib.ScsMap.RoadSide.html#TruckLib_ScsMap_RoadSide_NoDetailVegetationFrom
-  commentId: P:TruckLib.ScsMap.RoadSide.NoDetailVegetationFrom
-  fullName: TruckLib.ScsMap.RoadSide.NoDetailVegetationFrom
-  nameWithType: RoadSide.NoDetailVegetationFrom
-- uid: TruckLib.ScsMap.RoadSide.NoDetailVegetationFrom*
-  name: NoDetailVegetationFrom
-  href: api/TruckLib.ScsMap.RoadSide.html#TruckLib_ScsMap_RoadSide_NoDetailVegetationFrom_
-  commentId: Overload:TruckLib.ScsMap.RoadSide.NoDetailVegetationFrom
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.RoadSide.NoDetailVegetationFrom
-  nameWithType: RoadSide.NoDetailVegetationFrom
-- uid: TruckLib.ScsMap.RoadSide.NoDetailVegetationTo
-  name: NoDetailVegetationTo
-  href: api/TruckLib.ScsMap.RoadSide.html#TruckLib_ScsMap_RoadSide_NoDetailVegetationTo
-  commentId: P:TruckLib.ScsMap.RoadSide.NoDetailVegetationTo
-  fullName: TruckLib.ScsMap.RoadSide.NoDetailVegetationTo
-  nameWithType: RoadSide.NoDetailVegetationTo
-- uid: TruckLib.ScsMap.RoadSide.NoDetailVegetationTo*
-  name: NoDetailVegetationTo
-  href: api/TruckLib.ScsMap.RoadSide.html#TruckLib_ScsMap_RoadSide_NoDetailVegetationTo_
-  commentId: Overload:TruckLib.ScsMap.RoadSide.NoDetailVegetationTo
-  isSpec: "True"
-  fullName: TruckLib.ScsMap.RoadSide.NoDetailVegetationTo
-  nameWithType: RoadSide.NoDetailVegetationTo
 - uid: TruckLib.ScsMap.RoadSide.Railings
   name: Railings
   href: api/TruckLib.ScsMap.RoadSide.html#TruckLib_ScsMap_RoadSide_Railings
