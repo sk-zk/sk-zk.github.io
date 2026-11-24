@@ -12351,6 +12351,15 @@ references:
   commentId: M:TruckLib.ScsMap.Curve.Add(TruckLib.ScsMap.IItemContainer,System.Numerics.Vector3,System.Numerics.Vector3,TruckLib.Token)
   fullName: TruckLib.ScsMap.Curve.Add(TruckLib.ScsMap.IItemContainer, System.Numerics.Vector3, System.Numerics.Vector3, TruckLib.Token)
   nameWithType: Curve.Add(IItemContainer, Vector3, Vector3, Token)
+- uid: TruckLib.ScsMap.Curve.Add(TruckLib.ScsMap.IItemContainer,System.Numerics.Vector3,System.Numerics.Vector3,TruckLib.Token[])
+  name: Add(IItemContainer, Vector3, Vector3, params Token[])
+  href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_Add_TruckLib_ScsMap_IItemContainer_System_Numerics_Vector3_System_Numerics_Vector3_TruckLib_Token___
+  commentId: M:TruckLib.ScsMap.Curve.Add(TruckLib.ScsMap.IItemContainer,System.Numerics.Vector3,System.Numerics.Vector3,TruckLib.Token[])
+  name.vb: Add(IItemContainer, Vector3, Vector3, ParamArray Token())
+  fullName: TruckLib.ScsMap.Curve.Add(TruckLib.ScsMap.IItemContainer, System.Numerics.Vector3, System.Numerics.Vector3, params TruckLib.Token[])
+  fullName.vb: TruckLib.ScsMap.Curve.Add(TruckLib.ScsMap.IItemContainer, System.Numerics.Vector3, System.Numerics.Vector3, ParamArray TruckLib.Token())
+  nameWithType: Curve.Add(IItemContainer, Vector3, Vector3, params Token[])
+  nameWithType.vb: Curve.Add(IItemContainer, Vector3, Vector3, ParamArray Token())
 - uid: TruckLib.ScsMap.Curve.Add*
   name: Add
   href: api/TruckLib.ScsMap.Curve.html#TruckLib_ScsMap_Curve_Add_
